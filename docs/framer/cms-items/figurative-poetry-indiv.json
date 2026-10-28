@@ -1,0 +1,1094 @@
+{
+  "collection": "Figurative Poetry indiv",
+  "collectionId": "JUF_Puz8v",
+  "detailPageId": "QOEuK_LCN",
+  "itemCount": 6,
+  "publishedCount": 6,
+  "items": [
+    {
+      "id": "yuyr6vyrw",
+      "draft": false,
+      "fields": {
+        "Title": "BROKEN ",
+        "Slug": "broken",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:yuyr6vyrw/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:yuyr6vyrw/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "Broken "
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:yuyr6vyrw/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:yuyr6vyrw/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "A fragmented self portrait "
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": "[\"https://framerusercontent.com/images/qyQVvHXOYGIFcsOPeNAAzyQBII.jpg\",\"https://framerusercontent.com/images/yUgkf01n7X2WyKhrIliepExCveE.jpg\",\"https://framerusercontent.com/images/K91zwYDbPWDET8k51JnwYzwhQAo.jpg\",\"https://framerusercontent.com/images/M6F1h3UhOSOAgnH792Sch1Hz50.jpg\"]",
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:yuyr6vyrw/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:yuyr6vyrw/IIuLASgsf:0:0",
+                "attributes": {
+                  "text": "Bronze Self-Portrait with 24K Gold Leaf "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:yuyr6vyrw/IIuLASgsf:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:yuyr6vyrw/IIuLASgsf:1:0",
+                "attributes": {
+                  "text": "Edition of 6 plus 1 Artist Proof "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:yuyr6vyrw/IIuLASgsf:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:yuyr6vyrw/IIuLASgsf:2:0",
+                "attributes": {
+                  "text": "Dimensions : "
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/edftNZaauJhkan8yTUgi3WMAKac.jpg",
+        "Image 2": "https://framerusercontent.com/images/edftNZaauJhkan8yTUgi3WMAKac.jpg",
+        "Image 3": "https://framerusercontent.com/images/qyQVvHXOYGIFcsOPeNAAzyQBII.jpg",
+        "Image 4": "https://framerusercontent.com/images/K91zwYDbPWDET8k51JnwYzwhQAo.jpg",
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "N2KU_e5Hu",
+      "draft": false,
+      "fields": {
+        "Title": "COMING APART AT THE SEAMS ",
+        "Slug": "coming-apart-at-the-seams",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "Unique Piece by Boky Hackel"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/spJHtBo4G:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/spJHtBo4G:1:0",
+                "attributes": {
+                  "text": "Concrete and Steel Rebar"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:N2KU_e5Hu/spJHtBo4G:1:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/spJHtBo4G:1:2",
+                "attributes": {
+                  "text": "170 X 30 X 20 cm "
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "The sculpture Coming Apart At The Seams (2023) by Boky Hackel, a multifaceted artist who places at the center of her research not the unity of the body but its recomposed fragmentation, assembled from an steel skeleton hoisted on a concrete base. The body in pieces is the event, in between the air, the split between inner space and whole, appearance and substance in which the void around closes a fragmented form . "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/bxf47LFuI:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/bxf47LFuI:1:0",
+                "attributes": {
+                  "text": "The mirror of the self in the severed body indicates fragility, as the essence of the feminine, violated, traversed by the hunger for love and the loss of its identity as a testimony to the impossibility of any completeness. The artist searches, in the fragments of a nude of classical evocation, for the history of women in the fragmentations of the Id, from the lost uniqueness , in which each split is charged with lyrical power in the face of the loss of its centrality in contemporary society.  "
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": "[\"https://framerusercontent.com/images/zKmoAR49tJxBBrAAsSwhN724v4.png\",\"https://framerusercontent.com/images/LQBXunYbwIXpHz4kBq17uUR5Pz4.png\",\"https://framerusercontent.com/images/2TQ0beEuY0K9jbVAt6uEkbbtc.png\",\"https://framerusercontent.com/images/RHBoXPTdrxy0Z7WT68QZXpmS8s4.png\",\"https://framerusercontent.com/images/UFVhrB8sTVuyv4WEKbVWD9yuoPI.png\",\"https://framerusercontent.com/images/JvCXdfGDlUl3cr9jfMkpJbnSyc.png\",\"https://framerusercontent.com/images/VqNabuvndBE10XGwKzkR7pCtBzQ.png\"]",
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/IIuLASgsf:0:0",
+                "attributes": {
+                  "text": "It is in the split the loss of the centrality of the work and not in the sinuous concrete body, a new Nike of a post-humanity and polished with beeswax, wingless but with severed arms stretched toward infinity, in which fragmentation and recomposition of individual body pieces becomes a presupposition to recompose a new form, an orgiastic regeneration in which the wholeness of the whole is a concreteness.  "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/IIuLASgsf:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/IIuLASgsf:1:0",
+                "attributes": {
+                  "text": "The sculpture becomes a symbol of transformation, a trace of an original wound, evoking the separation of spirit and matter, eroticism and motherhood , seduction and negation, and embodying the excess of life and at the same time the certainty of death of which woman is the bearer, evoking beyond any impossible definition the fragility of the human condition .  She rises vertically this amazon vivisected by life's experiences, engulfed by men and children oozing with the desire for freedom, proud of the heaviness of the shattered body not quite reassembled around pivots as a symbol of constitutive finiteness. These are fragments of a body held together by concrete, condemned to its mortal fate that paradoxically provokes a sense of poignant beauty in its attempt at transcendence.  "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:N2KU_e5Hu/IIuLASgsf:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:N2KU_e5Hu/IIuLASgsf:2:0",
+                "attributes": {
+                  "text": "Jacqueline Ceresoli, Art Critic"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/35ng1LD7thUoFnKRShsiZyziSA.png",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "JHSOLdS0i",
+      "draft": false,
+      "fields": {
+        "Title": "Loosing Myself in YOU ",
+        "Slug": "loosing-myself-in-you",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:JHSOLdS0i/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:JHSOLdS0i/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "As seen in \"Dark Matters\" "
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:JHSOLdS0i/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:JHSOLdS0i/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "Based on Boky’s self-portrait, this sculpture is not only about what can happen to us when we get lost in a love that seems to be grander than grand and we lose our own identity.  It is also about women’s place in our society and that self-effacing nature of the role that is imposed on us.  It is about hope, about reacting and taking one’s just place in life.  It is about not allowing anyone to take possession of our spirit just because they think they can."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": null,
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:JHSOLdS0i/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:JHSOLdS0i/IIuLASgsf:0:0",
+                "attributes": {
+                  "text": "EDITION OF 6 "
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/XQXgRY2FgkKoJNhConKFozXNq0.png",
+        "Image 2": "https://framerusercontent.com/images/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+        "Image 3": "https://framerusercontent.com/images/ocOMMxs9xHH43ljYNf3d3BTjo.jpg",
+        "Image 4": "https://framerusercontent.com/images/8eWbF0THbKXuzwbE5DdDzikiD8.jpg",
+        "Image 5": "https://framerusercontent.com/images/H8mNTlVEkP8Tm3xXrKXRXQxo.jpg",
+        "Image 6": "https://framerusercontent.com/images/l0tfMDYyieMVUxW24xbQEbRs4.jpg",
+        "Image 7": "https://framerusercontent.com/images/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+        "Image 8": null,
+        "Image 9": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "MFy4jnAz8",
+      "draft": false,
+      "fields": {
+        "Title": "Das Ich Und Das Esch ",
+        "Slug": "das-ich-und-das-esch",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:MFy4jnAz8/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "Between the Ego and the Id "
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:MFy4jnAz8/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "This sculpture was inspired by Freud’s paper by the same name that was published in 1923."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MFy4jnAz8/bxf47LFuI:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/bxf47LFuI:1:0",
+                "attributes": {
+                  "text": "According to Freud, the ego and the id are in constant conflict and tension and this results in all sorts of psychological conditions.  These tensions are  1) between the ego and the id, 2) between the ego and the super-ego, and 3) between the love-instinct and the death-instinct.  The ego is essentially our conscious self, while the id is the subconscious who is instinctual and potentially reckless; and is with us from birth.  The ego is caught between the super-ego and the id, each vying for control. The super-ego and the id, often working together can cause all sorts of havoc when the love and death instincts become separated as the super-ego turns on the ego, against whom it rages with the utmost cruelty."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MFy4jnAz8/bxf47LFuI:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/bxf47LFuI:2:0",
+                "attributes": {
+                  "text": "Auto-biographical, like much of Boky’s work it tells stories; stories of love and of heartbreak; of life, but also of emancipation and joy."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": "[\"https://framerusercontent.com/images/lp7Nb2Xg6avUROi8U6SbV6usuZA.png\",\"https://framerusercontent.com/images/Lz4it7e4E3BodzdkqQ5yX9sZ8I.png\",\"https://framerusercontent.com/images/UaFIGG2GoTqonZqzvLDPAbJFaI.png\",\"https://framerusercontent.com/images/LY5cqK3Tlc7x58cpnm31lsFj4.png\"]",
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:MFy4jnAz8/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:0",
+                "attributes": {
+                  "text": "Das Ich und das Es"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:2",
+                "attributes": {
+                  "text": "(The Ego and the Id )"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:4",
+                "attributes": {
+                  "text": "Bronze with 24k Gold leaf"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:6",
+                "attributes": {
+                  "text": "24 x 13 x 13 cm"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:7"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:8",
+                "attributes": {
+                  "text": "Edition of 6"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:9"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MFy4jnAz8/IIuLASgsf:0:10",
+                "attributes": {
+                  "text": "1/6"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/Lz4it7e4E3BodzdkqQ5yX9sZ8I.png",
+        "Image 2": "https://framerusercontent.com/images/rLMAzQ4XtiagDqWah4UqKGK3zU.jpg",
+        "Image 3": "https://framerusercontent.com/images/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+        "Image 4": "https://framerusercontent.com/images/VbRu20HGwmrOytNUztvkMLscohs.jpg",
+        "Image 5": "https://framerusercontent.com/images/dNlShhC6giCxcVCh6MDQhyQbEvs.jpg",
+        "Image 6": "https://framerusercontent.com/images/2R8QHwKF5AyAiSZximc1cJLmSrQ.jpg",
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "CV8b2nG0K",
+      "draft": false,
+      "fields": {
+        "Title": "Damaged ",
+        "Slug": "damaged",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "From Boky’s "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:1",
+                "attributes": {
+                  "text": "Figurative Poetry Collection",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:2",
+                "attributes": {
+                  "text": ", this bronze was directly inspired by a poem entitled "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:3",
+                "attributes": {
+                  "text": "Mea Culpa taken from ",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:4",
+                "attributes": {
+                  "text": "Paul Géraldy’s book "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:5",
+                "attributes": {
+                  "text": "Toi et Moi.  ",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:6",
+                "attributes": {
+                  "text": "It h"
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:7",
+                "attributes": {
+                  "text": "as",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:8",
+                "attributes": {
+                  "text": " been a source of inspiration for Boky for many years.  While studying in Florence, she found an old, dilapidated copy of the book in a basement.  It inspired a series of paintings, as well as, a series of photos entitled "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:0:9",
+                "attributes": {
+                  "text": "Le Roi est Mort.",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/spJHtBo4G:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:1:0",
+                "attributes": {
+                  "text": " "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/spJHtBo4G:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:2:0",
+                "attributes": {
+                  "text": "The sculpture exists in two editions, one has the excerpt of Géraldy’s poem in the interior of the female figure, while the other edition does not. "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:2:1",
+                "attributes": {
+                  "text": "  ",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/spJHtBo4G:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/spJHtBo4G:3:0",
+                "attributes": {
+                  "text": "They are either gold leafed or platinum leafed."
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "Mea Culpa",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:0:1",
+                "attributes": {
+                  "text": ":                        "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:0:2",
+                "attributes": {
+                  "text": "Au fond, vois-tu, mon erreur, ",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:1:0",
+                "attributes": {
+                  "text": "ma grande folie",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:2:0",
+                "attributes": {
+                  "text": "c'est d'avoir chargé ton cœur",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:3:0",
+                "attributes": {
+                  "text": "de tout le poids ma vie",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:4:0",
+                "attributes": {
+                  "text": " "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:5:0",
+                "attributes": {
+                  "text": "Which translates to:"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:6:0",
+                "attributes": {
+                  "text": "In the end, you see my error,",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:7:0",
+                "attributes": {
+                  "text": "My greatest folly",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:8:0",
+                "attributes": {
+                  "text": "Is to have charged your heart",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/bxf47LFuI:9",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/bxf47LFuI:9:0",
+                "attributes": {
+                  "text": "With all the weight of my life",
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": "[\"https://framerusercontent.com/images/tLx4zml6wj91xI791jlAM1Re1dU.png\",\"https://framerusercontent.com/images/Ety9kGKMQ37RAdxO87qHlbw.png\",\"https://framerusercontent.com/images/2F020MB8EnG9io0vbUWPvsqt3c.png\"]",
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/IIuLASgsf:0:0",
+                "attributes": {
+                  "text": "Edition of 6 bronze female figure with poem"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/IIuLASgsf:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/IIuLASgsf:1:0",
+                "attributes": {
+                  "text": "plus 6 without poem"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CV8b2nG0K/IIuLASgsf:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CV8b2nG0K/IIuLASgsf:2:0",
+                "attributes": {
+                  "text": "available in 24k gold leaf or Platinum "
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/Ety9kGKMQ37RAdxO87qHlbw.png",
+        "Image 2": "https://framerusercontent.com/images/OMhxqX6nZrlSQyzZZggEcKwyV8I.jpg",
+        "Image 3": "https://framerusercontent.com/images/Llb6yrNxIwh1NHxIQYfSfNnx4.jpg",
+        "Image 4": "https://framerusercontent.com/images/x8Mv4Q89lwx67UqKfH8BTjsopoM.jpg",
+        "Image 5": "https://framerusercontent.com/images/y9Byuo90sn67QcSoSwwKIm69cqk.jpg",
+        "Image 6": "https://framerusercontent.com/images/iAn0RcY3YZ2eG0sTUE6bwTpKY4.jpg",
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "YG_G_N0U2",
+      "draft": false,
+      "fields": {
+        "Title": "KABOOM!",
+        "Slug": "kaboom",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/spJHtBo4G:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/spJHtBo4G:0:0",
+                "attributes": {
+                  "text": "The male bronze torso sculpture, adorned with the words \"Particles Collide, Ignition, Fusion, and Kaboom!\" woven into its form, is a visual rendition that delves into the poetic symphony of celestial creation and the profound nature of love. Conceptually, it invites viewers to explore the remarkable parallels between the birth of a star and the transformative force of love."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/spJHtBo4G:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/spJHtBo4G:1:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/spJHtBo4G:1:1",
+                "attributes": {
+                  "text": "Bronze, a timeless and enduring medium, lends the sculpture a sense of permanence and significance. It speaks to the enduring qualities of both cosmic phenomena and love itself, acknowledging their timeless existence and impact on the human experience."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/spJHtBo4G:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/spJHtBo4G:2:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/spJHtBo4G:2:1",
+                "attributes": {
+                  "text": "The male torso embodies the human form and serves as a canvas for the poetic narrative inscribed upon it. The words, woven into the bronze, initiate a story that bridges the scientific and emotional realms."
+                }
+              }
+            ]
+          }
+        ],
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/bxf47LFuI:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/bxf47LFuI:0:0",
+                "attributes": {
+                  "text": "\"Particles Collide\" is the inception, the moment when the universe orchestrates the chance meeting of disparate elements. This mirrors the serendipity of human connection, where two individuals from different walks of life collide and set the stage for something extraordinary."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/bxf47LFuI:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/bxf47LFuI:1:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/bxf47LFuI:1:1",
+                "attributes": {
+                  "text": "\"Ignition\" signifies the spark, the catalyst, the initial flame of love. It represents the moment when two souls ignite with passion and desire, akin to the ignition of a star. It's the genesis of profound emotions and desires that radiate like the birth of a celestial body."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/bxf47LFuI:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/bxf47LFuI:2:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/bxf47LFuI:2:1",
+                "attributes": {
+                  "text": "\"Fusion\" embodies the essence of unity, where distinct entities merge into a harmonious whole. In the cosmic realm, it's the stage when hydrogen atoms fuse to form helium, unleashing the star's radiant energy. In the realm of love, it symbolizes the profound union of two individuals, the blending of their lives, and the creation of something greater than the sum of its parts."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/bxf47LFuI:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/bxf47LFuI:3:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/bxf47LFuI:3:1",
+                "attributes": {
+                  "text": "And then, there's \"Kaboom!\"—an exclamation that encapsulates the explosive energy, the sheer brilliance, and the transformative power of both the birth of a star and love. It signifies the culmination, the moment when particles and emotions collide to create something awe-inspiring."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery 1": "[\"https://framerusercontent.com/images/V9ClfWCukETaxALgdnFPFbkU.png\",\"https://framerusercontent.com/images/pXBg1VgTuUfaxvUMqPxX5CFtlU.png\",\"https://framerusercontent.com/images/2STkIdl51esFdsXBqZAdfBkMX4.png\"]",
+        "Content 3": [
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/IIuLASgsf:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/IIuLASgsf:0:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/IIuLASgsf:0:1",
+                "attributes": {
+                  "text": "Conceptually, this sculpture invites viewers to ponder the harmonious coexistence of science and emotion, to marvel at the parallels between cosmic phenomena and the emotions that define our human experience. It underscores the idea that love, like the birth of a star, is a magnificent fusion of forces that can illuminate our lives and the world around us."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:YG_G_N0U2/IIuLASgsf:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:YG_G_N0U2/IIuLASgsf:1:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:YG_G_N0U2/IIuLASgsf:1:1",
+                "attributes": {
+                  "text": "In a world often fragmented by divisions, \"Particles Collide, Ignition, Fusion, and Kaboom!\" serves as a reminder that love has the power to unite, ignite, and transform. It is a poetic and visually captivating exploration of the eternal and universal themes of creation, unity, and the boundless brilliance that love can bring into our lives. This sculpture tells us that amidst the cosmic and human complexities, there is a shared beauty and profound magic in the birth of stars and the power of love."
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/pXBg1VgTuUfaxvUMqPxX5CFtlU.png",
+        "Image 2": "https://framerusercontent.com/images/FdPKn3QmT0naoh7ZqAy3QPYkJQ.jpg",
+        "Image 3": "https://framerusercontent.com/images/NLAwHao34fenQ6MruQWlJOLqQ.jpg",
+        "Image 4": "https://framerusercontent.com/images/pYvQEx1NdHPKqBg5TosIMWkkMEw.jpg",
+        "Image 5": "https://framerusercontent.com/images/koK4BVanPszEr1unh54aKrp4fE.jpg",
+        "Image 6": "https://framerusercontent.com/images/aB5yhbk9gUqnubWXlJb6A2x4ZNk.jpg",
+        "Image 7": "https://framerusercontent.com/images/ylGR01P1k2VYFSB8Bwi8iCw7ZH0.jpg",
+        "Image 8": "https://framerusercontent.com/images/4auA4yKJlyMrlHjdwqB9bwXLgjQ.jpg",
+        "Image 9": "https://framerusercontent.com/images/NLAwHao34fenQ6MruQWlJOLqQ.jpg",
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+@import "./fonts.css";
+@import "./tokens.css";
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+html.lenis,
+html.lenis body {
+	height: auto;
+}
+.lenis.lenis-smooth {
+	scroll-behavior: auto !important;
+}
+body {
+	margin: 0;
+	background: var(--page-bg, var(--ink));
+	color: var(--page-fg, var(--white));
+	font-family: var(--font-body);
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: -0.02em;
+	overflow-x: clip;
+}
+img,
+video,
+svg {
+	display: block;
+	max-width: 100%;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote {
+	margin: 0;
+}
+ul,
+ol {
+	padding: 0;
+	list-style: none;
+}
+:focus-visible {
+	outline: 1px solid var(--gold-light);
+	outline-offset: 3px;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+/* Layout */
+.container {
+	inline-size: 100%;
+	max-inline-size: 1920px;
+	margin-inline: auto;
+	padding-inline: var(--gutter);
+}
+
+/* Type roles. Display serifs keep line-height >= 1.04 where a parent clips. */
+.display {
+	font-family: var(--font-display);
+	font-weight: 500;
+	font-size: var(--t-display);
+	line-height: var(--t-display-lh);
+	letter-spacing: 1px;
+}
+.h2 {
+	font-family: var(--font-display);
+	font-weight: 500;
+	font-size: var(--t-h2);
+	line-height: var(--t-h2-lh);
+	letter-spacing: 0.5px;
+}
+.h3 {
+	font-family: var(--font-display);
+	font-weight: 500;
+	font-size: var(--t-h3);
+	line-height: 1.2;
+	letter-spacing: 0.3px;
+}
+.detail-title {
+	font-family: var(--font-display);
+	font-weight: 500;
+	font-size: var(--t-detail);
+	line-height: 1.15;
+	letter-spacing: 0.4px;
+}
+.intro-italic {
+	font-family: var(--font-display);
+	font-style: italic;
+	font-weight: 400;
+	font-size: var(--t-intro);
+	line-height: 1.35;
+	letter-spacing: -0.02em;
+}
+.subtitle {
+	font-family: var(--font-display);
+	font-style: italic;
+	font-weight: 400;
+	font-size: var(--t-subtitle);
+	line-height: 1.4;
+	letter-spacing: -0.02em;
+}
+.eyebrow {
+	font-family: var(--font-body);
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 3.4px;
+	text-transform: uppercase;
+}
+.label {
+	font-family: var(--font-body);
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 1.68px;
+	text-transform: uppercase;
+}
+.micro {
+	font-family: var(--font-body);
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 1.2;
+	letter-spacing: 2.42px;
+	text-transform: uppercase;
+}
+.body-l {
+	font-size: 17px;
+	line-height: 1.75;
+	letter-spacing: -0.02em;
+}
+.card-title {
+	font-family: var(--font-display);
+	font-weight: 300;
+	font-size: var(--t-card);
+	line-height: 1.4;
+	letter-spacing: -0.04em;
+}
+.card-date {
+	font-family: var(--font-num);
+	font-weight: 300;
+	font-size: var(--t-card-date);
+	line-height: 1.6;
+	letter-spacing: -0.04em;
+}
+.prose p + p {
+	margin-block-start: 1em;
+}
+.prose a {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.prose a:hover {
+	color: var(--gold-light);
+}
+
+/* Links */
+.link {
+	transition: color 200ms var(--ease-link);
+}
+.link:hover {
+	color: var(--gold-light);
+}
+
+/* Buttons */
+.btn-outline {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 16px 28px;
+	border: 1px solid currentColor;
+	font-family: var(--font-body);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 1.92px;
+	text-transform: uppercase;
+	transition:
+		background-color 300ms var(--ease-out),
+		color 300ms var(--ease-out);
+}
+.btn-outline:hover {
+	background: var(--gold);
+	border-color: var(--gold);
+	color: var(--ink);
+}
+
+/* Art frames: show the whole piece. The frame takes the image's own ratio
+   (or a fixed one), the image is contained on the frame colour. */
+.art {
+	position: relative;
+	overflow: hidden;
+	background: var(--frame-bg, transparent);
+	aspect-ratio: var(--ratio, auto);
+}
+.art img {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: var(--fit, contain);
+	object-position: var(--pos, 50% 50%);
+}
+.art--zoom img {
+	transition: transform 600ms var(--ease-spring);
+}
+a:hover .art--zoom img,
+.art--zoom:hover img {
+	transform: scale(1.1);
+}
+
+/* Motion. Hidden states apply only when JS runs and motion is allowed. */
+html.js:not(.reduce) [data-reveal] {
+	opacity: 0;
+	transform: translateY(30px);
+	transition:
+		opacity 0.8s var(--ease-out),
+		transform 0.8s var(--ease-out);
+	transition-delay: var(--d, 0ms);
+}
+html.js:not(.reduce) [data-reveal].is-in {
+	opacity: 1;
+	transform: none;
+}
+html.js:not(.reduce) [data-arrive] {
+	opacity: 0;
+	transform: translateY(150px);
+	animation: arrive 1.5s var(--ease-spring) forwards;
+	animation-delay: var(--d, 1000ms);
+}
+@keyframes arrive {
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+.split .ch {
+	display: inline-block;
+	
+}
+html.js:not(.reduce) .split .ch {
+	opacity: 0;
+	transform: translateY(10px);
+	transition:
+		opacity 2s var(--ease-spring),
+		transform 2s var(--ease-spring);
+	transition-delay: calc(var(--i) * 50ms);
+}
+html.js:not(.reduce) .split.is-in .ch {
+	opacity: 1;
+	transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}

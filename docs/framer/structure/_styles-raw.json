@@ -1,0 +1,4861 @@
+{
+  "colorStyles": [
+    {
+      "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+      "name": "Header Color",
+      "path": "/Colors/Header Color",
+      "light": "rgb(219, 219, 219)",
+      "dark": null
+    },
+    {
+      "id": "c344a79f-ab0b-4307-a35b-e6d12f18275e",
+      "name": "Grey Background",
+      "path": "/Colors/Grey Background",
+      "light": "rgb(15, 15, 15)",
+      "dark": null
+    },
+    {
+      "id": "71133c02-1c55-4af2-b843-5349bf9976d6",
+      "name": "Dark Background",
+      "path": "/Colors/Dark Background",
+      "light": "rgb(0, 0, 0)",
+      "dark": null
+    },
+    {
+      "id": "e8540213-6575-4498-8211-a59b501cd341",
+      "name": "Paragraph Color",
+      "path": "/Colors/Paragraph Color",
+      "light": "rgb(194, 194, 194)",
+      "dark": null
+    },
+    {
+      "id": "091a6055-6360-4811-9192-2b92995d5732",
+      "name": "Border",
+      "path": "/Colors/Border",
+      "light": "rgb(54, 54, 54)",
+      "dark": null
+    },
+    {
+      "id": "be079bad-eabd-4234-8a56-5579c7057187",
+      "name": "Primary / Black",
+      "path": "/Colors/Black",
+      "light": "rgb(0, 0, 0)",
+      "dark": null
+    },
+    {
+      "id": "d787f1d6-44f0-47f7-ab85-f07d7c33b5c4",
+      "name": "Heading Color",
+      "path": "/Colors/Heading Color",
+      "light": "rgb(33, 33, 33)",
+      "dark": "rgb(240, 240, 240)"
+    },
+    {
+      "id": "6a17de0a-3284-4c12-bfe3-6dc2650caaa2",
+      "name": "Paragraph Color",
+      "path": "/Colors/Paragraph Color",
+      "light": "rgb(69, 69, 69)",
+      "dark": "rgb(148, 148, 148)"
+    },
+    {
+      "id": "28353d2e-dccd-43d2-b65d-08536d81b97b",
+      "name": "White",
+      "path": "/Colors/White",
+      "light": "rgb(255, 255, 255)",
+      "dark": null
+    },
+    {
+      "id": "3884b012-35c8-4707-b16f-e85a492c63ed",
+      "name": "Cream",
+      "path": "/Colors/Cream",
+      "light": "rgb(245, 242, 235)",
+      "dark": null
+    },
+    {
+      "id": "0de040f0-b5ea-4023-bc26-fe477adc34f7",
+      "name": "BG Cream",
+      "path": "/Colors/Blake Ward/BG Cream",
+      "light": "rgb(244, 241, 234)",
+      "dark": null
+    },
+    {
+      "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+      "name": "Ink",
+      "path": "/Colors/Blake Ward/Ink",
+      "light": "rgb(28, 26, 23)",
+      "dark": null
+    },
+    {
+      "id": "4c0790e7-ef55-41a2-ba2b-b035f745ed65",
+      "name": "Muted",
+      "path": "/Colors/Blake Ward/Muted",
+      "light": "rgb(111, 106, 97)",
+      "dark": null
+    },
+    {
+      "id": "e9a185e7-9aba-4305-91eb-ce4e5ad79557",
+      "name": "Line",
+      "path": "/Colors/Blake Ward/Line",
+      "light": "rgb(216, 210, 198)",
+      "dark": null
+    },
+    {
+      "id": "ea774264-c4f8-4abb-a9aa-d13e28fd3960",
+      "name": "Frame",
+      "path": "/Colors/Blake Ward/Frame",
+      "light": "rgb(233, 228, 217)",
+      "dark": null
+    },
+    {
+      "id": "59d87fec-2dd6-4828-b20a-3bee7a71010d",
+      "name": "Footer BG",
+      "path": "/Colors/Blake Ward/Footer BG",
+      "light": "rgb(28, 26, 23)",
+      "dark": null
+    },
+    {
+      "id": "d79228d3-efa0-4dda-a260-0c01899e77a1",
+      "name": "Footer Text",
+      "path": "/Colors/Blake Ward/Footer Text",
+      "light": "rgb(207, 201, 189)",
+      "dark": null
+    },
+    {
+      "id": "7259fc03-cf78-4f04-8398-479329438e04",
+      "name": "Footer Label",
+      "path": "/Colors/Blake Ward/Footer Label",
+      "light": "rgb(138, 131, 117)",
+      "dark": null
+    },
+    {
+      "id": "4b0cd32e-83fc-483a-9555-f63bec98016d",
+      "name": "Footer Rule",
+      "path": "/Colors/Blake Ward/Footer Rule",
+      "light": "rgb(52, 48, 42)",
+      "dark": null
+    },
+    {
+      "id": "edbc2df2-9b8f-4114-bdd2-37d28756dfda",
+      "name": "highlight",
+      "path": "/Colors/highlight",
+      "light": "rgb(227, 202, 166)",
+      "dark": null
+    },
+    {
+      "id": "845bff36-5701-4ad7-b7c8-76125781c65b",
+      "name": "highlight DARKER",
+      "path": "/Colors/highlight DARKER",
+      "light": "rgb(204, 164, 108)",
+      "dark": null
+    },
+    {
+      "id": "f8d7fb7f-7cb1-4459-b460-4a81fba211a5",
+      "name": "Both works",
+      "path": "/Colors/Both works",
+      "light": "rgb(92, 88, 82)",
+      "dark": null
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "CqJnzvKlb",
+      "name": "Heading 1",
+      "path": "/Text Styles/Heading 1",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "40px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "37px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "50px",
+      "letterSpacing": "-0.06em",
+      "lineHeight": "1.1em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "qNk2ZRqyM",
+      "name": "XXL",
+      "path": "/Text Styles/XXL",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "90px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "60px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "100px",
+      "letterSpacing": "-0.06em",
+      "lineHeight": "1.1em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "UAA2oO2kB",
+      "name": "Jumbo",
+      "path": "/Text Styles/Jumbo",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "55px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "45px",
+          "letterSpacing": "-0.06em",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "65px",
+      "letterSpacing": "-0.06em",
+      "lineHeight": "1.1em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "sDYveApCb",
+      "name": "",
+      "path": "/Text Styles/Heading 2",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1200,
+          "fontSize": "35px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "40px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "a_WuBZIKK",
+      "name": "",
+      "path": "/Text Styles/Heading 3",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "29px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "25px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "34px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "RBHXa8VUz",
+      "name": "",
+      "path": "/Text Styles/Heading 4",
+      "tag": "h4",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "19px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "26px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "RGK230bJV",
+      "name": "",
+      "path": "/Text Styles/Heading 5",
+      "tag": "h5",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "14px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "13px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "18px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "xY5jbJIIl",
+      "name": "",
+      "path": "/Text Styles/Heading 6",
+      "tag": "h6",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "15px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "14px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "cUmsmoPC9",
+      "name": "Body",
+      "path": "/Text Styles/Body",
+      "tag": "p",
+      "font": {
+        "selector": "FS;Switzer-light",
+        "family": "Switzer",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter-Bold",
+        "family": "Inter",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/ACEaYWisZIYMt1AMEVgshPgBBw.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-BoldItalic",
+        "family": "Inter",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/of7m7CkW8MXVSnoJt6P1WHNTKWM.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "14px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "13px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "18px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "ELM3tjt0Q",
+      "name": "Body S",
+      "path": "/Text Styles/Body S",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1200,
+          "fontSize": "12px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "12px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "13px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "gVkJs6pjD",
+      "name": "Body L",
+      "path": "/Text Styles/Body L",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "18px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.6em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "20px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "CBJBehDz6",
+      "name": "Eyebrow",
+      "path": "/Text Styles/Blake Ward/Eyebrow",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "3884b012-35c8-4707-b16f-e85a492c63ed",
+        "name": "Cream",
+        "path": "/Colors/Cream",
+        "light": "rgb(245, 242, 235)",
+        "dark": null
+      },
+      "transform": "uppercase",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "14px",
+      "letterSpacing": "3.4px",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "VwHasHI3S",
+      "name": "Hero Title",
+      "path": "/Text Styles/Blake Ward/Hero Title",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#000",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "72px",
+          "letterSpacing": "1px",
+          "lineHeight": "0.98em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "52px",
+          "letterSpacing": "1px",
+          "lineHeight": "0.98em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "104px",
+      "letterSpacing": "1px",
+      "lineHeight": "0.98em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "ziZwdjk4N",
+      "name": "Hero Tagline",
+      "path": "/Text Styles/Blake Ward/Hero Tagline",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "21px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "18px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "24px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "quGquGn06",
+      "name": "Statement",
+      "path": "/Text Styles/Blake Ward/Statement",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "38px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "lKiDPnewn",
+      "name": "Section Title",
+      "path": "/Text Styles/Blake Ward/Section Title",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#000",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "44px",
+          "letterSpacing": "0.5px",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "34px",
+          "letterSpacing": "0.5px",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "54px",
+      "letterSpacing": "0.5px",
+      "lineHeight": "1.1em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "ATWwnaUxG",
+      "name": "Lead",
+      "path": "/Text Styles/Blake Ward/Lead",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "26px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "OswHnMCRJ",
+      "name": "Body",
+      "path": "/Text Styles/Blake Ward/Body",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "7259fc03-cf78-4f04-8398-479329438e04",
+        "name": "Footer Label",
+        "path": "/Colors/Blake Ward/Footer Label",
+        "light": "rgb(138, 131, 117)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "IYjsXRJBa",
+      "name": "Small",
+      "path": "/Text Styles/Blake Ward/Small",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "14.5px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "F74Q__Rue",
+      "name": "Year",
+      "path": "/Text Styles/Blake Ward/Year",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "3884b012-35c8-4707-b16f-e85a492c63ed",
+        "name": "Cream",
+        "path": "/Colors/Cream",
+        "light": "rgb(245, 242, 235)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "22px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.3em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "AQhG6DDWE",
+      "name": "Card Title",
+      "path": "/Text Styles/Blake Ward/Card Title",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#000",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "28px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "nGuK389Tj",
+      "name": "Country",
+      "path": "/Text Styles/Blake Ward/Country",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "22px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "AM1crSRYi",
+      "name": "Stat Number",
+      "path": "/Text Styles/Blake Ward/Stat Number",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "52px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "42px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "52px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "joIqftKIy",
+      "name": "CTA Title",
+      "path": "/Text Styles/Blake Ward/CTA Title",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "#000",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "42px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "52px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "JzY5T0TA4",
+      "name": "Heading 1",
+      "path": "/Text Styles/Article/Heading 1",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "38px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "46px",
+      "letterSpacing": "0.4px",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "courVyDM_",
+      "name": "Heading 2",
+      "path": "/Text Styles/Article/Heading 2",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "26px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "34px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "XS89kPzeZ",
+      "name": "Heading 3",
+      "path": "/Text Styles/Article/Heading 3",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "25px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "23px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "27px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.25em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "TfzsHX0j3",
+      "name": "Heading 4",
+      "path": "/Text Styles/Article/Heading 4",
+      "tag": "h4",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "22px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.3em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "onYucjBZi",
+      "name": "Heading 5",
+      "path": "/Text Styles/Article/Heading 5",
+      "tag": "h5",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "19px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "Sumx4EjEl",
+      "name": "Heading 6",
+      "path": "/Text Styles/Article/Heading 6",
+      "tag": "h6",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "DO_JXkEJ6",
+      "name": "Body",
+      "path": "/Text Styles/Article/Body",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.75em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "tXuJ1gxNN",
+      "name": "Lead",
+      "path": "/Text Styles/Article/Lead",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "19px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.7em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "18px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.7em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "20px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.7em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "JYV6ttcUS",
+      "name": "Small",
+      "path": "/Text Styles/Article/Small",
+      "tag": "p",
+      "font": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter-Bold",
+        "family": "Inter",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/ACEaYWisZIYMt1AMEVgshPgBBw.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-BoldItalic",
+        "family": "Inter",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/of7m7CkW8MXVSnoJt6P1WHNTKWM.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "14px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "RiIZWZO6U",
+      "name": "Label",
+      "path": "/Text Styles/Article/Label",
+      "tag": "p",
+      "font": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter-Bold",
+        "family": "Inter",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/ACEaYWisZIYMt1AMEVgshPgBBw.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-BoldItalic",
+        "family": "Inter",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/of7m7CkW8MXVSnoJt6P1WHNTKWM.woff2"
+      },
+      "color": {
+        "id": "4d33ac77-1285-4245-a35a-b7f0118e2cb7",
+        "name": "Header Color",
+        "path": "/Colors/Header Color",
+        "light": "rgb(219, 219, 219)",
+        "dark": null
+      },
+      "transform": "uppercase",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "12px",
+      "letterSpacing": "1.8px",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "ueXaX6MOE",
+      "name": "Meta Value",
+      "path": "/Text Styles/Article/Meta Value",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "e8540213-6575-4498-8211-a59b501cd341",
+        "name": "Paragraph Color",
+        "path": "/Colors/Paragraph Color",
+        "light": "rgb(194, 194, 194)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "RTL_Vbcdp",
+      "name": "Heading 1",
+      "path": "/Text Styles/Article Light/Heading 1",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "38px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "46px",
+      "letterSpacing": "0.4px",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "yaZLNRMzz",
+      "name": "Heading 2",
+      "path": "/Text Styles/Article Light/Heading 2",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "26px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "34px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "L0KGnYQgp",
+      "name": "Heading 3",
+      "path": "/Text Styles/Article Light/Heading 3",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "25px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "23px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "27px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.25em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "Oyi4J9Pr_",
+      "name": "Heading 4",
+      "path": "/Text Styles/Article Light/Heading 4",
+      "tag": "h4",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "22px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.3em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "fkYWXaByR",
+      "name": "Heading 5",
+      "path": "/Text Styles/Article Light/Heading 5",
+      "tag": "h5",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "19px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "RJvG_AxqS",
+      "name": "Heading 6",
+      "path": "/Text Styles/Article Light/Heading 6",
+      "tag": "h6",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "DMX4irgVf",
+      "name": "Body",
+      "path": "/Text Styles/Article Light/Body",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.75em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "PFMxB2wV3",
+      "name": "Lead",
+      "path": "/Text Styles/Article Light/Lead",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "19px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.7em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "18px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.7em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "20px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.7em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "oP1w7QwnE",
+      "name": "Small",
+      "path": "/Text Styles/Article Light/Small",
+      "tag": "p",
+      "font": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter-Bold",
+        "family": "Inter",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/ACEaYWisZIYMt1AMEVgshPgBBw.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-BoldItalic",
+        "family": "Inter",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/of7m7CkW8MXVSnoJt6P1WHNTKWM.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "14px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "D445MFwqS",
+      "name": "Label",
+      "path": "/Text Styles/Article Light/Label",
+      "tag": "p",
+      "font": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter-Bold",
+        "family": "Inter",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/ACEaYWisZIYMt1AMEVgshPgBBw.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-BoldItalic",
+        "family": "Inter",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/of7m7CkW8MXVSnoJt6P1WHNTKWM.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "uppercase",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "12px",
+      "letterSpacing": "1.8px",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "euIYxN94Y",
+      "name": "Meta Value",
+      "path": "/Text Styles/Article Light/Meta Value",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": {
+        "id": "d6224910-89be-43a3-bfab-890b2d9e6ae2",
+        "name": "Ink",
+        "path": "/Colors/Blake Ward/Ink",
+        "light": "rgb(28, 26, 23)",
+        "dark": null
+      },
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "kJ33Rabo6",
+      "name": "Statement Inverse",
+      "path": "/Text Styles/Blake Ward/Statement Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "38px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "AuctkCuzD",
+      "name": "Body Inverse",
+      "path": "/Text Styles/Blake Ward/Body Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "mhjonHrTQ",
+      "name": "Section Title Inverse",
+      "path": "/Text Styles/Blake Ward/Section Title Inverse",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "44px",
+          "letterSpacing": "0.5px",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "34px",
+          "letterSpacing": "0.5px",
+          "lineHeight": "1.1em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "54px",
+      "letterSpacing": "0.5px",
+      "lineHeight": "1.1em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "ePbxNok60",
+      "name": "Body Inverse H4",
+      "path": "/Text Styles/Blake Ward/Body Inverse H4",
+      "tag": "h4",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "Rz_h4C4DN",
+      "name": "Hero Title Inverse",
+      "path": "/Text Styles/Blake Ward/Hero Title Inverse",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "72px",
+          "letterSpacing": "1px",
+          "lineHeight": "0.98em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "52px",
+          "letterSpacing": "1px",
+          "lineHeight": "0.98em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "104px",
+      "letterSpacing": "1px",
+      "lineHeight": "0.98em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "NaXE_3Wpn",
+      "name": "Hero Tagline Inverse",
+      "path": "/Text Styles/Blake Ward/Hero Tagline Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "21px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "18px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "24px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "WydKltiab",
+      "name": "Lead Inverse",
+      "path": "/Text Styles/Blake Ward/Lead Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "26px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "lyWFYdhZn",
+      "name": "Small Inverse",
+      "path": "/Text Styles/Blake Ward/Small Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "14.5px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "oZQPBEo5I",
+      "name": "Card Title Inverse",
+      "path": "/Text Styles/Blake Ward/Card Title Inverse",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "28px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "iDK5JqUb_",
+      "name": "Country Inverse",
+      "path": "/Text Styles/Blake Ward/Country Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "22px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "kfT_mxyiE",
+      "name": "Stat Number Inverse",
+      "path": "/Text Styles/Blake Ward/Stat Number Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-600",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-600italic",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "52px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "42px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "52px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "ICGyS4MnQ",
+      "name": "CTA Title Inverse",
+      "path": "/Text Styles/Blake Ward/CTA Title Inverse",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "42px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "52px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "Zx0doWnP5",
+      "name": "Body H4",
+      "path": "/Text Styles/Blake Ward/Body H4",
+      "tag": "h4",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "#666",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.6em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "dJxMU3ZQo",
+      "name": "Heading 1 Light",
+      "path": "/Text Styles/Article/Heading 1 Light",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(28, 26, 23)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "38px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "46px",
+      "letterSpacing": "0.4px",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "gOjvGu8gX",
+      "name": "Heading 4 Light",
+      "path": "/Text Styles/Heading 4 Light",
+      "tag": "h4",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(28, 26, 23)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "19px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "26px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "J8litO7SX",
+      "name": "Heading 5 Light",
+      "path": "/Text Styles/Heading 5 Light",
+      "tag": "h5",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(111, 106, 97)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "14px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "13px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "18px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "o5Z6x3p8c",
+      "name": "Body Light",
+      "path": "/Text Styles/Article/Body Light",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "rgb(111, 106, 97)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.75em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "PEJ5WnGt4",
+      "name": "Heading 2 Light",
+      "path": "/Text Styles/Article/Heading 2 Light",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(28, 26, 23)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "26px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "34px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "pPnbOp6qF",
+      "name": "Heading 3 Light",
+      "path": "/Text Styles/Article/Heading 3 Light",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(28, 26, 23)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "25px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "23px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "27px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.25em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "LRpFHQHZu",
+      "name": "Heading 6 Light",
+      "path": "/Text Styles/Heading 6 Light",
+      "tag": "h6",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(111, 106, 97)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "15px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "14px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "NSELvXYkw",
+      "name": "Heading 1 Inverse",
+      "path": "/Text Styles/Article/Heading 1 Inverse",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "38px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "46px",
+      "letterSpacing": "0.4px",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 0
+    },
+    {
+      "id": "OY7uYCYJm",
+      "name": "Heading 2 Inverse",
+      "path": "/Text Styles/Article/Heading 2 Inverse",
+      "tag": "h2",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "26px",
+          "letterSpacing": "0.3px",
+          "lineHeight": "1.2em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "34px",
+      "letterSpacing": "0.3px",
+      "lineHeight": "1.2em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "knuFGbtHB",
+      "name": "Heading 3 Inverse",
+      "path": "/Text Styles/Article/Heading 3 Inverse",
+      "tag": "h3",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "25px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "23px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.25em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "27px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.25em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "TIAt_vKjC",
+      "name": "Heading 4 Inverse",
+      "path": "/Text Styles/Heading 4 Inverse",
+      "tag": "h4",
+      "font": {
+        "selector": "GF;Cormorant Garamond-300",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-300italic",
+        "family": "Cormorant Garamond",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "19px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "26px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "soSmr9Zj6",
+      "name": "Heading 5 Inverse",
+      "path": "/Text Styles/Heading 5 Inverse",
+      "tag": "h5",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "14px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "13px",
+          "letterSpacing": "-0.04em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "18px",
+      "letterSpacing": "-0.04em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "Xd_V_FutX",
+      "name": "Heading 6 Inverse",
+      "path": "/Text Styles/Heading 6 Inverse",
+      "tag": "h6",
+      "font": {
+        "selector": "GF;Cormorant Garamond-regular",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "15px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "14px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.4em",
+          "paragraphSpacing": 40
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "16px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.4em",
+      "paragraphSpacing": 40
+    },
+    {
+      "id": "zZxayqsk5",
+      "name": "Body Inverse",
+      "path": "/Text Styles/Article/Body Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "Inter-Light",
+        "family": "Inter",
+        "weight": 300,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/5RC56WoPSimB0nUN68tRvT52pc.woff2"
+      },
+      "boldFont": {
+        "selector": "Inter",
+        "family": "Inter",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/assets/I3vvuIUcGf5qCtzlC6dFVOEtcQ.woff2"
+      },
+      "italicFont": {
+        "selector": "Inter-LightItalic",
+        "family": "Inter",
+        "weight": 300,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/pL8Kc8yEZ4G0R7o5HqiiYCyNpg.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "Inter-Italic",
+        "family": "Inter",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://framerusercontent.com/assets/1JbOkuUhXKxkqtEfehWricQJaJQ.woff2"
+      },
+      "color": "rgb(180, 174, 163)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.75em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "17px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.75em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "jkO1z8qAM",
+      "name": "Statement Inverse",
+      "path": "/Text Styles/Article/Statement Inverse",
+      "tag": "p",
+      "font": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-italic",
+        "family": "Cormorant Garamond",
+        "weight": 400,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(245, 242, 235)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "30px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.35em",
+          "paragraphSpacing": 20
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "38px",
+      "letterSpacing": "-0.02em",
+      "lineHeight": "1.35em",
+      "paragraphSpacing": 20
+    },
+    {
+      "id": "oVa9JLEmB",
+      "name": "Heading 1 OnCream",
+      "path": "/Text Styles/Article/Heading 1 OnCream",
+      "tag": "h1",
+      "font": {
+        "selector": "GF;Cormorant Garamond-500",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+      },
+      "boldFont": {
+        "selector": "GF;Cormorant Garamond-700",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+      },
+      "italicFont": {
+        "selector": "GF;Cormorant Garamond-500italic",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+      },
+      "boldItalicFont": {
+        "selector": "GF;Cormorant Garamond-700italic",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "style": "italic",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+      },
+      "color": "rgb(28, 26, 23)",
+      "transform": "none",
+      "alignment": "left",
+      "decoration": "none",
+      "decorationColor": "currentcolor",
+      "decorationThickness": "auto",
+      "decorationStyle": "solid",
+      "decorationSkipInk": "auto",
+      "decorationOffset": "auto",
+      "balance": false,
+      "breakpoints": [
+        {
+          "minWidth": 1400,
+          "fontSize": "38px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        },
+        {
+          "minWidth": 810,
+          "fontSize": "32px",
+          "letterSpacing": "0.4px",
+          "lineHeight": "1.15em",
+          "paragraphSpacing": 0
+        }
+      ],
+      "minWidth": 0,
+      "fontSize": "46px",
+      "letterSpacing": "0.4px",
+      "lineHeight": "1.15em",
+      "paragraphSpacing": 0
+    }
+  ]
+}

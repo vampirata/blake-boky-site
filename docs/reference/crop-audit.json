@@ -1,0 +1,4577 @@
+[
+ {
+  "tpl": "artwork-detail",
+  "parent": "Gallery Lightbox",
+  "w": 1440,
+  "frame": "469x834",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 12.7,
+  "max": 15.6,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "bNN22a5EZUeTCKYtZ3bWAfc.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "1AsiGJoSGFtjk1rfhAUEsNJcgU.jpg",
+    "alt": "",
+    "nat": 0.647,
+    "cut": {
+     "axis": "x",
+     "pct": 13
+    }
+   },
+   {
+    "src": "66tTF4KoD2hbbt2aVoMVL5KY1Vk.jpg",
+    "alt": "",
+    "nat": 0.658,
+    "cut": {
+     "axis": "x",
+     "pct": 14.5
+    }
+   },
+   {
+    "src": "2hToegvj3IcqTQQxRReu0bxkPE.jpg",
+    "alt": "",
+    "nat": 0.652,
+    "cut": {
+     "axis": "x",
+     "pct": 13.8
+    }
+   },
+   {
+    "src": "lsjZfnmdnzdZolQRk9XL6fqV5g.jpg",
+    "alt": "",
+    "nat": 0.644,
+    "cut": {
+     "axis": "x",
+     "pct": 12.7
+    }
+   },
+   {
+    "src": "tNtKPKCy2KKKBX585XLMRpyZUw.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "Tokiv2aSplYwVWSUGqUDlLRaAQ.jpg",
+    "alt": "",
+    "nat": 0.648,
+    "cut": {
+     "axis": "x",
+     "pct": 13.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "artwork-detail",
+  "parent": "Thumb",
+  "w": 1440,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "50% 0%",
+  "n": 1,
+  "min": 18.5,
+  "max": 18.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "574UdZk5eubmgUHg6RyudTUN4.png (no alt) nat 0.663",
+  "srcs": [
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "y",
+     "pct": 18.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "artwork-detail",
+  "parent": "Gallery Lightbox",
+  "w": 810,
+  "frame": "259x461",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 12.7,
+  "max": 15.6,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "bNN22a5EZUeTCKYtZ3bWAfc.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "1AsiGJoSGFtjk1rfhAUEsNJcgU.jpg",
+    "alt": "",
+    "nat": 0.647,
+    "cut": {
+     "axis": "x",
+     "pct": 13
+    }
+   },
+   {
+    "src": "66tTF4KoD2hbbt2aVoMVL5KY1Vk.jpg",
+    "alt": "",
+    "nat": 0.658,
+    "cut": {
+     "axis": "x",
+     "pct": 14.5
+    }
+   },
+   {
+    "src": "2hToegvj3IcqTQQxRReu0bxkPE.jpg",
+    "alt": "",
+    "nat": 0.652,
+    "cut": {
+     "axis": "x",
+     "pct": 13.8
+    }
+   },
+   {
+    "src": "lsjZfnmdnzdZolQRk9XL6fqV5g.jpg",
+    "alt": "",
+    "nat": 0.644,
+    "cut": {
+     "axis": "x",
+     "pct": 12.7
+    }
+   },
+   {
+    "src": "tNtKPKCy2KKKBX585XLMRpyZUw.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "Tokiv2aSplYwVWSUGqUDlLRaAQ.jpg",
+    "alt": "",
+    "nat": 0.648,
+    "cut": {
+     "axis": "x",
+     "pct": 13.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "artwork-detail",
+  "parent": "Thumb",
+  "w": 810,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "50% 0%",
+  "n": 1,
+  "min": 18.5,
+  "max": 18.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "574UdZk5eubmgUHg6RyudTUN4.png (no alt) nat 0.663",
+  "srcs": [
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "y",
+     "pct": 18.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "artwork-detail",
+  "parent": "Gallery Lightbox",
+  "w": 390,
+  "frame": "187x332",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 12.7,
+  "max": 15.6,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "bNN22a5EZUeTCKYtZ3bWAfc.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "1AsiGJoSGFtjk1rfhAUEsNJcgU.jpg",
+    "alt": "",
+    "nat": 0.647,
+    "cut": {
+     "axis": "x",
+     "pct": 13
+    }
+   },
+   {
+    "src": "66tTF4KoD2hbbt2aVoMVL5KY1Vk.jpg",
+    "alt": "",
+    "nat": 0.658,
+    "cut": {
+     "axis": "x",
+     "pct": 14.5
+    }
+   },
+   {
+    "src": "2hToegvj3IcqTQQxRReu0bxkPE.jpg",
+    "alt": "",
+    "nat": 0.652,
+    "cut": {
+     "axis": "x",
+     "pct": 13.8
+    }
+   },
+   {
+    "src": "lsjZfnmdnzdZolQRk9XL6fqV5g.jpg",
+    "alt": "",
+    "nat": 0.644,
+    "cut": {
+     "axis": "x",
+     "pct": 12.7
+    }
+   },
+   {
+    "src": "tNtKPKCy2KKKBX585XLMRpyZUw.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "Tokiv2aSplYwVWSUGqUDlLRaAQ.jpg",
+    "alt": "",
+    "nat": 0.648,
+    "cut": {
+     "axis": "x",
+     "pct": 13.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "artwork-detail",
+  "parent": "Thumb",
+  "w": 390,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "50% 0%",
+  "n": 1,
+  "min": 18.5,
+  "max": 18.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "574UdZk5eubmgUHg6RyudTUN4.png (no alt) nat 0.663",
+  "srcs": [
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "y",
+     "pct": 18.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "blake-bio",
+  "parent": "Collections Wrap",
+  "w": 1440,
+  "frame": "668x1188",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 7.5,
+  "max": 63.4,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.536",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.608,
+    "cut": {
+     "axis": "x",
+     "pct": 7.5
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "x",
+     "pct": 24.5
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.905,
+    "cut": {
+     "axis": "x",
+     "pct": 37.9
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.536,
+    "cut": {
+     "axis": "x",
+     "pct": 63.4
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.471,
+    "cut": {
+     "axis": "x",
+     "pct": 61.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "blake-bio",
+  "parent": "Collections Wrap",
+  "w": 810,
+  "frame": "365x649",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 7.5,
+  "max": 63.5,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.54",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.608,
+    "cut": {
+     "axis": "x",
+     "pct": 7.5
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.5
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "x",
+     "pct": 24.5
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.906,
+    "cut": {
+     "axis": "x",
+     "pct": 37.9
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.54,
+    "cut": {
+     "axis": "x",
+     "pct": 63.5
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.472,
+    "cut": {
+     "axis": "x",
+     "pct": 61.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "blake-bio",
+  "parent": "Collections Wrap",
+  "w": 390,
+  "frame": "390x693",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 7.3,
+  "max": 63.4,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.538",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.607,
+    "cut": {
+     "axis": "x",
+     "pct": 7.3
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.668,
+    "cut": {
+     "axis": "x",
+     "pct": 15.8
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.905,
+    "cut": {
+     "axis": "x",
+     "pct": 37.8
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.538,
+    "cut": {
+     "axis": "x",
+     "pct": 63.4
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.473,
+    "cut": {
+     "axis": "x",
+     "pct": 61.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Portrait",
+  "w": 1440,
+  "frame": "380x380",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.5,
+  "max": 25.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.745",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Desktop",
+  "w": 1440,
+  "frame": "668x668",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 6,
+  "min": 17.2,
+  "max": 59,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.438",
+  "srcs": [
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.505,
+    "cut": {
+     "axis": "x",
+     "pct": 33.5
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.208,
+    "cut": {
+     "axis": "x",
+     "pct": 17.2
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.438,
+    "cut": {
+     "axis": "x",
+     "pct": 59
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Feature Image",
+  "w": 1440,
+  "frame": "656x520",
+  "frameAspect": 1.262,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 20.7,
+  "max": 20.7,
+  "axis": [
+   "y"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "y",
+     "pct": 20.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "459x459",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.2,
+  "max": 43.7,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.775",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.691,
+    "cut": {
+     "axis": "y",
+     "pct": 30.9
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.778,
+    "cut": {
+     "axis": "y",
+     "pct": 22.2
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.193,
+    "cut": {
+     "axis": "x",
+     "pct": 16.2
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.371,
+    "cut": {
+     "axis": "x",
+     "pct": 27.1
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.371,
+    "cut": {
+     "axis": "x",
+     "pct": 27.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Portrait",
+  "w": 810,
+  "frame": "380x380",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.5,
+  "max": 25.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.745",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "IPhone",
+  "w": 810,
+  "frame": "365x365",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 6,
+  "min": 17.3,
+  "max": 58.9,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.433",
+  "srcs": [
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.508,
+    "cut": {
+     "axis": "x",
+     "pct": 33.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.209,
+    "cut": {
+     "axis": "x",
+     "pct": 17.3
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.433,
+    "cut": {
+     "axis": "x",
+     "pct": 58.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Feature Image",
+  "w": 810,
+  "frame": "341x520",
+  "frameAspect": 0.656,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 34.4,
+  "max": 34.4,
+  "axis": [
+   "x"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 34.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Square ipad",
+  "w": 810,
+  "frame": "373x373",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.4,
+  "max": 44,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.785",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.692,
+    "cut": {
+     "axis": "y",
+     "pct": 30.8
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.779,
+    "cut": {
+     "axis": "y",
+     "pct": 22.1
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.196,
+    "cut": {
+     "axis": "x",
+     "pct": 16.4
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.785,
+    "cut": {
+     "axis": "x",
+     "pct": 44
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.376,
+    "cut": {
+     "axis": "x",
+     "pct": 27.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.785,
+    "cut": {
+     "axis": "x",
+     "pct": 44
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.376,
+    "cut": {
+     "axis": "x",
+     "pct": 27.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Portrait",
+  "w": 390,
+  "frame": "380x380",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.5,
+  "max": 25.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.745",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "IPhone",
+  "w": 390,
+  "frame": "390x390",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 6,
+  "min": 17.2,
+  "max": 58.9,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.431",
+  "srcs": [
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.668,
+    "cut": {
+     "axis": "y",
+     "pct": 33.2
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.508,
+    "cut": {
+     "axis": "x",
+     "pct": 33.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.208,
+    "cut": {
+     "axis": "x",
+     "pct": 17.2
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.431,
+    "cut": {
+     "axis": "x",
+     "pct": 58.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Feature Image",
+  "w": 390,
+  "frame": "390x520",
+  "frameAspect": 0.75,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25,
+  "max": 25,
+  "axis": [
+   "x"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 25
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "boky-bio",
+  "parent": "Square ipad",
+  "w": 390,
+  "frame": "326x326",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.3,
+  "max": 43.9,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.781",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.692,
+    "cut": {
+     "axis": "y",
+     "pct": 30.8
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.778,
+    "cut": {
+     "axis": "y",
+     "pct": 22.2
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.194,
+    "cut": {
+     "axis": "x",
+     "pct": 16.3
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.781,
+    "cut": {
+     "axis": "x",
+     "pct": 43.9
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.376,
+    "cut": {
+     "axis": "x",
+     "pct": 27.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.781,
+    "cut": {
+     "axis": "x",
+     "pct": 43.9
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.376,
+    "cut": {
+     "axis": "x",
+     "pct": 27.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Plate",
+  "w": 1440,
+  "frame": "656x620",
+  "frameAspect": 1.058,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 31.1,
+  "max": 31.1,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.536",
+  "srcs": [
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.536,
+    "cut": {
+     "axis": "x",
+     "pct": 31.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Default",
+  "w": 1440,
+  "frame": "344x611",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 12,
+  "min": 7.1,
+  "max": 76.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.44",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.606,
+    "cut": {
+     "axis": "x",
+     "pct": 7.1
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.742,
+    "cut": {
+     "axis": "x",
+     "pct": 24.2
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.905,
+    "cut": {
+     "axis": "x",
+     "pct": 37.8
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.536,
+    "cut": {
+     "axis": "x",
+     "pct": 63.4
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.509,
+    "cut": {
+     "axis": "x",
+     "pct": 62.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 53.5
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.44,
+    "cut": {
+     "axis": "x",
+     "pct": 76.9
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.476,
+    "cut": {
+     "axis": "x",
+     "pct": 61.9
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.502,
+    "cut": {
+     "axis": "x",
+     "pct": 62.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Plate",
+  "w": 810,
+  "frame": "357x620",
+  "frameAspect": 0.576,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 62.6,
+  "max": 62.6,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.539",
+  "srcs": [
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.539,
+    "cut": {
+     "axis": "x",
+     "pct": 62.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Tablet Phone",
+  "w": 810,
+  "frame": "270x480",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 12,
+  "min": 7.5,
+  "max": 76.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.432",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.608,
+    "cut": {
+     "axis": "x",
+     "pct": 7.5
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.746,
+    "cut": {
+     "axis": "x",
+     "pct": 24.6
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.906,
+    "cut": {
+     "axis": "x",
+     "pct": 37.9
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.539,
+    "cut": {
+     "axis": "x",
+     "pct": 63.4
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.508,
+    "cut": {
+     "axis": "x",
+     "pct": 62.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 53.5
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.432,
+    "cut": {
+     "axis": "x",
+     "pct": 76.9
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.475,
+    "cut": {
+     "axis": "x",
+     "pct": 61.9
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.508,
+    "cut": {
+     "axis": "x",
+     "pct": 62.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Plate",
+  "w": 390,
+  "frame": "390x620",
+  "frameAspect": 0.629,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 59.2,
+  "max": 59.2,
+  "axis": [
+   "x"
+  ],
+  "worst": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg (no alt) nat 1.542",
+  "srcs": [
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.542,
+    "cut": {
+     "axis": "x",
+     "pct": 59.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-coming-soon",
+  "parent": "Tablet Phone",
+  "w": 390,
+  "frame": "390x693",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 12,
+  "min": 7.4,
+  "max": 76.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.438",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.607,
+    "cut": {
+     "axis": "x",
+     "pct": 7.4
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.905,
+    "cut": {
+     "axis": "x",
+     "pct": 37.8
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.542,
+    "cut": {
+     "axis": "x",
+     "pct": 63.5
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.512,
+    "cut": {
+     "axis": "x",
+     "pct": 62.8
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 53.5
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.438,
+    "cut": {
+     "axis": "x",
+     "pct": 76.9
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.472,
+    "cut": {
+     "axis": "x",
+     "pct": 61.8
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.506,
+    "cut": {
+     "axis": "x",
+     "pct": 62.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-detail",
+  "parent": "Wrap",
+  "w": 1440,
+  "frame": "710x620",
+  "frameAspect": 1.145,
+  "pos": "50% 50%",
+  "n": 5,
+  "min": 12.7,
+  "max": 43.7,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "5zg9ObsV2zIDippfMfqf80v82Q.jpg (Angel Zuriel ) nat 1",
+  "srcs": [
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 35
+    }
+   },
+   {
+    "src": "t5edCI0aCEE2GX8frGn65YXy35c.jpg",
+    "alt": "Angel Liwet ",
+    "nat": 1,
+    "cut": {
+     "axis": "y",
+     "pct": 12.7
+    }
+   },
+   {
+    "src": "5zg9ObsV2zIDippfMfqf80v82Q.jpg",
+    "alt": "Angel Zuriel ",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "lgNoRHV3UqDY86QZpPPmIgNNc.jpg",
+    "alt": "Ushabtis ",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "rRC5wOudDkX446ttZ1fKLxd7ds.jpg",
+    "alt": "Angel Aquariel ",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-detail",
+  "parent": "Default",
+  "w": 1440,
+  "frame": "433x770",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 13,
+  "min": 15.1,
+  "max": 15.7,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "x",
+     "pct": 15.1
+    }
+   },
+   {
+    "src": "2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+    "alt": "",
+    "nat": 0.665,
+    "cut": {
+     "axis": "x",
+     "pct": 15.4
+    }
+   },
+   {
+    "src": "hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "7AgUwllyZtSS1DyfZi00fCIk.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "uIkt1OfotA2uS3STlkzP9ag.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-detail",
+  "parent": "Default",
+  "w": 810,
+  "frame": "433x770",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 13,
+  "min": 15.1,
+  "max": 15.7,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "x",
+     "pct": 15.1
+    }
+   },
+   {
+    "src": "2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+    "alt": "",
+    "nat": 0.665,
+    "cut": {
+     "axis": "x",
+     "pct": 15.4
+    }
+   },
+   {
+    "src": "hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "7AgUwllyZtSS1DyfZi00fCIk.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "uIkt1OfotA2uS3STlkzP9ag.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-detail",
+  "parent": "Wrap",
+  "w": 390,
+  "frame": "150x267",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 3,
+  "min": 15.6,
+  "max": 43.7,
+  "axis": [
+   "x"
+  ],
+  "worst": "5zg9ObsV2zIDippfMfqf80v82Q.jpg (Angel Zuriel ) nat 1",
+  "srcs": [
+   {
+    "src": "5zg9ObsV2zIDippfMfqf80v82Q.jpg",
+    "alt": "Angel Zuriel ",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "lgNoRHV3UqDY86QZpPPmIgNNc.jpg",
+    "alt": "Ushabtis ",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "rRC5wOudDkX446ttZ1fKLxd7ds.jpg",
+    "alt": "Angel Aquariel ",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collection-detail",
+  "parent": "Default",
+  "w": 390,
+  "frame": "433x770",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 13,
+  "min": 15.1,
+  "max": 15.7,
+  "axis": [
+   "x"
+  ],
+  "worst": "Rv3qtmIXL22cWIaujowH1dciYws.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "574UdZk5eubmgUHg6RyudTUN4.png",
+    "alt": "",
+    "nat": 0.663,
+    "cut": {
+     "axis": "x",
+     "pct": 15.1
+    }
+   },
+   {
+    "src": "2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+    "alt": "",
+    "nat": 0.665,
+    "cut": {
+     "axis": "x",
+     "pct": 15.4
+    }
+   },
+   {
+    "src": "hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "7AgUwllyZtSS1DyfZi00fCIk.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "uIkt1OfotA2uS3STlkzP9ag.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   },
+   {
+    "src": "PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.7
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "350x350",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 11,
+  "min": 9.6,
+  "max": 58.9,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.431",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.606,
+    "cut": {
+     "axis": "y",
+     "pct": 39.4
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.904,
+    "cut": {
+     "axis": "y",
+     "pct": 9.6
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.542,
+    "cut": {
+     "axis": "x",
+     "pct": 35.1
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.509,
+    "cut": {
+     "axis": "x",
+     "pct": 33.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 17.4
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.431,
+    "cut": {
+     "axis": "x",
+     "pct": 58.9
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.477,
+    "cut": {
+     "axis": "x",
+     "pct": 32.3
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.502,
+    "cut": {
+     "axis": "x",
+     "pct": 33.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Desktop",
+  "w": 1440,
+  "frame": "1440x638",
+  "frameAspect": 2.256,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 8.8,
+  "max": 8.8,
+  "axis": [
+   "y"
+  ],
+  "worst": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg (no alt) nat 2.057",
+  "srcs": [
+   {
+    "src": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg",
+    "alt": "",
+    "nat": 2.057,
+    "cut": {
+     "axis": "y",
+     "pct": 8.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Tablet Phone",
+  "w": 810,
+  "frame": "385x684",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 12,
+  "min": 7.5,
+  "max": 76.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.437",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.608,
+    "cut": {
+     "axis": "x",
+     "pct": 7.5
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.666,
+    "cut": {
+     "axis": "x",
+     "pct": 15.5
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.745,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.906,
+    "cut": {
+     "axis": "x",
+     "pct": 37.9
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.54,
+    "cut": {
+     "axis": "x",
+     "pct": 63.5
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.51,
+    "cut": {
+     "axis": "x",
+     "pct": 62.7
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 53.5
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.437,
+    "cut": {
+     "axis": "x",
+     "pct": 76.9
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.475,
+    "cut": {
+     "axis": "x",
+     "pct": 61.9
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.504,
+    "cut": {
+     "axis": "x",
+     "pct": 62.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Tablet",
+  "w": 810,
+  "frame": "810x627",
+  "frameAspect": 1.291,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 37.3,
+  "max": 37.3,
+  "axis": [
+   "x"
+  ],
+  "worst": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg (no alt) nat 2.059",
+  "srcs": [
+   {
+    "src": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg",
+    "alt": "",
+    "nat": 2.059,
+    "cut": {
+     "axis": "x",
+     "pct": 37.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Tablet Phone",
+  "w": 390,
+  "frame": "390x693",
+  "frameAspect": 0.563,
+  "pos": "50% 50%",
+  "n": 12,
+  "min": 7.4,
+  "max": 76.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png (Green Fern) nat 2.438",
+  "srcs": [
+   {
+    "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+    "alt": "",
+    "nat": 0.607,
+    "cut": {
+     "axis": "x",
+     "pct": 7.4
+    }
+   },
+   {
+    "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+    "alt": "asherah",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+    "alt": "Phantom Elixir",
+    "nat": 0.667,
+    "cut": {
+     "axis": "x",
+     "pct": 15.6
+    }
+   },
+   {
+    "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+    "alt": "mafdet mayet",
+    "nat": 0.744,
+    "cut": {
+     "axis": "x",
+     "pct": 24.4
+    }
+   },
+   {
+    "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+    "alt": "Orange Flower",
+    "nat": 0.905,
+    "cut": {
+     "axis": "x",
+     "pct": 37.8
+    }
+   },
+   {
+    "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+    "alt": "",
+    "nat": 1.542,
+    "cut": {
+     "axis": "x",
+     "pct": 63.5
+    }
+   },
+   {
+    "src": "pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+    "alt": "letthelight in ",
+    "nat": 1.512,
+    "cut": {
+     "axis": "x",
+     "pct": 62.8
+    }
+   },
+   {
+    "src": "G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+    "alt": "Lilac Flower",
+    "nat": 1.211,
+    "cut": {
+     "axis": "x",
+     "pct": 53.5
+    }
+   },
+   {
+    "src": "knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+    "alt": "Green Fern",
+    "nat": 2.438,
+    "cut": {
+     "axis": "x",
+     "pct": 76.9
+    }
+   },
+   {
+    "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+    "alt": "Yellow Flower",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+    "alt": "Orange Flower",
+    "nat": 1.472,
+    "cut": {
+     "axis": "x",
+     "pct": 61.8
+    }
+   },
+   {
+    "src": "ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+    "alt": "Purple Flower",
+    "nat": 1.506,
+    "cut": {
+     "axis": "x",
+     "pct": 62.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "collections",
+  "parent": "Phone",
+  "w": 390,
+  "frame": "390x554",
+  "frameAspect": 0.704,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 65.9,
+  "max": 65.9,
+  "axis": [
+   "x"
+  ],
+  "worst": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg (no alt) nat 2.063",
+  "srcs": [
+   {
+    "src": "QeLtbE1aT2cG7lh5u93pzi3Ro.jpg",
+    "alt": "",
+    "nat": 2.063,
+    "cut": {
+     "axis": "x",
+     "pct": 65.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "contact",
+  "parent": "Artists",
+  "w": 390,
+  "frame": "390x260",
+  "frameAspect": 1.5,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 16.1,
+  "max": 16.1,
+  "axis": [
+   "y"
+  ],
+  "worst": "HW1h9xSrg3Vb51GhfM2XxzV8g.jpeg (Boky Hackel-Ward and Blake Ward) nat 1.258",
+  "srcs": [
+   {
+    "src": "HW1h9xSrg3Vb51GhfM2XxzV8g.jpeg",
+    "alt": "Boky Hackel-Ward and Blake Ward",
+    "nat": 1.258,
+    "cut": {
+     "axis": "y",
+     "pct": 16.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "galleries",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "453x453",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 3,
+  "min": 21.6,
+  "max": 33.4,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+    "alt": "",
+    "nat": 1.276,
+    "cut": {
+     "axis": "x",
+     "pct": 21.6
+    }
+   },
+   {
+    "src": "UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+    "alt": "",
+    "nat": 0.75,
+    "cut": {
+     "axis": "y",
+     "pct": 25
+    }
+   },
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "galleries",
+  "parent": "Image",
+  "w": 1440,
+  "frame": "1376x267",
+  "frameAspect": 5.154,
+  "pos": "50% 50%",
+  "n": 6,
+  "min": 18.8,
+  "max": 20.2,
+  "axis": [
+   "y"
+  ],
+  "worst": "GTqONkXxbWFtIDfFLm1BgGXmA.png (Gilded bronze figure from the Elixir collection) nat 0.557",
+  "srcs": [
+   {
+    "src": "j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+    "alt": "Installation view of Depth and Perception at Petle",
+    "nat": 4.182,
+    "cut": {
+     "axis": "y",
+     "pct": 18.8
+    }
+   },
+   {
+    "src": "MOXGyinCyXd9a9BkWQXe7osJg4.png",
+    "alt": "Blake Ward, The Space Within, installation view",
+    "nat": 2.855,
+    "cut": {
+     "axis": "y",
+     "pct": 18.9
+    }
+   },
+   {
+    "src": "Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+    "alt": "Opening of Elixir at Petley Jones Gallery",
+    "nat": 2.227,
+    "cut": {
+     "axis": "y",
+     "pct": 18.9
+    }
+   },
+   {
+    "src": "giPhDMXZtjSy2S5H2UBaMfWICU.png",
+    "alt": "Blake Ward with works at Petley Jones Gallery",
+    "nat": 1.337,
+    "cut": {
+     "axis": "y",
+     "pct": 20.1
+    }
+   },
+   {
+    "src": "7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+    "alt": "Blake Ward beside a bronze figure",
+    "nat": 1.197,
+    "cut": {
+     "axis": "y",
+     "pct": 19.9
+    }
+   },
+   {
+    "src": "GTqONkXxbWFtIDfFLm1BgGXmA.png",
+    "alt": "Gilded bronze figure from the Elixir collection",
+    "nat": 0.557,
+    "cut": {
+     "axis": "y",
+     "pct": 20.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "galleries",
+  "parent": "Square ipad",
+  "w": 810,
+  "frame": "369x369",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 3,
+  "min": 21.7,
+  "max": 33.4,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+    "alt": "",
+    "nat": 1.277,
+    "cut": {
+     "axis": "x",
+     "pct": 21.7
+    }
+   },
+   {
+    "src": "UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+    "alt": "",
+    "nat": 0.75,
+    "cut": {
+     "axis": "y",
+     "pct": 25
+    }
+   },
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "galleries",
+  "parent": "Square ipad",
+  "w": 390,
+  "frame": "390x390",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 3,
+  "min": 21.5,
+  "max": 33.3,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+    "alt": "",
+    "nat": 1.275,
+    "cut": {
+     "axis": "x",
+     "pct": 21.5
+    }
+   },
+   {
+    "src": "UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+    "alt": "",
+    "nat": 0.75,
+    "cut": {
+     "axis": "y",
+     "pct": 25
+    }
+   },
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "galleries",
+  "parent": "Image",
+  "w": 390,
+  "frame": "390x120",
+  "frameAspect": 3.25,
+  "pos": "50% 50%",
+  "n": 6,
+  "min": 7.9,
+  "max": 22.5,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "j2TfMktzOKdT5G8qcKSSAaH4dw.png (Installation view of Depth and Perception at Petle) nat 4.194",
+  "srcs": [
+   {
+    "src": "j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+    "alt": "Installation view of Depth and Perception at Petle",
+    "nat": 4.194,
+    "cut": {
+     "axis": "x",
+     "pct": 22.5
+    }
+   },
+   {
+    "src": "MOXGyinCyXd9a9BkWQXe7osJg4.png",
+    "alt": "Blake Ward, The Space Within, installation view",
+    "nat": 2.847,
+    "cut": {
+     "axis": "x",
+     "pct": 8.7
+    }
+   },
+   {
+    "src": "Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+    "alt": "Opening of Elixir at Petley Jones Gallery",
+    "nat": 2.229,
+    "cut": {
+     "axis": "x",
+     "pct": 7.9
+    }
+   },
+   {
+    "src": "giPhDMXZtjSy2S5H2UBaMfWICU.png",
+    "alt": "Blake Ward with works at Petley Jones Gallery",
+    "nat": 1.34,
+    "cut": {
+     "axis": "y",
+     "pct": 16.2
+    }
+   },
+   {
+    "src": "7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+    "alt": "Blake Ward beside a bronze figure",
+    "nat": 1.196,
+    "cut": {
+     "axis": "y",
+     "pct": 16.3
+    }
+   },
+   {
+    "src": "GTqONkXxbWFtIDfFLm1BgGXmA.png",
+    "alt": "Gilded bronze figure from the Elixir collection",
+    "nat": 0.557,
+    "cut": {
+     "axis": "y",
+     "pct": 16.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "gallery-detail",
+  "parent": "Image Fill",
+  "w": 1440,
+  "frame": "1312x560",
+  "frameAspect": 2.343,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 71.5,
+  "max": 71.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 71.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "gallery-detail",
+  "parent": "Image Fill",
+  "w": 810,
+  "frame": "746x560",
+  "frameAspect": 1.332,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 50,
+  "max": 50,
+  "axis": [
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.666",
+  "srcs": [
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 50
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "gallery-detail",
+  "parent": "Image Fill",
+  "w": 390,
+  "frame": "366x300",
+  "frameAspect": 1.22,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 45.4,
+  "max": 45.4,
+  "axis": [
+   "y"
+  ],
+  "worst": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 45.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Default",
+  "w": 1440,
+  "frame": "186x194",
+  "frameAspect": 0.959,
+  "pos": "50% 50%",
+  "n": 7,
+  "min": 5.8,
+  "max": 26.7,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+    "alt": "",
+    "nat": 1.2,
+    "cut": {
+     "axis": "x",
+     "pct": 20.1
+    }
+   },
+   {
+    "src": "wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+    "alt": "",
+    "nat": 0.752,
+    "cut": {
+     "axis": "x",
+     "pct": 5.8
+    }
+   },
+   {
+    "src": "kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 11.8
+    }
+   },
+   {
+    "src": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.7
+    }
+   },
+   {
+    "src": "xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+    "alt": "",
+    "nat": 0.668,
+    "cut": {
+     "axis": "x",
+     "pct": 7
+    }
+   },
+   {
+    "src": "4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 20.7
+    }
+   },
+   {
+    "src": "I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+    "alt": "",
+    "nat": 0.908,
+    "cut": {
+     "axis": "y",
+     "pct": 10.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Portrait",
+  "w": 1440,
+  "frame": "380x380",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.5,
+  "max": 25.5,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.745",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.745,
+    "cut": {
+     "axis": "y",
+     "pct": 25.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Case",
+  "w": 1440,
+  "frame": "260x287",
+  "frameAspect": 0.907,
+  "pos": "50.3% 30.9%",
+  "n": 4,
+  "min": 26.3,
+  "max": 27.6,
+  "axis": [
+   "y"
+  ],
+  "worst": "8KH7PwtdjdzNx1Dh8x7mNaPKq0.png (no alt) nat 0.655",
+  "srcs": [
+   {
+    "src": "vLQblsbydSn6uqg0rL76Z5fGU.png",
+    "alt": "",
+    "nat": 0.657,
+    "cut": {
+     "axis": "y",
+     "pct": 27.5
+    }
+   },
+   {
+    "src": "4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.5
+    }
+   },
+   {
+    "src": "8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+    "alt": "",
+    "nat": 0.655,
+    "cut": {
+     "axis": "y",
+     "pct": 27.6
+    }
+   },
+   {
+    "src": "5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 26.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Fullscreen Section",
+  "w": 1440,
+  "frame": "1440x1080",
+  "frameAspect": 1.333,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 11.1,
+  "max": 11.1,
+  "axis": [
+   "x"
+  ],
+  "worst": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg (no alt) nat 1.5",
+  "srcs": [
+   {
+    "src": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+    "alt": "",
+    "nat": 1.5,
+    "cut": {
+     "axis": "x",
+     "pct": 11.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "335x335",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 4,
+  "min": 10.2,
+  "max": 29,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg (no alt) nat 1.408",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.373,
+    "cut": {
+     "axis": "x",
+     "pct": 27.2
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.335,
+    "cut": {
+     "axis": "x",
+     "pct": 25.1
+    }
+   },
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.898,
+    "cut": {
+     "axis": "y",
+     "pct": 10.2
+    }
+   },
+   {
+    "src": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+    "alt": "",
+    "nat": 1.408,
+    "cut": {
+     "axis": "x",
+     "pct": 29
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Default",
+  "w": 810,
+  "frame": "186x194",
+  "frameAspect": 0.959,
+  "pos": "50% 50%",
+  "n": 7,
+  "min": 5.8,
+  "max": 26.7,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+    "alt": "",
+    "nat": 1.2,
+    "cut": {
+     "axis": "x",
+     "pct": 20.1
+    }
+   },
+   {
+    "src": "wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+    "alt": "",
+    "nat": 0.752,
+    "cut": {
+     "axis": "x",
+     "pct": 5.8
+    }
+   },
+   {
+    "src": "kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 11.8
+    }
+   },
+   {
+    "src": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.7
+    }
+   },
+   {
+    "src": "xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+    "alt": "",
+    "nat": 0.668,
+    "cut": {
+     "axis": "x",
+     "pct": 7
+    }
+   },
+   {
+    "src": "4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 20.7
+    }
+   },
+   {
+    "src": "I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+    "alt": "",
+    "nat": 0.907,
+    "cut": {
+     "axis": "y",
+     "pct": 9.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Portrait",
+  "w": 810,
+  "frame": "320x320",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.6,
+  "max": 25.6,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.744",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Case",
+  "w": 810,
+  "frame": "305x335",
+  "frameAspect": 0.91,
+  "pos": "50.3% 30.9%",
+  "n": 4,
+  "min": 26.5,
+  "max": 27.8,
+  "axis": [
+   "y"
+  ],
+  "worst": "vLQblsbydSn6uqg0rL76Z5fGU.png (no alt) nat 0.657",
+  "srcs": [
+   {
+    "src": "vLQblsbydSn6uqg0rL76Z5fGU.png",
+    "alt": "",
+    "nat": 0.657,
+    "cut": {
+     "axis": "y",
+     "pct": 27.8
+    }
+   },
+   {
+    "src": "4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.8
+    }
+   },
+   {
+    "src": "8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+    "alt": "",
+    "nat": 0.655,
+    "cut": {
+     "axis": "y",
+     "pct": 27.8
+    }
+   },
+   {
+    "src": "5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 26.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Fullscreen Section",
+  "w": 810,
+  "frame": "810x1320",
+  "frameAspect": 0.614,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 59.1,
+  "max": 59.1,
+  "axis": [
+   "x"
+  ],
+  "worst": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg (no alt) nat 1.5",
+  "srcs": [
+   {
+    "src": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+    "alt": "",
+    "nat": 1.5,
+    "cut": {
+     "axis": "x",
+     "pct": 59.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Square ipad",
+  "w": 810,
+  "frame": "365x365",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 2,
+  "min": 25.2,
+  "max": 27.4,
+  "axis": [
+   "x"
+  ],
+  "worst": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg (no alt) nat 1.377",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.377,
+    "cut": {
+     "axis": "x",
+     "pct": 27.4
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.337,
+    "cut": {
+     "axis": "x",
+     "pct": 25.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Tablet",
+  "w": 810,
+  "frame": "810x627",
+  "frameAspect": 1.291,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 44.6,
+  "max": 44.6,
+  "axis": [
+   "x"
+  ],
+  "worst": "9hCGhHVc0NtTWoZ5TAOUXgFqI.png (no alt) nat 2.331",
+  "srcs": [
+   {
+    "src": "9hCGhHVc0NtTWoZ5TAOUXgFqI.png",
+    "alt": "",
+    "nat": 2.331,
+    "cut": {
+     "axis": "x",
+     "pct": 44.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Default",
+  "w": 390,
+  "frame": "186x194",
+  "frameAspect": 0.959,
+  "pos": "50% 50%",
+  "n": 7,
+  "min": 5.8,
+  "max": 26.7,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+    "alt": "",
+    "nat": 1.2,
+    "cut": {
+     "axis": "x",
+     "pct": 20.1
+    }
+   },
+   {
+    "src": "wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+    "alt": "",
+    "nat": 0.752,
+    "cut": {
+     "axis": "x",
+     "pct": 5.8
+    }
+   },
+   {
+    "src": "kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 11.8
+    }
+   },
+   {
+    "src": "9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.7
+    }
+   },
+   {
+    "src": "xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+    "alt": "",
+    "nat": 0.668,
+    "cut": {
+     "axis": "x",
+     "pct": 7
+    }
+   },
+   {
+    "src": "4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 20.7
+    }
+   },
+   {
+    "src": "I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+    "alt": "",
+    "nat": 0.907,
+    "cut": {
+     "axis": "y",
+     "pct": 9.3
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Portrait",
+  "w": 390,
+  "frame": "326x326",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 25.6,
+  "max": 25.6,
+  "axis": [
+   "y"
+  ],
+  "worst": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg (Portrait of the sculptor Boky Hackel) nat 0.744",
+  "srcs": [
+   {
+    "src": "ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+    "alt": "Portrait of the sculptor Boky Hackel",
+    "nat": 0.744,
+    "cut": {
+     "axis": "y",
+     "pct": 25.6
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Case",
+  "w": 390,
+  "frame": "290x319",
+  "frameAspect": 0.909,
+  "pos": "50.3% 30.9%",
+  "n": 4,
+  "min": 26.5,
+  "max": 27.8,
+  "axis": [
+   "y"
+  ],
+  "worst": "8KH7PwtdjdzNx1Dh8x7mNaPKq0.png (no alt) nat 0.655",
+  "srcs": [
+   {
+    "src": "vLQblsbydSn6uqg0rL76Z5fGU.png",
+    "alt": "",
+    "nat": 0.657,
+    "cut": {
+     "axis": "y",
+     "pct": 27.7
+    }
+   },
+   {
+    "src": "4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 26.7
+    }
+   },
+   {
+    "src": "8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+    "alt": "",
+    "nat": 0.655,
+    "cut": {
+     "axis": "y",
+     "pct": 27.8
+    }
+   },
+   {
+    "src": "5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 26.5
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Fullscreen Section",
+  "w": 390,
+  "frame": "413x861",
+  "frameAspect": 0.48,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 68,
+  "max": 68,
+  "axis": [
+   "x"
+  ],
+  "worst": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg (no alt) nat 1.5",
+  "srcs": [
+   {
+    "src": "58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+    "alt": "",
+    "nat": 1.5,
+    "cut": {
+     "axis": "x",
+     "pct": 68
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Square ipad",
+  "w": 390,
+  "frame": "390x390",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 2,
+  "min": 25.1,
+  "max": 27.2,
+  "axis": [
+   "x"
+  ],
+  "worst": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg (no alt) nat 1.373",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.373,
+    "cut": {
+     "axis": "x",
+     "pct": 27.2
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.336,
+    "cut": {
+     "axis": "x",
+     "pct": 25.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "home",
+  "parent": "Phone",
+  "w": 390,
+  "frame": "390x554",
+  "frameAspect": 0.704,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 70,
+  "max": 70,
+  "axis": [
+   "x"
+  ],
+  "worst": "9hCGhHVc0NtTWoZ5TAOUXgFqI.png (no alt) nat 2.349",
+  "srcs": [
+   {
+    "src": "9hCGhHVc0NtTWoZ5TAOUXgFqI.png",
+    "alt": "",
+    "nat": 2.349,
+    "cut": {
+     "axis": "x",
+     "pct": 70
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "350x350",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 5,
+  "min": 10.3,
+  "max": 29.1,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg (no alt) nat 1.411",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.378,
+    "cut": {
+     "axis": "x",
+     "pct": 27.4
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.336,
+    "cut": {
+     "axis": "x",
+     "pct": 25.1
+    }
+   },
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.897,
+    "cut": {
+     "axis": "y",
+     "pct": 10.3
+    }
+   },
+   {
+    "src": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+    "alt": "",
+    "nat": 1.411,
+    "cut": {
+     "axis": "x",
+     "pct": 29.1
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.882,
+    "cut": {
+     "axis": "y",
+     "pct": 11.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Desktop",
+  "w": 1440,
+  "frame": "1440x638",
+  "frameAspect": 2.256,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 33.4,
+  "max": 33.4,
+  "axis": [
+   "y"
+  ],
+  "worst": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg (no alt) nat 1.502",
+  "srcs": [
+   {
+    "src": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+    "alt": "",
+    "nat": 1.502,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Square ipad",
+  "w": 810,
+  "frame": "385x385",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 5,
+  "min": 10.3,
+  "max": 29.1,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg (no alt) nat 1.41",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.375,
+    "cut": {
+     "axis": "x",
+     "pct": 27.3
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.337,
+    "cut": {
+     "axis": "x",
+     "pct": 25.2
+    }
+   },
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.897,
+    "cut": {
+     "axis": "y",
+     "pct": 10.3
+    }
+   },
+   {
+    "src": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+    "alt": "",
+    "nat": 1.41,
+    "cut": {
+     "axis": "x",
+     "pct": 29.1
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.881,
+    "cut": {
+     "axis": "y",
+     "pct": 11.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Tablet",
+  "w": 810,
+  "frame": "810x627",
+  "frameAspect": 1.291,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 13.8,
+  "max": 13.8,
+  "axis": [
+   "x"
+  ],
+  "worst": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg (no alt) nat 1.498",
+  "srcs": [
+   {
+    "src": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+    "alt": "",
+    "nat": 1.498,
+    "cut": {
+     "axis": "x",
+     "pct": 13.8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Square ipad",
+  "w": 390,
+  "frame": "360x360",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 5,
+  "min": 10.2,
+  "max": 29.2,
+  "axis": [
+   "x",
+   "y"
+  ],
+  "worst": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg (no alt) nat 1.412",
+  "srcs": [
+   {
+    "src": "JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+    "alt": "",
+    "nat": 1.374,
+    "cut": {
+     "axis": "x",
+     "pct": 27.2
+    }
+   },
+   {
+    "src": "ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+    "alt": "Fragments exhibition India 2012",
+    "nat": 1.333,
+    "cut": {
+     "axis": "x",
+     "pct": 25
+    }
+   },
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.898,
+    "cut": {
+     "axis": "y",
+     "pct": 10.2
+    }
+   },
+   {
+    "src": "dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+    "alt": "",
+    "nat": 1.412,
+    "cut": {
+     "axis": "x",
+     "pct": 29.2
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.88,
+    "cut": {
+     "axis": "y",
+     "pct": 12
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news",
+  "parent": "Phone",
+  "w": 390,
+  "frame": "390x554",
+  "frameAspect": 0.704,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 53.2,
+  "max": 53.2,
+  "axis": [
+   "x"
+  ],
+  "worst": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg (no alt) nat 1.506",
+  "srcs": [
+   {
+    "src": "v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+    "alt": "",
+    "nat": 1.506,
+    "cut": {
+     "axis": "x",
+     "pct": 53.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news-article",
+  "parent": "Thumb",
+  "w": 1440,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "51.2% 48.1%",
+  "n": 2,
+  "min": 8,
+  "max": 9.3,
+  "axis": [
+   "x"
+  ],
+  "worst": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg (no alt) nat 0.897",
+  "srcs": [
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.897,
+    "cut": {
+     "axis": "x",
+     "pct": 9.3
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.884,
+    "cut": {
+     "axis": "x",
+     "pct": 8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news-article",
+  "parent": "Thumb",
+  "w": 810,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "51.2% 48.1%",
+  "n": 2,
+  "min": 8,
+  "max": 9.3,
+  "axis": [
+   "x"
+  ],
+  "worst": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg (no alt) nat 0.897",
+  "srcs": [
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.897,
+    "cut": {
+     "axis": "x",
+     "pct": 9.3
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.884,
+    "cut": {
+     "axis": "x",
+     "pct": 8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "news-article",
+  "parent": "Thumb",
+  "w": 390,
+  "frame": "122x150",
+  "frameAspect": 0.813,
+  "pos": "51.2% 48.1%",
+  "n": 2,
+  "min": 8,
+  "max": 9.3,
+  "axis": [
+   "x"
+  ],
+  "worst": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg (no alt) nat 0.897",
+  "srcs": [
+   {
+    "src": "z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+    "alt": "",
+    "nat": 0.897,
+    "cut": {
+     "axis": "x",
+     "pct": 9.3
+    }
+   },
+   {
+    "src": "AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+    "alt": "",
+    "nat": 0.884,
+    "cut": {
+     "axis": "x",
+     "pct": 8
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-work-detail",
+  "parent": "Hero Image",
+  "w": 1440,
+  "frame": "1376x620",
+  "frameAspect": 2.219,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 54.9,
+  "max": 54.9,
+  "axis": [
+   "y"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "y",
+     "pct": 54.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-work-detail",
+  "parent": "Hero Image",
+  "w": 810,
+  "frame": "746x620",
+  "frameAspect": 1.203,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 16.9,
+  "max": 16.9,
+  "axis": [
+   "y"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "y",
+     "pct": 16.9
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-work-detail",
+  "parent": "Hero Image",
+  "w": 390,
+  "frame": "326x620",
+  "frameAspect": 0.526,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 47.4,
+  "max": 47.4,
+  "axis": [
+   "x"
+  ],
+  "worst": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg (no alt) nat 1",
+  "srcs": [
+   {
+    "src": "7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+    "alt": "",
+    "nat": 1,
+    "cut": {
+     "axis": "x",
+     "pct": 47.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Square Desktop",
+  "w": 1440,
+  "frame": "459x459",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.2,
+  "max": 43.7,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.775",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.691,
+    "cut": {
+     "axis": "y",
+     "pct": 30.9
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.778,
+    "cut": {
+     "axis": "y",
+     "pct": 22.2
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.193,
+    "cut": {
+     "axis": "x",
+     "pct": 16.2
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.371,
+    "cut": {
+     "axis": "x",
+     "pct": 27.1
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.371,
+    "cut": {
+     "axis": "x",
+     "pct": 27.1
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Desktop",
+  "w": 1440,
+  "frame": "1440x638",
+  "frameAspect": 2.256,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 70.4,
+  "max": 70.4,
+  "axis": [
+   "y"
+  ],
+  "worst": "N3p5Wb949dODDSFfHjEz6xJau2c.png (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "N3p5Wb949dODDSFfHjEz6xJau2c.png",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 70.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Square ipad",
+  "w": 810,
+  "frame": "379x379",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.1,
+  "max": 43.7,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.775",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.692,
+    "cut": {
+     "axis": "y",
+     "pct": 30.8
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.778,
+    "cut": {
+     "axis": "y",
+     "pct": 22.2
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.192,
+    "cut": {
+     "axis": "x",
+     "pct": 16.1
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.666,
+    "cut": {
+     "axis": "y",
+     "pct": 33.4
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.37,
+    "cut": {
+     "axis": "x",
+     "pct": 27
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.775,
+    "cut": {
+     "axis": "x",
+     "pct": 43.7
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.37,
+    "cut": {
+     "axis": "x",
+     "pct": 27
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Tablet",
+  "w": 810,
+  "frame": "810x627",
+  "frameAspect": 1.291,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 48.4,
+  "max": 48.4,
+  "axis": [
+   "y"
+  ],
+  "worst": "N3p5Wb949dODDSFfHjEz6xJau2c.png (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "N3p5Wb949dODDSFfHjEz6xJau2c.png",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 48.4
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Square ipad",
+  "w": 390,
+  "frame": "390x390",
+  "frameAspect": 1,
+  "pos": "50% 50%",
+  "n": 8,
+  "min": 16.4,
+  "max": 43.8,
+  "axis": [
+   "y",
+   "x"
+  ],
+  "worst": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg (no alt) nat 1.781",
+  "srcs": [
+   {
+    "src": "YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+    "alt": "",
+    "nat": 0.691,
+    "cut": {
+     "axis": "y",
+     "pct": 30.9
+    }
+   },
+   {
+    "src": "6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+    "alt": "",
+    "nat": 0.778,
+    "cut": {
+     "axis": "y",
+     "pct": 22.2
+    }
+   },
+   {
+    "src": "5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+    "alt": "",
+    "nat": 1.196,
+    "cut": {
+     "axis": "x",
+     "pct": 16.4
+    }
+   },
+   {
+    "src": "mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 33.3
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.781,
+    "cut": {
+     "axis": "x",
+     "pct": 43.8
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.373,
+    "cut": {
+     "axis": "x",
+     "pct": 27.2
+    }
+   },
+   {
+    "src": "oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+    "alt": "",
+    "nat": 1.781,
+    "cut": {
+     "axis": "x",
+     "pct": 43.8
+    }
+   },
+   {
+    "src": "7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+    "alt": "",
+    "nat": 1.373,
+    "cut": {
+     "axis": "x",
+     "pct": 27.2
+    }
+   }
+  ]
+ },
+ {
+  "tpl": "past-works",
+  "parent": "Phone",
+  "w": 390,
+  "frame": "390x554",
+  "frameAspect": 0.704,
+  "pos": "50% 50%",
+  "n": 1,
+  "min": 5.3,
+  "max": 5.3,
+  "axis": [
+   "y"
+  ],
+  "worst": "N3p5Wb949dODDSFfHjEz6xJau2c.png (no alt) nat 0.667",
+  "srcs": [
+   {
+    "src": "N3p5Wb949dODDSFfHjEz6xJau2c.png",
+    "alt": "",
+    "nat": 0.667,
+    "cut": {
+     "axis": "y",
+     "pct": 5.3
+    }
+   }
+  ]
+ }
+]

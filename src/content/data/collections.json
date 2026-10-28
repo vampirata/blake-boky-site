@@ -1,0 +1,2539 @@
+[
+  {
+    "slug": "andromeda",
+    "template": "collection",
+    "title": "Andromeda",
+    "eyebrow": "BLAKE WARD",
+    "artist": "Blake",
+    "comingSoon": false,
+    "intro": [],
+    "introBlocks": [],
+    "meta": {
+      "YEAR": "2024",
+      "CATEGORY": "Blake Ward",
+      "SIZE": "",
+      "MEDIUM": "3D rendering, Bronze Casting"
+    },
+    "metaOrder": [
+      "YEAR",
+      "CATEGORY",
+      "SIZE",
+      "MEDIUM"
+    ],
+    "hero": {
+      "image": {
+        "role": "gallery",
+        "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+        "alt": "",
+        "naturalWidth": 6594,
+        "naturalHeight": 10854,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 579
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=2048&width=6594&height=10854",
+        "naturalAspect": 0.6075,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 46.9
+      }
+    },
+    "gallery": [
+      {
+        "role": "gallery",
+        "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+        "alt": "",
+        "naturalWidth": 6594,
+        "naturalHeight": 10854,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 579
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=2048&width=6594&height=10854",
+        "naturalAspect": 0.6075,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 46.9
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/andromeda/RxF8jP3Cq0iqlDkIHurAwv2mJU.jpg",
+        "alt": "",
+        "naturalWidth": 8925,
+        "naturalHeight": 11900,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 730,
+          "y": 579
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/RxF8jP3Cq0iqlDkIHurAwv2mJU.jpg?scale-down-to=1024&width=8925&height=11900",
+        "naturalAspect": 0.75,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 34.5
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/andromeda/ulbfiZV5QzjKmJIVhkMDjHPrDo.jpeg",
+        "alt": "",
+        "naturalWidth": 2584,
+        "naturalHeight": 2712,
+        "rendered": {
+          "width": 1440,
+          "height": 480,
+          "x": 0,
+          "y": 1219
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/ulbfiZV5QzjKmJIVhkMDjHPrDo.jpeg?scale-down-to=2048&width=2584&height=2712",
+        "naturalAspect": 0.9528,
+        "renderedAspect": 3,
+        "cropPercentHidden": 68.2
+      }
+    ],
+    "worksEyebrow": "THE WORKS",
+    "worksHeading": "Andromeda",
+    "works": [
+      "andromeda-adrasteo",
+      "andromeda-callisto",
+      "andromeda-devorah"
+    ],
+    "workCards": [
+      {
+        "title": "Andromeda Adrasteo",
+        "date": "Feb 24, 2026",
+        "href": "./andromeda/andromeda-adrasteo",
+        "target": "/collections/andromeda/andromeda-adrasteo",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+          "alt": "",
+          "naturalWidth": 6594,
+          "naturalHeight": 10854,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 0,
+            "y": 1979
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=2048&width=6594&height=10854",
+          "naturalAspect": 0.6075,
+          "renderedAspect": 1,
+          "cropPercentHidden": 39.2
+        }
+      },
+      {
+        "title": "Andromeda Callisto",
+        "date": "Feb 24, 2026",
+        "href": "./andromeda/andromeda-callisto",
+        "target": "/collections/andromeda/andromeda-callisto",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/andromeda-adrasteo/oxuyjUchaCOaIFsXJtX9t5yZWHY.jpg",
+          "alt": "",
+          "naturalWidth": 3355,
+          "naturalHeight": 3355,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 480,
+            "y": 1979
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "liveUrl": "https://framerusercontent.com/images/oxuyjUchaCOaIFsXJtX9t5yZWHY.jpg?scale-down-to=512&width=3355&height=3355",
+          "naturalAspect": 1,
+          "renderedAspect": 1
+        }
+      },
+      {
+        "title": "Andromeda Devorah ",
+        "date": "Feb 24, 2026",
+        "href": "./andromeda/andromeda-devorah",
+        "target": "/collections/andromeda/andromeda-devorah",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/andromeda-callisto/FOpVQaHzQVYaqMZCoPgIKdDNAP0.jpg",
+          "alt": "",
+          "naturalWidth": 5076,
+          "naturalHeight": 7610,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 960,
+            "y": 1979
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/FOpVQaHzQVYaqMZCoPgIKdDNAP0.jpg?scale-down-to=1024&width=5076&height=7610",
+          "naturalAspect": 0.667,
+          "renderedAspect": 1,
+          "cropPercentHidden": 33.3
+        }
+      }
+    ],
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Andromeda — Blake & Boky",
+      "description": "Works from the Andromeda by Blake Ward and Boky Hackel-Ward.",
+      "ogTitle": "Andromeda — Blake & Boky",
+      "ogDescription": "Works from the Andromeda by Blake Ward and Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/andromeda"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Head (eyebrow artist, H1 title)",
+      "Meta row (YEAR, CATEGORY, SIZE, MEDIUM)",
+      "Image grid (2-up 710x620, then full-width or 3-up)",
+      "The Works (eyebrow, H2, work cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": []
+  },
+  {
+    "slug": "spirit-collection",
+    "template": "collection",
+    "title": "Spirit Collection",
+    "eyebrow": "BLAKE WARD AND BOKY HACKEL-WARD",
+    "artist": "Blake & Boky",
+    "comingSoon": false,
+    "intro": [
+      "The foundation of Blake and Boky's collaborative work. This collection explores the beauty within, opening up the figure and diving into the inner structure. The driving force behind this project was to expose the inner world of the figure, one that usually isn't seen. Drawing attention to what is usually hidden became a conduit for deeper introspection. Subsequently, the engineering behind this first desire to open the figure also tied into the second desire : allowing the sculpture to be both static and in movement. Every artwork in this collection is subject to the rule of physics whereby their structure allows them to \"dance\" and be alive in accordance to their environment.",
+      "\"Transcending traditional techniques while staying true to the essence of figurative sculpture is at the core of the Spirits collection.\" <br><br>The figure must be explored fully in order to be understood",
+      "The collaborative process started in 2011 with Angel NUMBER 1 and continued into ect;;;"
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "The foundation of Blake and Boky's collaborative work. This collection explores the beauty within, opening up the figure and diving into the inner structure. The driving force behind this project was to expose the inner world of the figure, one that usually isn't seen. Drawing attention to what is usually hidden became a conduit for deeper introspection. Subsequently, the engineering behind this first desire to open the figure also tied into the second desire : allowing the sculpture to be both static and in movement. Every artwork in this collection is subject to the rule of physics whereby their structure allows them to \"dance\" and be alive in accordance to their environment.",
+        "text": "The foundation of Blake and Boky's collaborative work. This collection explores the beauty within, opening up the figure and diving into the inner structure. The driving force behind this project was to expose the inner world of the figure, one that usually isn't seen. Drawing attention to what is usually hidden became a conduit for deeper introspection. Subsequently, the engineering behind this first desire to open the figure also tied into the second desire : allowing the sculpture to be both static and in movement. Every artwork in this collection is subject to the rule of physics whereby their structure allows them to \"dance\" and be alive in accordance to their environment. "
+      },
+      {
+        "tag": "h4",
+        "html": "\"Transcending traditional techniques while staying true to the essence of figurative sculpture is at the core of the Spirits collection.\" <br><br>The figure must be explored fully in order to be understood",
+        "text": "\"Transcending traditional techniques while staying true to the essence of figurative sculpture is at the core of the Spirits collection.\" \n\nThe figure must be explored fully in order to be understood"
+      },
+      {
+        "tag": "h4",
+        "html": "The collaborative process started in 2011 with Angel NUMBER 1 and continued into ect;;;",
+        "text": "The collaborative process started in 2011 with Angel NUMBER 1 and continued into ect;;;"
+      }
+    ],
+    "meta": {
+      "YEAR": "2011 - 2022",
+      "CATEGORY": "Collaborative",
+      "SIZE": "",
+      "MEDIUM": "Bronze, Gold"
+    },
+    "metaOrder": [
+      "YEAR",
+      "CATEGORY",
+      "SIZE",
+      "MEDIUM"
+    ],
+    "hero": {
+      "image": {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+        "alt": "asherah",
+        "naturalWidth": 640,
+        "naturalHeight": 860,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 1291
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?width=640&height=860",
+        "naturalAspect": 0.7442,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 35
+      }
+    },
+    "gallery": [
+      {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+        "alt": "asherah",
+        "naturalWidth": 640,
+        "naturalHeight": 860,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 1291
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?width=640&height=860",
+        "naturalAspect": 0.7442,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 35
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/spirit-collection/t5edCI0aCEE2GX8frGn65YXy35c.jpg",
+        "alt": "Angel Liwet ",
+        "naturalWidth": 1936,
+        "naturalHeight": 1936,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 730,
+          "y": 1291
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/t5edCI0aCEE2GX8frGn65YXy35c.jpg?scale-down-to=1024&width=1936&height=1936",
+        "naturalAspect": 1,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 12.7
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/spirit-collection/5zg9ObsV2zIDippfMfqf80v82Q.jpg",
+        "alt": "Angel Zuriel ",
+        "naturalWidth": 3703,
+        "naturalHeight": 3700,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 0,
+          "y": 1931
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/5zg9ObsV2zIDippfMfqf80v82Q.jpg?scale-down-to=512&width=3703&height=3700",
+        "naturalAspect": 1.0008,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 43.8
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/spirit-collection/lgNoRHV3UqDY86QZpPPmIgNNc.jpg",
+        "alt": "Ushabtis ",
+        "naturalWidth": 2000,
+        "naturalHeight": 3000,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 487,
+          "y": 1931
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/lgNoRHV3UqDY86QZpPPmIgNNc.jpg?scale-down-to=1024&width=2000&height=3000",
+        "naturalAspect": 0.6667,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 15.6
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/spirit-collection/rRC5wOudDkX446ttZ1fKLxd7ds.jpg",
+        "alt": "Angel Aquariel ",
+        "naturalWidth": 4372,
+        "naturalHeight": 4372,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 973,
+          "y": 1931
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/rRC5wOudDkX446ttZ1fKLxd7ds.jpg?scale-down-to=512&width=4372&height=4372",
+        "naturalAspect": 1,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 43.7
+      }
+    ],
+    "worksEyebrow": "THE WORKS",
+    "worksHeading": "Spirit Collection",
+    "works": [
+      "angel-forces",
+      "angel-vohamanah",
+      "angel-urim",
+      "angel-valoel",
+      "angel-sariel",
+      "angel-ecanus",
+      "angel-leylah",
+      "angel-bastet",
+      "angel-hael",
+      "angel-tahere",
+      "goddess-neith",
+      "angel-asherah",
+      "angel-dalquielle",
+      "angel-angthal"
+    ],
+    "workCards": [
+      {
+        "title": "Angel Forces",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-forces",
+        "target": "/collections/spirit-collection/angel-forces",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-forces/Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 3041
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/Rv3qtmIXL22cWIaujowH1dciYws.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Vohamanah",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-vohamanah",
+        "target": "/collections/spirit-collection/angel-vohamanah",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-forces/574UdZk5eubmgUHg6RyudTUN4.png",
+          "alt": "",
+          "naturalWidth": 804,
+          "naturalHeight": 1214,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 360,
+            "y": 3041
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/574UdZk5eubmgUHg6RyudTUN4.png?scale-down-to=1024&width=804&height=1214",
+          "naturalAspect": 0.6623,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15
+        }
+      },
+      {
+        "title": "Angel Urim",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-urim",
+        "target": "/collections/spirit-collection/angel-urim",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-urim/2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+          "alt": "",
+          "naturalWidth": 533,
+          "naturalHeight": 800,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 720,
+            "y": 3041
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg?width=533&height=800",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Valoel",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-valoel",
+        "target": "/collections/spirit-collection/angel-valoel",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-sariel/Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 1080,
+            "y": 3041
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/Obiz6637tab2rEoNf5FZyz6xxdg.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Sariel",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-sariel",
+        "target": "/collections/spirit-collection/angel-sariel",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-ecanus/gTVictnOFeocBGvHUcwiaMdgI.jpg",
+          "alt": "",
+          "naturalWidth": 475,
+          "naturalHeight": 800,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 4054
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/gTVictnOFeocBGvHUcwiaMdgI.jpg?width=475&height=800",
+          "naturalAspect": 0.5938,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 5.2
+        }
+      },
+      {
+        "title": "Angel Ecanus",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-ecanus",
+        "target": "/collections/spirit-collection/angel-ecanus",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-ecanus/TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+          "alt": "",
+          "naturalWidth": 533,
+          "naturalHeight": 800,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 360,
+            "y": 4054
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg?width=533&height=800",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Leylah",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-leylah",
+        "target": "/collections/spirit-collection/angel-leylah",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-bastet/DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+          "alt": "",
+          "naturalWidth": 572,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 720,
+            "y": 4054
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg?width=572&height=860",
+          "naturalAspect": 0.6651,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.4
+        }
+      },
+      {
+        "title": "Angel Bastet ",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-bastet",
+        "target": "/collections/spirit-collection/angel-bastet",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-bastet/hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 1080,
+            "y": 4054
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Hael ",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-hael",
+        "target": "/collections/spirit-collection/angel-hael",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-bastet/7AgUwllyZtSS1DyfZi00fCIk.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 5067
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Tahere",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-tahere",
+        "target": "/collections/spirit-collection/angel-tahere",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-hael/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 360,
+            "y": 5067
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Goddess Neith",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/goddess-neith",
+        "target": "/collections/spirit-collection/goddess-neith",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-asherah/ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 720,
+            "y": 5067
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/ZTk7WolnKLfstI6Pho3EV1Q24.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Asherah",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-asherah",
+        "target": "/collections/spirit-collection/angel-asherah",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-asherah/kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 1080,
+            "y": 5067
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/kORz0X1sGNfxc1oQbqz5E8Afz0.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Dalquielle",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-dalquielle",
+        "target": "/collections/spirit-collection/angel-dalquielle",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-angthal/uIkt1OfotA2uS3STlkzP9ag.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 6080
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/uIkt1OfotA2uS3STlkzP9ag.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": "Angel Angthal",
+        "date": "Feb 24, 2026",
+        "href": "./spirit-collection/angel-angthal",
+        "target": "/collections/spirit-collection/angel-angthal",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/angel-angthal/PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 360,
+            "y": 6080
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/PHVvw5esASYLZoE2L5sevUnRQ.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      }
+    ],
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Spirit Collection — Blake & Boky",
+      "description": "Works from the Spirit Collection by Blake Ward and Boky Hackel-Ward.",
+      "ogTitle": "Spirit Collection — Blake & Boky",
+      "ogDescription": "Works from the Spirit Collection by Blake Ward and Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/spirit-collection"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Head (eyebrow artist, H1 title)",
+      "Intro text (p / h4 quotes)",
+      "Meta row (YEAR, CATEGORY, SIZE, MEDIUM)",
+      "Image grid (2-up 710x620, then full-width or 3-up)",
+      "The Works (eyebrow, H2, work cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "Spirit Collection : The Angels",
+      "Spirit Collection : The Phantoms",
+      "Spirit Collection : The Ushabtis"
+    ]
+  },
+  {
+    "slug": "in-lucem",
+    "template": "collection",
+    "title": "In Lucem",
+    "eyebrow": "BOKY HACKEL-WARD",
+    "artist": "Boky",
+    "comingSoon": false,
+    "intro": [
+      "This sculpture is a quiet reflection on our role in the degradation of our ecosystem and the challenges of the Anthropocene era. It resonates with the humanitarian crises and the shadows of war that cloud our world. Yet, it refuses to surrender to despair. The inversion challenges us to re-evaluate our approach, to question the status quo, and to consider a path toward healing.",
+      "The radiant light that emanates from the sculpture is not just symbolic; it's a promise—a promise that we possess the power to mend, to restore, and to flourish. It reminds us that even when our world seems to hang upside down, we have the ability to set it right and create a future where our dreams can indeed flourish.",
+      "In its minimalist elegance, this sculpture serves as a poignant call to awaken from our environmental apathy. It implores us to listen to the cries of a planet in peril, to acknowledge the urgency of the Anthropocene, and to take tangible steps to mitigate the destruction of our ecosystem."
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "This sculpture is a quiet reflection on our role in the degradation of our ecosystem and the challenges of the Anthropocene era. It resonates with the humanitarian crises and the shadows of war that cloud our world. Yet, it refuses to surrender to despair. The inversion challenges us to re-evaluate our approach, to question the status quo, and to consider a path toward healing.",
+        "text": "This sculpture is a quiet reflection on our role in the degradation of our ecosystem and the challenges of the Anthropocene era. It resonates with the humanitarian crises and the shadows of war that cloud our world. Yet, it refuses to surrender to despair. The inversion challenges us to re-evaluate our approach, to question the status quo, and to consider a path toward healing."
+      },
+      {
+        "tag": "p",
+        "html": "The radiant light that emanates from the sculpture is not just symbolic; it's a promise—a promise that we possess the power to mend, to restore, and to flourish. It reminds us that even when our world seems to hang upside down, we have the ability to set it right and create a future where our dreams can indeed flourish.",
+        "text": "The radiant light that emanates from the sculpture is not just symbolic; it's a promise—a promise that we possess the power to mend, to restore, and to flourish. It reminds us that even when our world seems to hang upside down, we have the ability to set it right and create a future where our dreams can indeed flourish."
+      },
+      {
+        "tag": "h4",
+        "html": "In its minimalist elegance, this sculpture serves as a poignant call to awaken from our environmental apathy. It implores us to listen to the cries of a planet in peril, to acknowledge the urgency of the Anthropocene, and to take tangible steps to mitigate the destruction of our ecosystem.",
+        "text": "In its minimalist elegance, this sculpture serves as a poignant call to awaken from our environmental apathy. It implores us to listen to the cries of a planet in peril, to acknowledge the urgency of the Anthropocene, and to take tangible steps to mitigate the destruction of our ecosystem."
+      }
+    ],
+    "meta": {
+      "YEAR": "2025",
+      "CATEGORY": "Boky Hackel",
+      "SIZE": "7 artworks",
+      "MEDIUM": "Galvanised Steel, LED"
+    },
+    "metaOrder": [
+      "YEAR",
+      "CATEGORY",
+      "SIZE",
+      "MEDIUM"
+    ],
+    "hero": {
+      "image": {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+        "alt": "letthelight in ",
+        "naturalWidth": 1152,
+        "naturalHeight": 766,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 1360
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png?scale-down-to=1024&width=1152&height=766",
+        "naturalAspect": 1.5039,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 23.9
+      }
+    },
+    "gallery": [
+      {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+        "alt": "letthelight in ",
+        "naturalWidth": 1152,
+        "naturalHeight": 766,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 1360
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png?scale-down-to=1024&width=1152&height=766",
+        "naturalAspect": 1.5039,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 23.9
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/in-lucem/HzAJYilifx65r5dAoy1hyWLjWuk.png",
+        "alt": "",
+        "naturalWidth": 934,
+        "naturalHeight": 772,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 730,
+          "y": 1360
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/HzAJYilifx65r5dAoy1hyWLjWuk.png?width=934&height=772",
+        "naturalAspect": 1.2098,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 5.3
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/in-lucem/MOtfWGKjRCKuRqeE2um1Pn3ODbs.png",
+        "alt": "",
+        "naturalWidth": 866,
+        "naturalHeight": 770,
+        "rendered": {
+          "width": 710,
+          "height": 656.1,
+          "x": 0,
+          "y": 2000
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": false,
+        "liveUrl": "https://framerusercontent.com/images/MOtfWGKjRCKuRqeE2um1Pn3ODbs.png?width=866&height=770",
+        "naturalAspect": 1.1247,
+        "renderedAspect": 1.0822
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/in-lucem/rSxn1anqozIrUjc25w0ibwXwGg.png",
+        "alt": "",
+        "naturalWidth": 1158,
+        "naturalHeight": 766,
+        "rendered": {
+          "width": 710,
+          "height": 656.1,
+          "x": 730,
+          "y": 2000
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/rSxn1anqozIrUjc25w0ibwXwGg.png?scale-down-to=1024&width=1158&height=766",
+        "naturalAspect": 1.5117,
+        "renderedAspect": 1.0822,
+        "cropPercentHidden": 28.4
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/in-lucem/pyKL0j9x4ulYsokuqJZiUFgTgUw.png",
+        "alt": "",
+        "naturalWidth": 1168,
+        "naturalHeight": 930,
+        "rendered": {
+          "width": 710,
+          "height": 656.1,
+          "x": 0,
+          "y": 2676
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pyKL0j9x4ulYsokuqJZiUFgTgUw.png?scale-down-to=1024&width=1168&height=930",
+        "naturalAspect": 1.2559,
+        "renderedAspect": 1.0822,
+        "cropPercentHidden": 13.8
+      }
+    ],
+    "worksEyebrow": "THE WORKS",
+    "worksHeading": "In Lucem",
+    "works": [
+      "letthelightin-indiv",
+      "traumtaub-indiv",
+      "restless-angels-indiv",
+      "can-you-fix-it-indiv"
+    ],
+    "workCards": [
+      {
+        "title": "LETTHELIGHTIN",
+        "date": "Feb 24, 2026",
+        "href": "./in-lucem/letthelightin-indiv",
+        "target": "/collections/in-lucem/letthelightin-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/letthelightin-indiv/Umo72WuUlIwZXSf5EZcZgPZ14g.jpg",
+          "alt": "",
+          "naturalWidth": 3648,
+          "naturalHeight": 2736,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 0,
+            "y": 3612
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/Umo72WuUlIwZXSf5EZcZgPZ14g.jpg?scale-down-to=512&width=3648&height=2736",
+          "naturalAspect": 1.3333,
+          "renderedAspect": 1,
+          "cropPercentHidden": 25
+        }
+      },
+      {
+        "title": "TRAUMTAUB",
+        "date": "Feb 24, 2026",
+        "href": "./in-lucem/traumtaub-indiv",
+        "target": "/collections/in-lucem/traumtaub-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/letthelightin-indiv/O1j4Fx8xnVGwNJA7EMKsyS7uvs.png",
+          "alt": "",
+          "naturalWidth": 1036,
+          "naturalHeight": 992,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 480,
+            "y": 3612
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "liveUrl": "https://framerusercontent.com/images/O1j4Fx8xnVGwNJA7EMKsyS7uvs.png?scale-down-to=512&width=1036&height=992",
+          "naturalAspect": 1.0444,
+          "renderedAspect": 1
+        }
+      },
+      {
+        "title": "Restless Angels ",
+        "date": "Feb 24, 2026",
+        "href": "./in-lucem/restless-angels-indiv",
+        "target": "/collections/in-lucem/restless-angels-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/can-you-fix-it-indiv/8Id870QT4QRyhtQk3Dufh5zsfNY.png",
+          "alt": "",
+          "naturalWidth": 1068,
+          "naturalHeight": 1532,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 960,
+            "y": 3612
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/8Id870QT4QRyhtQk3Dufh5zsfNY.png?scale-down-to=1024&width=1068&height=1532",
+          "naturalAspect": 0.6971,
+          "renderedAspect": 1,
+          "cropPercentHidden": 30.3
+        }
+      },
+      {
+        "title": "CAN YOU FIX IT ? ",
+        "date": "Feb 24, 2026",
+        "href": "./in-lucem/can-you-fix-it-indiv",
+        "target": "/collections/in-lucem/can-you-fix-it-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/can-you-fix-it-indiv/YxdO8xhNu8hZPWMlQfgxvbIs8U.png",
+          "alt": "",
+          "naturalWidth": 1458,
+          "naturalHeight": 1170,
+          "rendered": {
+            "width": 433,
+            "height": 433,
+            "x": 0,
+            "y": 4253
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/YxdO8xhNu8hZPWMlQfgxvbIs8U.png?scale-down-to=512&width=1458&height=1170",
+          "naturalAspect": 1.2462,
+          "renderedAspect": 1,
+          "cropPercentHidden": 19.8
+        }
+      }
+    ],
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "In Lucem — Boky Hackel-Ward",
+      "description": "Works in steel and light from the Steel Studio by Boky Hackel-Ward.",
+      "ogTitle": "In Lucem — Boky Hackel-Ward",
+      "ogDescription": "Works in steel and light from the Steel Studio by Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/in-lucem"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Head (eyebrow artist, H1 title)",
+      "Intro text (p / h4 quotes)",
+      "Meta row (YEAR, CATEGORY, SIZE, MEDIUM)",
+      "Image grid (2-up 710x620, then full-width or 3-up)",
+      "The Works (eyebrow, H2, work cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "Rethink Collection",
+      "In Lucem"
+    ]
+  },
+  {
+    "slug": "fragments",
+    "template": "collection",
+    "title": "Fragments",
+    "eyebrow": "BLAKE WARD",
+    "artist": "Blake",
+    "comingSoon": false,
+    "intro": [
+      "SCULPTURE FOR PEACE"
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "SCULPTURE FOR PEACE",
+        "text": "SCULPTURE FOR PEACE"
+      }
+    ],
+    "meta": {
+      "YEAR": "2025",
+      "CATEGORY": "Blake Ward",
+      "SIZE": "",
+      "MEDIUM": ""
+    },
+    "metaOrder": [
+      "YEAR",
+      "CATEGORY",
+      "SIZE",
+      "MEDIUM"
+    ],
+    "hero": {
+      "image": {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+        "alt": "",
+        "naturalWidth": 3006,
+        "naturalHeight": 1958,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 580
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=1024&width=3006&height=1958",
+        "naturalAspect": 1.5352,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 25.4
+      }
+    },
+    "gallery": [
+      {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+        "alt": "",
+        "naturalWidth": 3006,
+        "naturalHeight": 1958,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 580
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=1024&width=3006&height=1958",
+        "naturalAspect": 1.5352,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 25.4
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/fragments/v11edsikYWVyvmRVc1nwGv1prIA.jpg",
+        "alt": "",
+        "naturalWidth": 1560,
+        "naturalHeight": 1560,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 730,
+          "y": 580
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/v11edsikYWVyvmRVc1nwGv1prIA.jpg?scale-down-to=1024&width=1560&height=1560",
+        "naturalAspect": 1,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 12.7
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/fragments/utsq8VNNkM5qWZPIq5ncTF6KIuU.jpg",
+        "alt": "",
+        "naturalWidth": 1800,
+        "naturalHeight": 1800,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 0,
+          "y": 1220
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/utsq8VNNkM5qWZPIq5ncTF6KIuU.jpg?scale-down-to=512&width=1800&height=1800",
+        "naturalAspect": 1,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 43.7
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/fragments/gPXnlvFuO8md1l8DInIwRtEGPo.jpg",
+        "alt": "",
+        "naturalWidth": 1200,
+        "naturalHeight": 1800,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 487,
+          "y": 1220
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/gPXnlvFuO8md1l8DInIwRtEGPo.jpg?scale-down-to=1024&width=1200&height=1800",
+        "naturalAspect": 0.6667,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 15.6
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/fragments/WT3AKAyS5BqBA2sqWfshKRBUJw.jpg",
+        "alt": "",
+        "naturalWidth": 1200,
+        "naturalHeight": 1800,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 973,
+          "y": 1220
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/WT3AKAyS5BqBA2sqWfshKRBUJw.jpg?scale-down-to=1024&width=1200&height=1800",
+        "naturalAspect": 0.6667,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 15.6
+      }
+    ],
+    "worksEyebrow": "THE WORKS",
+    "worksHeading": "Fragments",
+    "works": [
+      "fragment-pomz-m2",
+      "hades-bl-755",
+      "fragment-claymore-m18a1"
+    ],
+    "workCards": [
+      {
+        "title": "POMZ M2",
+        "date": "Feb 24, 2026",
+        "href": "./fragments/fragment-pomz-m2",
+        "target": "/collections/fragments/fragment-pomz-m2",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/fragment-pomz-m2/R2gqHT7k6pqAvqZkwzdWRxN6w.jpg",
+          "alt": "",
+          "naturalWidth": 1200,
+          "naturalHeight": 1800,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 2330
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/R2gqHT7k6pqAvqZkwzdWRxN6w.jpg?scale-down-to=1024&width=1200&height=1800",
+          "naturalAspect": 0.6667,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.6
+        }
+      },
+      {
+        "title": "Hades BL 755",
+        "date": "Feb 24, 2026",
+        "href": "./fragments/hades-bl-755",
+        "target": "/collections/fragments/hades-bl-755",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/fragment-claymore-m18a1/qDsOpdxDRk86pzFAIat61Z6fM.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 360,
+            "y": 2330
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/qDsOpdxDRk86pzFAIat61Z6fM.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      },
+      {
+        "title": " Claymore M18A1",
+        "date": "Feb 24, 2026",
+        "href": "./fragments/fragment-claymore-m18a1",
+        "target": "/collections/fragments/fragment-claymore-m18a1",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/fragment-claymore-m18a1/MCz5ybnOLqEsQDPCFdZMkzUbxo.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 720,
+            "y": 2330
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/MCz5ybnOLqEsQDPCFdZMkzUbxo.jpg?width=573&height=860",
+          "naturalAspect": 0.6663,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.5
+        }
+      }
+    ],
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Fragments — Blake Ward",
+      "description": "The Fragments Collection by Blake Ward. The partial figure, and an activist art funding the clearing of minefields worldwide.",
+      "ogTitle": "Fragments — Blake Ward",
+      "ogDescription": "The Fragments Collection by Blake Ward. The partial figure, and an activist art funding the clearing of minefields worldwide.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/fragments"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Head (eyebrow artist, H1 title)",
+      "Intro text (p / h4 quotes)",
+      "Meta row (YEAR, CATEGORY, SIZE, MEDIUM)",
+      "Image grid (2-up 710x620, then full-width or 3-up)",
+      "The Works (eyebrow, H2, work cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "The Fragments Collection"
+    ]
+  },
+  {
+    "slug": "figurative-poetry",
+    "template": "collection",
+    "title": "Figurative Poetry",
+    "eyebrow": "BOKY HACKEL-WARD",
+    "artist": "Boky",
+    "comingSoon": false,
+    "intro": [
+      "Figurative Poetry embodies that feeling that simmers within the soul, comes to a boil and erupts into pieces like KABOOM. It is the introspection that develops with pieces like \"Das Ich Und Das Esch\" or \"Loosing Myself in you\"",
+      "Boky's first solo sculptural collection digs deep into her psyche and comments on women's suppression from cultural canons"
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "Figurative Poetry embodies that feeling that simmers within the soul, comes to a boil and erupts into pieces like KABOOM. It is the introspection that develops with pieces like \"Das Ich Und Das Esch\" or \"Loosing Myself in you\"",
+        "text": "Figurative Poetry embodies that feeling that simmers within the soul, comes to a boil and erupts into pieces like KABOOM. It is the introspection that develops with pieces like \"Das Ich Und Das Esch\" or \"Loosing Myself in you\" "
+      },
+      {
+        "tag": "h4",
+        "html": "Boky's first solo sculptural collection digs deep into her psyche and comments on women's suppression from cultural canons",
+        "text": "Boky's first solo sculptural collection digs deep into her psyche and comments on women's suppression from cultural canons "
+      }
+    ],
+    "meta": {
+      "YEAR": "2025",
+      "CATEGORY": "Boky Hackel",
+      "SIZE": "18 534 m²",
+      "MEDIUM": "Bronze, 24k Gold leaf"
+    },
+    "metaOrder": [
+      "YEAR",
+      "CATEGORY",
+      "SIZE",
+      "MEDIUM"
+    ],
+    "hero": {
+      "image": {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+        "alt": "Lilac Flower",
+        "naturalWidth": 1154,
+        "naturalHeight": 956,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 857
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png?scale-down-to=1024&width=1154&height=956",
+        "naturalAspect": 1.2071,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 5.1
+      }
+    },
+    "gallery": [
+      {
+        "role": "gallery",
+        "src": "/assets/collections/coming-soon-blake/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+        "alt": "Lilac Flower",
+        "naturalWidth": 1154,
+        "naturalHeight": 956,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 0,
+          "y": 857
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png?scale-down-to=1024&width=1154&height=956",
+        "naturalAspect": 1.2071,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 5.1
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/figurative-poetry/pq9O1tLagDyUcHIeweOWSebOSyw.png",
+        "alt": "",
+        "naturalWidth": 1147,
+        "naturalHeight": 1518,
+        "rendered": {
+          "width": 710,
+          "height": 620,
+          "x": 730,
+          "y": 857
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pq9O1tLagDyUcHIeweOWSebOSyw.png?scale-down-to=1024&width=1147&height=1518",
+        "naturalAspect": 0.7556,
+        "renderedAspect": 1.1452,
+        "cropPercentHidden": 34
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/figurative-poetry/vLQblsbydSn6uqg0rL76Z5fGU.png",
+        "alt": "",
+        "naturalWidth": 912,
+        "naturalHeight": 1388,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 0,
+          "y": 1497
+        },
+        "objectFit": "cover",
+        "objectPosition": "49.5% 32.3%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/vLQblsbydSn6uqg0rL76Z5fGU.png?scale-down-to=1024&width=912&height=1388",
+        "naturalAspect": 0.6571,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 14.4
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/figurative-poetry/RZWpWjozjI1cpzBTEV2IxY733nE.png",
+        "alt": "",
+        "naturalWidth": 894,
+        "naturalHeight": 1306,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 487,
+          "y": 1497
+        },
+        "objectFit": "cover",
+        "objectPosition": "43.3% 31.7%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/RZWpWjozjI1cpzBTEV2IxY733nE.png?scale-down-to=1024&width=894&height=1306",
+        "naturalAspect": 0.6845,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 17.8
+      },
+      {
+        "role": "gallery",
+        "src": "/assets/collections/figurative-poetry/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+        "alt": "",
+        "naturalWidth": 902,
+        "naturalHeight": 1378,
+        "rendered": {
+          "width": 466.7,
+          "height": 829.6,
+          "x": 973,
+          "y": 1497
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png?scale-down-to=1024&width=902&height=1378",
+        "naturalAspect": 0.6546,
+        "renderedAspect": 0.5626,
+        "cropPercentHidden": 14.1
+      }
+    ],
+    "worksEyebrow": "THE WORKS",
+    "worksHeading": "Figurative Poetry",
+    "works": [
+      "broken-indiv",
+      "coming-apart-at-the-seams-indiv",
+      "loosing-myself-in-you-indiv",
+      "das-ich-und-das-esch-indiv",
+      "damaged-indiv",
+      "kaboom-indiv"
+    ],
+    "workCards": [
+      {
+        "title": "BROKEN ",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/broken-indiv",
+        "target": "/collections/figurative-poetry/broken-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/broken-indiv/edftNZaauJhkan8yTUgi3WMAKac.jpg",
+          "alt": "",
+          "naturalWidth": 1866,
+          "naturalHeight": 1856,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 2607
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/edftNZaauJhkan8yTUgi3WMAKac.jpg?scale-down-to=512&width=1866&height=1856",
+          "naturalAspect": 1.0054,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 44
+        }
+      },
+      {
+        "title": "COMING APART AT THE SEAMS ",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/coming-apart-at-the-seams-indiv",
+        "target": "/collections/figurative-poetry/coming-apart-at-the-seams-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/broken-indiv/35ng1LD7thUoFnKRShsiZyziSA.png",
+          "alt": "",
+          "naturalWidth": 772,
+          "naturalHeight": 1162,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 480,
+            "y": 2607
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/35ng1LD7thUoFnKRShsiZyziSA.png?scale-down-to=1024&width=772&height=1162",
+          "naturalAspect": 0.6644,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.3
+        }
+      },
+      {
+        "title": "Loosing Myself in YOU ",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/loosing-myself-in-you-indiv",
+        "target": "/collections/figurative-poetry/loosing-myself-in-you-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/coming-apart-at-the-seams-indiv/XQXgRY2FgkKoJNhConKFozXNq0.png",
+          "alt": "",
+          "naturalWidth": 1676,
+          "naturalHeight": 1106,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 960,
+            "y": 2607
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/XQXgRY2FgkKoJNhConKFozXNq0.png?scale-down-to=512&width=1676&height=1106",
+          "naturalAspect": 1.5154,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 62.9
+        }
+      },
+      {
+        "title": "Das Ich Und Das Esch ",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/das-ich-und-das-esch-indiv",
+        "target": "/collections/figurative-poetry/das-ich-und-das-esch-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/damaged-indiv/Lz4it7e4E3BodzdkqQ5yX9sZ8I.png",
+          "alt": "",
+          "naturalWidth": 738,
+          "naturalHeight": 1110,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 0,
+            "y": 3620
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/Lz4it7e4E3BodzdkqQ5yX9sZ8I.png?scale-down-to=1024&width=738&height=1110",
+          "naturalAspect": 0.6649,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 15.4
+        }
+      },
+      {
+        "title": "Damaged ",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/damaged-indiv",
+        "target": "/collections/figurative-poetry/damaged-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/damaged-indiv/Ety9kGKMQ37RAdxO87qHlbw.png",
+          "alt": "",
+          "naturalWidth": 750,
+          "naturalHeight": 1140,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 480,
+            "y": 3620
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/Ety9kGKMQ37RAdxO87qHlbw.png?scale-down-to=1024&width=750&height=1140",
+          "naturalAspect": 0.6579,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 14.5
+        }
+      },
+      {
+        "title": "KABOOM!",
+        "date": "Feb 24, 2026",
+        "href": "./figurative-poetry/kaboom-indiv",
+        "target": "/collections/figurative-poetry/kaboom-indiv",
+        "image": {
+          "role": "card",
+          "src": "/assets/works/damaged-indiv/pXBg1VgTuUfaxvUMqPxX5CFtlU.png",
+          "alt": "",
+          "naturalWidth": 768,
+          "naturalHeight": 1172,
+          "rendered": {
+            "width": 433,
+            "height": 769.5,
+            "x": 960,
+            "y": 3620
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "liveUrl": "https://framerusercontent.com/images/pXBg1VgTuUfaxvUMqPxX5CFtlU.png?scale-down-to=1024&width=768&height=1172",
+          "naturalAspect": 0.6553,
+          "renderedAspect": 0.5627,
+          "cropPercentHidden": 14.1
+        }
+      }
+    ],
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Figurative Poetry — Boky Hackel-Ward",
+      "description": "Fragmented faces and figures in bronze and gold by Boky Hackel-Ward.",
+      "ogTitle": "Figurative Poetry — Boky Hackel-Ward",
+      "ogDescription": "Fragmented faces and figures in bronze and gold by Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/figurative-poetry"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Head (eyebrow artist, H1 title)",
+      "Intro text (p / h4 quotes)",
+      "Meta row (YEAR, CATEGORY, SIZE, MEDIUM)",
+      "Image grid (2-up 710x620, then full-width or 3-up)",
+      "The Works (eyebrow, H2, work cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "Figurative Poetry"
+    ]
+  },
+  {
+    "slug": "coming-soon-boky",
+    "template": "coming-soon",
+    "title": "In Preparation",
+    "eyebrow": "BOKY HACKEL-WARD",
+    "artist": "Boky",
+    "comingSoon": true,
+    "status": "THIS COLLECTION IS COMING SOON",
+    "intro": [
+      "The works are complete. What is still being finished is the record of them.",
+      "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially."
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "The works are complete. What is still being finished is the record of them.",
+        "text": "The works are complete. What is still being finished is the record of them."
+      },
+      {
+        "tag": "p",
+        "html": "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially.",
+        "text": "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially."
+      }
+    ],
+    "ctas": [
+      {
+        "label": "REGISTER INTEREST",
+        "href": "../contact",
+        "target": "/contact"
+      },
+      {
+        "label": "BROWSE OTHER COLLECTIONS",
+        "href": "../collections",
+        "target": "/collections"
+      }
+    ],
+    "hero": {
+      "image": {
+        "role": "hero",
+        "src": "/assets/works/damaged-indiv/pXBg1VgTuUfaxvUMqPxX5CFtlU.png",
+        "alt": "",
+        "naturalWidth": 768,
+        "naturalHeight": 1172,
+        "rendered": {
+          "width": 656,
+          "height": 620,
+          "x": 752,
+          "y": 412
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pXBg1VgTuUfaxvUMqPxX5CFtlU.png?scale-down-to=1024&width=768&height=1172",
+        "naturalAspect": 0.6553,
+        "renderedAspect": 1.0581,
+        "cropPercentHidden": 38.1
+      }
+    },
+    "gallery": [],
+    "meta": {},
+    "works": [],
+    "elsewhere": {
+      "eyebrow": "IN THE MEANTIME",
+      "heading": "Collections you can see now",
+      "cards": [
+        {
+          "title": "Andromeda Collection",
+          "date": "May 17, 2026",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+            "alt": "",
+            "naturalWidth": 6594,
+            "naturalHeight": 10854,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=1024&width=6594&height=10854",
+            "naturalAspect": 0.6075,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 7.4
+          }
+        },
+        {
+          "title": "Spirit Collection : The Angels ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+            "alt": "asherah",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?width=640&height=860",
+            "naturalAspect": 0.7442,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 24.4
+          }
+        },
+        {
+          "title": "Spirit Collection : The Phantoms ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+            "alt": "Phantom Elixir",
+            "naturalWidth": 3648,
+            "naturalHeight": 5472,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg?scale-down-to=1024&width=3648&height=5472",
+            "naturalAspect": 0.6667,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 15.6
+          }
+        },
+        {
+          "title": "Spirit Collection : The Ushabtis ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+            "alt": "mafdet mayet",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/cdIbmmNXhBW4uocYrqrNVCU.jpg?width=640&height=860",
+            "naturalAspect": 0.7442,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 24.4
+          }
+        },
+        {
+          "title": "Rethink Collection",
+          "date": "May 12, 2025",
+          "href": "./in-lucem",
+          "target": "/collections/in-lucem",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 1662,
+            "naturalHeight": 1836,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50.7% 44.3%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/GzY5QorY2PhylH1H7Fo1XZuCs.jpg?scale-down-to=1024&width=1662&height=1836",
+            "naturalAspect": 0.9052,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 37.8
+          }
+        },
+        {
+          "title": "The Fragments Collection ",
+          "date": "May 17, 2026",
+          "href": "./fragments",
+          "target": "/collections/fragments",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+            "alt": "",
+            "naturalWidth": 3006,
+            "naturalHeight": 1958,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=512&width=3006&height=1958",
+            "naturalAspect": 1.5352,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 63.3
+          }
+        },
+        {
+          "title": "In Lucem ",
+          "date": "May 12, 2025",
+          "href": "./in-lucem",
+          "target": "/collections/in-lucem",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+            "alt": "letthelight in ",
+            "naturalWidth": 1152,
+            "naturalHeight": 766,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png?scale-down-to=512&width=1152&height=766",
+            "naturalAspect": 1.5039,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 62.6
+          }
+        },
+        {
+          "title": "Figurative Poetry ",
+          "date": "May 12, 2025",
+          "href": "./figurative-poetry",
+          "target": "/collections/figurative-poetry",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+            "alt": "Lilac Flower",
+            "naturalWidth": 1154,
+            "naturalHeight": 956,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png?scale-down-to=512&width=1154&height=956",
+            "naturalAspect": 1.2071,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 53.4
+          }
+        },
+        {
+          "title": "Silentium Aurum",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-boky",
+          "target": "/collections/coming-soon-boky",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+            "alt": "Green Fern",
+            "naturalWidth": 2080,
+            "naturalHeight": 856,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/knpzClyFZ0NxPTTj6K7NCkqNrOU.png?scale-down-to=512&width=2080&height=856",
+            "naturalAspect": 2.4299,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 76.8
+          }
+        },
+        {
+          "title": "The Figures : Marble ",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+            "alt": "Yellow Flower",
+            "naturalWidth": 4294,
+            "naturalHeight": 4294,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "48.7% 46.3%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg?scale-down-to=512&width=4294&height=4294",
+            "naturalAspect": 1,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 43.7
+          }
+        },
+        {
+          "title": "The Figures : Early Work",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 2435,
+            "naturalHeight": 1654,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/kL15X3wXCiQE3KRU3QxrajvXxE.jpg?scale-down-to=512&width=2435&height=1654",
+            "naturalAspect": 1.4722,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 61.8
+          }
+        },
+        {
+          "title": "Public Installations ",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+            "alt": "Purple Flower",
+            "naturalWidth": 860,
+            "naturalHeight": 573,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "55.4% 38%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg?scale-down-to=512&width=860&height=573",
+            "naturalAspect": 1.5009,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 62.5
+          }
+        }
+      ]
+    },
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Coming Soon — Boky Hackel-Ward",
+      "description": "This collection is in preparation. Photography and cataloguing are underway.",
+      "ogTitle": "Coming Soon — Boky Hackel-Ward",
+      "ogDescription": "This collection is in preparation. Photography and cataloguing are underway.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/coming-soon-boky"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Hero (eyebrow, H1, status)",
+      "Split (text + CTAs | plate image)",
+      "Elsewhere (eyebrow, heading, collection cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "Silentium Aurum"
+    ]
+  },
+  {
+    "slug": "coming-soon-blake",
+    "template": "coming-soon",
+    "title": "In Preparation",
+    "eyebrow": "BLAKE WARD",
+    "artist": "Blake",
+    "comingSoon": true,
+    "status": "THIS COLLECTION IS COMING SOON",
+    "intro": [
+      "The works are complete. What is still being finished is the record of them.",
+      "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially."
+    ],
+    "introBlocks": [
+      {
+        "tag": "p",
+        "html": "The works are complete. What is still being finished is the record of them.",
+        "text": "The works are complete. What is still being finished is the record of them."
+      },
+      {
+        "tag": "p",
+        "html": "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially.",
+        "text": "Photography, dimensions, materials and the writing that sits alongside each piece are being prepared. We would rather show this collection properly than partially."
+      }
+    ],
+    "ctas": [
+      {
+        "label": "REGISTER INTEREST",
+        "href": "../contact",
+        "target": "/contact"
+      },
+      {
+        "label": "BROWSE OTHER COLLECTIONS",
+        "href": "../collections",
+        "target": "/collections"
+      }
+    ],
+    "hero": {
+      "image": {
+        "role": "hero",
+        "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+        "alt": "",
+        "naturalWidth": 3006,
+        "naturalHeight": 1958,
+        "rendered": {
+          "width": 656,
+          "height": 620,
+          "x": 752,
+          "y": 412
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=1024&width=3006&height=1958",
+        "naturalAspect": 1.5352,
+        "renderedAspect": 1.0581,
+        "cropPercentHidden": 31.1
+      }
+    },
+    "gallery": [],
+    "meta": {},
+    "works": [],
+    "elsewhere": {
+      "eyebrow": "IN THE MEANTIME",
+      "heading": "Collections you can see now",
+      "cards": [
+        {
+          "title": "Andromeda Collection",
+          "date": "May 17, 2026",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+            "alt": "",
+            "naturalWidth": 6594,
+            "naturalHeight": 10854,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=1024&width=6594&height=10854",
+            "naturalAspect": 0.6075,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 7.4
+          }
+        },
+        {
+          "title": "Spirit Collection : The Angels ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+            "alt": "asherah",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?width=640&height=860",
+            "naturalAspect": 0.7442,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 24.4
+          }
+        },
+        {
+          "title": "Spirit Collection : The Phantoms ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+            "alt": "Phantom Elixir",
+            "naturalWidth": 3648,
+            "naturalHeight": 5472,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg?scale-down-to=1024&width=3648&height=5472",
+            "naturalAspect": 0.6667,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 15.6
+          }
+        },
+        {
+          "title": "Spirit Collection : The Ushabtis ",
+          "date": "May 12, 2025",
+          "href": "./spirit-collection",
+          "target": "/collections/spirit-collection",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+            "alt": "mafdet mayet",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 1193
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/cdIbmmNXhBW4uocYrqrNVCU.jpg?width=640&height=860",
+            "naturalAspect": 0.7442,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 24.4
+          }
+        },
+        {
+          "title": "Rethink Collection",
+          "date": "May 12, 2025",
+          "href": "./in-lucem",
+          "target": "/collections/in-lucem",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 1662,
+            "naturalHeight": 1836,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50.7% 44.3%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/GzY5QorY2PhylH1H7Fo1XZuCs.jpg?scale-down-to=1024&width=1662&height=1836",
+            "naturalAspect": 0.9052,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 37.8
+          }
+        },
+        {
+          "title": "The Fragments Collection ",
+          "date": "May 17, 2026",
+          "href": "./fragments",
+          "target": "/collections/fragments",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+            "alt": "",
+            "naturalWidth": 3006,
+            "naturalHeight": 1958,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=1024&width=3006&height=1958",
+            "naturalAspect": 1.5352,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 63.3
+          }
+        },
+        {
+          "title": "In Lucem ",
+          "date": "May 12, 2025",
+          "href": "./in-lucem",
+          "target": "/collections/in-lucem",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+            "alt": "letthelight in ",
+            "naturalWidth": 1152,
+            "naturalHeight": 766,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png?scale-down-to=512&width=1152&height=766",
+            "naturalAspect": 1.5039,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 62.6
+          }
+        },
+        {
+          "title": "Figurative Poetry ",
+          "date": "May 12, 2025",
+          "href": "./figurative-poetry",
+          "target": "/collections/figurative-poetry",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+            "alt": "Lilac Flower",
+            "naturalWidth": 1154,
+            "naturalHeight": 956,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 2048
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png?scale-down-to=512&width=1154&height=956",
+            "naturalAspect": 1.2071,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 53.4
+          }
+        },
+        {
+          "title": "Silentium Aurum",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-boky",
+          "target": "/collections/coming-soon-boky",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+            "alt": "Green Fern",
+            "naturalWidth": 2080,
+            "naturalHeight": 856,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 32,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/knpzClyFZ0NxPTTj6K7NCkqNrOU.png?scale-down-to=512&width=2080&height=856",
+            "naturalAspect": 2.4299,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 76.8
+          }
+        },
+        {
+          "title": "The Figures : Marble ",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+            "alt": "Yellow Flower",
+            "naturalWidth": 4294,
+            "naturalHeight": 4294,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 376,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "48.7% 46.3%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg?scale-down-to=512&width=4294&height=4294",
+            "naturalAspect": 1,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 43.7
+          }
+        },
+        {
+          "title": "The Figures : Early Work",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 2435,
+            "naturalHeight": 1654,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 720,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/kL15X3wXCiQE3KRU3QxrajvXxE.jpg?scale-down-to=512&width=2435&height=1654",
+            "naturalAspect": 1.4722,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 61.8
+          }
+        },
+        {
+          "title": "Public Installations ",
+          "date": "May 12, 2025",
+          "href": "./coming-soon-blake",
+          "target": "/collections/coming-soon-blake",
+          "image": {
+            "role": "card",
+            "src": "/assets/collections/coming-soon-blake/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+            "alt": "Purple Flower",
+            "naturalWidth": 860,
+            "naturalHeight": 573,
+            "rendered": {
+              "width": 344,
+              "height": 611.3,
+              "x": 1064,
+              "y": 2902
+            },
+            "objectFit": "cover",
+            "objectPosition": "55.4% 38%",
+            "cropped": true,
+            "liveUrl": "https://framerusercontent.com/images/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg?scale-down-to=512&width=860&height=573",
+            "naturalAspect": 1.5009,
+            "renderedAspect": 0.5627,
+            "cropPercentHidden": 62.5
+          }
+        }
+      ]
+    },
+    "back": [
+      {
+        "label": "Collections",
+        "href": "../collections",
+        "fixed": true
+      }
+    ],
+    "seo": {
+      "title": "Coming Soon — Blake Ward",
+      "description": "This collection is in preparation. Photography and cataloguing are underway.",
+      "ogTitle": "Coming Soon — Blake Ward",
+      "ogDescription": "This collection is in preparation. Photography and cataloguing are underway.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/collections/coming-soon-blake"
+    },
+    "sectionOrder": [
+      "Back (fixed)",
+      "Hero (eyebrow, H1, status)",
+      "Split (text + CTAs | plate image)",
+      "Elsewhere (eyebrow, heading, collection cards 4-up)",
+      "Footer"
+    ],
+    "indexCards": [
+      "Andromeda Collection",
+      "The Figures : Marble",
+      "The Figures : Early Work",
+      "Public Installations"
+    ]
+  }
+]

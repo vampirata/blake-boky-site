@@ -1,0 +1,1944 @@
+[
+ {
+  "type": "ComponentNode",
+  "id": "X4T7SLIlh",
+  "name": "Components/Cards/Project Thumbnail",
+  "variables": [
+   {
+    "key": "$control__thumbnail",
+    "id": "XDTP5Ksba",
+    "name": "Thumbnail",
+    "node": "Variable",
+    "type": "image"
+   },
+   {
+    "key": "$control__projectTitle",
+    "id": "AVO_fi9Cb",
+    "name": "Project Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Project Title"
+   },
+   {
+    "key": "$control__category",
+    "id": "vCHxhgKK8",
+    "name": "Category",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Category"
+   },
+   {
+    "key": "$control__link",
+    "id": "iYA8W9qQA",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "onClick",
+    "id": "WEXOnqxL2",
+    "name": "Click",
+    "node": "EventHandlerVariable",
+    "type": "eventhandler"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "dqbEJbV_7",
+    "name": "Desktop"
+   },
+   {
+    "id": "puDS0siTQ",
+    "name": "Tablet Mobile"
+   },
+   {
+    "id": "pa3L9ut29",
+    "name": "Desktop"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 21
+ },
+ {
+  "type": "ComponentNode",
+  "id": "pEH6O5jlf",
+  "name": "Components/Elements/Hero Image",
+  "variables": [
+   {
+    "key": "$control__image",
+    "id": "B1_4iG1nE",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,Llb6yrNxIwh1NHxIQYfSfNnx4.jpg?originalFilename=_B3I5600+3.jpg&width=1600&height=2400"
+   },
+   {
+    "key": "$control__damaged",
+    "id": "OTRBGFhGG",
+    "name": "Damaged",
+    "node": "Variable",
+    "type": "richtext",
+    "initialValue": [
+     {
+      "type": "TextBlock",
+      "id": "v:pEH6O5jlf/OTRBGFhGG:0",
+      "attributes": {
+       "tag": "h1"
+      },
+      "children": [
+       {
+        "type": "TextRun",
+        "id": "v:pEH6O5jlf/OTRBGFhGG:0:0",
+        "attributes": {
+         "text": "Damaged by Boky Hackel explores the beauty in resilience "
+        }
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "id": "v:pEH6O5jlf/OTRBGFhGG:1",
+      "attributes": {
+       "tag": "p"
+      },
+      "children": [
+       {
+        "type": "TextLineBreak",
+        "id": "v:pEH6O5jlf/OTRBGFhGG:1:0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "$control__damagedBokyHackel",
+    "id": "ik7Gp5nPL",
+    "name": "Damaged Boky Hackel",
+    "node": "Variable",
+    "type": "string",
+    "displayTextArea": true
+   },
+   {
+    "key": "$control__link",
+    "id": "e8RePfl4u",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "bMnUN9p0P",
+    "name": "Default"
+   },
+   {
+    "id": "aR1MoFLP6",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 8
+ },
+ {
+  "type": "ComponentNode",
+  "id": "RKOTpOXF5",
+  "name": "Components/Cards/Article Thumbnail",
+  "variables": [
+   {
+    "key": "$control__image",
+    "id": "bqoZ1vzwX",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg?originalFilename=DSC01243+copia2.jpg&width=1100&height=801"
+   },
+   {
+    "key": "$control__date",
+    "id": "MND8LdSQz",
+    "name": "Date",
+    "node": "DateVariable",
+    "type": "date",
+    "displayTime": false,
+    "initialValue": "2026-02-24T00:00:00.000Z"
+   },
+   {
+    "key": "$control__title",
+    "id": "gUkqhTZ3m",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Invoco Te Divina Stella : Back at work amongst the stars"
+   },
+   {
+    "key": "$control__link",
+    "id": "lx4fA7yAO",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__dateColor",
+    "id": "b7ryXcvU0",
+    "name": "Date Color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b, rgb(255, 255, 255)) /* {\"name\":\"White\"} */"
+   },
+   {
+    "key": "$control__dateColor2",
+    "id": "V7ndv5bVZ",
+    "name": "Date Color 2",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed, rgb(245, 242, 235)) /* {\"name\":\"Cream\"} */"
+   },
+   {
+    "key": "$control__textColor",
+    "id": "mkTaDNVK9",
+    "name": "text color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "hsl(0, 0%, 0%)"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "S95wOu3pi",
+    "name": "Default"
+   },
+   {
+    "id": "lRsYAhKQm",
+    "name": "Tablet Phone"
+   },
+   {
+    "id": "vZVu_Dmby",
+    "name": "Square Desktop"
+   },
+   {
+    "id": "m6QDM3iib",
+    "name": "Square ipad"
+   },
+   {
+    "id": "ltqMdPql0",
+    "name": "Default"
+   },
+   {
+    "id": "iH6Qc55JH",
+    "name": "Square Desktop"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 42
+ },
+ {
+  "type": "ComponentNode",
+  "id": "GvKVGLOJg",
+  "name": "Components/Nav/Footer",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "qyug1LCdi",
+    "name": "Desktop"
+   },
+   {
+    "id": "Wx9iJPKLV",
+    "name": "Tablet"
+   },
+   {
+    "id": "eEYTUVL2Z",
+    "name": "Phone"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 129
+ },
+ {
+  "type": "ComponentNode",
+  "id": "ZojagHbtw",
+  "name": "Components/Elements/Slideshow",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "QaxeoQIqa",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 9
+ },
+ {
+  "type": "ComponentNode",
+  "id": "Hk7nfY1pH",
+  "name": "Components/Buttons/Button",
+  "variables": [
+   {
+    "key": "$control__linkTitle",
+    "id": "rUOs_OBO6",
+    "name": "Link Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Link"
+   },
+   {
+    "key": "$control__link",
+    "id": "ItJC5Vlba",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "onClick",
+    "id": "zUiywaxwB",
+    "name": "Click",
+    "node": "EventHandlerVariable",
+    "type": "eventhandler"
+   },
+   {
+    "set": "EqX8thWQjdZcOB1c6p5N",
+    "initialValue": "Arrow Up Right",
+    "key": "$control__icon",
+    "id": "MujZdBrM2",
+    "name": "Icon",
+    "node": "IconVariable",
+    "type": "icon"
+   },
+   {
+    "key": "$control__iconVisible",
+    "id": "Caxu4_yqQ",
+    "name": "Icon Visible",
+    "node": "Variable",
+    "type": "boolean",
+    "initialValue": true
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "lMgciJNN0",
+    "name": "Light"
+   },
+   {
+    "id": "MXBPoEQxW",
+    "name": "Tablet Mobile Menu Link"
+   },
+   {
+    "id": "Mp6HVSwgB",
+    "name": "Dark"
+   },
+   {
+    "id": "udLW4CcCR",
+    "name": "dark tablet"
+   },
+   {
+    "id": "kr3UKKs0d",
+    "name": "Light"
+   },
+   {
+    "id": "a1oEmIe_J",
+    "name": "Dark"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 30
+ },
+ {
+  "type": "ComponentNode",
+  "id": "kegOod3C4",
+  "name": "Components/Nav/CTA",
+  "variables": [
+   {
+    "key": "$control__imageVisible",
+    "id": "GPkKf80PA",
+    "name": "Image Visible",
+    "node": "Variable",
+    "type": "boolean",
+    "initialValue": true
+   },
+   {
+    "key": "$control__image",
+    "id": "zQt972Y2J",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,1q2tzHqZoBEYFRYSDfS76YkxWc.jpg?originalFilename=B%26B+Portrait_37V0957+copie.jpg&width=3446&height=2986"
+   },
+   {
+    "key": "$control__cTABackgroundColor",
+    "id": "vCSfPcbQ5",
+    "name": "CTA Background Color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e, rgb(15, 15, 15)) /* {\"name\":\"Grey Background\"} */"
+   },
+   {
+    "key": "$control__color",
+    "id": "gwXiMqWp1",
+    "name": "Color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "gSRxNlgI3",
+    "name": "Desktop"
+   },
+   {
+    "id": "cO9U8Yc3j",
+    "name": "Tablet"
+   },
+   {
+    "id": "t9i86RRMV",
+    "name": "Phone"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 24
+ },
+ {
+  "type": "ComponentNode",
+  "id": "KQfCHDI0l",
+  "name": "Components/Nav/Menu",
+  "variables": [
+   {
+    "key": "$control__pageName",
+    "id": "zN9Mqa38W",
+    "name": "Page Name",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Page"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "xXr6yRQoi",
+    "name": "Desktop"
+   },
+   {
+    "id": "KKkozFKlz",
+    "name": "Desktop Open"
+   },
+   {
+    "id": "zeV6mTov9",
+    "name": "Tablet Mobile"
+   },
+   {
+    "id": "EhghlMuFO",
+    "name": "Tablet Mobile Open"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 78
+ },
+ {
+  "type": "ComponentNode",
+  "id": "vNO6Dt0tQ",
+  "name": "Components/Nav/Menu Hover",
+  "variables": [
+   {
+    "key": "$control__linkTitle",
+    "id": "vtMbvQyCb",
+    "name": "Link Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Biography"
+   },
+   {
+    "key": "$control__link",
+    "id": "qlufqdAJr",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "onClick",
+    "id": "mBXAHFGC_",
+    "name": "Click",
+    "node": "EventHandlerVariable",
+    "type": "eventhandler"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "Ywy1pwzns",
+    "name": "Default"
+   },
+   {
+    "id": "MiKFbbJ2G",
+    "name": "Tablet Mobile"
+   },
+   {
+    "id": "dBjC9gqDu",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 9
+ },
+ {
+  "type": "ComponentNode",
+  "id": "TfwPcyYIe",
+  "name": "Components/Elements/Page Loader",
+  "variables": [
+   {
+    "key": "$control__pageTitle",
+    "id": "kxe5n8xDP",
+    "name": "Page Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Projects"
+   },
+   {
+    "key": "$control__fillColorBackground",
+    "id": "W6WfsRpcC",
+    "name": "Fill Color Background",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e, rgb(15, 15, 15))"
+   },
+   {
+    "key": "$control__paperTittleColor",
+    "id": "Iv1yXxkLb",
+    "name": "Paper Tittle Color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b, rgb(255, 255, 255)) /* {\"name\":\"White\"} */"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "QLWwCC1ON",
+    "name": "Start"
+   },
+   {
+    "id": "H5uyHSgIf",
+    "name": "Arrive"
+   },
+   {
+    "id": "bPSunVPP1",
+    "name": "Phone"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 12
+ },
+ {
+  "type": "ComponentNode",
+  "id": "RAt2GOKHA",
+  "name": "Components/Buttons/Mini Link",
+  "variables": [
+   {
+    "key": "$control__filterName",
+    "id": "btAxKAciG",
+    "name": "Filter Name",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Architecture"
+   },
+   {
+    "key": "onClick",
+    "id": "aJLxZfJ3s",
+    "name": "Click",
+    "node": "EventHandlerVariable",
+    "type": "eventhandler"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "UYQxMdhNT",
+    "name": "Defaut"
+   },
+   {
+    "id": "TNAXyU8WD",
+    "name": "Hover"
+   },
+   {
+    "id": "b0TPNyrCe",
+    "name": "Defaut"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 9
+ },
+ {
+  "type": "ComponentNode",
+  "id": "b2Fo96jRF",
+  "name": "Components/Elements/Project Views",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "TeTxxSVxx",
+    "name": "All Desktop Grid"
+   },
+   {
+    "id": "k0MaDnV1p",
+    "name": "All Tablet Grid"
+   },
+   {
+    "id": "YklFUjcmY",
+    "name": "All Phone Grid"
+   },
+   {
+    "id": "HWgAI0OJu",
+    "name": "Architecture Desktop Grid"
+   },
+   {
+    "id": "Lr59QJjxG",
+    "name": "Architecture Tablet Grid"
+   },
+   {
+    "id": "XsJrRJ2Et",
+    "name": "Architecture Phone Grid"
+   },
+   {
+    "id": "RaNcDCv4w",
+    "name": "Building Desktop Grid"
+   },
+   {
+    "id": "fMGvm2dbW",
+    "name": "Building Tablet Grid"
+   },
+   {
+    "id": "w7WK3Ms4p",
+    "name": "Building Phone Grid"
+   },
+   {
+    "id": "Qzec4tX5d",
+    "name": "Interriors Desktop Grid"
+   },
+   {
+    "id": "QUyzw8gXp",
+    "name": "Interriors Tablet Grid"
+   },
+   {
+    "id": "LjsrCz8iq",
+    "name": "Interriors Phone Grid"
+   },
+   {
+    "id": "mcGBRq0Vg",
+    "name": "Renovation Desktop Grid"
+   },
+   {
+    "id": "jQPGnJm34",
+    "name": "Renovation Tablet Grid"
+   },
+   {
+    "id": "i_xqkPp2M",
+    "name": "Renovation Phone Grid"
+   },
+   {
+    "id": "poPu6ItLG",
+    "name": "Scenography Desktop Grid"
+   },
+   {
+    "id": "bIJUC_1vy",
+    "name": "Scenography Tablet Grid"
+   },
+   {
+    "id": "aPZ_hFrdy",
+    "name": "Scenography Phone Grid"
+   },
+   {
+    "id": "dpaIW0FR7",
+    "name": "All Desktop List"
+   },
+   {
+    "id": "qsXfDyROB",
+    "name": "All Tablet List"
+   },
+   {
+    "id": "YzAW2ZW7O",
+    "name": "All Phone List"
+   },
+   {
+    "id": "zs8ewvUzz",
+    "name": "Architecture Desktop List"
+   },
+   {
+    "id": "b0qQZEKq5",
+    "name": "Architecture Tablet List"
+   },
+   {
+    "id": "xadbMXBL6",
+    "name": "Architecture Phone List"
+   },
+   {
+    "id": "pzCs4qjwy",
+    "name": "Building Desktop List"
+   },
+   {
+    "id": "bCCpZc8rF",
+    "name": "Building Tablet List"
+   },
+   {
+    "id": "QClMCgX98",
+    "name": "Building Phone List"
+   },
+   {
+    "id": "JDvumY76k",
+    "name": "Interriors Desktop List"
+   },
+   {
+    "id": "teu067_Ln",
+    "name": "Interriors Tablet List"
+   },
+   {
+    "id": "IrQckDHGJ",
+    "name": "Interriors Phone List"
+   },
+   {
+    "id": "ppx_HUzBi",
+    "name": "Renovation Desktop List"
+   },
+   {
+    "id": "jADaAaeii",
+    "name": "Renovation Tablet List"
+   },
+   {
+    "id": "k8RWHxDhZ",
+    "name": "Renovation Phone List"
+   },
+   {
+    "id": "avsHN5VPO",
+    "name": "Scenography Desktop List"
+   },
+   {
+    "id": "QIqCTroQ_",
+    "name": "Scenography Tablet List"
+   },
+   {
+    "id": "eAH6pCAvC",
+    "name": "Scenography Phone List"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 1188
+ },
+ {
+  "type": "ComponentNode",
+  "id": "JTCQMJf0b",
+  "name": "Components/Cards/Listed Project",
+  "variables": [
+   {
+    "key": "$control__title",
+    "id": "zzNo0M4uk",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Bang Olufsen"
+   },
+   {
+    "key": "$control__image",
+    "id": "rNdlkCGcP",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image"
+   },
+   {
+    "key": "$control__category",
+    "id": "i4N6qJs5k",
+    "name": "Category",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Category"
+   },
+   {
+    "key": "$control__link",
+    "id": "Fta4gQcVt",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "wYCuFnqXu",
+    "name": "Desktop"
+   },
+   {
+    "id": "Mo2h1cowG",
+    "name": "Desktop Hover"
+   },
+   {
+    "id": "g7f5j6VMu",
+    "name": "Tablet Mobile"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 24
+ },
+ {
+  "type": "ComponentNode",
+  "id": "YJDLB9X_k",
+  "name": "Components/Elements/Title Animation",
+  "variables": [
+   {
+    "key": "$control__theSpiritCollection",
+    "id": "kxe5n8xDP",
+    "name": "The Spirit Collection`",
+    "node": "Variable",
+    "type": "string",
+    "displayTextArea": true,
+    "initialValue": "The Spirit Collection"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "szuj6HtIU",
+    "name": "Start"
+   },
+   {
+    "id": "rJ_2TqNwG",
+    "name": "Arrive"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 8
+ },
+ {
+  "type": "ComponentNode",
+  "id": "Z9pz8RFfP",
+  "name": "Components/Elements/Images Section",
+  "variables": [
+   {
+    "key": "$control__bAndB",
+    "id": "eoNNCbrJJ",
+    "name": "B and B",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": {
+     "positionY": "28.6%",
+     "positionX": "40.4%",
+     "value": "data:framer/asset-reference,kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg?originalFilename=IMG_5265.jpg&width=1932&height=1932",
+     "type": "image"
+    }
+   },
+   {
+    "key": "$control__image2",
+    "id": "QIqcyBlDo",
+    "name": "Image 2",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": {
+     "positionY": "17.4%",
+     "positionX": "54%",
+     "value": "data:framer/asset-reference,xRnTiT8jV2xgkr4LwSk1IeF6Niw.jpg?originalFilename=Couple+Lovers+Front+SQ+1.4MB+20.jpg&width=2013&height=2013",
+     "type": "image"
+    }
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "vP5OWCDoy",
+    "name": "Desktop"
+   },
+   {
+    "id": "L4X4E7MtP",
+    "name": "Desktop Hover"
+   },
+   {
+    "id": "VfcAVMENd",
+    "name": "Tablet"
+   },
+   {
+    "id": "xrGnBMXaj",
+    "name": "Phone"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 12
+ },
+ {
+  "type": "ComponentNode",
+  "id": "jrQkPLIyz",
+  "name": "Components/Cards/Partner Card",
+  "variables": [
+   {
+    "key": "$control__sculpturePhoto",
+    "id": "iz0fztLoy",
+    "name": "Sculpture Photo",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,piHxkksR9qxMec1gbbWwlg3q0s.jpg?originalFilename=Ecanus-SQ-8991.jpg&width=4134&height=4134"
+   },
+   {
+    "key": "$control__sculptureName",
+    "id": "Bf3bl2R6y",
+    "name": "Sculpture Name",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Angel Ecanus "
+   },
+   {
+    "key": "$control__yearBuilt",
+    "id": "WBM32k1Jx",
+    "name": "Year built",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "2011"
+   },
+   {
+    "key": "$control__dimensions",
+    "id": "ikxJR3jTE",
+    "name": "Dimensions",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "20 x 33 x 24 cm"
+   },
+   {
+    "key": "$control__information",
+    "id": "WEJqpU34p",
+    "name": "Information",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "Y0kw82pNP",
+    "name": "Default"
+   },
+   {
+    "id": "kMWCj53JQ",
+    "name": "Variant 2"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 14
+ },
+ {
+  "type": "ComponentNode",
+  "id": "GgMAA3zmO",
+  "name": "Components/Buttons/CTA Button",
+  "variables": [
+   {
+    "key": "$control__title",
+    "id": "geQVYIclk",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Get Started"
+   },
+   {
+    "key": "$control__iconVisibility",
+    "id": "fOD7Xyynk",
+    "name": "Icon Visibility",
+    "node": "Variable",
+    "type": "boolean",
+    "initialValue": true
+   },
+   {
+    "key": "$control__link",
+    "id": "RY28el7my",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "LH7nn_gUw",
+    "name": "Button"
+   },
+   {
+    "id": "ItYJ8mU4E",
+    "name": "Button Secondary"
+   },
+   {
+    "id": "Lt7H8IC4W",
+    "name": "Button"
+   },
+   {
+    "id": "HSITaxV5K",
+    "name": "Button Secondary"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 12
+ },
+ {
+  "type": "ComponentNode",
+  "id": "zpA4hdvhS",
+  "name": "Components/Buttons/Form Button",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "zmyKTE0QK",
+    "name": "Default"
+   },
+   {
+    "id": "CsHzuzFxP",
+    "name": "Loading"
+   },
+   {
+    "id": "F0RrIEwtp",
+    "name": "Disabled"
+   },
+   {
+    "id": "YiTdqEO5R",
+    "name": "Success"
+   },
+   {
+    "id": "LszMTqRh3",
+    "name": "Error"
+   },
+   {
+    "id": "e9ElZe9ap",
+    "name": "Default"
+   },
+   {
+    "id": "qxjm6tiQP",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 49
+ },
+ {
+  "type": "ComponentNode",
+  "id": "FZLx5uNBa",
+  "name": "Components/Menu 2",
+  "variables": [
+   {
+    "key": "$control__pageName",
+    "id": "zN9Mqa38W",
+    "name": "Page Name",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Page"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "K3IDiL_WB",
+    "name": "Desktop"
+   },
+   {
+    "id": "mQ5f0WtQw",
+    "name": "Desktop Open"
+   },
+   {
+    "id": "EvVTSVm13",
+    "name": "Tablet Mobile"
+   },
+   {
+    "id": "bQO2AozAX",
+    "name": "Tablet Mobile Open"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 48
+ },
+ {
+  "type": "ComponentNode",
+  "id": "cTZlPAz08",
+  "name": "Components/Get Template Button",
+  "variables": [
+   {
+    "key": "$control__link",
+    "id": "B5eVDcTou",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "QoCPcQb3C",
+    "name": "Primary"
+   },
+   {
+    "id": "LSBi9OXcb",
+    "name": "Primary"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 20
+ },
+ {
+  "type": "ComponentNode",
+  "id": "NYpnO0agY",
+  "name": "Components/Art Peace",
+  "variables": [
+   {
+    "key": "$control__sculpturePhoto",
+    "id": "iz0fztLoy",
+    "name": "Sculpture Photo",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg?originalFilename=Hetheru1311.jpg&width=573&height=860"
+   },
+   {
+    "key": "$control__sculptureName",
+    "id": "Bf3bl2R6y",
+    "name": "Sculpture name",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Hathor "
+   },
+   {
+    "key": "$control__collection",
+    "id": "WBM32k1Jx",
+    "name": "Collection",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Spirit Collection"
+   },
+   {
+    "key": "$control__info",
+    "id": "ikxJR3jTE",
+    "name": "Info",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "2019, Bronze "
+   },
+   {
+    "key": "$control__link",
+    "id": "WEJqpU34p",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "Vhiln0h5p",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 7
+ },
+ {
+  "type": "ComponentNode",
+  "id": "yhhLCp9H3",
+  "name": "Components/Cards",
+  "variables": [
+   {
+    "key": "$control__date",
+    "id": "lOdBV5_Ci",
+    "name": "Date",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "05.03.2025"
+   },
+   {
+    "key": "$control__critique",
+    "id": "UXbp7MQDG",
+    "name": "Critique",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Writer"
+   },
+   {
+    "key": "$control__title",
+    "id": "bco3IKJHN",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Tittle"
+   },
+   {
+    "key": "$control__content",
+    "id": "AEqkxBav2",
+    "name": "Content",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod temporLorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor."
+   },
+   {
+    "key": "$control__link",
+    "id": "yW1qSaVGW",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__cursor",
+    "id": "mZ7gvSc8Z",
+    "name": "Cursor",
+    "node": "Variable",
+    "type": "customcursor"
+   },
+   {
+    "key": "$control__image",
+    "id": "d3pvndvsK",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,jXNMHe4EDODU2YpPQ94C4Xog2E.png?originalFilename=Screenshot+2026-05-20+at+12.22.32.png&width=2056&height=1652"
+   },
+   {
+    "key": "$control__link2",
+    "id": "OYufUVJ5T",
+    "name": "Link 2",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__textColor",
+    "id": "aVJp4LlSD",
+    "name": "Text color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "lnDJQ94SL",
+    "name": "Desktop"
+   },
+   {
+    "id": "bSyHoPbPo",
+    "name": "IPhone"
+   },
+   {
+    "id": "iT1IQuxZE",
+    "name": "Desktop"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 85
+ },
+ {
+  "type": "ComponentNode",
+  "id": "mU88NyRq9",
+  "name": "Components/Title Animation 2",
+  "variables": [
+   {
+    "key": "$control__pageTitle",
+    "id": "kxe5n8xDP",
+    "name": "Page Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Projects"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "A1RTOh6zV",
+    "name": "Start"
+   },
+   {
+    "id": "aZUb06V3B",
+    "name": "Arrive"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 8
+ },
+ {
+  "type": "ComponentNode",
+  "id": "pLmRoX9GX",
+  "name": "Components/Slideshow 2",
+  "variables": [
+   {
+    "key": "$control__image1",
+    "id": "Z0QXmTjyB",
+    "name": "Image 1",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": {
+     "positionY": "50%",
+     "positionX": "50%",
+     "value": "data:framer/asset-reference,lqY2qwr87MdNXqzvmOhJOGT5zE.jpg?originalFilename=16479138393716601520.jpg&width=4031&height=3024",
+     "type": "image"
+    }
+   },
+   {
+    "key": "$control__image2",
+    "id": "A0U38GAM8",
+    "name": "Image 2",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,SOnPZJXYWgkRGLxp1MoixA09sUU.jpg?originalFilename=13137826231647937421.jpg&width=1052&height=1052"
+   },
+   {
+    "key": "$control__image3",
+    "id": "z08SPoRlD",
+    "name": "Image 3",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,bOtuducrW24t1QRFUVzKhZBOaO8.jpg?originalFilename=7386060201967734936.jpg&width=3024&height=3024"
+   },
+   {
+    "key": "$control__image4",
+    "id": "X121ZkLVW",
+    "name": "Image 4",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,8H1DBeaspL47WubBCma8XOBhtyo.jpg?originalFilename=20220919_220552.jpg&width=4032&height=1960"
+   },
+   {
+    "key": "$control__image5",
+    "id": "ErsnNlxAX",
+    "name": "Image 5",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,yzBtiBXzBLGXYBrGnECxujLUg1s.jpg?originalFilename=11319943678382061689.jpg&width=3024&height=3779"
+   },
+   {
+    "key": "$control__image6",
+    "id": "ZZJGNe0ac",
+    "name": "Image 6",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": {
+     "alt": "",
+     "value": "data:framer/asset-reference,tyrK4kdItMKCfotqwaYG0pjLo8k.png?originalFilename=Contemporary+Serenity_+Sunlit+Open-Concept+Interior+with+Green+Views.png&preferredSize=auto&width=800&height=1200",
+     "type": "image"
+    }
+   },
+   {
+    "key": "$control__image7",
+    "id": "GlOADlHSu",
+    "name": "Image 7",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": {
+     "alt": "",
+     "value": "data:framer/asset-reference,rkDrw4jjQNQH4ive7Onx5MBfA.png?originalFilename=Modern+Architectural+Building.png&preferredSize=auto&width=3200&height=4800",
+     "type": "image"
+    }
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "ti296MSer",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 9
+ },
+ {
+  "type": "ComponentNode",
+  "id": "GxSLqOeVN",
+  "name": "Components/Cards/Article Thumbnail 2",
+  "variables": [
+   {
+    "key": "$control__image",
+    "id": "bqoZ1vzwX",
+    "name": "Image",
+    "node": "Variable",
+    "type": "image",
+    "initialValue": "data:framer/asset-reference,7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg?originalFilename=DSC01243+copia2.jpg&width=1100&height=801"
+   },
+   {
+    "key": "$control__date",
+    "id": "MND8LdSQz",
+    "name": "Date",
+    "node": "DateVariable",
+    "type": "date",
+    "displayTime": false,
+    "initialValue": "2026-02-24T00:00:00.000Z"
+   },
+   {
+    "key": "$control__title",
+    "id": "gUkqhTZ3m",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Invoco Te Divina Stella : Back at work amongst the stars"
+   },
+   {
+    "key": "$control__link",
+    "id": "lx4fA7yAO",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "QIgPp1Pj5",
+    "name": "Default"
+   },
+   {
+    "id": "s8VrdxN1T",
+    "name": "Tablet Phone"
+   },
+   {
+    "id": "OejKlkuUL",
+    "name": "Default"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 18
+ },
+ {
+  "type": "ComponentNode",
+  "id": "G6yXIAYJj",
+  "name": "Components/Search Button",
+  "variables": [
+   {
+    "key": "$control__title",
+    "id": "zbA52BY9Z",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Search"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "D73IColSv",
+    "name": "Desktop"
+   },
+   {
+    "id": "Ki6j6MWvF",
+    "name": "Mobile"
+   },
+   {
+    "id": "rvEmWdwCp",
+    "name": "Desktop"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 21
+ },
+ {
+  "type": "ComponentNode",
+  "id": "RId7OzKmP",
+  "name": "Components/Navigation",
+  "variables": [
+   {
+    "key": "$control__padding",
+    "id": "CrBfCGcDZ",
+    "name": "Padding",
+    "node": "Variable",
+    "type": "padding",
+    "initialValue": "0px 20px 0px 20px"
+   },
+   {
+    "key": "$control__background",
+    "id": "h8gZuCQVe",
+    "name": "Background",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-4139193e-0c54-4f74-8fc1-5d2d0a490a49, rgba(247, 245, 242, 0.35)) /* {\"name\":\"BG\"} */"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "AYq5De41g",
+    "name": "Desktop Light"
+   },
+   {
+    "id": "pFmVxx6Kp",
+    "name": "Phone"
+   },
+   {
+    "id": "UHebtQV8U",
+    "name": "Phone Open"
+   },
+   {
+    "id": "A9nmVMzdl",
+    "name": "Desktop BLACK"
+   },
+   {
+    "id": "zEKSXjvIV",
+    "name": "DESKTOP GREY"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 80
+ },
+ {
+  "type": "ComponentNode",
+  "id": "OarGIsPgV",
+  "name": "Components/Brand",
+  "variables": [
+   {
+    "key": "$control__padding",
+    "id": "AluDPFNcp",
+    "name": "Padding",
+    "node": "Variable",
+    "type": "padding",
+    "initialValue": "4px"
+   },
+   {
+    "key": "$control__size",
+    "id": "OG0I2X1qP",
+    "name": "Size",
+    "node": "Variable",
+    "type": "number",
+    "initialValue": 18
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "L3j0pYnhN",
+    "name": "ON LIGHT"
+   },
+   {
+    "id": "ILAJtctVA",
+    "name": "On Dark"
+   },
+   {
+    "id": "UsJg_phyT",
+    "name": "ON LIGHT"
+   },
+   {
+    "id": "SsJQH4k2A",
+    "name": "On Dark"
+   },
+   {
+    "id": "V7biVPD5k",
+    "name": "On Dark"
+   },
+   {
+    "id": "zCUaEV0vD",
+    "name": "ON LIGHT"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 24
+ },
+ {
+  "type": "ComponentNode",
+  "id": "OuR190HGL",
+  "name": "Components/Blake Ward Button",
+  "variables": [
+   {
+    "key": "$control__link",
+    "id": "okqmy_4ls",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "hgzvhCXTu",
+    "name": "Dark"
+   },
+   {
+    "id": "d8Fmm1lLt",
+    "name": "Variant 2"
+   },
+   {
+    "id": "jiKMlyWlP",
+    "name": "Light"
+   },
+   {
+    "id": "Dlbch1poN",
+    "name": "Hover"
+   },
+   {
+    "id": "EHLWNUbIP",
+    "name": "Light"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 20
+ },
+ {
+  "type": "ComponentNode",
+  "id": "uzJ7eEbRk",
+  "name": "Components/Blake Ward Mobile Nav",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "fDXhO1hVJ",
+    "name": "Closed"
+   },
+   {
+    "id": "aYJyriU2X",
+    "name": "Open"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 46
+ },
+ {
+  "type": "ComponentNode",
+  "id": "akW3CB9Gf",
+  "name": "Components/Nav link",
+  "variables": [
+   {
+    "key": "$control__title",
+    "id": "j2MzL4_RX",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Templates"
+   },
+   {
+    "key": "$control__link",
+    "id": "yvW5hKwwf",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__textColor",
+    "id": "jBG91guH4",
+    "name": "Text color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-475936ba-8864-4770-9713-5d8b6c4eeae6, rgb(0, 0, 0)) /* {\"name\":\"Neutral 12\"} */"
+   },
+   {
+    "key": "$control__padding",
+    "id": "XPJ2wnq2M",
+    "name": "Padding",
+    "node": "Variable",
+    "type": "padding",
+    "initialValue": "4px"
+   },
+   {
+    "key": "onClick",
+    "id": "n0qoLkxRf",
+    "name": "Click",
+    "node": "EventHandlerVariable",
+    "type": "eventhandler"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "uGP_mvMex",
+    "name": "DARK"
+   },
+   {
+    "id": "GBCsksCNn",
+    "name": "LIGHT"
+   },
+   {
+    "id": "JP0T6Otl3",
+    "name": "DARK"
+   },
+   {
+    "id": "CzBwmuH6h",
+    "name": "LIGHT"
+   },
+   {
+    "id": "mk5b2lgTR",
+    "name": "LIGHT"
+   },
+   {
+    "id": "jeVZN4MkU",
+    "name": "DARK"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 12
+ },
+ {
+  "type": "ComponentNode",
+  "id": "JadHT7fZ8",
+  "name": "Components/Footer 2",
+  "variables": [
+   {
+    "key": "$control__link",
+    "id": "kbLIbg1OU",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__footerRights",
+    "id": "l6W2r3l4v",
+    "name": "Footer rights",
+    "node": "Variable",
+    "type": "richtext",
+    "initialValue": [
+     {
+      "type": "TextBlock",
+      "id": "v:JadHT7fZ8/l6W2r3l4v:0",
+      "attributes": {
+       "tag": "p"
+      },
+      "children": [
+       {
+        "type": "TextRun",
+        "id": "v:JadHT7fZ8/l6W2r3l4v:0:0",
+        "attributes": {
+         "text": "Created by Lunis Design"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "gu8YfO1m7",
+    "name": "Desktop"
+   },
+   {
+    "id": "Fuy9oVXIg",
+    "name": "Tablet"
+   },
+   {
+    "id": "HRQXCOuGW",
+    "name": "Phone"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 96
+ },
+ {
+  "type": "ComponentNode",
+  "id": "SDbnD7OH5",
+  "name": "Components/Button 2",
+  "variables": [
+   {
+    "key": "$control__buttonText",
+    "id": "cGv5p1CUa",
+    "name": "Button Text",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "Text"
+   },
+   {
+    "key": "$control__showIcon",
+    "id": "XH2IRGnjP",
+    "name": "Show Icon",
+    "node": "Variable",
+    "type": "boolean",
+    "initialValue": false
+   },
+   {
+    "key": "$control__icon",
+    "id": "I8Ag1qIYC",
+    "name": "Icon",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "arrow down"
+   },
+   {
+    "key": "$control__link",
+    "id": "JLgTB07DG",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__newTab",
+    "id": "p4WVlxekX",
+    "name": "New Tab",
+    "node": "Variable",
+    "type": "boolean",
+    "initialValue": false
+   },
+   {
+    "key": "$control__padding",
+    "id": "Jz9FAFivq",
+    "name": "Padding",
+    "node": "Variable",
+    "type": "padding",
+    "initialValue": "8px"
+   },
+   {
+    "key": "$control__color",
+    "id": "oTasASIK9",
+    "name": "Color",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-475936ba-8864-4770-9713-5d8b6c4eeae6, rgb(0, 0, 0))"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "pqhiGzeHn",
+    "name": "Primary"
+   },
+   {
+    "id": "QNNqUpPvk",
+    "name": "XL"
+   },
+   {
+    "id": "EmCW7UtJV",
+    "name": "Primary"
+   },
+   {
+    "id": "nMEIJ_0yw",
+    "name": "XL"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 20
+ },
+ {
+  "type": "ComponentNode",
+  "id": "fW2SBP2ZP",
+  "name": "Components/Send Button",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "KYivwO4o1",
+    "name": "Default"
+   },
+   {
+    "id": "H1uC4Ngbf",
+    "name": "Hover"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 8
+ },
+ {
+  "type": "ComponentNode",
+  "id": "tl4X34KdR",
+  "name": "Components/Spirit Collection Ticker",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "h8jBSMRtH",
+    "name": "Variant 1"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 13
+ },
+ {
+  "type": "ComponentNode",
+  "id": "mXd_FeSGl",
+  "name": "Components/Blake Ward Dark Button",
+  "variables": [
+   {
+    "key": "$control__colorText",
+    "id": "dybvdDeji",
+    "name": "Color Text",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "var(--token-4d33ac77-1285-4245-a35a-b7f0118e2cb7)"
+   },
+   {
+    "key": "$control__colorBorder",
+    "id": "BbGrdCSzl",
+    "name": "Color Border",
+    "node": "Variable",
+    "type": "border",
+    "initialValue": {
+     "borderWidth": 1,
+     "borderTop": 1,
+     "borderRight": 1,
+     "borderLeft": 1,
+     "borderBottom": 1,
+     "borderPerSide": false,
+     "borderStyle": "solid",
+     "borderColor": "var(--token-4d33ac77-1285-4245-a35a-b7f0118e2cb7)"
+    }
+   },
+   {
+    "key": "$control__colorFill",
+    "id": "NkwAfS5ye",
+    "name": "Color Fill",
+    "node": "Variable",
+    "type": "color",
+    "initialValue": "rgba(255, 255, 255, 0.02)"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "hLSWbFe2c",
+    "name": "Light"
+   },
+   {
+    "id": "cUL5NLRhq",
+    "name": "Dark"
+   },
+   {
+    "id": "k72GHJPZm",
+    "name": "Hover"
+   },
+   {
+    "id": "Az2Jb1XVq",
+    "name": "Dark"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 16
+ },
+ {
+  "type": "ComponentNode",
+  "id": "NJX6voBkJ",
+  "name": "Components/Go-back",
+  "variables": [
+   {
+    "key": "$control__link",
+    "id": "Fh4fH6ngF",
+    "name": "Link",
+    "node": "LinkVariable",
+    "type": "link"
+   },
+   {
+    "key": "$control__title",
+    "id": "gOVHv_au2",
+    "name": "Title",
+    "node": "Variable",
+    "type": "string",
+    "initialValue": "back to page"
+   }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$variants": [
+   {
+    "id": "sOx0U8hwb",
+    "name": "Dark"
+   },
+   {
+    "id": "LBXu2rnw6",
+    "name": "Light"
+   },
+   {
+    "id": "tpVdQ3Wmr",
+    "name": "Light"
+   },
+   {
+    "id": "dBwDVtt0J",
+    "name": "Light"
+   },
+   {
+    "id": "zKOHiCMHd",
+    "name": "Dark"
+   },
+   {
+    "id": "MVixVL0Gh",
+    "name": "Dark"
+   }
+  ],
+  "$truncated": true,
+  "$descendantCount": 30
+ }
+]

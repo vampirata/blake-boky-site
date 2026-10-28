@@ -1,0 +1,1183 @@
+{
+  "path": "/galleriespetley",
+  "seo": {
+    "title": "Petley Jones Gallery — Blake & Boky",
+    "description": "Petley Jones Gallery, Vancouver. Three landmark exhibitions of sculpture by Blake Ward and Boky Hackel-Ward.",
+    "ogTitle": "Petley Jones Gallery — Blake & Boky",
+    "ogDescription": "Petley Jones Gallery, Vancouver. Three landmark exhibitions of sculpture by Blake Ward and Boky Hackel-Ward.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/galleriespetley"
+  },
+  "navVariant": "Desktop Light",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 6693,
+  "sections": [
+    {
+      "type": "hero",
+      "name": "Hero",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 565.8
+      },
+      "eyebrow": "GALLERY PARTNER · VANCOUVER",
+      "heading": {
+        "tag": "h1",
+        "text": "Petley Jones Gallery"
+      },
+      "body": [
+        {
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Dealers in historical and contemporary art since 1986",
+          "html": "<p>Dealers in historical and contemporary art since 1986</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/galleries/YO3IcYBYvbkK1AHPqhWbYm3hwwA.png",
+          "alt": "Petley Jones Gallery logo",
+          "naturalWidth": 1310,
+          "naturalHeight": 268,
+          "rendered": {
+            "w": 420,
+            "h": 85.9
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "GALLERY PARTNER · VANCOUVER",
+          "html": "<p>Gallery Partner · Vancouver</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Petley Jones Gallery",
+          "html": "<h1>Petley Jones Gallery</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Dealers in historical and contemporary art since 1986",
+          "html": "<p>Dealers in historical and contemporary art since 1986</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/galleries/YO3IcYBYvbkK1AHPqhWbYm3hwwA.png",
+          "alt": "Petley Jones Gallery logo",
+          "naturalWidth": 1310,
+          "naturalHeight": 268,
+          "rendered": {
+            "w": 420,
+            "h": 85.9
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Gallery Partners",
+      "tag": "section",
+      "box": {
+        "y": 566,
+        "h": 1464.9
+      },
+      "eyebrow": "REPRESENTATION",
+      "heading": {
+        "tag": "h2",
+        "text": "Gallery Partners"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/galleries/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+          "alt": "",
+          "naturalWidth": 1046,
+          "naturalHeight": 1045,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+          "alt": "",
+          "naturalWidth": 1131,
+          "naturalHeight": 889,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.786,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 4032,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.333,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+          "alt": "",
+          "naturalWidth": 2048,
+          "naturalHeight": 3072,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Aug 6, 2026 Zurich Art Salon",
+          "href": "/galleriespetley/zurich-art-salon"
+        },
+        {
+          "text": "Feb 24, 2026 Art Fairs and Salons",
+          "href": "/galleriespetley/art-fairs-and-salons"
+        },
+        {
+          "text": "May 23, 2019 Hilton Contemporary",
+          "href": "/galleriespetley/hilton-contemporary"
+        },
+        {
+          "text": "Feb 24, 2026 Petley Jones",
+          "href": "/galleriespetley/petley-jones"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/galleriespetley/zurich-art-salon",
+          "label": "Aug 6, 2026 Zurich Art Salon",
+          "image": {
+            "src": "/assets/galleries/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+            "alt": "",
+            "naturalWidth": 1046,
+            "naturalHeight": 1045,
+            "rendered": {
+              "w": 453.3,
+              "h": 453.3
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Aug 6, 2026"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Zurich Art Salon "
+            }
+          ]
+        },
+        {
+          "href": "/galleriespetley/art-fairs-and-salons",
+          "label": "Feb 24, 2026 Art Fairs and Salons",
+          "image": {
+            "src": "/assets/galleries/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+            "alt": "",
+            "naturalWidth": 1131,
+            "naturalHeight": 889,
+            "rendered": {
+              "w": 453.3,
+              "h": 453.3
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.786,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Feb 24, 2026"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Art Fairs and Salons "
+            }
+          ]
+        },
+        {
+          "href": "/galleriespetley/hilton-contemporary",
+          "label": "May 23, 2019 Hilton Contemporary",
+          "image": {
+            "src": "/assets/galleries/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 4032,
+            "rendered": {
+              "w": 453.3,
+              "h": 453.3
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.333,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "May 23, 2019"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Hilton Contemporary "
+            }
+          ]
+        },
+        {
+          "href": "/galleriespetley/petley-jones",
+          "label": "Feb 24, 2026 Petley Jones",
+          "image": {
+            "src": "/assets/galleries/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+            "alt": "",
+            "naturalWidth": 2048,
+            "naturalHeight": 3072,
+            "rendered": {
+              "w": 453.3,
+              "h": 453.3
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.5,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Feb 24, 2026"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Petley Jones "
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "REPRESENTATION",
+          "html": "<p>Representation</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Gallery Partners",
+          "html": "<h2>Gallery Partners</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Aug 6, 2026 Zurich Art Salon",
+          "href": "/galleriespetley/zurich-art-salon",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/galleries/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+          "alt": "",
+          "naturalWidth": 1046,
+          "naturalHeight": 1045,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Aug 6, 2026",
+          "html": "<p><time>Aug 6, 2026</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Zurich Art Salon ",
+          "html": "<h4><span><span>Z</span><span>u</span><span>r</span><span>i</span><span>c</span><span>h</span></span> <span><span>A</span><span>r</span><span>t</span></span> <span><span>S</span><span>a</span><span>l</span><span>o</span><span>n</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Feb 24, 2026 Art Fairs and Salons",
+          "href": "/galleriespetley/art-fairs-and-salons",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/galleries/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+          "alt": "",
+          "naturalWidth": 1131,
+          "naturalHeight": 889,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.786,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Feb 24, 2026",
+          "html": "<p><time>Feb 24, 2026</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Art Fairs and Salons ",
+          "html": "<h4><span><span>A</span><span>r</span><span>t</span></span> <span><span>F</span><span>a</span><span>i</span><span>r</span><span>s</span></span> <span><span>a</span><span>n</span><span>d</span></span> <span><span>S</span><span>a</span><span>l</span><span>o</span><span>n</span><span>s</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "May 23, 2019 Hilton Contemporary",
+          "href": "/galleriespetley/hilton-contemporary",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/galleries/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 4032,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.333,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "May 23, 2019",
+          "html": "<p><time>May 23, 2019</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Hilton Contemporary ",
+          "html": "<h4><span><span>H</span><span>i</span><span>l</span><span>t</span><span>o</span><span>n</span></span> <span><span>C</span><span>o</span><span>n</span><span>t</span><span>e</span><span>m</span><span>p</span><span>o</span><span>r</span><span>a</span><span>r</span><span>y</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Feb 24, 2026 Petley Jones",
+          "href": "/galleriespetley/petley-jones",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/galleries/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+          "alt": "",
+          "naturalWidth": 2048,
+          "naturalHeight": 3072,
+          "rendered": {
+            "w": 453.3,
+            "h": 453.3
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Feb 24, 2026",
+          "html": "<p><time>Feb 24, 2026</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Petley Jones ",
+          "html": "<h4><span><span>P</span><span>e</span><span>t</span><span>l</span><span>e</span><span>y</span></span> <span><span>J</span><span>o</span><span>n</span><span>e</span><span>s</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Introduction",
+      "tag": "section",
+      "box": {
+        "y": 2031,
+        "h": 467.8
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [
+        {
+          "role": "Intro",
+          "tag": "p",
+          "text": "Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward’s artistic journey for over a decade. Based in Vancouver’s South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists’ evolving practice.",
+          "html": "<p>Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward’s artistic journey for over a decade. Based in Vancouver’s South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists’ evolving practice.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Intro",
+          "tag": "p",
+          "text": "Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward’s artistic journey for over a decade. Based in Vancouver’s South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists’ evolving practice.",
+          "html": "<p>Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward’s artistic journey for over a decade. Based in Vancouver’s South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists’ evolving practice.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "38px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "exhibitions",
+      "name": "Exhibitions",
+      "tag": "section",
+      "box": {
+        "y": 2499,
+        "h": 2096
+      },
+      "eyebrow": "THREE LANDMARK EXHIBITIONS",
+      "heading": {
+        "tag": "h2",
+        "text": "Exhibited at Petley Jones"
+      },
+      "body": [
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2015",
+          "html": "<p>2015</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h2",
+          "text": "Depth & Perception",
+          "html": "<h2>Depth &amp; Perception</h2>"
+        },
+        {
+          "role": "Description",
+          "tag": "p",
+          "text": "The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry: partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination.",
+          "html": "<p>The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry: partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2018",
+          "html": "<p>2018</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h2",
+          "text": "The Space Within",
+          "html": "<h2>The Space Within</h2>"
+        },
+        {
+          "role": "Description",
+          "tag": "p",
+          "text": "An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection.",
+          "html": "<p>An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2019",
+          "html": "<p>2019</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h2",
+          "text": "Elixir",
+          "html": "<h2>Elixir</h2>"
+        },
+        {
+          "role": "Description",
+          "tag": "p",
+          "text": "Elixir marked a new threshold; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become.",
+          "html": "<p>Elixir marked a new threshold; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become.</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/galleries/j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+          "alt": "Installation view of Depth and Perception at Petley Jones Gallery",
+          "naturalWidth": 2722,
+          "naturalHeight": 652,
+          "rendered": {
+            "w": 1376,
+            "h": 267
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/MOXGyinCyXd9a9BkWQXe7osJg4.png",
+          "alt": "Blake Ward, The Space Within, installation view",
+          "naturalWidth": 1340,
+          "naturalHeight": 470,
+          "rendered": {
+            "w": 1376,
+            "h": 391
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+          "alt": "Opening of Elixir at Petley Jones Gallery",
+          "naturalWidth": 1814,
+          "naturalHeight": 815,
+          "rendered": {
+            "w": 1376,
+            "h": 501
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "THREE LANDMARK EXHIBITIONS",
+          "html": "<p>Three Landmark Exhibitions</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Exhibited at Petley Jones",
+          "html": "<h2>Exhibited at Petley Jones</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "src": "/assets/galleries/j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+          "alt": "Installation view of Depth and Perception at Petley Jones Gallery",
+          "naturalWidth": 2722,
+          "naturalHeight": 652,
+          "rendered": {
+            "w": 1376,
+            "h": 267
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2015",
+          "html": "<p>2015</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h2",
+          "text": "Depth & Perception",
+          "html": "<h2>Depth &amp; Perception</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Description",
+          "tag": "p",
+          "text": "The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry: partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination.",
+          "html": "<p>The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry: partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "src": "/assets/galleries/MOXGyinCyXd9a9BkWQXe7osJg4.png",
+          "alt": "Blake Ward, The Space Within, installation view",
+          "naturalWidth": 1340,
+          "naturalHeight": 470,
+          "rendered": {
+            "w": 1376,
+            "h": 391
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2018",
+          "html": "<p>2018</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h2",
+          "text": "The Space Within",
+          "html": "<h2>The Space Within</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Description",
+          "tag": "p",
+          "text": "An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection.",
+          "html": "<p>An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "src": "/assets/galleries/Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+          "alt": "Opening of Elixir at Petley Jones Gallery",
+          "naturalWidth": 1814,
+          "naturalHeight": 815,
+          "rendered": {
+            "w": 1376,
+            "h": 501
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.234,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2019",
+          "html": "<p>2019</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h2",
+          "text": "Elixir",
+          "html": "<h2>Elixir</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Description",
+          "tag": "p",
+          "text": "Elixir marked a new threshold; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become.",
+          "html": "<p>Elixir marked a new threshold; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-grid",
+      "name": "Installation Views",
+      "tag": "section",
+      "box": {
+        "y": 4595,
+        "h": 930.8
+      },
+      "eyebrow": "FROM THE GALLERY",
+      "heading": {
+        "tag": "h2",
+        "text": "Installation Views"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/galleries/giPhDMXZtjSy2S5H2UBaMfWICU.png",
+          "alt": "Blake Ward with works at Petley Jones Gallery",
+          "naturalWidth": 839,
+          "naturalHeight": 628,
+          "rendered": {
+            "w": 432,
+            "h": 258
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.253,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+          "alt": "Blake Ward beside a bronze figure",
+          "naturalWidth": 880,
+          "naturalHeight": 738,
+          "rendered": {
+            "w": 432,
+            "h": 289
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.254,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/GTqONkXxbWFtIDfFLm1BgGXmA.png",
+          "alt": "Gilded bronze figure from the Elixir collection",
+          "naturalWidth": 766,
+          "naturalHeight": 1374,
+          "rendered": {
+            "w": 432,
+            "h": 619
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.252,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "FROM THE GALLERY",
+          "html": "<p>From the Gallery</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Installation Views",
+          "html": "<h2>Installation Views</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "src": "/assets/galleries/giPhDMXZtjSy2S5H2UBaMfWICU.png",
+          "alt": "Blake Ward with works at Petley Jones Gallery",
+          "naturalWidth": 839,
+          "naturalHeight": 628,
+          "rendered": {
+            "w": 432,
+            "h": 258
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.253,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+          "alt": "Blake Ward beside a bronze figure",
+          "naturalWidth": 880,
+          "naturalHeight": 738,
+          "rendered": {
+            "w": 432,
+            "h": 289
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.254,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/galleries/GTqONkXxbWFtIDfFLm1BgGXmA.png",
+          "alt": "Gilded bronze figure from the Elixir collection",
+          "naturalWidth": 766,
+          "naturalHeight": 1374,
+          "rendered": {
+            "w": 432,
+            "h": 619
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.252,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Visit",
+      "tag": "section",
+      "box": {
+        "y": 5525,
+        "h": 341
+      },
+      "eyebrow": "PLAN A VISIT",
+      "heading": {
+        "tag": "h2",
+        "text": "By appointment"
+      },
+      "body": [
+        {
+          "role": "Details",
+          "tag": "p",
+          "text": "Visits to Petley Jones Gallery are available by appointment. Contact the gallery at info@petleyjones.com or 604 732 5353.",
+          "html": "<p>Visits to Petley Jones Gallery are available by appointment. Contact the gallery at <!--$--><a href=\"mailto:info@petleyjones.com\" rel=\"\">info@petleyjones.com</a><!--/$--> or <!--$--><a href=\"tel:+16047325353\" rel=\"\">604 732 5353</a><!--/$-->.</p>"
+        }
+      ],
+      "media": [],
+      "links": [
+        {
+          "text": "info@petleyjones.com",
+          "href": "mailto:info@petleyjones.com",
+          "inline": true
+        },
+        {
+          "text": "604 732 5353",
+          "href": "tel:+16047325353",
+          "inline": true
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "PLAN A VISIT",
+          "html": "<p>Plan a Visit</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "By appointment",
+          "html": "<h2>By appointment</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Details",
+          "tag": "p",
+          "text": "Visits to Petley Jones Gallery are available by appointment. Contact the gallery at info@petleyjones.com or 604 732 5353.",
+          "html": "<p>Visits to Petley Jones Gallery are available by appointment. Contact the gallery at <!--$--><a href=\"mailto:info@petleyjones.com\" rel=\"\">info@petleyjones.com</a><!--/$--> or <!--$--><a href=\"tel:+16047325353\" rel=\"\">604 732 5353</a><!--/$-->.</p>",
+          "links": [
+            {
+              "text": "info@petleyjones.com",
+              "href": "mailto:info@petleyjones.com"
+            },
+            {
+              "text": "604 732 5353",
+              "href": "tel:+16047325353"
+            }
+          ],
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta",
+      "name": "Contact CTA",
+      "tag": "section",
+      "box": {
+        "y": 5866,
+        "h": 352.2
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [],
+      "links": [
+        {
+          "text": "CONTACT US",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "CONTACT US",
+          "image": null,
+          "texts": [
+            {
+              "role": "Label",
+              "tag": "p",
+              "text": "CONTACT US"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "CONTACT US",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTACT US",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    }
+  ]
+}

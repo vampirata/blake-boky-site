@@ -1,0 +1,135 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "LjrdrpqAU",
+ "$isPrimary": true,
+ "$parentId": "CWeg27bi1",
+ "$scopeId": "CWeg27bi1",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "fill": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+  "layout": "stack",
+  "stackDirection": "vertical",
+  "stackDistribution": "start",
+  "stackAlignment": "center",
+  "stackWrapEnabled": false,
+  "gap": "0px",
+  "overflow": "clip",
+  "left": "0px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "1241px"
+ },
+ "children": [
+  {
+   "type": "ComponentInstanceNode",
+   "id": "sgZALmkJJ",
+   "name": "Blake",
+   "component": "KQfCHDI0l",
+   "$componentDisplayName": "Menu",
+   "attributes": {
+    "$control__variant": "Desktop",
+    "position": "fixed",
+    "left": "null",
+    "right": "null",
+    "top": "37px",
+    "bottom": "null",
+    "centerAnchorX": "50%",
+    "centerAnchorY": "8.38%",
+    "constraintsLocked": false,
+    "width": "auto",
+    "height": "auto",
+    "visible": "false",
+    "zIndex": "10"
+   }
+  },
+  {
+   "type": "PlaceholderNode",
+   "id": "M6dFBUtzh"
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "yZ5X6uf3f",
+   "component": "zvkTOpMSuRzRhLzZZIwG",
+   "$componentDisplayName": "Slideshow",
+   "attributes": {
+    "$control__content": [],
+    "$control__direction": "Right",
+    "$control__autoPlay": "true",
+    "$control__interval": "1.5",
+    "$control__draggable": "false",
+    "$control__current": "0",
+    "$control__effects": "{\"effectsOpacity\":{\"type\":\"number\",\"value\":1},\"effectsScale\":{\"type\":\"number\",\"value\":1},\"effectsPerspective\":{\"type\":\"number\",\"value\":1200},\"effectsRotate\":{\"type\":\"number\",\"value\":0},\"effectsHover\":{\"type\":\"boolean\",\"value\":true},\"playOffscreen\":{\"type\":\"boolean\",\"value\":false}}",
+    "$control__align": "center",
+    "$control__items": "1",
+    "$control__gap": "10",
+    "$control__padding": "0px",
+    "$control__radius": "0",
+    "$control__transition": "{\"type\":\"spring\",\"ease\":[0.44,0,0.56,1],\"duration\":0.3,\"delay\":0,\"stiffness\":200,\"damping\":40,\"mass\":1,\"stagger\":0}",
+    "$control__clipping": "{\"fadeContent\":{\"type\":\"boolean\",\"value\":false},\"overflow\":{\"type\":\"boolean\",\"value\":false},\"fadeWidth\":{\"type\":\"number\",\"value\":25},\"fadeInset\":{\"type\":\"number\",\"value\":0},\"fadeAlpha\":{\"type\":\"number\",\"value\":0}}",
+    "$control__arrows": "{\"showMouseControls\":{\"type\":\"boolean\",\"value\":true},\"arrowFill\":{\"type\":\"color\",\"value\":\"rgba(0, 0, 0, 0.13)\"},\"leftArrow\":{\"type\":\"image\",\"value\":\"data:framer/asset-reference,Ww1UKQirCoOC2aQwo9tBmZHkyIY.jpg?originalFilename=Angel+Azrael+DSC03951.jpg&width=5089&height=7630\"},\"rightArrow\":{\"type\":\"image\"},\"arrowSize\":{\"type\":\"number\",\"value\":40},\"arrowRadius\":{\"type\":\"number\",\"value\":40},\"arrowShouldFadeIn\":{\"type\":\"boolean\",\"value\":false},\"arrowShouldSpace\":{\"type\":\"boolean\",\"value\":true},\"arrowPosition\":{\"type\":\"enum\",\"value\":\"auto\"},\"arrowPadding\":{\"type\":\"number\",\"value\":20},\"arrowPaddingTop\":{\"type\":\"number\",\"value\":0},\"arrowPaddingBottom\":{\"type\":\"number\",\"value\":0},\"arrowPaddingRight\":{\"type\":\"number\",\"value\":0},\"arrowPaddingLeft\":{\"type\":\"number\",\"value\":0},\"arrowGap\":{\"type\":\"number\",\"value\":10}}",
+    "$control__dots": "{\"showProgressDots\":{\"type\":\"boolean\",\"value\":true},\"dotSize\":{\"type\":\"number\",\"value\":10},\"dotsInset\":{\"type\":\"number\",\"value\":10},\"dotsGap\":{\"type\":\"number\",\"value\":10},\"dotsPadding\":{\"type\":\"number\",\"value\":10},\"dotsFill\":{\"type\":\"color\",\"value\":\"#fff\"},\"dotsBackground\":{\"type\":\"color\",\"value\":\"rgba(0,0,0,0.2)\"},\"dotsRadius\":{\"type\":\"number\",\"value\":50},\"dotsOpacity\":{\"type\":\"number\",\"value\":0.5},\"dotsActiveOpacity\":{\"type\":\"number\",\"value\":1},\"dotsBlur\":{\"type\":\"number\",\"value\":0}}",
+    "position": "relative",
+    "width": "400px",
+    "height": "200px",
+    "visible": "false"
+   }
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "zP_BHfLBG",
+   "component": "GvKVGLOJg",
+   "$componentDisplayName": "Footer",
+   "attributes": {
+    "$control__variant": "Desktop",
+    "position": "sticky",
+    "positionStickyTop": 0,
+    "width": "1fr",
+    "height": "auto",
+    "zIndex": "9"
+   }
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "Qg2QozEOl",
+   "component": "RId7OzKmP",
+   "$componentDisplayName": "Navigation",
+   "attributes": {
+    "$control__variant": "var(--variable-C8a1BOL1c)",
+    "$control__padding": "0px 20px 0px 20px",
+    "position": "fixed",
+    "left": "0px",
+    "right": "0px",
+    "top": "0px",
+    "bottom": "null",
+    "centerAnchorX": "50%",
+    "centerAnchorY": "4%",
+    "constraintsLocked": true,
+    "scrollVariantEffect": {
+     "trigger": "onScrollTarget",
+     "replay": true,
+     "threshold": 1,
+     "sections": [
+      {
+       "variant": "Gd5k7Clvj"
+      },
+      {
+       "variant": "lF7AmxvB_"
+      }
+     ]
+    },
+    "width": "1400px",
+    "height": "64px",
+    "zIndex": "9"
+   }
+  }
+ ]
+}

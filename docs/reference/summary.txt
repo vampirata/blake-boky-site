@@ -1,0 +1,1523 @@
+
+### TYPE 1440  (font | size | weight | style | lh | ls | transform) n colors examples
+Cormorant Garamond | 104px | 500 | normal | 101.92px | 1px | none  n=7 [#1c1a17 #f5f2eb] "Blake Ward" "Boky Hackel" "Contact" p=6
+Cormorant Garamond | 100px | 400 | normal | 110px | -6px | none  n=1 [#0f0f0f] "In Preparation" p=1
+Switzer | 90px | 400 | normal | normal | normal | none  n=6 [#ffffff] "50" "+" "10" p=1
+Cormorant Garamond | 86px | 500 | normal | 87.72px | normal | none  n=1 [#f5f2eb] "Past Works" p=1
+Cormorant Garamond | 66px | 500 | normal | 69.3px | normal | none  n=1 [#f5f2eb] "The Story" p=1
+Cormorant Garamond | 54px | 500 | normal | 59.4px | 0.5px | none  n=34 [#ffffff #1c1a17 #f5f2eb #000000] "Blake & Boky" "Biography" "Collections" p=14
+Cormorant Garamond | 52px | 600 | normal | 52px | -1.04px | none  n=8 [#1c1a17 #f5f2eb] "40+" "4" "13" p=2
+Cormorant Garamond | 52px | 500 | normal | 59.8px | -2.08px | none  n=4 [#1c1a17 #f5f2eb] "Get in touch for further inq" p=4
+Cormorant Garamond | 50px | 400 | normal | 55px | -3px | none  n=1 [#dbdbdb] "Blake Ward & Boky Hackel Exp" p=1
+Cormorant Garamond | 46px | 500 | normal | 52.9px | 0.4px | none  n=2 [#dbdbdb] "Angel Forces" "Spirit Collection" p=2
+Cormorant Garamond | 46px | 500 | normal | 51.52px | normal | none  n=1 [#f5f2eb] "The Restless Gaze and the Di" p=1
+Cormorant Garamond | 38px | 400 | italic | 51.3px | -0.76px | none  n=4 [#1c1a17 #b4aea3 #f5f2eb] "“Inspired by the grace and s" "Rough reflections and noble " "The foundation of Blake and " p=4
+Cormorant Garamond | 34px | 500 | normal | 40.8px | 0.3px | none  n=4 [#dbdbdb #1c1a17] "Angel Forces" "Factsheet" "Adopt-A-Minefield®" p=2
+Cormorant Garamond | 34px | 300 | normal | 40.8px | -1.36px | none  n=8 [#0f0f0f] "Andromeda Collection" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=1
+Cormorant Garamond | 32px | 500 | normal | 38.4px | normal | none  n=1 [#dbdbdb] "Inquire about this piece" p=1
+Cormorant Garamond | 32px | 400 | italic | 44.8px | normal | none  n=1 [#1c1a17] "The works are complete. What" p=1
+Cormorant Garamond | 32px | 500 | normal | 36.8px | normal | none  n=1 [#1c1a17] "Collections you can see now" p=1
+Cormorant Garamond | 28px | 500 | normal | 33.6px | -1.12px | none  n=20 [#ffffff] "Contact" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=14
+Cormorant Garamond | 27px | 500 | normal | 33.75px | -1.08px | none  n=2 [#1c1a17] "Canada's Prairies, Paris, Mo" "Statistics cited in the arti" p=1
+Cormorant Garamond | 26px | 400 | italic | 35.1px | -0.52px | none  n=2 [#1c1a17 #f5f2eb] "Blake William Ward born in Y" "Boky Hackel — born in Rheinf" p=2
+Cormorant Garamond | 26px | 300 | normal | 36.4px | -1.04px | none  n=1465 [#ffffff #000000] "D" "a" "m" p=8
+Inter | 26px | 300 | normal | 36.4px | -1.04px | none  n=77 [#ffffff #000000] "C" "o" "l" p=4
+Cormorant Garamond | 26px | 500 | normal | 32.5px | normal | none  n=3 [#1c1a17 #ffffff] "Pietrasanta, Italy" "General inquiries" p=1
+Cormorant Garamond | 26px | 400 | normal | 31.2px | normal | none  n=2 [#1c1a17 #f5f2eb] "Read Blake’s story →" "Read Boky’s story →" p=1
+Cormorant Garamond | 26px | 400 | italic | 36.4px | normal | none  n=1 [#b4aea3] "An archive of earlier sculpt" p=1
+Cormorant Garamond | 24px | 400 | italic | 33.6px | -0.48px | none  n=10 [#6f6a61 #b4aea3 #ffffff] "Pushing the figure into the " "Exploring the mysteries of t" "Contact Us" p=8
+Cormorant Garamond | 24px | 400 | normal | 28.8px | normal | none  n=1 [#f5f2eb] "Read the article →" p=1
+Cormorant Garamond | 23px | 400 | italic | 33.35px | normal | none  n=1 [#b4aea3] "“Enigmatic faces, masks, bro" p=1
+Cormorant Garamond | 22px | 600 | normal | 30.8px | -0.44px | none  n=14 [#ffffff #212121] "Blake & Boky" p=14
+Cormorant Garamond | 22px | 600 | normal | 28.6px | -0.44px | none  n=22 [#1c1a17 #f5f2eb] "1979" "1985" "1991" p=3
+Cormorant Garamond | 22px | 400 | normal | 30.8px | -0.44px | none  n=50 [#1c1a17 #6f6a61 #f5f2eb #b4aea3] "United States" "·" "Canada" p=2
+Switzer | 22px | 300 | normal | 22px | -0.44px | none  n=4 [#0f0f0f #dbdbdb] "Blake Ward" "Boky Hackel-Ward" "All Collections" p=1
+Cormorant Garamond | 22px | 400 | normal | 26.4px | normal | none  n=2 [#f5f2eb] "2019" "Artist statement" p=1
+Inter | 20px | 300 | normal | 34px | -0.4px | none  n=1 [#1c1a17] "Nov 24, 2025" p=1
+Switzer | 18px | 300 | normal | 28.8px | -0.72px | none  n=55 [#000000 #ffffff #c2c2c2] "May 17, 2026" "May 12, 2025" "Feb 24, 2026" p=6
+Inter | 18px | 300 | normal | 28.8px | normal | none  n=3 [#6f6a61 #1c1a17 #ffffff] "By appointment only." "blake@blakeward.com" "boky@bokyhackel.com" p=1
+Cormorant Garamond | 18px | 400 | normal | 21.6px | normal | none  n=2 [#1c1a17 #f5f2eb] "Fragments · Andromeda · The " "In Lucem · Figurative Poetry" p=1
+Inter | 17px | 300 | normal | 29.75px | -0.34px | none  n=73 [#c2c2c2 #dbdbdb #1c1a17 #b4aea3] "Angel of Invisibility" "This Sculpture is presently " "Please Contact me on my Prof" p=3
+Inter | 17px | 400 | normal | 29.75px | -0.34px | none  n=22 [#1c1a17] "Blake" "Farah Ameen" "Fragments" p=1
+Inter | 17px | 300 | italic | 29.75px | -0.34px | none  n=2 [#1c1a17] "Adopt-A-Minefield®" "(Sidebar from the article)" p=1
+Inter | 16px | 300 | normal | 25.6px | -0.32px | none  n=286 [#c2c2c2 #ffffff #6f6a61 #000000 #b4aea3 #f5f2eb #1c1a17 #8a8375] "Angel Vohamanah" "Blake Biography" "Boky Biography" p=14
+Inter | 16px | 300 | normal | 27.2px | normal | none  n=1 [#6f6a61] "Photography, dimensions, mat" p=1
+Inter | 16px | 300 | normal | 25.6px | normal | none  n=1 [#6f6a61] "We aim to reply within a few" p=1
+Inter | 16px | 400 | italic | 28.8px | normal | none  n=4 [#999999] "\"I find we can identify huma" "\"I'm trying to take off a pi" "\"If you have pictures of peo" p=1
+Inter | 16px | 400 | normal | 19.2px | normal | none  n=1 [#ffffff] "View original →" p=1
+Inter | 15px | 300 | normal | 24.75px | normal | none  n=1 [#c2c2c2] "This work is available for a" p=1
+Inter | 15px | 400 | normal | 18px | normal | none  n=7 [#e3caa6 #0f0f0f] "←" p=7
+Inter | 15px | 300 | normal | 24px | normal | none  n=2 [#6f6a61 #b4aea3] "Canadian-born and working fr" "Born in Rheinfelden, Germany" p=1
+Inter | 14.5px | 300 | normal | 23.2px | -0.29px | none  n=29 [#6f6a61 #b4aea3 #1c1a17] "Receives an Honours Degree i" "Moves to Paris to study figu" "Relocates to Monaco and open" p=3
+Inter | 14.5px | 300 | italic | 23.2px | -0.29px | none  n=9 [#6f6a61 #b4aea3] "Fragments Collection" "Re-Think Collection" "Spirits Collection" p=2
+Inter | 14px | 300 | normal | 22.4px | 3.4px | uppercase  n=84 [#e3caa6 #6f6a61 #0f0f0f #f5f2eb #b4aea3] "[Links]" "[BLAKE Social]" "[BOKY Social]" p=14
+Inter | 14px | 400 | normal | 16.8px | 1.92px | uppercase  n=1 [#1c1a17] "Send message" p=1
+Cormorant Garamond | 13px | 300 | normal | 20.8px | -0.26px | none  n=14 [#c2c2c2] "Copyright © 2026 Blake&Boky." p=14
+Inter | 13px | 400 | normal | 15.6px | normal | none  n=1 [#8a8a86] "bokysculpture.com" p=1
+Inter | 12px | 400 | normal | 19.2px | 1.8px | uppercase  n=4 [#dbdbdb #1c1a17] "Next work" "Blake Ward and Boky Hackel-W" "Previous" p=3
+Inter | 12px | 400 | normal | 14.4px | 1.8px | uppercase  n=1 [#c2c2c2] "Get in Touch" p=1
+Inter | 12px | 400 | normal | 14.4px | 1.92px | uppercase  n=7 [#dbdbdb #1c1a17 #ffffff #6f6a61] "Contact Us" "Register interest" "Browse other collections" p=6
+Inter | 12px | 400 | normal | 14.4px | 0.96px | none  n=7 [#f2f2f2 #0f0f0f] "Spirit Collection" "Collections" "Galleries" p=7
+Inter | 12px | 300 | normal | 14.4px | 1.68px | uppercase  n=8 [#6f6a61 #b4aea3] "Years Sculpting" "Major Collections" "Countries Exhibited" p=2
+Inter | 12px | 400 | normal | 14.4px | 3.36px | uppercase  n=4 [#e3caa6 #8a8375 #8a8a86] "Artnet News · Feature" "Blake Ward" "In the meantime" p=3
+Inter | 12px | 400 | normal | 14.4px | 2.16px | uppercase  n=1 [#8a8a86] "Jacqueline Ceresoli, Art Cri" p=1
+Inter | 11px | 400 | normal | 13.2px | 1.98px | uppercase  n=1 [#9c7f4e] "This collection is coming so" p=1
+Inter | 11px | 400 | normal | 13.2px | 2.42px | uppercase  n=4 [#6f6a61 #b4aea3 #8a8a86] "His collections" "Her collections" "Year" p=2
+
+### TYPE 810  (font | size | weight | style | lh | ls | transform) n colors examples
+Cormorant Garamond | 90px | 400 | normal | 99px | -5.4px | none  n=1 [#0f0f0f] "In Preparation" p=1
+Switzer | 90px | 400 | normal | normal | normal | none  n=6 [#ffffff] "52" "+" "12" p=1
+Cormorant Garamond | 72px | 500 | normal | 70.56px | 1px | none  n=7 [#1c1a17 #f5f2eb] "Blake Ward" "Boky Hackel" "Contact" p=6
+Cormorant Garamond | 66px | 500 | normal | 69.3px | normal | none  n=1 [#f5f2eb] "The Story" p=1
+Cormorant Garamond | 60px | 500 | normal | 61.2px | normal | none  n=1 [#f5f2eb] "Past Works" p=1
+Cormorant Garamond | 52px | 600 | normal | 52px | -1.04px | none  n=8 [#1c1a17 #f5f2eb] "40+" "4" "13" p=2
+Cormorant Garamond | 46px | 500 | normal | 51.52px | normal | none  n=1 [#f5f2eb] "The Restless Gaze and the Di" p=1
+Cormorant Garamond | 44px | 500 | normal | 48.4px | 0.5px | none  n=34 [#ffffff #1c1a17 #f5f2eb #000000] "Blake & Boky" "Biography" "Collections" p=14
+Cormorant Garamond | 42px | 500 | normal | 48.3px | -1.68px | none  n=4 [#1c1a17 #f5f2eb] "Get in touch for further inq" p=4
+Cormorant Garamond | 40px | 400 | normal | 44px | -2.4px | none  n=1 [#dbdbdb] "Blake Ward & Boky Hackel Exp" p=1
+Cormorant Garamond | 38px | 500 | normal | 43.7px | 0.4px | none  n=2 [#dbdbdb] "Angel Forces" "Spirit Collection" p=2
+Cormorant Garamond | 32px | 500 | normal | 38.4px | normal | none  n=1 [#dbdbdb] "Inquire about this piece" p=1
+Cormorant Garamond | 32px | 400 | italic | 44.8px | normal | none  n=1 [#1c1a17] "The works are complete. What" p=1
+Cormorant Garamond | 32px | 500 | normal | 36.8px | normal | none  n=1 [#1c1a17] "Collections you can see now" p=1
+Cormorant Garamond | 30px | 500 | normal | 36px | 0.3px | none  n=4 [#dbdbdb #1c1a17] "Angel Forces" "Factsheet" "Adopt-A-Minefield®" p=2
+Cormorant Garamond | 30px | 400 | italic | 40.5px | -0.6px | none  n=4 [#1c1a17 #b4aea3 #f5f2eb] "“Inspired by the grace and s" "Rough reflections and noble " "The foundation of Blake and " p=4
+Cormorant Garamond | 29px | 300 | normal | 34.8px | -1.16px | none  n=8 [#0f0f0f] "Andromeda Collection" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=1
+Cormorant Garamond | 28px | 500 | normal | 33.6px | -1.12px | none  n=20 [#ffffff] "Contact" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=14
+Cormorant Garamond | 26px | 400 | italic | 35.1px | -0.52px | none  n=2 [#1c1a17 #f5f2eb] "Blake William Ward born in Y" "Boky Hackel — born in Rheinf" p=2
+Inter | 26px | 300 | normal | 36.4px | -1.04px | none  n=77 [#ffffff #000000] "C" "o" "l" p=4
+Cormorant Garamond | 26px | 500 | normal | 32.5px | normal | none  n=3 [#1c1a17 #ffffff] "Pietrasanta, Italy" "General inquiries" p=1
+Cormorant Garamond | 26px | 400 | normal | 31.2px | normal | none  n=2 [#1c1a17 #f5f2eb] "Read Blake’s story →" "Read Boky’s story →" p=1
+Cormorant Garamond | 26px | 400 | italic | 36.4px | normal | none  n=1 [#b4aea3] "An archive of earlier sculpt" p=1
+Cormorant Garamond | 25px | 500 | normal | 31.25px | -1px | none  n=2 [#1c1a17] "Canada's Prairies, Paris, Mo" "Statistics cited in the arti" p=1
+Cormorant Garamond | 24px | 400 | normal | 28.8px | normal | none  n=1 [#f5f2eb] "Read the article →" p=1
+Cormorant Garamond | 23px | 400 | italic | 33.35px | normal | none  n=1 [#b4aea3] "“Enigmatic faces, masks, bro" p=1
+Cormorant Garamond | 22px | 600 | normal | 30.8px | -0.44px | none  n=14 [#ffffff] "Blake & Boky" p=14
+Cormorant Garamond | 22px | 600 | normal | 28.6px | -0.44px | none  n=22 [#1c1a17 #f5f2eb] "1979" "1985" "1991" p=3
+Cormorant Garamond | 22px | 400 | normal | 30.8px | -0.44px | none  n=50 [#1c1a17 #6f6a61 #f5f2eb #b4aea3] "United States" "·" "Canada" p=2
+Cormorant Garamond | 22px | 400 | normal | 26.4px | normal | none  n=2 [#f5f2eb] "2019" "Artist statement" p=1
+Cormorant Garamond | 21px | 400 | italic | 29.4px | -0.42px | none  n=10 [#6f6a61 #b4aea3 #ffffff] "Pushing the figure into the " "Exploring the mysteries of t" "Contact Us" p=8
+Cormorant Garamond | 21px | 300 | normal | 29.4px | -0.84px | none  n=1376 [#ffffff #000000] "D" "a" "m" p=8
+Inter | 19px | 300 | normal | 32.3px | -0.38px | none  n=1 [#1c1a17] "Nov 24, 2025" p=1
+Inter | 18px | 300 | normal | 28.8px | normal | none  n=3 [#6f6a61 #1c1a17 #ffffff] "By appointment only." "blake@blakeward.com" "boky@bokyhackel.com" p=1
+Switzer | 18px | 300 | normal | 18px | -0.36px | none  n=4 [#0f0f0f #dbdbdb] "Blake Ward" "Boky Hackel-Ward" "All Collections" p=1
+Cormorant Garamond | 18px | 400 | normal | 21.6px | normal | none  n=2 [#1c1a17 #f5f2eb] "Fragments · Andromeda · The " "In Lucem · Figurative Poetry" p=1
+Inter | 17px | 300 | normal | 29.75px | -0.34px | none  n=73 [#c2c2c2 #dbdbdb #1c1a17 #b4aea3] "Angel of Invisibility" "This Sculpture is presently " "Please Contact me on my Prof" p=3
+Inter | 17px | 400 | normal | 29.75px | -0.34px | none  n=22 [#1c1a17] "Blake" "Farah Ameen" "Fragments" p=1
+Inter | 17px | 300 | italic | 29.75px | -0.34px | none  n=2 [#1c1a17] "Adopt-A-Minefield®" "(Sidebar from the article)" p=1
+Inter | 16px | 300 | normal | 25.6px | -0.32px | none  n=188 [#c2c2c2 #ffffff #6f6a61 #b4aea3 #f5f2eb #1c1a17 #8a8375] "Angel Vohamanah" "Blake Biography" "Boky Biography" p=14
+Inter | 16px | 300 | normal | 27.2px | normal | none  n=1 [#6f6a61] "Photography, dimensions, mat" p=1
+Inter | 16px | 300 | normal | 25.6px | normal | none  n=1 [#6f6a61] "We aim to reply within a few" p=1
+Inter | 16px | 400 | italic | 28.8px | normal | none  n=4 [#999999] "\"I find we can identify huma" "\"I'm trying to take off a pi" "\"If you have pictures of peo" p=1
+Inter | 16px | 400 | normal | 19.2px | normal | none  n=1 [#ffffff] "View original →" p=1
+Inter | 15px | 300 | normal | 24.75px | normal | none  n=1 [#c2c2c2] "This work is available for a" p=1
+Inter | 15px | 400 | normal | 18px | normal | none  n=7 [#e3caa6 #0f0f0f] "←" p=7
+Inter | 15px | 300 | normal | 24px | normal | none  n=2 [#6f6a61 #b4aea3] "Canadian-born and working fr" "Born in Rheinfelden, Germany" p=1
+Inter | 14.5px | 300 | normal | 23.2px | -0.29px | none  n=29 [#6f6a61 #b4aea3 #1c1a17] "Receives an Honours Degree i" "Moves to Paris to study figu" "Relocates to Monaco and open" p=3
+Inter | 14.5px | 300 | italic | 23.2px | -0.29px | none  n=9 [#6f6a61 #b4aea3] "Fragments Collection" "Re-Think Collection" "Spirits Collection" p=2
+Inter | 14px | 300 | normal | 22.4px | 3.4px | uppercase  n=84 [#e3caa6 #6f6a61 #0f0f0f #f5f2eb #b4aea3] "[Links]" "[BLAKE Social]" "[BOKY Social]" p=14
+Switzer | 14px | 300 | normal | 22.4px | -0.56px | none  n=53 [#000000 #ffffff #c2c2c2] "May 17, 2026" "May 12, 2025" "Feb 24, 2026" p=6
+Inter | 14px | 400 | normal | 16.8px | 1.92px | uppercase  n=1 [#1c1a17] "Send message" p=1
+Inter | 13px | 400 | normal | 15.6px | normal | none  n=1 [#8a8a86] "bokysculpture.com" p=1
+Inter | 12px | 400 | normal | 19.2px | 1.8px | uppercase  n=4 [#dbdbdb #1c1a17] "Next work" "Blake Ward and Boky Hackel-W" "Previous" p=3
+Inter | 12px | 400 | normal | 14.4px | 1.8px | uppercase  n=1 [#c2c2c2] "Get in Touch" p=1
+Inter | 12px | 400 | normal | 14.4px | 1.92px | uppercase  n=7 [#dbdbdb #1c1a17 #ffffff #6f6a61] "Contact Us" "Register interest" "Browse other collections" p=6
+Inter | 12px | 400 | normal | 14.4px | 0.96px | none  n=7 [#f2f2f2 #0f0f0f] "Spirit Collection" "Collections" "Galleries" p=7
+Cormorant Garamond | 12px | 300 | normal | 19.2px | -0.24px | none  n=14 [#c2c2c2] "Copyright © 2026 Blake&Boky." p=14
+Inter | 12px | 300 | normal | 14.4px | 1.68px | uppercase  n=8 [#6f6a61 #b4aea3] "Years Sculpting" "Major Collections" "Countries Exhibited" p=2
+Inter | 12px | 400 | normal | 14.4px | 3.36px | uppercase  n=4 [#e3caa6 #8a8375 #8a8a86] "Artnet News · Feature" "Blake Ward" "In the meantime" p=3
+Inter | 12px | 400 | normal | 14.4px | 2.16px | uppercase  n=1 [#8a8a86] "Jacqueline Ceresoli, Art Cri" p=1
+Inter | 11px | 400 | normal | 13.2px | 1.98px | uppercase  n=1 [#9c7f4e] "This collection is coming so" p=1
+Inter | 11px | 400 | normal | 13.2px | 2.42px | uppercase  n=4 [#6f6a61 #b4aea3 #8a8a86] "His collections" "Her collections" "Year" p=2
+
+### TYPE 390  (font | size | weight | style | lh | ls | transform) n colors examples
+Switzer | 90px | 400 | normal | normal | normal | none  n=6 [#ffffff] "49" "+" "9" p=1
+Cormorant Garamond | 66px | 500 | normal | 69.3px | normal | none  n=1 [#f5f2eb] "The Story" p=1
+Cormorant Garamond | 60px | 400 | normal | 66px | -3.6px | none  n=1 [#0f0f0f] "In Preparation" p=1
+Cormorant Garamond | 52px | 500 | normal | 50.96px | 1px | none  n=7 [#1c1a17 #f5f2eb] "Blake Ward" "Boky Hackel" "Contact" p=6
+Cormorant Garamond | 46px | 500 | normal | 51.52px | normal | none  n=1 [#f5f2eb] "The Restless Gaze and the Di" p=1
+Cormorant Garamond | 46px | 500 | normal | 46.92px | normal | none  n=1 [#f5f2eb] "Past Works" p=1
+Cormorant Garamond | 42px | 600 | normal | 42px | -0.84px | none  n=8 [#1c1a17 #f5f2eb] "40+" "4" "13" p=2
+Cormorant Garamond | 37px | 400 | normal | 40.7px | -2.22px | none  n=1 [#dbdbdb] "Blake Ward & Boky Hackel Exp" p=1
+Cormorant Garamond | 34px | 500 | normal | 37.4px | 0.5px | none  n=34 [#ffffff #1c1a17 #f5f2eb #000000] "Blake & Boky" "Biography" "Collections" p=14
+Cormorant Garamond | 32px | 500 | normal | 36.8px | 0.4px | none  n=2 [#dbdbdb] "Angel Forces" "Spirit Collection" p=2
+Cormorant Garamond | 32px | 500 | normal | 38.4px | normal | none  n=1 [#dbdbdb] "Inquire about this piece" p=1
+Cormorant Garamond | 32px | 500 | normal | 36.8px | -1.28px | none  n=4 [#1c1a17 #f5f2eb] "Get in touch for further inq" p=4
+Cormorant Garamond | 32px | 400 | italic | 44.8px | normal | none  n=1 [#1c1a17] "The works are complete. What" p=1
+Cormorant Garamond | 32px | 500 | normal | 36.8px | normal | none  n=1 [#1c1a17] "Collections you can see now" p=1
+Cormorant Garamond | 28px | 500 | normal | 33.6px | -1.12px | none  n=20 [#ffffff] "Contact" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=14
+Cormorant Garamond | 26px | 500 | normal | 31.2px | 0.3px | none  n=4 [#dbdbdb #1c1a17] "Angel Forces" "Factsheet" "Adopt-A-Minefield®" p=2
+Cormorant Garamond | 26px | 400 | italic | 35.1px | -0.52px | none  n=2 [#1c1a17 #f5f2eb] "Blake William Ward born in Y" "Boky Hackel — born in Rheinf" p=2
+Inter | 26px | 300 | normal | 36.4px | -1.04px | none  n=77 [#ffffff #000000] "C" "o" "l" p=4
+Cormorant Garamond | 26px | 500 | normal | 32.5px | normal | none  n=3 [#1c1a17 #ffffff] "Pietrasanta, Italy" "General inquiries" p=1
+Cormorant Garamond | 25px | 300 | normal | 30px | -1px | none  n=8 [#0f0f0f] "Andromeda Collection" "Spirit Collection : The Ange" "Spirit Collection : The Phan" p=1
+Cormorant Garamond | 24px | 400 | italic | 32.4px | -0.48px | none  n=4 [#1c1a17 #b4aea3 #f5f2eb] "“Inspired by the grace and s" "Rough reflections and noble " "The foundation of Blake and " p=4
+Cormorant Garamond | 24px | 400 | normal | 28.8px | normal | none  n=1 [#f5f2eb] "Read the article →" p=1
+Cormorant Garamond | 23px | 400 | italic | 33.35px | normal | none  n=1 [#b4aea3] "“Enigmatic faces, masks, bro" p=1
+Cormorant Garamond | 23px | 500 | normal | 28.75px | -0.92px | none  n=2 [#1c1a17] "Canada's Prairies, Paris, Mo" "Statistics cited in the arti" p=1
+Cormorant Garamond | 22px | 600 | normal | 30.8px | -0.44px | none  n=14 [#ffffff] "Blake & Boky" p=14
+Cormorant Garamond | 22px | 600 | normal | 28.6px | -0.44px | none  n=22 [#1c1a17 #f5f2eb] "1979" "1985" "1991" p=3
+Cormorant Garamond | 22px | 400 | normal | 30.8px | -0.44px | none  n=50 [#1c1a17 #6f6a61 #f5f2eb #b4aea3] "United States" "·" "Canada" p=2
+Cormorant Garamond | 22px | 400 | normal | 26.4px | normal | none  n=2 [#f5f2eb] "2019" "Artist statement" p=1
+Cormorant Garamond | 21px | 400 | normal | 25.2px | normal | none  n=2 [#1c1a17 #f5f2eb] "Read Blake’s story →" "Read Boky’s story →" p=1
+Cormorant Garamond | 20px | 400 | italic | 28px | normal | none  n=1 [#b4aea3] "An archive of earlier sculpt" p=1
+Cormorant Garamond | 19px | 300 | normal | 26.6px | -0.76px | none  n=1376 [#ffffff #000000] "D" "a" "m" p=8
+Cormorant Garamond | 18px | 400 | italic | 25.2px | -0.36px | none  n=10 [#6f6a61 #b4aea3 #ffffff] "Pushing the figure into the " "Exploring the mysteries of t" "Contact Us" p=8
+Inter | 18px | 300 | normal | 28.8px | normal | none  n=3 [#6f6a61 #1c1a17 #ffffff] "By appointment only." "blake@blakeward.com" "boky@bokyhackel.com" p=1
+Switzer | 18px | 300 | normal | 18px | -0.36px | none  n=4 [#0f0f0f #dbdbdb] "Blake Ward" "Boky Hackel-Ward" "All Collections" p=1
+Cormorant Garamond | 18px | 400 | normal | 21.6px | normal | none  n=2 [#1c1a17 #f5f2eb] "Fragments · Andromeda · The " "In Lucem · Figurative Poetry" p=1
+Inter | 18px | 300 | normal | 30.6px | -0.36px | none  n=1 [#1c1a17] "Nov 24, 2025" p=1
+Inter | 16px | 300 | normal | 28px | -0.32px | none  n=73 [#c2c2c2 #dbdbdb #1c1a17 #b4aea3] "Angel of Invisibility" "This Sculpture is presently " "Please Contact me on my Prof" p=3
+Inter | 16px | 300 | normal | 25.6px | -0.32px | none  n=188 [#c2c2c2 #ffffff #6f6a61 #b4aea3 #f5f2eb #1c1a17 #8a8375] "Angel Vohamanah" "Blake Biography" "Boky Biography" p=14
+Inter | 16px | 300 | normal | 27.2px | normal | none  n=1 [#6f6a61] "Photography, dimensions, mat" p=1
+Inter | 16px | 300 | normal | 25.6px | normal | none  n=1 [#6f6a61] "We aim to reply within a few" p=1
+Inter | 16px | 400 | normal | 28px | -0.32px | none  n=22 [#1c1a17] "Blake" "Farah Ameen" "Fragments" p=1
+Inter | 16px | 300 | italic | 28px | -0.32px | none  n=2 [#1c1a17] "Adopt-A-Minefield®" "(Sidebar from the article)" p=1
+Inter | 16px | 400 | italic | 28.8px | normal | none  n=4 [#999999] "\"I find we can identify huma" "\"I'm trying to take off a pi" "\"If you have pictures of peo" p=1
+Inter | 16px | 400 | normal | 19.2px | normal | none  n=1 [#ffffff] "View original →" p=1
+Inter | 15px | 300 | normal | 24.75px | normal | none  n=1 [#c2c2c2] "This work is available for a" p=1
+Inter | 15px | 400 | normal | 18px | normal | none  n=7 [#e3caa6 #0f0f0f] "←" p=7
+Inter | 15px | 300 | normal | 24px | normal | none  n=2 [#6f6a61 #b4aea3] "Canadian-born and working fr" "Born in Rheinfelden, Germany" p=1
+Inter | 14.5px | 300 | normal | 23.2px | -0.29px | none  n=29 [#6f6a61 #b4aea3 #1c1a17] "Receives an Honours Degree i" "Moves to Paris to study figu" "Relocates to Monaco and open" p=3
+Inter | 14.5px | 300 | italic | 23.2px | -0.29px | none  n=9 [#6f6a61 #b4aea3] "Fragments Collection" "Re-Think Collection" "Spirits Collection" p=2
+Inter | 14px | 300 | normal | 22.4px | 3.4px | uppercase  n=84 [#e3caa6 #6f6a61 #0f0f0f #f5f2eb #b4aea3] "[Links]" "[BLAKE Social]" "[BOKY Social]" p=14
+Inter | 14px | 400 | normal | 16.8px | 1.92px | uppercase  n=1 [#1c1a17] "Send message" p=1
+Switzer | 13px | 300 | normal | 20.8px | -0.52px | none  n=53 [#000000 #ffffff #c2c2c2] "May 17, 2026" "May 12, 2025" "Feb 24, 2026" p=6
+Inter | 13px | 400 | normal | 15.6px | normal | none  n=1 [#8a8a86] "bokysculpture.com" p=1
+Inter | 12px | 400 | normal | 19.2px | 1.8px | uppercase  n=4 [#dbdbdb #1c1a17] "Next work" "Blake Ward and Boky Hackel-W" "Previous" p=3
+Inter | 12px | 400 | normal | 14.4px | 1.8px | uppercase  n=1 [#c2c2c2] "Get in Touch" p=1
+Inter | 12px | 400 | normal | 14.4px | 1.92px | uppercase  n=7 [#dbdbdb #1c1a17 #ffffff #6f6a61] "Contact Us" "Register interest" "Browse other collections" p=6
+Inter | 12px | 400 | normal | 14.4px | 0.96px | none  n=7 [#f2f2f2 #0f0f0f] "Spirit Collection" "Collections" "Galleries" p=7
+Cormorant Garamond | 12px | 300 | normal | 19.2px | -0.24px | none  n=14 [#c2c2c2] "Copyright © 2026 Blake&Boky." p=14
+Inter | 12px | 300 | normal | 14.4px | 1.68px | uppercase  n=8 [#6f6a61 #b4aea3] "Years Sculpting" "Major Collections" "Countries Exhibited" p=2
+Inter | 12px | 400 | normal | 14.4px | 3.36px | uppercase  n=4 [#e3caa6 #8a8375 #8a8a86] "Artnet News · Feature" "Blake Ward" "In the meantime" p=3
+Inter | 12px | 400 | normal | 14.4px | 2.16px | uppercase  n=1 [#8a8a86] "Jacqueline Ceresoli, Art Cri" p=1
+Inter | 11px | 400 | normal | 13.2px | 1.98px | uppercase  n=1 [#9c7f4e] "This collection is coming so" p=1
+Inter | 11px | 400 | normal | 13.2px | 2.42px | uppercase  n=4 [#6f6a61 #b4aea3 #8a8a86] "His collections" "Her collections" "Year" p=2
+
+### TALLIES
+backdrop blur(10px): 35
+bg #000000: 125
+bg #0f0f0f: 81
+bg #0f0f0f@0.01: 9
+bg #0f0f0f@0.55: 10
+bg #1c1a17: 24
+bg #363636: 12
+bg #5c5852: 33
+bg #6f6a61@0.02: 3
+bg #bbbbbb@0.15: 6
+bg #cca46c@0: 3
+bg #dbdbdb: 235
+bg #e9e4d9: 21
+bg #f3f1e9: 3
+bg #f4f1ea: 6
+bg #f5f2eb: 72
+bg #ffffff: 12
+bg #ffffff@0: 132
+bg #ffffff@0.02: 14
+bg #ffffff@0.04: 24
+blend multiply: 3
+radius 10px: 6
+radius 12px: 126
+radius 2px: 126
+radius 50%: 57
+radius 8px: 9
+radius 999px: 3
+shadow rgba(0, 0, 0, 0.07) -0.772618px -0.587862px 1.7475px -0.46875px, rgba(0, 0, 0, 0.07) -1.83124px -1.39334px 4.14189px -0.9375px, rgba(0, 0, 0: 9
+
+## artwork-detail @1440 docH=5330 body=#0f0f0f nav=Desktop BLACK 64px fixed bg=#000000
+  [div] <div> y=0 h=4855 x=0 w=1440 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Image Ticker] y=0 h=630 x=0 w=1440 bg=#000000@0 pad=0px block row gap=normal
+      - [div] y=630 h=4225 x=0 w=1440 bg=#000000@0 pad=82px 0px flex column gap=60px max=1920px
+  [div] <div> y=88 h=38 x=20 w=162 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=162 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=4855 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=4855 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop BLACK] y=0 h=64 x=0 w=1440 bg=#000000 pad=0px flex row gap=20px
+  GRIDS: [] y=1608 x=0 w=1440 grid perRow=3 items=8 gap=16px pad=0px itemW=469,469,469,469 itemH=834,834,834,834 cols=469.328px 469.328px 469.344px
+  RAILS: {"name":"DIV","x":-363,"y":0,"w":6672,"h":630,"scrollW":6672,"items":16,"gap":"4px","overflowX":"visible","mask":"none","transform":"matrix(1, 0, 0, 1, -362.996, 0)"}
+  IMGS: Image Ticker|420x630@-363,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|420x630@61,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|407x630@485,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|415x630@896,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|411x630@1314,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|406x630@1729,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|420x630@2139,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|408x630@2563,0 contain 50% 50% r=0px nat=557x860
+        Image Ticker|420x630@2975,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|420x630@3399,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|407x630@3822,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|415x630@4234,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|411x630@4652,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|406x630@5067,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|420x630@5477,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|408x630@5901,0 contain 50% 50% r=0px nat=557x860
+        Gallery Lightbox|469x834@0,1608 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|469x834@485,1608 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|469x834@971,1608 cover 50% 50% r=0px nat=556x860 CUT x 13%
+        Gallery Lightbox|469x834@0,2458 cover 50% 50% r=0px nat=566x860 CUT x 14.5%
+        Gallery Lightbox|469x834@485,2458 cover 50% 50% r=0px nat=561x860 CUT x 13.8%
+        Gallery Lightbox|469x834@971,2458 cover 50% 50% r=0px nat=554x860 CUT x 12.7%
+        Gallery Lightbox|469x834@0,3309 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|469x834@485,3309 cover 50% 50% r=0px nat=557x860 CUT x 13.2%
+        Thumb|122x150@1318,4266 cover 50% 0% r=0px nat=122x184 CUT y 18.5%
+  MOTION atLoad=9 preScrollHidden=0 scrollAnims=4 loadAnims=0
+     anim x1: 620|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1)"},{"o":1,"transform":"scale(1.04)"}]
+     anim x1: 579.8489886338466|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.03741)"},{"o":1,"transform":"scale(1)"}]
+     anim x1: 579.8146968513327|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.03741)"},{"o":1,"transform":"scale(1)"}]
+     anim x1: 579.8620469323093|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.03741)"},{"o":1,"transform":"scale(1)"}]
+
+## artwork-detail @810 docH=4535 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=3856 x=0 w=810 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Image Ticker] y=0 h=770 x=0 w=810 bg=#000000@0 pad=0px block row gap=normal
+      - [div] y=770 h=3086 x=0 w=810 bg=#000000@0 pad=82px 0px flex column gap=60px max=1920px
+  [div] <div> y=88 h=38 x=8 w=162 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=8 w=162 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=3856 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=3856 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [] y=1729 x=0 w=810 grid perRow=3 items=8 gap=16px pad=0px itemW=259,259,259,259 itemH=461,461,461,461 cols=259.328px 259.328px 259.344px
+  RAILS: {"name":"DIV","x":-348,"y":0,"w":8141,"h":770,"scrollW":8141,"items":16,"gap":"4px","overflowX":"visible","mask":"none","transform":"matrix(1, 0, 0, 1, -347.892, 0)"}
+  IMGS: Image Ticker|513x770@-348,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|513x770@169,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|498x770@686,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|507x770@1188,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|502x770@1699,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|496x770@2205,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|513x770@2705,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|499x770@3222,0 contain 50% 50% r=0px nat=557x860
+        Image Ticker|513x770@3725,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|513x770@4242,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|498x770@4759,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|507x770@5261,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|502x770@5771,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|496x770@6278,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|513x770@6778,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|499x770@7295,0 contain 50% 50% r=0px nat=557x860
+        Gallery Lightbox|259x461@0,1729 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|259x461@275,1729 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|259x461@551,1729 cover 50% 50% r=0px nat=556x860 CUT x 13%
+        Gallery Lightbox|259x461@0,2206 cover 50% 50% r=0px nat=566x860 CUT x 14.5%
+        Gallery Lightbox|259x461@275,2206 cover 50% 50% r=0px nat=561x860 CUT x 13.8%
+        Gallery Lightbox|259x461@551,2206 cover 50% 50% r=0px nat=554x860 CUT x 12.7%
+        Gallery Lightbox|259x461@0,2683 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|259x461@275,2683 cover 50% 50% r=0px nat=557x860 CUT x 13.1%
+        Thumb|122x150@688,3267 cover 50% 0% r=0px nat=122x184 CUT y 18.5%
+  MOTION atLoad=9 preScrollHidden=0 scrollAnims=8 loadAnims=0
+     anim x1: 194.04966872930012|0|ease|[{"o":0},{"o":1}]
+     anim x1: 295.71365639188366|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.01908)"},{"o":1,"transform":"scale(1)"}]
+     anim x1: 260|0|ease|[{"o":0},{"o":1}]
+     anim x1: 620|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1)"},{"o":1,"transform":"scale(1.04)"}]
+     anim x1: 259.78754121293184|0|ease|[{"o":0},{"o":1}]
+     anim x1: 492.7609936462441|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.03179)"},{"o":1,"transform":"scale(1)"}]
+     anim x1: 193.94893381224045|0|ease|[{"o":0},{"o":1}]
+     anim x1: 295.53825748954654|0|cubic-bezier(0.22, 0.61, 0.36, 1)|[{"o":0,"transform":"scale(1.01907)"},{"o":1,"transform":"scale(1)"}]
+
+## artwork-detail @390 docH=4733 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=3757 x=0 w=390 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Image Ticker] y=0 h=591 x=0 w=390 bg=#000000@0 pad=0px block row gap=normal
+      - [div] y=591 h=3167 x=0 w=390 bg=#000000@0 pad=82px 0px flex column gap=60px max=1920px
+  [div] <div> y=88 h=38 x=8 w=162 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=8 w=162 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=3757 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=3757 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [] y=1619 x=0 w=390 grid perRow=2 items=8 gap=16px pad=0px itemW=187,187,187,187 itemH=332,332,332,332 cols=187px 187px
+  RAILS: {"name":"DIV","x":-353,"y":0,"w":6261,"h":591,"scrollW":6261,"items":16,"gap":"4px","overflowX":"visible","mask":"none","transform":"matrix(1, 0, 0, 1, -352.676, 0)"}
+  IMGS: Image Ticker|394x591@-353,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|394x591@45,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|382x591@443,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|389x591@829,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|385x591@1221,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|381x591@1611,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|394x591@1995,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|383x591@2393,0 contain 50% 50% r=0px nat=557x860
+        Image Ticker|394x591@2780,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|394x591@3177,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|382x591@3575,0 contain 50% 50% r=0px nat=556x860
+        Image Ticker|389x591@3961,0 contain 50% 50% r=0px nat=566x860
+        Image Ticker|385x591@4354,0 contain 50% 50% r=0px nat=561x860
+        Image Ticker|381x591@4743,0 contain 50% 50% r=0px nat=554x860
+        Image Ticker|394x591@5128,0 contain 50% 50% r=0px nat=573x860
+        Image Ticker|383x591@5525,0 contain 50% 50% r=0px nat=557x860
+        Gallery Lightbox|187x332@0,1619 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|187x332@203,1619 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|187x332@0,1967 cover 50% 50% r=0px nat=556x860 CUT x 13%
+        Gallery Lightbox|187x332@203,1967 cover 50% 50% r=0px nat=566x860 CUT x 14.5%
+        Gallery Lightbox|187x332@0,2316 cover 50% 50% r=0px nat=561x860 CUT x 13.8%
+        Gallery Lightbox|187x332@203,2316 cover 50% 50% r=0px nat=554x860 CUT x 12.7%
+        Gallery Lightbox|187x332@0,2664 cover 50% 50% r=0px nat=573x860 CUT x 15.6%
+        Gallery Lightbox|187x332@203,2664 cover 50% 50% r=0px nat=557x860 CUT x 13.1%
+        Thumb|122x150@268,3120 cover 50% 0% r=0px nat=122x184 CUT y 18.5%
+  MOTION atLoad=9 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## blake-bio @1440 docH=9152 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [Main] <div> y=0 h=8678 x=0 w=1440 pos=relative bg=#f3f1e9 pad=0px flex column gap=0px
+      - [Hero] y=0 h=841 x=0 w=1440 bg=#000000@0 pad=90px 0px 70px flex column gap=0px
+      - [Artist Statement] y=841 h=365 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1206 h=1015 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=2221 h=5583 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=7804 h=522 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=8325 h=352 x=0 w=1440 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=8678 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=8678 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  GRIDS: [] y=2453 x=32 w=1376 grid perRow=2 items=8 gap=52px 40px pad=0px itemW=668,668,668,668 itemH=1279,1279,1279,1279 cols=668px 668px
+         [Countries] y=8035 x=310 w=820 flex perRow=16 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=8171 x=32 w=1376 grid perRow=4 items=4 gap=24px pad=0px itemW=326,326,326,326 itemH=74,74,74,74 cols=326px 326px 326px 326px
+  IMGS: Hero Sculpture|430x421@505,350 cover 50% 50% r=2px nat=400x392 CUT y 0.1%
+        Collections Wrap|668x1188@32,2453 cover 50% 50% r=2px nat=668x1099 CUT x 7.5%
+        Collections Wrap|668x1188@740,2453 cover 50% 50% r=2px nat=640x860 CUT x 24.4%
+        Collections Wrap|668x1188@32,3783 cover 50% 50% r=2px nat=668x1002 CUT x 15.6%
+        Collections Wrap|668x1188@740,3783 cover 50% 50% r=2px nat=668x897 CUT x 24.5%
+        Collections Wrap|668x1188@32,5114 cover 50.7% 44.3% r=2px nat=668x738 CUT x 37.9%
+        Collections Wrap|668x1188@740,5114 cover 50% 50% r=2px nat=668x435 CUT x 63.4%
+        Collections Wrap|668x1188@32,6445 cover 48.7% 46.3% r=2px nat=668x668 CUT x 43.7%
+        Collections Wrap|668x1188@740,6445 cover 50% 50% r=2px nat=668x454 CUT x 61.8%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## blake-bio @810 docH=7274 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=6596 x=0 w=810 pos=relative bg=#f3f1e9 pad=0px flex column gap=0px
+      - [Hero] y=0 h=805 x=0 w=810 bg=#000000@0 pad=90px 0px 70px flex column gap=0px
+      - [Artist Statement] y=805 h=322 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1127 h=1284 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=2411 h=3333 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=5744 h=511 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=6255 h=341 x=0 w=810 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=6596 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=6596 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [] y=2632 x=20 w=770 grid perRow=2 items=8 gap=32px 40px pad=0px itemW=365,365,365,365 itemH=734,734,734,734 cols=365px 365px
+         [Countries] y=5965 x=32 w=746 flex perRow=14 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=6101 x=32 w=746 grid perRow=4 items=4 gap=24px pad=0px itemW=169,169,169,169 itemH=74,74,74,74 cols=168.5px 168.5px 168.5px 168.5px
+  IMGS: Hero Sculpture|430x421@190,314 cover 50% 50% r=2px nat=400x392 CUT y 0.1%
+        Collections Wrap|365x649@20,2632 cover 50% 50% r=2px nat=365x600 CUT x 7.5%
+        Collections Wrap|365x649@425,2632 cover 50% 50% r=2px nat=640x860 CUT x 24.4%
+        Collections Wrap|365x649@20,3398 cover 50% 50% r=2px nat=365x548 CUT x 15.5%
+        Collections Wrap|365x649@425,3398 cover 50% 50% r=2px nat=365x490 CUT x 24.5%
+        Collections Wrap|365x649@20,4164 cover 50.7% 44.3% r=2px nat=365x403 CUT x 37.9%
+        Collections Wrap|365x649@425,4164 cover 50% 50% r=2px nat=365x237 CUT x 63.5%
+        Collections Wrap|365x649@20,4930 cover 48.7% 46.3% r=2px nat=365x365 CUT x 43.7%
+        Collections Wrap|365x649@425,4930 cover 50% 50% r=2px nat=365x248 CUT x 61.8%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## blake-bio @390 docH=11716 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=10740 x=0 w=390 pos=relative bg=#f3f1e9 pad=0px flex column gap=0px
+      - [Hero] y=0 h=696 x=0 w=390 bg=#000000@0 pad=106px 0px 70px flex column gap=0px
+      - [Artist Statement] y=696 h=387 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1082 h=1703 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=2785 h=6844 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=9629 h=745 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=10374 h=366 x=0 w=390 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=10740 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=10740 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [] y=2995 x=0 w=390 flex perRow=1 items=8 gap=52px 40px pad=0px itemW=390,390,390,390 itemH=774,774,774,774
+         [Countries] y=9839 x=32 w=326 flex perRow=6 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=10097 x=32 w=326 grid perRow=2 items=4 gap=40px 24px pad=0px itemW=151,151,151,151 itemH=64,79,79,64 cols=151px 151px
+  IMGS: Hero Sculpture|326x319@32,307 cover 50% 50% r=2px nat=400x392 CUT y 0.2%
+        Collections Wrap|390x693@0,2995 cover 50% 50% r=2px nat=389x641 CUT x 7.3%
+        Collections Wrap|390x693@0,3821 cover 50% 50% r=2px nat=640x860 CUT x 24.4%
+        Collections Wrap|390x693@0,4647 cover 50% 50% r=2px nat=390x584 CUT x 15.8%
+        Collections Wrap|390x693@0,5472 cover 50% 50% r=2px nat=389x523 CUT x 24.4%
+        Collections Wrap|390x693@0,6298 cover 50.7% 44.3% r=2px nat=389x430 CUT x 37.8%
+        Collections Wrap|390x693@0,7124 cover 50% 50% r=2px nat=389x253 CUT x 63.4%
+        Collections Wrap|390x693@0,7950 cover 48.7% 46.3% r=2px nat=389x389 CUT x 43.7%
+        Collections Wrap|390x693@0,8775 cover 50% 50% r=2px nat=389x264 CUT x 61.8%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## boky-bio @1440 docH=10931 body=#0f0f0f nav=DESKTOP GREY 64px fixed bg=#0f0f0f
+  [Main] <div> y=0 h=10456 x=0 w=1440 pos=relative bg=#0f0f0f pad=0px flex column gap=0px
+      - [Hero] y=0 h=800 x=0 w=1440 bg=#000000@0 pad=90px 0px 70px flex column gap=0px
+      - [Artist Statement] y=800 h=365 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1165 h=1434 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=2600 h=2938 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=5537 h=522 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=6059 h=352 x=0 w=1440 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Artnet Feature] y=6411 h=740 x=0 w=1440 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Collections] y=7151 h=3305 x=0 w=1440 bg=#000000@0 pad=80px 32px flex column gap=0px
+  [div] <div> y=10456 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=10456 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [DESKTOP GREY] y=0 h=64 x=0 w=1440 bg=#0f0f0f pad=0px flex row gap=20px
+  GRIDS: [] y=2831 x=32 w=1376 grid perRow=2 items=6 gap=52px 40px pad=0px itemW=668,668,668,668 itemH=841,841,841,841 cols=668px 668px
+         [Countries] y=5769 x=310 w=820 flex perRow=16 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=5905 x=32 w=1376 grid perRow=4 items=4 gap=24px pad=0px itemW=326,326,326,326 itemH=74,74,74,74 cols=326px 326px 326px 326px
+  HAIRLINES: 459x1 #dbdbdb Line
+  IMGS: Portrait|380x380@530,350 cover 50% 50% r=2px nat=380x510 CUT y 25.5%
+        Desktop|668x668@32,2831 cover 50% 50% r=0px nat=640x860 CUT y 25.6%
+        Desktop|668x668@740,2831 cover 50% 50% r=0px nat=668x1002 CUT y 33.3%
+        Desktop|668x668@32,3724 cover 50% 50% r=0px nat=668x897 CUT y 25.5%
+        Desktop|668x668@740,3724 cover 50% 50% r=0px nat=668x444 CUT x 33.5%
+        Desktop|668x668@32,4617 cover 50% 50% r=0px nat=668x553 CUT x 17.2%
+        Desktop|668x668@740,4617 cover 50% 50% r=0px nat=668x274 CUT x 59%
+        Feature Image|656x520@752,6521 cover 50% 50% r=2px nat=656x656 CUT y 20.7%
+        Square Desktop|459x459@32,7397 cover 50% 50% r=0px nat=458x663 CUT y 30.9%
+        Square Desktop|459x459@491,7397 cover 50% 50% r=0px nat=459x590 CUT y 22.2%
+        Square Desktop|459x459@949,7397 cover 50% 50% r=0px nat=458x384 CUT x 16.2%
+        Square Desktop|459x459@32,7998 cover 50% 50% r=0px nat=459x688 CUT y 33.3%
+        Square Desktop|459x459@491,7998 cover 50% 50% r=0px nat=458x258 CUT x 43.7%
+        Square Desktop|459x459@949,7998 cover 50% 50% r=0px nat=656x656 CUT y 0%
+        Square Desktop|459x459@32,8600 cover 50% 50% r=0px nat=458x334 CUT x 27.1%
+        Square Desktop|459x459@491,8600 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@949,8600 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@32,9201 cover 50% 50% r=0px nat=458x258 CUT x 43.7%
+        Square Desktop|459x459@491,9201 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@949,9201 cover 50% 50% r=0px nat=656x656 CUT y 0%
+        Square Desktop|459x459@32,9803 cover 50% 50% r=0px nat=458x334 CUT x 27.1%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x6: Square Desktop op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## boky-bio @810 docH=11074 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=10396 x=0 w=810 pos=relative bg=#0f0f0f pad=0px flex column gap=0px
+      - [Hero] y=0 h=764 x=0 w=810 bg=#000000@0 pad=90px 0px 70px flex column gap=0px
+      - [Artist Statement] y=764 h=282 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1046 h=1905 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=2951 h=1714 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=4664 h=511 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=5175 h=341 x=0 w=810 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Artnet Feature] y=5516 h=782 x=0 w=810 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Collections] y=6297 h=4098 x=0 w=810 bg=#000000@0 pad=80px 32px flex column gap=0px
+  [div] <div> y=10396 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=10396 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [] y=3171 x=20 w=770 grid perRow=2 items=6 gap=32px 40px pad=0px itemW=365,365,365,365 itemH=450,450,450,450 cols=365px 365px
+         [Countries] y=4885 x=32 w=746 flex perRow=14 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=5021 x=32 w=746 grid perRow=4 items=4 gap=24px pad=0px itemW=169,169,169,169 itemH=74,74,74,74 cols=168.5px 168.5px 168.5px 168.5px
+  HAIRLINES: 373x1 #dbdbdb Line
+  IMGS: Portrait|380x380@215,314 cover 50% 50% r=2px nat=380x510 CUT y 25.5%
+        IPhone|365x365@20,3171 cover 50% 50% r=0px nat=640x860 CUT y 25.6%
+        IPhone|365x365@425,3171 cover 50% 50% r=0px nat=365x548 CUT y 33.4%
+        IPhone|365x365@20,3653 cover 50% 50% r=0px nat=365x490 CUT y 25.5%
+        IPhone|365x365@425,3653 cover 50% 50% r=0px nat=365x242 CUT x 33.7%
+        IPhone|365x365@20,4135 cover 50% 50% r=0px nat=365x302 CUT x 17.3%
+        IPhone|365x365@425,4135 cover 50% 50% r=0px nat=365x150 CUT x 58.9%
+        Feature Image|341x520@437,5626 cover 50% 50% r=2px nat=373x373 CUT x 34.4%
+        Square ipad|373x373@32,6532 cover 50% 50% r=0px nat=373x539 CUT y 30.8%
+        Square ipad|373x373@405,6532 cover 50% 50% r=0px nat=373x479 CUT y 22.1%
+        Square ipad|373x373@32,7077 cover 50% 50% r=0px nat=373x312 CUT x 16.4%
+        Square ipad|373x373@405,7077 cover 50% 50% r=0px nat=373x560 CUT y 33.4%
+        Square ipad|373x373@32,7621 cover 50% 50% r=0px nat=373x209 CUT x 44%
+        Square ipad|373x373@405,7621 cover 50% 50% r=0px nat=373x373 CUT y 0%
+        Square ipad|373x373@32,8166 cover 50% 50% r=0px nat=373x271 CUT x 27.3%
+        Square ipad|373x373@405,8166 cover 50% 50% r=0px nat=373x373 CUT y 0%
+        Square ipad|373x373@32,8710 cover 50% 50% r=0px nat=373x373 CUT y 0%
+        Square ipad|373x373@405,8710 cover 50% 50% r=0px nat=373x209 CUT x 44%
+        Square ipad|373x373@32,9255 cover 50% 50% r=0px nat=373x373 CUT y 0%
+        Square ipad|373x373@405,9255 cover 50% 50% r=0px nat=373x373 CUT y 0%
+        Square ipad|373x373@32,9799 cover 50% 50% r=0px nat=373x271 CUT x 27.3%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x6: Square ipad op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## boky-bio @390 docH=17455 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=16480 x=0 w=390 pos=relative bg=#0f0f0f pad=0px flex column gap=0px
+      - [Hero] y=0 h=757 x=0 w=390 bg=#000000@0 pad=106px 0px 70px flex column gap=0px
+      - [Artist Statement] y=757 h=354 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Biography] y=1111 h=2751 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Collections] y=3862 h=3397 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=7260 h=745 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=8005 h=366 x=0 w=390 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Artnet Feature] y=8371 h=1366 x=0 w=390 bg=#000000@0 pad=110px 0px flex column gap=0px
+      - [Collections] y=9737 h=6743 x=0 w=390 bg=#000000@0 pad=80px 32px flex column gap=0px
+  [div] <div> y=16480 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=16480 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [] y=4072 x=0 w=390 flex perRow=1 items=6 gap=52px 40px pad=0px itemW=390,390,390,390 itemH=475,475,475,475
+         [Countries] y=7469 x=32 w=326 flex perRow=6 items=25 gap=10px 14px pad=0px itemW=111,4,63,4 itemH=31,31,31,31
+         [Stats] y=7727 x=32 w=326 grid perRow=2 items=4 gap=40px 24px pad=0px itemW=151,151,151,151 itemH=64,79,79,64 cols=151px 151px
+  HAIRLINES: 326x1 #dbdbdb Line
+  IMGS: Portrait|380x380@5,307 cover 50% 50% r=2px nat=380x510 CUT y 25.5%
+        IPhone|390x390@0,4072 cover 50% 50% r=0px nat=640x860 CUT y 25.6%
+        IPhone|390x390@0,4599 cover 50% 50% r=0px nat=390x584 CUT y 33.2%
+        IPhone|390x390@0,5125 cover 50% 50% r=0px nat=389x523 CUT y 25.6%
+        IPhone|390x390@0,5652 cover 50% 50% r=0px nat=389x258 CUT x 33.7%
+        IPhone|390x390@0,6178 cover 50% 50% r=0px nat=389x322 CUT x 17.2%
+        IPhone|390x390@0,6705 cover 50% 50% r=0px nat=389x160 CUT x 58.9%
+        Feature Image|390x520@0,9107 cover 50% 50% r=2px nat=390x390 CUT x 25%
+        Square ipad|326x326@32,9960 cover 50% 50% r=0px nat=326x471 CUT y 30.8%
+        Square ipad|326x326@32,10458 cover 50% 50% r=0px nat=326x419 CUT y 22.2%
+        Square ipad|326x326@32,10955 cover 50% 50% r=0px nat=326x273 CUT x 16.3%
+        Square ipad|326x326@32,11453 cover 50% 50% r=0px nat=326x489 CUT y 33.3%
+        Square ipad|326x326@32,11950 cover 50% 50% r=0px nat=326x183 CUT x 43.9%
+        Square ipad|326x326@32,12448 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|326x326@32,12945 cover 50% 50% r=0px nat=326x237 CUT x 27.3%
+        Square ipad|326x326@32,13443 cover 50% 50% r=0px nat=326x326 CUT y 0%
+        Square ipad|326x326@32,13940 cover 50% 50% r=0px nat=326x326 CUT y 0%
+        Square ipad|326x326@32,14438 cover 50% 50% r=0px nat=326x183 CUT x 43.9%
+        Square ipad|326x326@32,14935 cover 50% 50% r=0px nat=326x326 CUT y 0%
+        Square ipad|326x326@32,15433 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|326x326@32,15930 cover 50% 50% r=0px nat=326x237 CUT x 27.3%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x6: Square ipad op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-coming-soon @1440 docH=4222 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [Coming Soon BG] <div> y=0 h=3747 x=0 w=1440 pos=relative bg=#f4f1ea pad=0px 0px 90px flex column gap=0px
+      - [Wrap] y=0 h=3657 x=0 w=1440 bg=#000000@0 pad=120px 32px 0px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=20 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=20 w=130 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=3747 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=3747 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  HAIRLINES: 344x1 #dbdbdb Line
+  IMGS: Plate|656x620@752,412 cover 50% 50% r=0px nat=656x427 CUT x 31.1%
+        Default|344x611@32,1193 cover 50% 50% r=0px nat=343x566 CUT x 7.1%
+        Default|344x611@376,1193 cover 50% 50% r=0px nat=640x860 CUT x 24.4%
+        Default|344x611@720,1193 cover 50% 50% r=0px nat=344x516 CUT x 15.6%
+        Default|344x611@1064,1193 cover 50% 50% r=0px nat=343x462 CUT x 24.2%
+        Default|344x611@32,2048 cover 50.7% 44.3% r=0px nat=344x380 CUT x 37.8%
+        Default|344x611@376,2048 cover 50% 50% r=0px nat=656x427 CUT x 63.4%
+        Default|344x611@720,2048 cover 50% 50% r=0px nat=344x228 CUT x 62.7%
+        Default|344x611@1064,2048 cover 50% 50% r=0px nat=344x284 CUT x 53.5%
+        Default|344x611@32,2902 cover 50% 50% r=0px nat=344x141 CUT x 76.9%
+        Default|344x611@376,2902 cover 48.7% 46.3% r=0px nat=344x344 CUT x 43.7%
+        Default|344x611@720,2902 cover 50% 50% r=0px nat=344x233 CUT x 61.9%
+        Default|344x611@1064,2902 cover 55.4% 38% r=0px nat=344x229 CUT x 62.5%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x3: Default op=0 tf=translateY(30px)
+     hidden x57: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-coming-soon @810 docH=4744 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Coming Soon BG] <div> y=0 h=4065 x=0 w=810 pos=relative bg=#f4f1ea pad=0px 0px 90px flex column gap=0px
+      - [Wrap] y=0 h=3975 x=0 w=810 bg=#000000@0 pad=120px 0px 0px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=130 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=4065 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=4065 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  HAIRLINES: 270x1 #dbdbdb Line
+  IMGS: Plate|357x620@453,401 cover 50% 50% r=0px nat=357x232 CUT x 62.6%
+        Tablet Phone|270x480@0,1182 cover 50% 50% r=0px nat=270x444 CUT x 7.5%
+        Tablet Phone|270x480@270,1182 cover 50% 50% r=0px nat=640x860 CUT x 24.4%
+        Tablet Phone|270x480@540,1182 cover 50% 50% r=0px nat=270x405 CUT x 15.6%
+        Tablet Phone|270x480@0,1905 cover 50% 50% r=0px nat=270x362 CUT x 24.6%
+        Tablet Phone|270x480@270,1905 cover 50.7% 44.3% r=0px nat=270x298 CUT x 37.9%
+        Tablet Phone|270x480@540,1905 cover 50% 50% r=0px nat=357x232 CUT x 63.4%
+        Tablet Phone|270x480@0,2628 cover 50% 50% r=0px nat=270x179 CUT x 62.7%
+        Tablet Phone|270x480@270,2628 cover 50% 50% r=0px nat=270x223 CUT x 53.5%
+        Tablet Phone|270x480@540,2628 cover 50% 50% r=0px nat=270x111 CUT x 76.9%
+        Tablet Phone|270x480@0,3352 cover 48.7% 46.3% r=0px nat=270x270 CUT x 43.7%
+        Tablet Phone|270x480@270,3352 cover 50% 50% r=0px nat=270x183 CUT x 61.9%
+        Tablet Phone|270x480@540,3352 cover 55.4% 38% r=0px nat=270x179 CUT x 62.7%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x3: Tablet Phone op=0 tf=translateY(30px)
+     hidden x57: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-coming-soon @390 docH=12729 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Coming Soon BG] <div> y=0 h=11754 x=0 w=390 pos=relative bg=#f4f1ea pad=0px 0px 90px flex column gap=0px
+      - [Wrap] y=0 h=11664 x=0 w=390 bg=#000000@0 pad=120px 0px 0px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=130 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=11754 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=11754 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #dbdbdb Line
+  IMGS: Plate|390x620@0,844 cover 50% 50% r=0px nat=390x253 CUT x 59.2%
+        Tablet Phone|390x693@0,1625 cover 50% 50% r=0px nat=390x642 CUT x 7.4%
+        Tablet Phone|390x693@0,2461 cover 50% 50% r=0px nat=640x860 CUT x 24.4%
+        Tablet Phone|390x693@0,3298 cover 50% 50% r=0px nat=390x585 CUT x 15.6%
+        Tablet Phone|390x693@0,4135 cover 50% 50% r=0px nat=390x524 CUT x 24.4%
+        Tablet Phone|390x693@0,4971 cover 50.7% 44.3% r=0px nat=390x431 CUT x 37.8%
+        Tablet Phone|390x693@0,5808 cover 50% 50% r=0px nat=390x253 CUT x 63.5%
+        Tablet Phone|390x693@0,6644 cover 50% 50% r=0px nat=390x258 CUT x 62.8%
+        Tablet Phone|390x693@0,7481 cover 50% 50% r=0px nat=390x322 CUT x 53.5%
+        Tablet Phone|390x693@0,8317 cover 50% 50% r=0px nat=390x160 CUT x 76.9%
+        Tablet Phone|390x693@0,9154 cover 48.7% 46.3% r=0px nat=390x390 CUT x 43.7%
+        Tablet Phone|390x693@0,9991 cover 50% 50% r=0px nat=390x265 CUT x 61.8%
+        Tablet Phone|390x693@0,10827 cover 55.4% 38% r=0px nat=390x259 CUT x 62.6%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x3: Tablet Phone op=0 tf=translateY(30px)
+     hidden x57: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-detail @1440 docH=7578 body=#0f0f0f nav=Desktop BLACK 64px fixed bg=#000000
+  [div] <div> y=0 h=7103 x=0 w=1440 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Wrap] y=0 h=7103 x=0 w=1440 bg=#000000@0 pad=200px 0px 110px flex column gap=106px max=1920px
+  [div] <div> y=88 h=38 x=20 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=130 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=7103 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=7103 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop BLACK] y=0 h=64 x=0 w=1440 bg=#000000 pad=0px flex row gap=20px
+  GRIDS: [] y=1158 x=0 w=1440 grid perRow=4 items=4 gap=0px 32px pad=0px itemW=336,336,336,336 itemH=77,77,48,77 cols=336px 336px 336px 336px
+         [] y=1291 x=0 w=1440 grid perRow=2 items=2 gap=20px pad=0px itemW=710,710 itemH=620,620 cols=710px 710px
+         [] y=1931 x=0 w=1440 grid perRow=3 items=3 gap=20px pad=0px itemW=467,467,467 itemH=830,830,830 cols=466.656px 466.672px 466.656px
+  HAIRLINES: 433x1 #dbdbdb Line
+  IMGS: Wrap|710x620@0,1291 cover 50% 50% r=0px nat=640x860 CUT y 35%
+        Wrap|710x620@730,1291 cover 50% 50% r=0px nat=710x710 CUT y 12.7%
+        Wrap|467x830@0,1931 cover 50% 50% r=0px nat=466x466 CUT x 43.7%
+        Wrap|467x830@487,1931 cover 50% 50% r=0px nat=467x700 CUT x 15.7%
+        Wrap|467x830@973,1931 cover 50% 50% r=0px nat=466x466 CUT x 43.7%
+        Default|433x770@0,3041 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@360,3041 cover 50% 50% r=0px nat=433x653 CUT x 15.1%
+        Default|433x770@720,3041 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@1080,3041 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,4054 cover 50% 50% r=0px nat=432x729 CUT x 5%
+        Default|433x770@360,4054 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@720,4054 cover 50% 50% r=0px nat=433x651 CUT x 15.4%
+        Default|433x770@1080,4054 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,5067 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@360,5067 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@720,5067 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@1080,5067 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,6080 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@360,6080 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x5: Default op=0 tf=translateY(30px)
+     hidden x55: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-detail @810 docH=9115 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=8437 x=0 w=810 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Wrap] y=0 h=8437 x=0 w=810 bg=#000000@0 pad=200px 32px 110px flex column gap=106px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=8 w=130 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=8437 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=8437 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [] y=990 x=32 w=746 grid perRow=4 items=4 gap=0px 32px pad=0px itemW=163,163,163,163 itemH=77,77,48,77 cols=162.5px 162.5px 162.5px 162.5px
+  HAIRLINES: 433x1 #dbdbdb Line
+  IMGS: Default|433x770@32,1336 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@405,1336 cover 50% 50% r=0px nat=433x653 CUT x 15.1%
+        Default|433x770@32,2349 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@405,2349 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@32,3362 cover 50% 50% r=0px nat=432x729 CUT x 5%
+        Default|433x770@405,3362 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@32,4375 cover 50% 50% r=0px nat=433x651 CUT x 15.4%
+        Default|433x770@405,4375 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@32,5388 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@405,5388 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@32,6401 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@405,6401 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@32,7414 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@405,7414 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x5: Default op=0 tf=translateY(30px)
+     hidden x55: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collection-detail @390 docH=16679 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=15704 x=0 w=390 pos=relative bg=#5c5852 pad=0px flex column gap=0px
+      - [Wrap] y=0 h=15704 x=0 w=390 bg=#000000@0 pad=200px 0px 80px flex column gap=106px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=8 w=130 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=15704 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=15704 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [] y=1173 x=0 w=390 grid perRow=1 items=4 gap=0px 32px pad=0px 12px itemW=366,366,366,366 itemH=77,77,48,77 cols=366px
+         [] y=1537 x=0 w=390 grid perRow=3 items=3 gap=20px pad=0px itemW=150,150,150 itemH=267,267,267 cols=150px 150px 150px
+  HAIRLINES: 433x1 #dbdbdb Line
+  IMGS: Wrap|150x267@-50,1537 cover 50% 50% r=0px nat=150x150 CUT x 43.7%
+        Wrap|150x267@120,1537 cover 50% 50% r=0px nat=150x225 CUT x 15.6%
+        Wrap|150x267@290,1537 cover 50% 50% r=0px nat=150x150 CUT x 43.7%
+        Default|433x770@0,2062 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,3035 cover 50% 50% r=0px nat=433x653 CUT x 15.1%
+        Default|433x770@0,4008 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,4981 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,5954 cover 50% 50% r=0px nat=432x729 CUT x 5%
+        Default|433x770@0,6927 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,7900 cover 50% 50% r=0px nat=433x651 CUT x 15.4%
+        Default|433x770@0,8873 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,9846 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,10819 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,11792 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,12765 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,13738 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+        Default|433x770@0,14711 cover 50% 50% r=0px nat=433x649 CUT x 15.7%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x5: Default op=0 tf=translateY(30px)
+     hidden x55: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collections @1440 docH=3091 body=#0f0f0f nav=DESKTOP GREY 64px fixed bg=#0f0f0f
+  [div] <div> y=0 h=206 x=0 w=1440 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=1440 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=1772 x=0 w=1440 pos=relative bg=#000000@0 pad=50px 20px 150px flex row gap=10px
+      - [div] y=256 h=1572 x=20 w=1400 bg=#000000@0 pad=0px grid row gap=100px 0px cols=350px 350px 350px 350px
+  [div] <div> y=1978 h=638 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=1978 h=638 x=0 w=1440 bg=#0f0f0f pad=250px 20px flex column gap=10px
+  [div] <div> y=2616 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=2616 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [DESKTOP GREY] y=0 h=64 x=0 w=1440 bg=#0f0f0f pad=0px flex row gap=20px
+  HAIRLINES: 1440x1 #363636 Line; 350x1 #dbdbdb Line
+  IMGS: Square Desktop|350x350@20,256 cover 50% 50% r=0px nat=349x576 CUT y 39.4%
+        Square Desktop|350x350@370,256 cover 50% 50% r=0px nat=640x860 CUT y 25.6%
+        Square Desktop|350x350@720,256 cover 50% 50% r=0px nat=350x525 CUT y 33.3%
+        Square Desktop|350x350@1070,256 cover 50% 50% r=0px nat=350x470 CUT y 25.5%
+        Square Desktop|350x350@20,814 cover 50.7% 44.3% r=0px nat=350x387 CUT y 9.6%
+        Square Desktop|350x350@370,814 cover 50% 50% r=0px nat=350x227 CUT x 35.1%
+        Square Desktop|350x350@720,814 cover 50% 50% r=0px nat=350x232 CUT x 33.7%
+        Square Desktop|350x350@1070,814 cover 50% 50% r=0px nat=350x289 CUT x 17.4%
+        Square Desktop|350x350@20,1371 cover 50% 50% r=0px nat=350x144 CUT x 58.9%
+        Square Desktop|350x350@370,1371 cover 48.7% 46.3% r=0px nat=350x350 CUT y 0%
+        Square Desktop|350x350@720,1371 cover 50% 50% r=0px nat=350x237 CUT x 32.3%
+        Square Desktop|350x350@1070,1371 cover 55.4% 38% r=0px nat=350x233 CUT x 33.4%
+        Desktop|1440x638@0,1978 cover 50% 50% r=0px nat=1440x700 CUT y 8.8%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=6
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: Square Desktop op=0 tf=translateY(30px)
+     hidden x56: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collections @810 docH=7179 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=810 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=5666 x=0 w=810 pos=relative bg=#000000@0 pad=50px 20px 150px flex row gap=10px
+      - [div] y=256 h=5466 x=20 w=770 bg=#000000@0 pad=0px grid row gap=100px 0px cols=385px 385px
+  [div] <div> y=5873 h=627 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=5873 h=627 x=0 w=810 bg=#0f0f0f pad=250px 40px flex column gap=10px
+  [div] <div> y=6500 h=679 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=6500 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  HAIRLINES: 810x1 #363636 Line; 385x1 #dbdbdb Line
+  IMGS: Tablet Phone|385x684@20,256 cover 50% 50% r=0px nat=385x633 CUT x 7.5%
+        Tablet Phone|385x684@405,256 cover 50% 50% r=0px nat=640x860 CUT x 24.4%
+        Tablet Phone|385x684@20,1184 cover 50% 50% r=0px nat=385x578 CUT x 15.5%
+        Tablet Phone|385x684@405,1184 cover 50% 50% r=0px nat=385x517 CUT x 24.4%
+        Tablet Phone|385x684@20,2112 cover 50.7% 44.3% r=0px nat=385x425 CUT x 37.9%
+        Tablet Phone|385x684@405,2112 cover 50% 50% r=0px nat=385x250 CUT x 63.5%
+        Tablet Phone|385x684@20,3039 cover 50% 50% r=0px nat=385x255 CUT x 62.7%
+        Tablet Phone|385x684@405,3039 cover 50% 50% r=0px nat=385x318 CUT x 53.5%
+        Tablet Phone|385x684@20,3967 cover 50% 50% r=0px nat=385x158 CUT x 76.9%
+        Tablet Phone|385x684@405,3967 cover 48.7% 46.3% r=0px nat=385x385 CUT x 43.7%
+        Tablet Phone|385x684@20,4895 cover 50% 50% r=0px nat=385x261 CUT x 61.9%
+        Tablet Phone|385x684@405,4895 cover 55.4% 38% r=0px nat=385x256 CUT x 62.6%
+        Tablet|810x627@0,5873 cover 50% 50% r=0px nat=809x393 CUT x 37.3%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=6
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x3: Tablet Phone op=0 tf=translateY(30px)
+     hidden x57: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## collections @390 docH=11974 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=0 h=206 x=0 w=390 bg=#0f0f0f pad=150px 12px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=10239 x=0 w=390 pos=relative bg=#000000@0 pad=50px 0px 150px flex column gap=10px
+      - [div] y=256 h=10039 x=0 w=390 bg=#000000@0 pad=0px grid row gap=0px 60px cols=390px
+  [div] <div> y=10445 h=554 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=10445 h=554 x=0 w=390 bg=#0f0f0f pad=200px 20px flex column gap=10px
+  [div] <div> y=10999 h=975 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=10999 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #363636 Line; 390x1 #dbdbdb Line
+  IMGS: Tablet Phone|390x693@0,256 cover 50% 50% r=0px nat=390x642 CUT x 7.4%
+        Tablet Phone|390x693@0,1093 cover 50% 50% r=0px nat=640x860 CUT x 24.4%
+        Tablet Phone|390x693@0,1930 cover 50% 50% r=0px nat=390x585 CUT x 15.6%
+        Tablet Phone|390x693@0,2766 cover 50% 50% r=0px nat=390x524 CUT x 24.4%
+        Tablet Phone|390x693@0,3603 cover 50.7% 44.3% r=0px nat=390x431 CUT x 37.8%
+        Tablet Phone|390x693@0,4439 cover 50% 50% r=0px nat=390x253 CUT x 63.5%
+        Tablet Phone|390x693@0,5276 cover 50% 50% r=0px nat=390x258 CUT x 62.8%
+        Tablet Phone|390x693@0,6112 cover 50% 50% r=0px nat=390x322 CUT x 53.5%
+        Tablet Phone|390x693@0,6949 cover 50% 50% r=0px nat=390x160 CUT x 76.9%
+        Tablet Phone|390x693@0,7786 cover 48.7% 46.3% r=0px nat=390x390 CUT x 43.7%
+        Tablet Phone|390x693@0,8622 cover 50% 50% r=0px nat=390x265 CUT x 61.8%
+        Tablet Phone|390x693@0,9459 cover 55.4% 38% r=0px nat=390x259 CUT x 62.6%
+        Phone|390x554@0,10445 cover 50% 50% r=0px nat=390x189 CUT x 65.9%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=5
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x58: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+     hidden x2: Tablet Phone op=0 tf=translateY(30px)
+
+## contact @1440 docH=2872 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [Hero] <header> y=0 h=380 x=0 w=1440 pos=relative bg=#ffffff pad=106px 0px 64px flex column gap=0px
+      - [Wrap] y=106 h=210 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Portrait] <div> y=380 h=764 x=0 w=1440 pos=relative bg=#ffffff pad=0px 0px 80px flex column gap=0px
+      - [Wrap] y=380 h=684 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=0px max=1920px
+  [Details] <section> y=1144 h=318 x=0 w=1440 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=1224 h=158 x=0 w=1440 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Message] <section> y=1462 h=936 x=0 w=1440 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=1542 h=776 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=48px max=1920px
+  [div] <div> y=2397 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=2397 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  GRIDS: [Details Grid] y=1224 x=0 w=1440 grid perRow=3 items=3 gap=48px 0px pad=0px itemW=480,480,480 itemH=158,158,158 cols=480px 480px 480px
+  IMGS: Artists|860x684@290,380 cover 50% 50% r=0px nat=860x684 CUT y 0%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## contact @810 docH=2939 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero] <header> y=0 h=344 x=0 w=810 pos=relative bg=#ffffff pad=106px 0px 64px flex column gap=0px
+      - [Wrap] y=106 h=174 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Portrait] <div> y=344 h=674 x=0 w=810 pos=relative bg=#ffffff pad=0px 0px 80px flex column gap=0px
+      - [Wrap] y=344 h=594 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=0px max=1920px
+  [Details] <section> y=1018 h=318 x=0 w=810 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=1098 h=158 x=0 w=810 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Message] <section> y=1336 h=925 x=0 w=810 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=1416 h=765 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=48px max=1920px
+  [div] <div> y=2261 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=2261 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [Details Grid] y=1098 x=0 w=810 grid perRow=3 items=3 gap=30px 0px pad=0px itemW=270,270,270 itemH=158,158,158 cols=270px 270px 270px
+  IMGS: Artists|746x594@32,344 cover 50% 50% r=0px nat=746x593 CUT x 0.2%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## contact @390 docH=3259 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero] <header> y=0 h=346 x=0 w=390 pos=relative bg=#ffffff pad=106px 0px 64px flex column gap=0px
+      - [Wrap] y=106 h=176 x=0 w=390 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Portrait] <div> y=346 h=340 x=0 w=390 pos=relative bg=#ffffff pad=0px 0px 80px flex column gap=0px
+      - [Wrap] y=346 h=260 x=0 w=390 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Details] <section> y=686 h=633 x=0 w=390 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=766 h=473 x=0 w=390 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Message] <section> y=1319 h=965 x=0 w=390 pos=relative bg=#ffffff pad=80px 0px flex column gap=0px
+      - [Wrap] y=1399 h=805 x=0 w=390 bg=#000000@0 pad=0px 32px flex column gap=48px max=1920px
+  [div] <div> y=2284 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=2284 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  IMGS: Artists|390x260@0,346 cover 50% 50% r=0px nat=390x310 CUT y 16.1%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## galleries @1440 docH=6693 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [Main] <div> y=0 h=6219 x=0 w=1440 pos=relative bg=#f5f2eb pad=0px flex column gap=0px
+      - [Hero] y=0 h=566 x=0 w=1440 bg=#000000@0 pad=150px 0px 70px flex column gap=0px
+      - [Gallery Partners] y=566 h=1465 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Introduction] y=2031 h=468 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=2499 h=2096 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Installation Views] y=4595 h=931 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Visit] y=5525 h=341 x=0 w=1440 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=5866 h=352 x=0 w=1440 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=6219 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=6219 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  GRIDS: [Views Grid] y=4826 x=32 w=1376 grid perRow=3 items=3 gap=40px pad=0px itemW=432,432,432 itemH=619,619,619 cols=432px 432px 432px
+  HAIRLINES: 453x1 #dbdbdb Line
+  IMGS: Gallery Logo|420x86@510,410 cover 50% 50% r=0px nat=419x86 CUT y 0.3%
+        Square Desktop|453x453@32,798 cover 50% 50% r=0px nat=453x453 CUT y 0%
+        Square Desktop|453x453@493,798 cover 50% 50% r=0px nat=453x355 CUT x 21.6%
+        Square Desktop|453x453@955,798 cover 50% 50% r=0px nat=453x604 CUT y 25%
+        Square Desktop|453x453@32,1390 cover 50% 50% r=0px nat=453x680 CUT y 33.4%
+        Image|1376x267@32,2730 cover 50% 50% r=0px nat=1376x329 CUT y 18.8%
+        Image|1376x391@32,3279 cover 50% 50% r=0px nat=1376x482 CUT y 18.9%
+        Image|1376x501@32,3890 cover 50% 50% r=0px nat=1376x618 CUT y 18.9%
+        Image|432x258@32,4826 cover 50% 50% r=0px nat=432x323 CUT y 20.1%
+        Image|432x289@504,4826 cover 50% 50% r=0px nat=432x361 CUT y 19.9%
+        Image|432x619@976,4826 cover 50% 50% r=0px nat=432x776 CUT y 20.2%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: Square Desktop op=0 tf=translateY(30px)
+     hidden x56: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## galleries @810 docH=6777 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=6098 x=0 w=810 pos=relative bg=#f5f2eb pad=0px flex column gap=0px
+      - [Hero] y=0 h=530 x=0 w=810 bg=#000000@0 pad=150px 0px 70px flex column gap=0px
+      - [Gallery Partners] y=530 h=1334 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Introduction] y=1864 h=403 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=2267 h=1953 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Installation Views] y=4221 h=1207 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Visit] y=5427 h=330 x=0 w=810 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=5757 h=341 x=0 w=810 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=6098 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=6098 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [Views Grid] y=4441 x=32 w=746 grid perRow=2 items=2 gap=8px pad=0px itemW=369,369 itemH=906,906 cols=369px 369px
+  HAIRLINES: 369x1 #dbdbdb Line
+  IMGS: Gallery Logo|420x86@195,374 cover 50% 50% r=0px nat=419x86 CUT y 0.3%
+        Square ipad|369x369@32,751 cover 50% 50% r=0px nat=369x369 CUT y 0%
+        Square ipad|369x369@409,751 cover 50% 50% r=0px nat=369x289 CUT x 21.7%
+        Square ipad|369x369@32,1272 cover 50% 50% r=0px nat=369x492 CUT y 25%
+        Square ipad|369x369@409,1272 cover 50% 50% r=0px nat=369x554 CUT y 33.4%
+        Image|746x179@32,2488 cover 50% 50% r=0px nat=746x178 CUT x 0.6%
+        Image|746x262@32,3076 cover 50% 50% r=0px nat=746x261 CUT x 0.4%
+        Image|746x335@32,3620 cover 50% 50% r=0px nat=746x335 CUT y 0%
+        Image|369x264@32,4441 cover 50% 50% r=0px nat=369x276 CUT y 4.3%
+        Image|369x634@32,4713 cover 50% 50% r=0px nat=369x662 CUT y 4.2%
+        Image|369x296@409,4441 cover 50% 50% r=0px nat=369x309 CUT y 4.2%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x58: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+     hidden x2: Square ipad op=0 tf=translateY(30px)
+
+## galleries @390 docH=8455 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Main] <div> y=0 h=7479 x=0 w=390 pos=relative bg=#f5f2eb pad=0px flex column gap=0px
+      - [Hero] y=0 h=546 x=0 w=390 bg=#000000@0 pad=150px 0px 70px flex column gap=0px
+      - [Gallery Partners] y=546 h=2424 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Introduction] y=2970 h=452 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Exhibitions] y=3421 h=1940 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Installation Views] y=5361 h=1408 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Visit] y=6769 h=345 x=0 w=390 bg=#000000@0 pad=80px 0px flex column gap=0px
+      - [Contact CTA] y=7113 h=366 x=0 w=390 bg=#000000@0 pad=110px 0px flex column gap=0px
+  [div] <div> y=7479 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=7479 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #dbdbdb Line
+  IMGS: Gallery Logo|366x74@12,402 cover 50% 50% r=0px nat=366x75 CUT y 0.8%
+        Square ipad|390x390@0,756 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,1289 cover 50% 50% r=0px nat=390x306 CUT x 21.5%
+        Square ipad|390x390@0,1823 cover 50% 50% r=0px nat=390x520 CUT y 25%
+        Square ipad|390x390@0,2356 cover 50% 50% r=0px nat=390x585 CUT y 33.3%
+        Image|390x120@0,3631 cover 50% 50% r=0px nat=390x93 CUT x 22.5%
+        Image|390x150@0,4274 cover 50% 50% r=0px nat=390x137 CUT x 8.7%
+        Image|390x190@0,4794 cover 50% 50% r=0px nat=390x175 CUT x 7.9%
+        Image|390x244@0,5571 cover 50% 50% r=0px nat=390x291 CUT y 16.2%
+        Image|390x273@0,5823 cover 50% 50% r=0px nat=390x326 CUT y 16.3%
+        Image|390x585@0,6104 cover 50% 50% r=0px nat=390x700 CUT y 16.4%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: Square ipad op=0 tf=translateY(30px)
+     hidden x56: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## gallery-detail @1440 docH=2168 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [Hero] <header> y=0 h=394 x=0 w=1440 pos=relative bg=#f5f2eb pad=180px 0px 64px flex column gap=0px
+      - [Wrap] y=180 h=150 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Image] <div> y=394 h=660 x=0 w=1440 pos=relative bg=#f5f2eb pad=20px 32px 80px flex column gap=0px
+      - [Wrap] y=414 h=560 x=32 w=1376 bg=#000000@0 pad=0px 32px flex column gap=0px max=1920px
+  [Info] <section> y=1054 h=286 x=0 w=1440 pos=relative bg=#f5f2eb pad=80px 0px flex column gap=0px
+      - [Wrap] y=1134 h=126 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=32px max=1920px
+  [Contact CTA] <section> y=1341 h=352 x=0 w=1440 pos=relative bg=#f5f2eb pad=110px 0px flex column gap=0px
+      - [Wrap] y=1451 h=132 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=28px max=1920px
+  [div] <div> y=88 h=38 x=20 w=114 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=20 w=114 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1693 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=1693 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  IMGS: Image Fill|1312x560@64,414 cover 50% 50% r=0px nat=1312x1968 CUT y 71.5%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## gallery-detail @810 docH=2329 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero] <header> y=0 h=363 x=0 w=810 pos=relative bg=#f5f2eb pad=180px 0px 64px flex column gap=0px
+      - [Wrap] y=180 h=119 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Image] <div> y=363 h=660 x=0 w=810 pos=relative bg=#f5f2eb pad=20px 32px 80px flex column gap=0px
+      - [Wrap] y=383 h=560 x=32 w=746 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Info] <section> y=1023 h=286 x=0 w=810 pos=relative bg=#f5f2eb pad=80px 0px flex column gap=0px
+      - [Wrap] y=1103 h=126 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=32px max=1920px
+  [Contact CTA] <section> y=1309 h=341 x=0 w=810 pos=relative bg=#f5f2eb pad=110px 0px flex column gap=0px
+      - [Wrap] y=1419 h=121 x=0 w=810 bg=#000000@0 pad=0px 32px flex column gap=28px max=1920px
+  [div] <div> y=88 h=38 x=20 w=114 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=114 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1650 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=1650 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  IMGS: Image Fill|746x560@32,383 cover 50% 50% r=0px nat=745x1119 CUT y 50%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## gallery-detail @390 docH=2371 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero] <header> y=0 h=343 x=0 w=390 pos=relative bg=#f5f2eb pad=180px 0px 64px flex column gap=0px
+      - [Wrap] y=180 h=99 x=0 w=390 bg=#000000@0 pad=0px 32px flex column gap=26px max=1920px
+  [Image] <div> y=343 h=400 x=0 w=390 pos=relative bg=#f5f2eb pad=20px 12px 80px flex column gap=0px
+      - [Wrap] y=363 h=300 x=12 w=366 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [Info] <section> y=743 h=286 x=0 w=390 pos=relative bg=#f5f2eb pad=80px 0px flex column gap=0px
+      - [Wrap] y=823 h=126 x=0 w=390 bg=#000000@0 pad=0px 32px flex column gap=32px max=1920px
+  [Contact CTA] <section> y=1030 h=366 x=0 w=390 pos=relative bg=#f5f2eb pad=110px 0px flex column gap=0px
+      - [Wrap] y=1140 h=146 x=0 w=390 bg=#000000@0 pad=0px 32px flex column gap=28px max=1920px
+  [div] <div> y=88 h=38 x=20 w=114 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=114 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1396 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=1396 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  IMGS: Image Fill|366x300@12,363 cover 50% 50% r=0px nat=366x549 CUT y 45.4%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## home @1440 docH=5821 body=#0f0f0f nav=Desktop BLACK 64px fixed bg=#000000
+  [Hero Main] <div> y=0 h=900 x=0 w=1440 pos=sticky top=auto bg=#000000 pad=0px flex row gap=10px
+      - [Hero] y=0 h=900 x=0 w=1440 bg=#000000 pad=50px 30px 30px flex column gap=10px max=1920px
+  [About the Artists] <section> y=900 h=1296 x=0 w=1440 pos=relative bg=#000000@0 pad=0px flex row gap=0px
+      - [Blake] y=900 h=1296 x=0 w=720 bg=#f5f2eb pad=0px 0px 100px flex column gap=0px
+      - [Boky] y=900 h=1296 x=720 w=720 bg=#0f0f0f pad=0px flex column gap=0px
+  [Section] <div> y=2196 h=775 x=0 w=1440 pos=relative bg=#000000@0 pad=0px grid row gap=0px cols=360px 360px 360px 360px
+      - [Case] y=2196 h=387 x=0 w=360 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=2196 h=387 x=360 w=360 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=2196 h=387 x=720 w=360 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=2196 h=387 x=1080 w=360 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=2583 h=388 x=0 w=360 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=2583 h=388 x=360 w=360 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=2583 h=388 x=720 w=360 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=2583 h=388 x=1080 w=360 bg=#5c5852 pad=50px flex column gap=10px
+  [Section] <a> y=2970 h=136 x=0 w=1440 pos=relative bg=#f4f1ea pad=50px 20px flex column gap=100px
+      - [Buttons] y=3020 h=36 x=641 w=157 bg=#000000@0 pad=0px block row gap=normal
+  [Fullscreen Section] <figure> y=3106 h=900 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px flex column gap=10px
+      - [div] y=2926 h=1080 x=0 w=1440 bg=#000000@0 pad=0px block row gap=normal
+  [Section] <section> y=4006 h=701 x=0 w=1440 pos=sticky top=0px bg=#5c5852 pad=0px 0px 50px flex column gap=0px
+      - [a] y=4006 h=136 x=0 w=1440 bg=#000000@0 pad=50px 0px flex row gap=10px
+      - [div] y=4142 h=515 x=0 w=1440 bg=#000000@0 pad=0px 50px flex row gap=10px
+  [div] <div> y=4707 h=638 x=0 w=1440 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=4707 h=638 x=0 w=1440 bg=#000000 pad=250px 20px flex column gap=10px
+  [div] <div> y=5346 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=5346 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop BLACK] y=0 h=64 x=0 w=1440 bg=#000000 pad=0px flex row gap=20px
+  GRIDS: [Section] y=2196 x=0 w=1440 grid perRow=4 items=7 gap=0px pad=0px itemW=360,360,360,360 itemH=387,387,387,387 cols=360px 360px 360px 360px
+  HAIRLINES: 77x1 #0f0f0f Line; 77x1 #dbdbdb Line; 335x1 #dbdbdb Line
+  IMGS: Default|186x194@1015,721 cover 50% 50% r=0px nat=186x155 CUT x 20.1%
+        Default|221x312@1219,524 cover 50% 50% r=0px nat=221x294 CUT x 5.8%
+        Default|300x340@360,730 cover 50% 50% r=0px nat=300x300 CUT x 11.8%
+        Default|180x198@110,565 cover 50% 50% r=0px nat=180x270 CUT y 26.7%
+        Default|221x356@1056,-31 cover 50% 50% r=0px nat=221x331 CUT x 7%
+        Default|195x246@446,40 cover 50% 50% r=0px nat=195x195 CUT x 20.7%
+        Default|141x139@167,200 cover 50% 50% r=0px nat=128x141 CUT y 10.6%
+        Hero Sculpture|380x380@170,1328 cover 50% 50% r=2px nat=400x392 CUT x 2%
+        Portrait|380x380@890,1328 cover 50% 50% r=2px nat=380x510 CUT y 25.5%
+        Case|260x287@50,2246 cover 50.3% 30.9% r=0px nat=912x1388 CUT y 27.5%
+        Case|260x287@770,2246 cover 50% 50% r=0px nat=1200x1800 CUT y 26.5%
+        Case|260x288@410,2633 cover 50% 50% r=0px nat=902x1378 CUT y 27.6%
+        Case|260x288@1130,2633 cover 50% 50% r=0px nat=573x860 CUT y 26.3%
+        Fullscreen Section|1440x1080@0,2926 cover 50% 50% r=0px nat=5616x3744 CUT x 11.1%
+        Square Desktop|335x335@50,4142 cover 50% 50% r=0px nat=335x244 CUT x 27.2%
+        Square Desktop|335x335@385,4142 cover 50% 50% r=0px nat=335x251 CUT x 25.1%
+        Square Desktop|335x335@720,4142 cover 51.2% 48.1% r=0px nat=335x373 CUT y 10.2%
+        Square Desktop|335x335@1055,4142 cover 50% 50% r=0px nat=335x238 CUT x 29%
+        Desktop|1440x638@0,4707 cover 50% 50% r=0px nat=1440x617 CUT x 3.4%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: div op=0 tf=none
+     hidden x2: Square Desktop op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## home @810 docH=7389 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero Main] <div> y=0 h=1100 x=0 w=810 pos=sticky top=auto bg=#000000 pad=0px flex row gap=10px
+      - [Hero] y=0 h=1100 x=0 w=810 bg=#000000 pad=50px 30px 30px flex column gap=10px max=1920px
+  [About the Artists] <section> y=1100 h=1300 x=0 w=810 pos=relative bg=#000000@0 pad=0px flex row gap=0px
+      - [Blake] y=1100 h=1300 x=0 w=405 bg=#f5f2eb pad=0px 0px 100px flex column gap=0px
+      - [Boky] y=1100 h=1300 x=405 w=405 bg=#0f0f0f pad=0px flex column gap=0px
+  [Section] <div> y=2400 h=1743 x=0 w=810 pos=relative bg=#000000@0 pad=0px grid row gap=0px cols=405px 405px
+      - [Case] y=2400 h=435 x=0 w=405 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=2400 h=435 x=405 w=405 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=2835 h=435 x=0 w=405 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=2835 h=435 x=405 w=405 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=3270 h=436 x=0 w=405 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=3270 h=436 x=405 w=405 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=3706 h=436 x=0 w=405 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=3706 h=436 x=405 w=405 bg=#5c5852 pad=50px flex column gap=10px
+  [Section] <a> y=4142 h=141 x=0 w=810 pos=relative bg=#f4f1ea pad=50px 20px flex column gap=100px
+      - [Buttons] y=4192 h=41 x=338 w=133 bg=#000000@0 pad=0px block row gap=normal
+  [Fullscreen Section] <figure> y=4283 h=1100 x=0 w=810 pos=relative bg=#000000@0 pad=0px flex column gap=10px
+      - [div] y=4063 h=1320 x=0 w=810 bg=#000000@0 pad=0px block row gap=normal
+  [Section] <section> y=5383 h=700 x=0 w=810 pos=relative bg=#5c5852 pad=0px 40px 50px flex column gap=0px
+      - [a] y=5383 h=141 x=40 w=730 bg=#000000@0 pad=50px 0px flex row gap=10px
+      - [div] y=5524 h=509 x=40 w=730 bg=#000000@0 pad=0px flex row gap=10px
+  [div] <div> y=6083 h=627 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=6083 h=627 x=0 w=810 bg=#000000 pad=250px 40px flex column gap=10px
+  [div] <div> y=6710 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=6710 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [Section] y=2400 x=0 w=810 grid perRow=2 items=7 gap=0px pad=0px itemW=405,405,405,405 itemH=435,435,435,435 cols=405px 405px
+  HAIRLINES: 115x1 #0f0f0f Line; 170x1 #dbdbdb Line; 133x1 #dbdbdb Line; 106x1 #dbdbdb Line; 365x1 #dbdbdb Line
+  IMGS: Default|186x194@380,938 cover 50% 50% r=0px nat=186x155 CUT x 20.1%
+        Default|221x312@578,743 cover 50% 50% r=0px nat=221x294 CUT x 5.8%
+        Default|300x340@317,961 cover 50% 50% r=0px nat=300x300 CUT x 11.8%
+        Default|180x198@101,784 cover 50% 50% r=0px nat=180x270 CUT y 26.7%
+        Default|221x356@412,-11 cover 50% 50% r=0px nat=221x331 CUT x 7%
+        Default|195x246@-193,59 cover 50% 50% r=0px nat=195x195 CUT x 20.7%
+        Default|146x146@160,213 cover 50% 50% r=0px nat=146x161 CUT y 9.3%
+        Hero Sculpture|320x320@43,1568 cover 50% 50% r=2px nat=400x392 CUT x 2%
+        Portrait|320x320@448,1568 cover 50% 50% r=2px nat=320x430 CUT y 25.6%
+        Case|305x335@50,2450 cover 50.3% 30.9% r=0px nat=912x1388 CUT y 27.8%
+        Case|305x335@50,2885 cover 50% 50% r=0px nat=1200x1800 CUT y 26.8%
+        Case|305x336@455,3320 cover 50% 50% r=0px nat=902x1378 CUT y 27.8%
+        Case|305x336@455,3756 cover 50% 50% r=0px nat=573x860 CUT y 26.5%
+        Fullscreen Section|810x1320@0,4063 cover 50% 50% r=0px nat=5616x3744 CUT x 59.1%
+        Square ipad|365x365@40,5524 cover 50% 50% r=0px nat=365x265 CUT x 27.4%
+        Square ipad|365x365@405,5524 cover 50% 50% r=0px nat=365x273 CUT x 25.2%
+        Tablet|810x627@0,6083 cover 50% 50% r=0px nat=809x347 CUT x 44.6%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: div op=0 tf=none
+     hidden x2: Square ipad op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## home @390 docH=10341 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Hero Main] <div> y=0 h=844 x=0 w=390 pos=sticky top=auto bg=#000000 pad=0px flex row gap=10px
+      - [Hero] y=0 h=844 x=0 w=390 bg=#000000 pad=50px 30px 30px flex column gap=10px max=1920px
+  [About the Artists] <section> y=844 h=2369 x=0 w=390 pos=relative bg=#000000@0 pad=0px flex column gap=0px
+      - [Blake] y=844 h=1170 x=0 w=390 bg=#f5f2eb pad=0px flex column gap=0px
+      - [Boky] y=2014 h=1199 x=0 w=390 bg=#0f0f0f pad=0px flex column gap=0px
+  [Section] <div> y=3213 h=3356 x=0 w=390 pos=relative bg=#000000@0 pad=0px grid row gap=0px cols=390px
+      - [Case] y=3213 h=419 x=0 w=390 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=3632 h=419 x=0 w=390 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=4051 h=419 x=0 w=390 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=4470 h=419 x=0 w=390 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=4889 h=420 x=0 w=390 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=5309 h=420 x=0 w=390 bg=#5c5852 pad=50px flex column gap=10px
+      - [Case] y=5729 h=420 x=0 w=390 bg=#5c5852 pad=50px flex column gap=0px
+      - [Case] y=6149 h=420 x=0 w=390 bg=#5c5852 pad=50px flex column gap=10px
+  [Section] <a> y=6569 h=141 x=0 w=390 pos=relative bg=#f4f1ea pad=50px 15px flex column gap=100px
+      - [Buttons] y=6619 h=41 x=128 w=133 bg=#000000@0 pad=0px block row gap=normal
+  [Fullscreen Section] <figure> y=6710 h=844 x=0 w=390 pos=relative bg=#000000@0 pad=0px flex column gap=10px
+      - [div] y=6693 h=861 x=-12 w=413 bg=#000000@0 pad=0px block row gap=normal
+  [Section] <section> y=7554 h=1258 x=0 w=390 pos=relative bg=#5c5852 pad=0px 0px 50px flex column gap=0px
+      - [a] y=7554 h=141 x=0 w=390 bg=#000000@0 pad=50px 0px flex row gap=10px
+      - [div] y=7695 h=1067 x=0 w=390 bg=#000000@0 pad=0px flex row gap=10px
+  [div] <div> y=8812 h=554 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=8812 h=554 x=0 w=390 bg=#000000 pad=200px 20px flex column gap=10px
+  [div] <div> y=9366 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=9366 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [Section] y=3213 x=0 w=390 grid perRow=1 items=7 gap=0px pad=0px itemW=390,390,390,390 itemH=419,419,419,419 cols=390px
+  HAIRLINES: 115x1 #0f0f0f Line; 170x1 #dbdbdb Line; 133x1 #dbdbdb Line; 106x1 #dbdbdb Line; 390x1 #dbdbdb Line
+  IMGS: Default|186x194@-151,679 cover 50% 50% r=0px nat=186x155 CUT x 20.1%
+        Default|221x312@318,481 cover 50% 50% r=0px nat=221x294 CUT x 5.8%
+        Default|300x340@385,683 cover 50% 50% r=0px nat=300x300 CUT x 11.8%
+        Default|180x198@77,523 cover 50% 50% r=0px nat=180x270 CUT y 26.7%
+        Default|221x356@-43,-18 cover 50% 50% r=0px nat=221x331 CUT x 7%
+        Default|195x246@-637,54 cover 50% 50% r=0px nat=195x195 CUT x 20.7%
+        Default|146x146@244,211 cover 50% 50% r=0px nat=146x161 CUT y 9.3%
+        Hero Sculpture|326x326@32,1236 cover 50% 50% r=2px nat=400x392 CUT x 2%
+        Portrait|326x326@32,2387 cover 50% 50% r=2px nat=326x438 CUT y 25.6%
+        Case|290x319@50,3263 cover 50.3% 30.9% r=0px nat=912x1388 CUT y 27.7%
+        Case|290x319@50,4101 cover 50% 50% r=0px nat=1200x1800 CUT y 26.7%
+        Case|290x320@50,5359 cover 50% 50% r=0px nat=902x1378 CUT y 27.8%
+        Case|290x320@50,6199 cover 50% 50% r=0px nat=573x860 CUT y 26.5%
+        Fullscreen Section|413x861@-12,6693 cover 50% 50% r=0px nat=5616x3744 CUT x 68%
+        Square ipad|390x390@0,7695 cover 50% 50% r=0px nat=390x284 CUT x 27.2%
+        Square ipad|390x390@0,8228 cover 50% 50% r=0px nat=390x292 CUT x 25.1%
+        Phone|390x554@0,8812 cover 50% 50% r=0px nat=390x166 CUT x 70%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=1 loadAnims=0
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: div op=0 tf=none
+     hidden x2: Square ipad op=0 tf=translateY(30px)
+     hidden x54: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## news @1440 docH=2612 body=#0f0f0f nav=DESKTOP GREY 64px fixed bg=#0f0f0f
+  [div] <div> y=0 h=206 x=0 w=1440 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=1440 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=1292 x=0 w=1440 pos=relative bg=#000000@0 pad=50px 20px 150px flex row gap=10px
+      - [div] y=256 h=1092 x=20 w=1400 bg=#000000@0 pad=0px grid row gap=32px 0px cols=350px 350px 350px 350px
+  [div] <div> y=1498 h=638 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=1498 h=638 x=0 w=1440 bg=#0f0f0f pad=250px 20px flex column gap=10px
+  [div] <div> y=2137 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=2137 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [DESKTOP GREY] y=0 h=64 x=0 w=1440 bg=#0f0f0f pad=0px flex row gap=20px
+  HAIRLINES: 1440x1 #363636 Line; 350x1 #dbdbdb Line
+  IMGS: Square Desktop|350x350@20,256 cover 50% 50% r=0px nat=350x254 CUT x 27.4%
+        Square Desktop|350x350@370,256 cover 50% 50% r=0px nat=350x262 CUT x 25.1%
+        Square Desktop|350x350@720,256 cover 51.2% 48.1% r=0px nat=350x390 CUT y 10.3%
+        Square Desktop|350x350@1070,256 cover 50% 50% r=0px nat=350x248 CUT x 29.1%
+        Square Desktop|350x350@20,818 cover 50% 50% r=0px nat=350x397 CUT y 11.8%
+        Desktop|1440x638@0,1498 cover 50% 50% r=0px nat=1440x959 CUT y 33.4%
+  MOTION atLoad=60 preScrollHidden=38 scrollAnims=3 loadAnims=7
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|50|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|100|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x1: Square Desktop op=0 tf=translateY(30px)
+     hidden x35: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+     hidden x2: div op=0.001 tf=translateY(0.111741px)
+
+## news @810 docH=3298 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=810 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=1786 x=0 w=810 pos=relative bg=#000000@0 pad=50px 20px 150px flex row gap=10px
+      - [div] y=256 h=1586 x=20 w=770 bg=#000000@0 pad=0px grid row gap=0px cols=385px 385px
+  [div] <div> y=1992 h=627 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=1992 h=627 x=0 w=810 bg=#0f0f0f pad=250px 40px flex column gap=10px
+  [div] <div> y=2619 h=679 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=2619 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  HAIRLINES: 810x1 #363636 Line; 385x1 #dbdbdb Line
+  IMGS: Square ipad|385x385@20,256 cover 50% 50% r=0px nat=385x280 CUT x 27.3%
+        Square ipad|385x385@405,256 cover 50% 50% r=0px nat=385x288 CUT x 25.2%
+        Square ipad|385x385@20,785 cover 51.2% 48.1% r=0px nat=385x429 CUT y 10.3%
+        Square ipad|385x385@405,785 cover 50% 50% r=0px nat=385x273 CUT x 29.1%
+        Square ipad|385x385@20,1313 cover 50% 50% r=0px nat=385x437 CUT y 11.9%
+        Tablet|810x627@0,1992 cover 50% 50% r=0px nat=809x540 CUT x 13.8%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=7
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|50|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x60: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## news @390 docH=4453 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=0 h=206 x=0 w=390 bg=#0f0f0f pad=150px 12px 20px flex column gap=35px
+  [Blog Posts] <section> y=206 h=2718 x=0 w=390 pos=relative bg=#000000@0 pad=50px 15px 150px flex column gap=10px
+      - [div] y=256 h=2518 x=15 w=360 bg=#000000@0 pad=0px grid row gap=0px 60px cols=360px
+  [div] <div> y=2924 h=554 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=2924 h=554 x=0 w=390 bg=#0f0f0f pad=200px 20px flex column gap=10px
+  [div] <div> y=3478 h=975 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=3478 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #363636 Line; 360x1 #dbdbdb Line
+  IMGS: Square ipad|360x360@15,256 cover 50% 50% r=0px nat=360x262 CUT x 27.2%
+        Square ipad|360x360@15,760 cover 50% 50% r=0px nat=360x270 CUT x 25%
+        Square ipad|360x360@15,1263 cover 51.2% 48.1% r=0px nat=360x401 CUT y 10.2%
+        Square ipad|360x360@15,1767 cover 50% 50% r=0px nat=360x255 CUT x 29.2%
+        Square ipad|360x360@15,2270 cover 50% 50% r=0px nat=360x409 CUT y 12%
+        Phone|390x554@0,2924 cover 50% 50% r=0px nat=390x259 CUT x 53.2%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=7
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|50|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x2: Square ipad op=0 tf=translateY(30px)
+     hidden x58: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## news-article @1440 docH=4705 body=#0f0f0f nav=Desktop Light 64px fixed bg=#f5f2eb
+  [div] <div> y=0 h=206 x=0 w=1440 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=1440 bg=#f5f2eb pad=150px 32px 20px flex column gap=35px
+  [Main] <div> y=206 h=4024 x=0 w=1440 pos=relative bg=#f5f2eb pad=20px 0px 0px flex column gap=0px
+      - [Image Section] y=226 h=468 x=0 w=1440 bg=#000000@0 pad=0px flex column gap=0px
+      - [Article] y=695 h=3236 x=0 w=1440 bg=#f5f2eb pad=100px 20px 75px flex column gap=10px
+      - [Links] y=3931 h=300 x=0 w=1440 bg=#f5f2eb pad=50px 32px 100px flex column gap=100px
+  [div] <div> y=88 h=38 x=20 w=92 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=20 w=92 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=4231 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=4231 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop Light] y=0 h=64 x=0 w=1440 bg=#f5f2eb pad=0px flex row gap=20px
+  HAIRLINES: 1440x1 #363636 Line
+  IMGS: Image Section|659x468@391,226 cover 50% 50% r=0px nat=659x468 CUT x 0.1%
+        Thumb|122x150@32,3981 cover 51.2% 48.1% r=0px nat=122x136 CUT x 9.3%
+        Thumb|122x150@1286,3981 cover 50% 50% r=0px nat=122x138 CUT x 8%
+  MOTION atLoad=51 preScrollHidden=0 scrollAnims=0 loadAnims=7
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1200|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1200|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 1500|1200|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+
+## news-article @810 docH=6358 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=810 bg=#f5f2eb pad=150px 32px 20px flex column gap=35px
+  [Main] <div> y=206 h=5473 x=0 w=810 pos=relative bg=#f5f2eb pad=20px 0px 0px flex column gap=0px
+      - [Image Section] y=226 h=434 x=0 w=810 bg=#000000@0 pad=0px flex column gap=0px
+      - [Article] y=660 h=4285 x=0 w=810 bg=#f5f2eb pad=100px 20px 75px flex column gap=10px
+      - [Image Section] y=4945 h=434 x=0 w=810 bg=#000000@0 pad=0px flex column gap=0px
+      - [Links] y=5379 h=300 x=0 w=810 bg=#f5f2eb pad=50px 32px 100px flex column gap=100px
+  [div] <div> y=88 h=38 x=8 w=92 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=92 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=5679 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=5679 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  HAIRLINES: 810x1 #363636 Line
+  IMGS: Image Section|810x576@0,156 cover 50% 50% r=0px nat=809x575 CUT y 0%
+        Thumb|122x150@32,5429 cover 51.2% 48.1% r=0px nat=122x136 CUT x 9.3%
+        Thumb|122x150@656,5429 cover 50% 50% r=0px nat=122x138 CUT x 8%
+  MOTION atLoad=51 preScrollHidden=0 scrollAnims=0 loadAnims=7
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1200|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1200|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 1500|1200|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+
+## news-article @390 docH=7665 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=243 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=0 h=243 x=0 w=390 bg=#f5f2eb pad=150px 12px 20px flex column gap=35px
+  [Main] <div> y=243 h=6447 x=0 w=390 pos=relative bg=#f5f2eb pad=20px 0px 0px flex column gap=0px
+      - [Image Section] y=263 h=277 x=0 w=390 bg=#000000@0 pad=0px flex column gap=0px
+      - [Article] y=540 h=5691 x=0 w=390 bg=#f5f2eb pad=100px 15px 75px flex column gap=10px
+      - [Links] y=6231 h=459 x=0 w=390 bg=#f5f2eb pad=50px 15px 100px flex column gap=100px
+  [div] <div> y=88 h=38 x=8 w=92 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=92 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=6690 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=6690 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #363636 Line
+  IMGS: Image Section|390x277@0,263 cover 50% 50% r=0px nat=390x277 CUT x 0%
+        Thumb|122x150@15,6281 cover 51.2% 48.1% r=0px nat=122x136 CUT x 9.3%
+        Thumb|122x150@253,6440 cover 50% 50% r=0px nat=122x138 CUT x 8%
+  MOTION atLoad=50 preScrollHidden=0 scrollAnims=0 loadAnims=8
+     anim x1: 1500|1000|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1000|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1200|linear|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"0.00281677"},{"o":null,"opacity":"0.00797713"},{"o":null,"opacity":"0.0160754"},{"o":null,"opacity":"0.0267423"},{"o":null,"opacity":"0.0396424"},{"o":n
+     anim x1: 1500|1200|linear|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"translateY(149.727px)"},{"o":null,"transform":"translateY(148.952px)"},{"o":null,"transform":"translateY(147.736px)"},{"o":null,"transfo
+     anim x1: 1500|1000|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 1500|1200|linear(0 0%, 0.0018 0.6711409395973|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x1: 2000|50|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+
+## past-work-detail @1440 docH=2124 body=#0f0f0f nav=DESKTOP GREY 64px fixed bg=#0f0f0f
+  [Detail BG] <div> y=0 h=1649 x=0 w=1440 pos=relative bg=#0f0f0f pad=0px 0px 110px flex column gap=0px
+      - [Wrap] y=0 h=1539 x=0 w=1440 bg=#000000@0 pad=120px 32px 0px flex column gap=18px max=1920px
+  [div] <div> y=88 h=38 x=20 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=130 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1649 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=1649 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [DESKTOP GREY] y=0 h=64 x=0 w=1440 bg=#0f0f0f pad=0px flex row gap=20px
+  GRIDS: [Meta] y=240 x=32 w=1376 grid perRow=2 items=2 gap=24px pad=34px 0px 0px itemW=676,676 itemH=62,62 cols=676px 676px
+  IMGS: Hero Image|1376x620@32,353 cover 50% 50% r=2px nat=1376x1376 CUT y 54.9%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## past-work-detail @810 docH=2328 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Detail BG] <div> y=0 h=1649 x=0 w=810 pos=relative bg=#0f0f0f pad=0px 0px 110px flex column gap=0px
+      - [Wrap] y=0 h=1539 x=0 w=810 bg=#000000@0 pad=120px 32px 0px flex column gap=18px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=130 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1649 h=679 x=0 w=810 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=1649 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  GRIDS: [Meta] y=240 x=32 w=746 grid perRow=2 items=2 gap=24px pad=34px 0px 0px itemW=361,361 itemH=62,62 cols=361px 361px
+  IMGS: Hero Image|746x620@32,353 cover 50% 50% r=2px nat=746x746 CUT y 16.9%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## past-work-detail @390 docH=2801 body=#0f0f0f nav=-
+  [Blake ] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [Detail BG] <div> y=0 h=1826 x=0 w=390 pos=relative bg=#0f0f0f pad=0px 0px 110px flex column gap=0px
+      - [Wrap] y=0 h=1716 x=0 w=390 bg=#000000@0 pad=120px 32px 0px flex column gap=18px max=1920px
+  [div] <div> y=88 h=38 x=8 w=130 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=130 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=1826 h=975 x=0 w=390 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=1826 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  GRIDS: [Meta] y=240 x=32 w=326 grid perRow=2 items=2 gap=24px pad=34px 0px 0px itemW=151,151 itemH=62,62 cols=151px 151px
+  IMGS: Hero Image|326x620@32,353 cover 50% 50% r=2px nat=326x326 CUT x 47.4%
+  MOTION atLoad=0 preScrollHidden=0 scrollAnims=0 loadAnims=0
+
+## past-works @1440 docH=4645 body=#0f0f0f nav=DESKTOP GREY 64px fixed bg=#0f0f0f
+  [div] <div> y=0 h=206 x=0 w=1440 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=1440 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Past Works BG] <div> y=206 h=3326 x=0 w=1440 pos=relative bg=#0f0f0f pad=0px 0px 100px flex column gap=0px
+      - [Wrap] y=206 h=3226 x=0 w=1440 bg=#000000@0 pad=0px 32px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=20 w=142 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Dark] y=88 h=38 x=20 w=142 bg=#0f0f0f@0.55 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=3532 h=638 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=3532 h=638 x=0 w=1440 bg=#0f0f0f pad=250px 20px flex column gap=10px
+  [div] <div> y=4171 h=475 x=0 w=1440 pos=sticky top=0px bg=#000000@0 pad=0px block row gap=normal
+      - [Desktop] y=4171 h=475 x=0 w=1440 bg=#000000 pad=52px 46px flex column gap=32px
+  [div] <div> y=0 h=64 x=0 w=1440 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [DESKTOP GREY] y=0 h=64 x=0 w=1440 bg=#0f0f0f pad=0px flex row gap=20px
+  HAIRLINES: 1440x1 #363636 Line; 459x1 #dbdbdb Line
+  IMGS: Square Desktop|459x459@32,453 cover 50% 50% r=0px nat=458x663 CUT y 30.9%
+        Square Desktop|459x459@491,453 cover 50% 50% r=0px nat=459x590 CUT y 22.2%
+        Square Desktop|459x459@949,453 cover 50% 50% r=0px nat=458x384 CUT x 16.2%
+        Square Desktop|459x459@32,1054 cover 50% 50% r=0px nat=459x688 CUT y 33.3%
+        Square Desktop|459x459@491,1054 cover 50% 50% r=0px nat=458x258 CUT x 43.7%
+        Square Desktop|459x459@949,1054 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@32,1656 cover 50% 50% r=0px nat=458x334 CUT x 27.1%
+        Square Desktop|459x459@491,1656 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@949,1656 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@32,2257 cover 50% 50% r=0px nat=458x258 CUT x 43.7%
+        Square Desktop|459x459@491,2257 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@949,2257 cover 50% 50% r=0px nat=458x458 CUT y 0%
+        Square Desktop|459x459@32,2859 cover 50% 50% r=0px nat=458x334 CUT x 27.1%
+        Desktop|1440x638@0,3532 cover 50% 50% r=0px nat=1440x2160 CUT y 70.4%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=3
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x57: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+     hidden x3: Square Desktop op=0 tf=translateY(30px)
+
+## past-works @810 docH=5658 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Arrive] y=0 h=206 x=0 w=810 bg=#0f0f0f pad=150px 32px 20px flex column gap=35px
+  [Past Works BG] <div> y=206 h=4146 x=0 w=810 pos=relative bg=#0f0f0f pad=0px 0px 100px flex column gap=0px
+      - [Wrap] y=206 h=4046 x=0 w=810 bg=#000000@0 pad=0px 26px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=8 w=142 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=142 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=4352 h=627 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=4352 h=627 x=0 w=810 bg=#0f0f0f pad=250px 40px flex column gap=10px
+  [div] <div> y=4979 h=679 x=0 w=810 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet] y=4979 h=679 x=0 w=810 bg=#000000 pad=52px 46px flex column gap=32px
+  HAIRLINES: 810x1 #363636 Line; 379x1 #dbdbdb Line
+  IMGS: Square ipad|379x379@26,426 cover 50% 50% r=0px nat=379x548 CUT y 30.8%
+        Square ipad|379x379@405,426 cover 50% 50% r=0px nat=379x487 CUT y 22.2%
+        Square ipad|379x379@26,977 cover 50% 50% r=0px nat=378x317 CUT x 16.1%
+        Square ipad|379x379@405,977 cover 50% 50% r=0px nat=379x569 CUT y 33.4%
+        Square ipad|379x379@26,1527 cover 50% 50% r=0px nat=378x213 CUT x 43.7%
+        Square ipad|379x379@405,1527 cover 50% 50% r=0px nat=378x378 CUT y 0%
+        Square ipad|379x379@26,2078 cover 50% 50% r=0px nat=378x276 CUT x 27%
+        Square ipad|379x379@405,2078 cover 50% 50% r=0px nat=378x378 CUT y 0%
+        Square ipad|379x379@26,2628 cover 50% 50% r=0px nat=378x378 CUT y 0%
+        Square ipad|379x379@405,2628 cover 50% 50% r=0px nat=378x213 CUT x 43.7%
+        Square ipad|379x379@26,3179 cover 50% 50% r=0px nat=378x378 CUT y 0%
+        Square ipad|379x379@405,3179 cover 50% 50% r=0px nat=378x378 CUT y 0%
+        Square ipad|379x379@26,3729 cover 50% 50% r=0px nat=378x276 CUT x 27%
+        Tablet|810x627@0,4352 cover 50% 50% r=0px nat=810x1215 CUT y 48.4%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=3
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x4: Square ipad op=0 tf=translateY(30px)
+     hidden x56: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+
+## past-works @390 docH=9324 body=#0f0f0f nav=-
+  [div] <div> y=8 h=60 x=8 w=200 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Tablet Mobile] y=8 h=60 x=8 w=200 bg=#000000 pad=0px flex column gap=0px
+  [div] <div> y=0 h=206 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=0 h=206 x=0 w=390 bg=#0f0f0f pad=150px 12px 20px flex column gap=35px
+  [Past Works BG] <div> y=206 h=7588 x=0 w=390 pos=relative bg=#0f0f0f pad=0px 0px 100px flex column gap=0px
+      - [Wrap] y=206 h=7488 x=0 w=390 bg=#000000@0 pad=0px flex column gap=0px max=1920px
+  [div] <div> y=88 h=38 x=8 w=142 pos=fixed bg=#000000@0 pad=0px block row gap=normal
+      - [Light] y=88 h=38 x=8 w=142 bg=#ffffff@0.02 pad=10px 18px 10px 14px flex row gap=8px
+  [div] <div> y=7795 h=554 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=7795 h=554 x=0 w=390 bg=#0f0f0f pad=200px 20px flex column gap=10px
+  [div] <div> y=8349 h=975 x=0 w=390 pos=relative bg=#000000@0 pad=0px block row gap=normal
+      - [Phone] y=8349 h=975 x=0 w=390 bg=#000000 pad=24px 12px 52px flex column gap=32px
+  HAIRLINES: 390x1 #363636 Line; 390x1 #dbdbdb Line
+  IMGS: Square ipad|390x390@0,423 cover 50% 50% r=0px nat=390x564 CUT y 30.9%
+        Square ipad|390x390@0,985 cover 50% 50% r=0px nat=390x501 CUT y 22.2%
+        Square ipad|390x390@0,1546 cover 50% 50% r=0px nat=390x326 CUT x 16.4%
+        Square ipad|390x390@0,2108 cover 50% 50% r=0px nat=390x585 CUT y 33.3%
+        Square ipad|390x390@0,2669 cover 50% 50% r=0px nat=390x219 CUT x 43.8%
+        Square ipad|390x390@0,3231 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,3792 cover 50% 50% r=0px nat=390x284 CUT x 27.2%
+        Square ipad|390x390@0,4354 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,4915 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,5477 cover 50% 50% r=0px nat=390x219 CUT x 43.8%
+        Square ipad|390x390@0,6038 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,6600 cover 50% 50% r=0px nat=390x390 CUT y 0%
+        Square ipad|390x390@0,7161 cover 50% 50% r=0px nat=390x284 CUT x 27.2%
+        Phone|390x554@0,7795 cover 50% 50% r=0px nat=390x585 CUT y 5.3%
+  MOTION atLoad=60 preScrollHidden=60 scrollAnims=3 loadAnims=3
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     anim x2: 1500|3000|cubic-bezier(0.59, 0.01, 0.17, 1.53|[{"o":null,"transform":"translateY(150px)"},{"o":null,"transform":"none"}]
+     anim x2: 2000|0|linear(0 0%, 0.001 0.50251256281407|[{"o":null,"opacity":"0.001"},{"o":null,"opacity":"1"}]
+     hidden x55: span op=0.001 tf=translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)
+     hidden x5: Square ipad op=0 tf=translateY(30px)

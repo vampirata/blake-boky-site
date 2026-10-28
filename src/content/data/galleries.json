@@ -1,0 +1,341 @@
+[
+  {
+    "slug": "zurich-art-salon",
+    "path": "/galleriespetley/zurich-art-salon",
+    "order": 1,
+    "title": "Zurich Art Salon",
+    "eyebrow": "GALLERY PARTNER",
+    "cardTitle": "Zurich Art Salon ",
+    "date": "Aug 6, 2026",
+    "cardImage": {
+      "src": "/assets/galleries/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+      "alt": "",
+      "naturalWidth": 1046,
+      "naturalHeight": 1045,
+      "rendered": {
+        "w": 453.3,
+        "h": 453.3
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "heroImage": {
+      "src": "/assets/galleries/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+      "alt": "",
+      "naturalWidth": 1046,
+      "naturalHeight": 1045,
+      "rendered": {
+        "w": 1312,
+        "h": 560
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.341,
+      "kind": "image",
+      "name": null
+    },
+    "content": [
+      {
+        "tag": "p",
+        "html": "<p>At the heart of the presentation was <em>Damaged</em>, shown in its gold-leaf edition — edition one of six — from Boky's Figurative Poetry Collection. The work distills the language central to her practice: a fragmented figure whose broken surfaces are gilded rather than concealed, holding beauty and rupture within a single form. Finished in gold leaf, <em>Damaged</em> transforms absence and injury into something luminous — a quiet meditation on resilience and the poetry of the incomplete.</p>",
+        "text": "At the heart of the presentation was Damaged, shown in its gold-leaf edition — edition one of six — from Boky's Figurative Poetry Collection. The work distills the language central to her practice: a fragmented figure whose broken surfaces are gilded rather than concealed, holding beauty and rupture within a single form. Finished in gold leaf, Damaged transforms absence and injury into something luminous — a quiet meditation on resilience and the poetry of the incomplete."
+      },
+      {
+        "tag": "p",
+        "html": "<p><br></p>",
+        "text": "\n",
+        "empty": true
+      },
+      {
+        "tag": "p",
+        "html": "<p><strong>Opening Hours:</strong></p>",
+        "text": "Opening Hours:"
+      },
+      {
+        "tag": "p",
+        "html": "<p>Thursday, 23.10.2025: 12- 18h VIP Opening<br>Friday, 24.10.2025: 12h-20h<br>Saturday, 25.10.2025: 12h-20h<br>Sunday, 26.10.2025: 12h-18h</p>",
+        "text": "Thursday, 23.10.2025: 12- 18h VIP Opening\nFriday, 24.10.2025: 12h-20h\nSaturday, 25.10.2025: 12h-20h\nSunday, 26.10.2025: 12h-18h"
+      }
+    ],
+    "externalLinks": [
+      {
+        "slot": "Link 1",
+        "label": "Visit gallery website",
+        "href": "/galleriespetley/zurich-art-salon"
+      },
+      {
+        "slot": "Link 2",
+        "label": "Additional link",
+        "href": "https://maisondartgallery.com/exhibitions/31-art-salon-zurich/overview/"
+      }
+    ],
+    "cta": {
+      "heading": "Get in touch for further inquiries",
+      "link": {
+        "label": "CONTACT US",
+        "href": "/contact"
+      }
+    },
+    "backLink": {
+      "label": "← Galleries",
+      "href": "/galleriespetley"
+    },
+    "seo": {
+      "title": "{{Title}} — Blake & Boky",
+      "description": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogTitle": "{{Title}} — Blake & Boky",
+      "ogDescription": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/galleriespetley/zurich-art-salon"
+    }
+  },
+  {
+    "slug": "art-fairs-and-salons",
+    "path": "/galleriespetley/art-fairs-and-salons",
+    "order": 2,
+    "title": "Art Fairs and Salons",
+    "eyebrow": "GALLERY PARTNER",
+    "cardTitle": "Art Fairs and Salons ",
+    "date": "Feb 24, 2026",
+    "cardImage": {
+      "src": "/assets/galleries/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+      "alt": "",
+      "naturalWidth": 1131,
+      "naturalHeight": 889,
+      "rendered": {
+        "w": 453.3,
+        "h": 453.3
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.786,
+      "kind": "image",
+      "name": null
+    },
+    "heroImage": {
+      "src": "/assets/galleries/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+      "alt": "",
+      "naturalWidth": 1131,
+      "naturalHeight": 889,
+      "rendered": {
+        "w": 1312,
+        "h": 560
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.842,
+      "kind": "image",
+      "name": null
+    },
+    "content": [
+      {
+        "tag": "p",
+        "html": "<p><br></p>",
+        "text": "\n",
+        "empty": true
+      },
+      {
+        "tag": "p",
+        "html": "<p>Blake Ward and Boky Hackel have participated in a number of shows and fairs around the world ranging from independently organised private shows to international art fair in collaboration with their galleries. </p>",
+        "text": "Blake Ward and Boky Hackel have participated in a number of shows and fairs around the world ranging from independently organised private shows to international art fair in collaboration with their galleries. "
+      }
+    ],
+    "externalLinks": [
+      {
+        "slot": "Link 1",
+        "label": "Visit gallery website",
+        "href": "/galleriespetley/art-fairs-and-salons"
+      }
+    ],
+    "cta": {
+      "heading": "Get in touch for further inquiries",
+      "link": {
+        "label": "CONTACT US",
+        "href": "/contact"
+      }
+    },
+    "backLink": {
+      "label": "← Galleries",
+      "href": "/galleriespetley"
+    },
+    "seo": {
+      "title": "{{Title}} — Blake & Boky",
+      "description": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogTitle": "{{Title}} — Blake & Boky",
+      "ogDescription": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/galleriespetley/art-fairs-and-salons"
+    }
+  },
+  {
+    "slug": "hilton-contemporary",
+    "path": "/galleriespetley/hilton-contemporary",
+    "order": 3,
+    "title": "Hilton Contemporary",
+    "eyebrow": "GALLERY PARTNER",
+    "cardTitle": "Hilton Contemporary ",
+    "date": "May 23, 2019",
+    "cardImage": {
+      "src": "/assets/galleries/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 4032,
+      "rendered": {
+        "w": 453.3,
+        "h": 453.3
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.333,
+      "kind": "image",
+      "name": null
+    },
+    "heroImage": {
+      "src": "/assets/galleries/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 4032,
+      "rendered": {
+        "w": 1312,
+        "h": 560
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 3.124,
+      "kind": "image",
+      "name": null
+    },
+    "content": [
+      {
+        "tag": "p",
+        "html": "<p>Hilton Contemporary has been representing Blake and Boky since 2015. Arica Hilton hosted their first joint exhibition </p>",
+        "text": "Hilton Contemporary has been representing Blake and Boky since 2015. Arica Hilton hosted their first joint exhibition "
+      },
+      {
+        "tag": "p",
+        "html": "<p><br></p>",
+        "text": "\n",
+        "empty": true
+      }
+    ],
+    "externalLinks": [
+      {
+        "slot": "Link 1",
+        "label": "Visit gallery website",
+        "href": "/galleriespetley/hilton-contemporary"
+      },
+      {
+        "slot": "Link 2",
+        "label": "Additional link",
+        "href": "https://hiltoncontemporary.com/artists/blake-ward/"
+      }
+    ],
+    "cta": {
+      "heading": "Get in touch for further inquiries",
+      "link": {
+        "label": "CONTACT US",
+        "href": "/contact"
+      }
+    },
+    "backLink": {
+      "label": "← Galleries",
+      "href": "/galleriespetley"
+    },
+    "seo": {
+      "title": "{{Title}} — Blake & Boky",
+      "description": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogTitle": "{{Title}} — Blake & Boky",
+      "ogDescription": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/galleriespetley/hilton-contemporary"
+    }
+  },
+  {
+    "slug": "petley-jones",
+    "path": "/galleriespetley/petley-jones",
+    "order": 4,
+    "title": "Petley Jones",
+    "eyebrow": "GALLERY PARTNER",
+    "cardTitle": "Petley Jones ",
+    "date": "Feb 24, 2026",
+    "cardImage": {
+      "src": "/assets/galleries/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+      "alt": "",
+      "naturalWidth": 2048,
+      "naturalHeight": 3072,
+      "rendered": {
+        "w": 453.3,
+        "h": 453.3
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.5,
+      "kind": "image",
+      "name": null
+    },
+    "heroImage": {
+      "src": "/assets/galleries/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+      "alt": "",
+      "naturalWidth": 2048,
+      "naturalHeight": 3072,
+      "rendered": {
+        "w": 1312,
+        "h": 560
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 3.514,
+      "kind": "image",
+      "name": null
+    },
+    "content": [
+      {
+        "tag": "p",
+        "html": "<p>hhh</p>",
+        "text": "hhh"
+      },
+      {
+        "tag": "p",
+        "html": "<p><br></p>",
+        "text": "\n",
+        "empty": true
+      }
+    ],
+    "externalLinks": [
+      {
+        "slot": "Link 1",
+        "label": "Visit gallery website",
+        "href": "/galleriespetley/petley-jones"
+      }
+    ],
+    "cta": {
+      "heading": "Get in touch for further inquiries",
+      "link": {
+        "label": "CONTACT US",
+        "href": "/contact"
+      }
+    },
+    "backLink": {
+      "label": "← Galleries",
+      "href": "/galleriespetley"
+    },
+    "seo": {
+      "title": "{{Title}} — Blake & Boky",
+      "description": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogTitle": "{{Title}} — Blake & Boky",
+      "ogDescription": "Blake Ward and Boky Hackel-Ward's gallery representation.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/galleriespetley/petley-jones"
+    }
+  }
+]

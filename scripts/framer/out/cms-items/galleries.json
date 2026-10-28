@@ -1,0 +1,413 @@
+{
+  "collection": "Galleries",
+  "collectionId": "MnEF9Cuyo",
+  "detailPageId": "QMjVU0N2B",
+  "itemCount": 6,
+  "publishedCount": 4,
+  "items": [
+    {
+      "id": "dXmgRB6uO",
+      "draft": false,
+      "fields": {
+        "Title": "Zurich Art Salon ",
+        "Slug": "zurich-art-salon",
+        "Date": "2026-08-06T00:00:00.000Z",
+        "Location": "Halle 622 Zurich ",
+        "Gallery Rep": "Maison d’Art ",
+        "Image": "https://framerusercontent.com/images/xtk7k7Zt2Nt3dhngELYGY9ORagA.png",
+        "Curatorial Statement": [
+          {
+            "type": "TextBlock",
+            "id": "v:dXmgRB6uO/U49nfym_y:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/U49nfym_y:0:0",
+                "attributes": {
+                  "text": "In 2025, Boky Hackel-Ward exhibited at Art Salon Zürich, a boutique art fair dedicated to modern and contemporary art by post-1945 artists. She was represented at the fair by Maison d'Art (Monte Carlo), which presented her work alongside pieces by Nicolas Guzmán, Marcello Lo Giudice, Carlos Rolón and Pablo Armesto."
+                }
+              }
+            ]
+          }
+        ],
+        "Image 2": "https://framerusercontent.com/images/wRSb7zKPMLCjZ7l6nkxRKusBGMg.png",
+        "Content 1": [
+          {
+            "type": "TextBlock",
+            "id": "v:dXmgRB6uO/hOht0kN8p:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:0:0",
+                "attributes": {
+                  "text": "At the heart of the presentation was "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:0:1",
+                "attributes": {
+                  "text": "Damaged",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:0:2",
+                "attributes": {
+                  "text": ", shown in its gold-leaf edition — edition one of six — from Boky's Figurative Poetry Collection. The work distills the language central to her practice: a fragmented figure whose broken surfaces are gilded rather than concealed, holding beauty and rupture within a single form. Finished in gold leaf, "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:0:3",
+                "attributes": {
+                  "text": "Damaged",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:0:4",
+                "attributes": {
+                  "text": " transforms absence and injury into something luminous — a quiet meditation on resilience and the poetry of the incomplete."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dXmgRB6uO/hOht0kN8p:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:dXmgRB6uO/hOht0kN8p:1:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dXmgRB6uO/hOht0kN8p:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:2:0",
+                "attributes": {
+                  "text": "Opening Hours:",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dXmgRB6uO/hOht0kN8p:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:0",
+                "attributes": {
+                  "text": "Thursday, 23.10.2025: 12- 18h VIP Opening"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:2",
+                "attributes": {
+                  "text": "Friday, 24.10.2025: 12h-20h"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:4",
+                "attributes": {
+                  "text": "Saturday, 25.10.2025: 12h-20h"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dXmgRB6uO/hOht0kN8p:3:6",
+                "attributes": {
+                  "text": "Sunday, 26.10.2025: 12h-18h"
+                }
+              }
+            ]
+          }
+        ],
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "zurich-art-salon"
+        },
+        "Link 2": "https://maisondartgallery.com/exhibitions/31-art-salon-zurich/overview/",
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "LKGj71kT0",
+      "draft": true,
+      "fields": {
+        "Title": "Monaco One Masters",
+        "Slug": "monaco-one-masters",
+        "Date": "2025-07-09T00:00:00.000Z",
+        "Location": "One Monte-Carlo, 1 Pl. du Casino Monaco ",
+        "Gallery Rep": "Maison d’Art ",
+        "Image": null,
+        "Curatorial Statement": [
+          {
+            "type": "TextBlock",
+            "id": "v:LKGj71kT0/U49nfym_y:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:LKGj71kT0/U49nfym_y:0:0",
+                "attributes": {
+                  "text": "Private Collectors Salon"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 2": null,
+        "Content 1": null,
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "monaco-one-masters"
+        },
+        "Link 2": "https://maisondartgallery.com/exhibitions/29-one-masters-monaco/overview/",
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "pOS6J5RpJ",
+      "draft": true,
+      "fields": {
+        "Title": "Art Dubai Digital 2025",
+        "Slug": "art-dubai-digital-2025",
+        "Date": "2025-04-16T00:00:00.000Z",
+        "Location": "Madinat Jumeirah, Jumeirah Beach Road",
+        "Gallery Rep": "Hilton Contemporary",
+        "Image": null,
+        "Curatorial Statement": null,
+        "Image 2": null,
+        "Content 1": null,
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "art-dubai-digital-2025"
+        },
+        "Link 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "aTrT1HQRl",
+      "draft": false,
+      "fields": {
+        "Title": "Art Fairs and Salons ",
+        "Slug": "art-fairs-and-salons",
+        "Date": null,
+        "Location": "",
+        "Gallery Rep": null,
+        "Image": "https://framerusercontent.com/images/8EvKFDAZWptzFr0jlfmRLKgH6OU.jpg",
+        "Curatorial Statement": null,
+        "Image 2": null,
+        "Content 1": [
+          {
+            "type": "TextBlock",
+            "id": "v:aTrT1HQRl/hOht0kN8p:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTrT1HQRl/hOht0kN8p:0:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:aTrT1HQRl/hOht0kN8p:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:aTrT1HQRl/hOht0kN8p:1:0",
+                "attributes": {
+                  "text": "Blake Ward and Boky Hackel have participated in a number of shows and fairs around the world ranging from independently organised private shows to international art fair in collaboration with their galleries. "
+                }
+              }
+            ]
+          }
+        ],
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "art-fairs-and-salons"
+        },
+        "Link 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "jpCKrR_b2",
+      "draft": false,
+      "fields": {
+        "Title": "Hilton Contemporary ",
+        "Slug": "hilton-contemporary",
+        "Date": "2019-05-23T00:00:00.000Z",
+        "Location": "Chicago ",
+        "Gallery Rep": "Somewhere Within ",
+        "Image": "https://framerusercontent.com/images/UvPvlS0ylMYhSvMYdyPgH0RykC4.jpg",
+        "Curatorial Statement": null,
+        "Image 2": "https://framerusercontent.com/images/10vJh8IhltTvmeKYxjn2a4Ru0M.jpg",
+        "Content 1": [
+          {
+            "type": "TextBlock",
+            "id": "v:jpCKrR_b2/hOht0kN8p:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jpCKrR_b2/hOht0kN8p:0:0",
+                "attributes": {
+                  "text": "Hilton Contemporary has been representing Blake and Boky since 2015. Arica Hilton hosted their first joint exhibition "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jpCKrR_b2/hOht0kN8p:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:jpCKrR_b2/hOht0kN8p:1:0"
+              }
+            ]
+          }
+        ],
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "hilton-contemporary"
+        },
+        "Link 2": "https://hiltoncontemporary.com/artists/blake-ward/",
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "oXOJS3H6o",
+      "draft": false,
+      "fields": {
+        "Title": "Petley Jones ",
+        "Slug": "petley-jones",
+        "Date": null,
+        "Location": null,
+        "Gallery Rep": null,
+        "Image": "https://framerusercontent.com/images/gHoNhqtNXmVYfahdcJ7Gtg2ENE8.jpg",
+        "Curatorial Statement": null,
+        "Image 2": null,
+        "Content 1": [
+          {
+            "type": "TextBlock",
+            "id": "v:oXOJS3H6o/hOht0kN8p:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:oXOJS3H6o/hOht0kN8p:0:0",
+                "attributes": {
+                  "text": "hhh"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:oXOJS3H6o/hOht0kN8p:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:oXOJS3H6o/hOht0kN8p:1:0"
+              }
+            ]
+          }
+        ],
+        "File": null,
+        "Link": {
+          "href": "/galleriespetley/:slug",
+          "collectionItem": "petley-jones"
+        },
+        "Link 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

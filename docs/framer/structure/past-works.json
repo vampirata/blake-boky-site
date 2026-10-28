@@ -1,0 +1,272 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "wbrDyJg64",
+ "$isPrimary": true,
+ "$parentId": "a4blT_S0Y",
+ "$scopeId": "a4blT_S0Y",
+ "$layoutTemplateId": "eh2wp0pmv",
+ "$layoutTemplateDisplayName": "Page Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "0px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "FrameNode",
+   "name": "Past Works BG",
+   "id": "Od5GWuRh3",
+   "attributes": {
+    "fill": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "padding": "0px 0px 100px 0px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "ZZ775O7qs",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "start",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "0px 32px 0px 32px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Head",
+       "id": "ukD1nkoE5",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "stackWrapEnabled": false,
+        "gap": "16px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "id": "EAim_Efrp",
+         "attributes": {
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "fontName": "Inter",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "12px",
+          "letterSpacing": "0.28em",
+          "lineHeight": "1.2em",
+          "textAlignment": "start",
+          "textTransform": "uppercase",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(138, 138, 134)",
+          "visible": "false"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:EAim_Efrp:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:EAim_Efrp:0:0",
+             "attributes": {
+              "text": "Boky Hackel-Ward"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "id": "L7cNnDymz",
+         "attributes": {
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "fontName": "Cormorant Garamond",
+          "fontStyle": "normal",
+          "fontWeight": 500,
+          "fontSize": "86px",
+          "letterSpacing": "0em",
+          "lineHeight": "1.02em",
+          "textAlignment": "start",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(245, 242, 235)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:L7cNnDymz:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:L7cNnDymz:0:0",
+             "attributes": {
+              "text": "Past Works"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "id": "Kx2V8tvIR",
+         "attributes": {
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "640px",
+          "fontName": "Cormorant Garamond",
+          "fontStyle": "italic",
+          "fontWeight": 400,
+          "fontSize": "26px",
+          "letterSpacing": "0em",
+          "lineHeight": "1.4em",
+          "textAlignment": "start",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(180, 174, 163)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:Kx2V8tvIR:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:Kx2V8tvIR:0:0",
+             "attributes": {
+              "text": "An archive of earlier sculpture, studio work and press — the years of study and work that led to In Lucem and Figurative Poetry."
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "name": "Archive Grid",
+       "id": "g6xpPXEPh",
+       "attributes": {
+        "layout": "grid",
+        "gridAlignment": "center",
+        "gridColumnCount": 3,
+        "gridColumnMinWidth": "50px",
+        "gap": "28px 0px",
+        "padding": "70px 0px 0px 0px",
+        "position": "relative",
+        "collectionList": {
+         "collection": "Past Works",
+         "repeatedDescendantId": "MwZ9HuqBt"
+        },
+        "width": "100%",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "ComponentInstanceNode",
+         "id": "MwZ9HuqBt",
+         "component": "RKOTpOXF5",
+         "$componentDisplayName": "Article Thumbnail",
+         "attributes": {
+          "$control__variant": "Square Desktop",
+          "$control__image": "var(--variable-tNzjBimWU)",
+          "$control__date": "null",
+          "$control__title": "var(--variable-cKGw_kf4L)",
+          "$control__link": {
+           "href": "/past-works/:slug",
+           "collectionItem": "var(--variable-k3xzbBOoN)"
+          },
+          "$control__textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "WDX7XAcgs",
+   "component": "NJX6voBkJ",
+   "$componentDisplayName": "Go-back",
+   "attributes": {
+    "$control__variant": "Dark",
+    "$control__link": "/boky-bio",
+    "$control__title": "Back to Boky",
+    "hoverEffect": {
+     "opacity": 1,
+     "x": "0px",
+     "y": "0px",
+     "scale": 1,
+     "skewX": "0deg",
+     "skewY": "0deg",
+     "backgroundColor": "var(--token-845bff36-5701-4ad7-b7c8-76125781c65b)",
+     "transition": "spring-duration 0.4s 0.2 0s",
+     "rotate": "0deg"
+    },
+    "position": "fixed",
+    "left": "20px",
+    "right": "null",
+    "top": "88px",
+    "bottom": "null",
+    "centerAnchorX": "6.33%",
+    "centerAnchorY": "13.38%",
+    "constraintsLocked": false,
+    "width": "auto",
+    "height": "auto",
+    "zIndex": "3"
+   }
+  }
+ ]
+}

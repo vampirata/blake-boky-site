@@ -1,0 +1,48 @@
+---
+// Plain contact section on light pages (bios, galleries).
+import { url } from "../lib/site";
+interface Props {
+	eyebrow?: string;
+	heading?: string;
+	line?: string;
+	tone?: "light" | "dark";
+}
+const { eyebrow = "Get in touch", heading = "Get in touch for further inquiries", line, tone = "light" } = Astro.props;
+---
+
+<section class:list={["ccta", `ccta--${tone}`]}>
+	<p class="eyebrow e" data-reveal>{eyebrow}</p>
+	<h2 class="h2" data-reveal style="--d:80ms">{heading}</h2>
+	{line && <p class="l" data-reveal style="--d:160ms">{line}</p>}
+	<a class="btn-outline" href={url("/contact")} data-reveal style="--d:200ms">Contact Us <span aria-hidden="true">→</span></a>
+</section>
+
+<style>
+	.ccta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		padding: 110px var(--gutter);
+		text-align: center;
+	}
+	.ccta--light {
+		color: var(--charcoal);
+	}
+	.ccta--dark {
+		color: var(--paper);
+	}
+	.e {
+		color: var(--taupe);
+	}
+	.ccta--dark .e {
+		color: var(--sand);
+	}
+	.l {
+		max-inline-size: 560px;
+		opacity: 0.8;
+	}
+	.btn-outline {
+		margin-block-start: 12px;
+	}
+</style>

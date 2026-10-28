@@ -1,0 +1,48 @@
+@import "@fontsource/cormorant-garamond/300.css";
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/inter/300.css";
+@import "@fontsource/inter/300-italic.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/400-italic.css";
+
+@font-face {
+	font-family: "Switzer";
+	src: url("/fonts/switzer-300.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Switzer";
+	src: url("/fonts/switzer-400.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Fallback metrics copied from Framer to avoid layout shift while fonts load. */
+@font-face {
+	font-family: "Cormorant Garamond Placeholder";
+	src: local("Times New Roman");
+	ascent-override: 96.16%;
+	descent-override: 29.87%;
+	size-adjust: 96.09%;
+}
+@font-face {
+	font-family: "Inter Placeholder";
+	src: local("Arial");
+	ascent-override: 89.79%;
+	descent-override: 22.36%;
+	size-adjust: 107.89%;
+}
+@font-face {
+	font-family: "Switzer Placeholder";
+	src: local("Arial");
+	ascent-override: 96.67%;
+	descent-override: 24.66%;
+	line-gap-override: 8.88%;
+	size-adjust: 101.38%;
+}

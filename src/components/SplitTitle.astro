@@ -1,0 +1,36 @@
+---
+// Card titles reveal one character at a time on scroll (live site behaviour).
+// Characters are grouped per word so lines still wrap between words.
+interface Props {
+	text: string;
+	as?: string;
+	class?: string;
+}
+const { text, as: Tag = "h3", class: cls = "" } = Astro.props;
+let i = 0;
+const words = text.split(" ").map((w) => [...w].map((c) => ({ c, i: i++ })));
+---
+
+<Tag class:list={["split", cls]} data-split aria-label={text}>
+	{
+		words.map((w, wi) => (
+			<>
+				<span class="w" aria-hidden="true">
+					{w.map(({ c, i }) => (
+						<span class="ch" style={`--i:${i}`}>
+							{c}
+						</span>
+					))}
+				</span>
+				{wi < words.length - 1 ? " " : ""}
+			</>
+		))
+	}
+</Tag>
+
+<style>
+	.w {
+		display: inline-block;
+		white-space: nowrap;
+	}
+</style>

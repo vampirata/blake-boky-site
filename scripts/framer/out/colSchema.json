@@ -1,0 +1,1739 @@
+[
+  {
+    "type": "CollectionNode",
+    "id": "iPaz0HKEb",
+    "name": "Collections",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "wSPsBioiK",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "LWjnnZq2s",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__category",
+        "id": "T6BZ4iDfR",
+        "name": "Category",
+        "node": "OptionVariable",
+        "type": "option",
+        "cases": [
+          "Collaborative ",
+          "Blake Ward",
+          "Boky Hackel",
+          "Past shows",
+          "Public Installations ",
+          ""
+        ],
+        "initialValue": "Collaborative "
+      },
+      {
+        "key": "$control__year",
+        "id": "TyEAqL6f1",
+        "name": "Year",
+        "node": "Variable",
+        "type": "string",
+        "initialValue": "2025",
+        "required": false
+      },
+      {
+        "key": "$control__size",
+        "id": "RdQMLwz76",
+        "name": "Size",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__medium",
+        "id": "AK_qYXq_u",
+        "name": "Medium",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "id": "czIE_J3DA",
+        "name": "Texts",
+        "node": "Divider",
+        "type": "divider"
+      },
+      {
+        "key": "$control__intro",
+        "id": "pNFKTmaam",
+        "name": "Intro",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__middle_text",
+        "id": "WqXEfNtWc",
+        "name": "Middle Text",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__credits",
+        "id": "fIyAgDaR4",
+        "name": "Credits",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "id": "OYJyVf7MG",
+        "name": "Layout",
+        "node": "Divider",
+        "type": "divider"
+      },
+      {
+        "key": "$control__full_width_layout",
+        "id": "mDoiJaBGM",
+        "name": "Full Width Layout",
+        "node": "Variable",
+        "type": "boolean",
+        "initialValue": false
+      },
+      {
+        "id": "OLX54UuxL",
+        "name": "Images",
+        "node": "Divider",
+        "type": "divider"
+      },
+      {
+        "key": "$control__lora_from_another_land",
+        "id": "oKdB_U7yY",
+        "name": "Lora from Another Land",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": {
+          "type": "image"
+        },
+        "required": false
+      },
+      {
+        "key": "$control__maya_marble",
+        "id": "OEzcC8pM8",
+        "name": "MAYA marble",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": {
+          "type": "image"
+        },
+        "required": false
+      },
+      {
+        "key": "$control__ushabti_ryuu",
+        "id": "RZzo3Dzvp",
+        "name": "ushabti ryuu",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": {
+          "type": "image"
+        },
+        "required": false
+      },
+      {
+        "key": "$control__sharon_marble",
+        "id": "oDKvBNY5F",
+        "name": "Sharon Marble",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": {
+          "type": "image"
+        },
+        "required": false
+      },
+      {
+        "key": "$control__marble_larkin",
+        "id": "pSBXBjkW7",
+        "name": "Marble Larkin",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": {
+          "type": "image"
+        },
+        "required": false
+      },
+      {
+        "key": "$control__next_project",
+        "id": "ALl3k1oxh",
+        "name": "Next Project",
+        "node": "CollectionReferenceVariable",
+        "type": "single",
+        "collection": "Collections",
+        "required": true
+      },
+      {
+        "key": "$control__link",
+        "id": "h42an1rpv",
+        "name": "Link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__one_collection",
+        "id": "EWBzBY1fl",
+        "name": "One Collection",
+        "node": "OptionVariable",
+        "type": "option",
+        "cases": [
+          "Spirit",
+          "none"
+        ],
+        "initialValue": "Spirit"
+      },
+      {
+        "key": "$control__image_6",
+        "id": "jeKA3D9is",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "iPaz0HKEb-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 13,
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "MXz7H_65O"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Uq9nAiHmW"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "IQmCdQ7D6"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "woazmjhha"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "CTaA017fn"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "LNIB7H1Au"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "HtyGW_ul4"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "QH4VWT3IS"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "BNt7Gfe2y"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "G_8MT5OIG"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "RwAChpvxY"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "aTwYATbJ9"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "laEqfNnKc"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Z04k4tMmv"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "wRxgp4ui0",
+    "name": "News",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "DcIyvdwWS",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "zjoVadzNr",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__date",
+        "id": "BdKfsEd8j",
+        "name": "Date",
+        "node": "DateVariable",
+        "type": "date",
+        "displayTime": false,
+        "required": false
+      },
+      {
+        "key": "$control__image",
+        "id": "LGnwizZ_1",
+        "name": "Image",
+        "node": "Variable",
+        "type": "image",
+        "initialValue": "data:framer/asset-reference,nqmH3M4mUIKVh6qYxfkrlDCD1A.jpeg?originalFilename=nl01_2.jpeg&preferredSize=auto",
+        "required": false
+      },
+      {
+        "key": "$control__content",
+        "id": "eOuRAVD0z",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__link",
+        "id": "rcdA_7ssl",
+        "name": "Link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__publik_link",
+        "id": "lN4SGuFRj",
+        "name": "publik link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__youtube_link",
+        "id": "NRUS9YKQE",
+        "name": "youtube link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "wRxgp4ui0-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 8,
+    "$detailPageId": "crEk4KALi",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "Z9jqNQgEX"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "kXOFSaLC1"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "srJecg6h_"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Q5Dalbjnb"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "TUEaHvLag"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "IvBcQ23aV"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "OZb1oDVvY"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "MHFpwoOrT"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "aRKohcBW0"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "MnEF9Cuyo",
+    "name": "Galleries",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "ConjjFAmJ",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "S9xoPBEB0",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__date",
+        "id": "RiffXpZdl",
+        "name": "Date",
+        "node": "DateVariable",
+        "type": "date",
+        "displayTime": false,
+        "required": false
+      },
+      {
+        "key": "$control__location",
+        "id": "FsQKMksKm",
+        "name": "Location",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__gallery_rep",
+        "id": "z4sjBa0HG",
+        "name": "Gallery Rep",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__image",
+        "id": "VVKT0E_6w",
+        "name": "Image",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__curatorial_statement",
+        "id": "U49nfym_y",
+        "name": "Curatorial Statement",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "eyoloe9cM",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__content_1",
+        "id": "hOht0kN8p",
+        "name": "Content 1",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__file",
+        "id": "L9rF90ZFs",
+        "name": "File",
+        "node": "FileVariable",
+        "type": "file",
+        "allowedFileTypes": [
+          ""
+        ],
+        "required": false
+      },
+      {
+        "key": "$control__link",
+        "id": "dvXgP6DUx",
+        "name": "Link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__link_2",
+        "id": "weRE7d_lk",
+        "name": "Link 2",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "zhYwRuyr_",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "VaxUoiseo",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "MnEF9Cuyo-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 6,
+    "$detailPageId": "QMjVU0N2B",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "dXmgRB6uO"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "LKGj71kT0"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "pOS6J5RpJ"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "aTrT1HQRl"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "jpCKrR_b2"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "oXOJS3H6o"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "r_wpSmAxy",
+    "name": "Spirit Collection",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "zPDJyVUyH",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "irnHdwg4z",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__name_1",
+        "id": "TSoUjmwcQ",
+        "name": "Name 1",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__content",
+        "id": "a2QfkggHL",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__gallery",
+        "id": "Nw5fsbP5t",
+        "name": "Gallery",
+        "node": "ArrayVariable",
+        "type": "array",
+        "minCount": 4,
+        "items": [
+          {
+            "key": "image",
+            "id": "ERR5tgAzW",
+            "name": "Image",
+            "type": "image"
+          }
+        ],
+        "required": true
+      },
+      {
+        "key": "$control__content_2",
+        "id": "bwIWv2KYY",
+        "name": "Content 2",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_1",
+        "id": "bot32dqPH",
+        "name": "Image 1",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "f_vxG2f0e",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "qF9CzjK9c",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "j83fy0jay",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_5",
+        "id": "gskqetMqj",
+        "name": "Image 5",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_6",
+        "id": "Ijci4mmoh",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_7",
+        "id": "ndVP_XJ9C",
+        "name": "Image 7",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_8",
+        "id": "OkEUMeKXM",
+        "name": "Image 8",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_9",
+        "id": "v4dZjSrOg",
+        "name": "Image 9",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_10",
+        "id": "pNkGX30lI",
+        "name": "Image 10",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_11",
+        "id": "eHnM_vyVB",
+        "name": "Image 11",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_12",
+        "id": "CtVcyxKcl",
+        "name": "Image 12",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "r_wpSmAxy-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 21,
+    "$detailPageId": "yGTnEhF9K",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "wShkoluYL"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "mZZxZAnvU"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "WqBl0F04g"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "CiaJoYkME"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "feuhBua1_"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "VytR663xA"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "jNqqKF8FR"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "TfUZ_NdB5"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "z60VD086W"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "klEZcfnti"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Gb4Q2ZEXH"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "qcjctKAVb"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "a7keWOUi0"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "rwRYg2cyb"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "ATHcMXK6C"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "egt0Wz24z"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Mc2jUnaVo"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "nMB0vepBC"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "J1IJLbhDK"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "ImvWhQZmP"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "VIoApYJe0"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "q3fd1jL02"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "S6QP76fVq",
+    "name": "Fragments",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "jrZ7hpIR7",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "VsTzKhEuS",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__content",
+        "id": "cNjz4Zsot",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__gallery",
+        "id": "JYsOIy2Xi",
+        "name": "Gallery",
+        "node": "ArrayVariable",
+        "type": "array",
+        "items": [
+          {
+            "key": "image",
+            "id": "sWhfESyos",
+            "name": "Image",
+            "type": "image"
+          }
+        ],
+        "required": false
+      },
+      {
+        "key": "$control__content_2",
+        "id": "wJV7Uqavi",
+        "name": "Content 2",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_1",
+        "id": "rdseyX9Qa",
+        "name": "Image 1",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "u4SIVZvqg",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "Ob9m8zYz2",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "X6Uzdu85r",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_5",
+        "id": "GjQxs2Viz",
+        "name": "Image 5",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_6",
+        "id": "RNBL3qBuf",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_7",
+        "id": "IBotv6oJa",
+        "name": "Image 7",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_8",
+        "id": "cHWwvkVE2",
+        "name": "Image 8",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_9",
+        "id": "kk_m_N7uQ",
+        "name": "Image 9",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_10",
+        "id": "Y0VFuiR7R",
+        "name": "Image 10",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_11",
+        "id": "xkxL3DVzj",
+        "name": "Image 11",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__link",
+        "id": "bghWqDCEx",
+        "name": "Link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "S6QP76fVq-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 11,
+    "$detailPageId": "yPGYlRv5f",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "b7Fipntox"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "YoP_rG4Vt"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "DRMBn6_68"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Sr8oedIPi"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "flkL69UeD"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "ub8F8WNQV"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Jm_BR956K"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "f8womTtJl"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "EVozPPEut"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "s3aZAuyOm"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "cNMf0ggs8"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "xm_0xYMCv"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "pWRaq9WmZ",
+    "name": "Andromeda",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "VLVYba_kI",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "E6DJYEl_j",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__name",
+        "id": "mX14dS8lA",
+        "name": "Name",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__content",
+        "id": "ZhdDzuNaW",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__gallery",
+        "id": "CAFuA6xLZ",
+        "name": "Gallery",
+        "node": "ArrayVariable",
+        "type": "array",
+        "items": [
+          {
+            "key": "image",
+            "id": "OQobHNV2H",
+            "name": "Image",
+            "type": "image"
+          }
+        ],
+        "required": false
+      },
+      {
+        "key": "$control__content_2",
+        "id": "mOhigPIK9",
+        "name": "Content 2",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_1",
+        "id": "D2eRNGA4y",
+        "name": "Image 1",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "QKc35d2IJ",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "T1eYCkKcR",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "S9vz9_Mxw",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_5",
+        "id": "VkjwxW4II",
+        "name": "Image 5",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_6",
+        "id": "zANeVcHHo",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_7",
+        "id": "qwlKUCu8_",
+        "name": "Image 7",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_8",
+        "id": "hc2gWZ5cL",
+        "name": "Image 8",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__spline_link",
+        "id": "HznTCxsbd",
+        "name": "Spline link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "pWRaq9WmZ-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 3,
+    "$detailPageId": "tNt7DYuwT",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "QzH5erFPH"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "dd98fhbI1"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "GWijZ14VN"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "k3CBB0CtN",
+    "name": "In Lucem indiv",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "Ey1639xuO",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "KPNZMl2aM",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__gallery_1",
+        "id": "Z5oXgVjDI",
+        "name": "Gallery 1",
+        "node": "ArrayVariable",
+        "type": "array",
+        "minCount": 1,
+        "items": [
+          {
+            "key": "image",
+            "id": "YwugyDXPz",
+            "name": "Image",
+            "type": "image"
+          }
+        ],
+        "required": true
+      },
+      {
+        "key": "$control__content",
+        "id": "t_sdML5ui",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_1",
+        "id": "qQTyG3UzL",
+        "name": "Image 1",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "lvLqycddk",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "JlGzqPYIw",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "BBZVCp7hT",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_5",
+        "id": "nXZrt8jS5",
+        "name": "Image 5",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_6",
+        "id": "uASEH5Kyf",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_7",
+        "id": "sHmwJ6Rb2",
+        "name": "Image 7",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_8",
+        "id": "AvF8cfGNG",
+        "name": "Image 8",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "k3CBB0CtN-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 7,
+    "$detailPageId": "yGL8nVHMP",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "WWOIX6zfy"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "xL6pZuUFG"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "ef36NjEUO"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "EfqCY12lY"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "kQnZvJV4K"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "dPIRpPY8F"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "Eqm5DD6ia"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "fhNnpECKN"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "JUF_Puz8v",
+    "name": "Figurative Poetry indiv",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "lTgxUr5L2",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "YmPwKGCPJ",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__content",
+        "id": "spJHtBo4G",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__content_2",
+        "id": "bxf47LFuI",
+        "name": "Content 2",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__gallery_1",
+        "id": "l76vfZ2Or",
+        "name": "Gallery 1",
+        "node": "ArrayVariable",
+        "type": "array",
+        "items": [
+          {
+            "key": "image",
+            "id": "eJmMZp5Ev",
+            "name": "Image",
+            "type": "image"
+          }
+        ],
+        "required": false
+      },
+      {
+        "key": "$control__content_3",
+        "id": "IIuLASgsf",
+        "name": "Content 3",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__image_1",
+        "id": "CAMum9KKW",
+        "name": "Image 1",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "g3S58UsVY",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "wmsEpYO_Q",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "rnxbUy_iY",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_5",
+        "id": "E4sCdU0ua",
+        "name": "Image 5",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_6",
+        "id": "KCanrDABq",
+        "name": "Image 6",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_7",
+        "id": "JVFFtK2Ny",
+        "name": "Image 7",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_8",
+        "id": "VxqBdWU3l",
+        "name": "Image 8",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_9",
+        "id": "dh8z0tRiZ",
+        "name": "Image 9",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "JUF_Puz8v-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 6,
+    "$detailPageId": "QOEuK_LCN",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "yuyr6vyrw"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "N2KU_e5Hu"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "JHSOLdS0i"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "MFy4jnAz8"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "CV8b2nG0K"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "YG_G_N0U2"
+      }
+    ]
+  },
+  {
+    "type": "CollectionNode",
+    "id": "OTUbvKhOl",
+    "name": "Archive Articles",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "Dmn0DhmJ9",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "yrTyDrh6c",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__content",
+        "id": "Rd2rhQVAZ",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "OTUbvKhOl-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 0
+  },
+  {
+    "type": "CollectionNode",
+    "id": "ZcpND1356",
+    "name": "Archive Videos",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "iZ6nAqz4S",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "hiVSdbKwh",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__content",
+        "id": "PJX1ydSrT",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "ZcpND1356-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 0
+  },
+  {
+    "type": "CollectionNode",
+    "id": "VQilQDmhB",
+    "name": "Past Works",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "cKGw_kf4L",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__slug",
+        "id": "k3xzbBOoN",
+        "name": "Slug",
+        "node": "Variable",
+        "type": "string"
+      },
+      {
+        "key": "$control__content",
+        "id": "ZXcQjL1Aq",
+        "name": "Content",
+        "node": "Variable",
+        "type": "richtext",
+        "required": false
+      },
+      {
+        "key": "$control__year",
+        "id": "mNnlZz59a",
+        "name": "Year",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__medium",
+        "id": "dYySHQ8_T",
+        "name": "Medium",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__type",
+        "id": "Ha0_p3T4S",
+        "name": "Type",
+        "node": "OptionVariable",
+        "type": "option",
+        "cases": [
+          "Sculpture",
+          "Video",
+          "Press",
+          "Exhibition"
+        ]
+      },
+      {
+        "key": "$control__cover_image",
+        "id": "tNzjBimWU",
+        "name": "Cover Image",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_2",
+        "id": "Psa5JbGiH",
+        "name": "Image 2",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_3",
+        "id": "udwKtuCa3",
+        "name": "Image 3",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__image_4",
+        "id": "JZXlxkldm",
+        "name": "Image 4",
+        "node": "Variable",
+        "type": "image",
+        "required": false
+      },
+      {
+        "key": "$control__video_url",
+        "id": "ASR85neEc",
+        "name": "Video URL",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__external_link",
+        "id": "G8M2KDbTh",
+        "name": "External Link",
+        "node": "LinkVariable",
+        "type": "link",
+        "required": false
+      },
+      {
+        "key": "$control__credit",
+        "id": "R5vJvZ663",
+        "name": "Credit",
+        "node": "Variable",
+        "type": "string",
+        "required": false
+      },
+      {
+        "key": "$control__id",
+        "id": "VQilQDmhB-id",
+        "name": "id",
+        "type": "string"
+      }
+    ],
+    "$itemCount": 13,
+    "$detailPageId": "zb43wOtnp",
+    "children": [
+      {
+        "type": "CollectionItemNode",
+        "id": "q3UOOwkt5"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "ON1vE1aKc"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "QKjJSV9dJ"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "gWoSNvG7r"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "S6Vh_LFOJ"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "eTs4RYg7n"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "fxVxrcpu1"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "fENfy2XK6"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "O9h7eRX3y"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "UPtjawOMo"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "zeZXYB3aP"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "XesOgLGzd"
+      },
+      {
+        "type": "CollectionItemNode",
+        "id": "eCnc7tMd5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,547 @@
+{
+ "project": {
+  "canvas": [
+   {
+    "id": "X4T7SLIlh",
+    "displayName": "Project Thumbnail"
+   },
+   {
+    "id": "pEH6O5jlf",
+    "displayName": "Hero Image"
+   },
+   {
+    "id": "RKOTpOXF5",
+    "displayName": "Article Thumbnail"
+   },
+   {
+    "id": "GvKVGLOJg",
+    "displayName": "Footer"
+   },
+   {
+    "id": "ZojagHbtw",
+    "displayName": "Slideshow"
+   },
+   {
+    "id": "Hk7nfY1pH",
+    "displayName": "Button"
+   },
+   {
+    "id": "kegOod3C4",
+    "displayName": "CTA"
+   },
+   {
+    "id": "KQfCHDI0l",
+    "displayName": "Menu"
+   },
+   {
+    "id": "vNO6Dt0tQ",
+    "displayName": "Menu Hover"
+   },
+   {
+    "id": "TfwPcyYIe",
+    "displayName": "Page Loader"
+   },
+   {
+    "id": "RAt2GOKHA",
+    "displayName": "Mini Link"
+   },
+   {
+    "id": "b2Fo96jRF",
+    "displayName": "Project Views"
+   },
+   {
+    "id": "JTCQMJf0b",
+    "displayName": "Listed Project"
+   },
+   {
+    "id": "YJDLB9X_k",
+    "displayName": "Title Animation"
+   },
+   {
+    "id": "Z9pz8RFfP",
+    "displayName": "Images Section"
+   },
+   {
+    "id": "jrQkPLIyz",
+    "displayName": "Partner Card"
+   },
+   {
+    "id": "GgMAA3zmO",
+    "displayName": "CTA Button"
+   },
+   {
+    "id": "zpA4hdvhS",
+    "displayName": "Form Button"
+   },
+   {
+    "id": "FZLx5uNBa",
+    "displayName": "Menu 2"
+   },
+   {
+    "id": "cTZlPAz08",
+    "displayName": "Get Template Button"
+   },
+   {
+    "id": "NYpnO0agY",
+    "displayName": "Art Peace"
+   },
+   {
+    "id": "yhhLCp9H3",
+    "displayName": "Cards"
+   },
+   {
+    "id": "mU88NyRq9",
+    "displayName": "Title Animation 2"
+   },
+   {
+    "id": "pLmRoX9GX",
+    "displayName": "Slideshow 2"
+   },
+   {
+    "id": "GxSLqOeVN",
+    "displayName": "Article Thumbnail 2"
+   },
+   {
+    "id": "G6yXIAYJj",
+    "displayName": "Atom/Search Button"
+   },
+   {
+    "id": "RId7OzKmP",
+    "displayName": "Navigation"
+   },
+   {
+    "id": "OarGIsPgV",
+    "displayName": "Brand"
+   },
+   {
+    "id": "OuR190HGL",
+    "displayName": "Blake Ward Button"
+   },
+   {
+    "id": "uzJ7eEbRk",
+    "displayName": "Blake Ward Mobile Nav"
+   },
+   {
+    "id": "akW3CB9Gf",
+    "displayName": "Nav link"
+   },
+   {
+    "id": "JadHT7fZ8",
+    "displayName": "Footer 2"
+   },
+   {
+    "id": "SDbnD7OH5",
+    "displayName": "Button 2"
+   },
+   {
+    "id": "fW2SBP2ZP",
+    "displayName": "Send Button"
+   },
+   {
+    "id": "tl4X34KdR",
+    "displayName": "Spirit Collection Ticker"
+   },
+   {
+    "id": "mXd_FeSGl",
+    "displayName": "Blake Ward Dark Button"
+   },
+   {
+    "id": "NJX6voBkJ",
+    "displayName": "Go-back"
+   }
+  ],
+  "code": {
+   "Examples.tsx": [],
+   "Workshop/VideoCarousel.tsx": [],
+   "GalleryLightbox.tsx": [
+    {
+     "id": "codeFile/btMKvI2:default",
+     "displayName": "GalleryLightbox",
+     "type": "component"
+    }
+   ],
+   "ImageTicker.tsx": [
+    {
+     "id": "codeFile/r1Yrpm6:default",
+     "displayName": "ImageTicker",
+     "type": "component"
+    }
+   ],
+   "WorksSearchGrid.tsx": [
+    {
+     "id": "codeFile/nGENbFQ:default",
+     "displayName": "WorksSearchGrid",
+     "type": "component"
+    }
+   ]
+  }
+ },
+ "external": [
+  {
+   "id": "lRDHiNWNVWmE0lqtoVHP",
+   "displayName": "Video"
+  },
+  {
+   "id": "Yppqt3Cs3Y8TZqvASnXl",
+   "displayName": "Smooth Scroll"
+  },
+  {
+   "id": "4FYXL5lQz9cgJ2BJkaNV",
+   "displayName": "Image"
+  },
+  {
+   "id": "zvkTOpMSuRzRhLzZZIwG",
+   "displayName": "Slideshow"
+  },
+  {
+   "id": "yTZXL9EHML7pPhBCpXTS",
+   "displayName": "Counter"
+  },
+  {
+   "id": "hgckc9qoFLFGrvnzk8rW",
+   "displayName": "Global Button"
+  },
+  {
+   "id": "6Ldpz1V0DkD45gXvi67I",
+   "displayName": "Material"
+  },
+  {
+   "id": "Hbc0lxqGSRzFG6uMT9yO",
+   "displayName": "GoogleMaps"
+  },
+  {
+   "id": "YlKU53CdDss9o1Y3l19z",
+   "displayName": "Button"
+  },
+  {
+   "id": "QaOurE39gsNfoKiB6bSc",
+   "displayName": "Get Template Button"
+  },
+  {
+   "id": "7Ys4dT0l1hWpOZzSaAE2",
+   "displayName": "Testimonial"
+  },
+  {
+   "id": "DUOQmYtInSHb4fyzvB8O",
+   "displayName": "Menu Dark"
+  },
+  {
+   "id": "vXr68boVNfmrchibbAL8",
+   "displayName": "Features"
+  },
+  {
+   "id": "pIciefiyrifxh0dKppBK",
+   "displayName": "Hero"
+  },
+  {
+   "id": "bOS9hE0V1sQs9gNfcy1k",
+   "displayName": "Title Animation"
+  },
+  {
+   "id": "ysPkLwJ1FB93IsdwFWgL",
+   "displayName": "Slideshow"
+  },
+  {
+   "id": "hViYlGhzvIz7cABSRuXt",
+   "displayName": "Partner Card"
+  },
+  {
+   "id": "liC3rCBfdoRruz2ounya",
+   "displayName": "CTA"
+  },
+  {
+   "id": "u3IeJRXh16mavN49Vx4x",
+   "displayName": "News Card"
+  },
+  {
+   "id": "cAL4c9otruwCqWKg3Rhv",
+   "displayName": "Features"
+  },
+  {
+   "id": "gXEPa9py8PdfyS0PKFK9",
+   "displayName": "Gallery mode"
+  },
+  {
+   "id": "sCjlIDFMXpqW5wkamjoV",
+   "displayName": "Atom/Search Button"
+  },
+  {
+   "id": "6wAE2eMb2Tl3zrU7u4UL",
+   "displayName": "Search"
+  },
+  {
+   "id": "z59eoFBOioWDeyRchaGM",
+   "displayName": "Navigation"
+  },
+  {
+   "id": "wWzyIkyP7yo2x4tOBJX0",
+   "displayName": "Brand"
+  },
+  {
+   "id": "TfG1GVTJej9c7yGUBo0b",
+   "displayName": "Icon"
+  },
+  {
+   "id": "gwXG7giKENZe8oLndccB",
+   "displayName": "Nav link"
+  },
+  {
+   "id": "jxmlTKzkphG19FzDunWj",
+   "displayName": "Footer"
+  },
+  {
+   "id": "WOxzvZpI1uWXavXFa7Z3",
+   "displayName": "Button"
+  },
+  {
+   "id": "UIrMjSS6ZX89L0CsT8k6",
+   "displayName": "Carousel"
+  },
+  {
+   "id": "XAtEF5pQUdaoN1HtEVpK",
+   "displayName": "VideoCarousel"
+  },
+  {
+   "id": "qgPXZgoqu4R8erDqmQeL",
+   "displayName": "Draggable Ticker"
+  },
+  {
+   "id": "Lg6OLwJjMKdDeH8jyTHN",
+   "displayName": "ProductFocusCarousel"
+  },
+  {
+   "id": "omo5LdjL4LRSZXvwvWOk",
+   "displayName": "Spinner"
+  },
+  {
+   "id": "o1PI5S8YtkA5bP5g4dFz",
+   "displayName": "Embed"
+  },
+  {
+   "id": "NEd4VmDdsxM3StIUbddO",
+   "displayName": "YouTube"
+  },
+  {
+   "id": "FJ6Tdhm43j9BNWb0QHUP",
+   "displayName": "Parallax Floating"
+  },
+  {
+   "id": "qOK5zl6pwYXZaG7C1gDI",
+   "displayName": "Arrow Up Right"
+  },
+  {
+   "id": "bniZcNhtKAI6rA0fxW6J",
+   "displayName": "Plus"
+  },
+  {
+   "id": "gjdQUlZM0kVHhR3HzgLR",
+   "displayName": "Menu"
+  },
+  {
+   "id": "gMuDqyz8yu59jm7MoNhj",
+   "displayName": "Close"
+  }
+ ],
+ "additional": [
+  {
+   "id": "GbX8S6ghmyszcS2GLR2F",
+   "displayName": "Cookie Banner",
+   "keywords": "cookie cookies banner gdpr"
+  },
+  {
+   "id": "57FhkldN9P7x88MqAEaR",
+   "displayName": "Locale Selector",
+   "keywords": "language locale localization translation picker selector"
+  },
+  {
+   "id": "NRKVbMFYrBaqL0rx532t",
+   "displayName": "MP3",
+   "keywords": "music player"
+  },
+  {
+   "id": "LC4heOHJXh5Q0v49H98F",
+   "displayName": "GIF",
+   "keywords": "gif giphy"
+  },
+  {
+   "id": "0sWquksFr1YDkaIgrl9Z",
+   "displayName": "Vimeo",
+   "keywords": "film movie"
+  },
+  {
+   "id": "jfK7C7JmdHGaVBsvt1V7",
+   "displayName": "Dot Lottie",
+   "keywords": "animation lottie svg"
+  },
+  {
+   "id": "tW1ExjbbJRt9YcZ0Gyxk",
+   "displayName": "Spotify",
+   "keywords": "music songs artist player"
+  },
+  {
+   "id": "bGK4RIr3q7JjhzLaKVL7",
+   "displayName": "Apple Music",
+   "keywords": "music songs artist player"
+  },
+  {
+   "id": "iH0dC3d1a99tJbx8s2oc",
+   "displayName": "SoundCloud",
+   "keywords": "music songs artist player"
+  },
+  {
+   "id": "rwOL75pJfUm1chf60B4p",
+   "displayName": "Apple Podcasts",
+   "keywords": "music story radio"
+  },
+  {
+   "id": "q2cL7syGc9ukRT0XBvXQ",
+   "displayName": "Simplecast",
+   "keywords": "podcast"
+  },
+  {
+   "id": "CJgw13h0ok22pdnRmFv0",
+   "displayName": "Loops",
+   "keywords": "input form signup newsletter email loops loops.so"
+  },
+  {
+   "id": "O4nTVQCXY50llpKf7Pq5",
+   "displayName": "Kit",
+   "keywords": "input form signup newsletter email convertkit"
+  },
+  {
+   "id": "uyKL83UOiQk88ZAT4YJF",
+   "displayName": "Typeform",
+   "keywords": null
+  },
+  {
+   "id": "UIhUTcd796YH7Ndybys8",
+   "displayName": "Intercom",
+   "keywords": "support"
+  },
+  {
+   "id": "0dfzTKPSzK8b138I1Gsl",
+   "displayName": "Waitlist",
+   "keywords": "input form signup newsletter email getwaitlist"
+  },
+  {
+   "id": "tEJqoun4MtBed1OjNwKy",
+   "displayName": "Mailchimp",
+   "keywords": "email"
+  },
+  {
+   "id": "3kSszCA7P49KbVg8UUZO",
+   "displayName": "Cal.com",
+   "keywords": "cal cal.com calcom appointment scheduling schedule"
+  },
+  {
+   "id": "LoWwZfPC4cHteYUUDkMp",
+   "displayName": "FormSpark",
+   "keywords": "email"
+  },
+  {
+   "id": "WIJbzyan03eQVbqqCNqQ",
+   "displayName": "Calendly",
+   "keywords": "appointment scheduling schedule"
+  },
+  {
+   "id": "uGQZtcsxBzvxqsgxQ0Tz",
+   "displayName": "Hubspot",
+   "keywords": "email leads sales"
+  },
+  {
+   "id": "HGu8PKPDwAHu4uSgLoYR",
+   "displayName": "Instagram",
+   "keywords": "photography filters camera"
+  },
+  {
+   "id": "H9CvVrwLrFYAbKP9eYKI",
+   "displayName": "Facebook",
+   "keywords": "like share"
+  },
+  {
+   "id": "YLAIqVion55BUycOZr6e",
+   "displayName": "X",
+   "keywords": "tweet twitter"
+  },
+  {
+   "id": "0FGMb16YHyLms7uyPaAH",
+   "displayName": "Trustpilot",
+   "keywords": "reviews"
+  },
+  {
+   "id": "3aS1B1VhtklZST6WIiVW",
+   "displayName": "Tagembed",
+   "keywords": null
+  },
+  {
+   "id": "1mkt2plloPEOvoe16UUK",
+   "displayName": "Lemon Squeezy",
+   "keywords": "creator earn money lemon squeezy store ecommerce"
+  },
+  {
+   "id": "y2X42d2VBQUxqU0AyTRL",
+   "displayName": "Gumroad",
+   "keywords": "creator earn money store ecommerce"
+  },
+  {
+   "id": "kBkaj3LmBqcSU2IkUsBC",
+   "displayName": "Download",
+   "keywords": "button file save pdf"
+  },
+  {
+   "id": "Hj20QU19p80mpYsvesiZ",
+   "displayName": "Copy Clipboard",
+   "keywords": null
+  },
+  {
+   "id": "7GzNx3UWTFiuG1fPp4RN",
+   "displayName": "OpenTable",
+   "keywords": "restaurant review reservation"
+  },
+  {
+   "id": "3VbLlIQuOMJh9PZyYR3D",
+   "displayName": "Product Hunt",
+   "keywords": "apps startups"
+  },
+  {
+   "id": "nrfFErSfrJP9tb4xLKEk",
+   "displayName": "The Fork",
+   "keywords": "restaurant review reservation"
+  },
+  {
+   "id": "wRCfuvJUFRQ0wYlJVLju",
+   "displayName": "Eventbrite",
+   "keywords": "events meetup"
+  },
+  {
+   "id": "Igd9rio3gdt4sM2RsHw8",
+   "displayName": "Contra",
+   "keywords": null
+  },
+  {
+   "id": "pVk4QsoHxASnVtUBp6jr",
+   "displayName": "Code Block",
+   "keywords": "code block"
+  },
+  {
+   "id": "dZ9c6z10n71dmz3JQVi4",
+   "displayName": "Arc",
+   "keywords": "text"
+  },
+  {
+   "id": "kbkKGd5IDiOLgcEisfwN",
+   "displayName": "Scribbles",
+   "keywords": "text"
+  },
+  {
+   "id": "YA3iK3Afo27kYzYjpTSi",
+   "displayName": "Countdown",
+   "keywords": "clock time"
+  },
+  {
+   "id": "HYcHVPAbe8jLEeU7c4mp",
+   "displayName": "Time & Date",
+   "keywords": "clock time"
+  }
+ ]
+}

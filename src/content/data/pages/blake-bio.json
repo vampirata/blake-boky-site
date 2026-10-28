@@ -1,0 +1,2084 @@
+{
+  "path": "/blake-bio",
+  "seo": {
+    "title": "Blake Ward — Sculptor",
+    "description": "Blake Ward, sculptor. Four decades of figurative work exhibited across thirteen countries and three continents.",
+    "ogTitle": "Blake Ward — Sculptor",
+    "ogDescription": "Blake Ward, sculptor. Four decades of figurative work exhibited across thirteen countries and three continents.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/blake-bio"
+  },
+  "navVariant": "Desktop Light",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 9152,
+  "sections": [
+    {
+      "type": "hero",
+      "name": "Hero",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 840.9
+      },
+      "eyebrow": "SCULPTOR · MONACO",
+      "heading": {
+        "tag": "h1",
+        "text": "Blake Ward"
+      },
+      "body": [
+        {
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Pushing the figure into the 21st century",
+          "html": "<p>Pushing the figure into the 21st century</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/home/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+          "alt": "Portrait of the sculptor Blake Ward",
+          "naturalWidth": 400,
+          "naturalHeight": 392,
+          "rendered": {
+            "w": 430,
+            "h": 421
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "SCULPTOR · MONACO",
+          "html": "<p>Sculptor · Monaco</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Blake Ward",
+          "html": "<h1>Blake Ward</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Pushing the figure into the 21st century",
+          "html": "<p>Pushing the figure into the 21st century</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/home/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+          "alt": "Portrait of the sculptor Blake Ward",
+          "naturalWidth": 400,
+          "naturalHeight": 392,
+          "rendered": {
+            "w": 430,
+            "h": 421
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "name": "Artist Statement",
+      "tag": "section",
+      "box": {
+        "y": 841,
+        "h": 365.2
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [
+        {
+          "role": "Quote",
+          "tag": "p",
+          "text": "“Inspired by the grace and symmetry of classical realism, my work explores an irresistible alchemy of sensuality and sentiment — a form of beauty sometimes distorted by our demons, and other times enchanted by all that is pure within our souls.”",
+          "html": "<p>“Inspired by the grace and symmetry of classical realism, my work explores an irresistible alchemy of sensuality and sentiment — a form of beauty sometimes distorted by our demons, and other times enchanted by all that is pure within our souls.”</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Quote",
+          "tag": "p",
+          "text": "“Inspired by the grace and symmetry of classical realism, my work explores an irresistible alchemy of sensuality and sentiment — a form of beauty sometimes distorted by our demons, and other times enchanted by all that is pure within our souls.”",
+          "html": "<p>“Inspired by the grace and symmetry of classical realism, my work explores an irresistible alchemy of sensuality and sentiment — a form of beauty sometimes distorted by our demons, and other times enchanted by all that is pure within our souls.”</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "38px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "biography-timeline",
+      "name": "Biography",
+      "tag": "section",
+      "box": {
+        "y": 1206,
+        "h": 1014.6
+      },
+      "eyebrow": "THE ARTIST",
+      "heading": {
+        "tag": "h2",
+        "text": "Biography"
+      },
+      "body": [
+        {
+          "role": "Lead",
+          "tag": "p",
+          "text": "Blake William Ward born in Yellowknife, Northwest Territories, Canada, on June 3, 1956, and raised in Edmonton.",
+          "html": "<p>Blake William Ward born in Yellowknife, Northwest Territories, Canada, on June 3, 1956, and raised in Edmonton.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while continually finding new ways to comment on the human condition.",
+          "html": "<p>Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while continually finding new ways to comment on the human condition.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Exhibitions of his work have travelled across three continents North America, Europe and Asia from Monte-Carlo and Paris to Singapore, Hong Kong and India.",
+          "html": "<p>Exhibitions of his work have travelled across three continents North America, Europe and Asia from Monte-Carlo and Paris to Singapore, Hong Kong and India.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1979",
+          "html": "<p>1979</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Receives an Honours Degree in Fine Art from the University of Alberta.",
+          "html": "<p>Receives an Honours Degree in Fine Art from the University of Alberta.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1985",
+          "html": "<p>1985</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Moves to Paris to study figurative sculpture under Cyril Heck.",
+          "html": "<p>Moves to Paris to study figurative sculpture under Cyril Heck.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1991",
+          "html": "<p>1991</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Relocates to Monaco and opens his Monte-Carlo studio, close to his foundry and marble quarry.",
+          "html": "<p>Relocates to Monaco and opens his Monte-Carlo studio, close to his foundry and marble quarry.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1986 – 1998",
+          "html": "<p>1986 – 1998</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Known for a traditional, academic figurative style exploring notions of idealised beauty.",
+          "html": "<p>Known for a traditional, academic figurative style exploring notions of idealised beauty.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1998 – 2011",
+          "html": "<p>1998 – 2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Fragments Collection the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization.",
+          "html": "<p>The <em>Fragments Collection</em> the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2005",
+          "html": "<p>2005</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Re-Think Collection, dedicated to the promotion of human rights.",
+          "html": "<p>The <em>Re-Think Collection</em>, dedicated to the promotion of human rights.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Spirits Collection embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>The <em>Spirits Collection</em> embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2016",
+          "html": "<p>2016</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Andromeda Collection broadens the Spirit Collection through the use of 3D printing.",
+          "html": "<p>The <em>Andromeda Collection</em> broadens the Spirit Collection through the use of 3D printing.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "THE ARTIST",
+          "html": "<p>The Artist</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Biography",
+          "html": "<h2>Biography</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Lead",
+          "tag": "p",
+          "text": "Blake William Ward born in Yellowknife, Northwest Territories, Canada, on June 3, 1956, and raised in Edmonton.",
+          "html": "<p>Blake William Ward born in Yellowknife, Northwest Territories, Canada, on June 3, 1956, and raised in Edmonton.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while continually finding new ways to comment on the human condition.",
+          "html": "<p>Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while continually finding new ways to comment on the human condition.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Exhibitions of his work have travelled across three continents North America, Europe and Asia from Monte-Carlo and Paris to Singapore, Hong Kong and India.",
+          "html": "<p>Exhibitions of his work have travelled across three continents North America, Europe and Asia from Monte-Carlo and Paris to Singapore, Hong Kong and India.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1979",
+          "html": "<p>1979</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Receives an Honours Degree in Fine Art from the University of Alberta.",
+          "html": "<p>Receives an Honours Degree in Fine Art from the University of Alberta.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1985",
+          "html": "<p>1985</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Moves to Paris to study figurative sculpture under Cyril Heck.",
+          "html": "<p>Moves to Paris to study figurative sculpture under Cyril Heck.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1991",
+          "html": "<p>1991</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Relocates to Monaco and opens his Monte-Carlo studio, close to his foundry and marble quarry.",
+          "html": "<p>Relocates to Monaco and opens his Monte-Carlo studio, close to his foundry and marble quarry.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1986 – 1998",
+          "html": "<p>1986 – 1998</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Known for a traditional, academic figurative style exploring notions of idealised beauty.",
+          "html": "<p>Known for a traditional, academic figurative style exploring notions of idealised beauty.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1998 – 2011",
+          "html": "<p>1998 – 2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Fragments Collection the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization.",
+          "html": "<p>The <em>Fragments Collection</em> the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2005",
+          "html": "<p>2005</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Re-Think Collection, dedicated to the promotion of human rights.",
+          "html": "<p>The <em>Re-Think Collection</em>, dedicated to the promotion of human rights.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Spirits Collection embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>The <em>Spirits Collection</em> embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2016",
+          "html": "<p>2016</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "The Andromeda Collection broadens the Spirit Collection through the use of 3D printing.",
+          "html": "<p>The <em>Andromeda Collection</em> broadens the Spirit Collection through the use of 3D printing.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Collections",
+      "tag": "section",
+      "box": {
+        "y": 2221,
+        "h": 5582.8
+      },
+      "eyebrow": "BODIES OF WORK",
+      "heading": {
+        "tag": "h2",
+        "text": "Collections"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/bio/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+          "alt": "",
+          "naturalWidth": 6594,
+          "naturalHeight": 10854,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.926,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+          "alt": "asherah",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.756,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+          "alt": "Phantom Elixir",
+          "naturalWidth": 3648,
+          "naturalHeight": 5472,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.844,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+          "alt": "mafdet mayet",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.756,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+          "alt": "Orange Flower",
+          "naturalWidth": 1662,
+          "naturalHeight": 1836,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50.7% 44.3%",
+          "cropped": true,
+          "cropRatio": 0.621,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+          "alt": "",
+          "naturalWidth": 3006,
+          "naturalHeight": 1958,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.366,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+          "alt": "Yellow Flower",
+          "naturalWidth": 4294,
+          "naturalHeight": 4294,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "48.7% 46.3%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+          "alt": "Orange Flower",
+          "naturalWidth": 2435,
+          "naturalHeight": 1654,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.382,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Andromeda Collection 2024",
+          "href": "/collections/coming-soon-blake"
+        },
+        {
+          "text": "Spirit Collection : The Angels 2011 - 2022",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "Spirit Collection : The Phantoms 2011 - PRESENT",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "Spirit Collection : The Ushabtis 2011 - PRESENT",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "Rethink Collection 2005 - PRESENT",
+          "href": "/collections/in-lucem"
+        },
+        {
+          "text": "The Fragments Collection 2025",
+          "href": "/collections/fragments"
+        },
+        {
+          "text": "The Figures : Marble 1989 - 2010",
+          "href": "/collections/coming-soon-blake"
+        },
+        {
+          "text": "The Figures : Early Work 1986 - 1998",
+          "href": "/collections/coming-soon-blake"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/collections/coming-soon-blake",
+          "label": "Andromeda Collection 2024",
+          "image": {
+            "src": "/assets/bio/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+            "alt": "",
+            "naturalWidth": 6594,
+            "naturalHeight": 10854,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.926,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "Andromeda Collection"
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2024"
+            }
+          ]
+        },
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Angels 2011 - 2022",
+          "image": {
+            "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+            "alt": "asherah",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.756,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "Spirit Collection : The Angels "
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2011 - 2022"
+            }
+          ]
+        },
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Phantoms 2011 - PRESENT",
+          "image": {
+            "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+            "alt": "Phantom Elixir",
+            "naturalWidth": 3648,
+            "naturalHeight": 5472,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.844,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "Spirit Collection : The Phantoms "
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2011 - PRESENT"
+            }
+          ]
+        },
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Ushabtis 2011 - PRESENT",
+          "image": {
+            "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+            "alt": "mafdet mayet",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.756,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "Spirit Collection : The Ushabtis "
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2011 - PRESENT "
+            }
+          ]
+        },
+        {
+          "href": "/collections/in-lucem",
+          "label": "Rethink Collection 2005 - PRESENT",
+          "image": {
+            "src": "/assets/bio/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 1662,
+            "naturalHeight": 1836,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50.7% 44.3%",
+            "cropped": true,
+            "cropRatio": 0.621,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "Rethink Collection"
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2005 - PRESENT "
+            }
+          ]
+        },
+        {
+          "href": "/collections/fragments",
+          "label": "The Fragments Collection 2025",
+          "image": {
+            "src": "/assets/bio/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+            "alt": "",
+            "naturalWidth": 3006,
+            "naturalHeight": 1958,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.366,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "The Fragments Collection "
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "2025"
+            }
+          ]
+        },
+        {
+          "href": "/collections/coming-soon-blake",
+          "label": "The Figures : Marble 1989 - 2010",
+          "image": {
+            "src": "/assets/bio/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+            "alt": "Yellow Flower",
+            "naturalWidth": 4294,
+            "naturalHeight": 4294,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "48.7% 46.3%",
+            "cropped": true,
+            "cropRatio": 0.563,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "The Figures : Marble "
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "1989 - 2010"
+            }
+          ]
+        },
+        {
+          "href": "/collections/coming-soon-blake",
+          "label": "The Figures : Early Work 1986 - 1998",
+          "image": {
+            "src": "/assets/bio/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+            "alt": "Orange Flower",
+            "naturalWidth": 2435,
+            "naturalHeight": 1654,
+            "rendered": {
+              "w": 668,
+              "h": 1187.5
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.382,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": null,
+              "tag": "h3",
+              "text": "The Figures : Early Work"
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "1986 - 1998"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BODIES OF WORK",
+          "html": "<p>Bodies of Work</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Collections",
+          "html": "<h2>Collections</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Andromeda Collection 2024",
+          "href": "/collections/coming-soon-blake",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+          "alt": "",
+          "naturalWidth": 6594,
+          "naturalHeight": 10854,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.926,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "Andromeda Collection",
+          "html": "<h3>Andromeda Collection</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2024",
+          "html": "<p>2024</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Angels 2011 - 2022",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+          "alt": "asherah",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.756,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "Spirit Collection : The Angels ",
+          "html": "<h3>Spirit Collection : The Angels </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2011 - 2022",
+          "html": "<p>2011 - 2022</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Phantoms 2011 - PRESENT",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+          "alt": "Phantom Elixir",
+          "naturalWidth": 3648,
+          "naturalHeight": 5472,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.844,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "Spirit Collection : The Phantoms ",
+          "html": "<h3>Spirit Collection : The Phantoms </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2011 - PRESENT",
+          "html": "<p>2011 - Present</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Ushabtis 2011 - PRESENT",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+          "alt": "mafdet mayet",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.756,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "Spirit Collection : The Ushabtis ",
+          "html": "<h3>Spirit Collection : The Ushabtis </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2011 - PRESENT ",
+          "html": "<p>2011 - Present </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Rethink Collection 2005 - PRESENT",
+          "href": "/collections/in-lucem",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+          "alt": "Orange Flower",
+          "naturalWidth": 1662,
+          "naturalHeight": 1836,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50.7% 44.3%",
+          "cropped": true,
+          "cropRatio": 0.621,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "Rethink Collection",
+          "html": "<h3>Rethink Collection</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2005 - PRESENT ",
+          "html": "<p>2005 - Present </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Fragments Collection 2025",
+          "href": "/collections/fragments",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+          "alt": "",
+          "naturalWidth": 3006,
+          "naturalHeight": 1958,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.366,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "The Fragments Collection ",
+          "html": "<h3>The Fragments Collection </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "2025",
+          "html": "<p>2025</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Figures : Marble 1989 - 2010",
+          "href": "/collections/coming-soon-blake",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+          "alt": "Yellow Flower",
+          "naturalWidth": 4294,
+          "naturalHeight": 4294,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "48.7% 46.3%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "The Figures : Marble ",
+          "html": "<h3>The Figures : Marble </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "1989 - 2010",
+          "html": "<p>1989 - 2010</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Figures : Early Work 1986 - 1998",
+          "href": "/collections/coming-soon-blake",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+          "alt": "Orange Flower",
+          "naturalWidth": 2435,
+          "naturalHeight": 1654,
+          "rendered": {
+            "w": 668,
+            "h": 1187.5
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.382,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h3",
+          "text": "The Figures : Early Work",
+          "html": "<h3>The Figures : Early Work</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "34px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "1986 - 1998",
+          "html": "<p>1986 - 1998</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "type": "exhibitions",
+      "name": "Exhibitions",
+      "tag": "section",
+      "box": {
+        "y": 7804,
+        "h": 521.8
+      },
+      "eyebrow": "ACROSS THREE CONTINENTS",
+      "heading": {
+        "tag": "h2",
+        "text": "Exhibited In"
+      },
+      "body": [
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "United States",
+          "html": "<p>United States</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Canada",
+          "html": "<p>Canada</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "France",
+          "html": "<p>France</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Italy",
+          "html": "<p>Italy</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Monaco",
+          "html": "<p>Monaco</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Switzerland",
+          "html": "<p>Switzerland</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Germany",
+          "html": "<p>Germany</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "England",
+          "html": "<p>England</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Vietnam",
+          "html": "<p>Vietnam</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Singapore",
+          "html": "<p>Singapore</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Malaysia",
+          "html": "<p>Malaysia</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Hong Kong",
+          "html": "<p>Hong Kong</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "India",
+          "html": "<p>India</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "40+",
+          "html": "<p>40+</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "YEARS SCULPTING",
+          "html": "<p>Years Sculpting</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "4",
+          "html": "<p>4</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "MAJOR COLLECTIONS",
+          "html": "<p>Major Collections</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "13",
+          "html": "<p>13</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "COUNTRIES EXHIBITED",
+          "html": "<p>Countries Exhibited</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "3",
+          "html": "<p>3</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTINENTS",
+          "html": "<p>Continents</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "ACROSS THREE CONTINENTS",
+          "html": "<p>Across Three Continents</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Exhibited In",
+          "html": "<h2>Exhibited In</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "United States",
+          "html": "<p>United States</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Canada",
+          "html": "<p>Canada</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "France",
+          "html": "<p>France</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Italy",
+          "html": "<p>Italy</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Monaco",
+          "html": "<p>Monaco</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Switzerland",
+          "html": "<p>Switzerland</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Germany",
+          "html": "<p>Germany</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "England",
+          "html": "<p>England</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Vietnam",
+          "html": "<p>Vietnam</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Singapore",
+          "html": "<p>Singapore</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Malaysia",
+          "html": "<p>Malaysia</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Hong Kong",
+          "html": "<p>Hong Kong</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "India",
+          "html": "<p>India</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "40+",
+          "html": "<p>40+</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "YEARS SCULPTING",
+          "html": "<p>Years Sculpting</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "4",
+          "html": "<p>4</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "MAJOR COLLECTIONS",
+          "html": "<p>Major Collections</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "13",
+          "html": "<p>13</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "COUNTRIES EXHIBITED",
+          "html": "<p>Countries Exhibited</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "3",
+          "html": "<p>3</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTINENTS",
+          "html": "<p>Continents</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta",
+      "name": "Contact CTA",
+      "tag": "section",
+      "box": {
+        "y": 8325,
+        "h": 352.2
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [],
+      "links": [
+        {
+          "text": "CONTACT US",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "CONTACT US",
+          "image": null,
+          "texts": [
+            {
+              "role": "Label",
+              "tag": "p",
+              "text": "CONTACT US"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "CONTACT US",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTACT US",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    }
+  ]
+}

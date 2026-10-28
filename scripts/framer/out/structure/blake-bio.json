@@ -1,0 +1,4873 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "Rk6T6FIxO",
+ "$isPrimary": true,
+ "$parentId": "FzCEPYeZn",
+ "$scopeId": "FzCEPYeZn",
+ "$layoutTemplateId": "CWeg27bi1",
+ "$layoutTemplateDisplayName": "Default Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "0px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "1080px",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "FrameNode",
+   "name": "Main",
+   "id": "dr4ncYz0f",
+   "attributes": {
+    "fill": "rgb(243, 241, 233)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "overflow": "clip",
+    "position": "relative",
+    "width": "1fr",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "qpj30sgF6",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1fr",
+      "height": "100vh",
+      "visible": "false",
+      "zIndex": "1"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "sa6oWE_gX",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "10px",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "id": "A5kpfmLB3",
+         "attributes": {
+          "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+          "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+          "linkStylePreset": "Link Styles/Link",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "fontName": "Inter",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "lineHeight": "1.2em",
+          "textAlignment": "start",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(0, 0, 0)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:A5kpfmLB3:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:A5kpfmLB3:0:0",
+             "attributes": {
+              "text": "SCULPTOR · MONACO"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "id": "PpL9WUbC8",
+         "attributes": {
+          "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+          "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+          "linkStylePreset": "Link Styles/Link",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "fontName": "Inter",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "lineHeight": "1.2em",
+          "textAlignment": "start",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(0, 0, 0)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:PpL9WUbC8:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:PpL9WUbC8:0:0",
+             "attributes": {
+              "text": "Blake Ward"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "id": "Uzr5x4UFD",
+         "attributes": {
+          "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+          "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+          "linkStylePreset": "Link Styles/Link",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "fontName": "Inter",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "lineHeight": "1.2em",
+          "textAlignment": "start",
+          "textDecorationStyle": "solid",
+          "textColor": "rgb(0, 0, 0)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:Uzr5x4UFD:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:Uzr5x4UFD:0:0",
+             "attributes": {
+              "text": "Pushing the figure into the 21st century"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "id": "aeEK4u5ME",
+       "attributes": {
+        "fill": "https://framerusercontent.com/images/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+        "layout": "null",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "313px",
+        "height": "279px"
+       }
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "rxPWNF23J",
+     "attributes": {
+      "fill": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "99.0916597853014%",
+      "height": "286px",
+      "visible": "false"
+     },
+     "children": [
+      {
+       "type": "RichTextNode",
+       "id": "AEP0HVZ1C",
+       "attributes": {
+        "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "null",
+        "centerAnchorX": "51.67%",
+        "centerAnchorY": "50%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "auto",
+        "fontName": "Inter",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "fontSize": "32px",
+        "letterSpacing": "0em",
+        "lineHeight": "1.2em",
+        "textAlignment": "center",
+        "textDecorationStyle": "solid",
+        "textColor": "rgb(255, 255, 255)"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:0:0",
+           "attributes": {
+            "text": "Inspired by the grace and symmetry of classical realism, ",
+            "italic": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:1",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:1:0",
+           "attributes": {
+            "text": "my works explores an irresistible alchemy of sensuality and sentiment, ",
+            "italic": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:2",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:2:0",
+           "attributes": {
+            "text": "a form of beauty that is sometimes distorted by our demons, ",
+            "italic": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:3",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:3:0",
+           "attributes": {
+            "text": "and other times enchanted by all that’s pure within our souls. ",
+            "italic": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:4",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:4:0",
+           "attributes": {
+            "text": "The three bodies of work that have evolved from this figurative heritage",
+            "italic": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:AEP0HVZ1C:5",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:5:0",
+           "attributes": {
+            "text": " are what I believe to be timeless commentaries on our human condition",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:AEP0HVZ1C:5:1",
+           "attributes": {
+            "text": "."
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "ylLYiOCu3",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/J8LyNdWewJAfNktuSzTIrp5f0.jpg",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "98.67877786952931%",
+      "height": "370px",
+      "visible": "false"
+     }
+    },
+    {
+     "type": "FrameNode",
+     "id": "UADN93HUP",
+     "attributes": {
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1182px",
+      "height": "1140px",
+      "visible": "false"
+     },
+     "children": [
+      {
+       "type": "RichTextNode",
+       "id": "FmCi58qAO",
+       "attributes": {
+        "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "left": "null",
+        "right": "null",
+        "top": "21px",
+        "bottom": "null",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "4.47%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Jumbo",
+        "textAlignment": "start",
+        "textColor": "rgb(28, 26, 23)"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:FmCi58qAO:0",
+         "attributes": {
+          "tag": "h1"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:FmCi58qAO:0:0",
+           "attributes": {
+            "text": "BIOGRAPHY",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:FmCi58qAO:0:1",
+           "attributes": {
+            "text": " "
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "RichTextNode",
+       "id": "UqWKUNWuG",
+       "attributes": {
+        "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "left": "null",
+        "right": "null",
+        "top": "99.42px",
+        "bottom": "null",
+        "centerAnchorX": "49.96%",
+        "centerAnchorY": "41.61%",
+        "constraintsLocked": false,
+        "width": "1127px",
+        "height": "auto",
+        "fontName": "Inter",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "fontSize": "27px",
+        "letterSpacing": "0em",
+        "lineHeight": "1.2em",
+        "textAlignment": "start",
+        "textDecorationStyle": "solid"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:0",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:0:0",
+           "attributes": {
+            "text": "Blake William Ward "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:1",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:1:0",
+           "attributes": {
+            "text": "Born in Yellowknife, Northwest Territories, Canada on June 3, 1956 and raised in Edmonton.  "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:2",
+         "attributes": {
+          "tag": "p",
+          "textColor": "rgb(255, 255, 255)"
+         },
+         "children": [
+          {
+           "type": "TextLineBreak",
+           "id": "v:UqWKUNWuG:2:0"
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:3",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:0",
+           "attributes": {
+            "text": "1979",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:1",
+           "attributes": {
+            "text": " - Receives an "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:2",
+           "attributes": {
+            "text": "Honours Degree",
+            "link": {
+             "href": "http://en.wikipedia.org/wiki/Bachelor%2527s_degree"
+            }
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:3",
+           "attributes": {
+            "text": " in "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:4",
+           "attributes": {
+            "text": "Fine Art",
+            "link": {
+             "href": "http://en.wikipedia.org/wiki/Fine_art"
+            }
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:5",
+           "attributes": {
+            "text": " from "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:6",
+           "attributes": {
+            "text": "the University of Alberta",
+            "link": {
+             "href": "http://en.wikipedia.org/wiki/University_of_Alberta"
+            }
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:3:7",
+           "attributes": {
+            "text": ". "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:4",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:4:0",
+           "attributes": {
+            "text": "1985",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:4:1",
+           "attributes": {
+            "text": " – Moves to Paris to study figurative sculpture under Cyril Heck.  "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:5",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:5:0",
+           "attributes": {
+            "text": "1991",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:5:1",
+           "attributes": {
+            "text": " - Relocates to Monaco and opens his Monte-Carlo studio. "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:6",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:6:0",
+           "attributes": {
+            "text": "1986 – 1998",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:6:1",
+           "attributes": {
+            "text": " - Known for his traditional figurative, academic style; Ward’s sculpture explores the notions of idealized beauty. "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:7",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextLineBreak",
+           "id": "v:UqWKUNWuG:7:0"
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:7:1",
+           "attributes": {
+            "text": "1998 – 2011",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:7:2",
+           "attributes": {
+            "text": " - In the "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:7:3",
+           "attributes": {
+            "text": "Fragments Collection",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:7:4",
+           "attributes": {
+            "text": " the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization. "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:8",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:8:0",
+           "attributes": {
+            "text": "This “activist art”, inspired by survivors of military conflict, continues to contribute funds to the education and the clearing of minefields in Vietnam, Kosovo, Cambodia, Afghanistan, and Angola through the sale of the "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:8:1",
+           "attributes": {
+            "text": "Fragments",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:8:2",
+           "attributes": {
+            "text": ". This is done in association with No More Landmines, Adopt-A-Minefield of the United Nations, and The Landmine Relief Fund in the United States. "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:9",
+         "attributes": {
+          "tag": "p",
+          "textColor": "rgb(255, 255, 255)"
+         },
+         "children": [
+          {
+           "type": "TextLineBreak",
+           "id": "v:UqWKUNWuG:9:0"
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:10",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:0",
+           "attributes": {
+            "text": "2005",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:1",
+           "attributes": {
+            "text": " - The "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:2",
+           "attributes": {
+            "text": "Re-Think",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:3",
+           "attributes": {
+            "text": " "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:4",
+           "attributes": {
+            "text": "Collection",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:10:5",
+           "attributes": {
+            "text": " is dedicated to the promotion of human rights."
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:11",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:11:0",
+           "attributes": {
+            "text": "2011",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:11:1",
+           "attributes": {
+            "text": " - The "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:11:2",
+           "attributes": {
+            "text": "Spirits Collection",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:11:3",
+           "attributes": {
+            "text": " - Embracing negative space, this collection crosses over into the abstract and ethereal realms, offering partial figures with exposed interior landscapes."
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:12",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:0",
+           "attributes": {
+            "text": "2016",
+            "bold": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:1",
+           "attributes": {
+            "text": " -The "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:2",
+           "attributes": {
+            "text": "Andromeda Collection",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:3",
+           "attributes": {
+            "text": " broadens the "
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:4",
+           "attributes": {
+            "text": "Spirit Collection",
+            "italic": true
+           }
+          },
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:12:5",
+           "attributes": {
+            "text": " through the use of 3D printing. "
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:13",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:13:0",
+           "attributes": {
+            "text": "Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while simultaneously considering new ways to comment on the human condition."
+           }
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:14",
+         "attributes": {
+          "tag": "p",
+          "textColor": "rgb(255, 255, 255)"
+         },
+         "children": [
+          {
+           "type": "TextLineBreak",
+           "id": "v:UqWKUNWuG:14:0"
+          }
+         ]
+        },
+        {
+         "type": "TextBlock",
+         "id": "v:UqWKUNWuG:15",
+         "attributes": {
+          "tag": "p",
+          "textColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:UqWKUNWuG:15:0",
+           "attributes": {
+            "text": "Exhibitions of Ward’s work have travelled to three continents; North America: the United States and Canada; Europe: France, Italy, Monaco, Switzerland, Germany and England; and Asia: Vietnam, Singapore, Malaysia, Hong Kong and India.  "
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Hero",
+     "id": "rSqUNqMDe",
+     "attributes": {
+      "htmlTag": "header",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "90px 0px 70px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Hero Wrap",
+       "id": "cb5H0gjED",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "54px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Hero Copy",
+         "id": "uiYdIUq0g",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "26px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "wjjKIYabK",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "rgb(111, 106, 97)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:wjjKIYabK:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:wjjKIYabK:0:0",
+               "attributes": {
+                "text": "Sculptor · Monaco"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Title Group",
+           "id": "g8yn0FHJA",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "22px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Title",
+             "id": "K7CLW2MtN",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Hero Title",
+              "textAlignment": "center",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:K7CLW2MtN:0",
+               "attributes": {
+                "tag": "h1"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:K7CLW2MtN:0:0",
+                 "attributes": {
+                  "text": "Blake Ward"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Tagline",
+             "id": "voAhwpGW5",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Hero Tagline",
+              "textAlignment": "center",
+              "textColor": "rgb(111, 106, 97)",
+              "textWrap": "balance"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:voAhwpGW5:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:voAhwpGW5:0:0",
+                 "attributes": {
+                  "text": "Pushing the figure into the 21st century"
+                 }
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Hero Sculpture",
+         "id": "CpQAbrQx9",
+         "attributes": {
+          "fill": "https://framerusercontent.com/images/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+          "altText": "Portrait of the sculptor Blake Ward",
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "overflow": "clip",
+          "position": "relative",
+          "radius": "2px",
+          "width": "430px",
+          "height": "421px",
+          "aspectRatio": 1.02
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Artist Statement",
+     "id": "sNBLkekQM",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "#D8D2C6",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Statement Wrap",
+       "id": "e4SchLTdf",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Quote",
+         "id": "rwg4SQaMp",
+         "attributes": {
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "900px",
+          "textStylePreset": "Text Styles/Blake Ward/Statement",
+          "textAlignment": "center",
+          "textColor": "rgb(28, 26, 23)",
+          "textWrap": "balance"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:rwg4SQaMp:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:rwg4SQaMp:0:0",
+             "attributes": {
+              "text": "“Inspired by the grace and symmetry of classical realism, my work explores an irresistible alchemy of sensuality and sentiment — a form of beauty sometimes distorted by our demons, and other times enchanted by all that is pure within our souls.”"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Biography",
+     "id": "sAo5rlD3X",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "#D8D2C6",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "scrollTargetEnabled": true,
+      "elementId": "biography",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Biography Wrap",
+       "id": "pn7fVoLMB",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Section Head",
+         "id": "DzSjQx_l1",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "ypbC1xbOj",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "rgb(111, 106, 97)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:ypbC1xbOj:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:ypbC1xbOj:0:0",
+               "attributes": {
+                "text": "The Artist"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "MncN_p8lT",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "rgb(28, 26, 23)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:MncN_p8lT:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:MncN_p8lT:0:0",
+               "attributes": {
+                "text": "Biography"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Bio Grid",
+         "id": "U9AeFZ0Tl",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "64px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Intro",
+           "id": "mGZ16oTCZ",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "24px",
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Lead",
+             "id": "GvVuQMIiM",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Lead",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:GvVuQMIiM:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:GvVuQMIiM:0:0",
+                 "attributes": {
+                  "text": "Blake William Ward born in Yellowknife, Northwest Territories, Canada, on June 3, 1956, and raised in Edmonton."
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Paragraphs",
+             "id": "e2YQvvWi8",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "18px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "Y9nqJEyKc",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Body",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:Y9nqJEyKc:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:Y9nqJEyKc:0:0",
+                   "attributes": {
+                    "text": "Holding to his appreciation of the human figure, Ward remains true to the representational quality and realistic proportions of traditional sculpture while continually finding new ways to comment on the human condition."
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "pAFaCa98F",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Body",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:pAFaCa98F:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:pAFaCa98F:0:0",
+                   "attributes": {
+                    "text": "Exhibitions of his work have travelled across three continents North America, Europe and Asia from Monte-Carlo and Paris to Singapore, Hong Kong and India."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Timeline",
+           "id": "lwoCkWLp8",
+           "attributes": {
+            "borderStyle": "solid",
+            "borderColor": "#D8D2C6",
+            "borderLeft": "1px",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "30px",
+            "padding": "0px 0px 0px 30px",
+            "position": "relative",
+            "width": "1.15fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Item 1979",
+             "id": "DtdSAU_KW",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "yet33AFOu",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "N1l5zUEqp",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:N1l5zUEqp:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:N1l5zUEqp:0:0",
+                   "attributes": {
+                    "text": "1979"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "o_gCpwM2z",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:o_gCpwM2z:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:o_gCpwM2z:0:0",
+                   "attributes": {
+                    "text": "Receives an Honours Degree in Fine Art from the University of Alberta."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 1985",
+             "id": "hUHooVGI2",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "YqsLZf4dh",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "ULj28es2P",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:ULj28es2P:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:ULj28es2P:0:0",
+                   "attributes": {
+                    "text": "1985"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "UU8k6tf4d",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:UU8k6tf4d:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:UU8k6tf4d:0:0",
+                   "attributes": {
+                    "text": "Moves to Paris to study figurative sculpture under Cyril Heck."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 1991",
+             "id": "SOts_S6G0",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "t1zIvGZqH",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "FG0BL83ip",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:FG0BL83ip:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:FG0BL83ip:0:0",
+                   "attributes": {
+                    "text": "1991"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "kuxDfKltW",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:kuxDfKltW:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:kuxDfKltW:0:0",
+                   "attributes": {
+                    "text": "Relocates to Monaco and opens his Monte-Carlo studio, close to his foundry and marble quarry."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 1986 – 1998",
+             "id": "TN10F0phq",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "F5BUbX5Km",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "sTBYTyUps",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:sTBYTyUps:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:sTBYTyUps:0:0",
+                   "attributes": {
+                    "text": "1986 – 1998"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "B15Pxdvrb",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:B15Pxdvrb:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:B15Pxdvrb:0:0",
+                   "attributes": {
+                    "text": "Known for a traditional, academic figurative style exploring notions of idealised beauty."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 1998 – 2011",
+             "id": "QJPfn_Vdh",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "qJyKDE5bB",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "so0OWnvOb",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:so0OWnvOb:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:so0OWnvOb:0:0",
+                   "attributes": {
+                    "text": "1998 – 2011"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "aSXQf3h0c",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:aSXQf3h0c:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:aSXQf3h0c:0:0",
+                   "attributes": {
+                    "text": "The "
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:aSXQf3h0c:0:1",
+                   "attributes": {
+                    "text": "Fragments Collection",
+                    "italic": true
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:aSXQf3h0c:0:2",
+                   "attributes": {
+                    "text": " the artist deliberately “de-sculpts” the figure, alluding to the destructive nature of our civilization."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 2005",
+             "id": "yXMh_OJKC",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "C2voBwLuD",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "O22lMug3v",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:O22lMug3v:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:O22lMug3v:0:0",
+                   "attributes": {
+                    "text": "2005"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "hAvV1aTdh",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:hAvV1aTdh:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:hAvV1aTdh:0:0",
+                   "attributes": {
+                    "text": "The "
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:hAvV1aTdh:0:1",
+                   "attributes": {
+                    "text": "Re-Think Collection",
+                    "italic": true
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:hAvV1aTdh:0:2",
+                   "attributes": {
+                    "text": ", dedicated to the promotion of human rights."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 2011",
+             "id": "Z8Jwa6H5E",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "obqPXWo_c",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "WCLvf0AIn",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:WCLvf0AIn:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:WCLvf0AIn:0:0",
+                   "attributes": {
+                    "text": "2011"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "copjVv6CV",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:copjVv6CV:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:copjVv6CV:0:0",
+                   "attributes": {
+                    "text": "The "
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:copjVv6CV:0:1",
+                   "attributes": {
+                    "text": "Spirits Collection",
+                    "italic": true
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:copjVv6CV:0:2",
+                   "attributes": {
+                    "text": " embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Item 2016",
+             "id": "vB2pLd1n1",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "4px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Dot",
+               "id": "ycT5_4PH1",
+               "attributes": {
+                "fill": "#1C1A17",
+                "layout": "null",
+                "position": "absolute",
+                "left": "-35px",
+                "right": "null",
+                "top": "6px",
+                "bottom": "null",
+                "centerAnchorX": "0%",
+                "centerAnchorY": "0%",
+                "constraintsLocked": false,
+                "radius": "50%",
+                "width": "9px",
+                "height": "9px"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Year",
+               "id": "clsAKuuwl",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:clsAKuuwl:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:clsAKuuwl:0:0",
+                   "attributes": {
+                    "text": "2016"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Detail",
+               "id": "Rzo1oa6bG",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:Rzo1oa6bG:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:Rzo1oa6bG:0:0",
+                   "attributes": {
+                    "text": "The "
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:Rzo1oa6bG:0:1",
+                   "attributes": {
+                    "text": "Andromeda Collection",
+                    "italic": true
+                   }
+                  },
+                  {
+                   "type": "TextRun",
+                   "id": "v:Rzo1oa6bG:0:2",
+                   "attributes": {
+                    "text": " broadens the Spirit Collection through the use of 3D printing."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Collections",
+     "id": "GU5Cfxd4R",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "#D8D2C6",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "scrollTargetEnabled": true,
+      "elementId": "collections",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Collections Wrap",
+       "id": "rFyksN9PY",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Section Head",
+         "id": "x8hLu5hXw",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "CLXx4m20W",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "rgb(111, 106, 97)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:CLXx4m20W:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:CLXx4m20W:0:0",
+               "attributes": {
+                "text": "Bodies of Work"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "iU_D8Mifo",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "rgb(28, 26, 23)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:iU_D8Mifo:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:iU_D8Mifo:0:0",
+               "attributes": {
+                "text": "Collections"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Collections Grid",
+         "id": "kEHg60Y4e",
+         "attributes": {
+          "layout": "grid",
+          "gridAlignment": "start",
+          "gridColumnCount": 2,
+          "gridColumnMinWidth": "50px",
+          "gridRowCount": 1,
+          "gridRowHeightType": "fit",
+          "gridRowHeight": "200px",
+          "gap": "40px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "visible": "false"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Card Fragments",
+           "id": "ldexw55Yo",
+           "attributes": {
+            "cursor": "pointer",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "16px",
+            "link": {
+             "href": "/collections/fragments"
+            },
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Frame",
+             "id": "WYNQoQj8e",
+             "attributes": {
+              "fill": "#E9E4D9",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "672px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "SbUc4olvP",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+                "altText": "Fragments Collection sculpture",
+                "hoverEffect": {
+                 "opacity": 1,
+                 "x": "0px",
+                 "y": "0px",
+                 "scale": 1.04,
+                 "skewX": "0deg",
+                 "skewY": "0deg",
+                 "transition": "tween 0.25,0.1,0.25,1 0.8s 0s",
+                 "rotate": "0deg"
+                },
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text",
+             "id": "aMWeFfyMm",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Meta",
+               "id": "Leu19dqkL",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "end",
+                "stackWrapEnabled": false,
+                "position": "relative",
+                "width": "100%",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "Saljtprl2",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Card Title",
+                  "textAlignment": "start",
+                  "textColor": "rgb(28, 26, 23)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:Saljtprl2:0",
+                   "attributes": {
+                    "tag": "h3"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:Saljtprl2:0:0",
+                     "attributes": {
+                      "text": "Fragments"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Years",
+                 "id": "hH52ffAex",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "fontName": "Inter",
+                  "fontStyle": "normal",
+                  "fontWeight": 300,
+                  "fontSize": "12px",
+                  "letterSpacing": "1.2px",
+                  "lineHeight": "1.2em",
+                  "textAlignment": "start",
+                  "textTransform": "uppercase",
+                  "textDecorationStyle": "solid",
+                  "textColor": "rgb(111, 106, 97)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:hH52ffAex:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:hH52ffAex:0:0",
+                     "attributes": {
+                      "text": "1998 – 2011"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "GFcPrkgvD",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "maxWidth": "420px",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:GFcPrkgvD:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:GFcPrkgvD:0:0",
+                   "attributes": {
+                    "text": "The partial figure — beauty that speaks as much through what is missing as through what remains. An activist art funding the clearing of minefields worldwide."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Card Spirits",
+           "id": "q5kS4fogX",
+           "attributes": {
+            "cursor": "pointer",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "16px",
+            "link": {
+             "href": "/collections/spirit-collection"
+            },
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Frame",
+             "id": "myBLiv9o3",
+             "attributes": {
+              "fill": "#E9E4D9",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "672px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "KQ1Wi__v5",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+                "altText": "Spirits Collection sculpture",
+                "hoverEffect": {
+                 "opacity": 1,
+                 "x": "0px",
+                 "y": "0px",
+                 "scale": 1.04,
+                 "skewX": "0deg",
+                 "skewY": "0deg",
+                 "transition": "tween 0.25,0.1,0.25,1 0.8s 0s",
+                 "rotate": "0deg"
+                },
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text",
+             "id": "w71onKzdV",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Meta",
+               "id": "N9GaYO5Dz",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "end",
+                "stackWrapEnabled": false,
+                "position": "relative",
+                "width": "100%",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "z7QRDFkti",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Card Title",
+                  "textAlignment": "start",
+                  "textColor": "rgb(28, 26, 23)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:z7QRDFkti:0",
+                   "attributes": {
+                    "tag": "h3"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:z7QRDFkti:0:0",
+                     "attributes": {
+                      "text": "Spirits"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Years",
+                 "id": "bb5QiBeZU",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "fontName": "Inter",
+                  "fontStyle": "normal",
+                  "fontWeight": 300,
+                  "fontSize": "12px",
+                  "letterSpacing": "1.2px",
+                  "lineHeight": "1.2em",
+                  "textAlignment": "start",
+                  "textTransform": "uppercase",
+                  "textDecorationStyle": "solid",
+                  "textColor": "rgb(111, 106, 97)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:bb5QiBeZU:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:bb5QiBeZU:0:0",
+                     "attributes": {
+                      "text": "2011 – Present"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "I9cA8Zgo6",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "maxWidth": "420px",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:I9cA8Zgo6:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:I9cA8Zgo6:0:0",
+                   "attributes": {
+                    "text": "Embracing negative space, this collection crosses into the abstract and ethereal — partial figures with exposed interior landscapes."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Card Re-Think",
+           "id": "QhEb3c9mI",
+           "attributes": {
+            "cursor": "pointer",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "16px",
+            "link": {
+             "href": "/collections"
+            },
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Frame",
+             "id": "eKXQFb07X",
+             "attributes": {
+              "fill": "#E9E4D9",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "672px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "L71wGdW22",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+                "altText": "Re-Think Collection sculpture",
+                "hoverEffect": {
+                 "opacity": 1,
+                 "x": "0px",
+                 "y": "0px",
+                 "scale": 1.04,
+                 "skewX": "0deg",
+                 "skewY": "0deg",
+                 "transition": "tween 0.25,0.1,0.25,1 0.8s 0s",
+                 "rotate": "0deg"
+                },
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text",
+             "id": "O_jowxQdD",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Meta",
+               "id": "m1tu2HHid",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "end",
+                "stackWrapEnabled": false,
+                "position": "relative",
+                "width": "100%",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "rIv8531yT",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Card Title",
+                  "textAlignment": "start",
+                  "textColor": "rgb(28, 26, 23)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:rIv8531yT:0",
+                   "attributes": {
+                    "tag": "h3"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:rIv8531yT:0:0",
+                     "attributes": {
+                      "text": "Re-Think"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Years",
+                 "id": "s8QE_PHKx",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "fontName": "Inter",
+                  "fontStyle": "normal",
+                  "fontWeight": 300,
+                  "fontSize": "12px",
+                  "letterSpacing": "1.2px",
+                  "lineHeight": "1.2em",
+                  "textAlignment": "start",
+                  "textTransform": "uppercase",
+                  "textDecorationStyle": "solid",
+                  "textColor": "rgb(111, 106, 97)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:s8QE_PHKx:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:s8QE_PHKx:0:0",
+                     "attributes": {
+                      "text": "2005"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "UKGdTyY2E",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "maxWidth": "420px",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:UKGdTyY2E:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:UKGdTyY2E:0:0",
+                   "attributes": {
+                    "text": "A collection dedicated to the promotion of human rights and to reconsidering our shared responsibilities."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Card Andromeda",
+           "id": "o6ICGv3bC",
+           "attributes": {
+            "cursor": "pointer",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "16px",
+            "link": {
+             "href": "/collections/andromeda"
+            },
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Frame",
+             "id": "A8V76vqa6",
+             "attributes": {
+              "fill": "#E9E4D9",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "672px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "JK6dcLCiS",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+                "altText": "Andromeda Collection sculpture",
+                "hoverEffect": {
+                 "opacity": 1,
+                 "x": "0px",
+                 "y": "0px",
+                 "scale": 1.04,
+                 "skewX": "0deg",
+                 "skewY": "0deg",
+                 "transition": "tween 0.25,0.1,0.25,1 0.8s 0s",
+                 "rotate": "0deg"
+                },
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text",
+             "id": "nByRJvuFl",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Meta",
+               "id": "NIbmzsRs2",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "end",
+                "stackWrapEnabled": false,
+                "position": "relative",
+                "width": "100%",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "jvP9aAFEs",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Card Title",
+                  "textAlignment": "start",
+                  "textColor": "rgb(28, 26, 23)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:jvP9aAFEs:0",
+                   "attributes": {
+                    "tag": "h3"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:jvP9aAFEs:0:0",
+                     "attributes": {
+                      "text": "Andromeda"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Years",
+                 "id": "MKhmtOceW",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "auto",
+                  "height": "auto",
+                  "fontName": "Inter",
+                  "fontStyle": "normal",
+                  "fontWeight": 300,
+                  "fontSize": "12px",
+                  "letterSpacing": "1.2px",
+                  "lineHeight": "1.2em",
+                  "textAlignment": "start",
+                  "textTransform": "uppercase",
+                  "textDecorationStyle": "solid",
+                  "textColor": "rgb(111, 106, 97)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:MKhmtOceW:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:MKhmtOceW:0:0",
+                     "attributes": {
+                      "text": "2016 – Present"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "GfKIW_JRh",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "maxWidth": "420px",
+                "textStylePreset": "Text Styles/Blake Ward/Small",
+                "textAlignment": "start",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:GfKIW_JRh:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:GfKIW_JRh:0:0",
+                   "attributes": {
+                    "text": "An extension of the Spirit Collection, broadening its language through the use of 3D printing."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "id": "fW10PmZa7",
+         "attributes": {
+          "layout": "grid",
+          "gridAlignment": "center",
+          "gridColumnCount": 2,
+          "gridColumnMinWidth": "50px",
+          "gap": "52px 40px",
+          "overflow": "hidden",
+          "position": "relative",
+          "collectionList": {
+           "collection": "Collections",
+           "repeatedDescendantId": "NXQMuYogX",
+           "limit": "15",
+           "filters": [
+            {
+             "variableId": "T6BZ4iDfR",
+             "transforms": [
+              {
+               "name": "equals",
+               "value": "Blake Ward"
+              }
+             ]
+            },
+            {
+             "variableId": "T6BZ4iDfR",
+             "transforms": [
+              {
+               "name": "equals",
+               "value": "Collaborative "
+              }
+             ]
+            }
+           ],
+           "filtersOperator": "or"
+          },
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "id": "NXQMuYogX",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "horizontal",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "gap": "10px",
+            "position": "relative",
+            "width": "389.5px",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "id": "Up_G8_atc",
+             "attributes": {
+              "cursor": "pointer",
+              "hoverEffect": {
+               "opacity": 1,
+               "x": "0px",
+               "y": "-10px",
+               "scale": 1.02,
+               "skewX": "0deg",
+               "skewY": "0deg",
+               "transition": "tween 0.59,0.02,0.44,1 0.4s 0s",
+               "rotate": "0deg"
+              },
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "14px",
+              "link": {
+               "href": "var(--variable-h42an1rpv)"
+              },
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "id": "Cgl4Lq45w",
+               "attributes": {
+                "fill": "var(--variable-oKdB_U7yY)",
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "start",
+                "stackAlignment": "start",
+                "stackWrapEnabled": false,
+                "gap": "0px",
+                "position": "relative",
+                "radius": "2px",
+                "width": "100%",
+                "height": "659px",
+                "aspectRatio": 0.56
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "id": "mo_V7SiqV",
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "text": "var(--variable-wSPsBioiK)",
+                "textStylePreset": "Text Styles/Heading 3",
+                "textAlignment": "start",
+                "textColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)"
+               }
+              },
+              {
+               "type": "RichTextNode",
+               "id": "Gw9K0rGWh",
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "text": "var(--variable-TyEAqL6f1)",
+                "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                "textAlignment": "start",
+                "textColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Exhibitions",
+     "id": "hqsZQ1wIM",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "#D8D2C6",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Exhibitions Wrap",
+       "id": "AjdM6GvhZ",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Section Head",
+         "id": "eme1nte5T",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "p7OELgXX2",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "rgb(111, 106, 97)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:p7OELgXX2:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:p7OELgXX2:0:0",
+               "attributes": {
+                "text": "Across Three Continents"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "MGUTg8ij6",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "rgb(28, 26, 23)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:MGUTg8ij6:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:MGUTg8ij6:0:0",
+               "attributes": {
+                "text": "Exhibited In"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Exhibitions Body",
+         "id": "eW7EbRhBK",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "64px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Countries",
+           "id": "bfA8S1aQZ",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "horizontal",
+            "stackDistribution": "center",
+            "stackAlignment": "center",
+            "stackWrapEnabled": true,
+            "gap": "10px 14px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto",
+            "maxWidth": "820px"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "M3E2ytwjm",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:M3E2ytwjm:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:M3E2ytwjm:0:0",
+                 "attributes": {
+                  "text": "United States"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "iO09GhZtl",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:iO09GhZtl:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:iO09GhZtl:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "ruOAJGFs6",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:ruOAJGFs6:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:ruOAJGFs6:0:0",
+                 "attributes": {
+                  "text": "Canada"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "ZYLnBypvX",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:ZYLnBypvX:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:ZYLnBypvX:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "F4hu6OpWG",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:F4hu6OpWG:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:F4hu6OpWG:0:0",
+                 "attributes": {
+                  "text": "France"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "ZqK7xIWBd",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:ZqK7xIWBd:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:ZqK7xIWBd:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "GreBQaGNq",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:GreBQaGNq:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:GreBQaGNq:0:0",
+                 "attributes": {
+                  "text": "Italy"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "n64G5jTbm",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:n64G5jTbm:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:n64G5jTbm:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "UgC6Xn4QI",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:UgC6Xn4QI:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:UgC6Xn4QI:0:0",
+                 "attributes": {
+                  "text": "Monaco"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "Daf95zv0Y",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:Daf95zv0Y:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:Daf95zv0Y:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "fioq2wY8y",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:fioq2wY8y:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:fioq2wY8y:0:0",
+                 "attributes": {
+                  "text": "Switzerland"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "ZWvncseUz",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:ZWvncseUz:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:ZWvncseUz:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "VW8mc4uof",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:VW8mc4uof:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:VW8mc4uof:0:0",
+                 "attributes": {
+                  "text": "Germany"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "pho4hqZeC",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:pho4hqZeC:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:pho4hqZeC:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "HbTXbhqL4",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:HbTXbhqL4:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:HbTXbhqL4:0:0",
+                 "attributes": {
+                  "text": "England"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "Cik3X_fpT",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:Cik3X_fpT:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:Cik3X_fpT:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "gPJAXNib0",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:gPJAXNib0:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:gPJAXNib0:0:0",
+                 "attributes": {
+                  "text": "Vietnam"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "rflDTXlRd",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:rflDTXlRd:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:rflDTXlRd:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "v2IcDZyu5",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:v2IcDZyu5:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:v2IcDZyu5:0:0",
+                 "attributes": {
+                  "text": "Singapore"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "DzWvyUnAm",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:DzWvyUnAm:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:DzWvyUnAm:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "rstb1VzMb",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:rstb1VzMb:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:rstb1VzMb:0:0",
+                 "attributes": {
+                  "text": "Malaysia"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "D638g5kqr",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:D638g5kqr:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:D638g5kqr:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "d2RzsD1XG",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:d2RzsD1XG:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:d2RzsD1XG:0:0",
+                 "attributes": {
+                  "text": "Hong Kong"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Separator",
+             "id": "DzooGBK1c",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:DzooGBK1c:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:DzooGBK1c:0:0",
+                 "attributes": {
+                  "text": "·"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Country",
+             "id": "k1352fG_1",
+             "attributes": {
+              "position": "relative",
+              "width": "auto",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Country",
+              "textAlignment": "start",
+              "textColor": "rgb(28, 26, 23)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:k1352fG_1:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:k1352fG_1:0:0",
+                 "attributes": {
+                  "text": "India"
+                 }
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Stats",
+           "id": "c3rmEvAse",
+           "attributes": {
+            "layout": "grid",
+            "gridAlignment": "center",
+            "gridColumnCount": 4,
+            "gridColumnMinWidth": "50px",
+            "gridRowCount": 1,
+            "gridRowHeightType": "fit",
+            "gridRowHeight": "200px",
+            "gap": "24px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Stat 40+",
+             "id": "w7kaBUqBt",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Number",
+               "id": "a1RYeKse6",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Stat Number",
+                "textAlignment": "center",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:a1RYeKse6:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:a1RYeKse6:0:0",
+                   "attributes": {
+                    "text": "40+"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Label",
+               "id": "pEGR4i1JF",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 300,
+                "fontSize": "12px",
+                "letterSpacing": "1.68px",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:pEGR4i1JF:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:pEGR4i1JF:0:0",
+                   "attributes": {
+                    "text": "Years Sculpting"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Stat 4",
+             "id": "hkoapifnB",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Number",
+               "id": "Mgak08aO7",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Stat Number",
+                "textAlignment": "center",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:Mgak08aO7:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:Mgak08aO7:0:0",
+                   "attributes": {
+                    "text": "4"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Label",
+               "id": "e6LyFAdq5",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 300,
+                "fontSize": "12px",
+                "letterSpacing": "1.68px",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:e6LyFAdq5:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:e6LyFAdq5:0:0",
+                   "attributes": {
+                    "text": "Major Collections"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Stat 13",
+             "id": "TrCAVZNZP",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Number",
+               "id": "RuePvrQeO",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Stat Number",
+                "textAlignment": "center",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:RuePvrQeO:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:RuePvrQeO:0:0",
+                   "attributes": {
+                    "text": "13"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Label",
+               "id": "m7Zkjkgag",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 300,
+                "fontSize": "12px",
+                "letterSpacing": "1.68px",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:m7Zkjkgag:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:m7Zkjkgag:0:0",
+                   "attributes": {
+                    "text": "Countries Exhibited"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Stat 3",
+             "id": "Wcvi7U7CG",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Number",
+               "id": "KMXd8iB7d",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Stat Number",
+                "textAlignment": "center",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:KMXd8iB7d:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:KMXd8iB7d:0:0",
+                   "attributes": {
+                    "text": "3"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Label",
+               "id": "kSMXfGBKe",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 300,
+                "fontSize": "12px",
+                "letterSpacing": "1.68px",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:kSMXfGBKe:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:kSMXfGBKe:0:0",
+                   "attributes": {
+                    "text": "Continents"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Contact CTA",
+     "id": "iROiOPHnx",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "#D8D2C6",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "110px 0px 110px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "CTA Wrap",
+       "id": "Bzlfuz9Hu",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "28px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Heading",
+         "id": "S83A1926g",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/CTA Title",
+          "textAlignment": "center",
+          "textColor": "rgb(28, 26, 23)",
+          "textWrap": "balance"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:S83A1926g:0",
+           "attributes": {
+            "tag": "h2"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:S83A1926g:0:0",
+             "attributes": {
+              "text": "Get in touch for further inquiries"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Contact Link",
+         "id": "UKzwUGX0v",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "link": {
+           "href": "/contact"
+          },
+          "position": "relative",
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "TWAyE6IbJ",
+           "component": "OuR190HGL",
+           "$componentDisplayName": "Blake Ward Button",
+           "attributes": {
+            "$control__variant": "Dark",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

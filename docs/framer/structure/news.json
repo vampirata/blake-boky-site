@@ -1,0 +1,131 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "FWCuvAtz4",
+ "$isPrimary": true,
+ "$parentId": "eR12mXyIF",
+ "$scopeId": "eR12mXyIF",
+ "$layoutTemplateId": "eh2wp0pmv",
+ "$layoutTemplateDisplayName": "Page Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "0px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "ComponentInstanceNode",
+   "id": "MknA2u6VA",
+   "component": "Yppqt3Cs3Y8TZqvASnXl",
+   "$componentDisplayName": "Smooth Scroll",
+   "attributes": {
+    "$control__intensity": "30",
+    "position": "relative",
+    "width": "auto",
+    "height": "auto"
+   }
+  },
+  {
+   "type": "FrameNode",
+   "name": "Blog Posts",
+   "id": "MjJ2eVtK3",
+   "attributes": {
+    "appearEffect": {
+     "threshold": 0.5,
+     "trigger": "onMount",
+     "enter": {
+      "opacity": 0,
+      "x": 0,
+      "y": 150,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0,
+      "transition": "spring-duration 1.5s 0 1s"
+     }
+    },
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "10px",
+    "overflow": "hidden",
+    "padding": "50px 20px 150px 20px",
+    "position": "relative",
+    "scrollTargetEnabled": true,
+    "elementId": "posts",
+    "width": "1fr",
+    "height": "auto",
+    "zIndex": "5"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "AYgbIKPHE",
+     "attributes": {
+      "layout": "grid",
+      "gridAlignment": "center",
+      "gridColumnCount": 4,
+      "gridColumnMinWidth": "50px",
+      "gap": "32px 0px",
+      "position": "relative",
+      "collectionList": {
+       "collection": "News",
+       "repeatedDescendantId": "IZRjUmx3j"
+      },
+      "width": "1fr",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "IZRjUmx3j",
+       "component": "RKOTpOXF5",
+       "$componentDisplayName": "Article Thumbnail",
+       "attributes": {
+        "$control__variant": "Square Desktop",
+        "$control__image": "var(--variable-LGnwizZ_1)",
+        "$control__date": "var(--variable-BdKfsEd8j)",
+        "$control__title": "var(--variable-DcIyvdwWS)",
+        "$control__link": {
+         "href": "/news/:slug",
+         "collectionItem": "var(--variable-zjoVadzNr)"
+        },
+        "$control__textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "cursor": "pointer",
+        "hoverEffect": {
+         "opacity": 1,
+         "x": "0px",
+         "y": "-10px",
+         "scale": 1,
+         "skewX": "0deg",
+         "skewY": "0deg",
+         "transition": "tween 0.59,0.02,0.44,1 0.4s 0s",
+         "rotate": "0deg"
+        },
+        "position": "relative",
+        "width": "433px",
+        "height": "auto"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

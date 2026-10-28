@@ -1,0 +1,1090 @@
+[
+  {
+    "slug": "damaged",
+    "path": "/past-works/damaged",
+    "order": 1,
+    "title": "Damaged",
+    "cardTitle": "Damaged",
+    "cardImage": {
+      "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+      "alt": "",
+      "naturalWidth": 1600,
+      "naturalHeight": 2314,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.446,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2013 – 2016"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Bronze with gold leaf"
+      }
+    ],
+    "year": "2013 – 2016",
+    "medium": "Bronze with gold leaf",
+    "heroImage": {
+      "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+      "alt": "",
+      "naturalWidth": 1600,
+      "naturalHeight": 2314,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 3.21,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "The interior of the female figure cites an extract from Paul Géraldy's poem Mea Culpa: “Au fond, vois-tu, mon erreur, ma grande folie, c'est d'avoir chargé ton cœur de tout le poids de ma vie” — taken from the book Moi et Toi, a source of inspiration for the artist.",
+        "html": "<p>The interior of the female figure cites an extract from Paul Géraldy's poem <em>Mea Culpa</em>: “Au fond, vois-tu, mon erreur, ma grande folie, c'est d'avoir chargé ton cœur de tout le poids de ma vie” — taken from the book <em>Moi et Toi</em>, a source of inspiration for the artist.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "In the metaphor of the unexpressed struggle for recognition of the Ego, the woman is hopelessly Damaged.",
+        "html": "<p>In the metaphor of the unexpressed struggle for recognition of the Ego, the woman is hopelessly <em>Damaged</em>.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/damaged"
+    }
+  },
+  {
+    "slug": "broken",
+    "path": "/past-works/broken",
+    "order": 2,
+    "title": "Broken",
+    "cardTitle": "Broken",
+    "cardImage": {
+      "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+      "alt": "",
+      "naturalWidth": 1867,
+      "naturalHeight": 2400,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.285,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2013 – 2016"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Bronze"
+      }
+    ],
+    "year": "2013 – 2016",
+    "medium": "Bronze",
+    "heroImage": {
+      "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+      "alt": "",
+      "naturalWidth": 1867,
+      "naturalHeight": 2400,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.853,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Enigmatic faces, masks and broken bronze portraits — reinterpretations and transfigurations of the artist's own face, sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.",
+        "html": "<p>Enigmatic faces, masks and broken bronze portraits — reinterpretations and transfigurations of the artist's own face, sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/broken"
+    }
+  },
+  {
+    "slug": "losing-myself-in-you",
+    "path": "/past-works/losing-myself-in-you",
+    "order": 3,
+    "title": "Losing Myself in You",
+    "cardTitle": "Losing Myself in You",
+    "cardImage": {
+      "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+      "alt": "",
+      "naturalWidth": 2400,
+      "naturalHeight": 2010,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.838,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2013 – 2016"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Bronze"
+      }
+    ],
+    "year": "2013 – 2016",
+    "medium": "Bronze",
+    "heroImage": {
+      "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+      "alt": "",
+      "naturalWidth": 2400,
+      "naturalHeight": 2010,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.859,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Words welded together determine enigmatic identities. In the communicative energy of language and the universality of poetry, the artist yearns for rebirth — the materialisation and transfiguration of the verbum.",
+        "html": "<p>Words welded together determine enigmatic identities. In the communicative energy of language and the universality of poetry, the artist yearns for rebirth — the materialisation and transfiguration of the <em>verbum</em>.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/losing-myself-in-you"
+    }
+  },
+  {
+    "slug": "ich-und-es",
+    "path": "/past-works/ich-und-es",
+    "order": 4,
+    "title": "Ich und Es",
+    "cardTitle": "Ich und Es",
+    "cardImage": {
+      "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+      "alt": "",
+      "naturalWidth": 1600,
+      "naturalHeight": 2400,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.5,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2013 – 2016"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Bronze"
+      }
+    ],
+    "year": "2013 – 2016",
+    "medium": "Bronze",
+    "heroImage": {
+      "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+      "alt": "",
+      "naturalWidth": 1600,
+      "naturalHeight": 2400,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 3.329,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "A complex search configured through sculptures laden with autobiographical references — the I, the you, the us, and the other-than-I.",
+        "html": "<p>A complex search configured through sculptures laden with autobiographical references — the I, the you, the us, and the other-than-I.</p>",
+        "weight": "300"
+      },
+      {
+        "src": "/assets/past-works/rLMAzQ4XtiagDqWah4UqKGK3zU.jpg",
+        "alt": "",
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "rendered": {
+          "w": 448,
+          "h": 300
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "cropRatio": 2.24,
+        "type": "image",
+        "kind": "image",
+        "name": null
+      },
+      {
+        "src": "/assets/past-works/dNlShhC6giCxcVCh6MDQhyQbEvs.jpg",
+        "alt": "",
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "rendered": {
+          "w": 448,
+          "h": 300
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "cropRatio": 2.24,
+        "type": "image",
+        "kind": "image",
+        "name": null
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/ich-und-es"
+    }
+  },
+  {
+    "slug": "kaboom-archive",
+    "path": "/past-works/kaboom-archive",
+    "order": 5,
+    "title": "Kaboom!",
+    "cardTitle": "Kaboom!",
+    "cardImage": {
+      "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+      "alt": "",
+      "naturalWidth": 1920,
+      "naturalHeight": 1080,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.563,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2013 – 2016"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Bronze, unique piece"
+      }
+    ],
+    "year": "2013 – 2016",
+    "medium": "Bronze, unique piece",
+    "heroImage": {
+      "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+      "alt": "",
+      "naturalWidth": 1920,
+      "naturalHeight": 1080,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.248,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Composed with the words: “Particles Collide, Ignition, Fusion and Kaboom!” — representing the clash between male and female particles, a total fusion of two disjointed entities as an expression of a carnal and creative merger.",
+        "html": "<p>Composed with the words: “Particles Collide, Ignition, Fusion and Kaboom!” — representing the clash between male and female particles, a total fusion of two disjointed entities as an expression of a carnal and creative merger.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/kaboom-archive"
+    }
+  },
+  {
+    "slug": "the-restless-gaze-and-the-divided-ego",
+    "path": "/past-works/the-restless-gaze-and-the-divided-ego",
+    "order": 6,
+    "title": "The Restless Gaze and the Divided Ego",
+    "cardTitle": "The Restless Gaze and the Divided Ego",
+    "cardImage": {
+      "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+      "alt": "",
+      "naturalWidth": 543,
+      "naturalHeight": 543,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Essay — Artnet News"
+      }
+    ],
+    "year": "2019",
+    "medium": "Essay — Artnet News",
+    "heroImage": {
+      "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+      "alt": "",
+      "naturalWidth": 543,
+      "naturalHeight": 543,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.219,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her attitude and artistic identity.",
+        "html": "<p>Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her attitude and artistic identity.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "The artist, in her experimental eclecticism, in search of her artistic daimon, autonomous and self-aware, finds in sculpture a code of renewal of the intangible and the spiritual, practised assiduously between 2013 and 2016 — years of fervent study and work.",
+        "html": "<p>The artist, in her experimental eclecticism, in search of her artistic daimon, autonomous and self-aware, finds in sculpture a code of renewal of the intangible and the spiritual, practised assiduously between 2013 and 2016 — years of fervent study and work.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "Boky Hackel-Ward is a restorer, painter, musician, performer and photographer who trained in Florence, where she breathed, lived and absorbed the “grammar” of the Renaissance. Always passionate about poetry and fascinated by the sound of words, with these sculptures she shows a surprising artistic maturity in her ability to conjugate poetry and figuration.",
+        "html": "<p>Boky Hackel-Ward is a restorer, painter, musician, performer and photographer who trained in Florence, where she breathed, lived and absorbed the “grammar” of the Renaissance. Always passionate about poetry and fascinated by the sound of words, with these sculptures she shows a surprising artistic maturity in her ability to conjugate poetry and figuration.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "At the foundry, battling the wax and then the bronze, in the interpenetration of poetry and anthropomorphic, stylised figures, she combines words and shapes to give life to sculptures that become éternelles.",
+        "html": "<p>At the foundry, battling the wax and then the bronze, in the interpenetration of poetry and anthropomorphic, stylised figures, she combines words and shapes to give life to sculptures that become <em>éternelles</em>.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "Her rigorous search for the re-novatio of classicism and the recollection of Visual Poetry materialise into bodies that invite reflection on the difference between the male and female component.",
+        "html": "<p>Her rigorous search for the <em>re-novatio</em> of classicism and the recollection of Visual Poetry materialise into bodies that invite reflection on the difference between the male and female component.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "— Jacqueline Ceresoli, Art Critic",
+        "html": "<p>— Jacqueline Ceresoli, Art Critic</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "Jacqueline Ceresoli, Art Critic",
+    "externalLink": {
+      "label": "View original →",
+      "href": "http://bit.ly/artnetBlakeBoky"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/the-restless-gaze-and-the-divided-ego"
+    }
+  },
+  {
+    "slug": "chicago-interview-2019",
+    "path": "/past-works/chicago-interview-2019",
+    "order": 7,
+    "title": "Chicago Interview",
+    "cardTitle": "Chicago Interview",
+    "cardImage": {
+      "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+      "alt": "",
+      "naturalWidth": 1100,
+      "naturalHeight": 801,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.728,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Video — interview"
+      }
+    ],
+    "year": "2019",
+    "medium": "Video — interview",
+    "heroImage": {
+      "src": null,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "kind": "image",
+      "placeholder": true,
+      "note": "Framer empty-image placeholder pattern (image field not set)"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Interview filmed in Chicago, 2019.",
+        "html": "<p>Interview filmed in Chicago, 2019.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "Video pending upload — add the hosted link to the “Video URL” field once the file has been transcoded and uploaded.",
+        "html": "<p><strong>Video pending upload</strong> — add the hosted link to the “Video URL” field once the file has been transcoded and uploaded.</p>",
+        "weight": "400"
+      }
+    ],
+    "sourceLabel": "Filmed at Hilton Asmus Contemporary, Chicago",
+    "externalLink": null,
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/chicago-interview-2019"
+    }
+  },
+  {
+    "slug": "at-venturi-arte-bologna",
+    "path": "/past-works/at-venturi-arte-bologna",
+    "order": 8,
+    "title": "At Venturi Arte, Bologna",
+    "cardTitle": "At Venturi Arte, Bologna",
+    "cardImage": {
+      "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Studio / foundry"
+      }
+    ],
+    "year": "2019",
+    "medium": "Studio / foundry",
+    "heroImage": {
+      "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.219,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Working the bronze at the Venturi Arte foundry in Bologna.",
+        "html": "<p>Working the bronze at the Venturi Arte foundry in Bologna.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/post/master-the-perfect-brush-stroke-technique"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/at-venturi-arte-bologna"
+    }
+  },
+  {
+    "slug": "working-the-clay",
+    "path": "/past-works/working-the-clay",
+    "order": 9,
+    "title": "Working the Clay",
+    "cardTitle": "Working the Clay",
+    "cardImage": {
+      "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Studio"
+      }
+    ],
+    "year": "2019",
+    "medium": "Studio",
+    "heroImage": {
+      "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.219,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "In the studio, working the clay.",
+        "html": "<p>In the studio, working the clay.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/working-the-clay"
+    }
+  },
+  {
+    "slug": "at-mark-massas",
+    "path": "/past-works/at-mark-massas",
+    "order": 10,
+    "title": "At Mark Massa's",
+    "cardTitle": "At Mark Massa's",
+    "cardImage": {
+      "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+      "alt": "",
+      "naturalWidth": 1920,
+      "naturalHeight": 1080,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.563,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "October 2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Studio visit"
+      }
+    ],
+    "year": "October 2019",
+    "medium": "Studio visit",
+    "heroImage": {
+      "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+      "alt": "",
+      "naturalWidth": 1920,
+      "naturalHeight": 1080,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 1.248,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "From the archive of bokysculpture.com — a studio visit at Mark Massa's, October 2019.",
+        "html": "<p>From the archive of bokysculpture.com — a studio visit at Mark Massa's, October 2019.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": null,
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/post/design-can-be-chaotic-your-studio-doesn-t-have-to-be"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/at-mark-massas"
+    }
+  },
+  {
+    "slug": "charting-landscapes",
+    "path": "/past-works/charting-landscapes",
+    "order": 11,
+    "title": "Charting Landscapes",
+    "cardTitle": "Charting Landscapes",
+    "cardImage": {
+      "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "October 2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Studio"
+      }
+    ],
+    "year": "October 2019",
+    "medium": "Studio",
+    "heroImage": {
+      "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+      "alt": "",
+      "naturalWidth": 3024,
+      "naturalHeight": 3024,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.219,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "From the archive of bokysculpture.com — Charting Landscapes, October 2019.",
+        "html": "<p>From the archive of bokysculpture.com — Charting Landscapes, October 2019.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": null,
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/post/modern-minimalism-one-artist-s-journey"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/charting-landscapes"
+    }
+  },
+  {
+    "slug": "the-story",
+    "path": "/past-works/the-story",
+    "order": 12,
+    "title": "The Story",
+    "cardTitle": "The Story",
+    "cardImage": {
+      "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+      "alt": "",
+      "naturalWidth": 543,
+      "naturalHeight": 543,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": false,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "Artist statement"
+      }
+    ],
+    "year": "2019",
+    "medium": "Artist statement",
+    "heroImage": {
+      "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+      "alt": "",
+      "naturalWidth": 543,
+      "naturalHeight": 543,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 2.219,
+      "kind": "image",
+      "name": null
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "The voyage that we impend upon in the darkness of a cloudy night, in an effort to vanquish the enemy within; doubt…",
+        "html": "<p>The voyage that we impend upon in the darkness of a cloudy night, in an effort to vanquish the enemy within; doubt…</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "Call it rupture, solitude, anguish, fear… all of it, and more, thrown into one violent battleground called our psyche. Where were the gods then?",
+        "html": "<p>Call it rupture, solitude, anguish, fear… all of it, and more, thrown into one violent battleground called our psyche. Where were the gods then?</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "It has been this crossing that has forged me as an artist and as a human being.",
+        "html": "<p>It has been this crossing that has forged me as an artist and as a human being.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "The gift is emerging on the other side. The gift is transcending and overcoming the paralysis of silent faith and acquiescence.",
+        "html": "<p>The gift is emerging on the other side. The gift is transcending and overcoming the paralysis of silent faith and acquiescence.</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "The gift is that one day we find that thing, that medium, and it no longer matters what we want to be, because we are, now and here. It doesn't even matter if they get us or not. We are finally free to create!",
+        "html": "<p>The gift is that one day we find that thing, that medium, and it no longer matters what we want to be, because we are, now and here. It doesn't even matter if they get us or not. We are finally free to create!</p>",
+        "weight": "300"
+      },
+      {
+        "type": "p",
+        "text": "— Boky Hackel-Ward",
+        "html": "<p>— Boky Hackel-Ward</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/interview"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/the-story"
+    }
+  },
+  {
+    "slug": "press-document",
+    "path": "/past-works/press-document",
+    "order": 13,
+    "title": "Press Document",
+    "cardTitle": "Press Document",
+    "cardImage": {
+      "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+      "alt": "",
+      "naturalWidth": 1100,
+      "naturalHeight": 801,
+      "rendered": {
+        "w": 458.7,
+        "h": 458.7
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "cropRatio": 0.728,
+      "kind": "image",
+      "name": null
+    },
+    "artist": "BOKY HACKEL-WARD",
+    "meta": [
+      {
+        "label": "YEAR",
+        "value": "2019"
+      },
+      {
+        "label": "MEDIUM",
+        "value": "PDF"
+      }
+    ],
+    "year": "2019",
+    "medium": "PDF",
+    "heroImage": {
+      "src": null,
+      "rendered": {
+        "w": 1376,
+        "h": 620
+      },
+      "kind": "image",
+      "placeholder": true,
+      "note": "Framer empty-image placeholder pattern (image field not set)"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Two-page press document from the original bokysculpture.com archive. Opens as a PDF.",
+        "html": "<p>Two-page press document from the original bokysculpture.com archive. Opens as a PDF.</p>",
+        "weight": "300"
+      }
+    ],
+    "sourceLabel": "bokysculpture.com",
+    "externalLink": {
+      "label": "View original →",
+      "href": "https://www.bokysculpture.com/_files/ugd/ccee0b_3e52acd46b8048f0b400f0050ed484e2.pdf",
+      "local": "/assets/past-works/ccee0b_3e52acd46b8048f0b400f0050ed484e2.pdf"
+    },
+    "backLink": {
+      "label": "← Past Works",
+      "href": "/past-works"
+    },
+    "seo": {
+      "title": "Past Works — Boky Hackel-Ward",
+      "description": "From the archive of Boky Hackel-Ward.",
+      "ogTitle": "Past Works — Boky Hackel-Ward",
+      "ogDescription": "From the archive of Boky Hackel-Ward.",
+      "ogImage": null,
+      "canonical": "https://blakeandboky.com/past-works/press-document"
+    }
+  }
+]

@@ -1,0 +1,671 @@
+{
+  "path": "/news",
+  "seo": {
+    "title": "News — Blake & Boky",
+    "description": "Studio news, interviews and exhibition announcements from Blake Ward and Boky Hackel-Ward.",
+    "ogTitle": "News — Blake & Boky",
+    "ogDescription": "Studio news, interviews and exhibition announcements from Blake Ward and Boky Hackel-Ward.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/news"
+  },
+  "navVariant": "DESKTOP GREY",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 2612,
+  "sections": [
+    {
+      "type": "page-title",
+      "name": "Arrive",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 206.4
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h4",
+        "text": "News"
+      },
+      "body": [],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h4",
+          "text": "News",
+          "html": "<h4><span><span>N</span><span>e</span><span>w</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Inter",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Blog Posts",
+      "tag": "section",
+      "box": {
+        "y": 206,
+        "h": 1292
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+          "alt": "Fragments exhibition India 2012",
+          "naturalWidth": 960,
+          "naturalHeight": 720,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.75,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+          "alt": "",
+          "naturalWidth": 3360,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "51.2% 48.1%",
+          "cropped": true,
+          "cropRatio": 1.114,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+          "alt": "",
+          "naturalWidth": 1168,
+          "naturalHeight": 830,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.711,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+          "alt": "",
+          "naturalWidth": 1441,
+          "naturalHeight": 1637,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.136,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers"
+        },
+        {
+          "text": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward"
+        },
+        {
+          "text": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids"
+        },
+        {
+          "text": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "href": "/news/sculptures_symbolisiing_hope"
+        },
+        {
+          "text": "Nov 24, 2025 Fontveille : Blake et \"Les Atlantes\" 1004",
+          "href": "/news/blakewardlesatlantesfontveille"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers",
+          "label": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "image": {
+            "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 350,
+              "h": 350
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Nov 24, 2025"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Invoco Te Divina Stella - an interview with Boky Hackel-Ward"
+            }
+          ]
+        },
+        {
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward",
+          "label": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "image": {
+            "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+            "alt": "Fragments exhibition India 2012",
+            "naturalWidth": 960,
+            "naturalHeight": 720,
+            "rendered": {
+              "w": 350,
+              "h": 350
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.75,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Nov 24, 2025"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Fragments of Infinity – A collection for Humanity by Blake Ward "
+            }
+          ]
+        },
+        {
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids",
+          "label": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "image": {
+            "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+            "alt": "",
+            "naturalWidth": 3360,
+            "naturalHeight": 3744,
+            "rendered": {
+              "w": 350,
+              "h": 350
+            },
+            "objectFit": "cover",
+            "objectPosition": "51.2% 48.1%",
+            "cropped": true,
+            "cropRatio": 1.114,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Nov 24, 2025"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Pietrasanta – understanding the poetry of space."
+            }
+          ]
+        },
+        {
+          "href": "/news/sculptures_symbolisiing_hope",
+          "label": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "image": {
+            "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+            "alt": "",
+            "naturalWidth": 1168,
+            "naturalHeight": 830,
+            "rendered": {
+              "w": 350,
+              "h": 350
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.711,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Nov 24, 2025"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Sculptures Symbolisiing Hope : ID Magazine Summer 2008"
+            }
+          ]
+        },
+        {
+          "href": "/news/blakewardlesatlantesfontveille",
+          "label": "Nov 24, 2025 Fontveille : Blake et \"Les Atlantes\" 1004",
+          "image": {
+            "src": "/assets/news/AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+            "alt": "",
+            "naturalWidth": 1441,
+            "naturalHeight": 1637,
+            "rendered": {
+              "w": 350,
+              "h": 350
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.136,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Date",
+              "tag": "p",
+              "text": "Nov 24, 2025"
+            },
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Fontveille : Blake et \"Les Atlantes\" 1004"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "html": "<h4><span><span>I</span><span>n</span><span>v</span><span>o</span><span>c</span><span>o</span></span> <span><span>T</span><span>e</span></span> <span><span>D</span><span>i</span><span>v</span><span>i</span><span>n</span><span>a</span></span> <span><span>S</span><span>t</span><span>e</span><span>l</span><span>l</span><span>a</span></span> <span><span>-</span></span> <span><span>a</span><span>n</span></span> <span><span>i</span><span>n</span><span>t</span><span>e</span><span>r</span><span>v</span><span>i</span><span>e</span><span>w</span></span> <span><span>w</span><span>i</span><span>t</span><span>h</span></span> <span><span>B</span><span>o</span><span>k</span><span>y</span></span> <span><span>H</span><span>a</span><span>c</span><span>k</span><span>e</span><span>l</span><span>-</span><span>W</span><span>a</span><span>r</span><span>d</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+          "alt": "Fragments exhibition India 2012",
+          "naturalWidth": 960,
+          "naturalHeight": 720,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.75,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Fragments of Infinity – A collection for Humanity by Blake Ward ",
+          "html": "<h4><span><span>F</span><span>r</span><span>a</span><span>g</span><span>m</span><span>e</span><span>n</span><span>t</span><span>s</span></span> <span><span>o</span><span>f</span></span> <span><span>I</span><span>n</span><span>f</span><span>i</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>–</span></span> <span><span>A</span></span> <span><span>c</span><span>o</span><span>l</span><span>l</span><span>e</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span></span> <span><span>f</span><span>o</span><span>r</span></span> <span><span>H</span><span>u</span><span>m</span><span>a</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>b</span><span>y</span></span> <span><span>B</span><span>l</span><span>a</span><span>k</span><span>e</span></span> <span><span>W</span><span>a</span><span>r</span><span>d</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+          "alt": "",
+          "naturalWidth": 3360,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "51.2% 48.1%",
+          "cropped": true,
+          "cropRatio": 1.114,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Pietrasanta – understanding the poetry of space.",
+          "html": "<h4><span><span>P</span><span>i</span><span>e</span><span>t</span><span>r</span><span>a</span><span>s</span><span>a</span><span>n</span><span>t</span><span>a</span></span> <span><span>–</span></span> <span><span>u</span><span>n</span><span>d</span><span>e</span><span>r</span><span>s</span><span>t</span><span>a</span><span>n</span><span>d</span><span>i</span><span>n</span><span>g</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>p</span><span>o</span><span>e</span><span>t</span><span>r</span><span>y</span></span> <span><span>o</span><span>f</span></span> <span><span>s</span><span>p</span><span>a</span><span>c</span><span>e</span><span>.</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "href": "/news/sculptures_symbolisiing_hope",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+          "alt": "",
+          "naturalWidth": 1168,
+          "naturalHeight": 830,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.711,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "html": "<h4><span><span>S</span><span>c</span><span>u</span><span>l</span><span>p</span><span>t</span><span>u</span><span>r</span><span>e</span><span>s</span></span> <span><span>S</span><span>y</span><span>m</span><span>b</span><span>o</span><span>l</span><span>i</span><span>s</span><span>i</span><span>i</span><span>n</span><span>g</span></span> <span><span>H</span><span>o</span><span>p</span><span>e</span></span> <span><span>:</span></span> <span><span>I</span><span>D</span></span> <span><span>M</span><span>a</span><span>g</span><span>a</span><span>z</span><span>i</span><span>n</span><span>e</span></span> <span><span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r</span></span> <span><span>2</span><span>0</span><span>0</span><span>8</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Fontveille : Blake et \"Les Atlantes\" 1004",
+          "href": "/news/blakewardlesatlantesfontveille",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+          "alt": "",
+          "naturalWidth": 1441,
+          "naturalHeight": 1637,
+          "rendered": {
+            "w": 350,
+            "h": 350
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.136,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Fontveille : Blake et \"Les Atlantes\" 1004",
+          "html": "<h4><span><span>F</span><span>o</span><span>n</span><span>t</span><span>v</span><span>e</span><span>i</span><span>l</span><span>l</span><span>e</span></span> <span><span>:</span></span> <span><span>B</span><span>l</span><span>a</span><span>k</span><span>e</span></span> <span><span>e</span><span>t</span></span> <span><span>\"</span><span>L</span><span>e</span><span>s</span></span> <span><span>A</span><span>t</span><span>l</span><span>a</span><span>n</span><span>t</span><span>e</span><span>s</span><span>\"</span></span> <span><span>1</span><span>0</span><span>0</span><span>4</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta-banner",
+      "name": "Desktop",
+      "tag": "div",
+      "box": {
+        "y": 1614,
+        "h": 638.4
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/news/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+          "alt": "",
+          "naturalWidth": 6000,
+          "naturalHeight": 4000,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.504,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "Contact Us",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Contact Us"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg",
+          "rendered": {
+            "w": 21,
+            "h": 21
+          }
+        }
+      ],
+      "content": [
+        {
+          "src": "/assets/news/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+          "alt": "",
+          "naturalWidth": 6000,
+          "naturalHeight": 4000,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.504,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Contact Us",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Contact Us",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg"
+        }
+      ]
+    }
+  ]
+}

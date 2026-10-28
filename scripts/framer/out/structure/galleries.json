@@ -1,0 +1,2242 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "K2vXbg6HA",
+ "$isPrimary": true,
+ "$parentId": "KxCqXtlmj",
+ "$scopeId": "KxCqXtlmj",
+ "$layoutTemplateId": "CWeg27bi1",
+ "$layoutTemplateDisplayName": "Default Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "-24px",
+  "right": "null",
+  "top": "-27px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "FrameNode",
+   "name": "Main",
+   "id": "WwUFLIFN1",
+   "attributes": {
+    "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "overflow": "clip",
+    "position": "relative",
+    "width": "1fr",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Hero",
+     "id": "dKZFYODhE",
+     "attributes": {
+      "htmlTag": "header",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "150px 0px 70px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Hero Wrap",
+       "id": "nGIMWgVsx",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "54px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Hero Copy",
+         "id": "le9tSV5T1",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "26px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "hGJIsEC6f",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:hGJIsEC6f:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:hGJIsEC6f:0:0",
+               "attributes": {
+                "text": "Gallery Partner · Vancouver"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Title Group",
+           "id": "JCg2CKuEB",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "22px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Title",
+             "id": "oTZtVnYPT",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Hero Title",
+              "textAlignment": "center",
+              "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+              "textWrap": "balance"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:oTZtVnYPT:0",
+               "attributes": {
+                "tag": "h1"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:oTZtVnYPT:0:0",
+                 "attributes": {
+                  "text": "Petley Jones Gallery"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "RichTextNode",
+             "name": "Tagline",
+             "id": "ccpCGm6JL",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Hero Tagline",
+              "textAlignment": "center",
+              "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)",
+              "textWrap": "balance"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:ccpCGm6JL:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:ccpCGm6JL:0:0",
+                 "attributes": {
+                  "text": "Dealers in historical and contemporary art since 1986"
+                 }
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Gallery Logo",
+         "id": "VCLssPsA6",
+         "attributes": {
+          "blendingMode": "multiply",
+          "fill": "https://framerusercontent.com/images/YO3IcYBYvbkK1AHPqhWbYm3hwwA.png",
+          "altText": "Petley Jones Gallery logo",
+          "layout": "null",
+          "position": "relative",
+          "width": "420px",
+          "height": "86px",
+          "aspectRatio": 4.89
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Gallery Partners",
+     "id": "fBss3Advo",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Wrap",
+       "id": "XMbPLA1OI",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Head",
+         "id": "BBq59A5IL",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "fjtpRQMmU",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:fjtpRQMmU:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:fjtpRQMmU:0:0",
+               "attributes": {
+                "text": "Representation"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "iWeBW7K0X",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:iWeBW7K0X:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:iWeBW7K0X:0:0",
+               "attributes": {
+                "text": "Gallery Partners"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Partners Grid",
+         "id": "oWf7Dj9MU",
+         "attributes": {
+          "layout": "grid",
+          "gridAlignment": "start",
+          "gridColumnCount": 3,
+          "gridColumnMinWidth": "50px",
+          "gap": "40px",
+          "position": "relative",
+          "collectionList": {
+           "collection": "Galleries",
+           "repeatedDescendantId": "Yk7EVdyTT"
+          },
+          "width": "1fr",
+          "height": "auto",
+          "visible": "false"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Partner",
+           "id": "Yk7EVdyTT",
+           "attributes": {
+            "cursor": "pointer",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "16px",
+            "link": {
+             "href": "/galleriespetley/:slug",
+             "collectionItem": "var(--variable-S9xoPBEB0)"
+            },
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Frame",
+             "id": "ld0Q6Jd22",
+             "attributes": {
+              "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "1fr",
+              "height": "340px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "ucmztBPmN",
+               "attributes": {
+                "fill": "var(--variable-VVKT0E_6w)",
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "id": "Whoq5N4Lb",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "center",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "10px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Title",
+               "id": "tEpNKx4LA",
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "text": "var(--variable-ConjjFAmJ)",
+                "textStylePreset": "Text Styles/Blake Ward/Card Title",
+                "textAlignment": "start",
+                "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "id": "qzdpEHdky",
+         "attributes": {
+          "layout": "grid",
+          "gridAlignment": "center",
+          "gridColumnCount": 3,
+          "gridColumnMinWidth": "50px",
+          "gap": "32px 8px",
+          "position": "relative",
+          "collectionList": {
+           "collection": "Galleries",
+           "repeatedDescendantId": "T0I1ad3Xn"
+          },
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "T0I1ad3Xn",
+           "component": "RKOTpOXF5",
+           "$componentDisplayName": "Article Thumbnail",
+           "attributes": {
+            "$control__variant": "Square Desktop",
+            "$control__image": "var(--variable-VVKT0E_6w)",
+            "$control__date": "var(--variable-RiffXpZdl)",
+            "$control__title": "var(--variable-ConjjFAmJ)",
+            "$control__link": "var(--variable-dvXgP6DUx)",
+            "$control__textColor": "rgb(0, 0, 0)",
+            "cursor": "pointer",
+            "hoverEffect": {
+             "opacity": 1,
+             "x": "0px",
+             "y": "-10px",
+             "scale": 1,
+             "skewX": "0deg",
+             "skewY": "0deg",
+             "transition": "tween 0.59,0.02,0.44,1 0.4s 0s",
+             "rotate": "0deg"
+            },
+            "position": "relative",
+            "width": "433px",
+            "height": "auto"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Introduction",
+     "id": "u8iyVZZo3",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Intro Wrap",
+       "id": "KgO0nhnGY",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Intro",
+         "id": "wvSXTqElv",
+         "attributes": {
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "940px",
+          "textStylePreset": "Text Styles/Blake Ward/Statement",
+          "textAlignment": "center",
+          "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+          "textWrap": "balance"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:wvSXTqElv:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:wvSXTqElv:0:0",
+             "attributes": {
+              "text": "Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward’s artistic journey for over a decade. Based in Vancouver’s South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists’ evolving practice."
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Exhibitions",
+     "id": "Lu7yh27HO",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "scrollTargetEnabled": true,
+      "elementId": "exhibitions",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Exhibitions Wrap",
+       "id": "L3Y_sy5PD",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Section Head",
+         "id": "k6gfwyks7",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "LhH0pxhmm",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:LhH0pxhmm:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:LhH0pxhmm:0:0",
+               "attributes": {
+                "text": "Three Landmark Exhibitions"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "wD6Sz4MYG",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:wD6Sz4MYG:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:wD6Sz4MYG:0:0",
+               "attributes": {
+                "text": "Exhibited at Petley Jones"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Exhibitions Body",
+         "id": "JEDJXQC0f",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "96px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Depth & Perception",
+           "id": "tGCd6GGbh",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "32px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Banner",
+             "id": "HCW8LgZ2D",
+             "attributes": {
+              "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "267px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "fzqrAWuni",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+                "altText": "Installation view of Depth and Perception at Petley Jones Gallery",
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text Row",
+             "id": "k4OXY3ct8",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "64px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Heading",
+               "id": "fLERuwcEE",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "vertical",
+                "stackDistribution": "start",
+                "stackAlignment": "start",
+                "stackWrapEnabled": false,
+                "gap": "10px",
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Year",
+                 "id": "vplhnhhYf",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:vplhnhhYf:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:vplhnhhYf:0:0",
+                     "attributes": {
+                      "text": "2015"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "YBZFcWrAc",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Section Title",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+                  "textWrap": "balance"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:YBZFcWrAc:0",
+                   "attributes": {
+                    "tag": "h2"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:YBZFcWrAc:0:0",
+                     "attributes": {
+                      "text": "Depth & Perception"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "XqD_K1DAV",
+               "attributes": {
+                "position": "relative",
+                "width": "1.4fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Body",
+                "textAlignment": "start",
+                "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:XqD_K1DAV:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:XqD_K1DAV:0:0",
+                   "attributes": {
+                    "text": "The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry: partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "The Space Within",
+           "id": "rAMKKCAuP",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "32px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Banner",
+             "id": "zSERYVj11",
+             "attributes": {
+              "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "391px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "qB90sIarj",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/MOXGyinCyXd9a9BkWQXe7osJg4.png",
+                "altText": "Blake Ward, The Space Within, installation view",
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text Row",
+             "id": "lyG3vmbTv",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "64px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Heading",
+               "id": "GCJGfUT7o",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "vertical",
+                "stackDistribution": "start",
+                "stackAlignment": "start",
+                "stackWrapEnabled": false,
+                "gap": "10px",
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Year",
+                 "id": "bVBnXc9V5",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:bVBnXc9V5:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:bVBnXc9V5:0:0",
+                     "attributes": {
+                      "text": "2018"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "gWwVUcu1t",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Section Title",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+                  "textWrap": "balance"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:gWwVUcu1t:0",
+                   "attributes": {
+                    "tag": "h2"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:gWwVUcu1t:0:0",
+                     "attributes": {
+                      "text": "The Space Within"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "TYIHClriH",
+               "attributes": {
+                "position": "relative",
+                "width": "1.4fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Body",
+                "textAlignment": "start",
+                "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:TYIHClriH:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:TYIHClriH:0:0",
+                   "attributes": {
+                    "text": "An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Elixir",
+           "id": "aEp0pSucw",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "32px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Banner",
+             "id": "CM2ge4uC5",
+             "attributes": {
+              "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "0px",
+              "overflow": "clip",
+              "position": "relative",
+              "width": "100%",
+              "height": "501px"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Image",
+               "id": "v2pxfXZ0i",
+               "attributes": {
+                "fill": "https://framerusercontent.com/images/Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+                "altText": "Opening of Elixir at Petley Jones Gallery",
+                "layout": "null",
+                "position": "relative",
+                "width": "100%",
+                "height": "100%"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Text Row",
+             "id": "S7E3cBq4H",
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "64px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "name": "Heading",
+               "id": "TctUHSpEI",
+               "attributes": {
+                "layout": "stack",
+                "stackDirection": "vertical",
+                "stackDistribution": "start",
+                "stackAlignment": "start",
+                "stackWrapEnabled": false,
+                "gap": "10px",
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto"
+               },
+               "children": [
+                {
+                 "type": "RichTextNode",
+                 "name": "Year",
+                 "id": "eFRg_APso",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:eFRg_APso:0",
+                   "attributes": {
+                    "tag": "p"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:eFRg_APso:0:0",
+                     "attributes": {
+                      "text": "2019"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "type": "RichTextNode",
+                 "name": "Title",
+                 "id": "EHFvdOfi4",
+                 "attributes": {
+                  "position": "relative",
+                  "width": "1fr",
+                  "height": "auto",
+                  "textStylePreset": "Text Styles/Blake Ward/Section Title",
+                  "textAlignment": "start",
+                  "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+                  "textWrap": "balance"
+                 },
+                 "children": [
+                  {
+                   "type": "TextBlock",
+                   "id": "v:EHFvdOfi4:0",
+                   "attributes": {
+                    "tag": "h2"
+                   },
+                   "children": [
+                    {
+                     "type": "TextRun",
+                     "id": "v:EHFvdOfi4:0:0",
+                     "attributes": {
+                      "text": "Elixir"
+                     }
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Description",
+               "id": "IMTyCZYEb",
+               "attributes": {
+                "position": "relative",
+                "width": "1.4fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Body",
+                "textAlignment": "start",
+                "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:IMTyCZYEb:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:IMTyCZYEb:0:0",
+                   "attributes": {
+                    "text": "Elixir marked a new threshold; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become."
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Installation Views",
+     "id": "VaSjWh2F2",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Views Wrap",
+       "id": "kPTC203J2",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "56px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Section Head",
+         "id": "UH5QlwWCQ",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "name": "Eyebrow",
+           "id": "CYA5M4eqh",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "center",
+            "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:CYA5M4eqh:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:CYA5M4eqh:0:0",
+               "attributes": {
+                "text": "From the Gallery"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Heading",
+           "id": "tv0p6kNcI",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title",
+            "textAlignment": "center",
+            "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:tv0p6kNcI:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:tv0p6kNcI:0:0",
+               "attributes": {
+                "text": "Installation Views"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Views Grid",
+         "id": "tXjWDw16J",
+         "attributes": {
+          "layout": "grid",
+          "gridMasonry": "true",
+          "gridAlignment": "start",
+          "gridColumnCount": 3,
+          "gridColumnMinWidth": "50px",
+          "gridRowCount": 1,
+          "gridRowHeightType": "auto",
+          "gridRowHeight": "200px",
+          "gap": "40px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "View",
+           "id": "d_vLLDH1E",
+           "attributes": {
+            "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "0px",
+            "overflow": "clip",
+            "position": "relative",
+            "width": "1fr",
+            "height": "258px"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Image",
+             "id": "ZBYqQqFwL",
+             "attributes": {
+              "fill": "https://framerusercontent.com/images/giPhDMXZtjSy2S5H2UBaMfWICU.png",
+              "altText": "Blake Ward with works at Petley Jones Gallery",
+              "layout": "null",
+              "position": "relative",
+              "width": "100%",
+              "height": "100%"
+             }
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "View",
+           "id": "AUeBj9F3F",
+           "attributes": {
+            "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "0px",
+            "overflow": "clip",
+            "position": "relative",
+            "width": "1fr",
+            "height": "289px"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Image",
+             "id": "BOpdCXfIl",
+             "attributes": {
+              "fill": "https://framerusercontent.com/images/7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+              "altText": "Blake Ward beside a bronze figure",
+              "layout": "null",
+              "position": "relative",
+              "width": "100%",
+              "height": "100%"
+             }
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "View",
+           "id": "UNJEGzq2f",
+           "attributes": {
+            "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "0px",
+            "overflow": "clip",
+            "position": "relative",
+            "width": "1fr",
+            "height": "619px"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "name": "Image",
+             "id": "x4VlUZZvS",
+             "attributes": {
+              "fill": "https://framerusercontent.com/images/GTqONkXxbWFtIDfFLm1BgGXmA.png",
+              "altText": "Gilded bronze figure from the Elixir collection",
+              "layout": "null",
+              "position": "relative",
+              "width": "100%",
+              "height": "100%"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Visit",
+     "id": "zSfWYuN2x",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "80px 0px 80px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Visit Wrap",
+       "id": "wg4Vz77Rg",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "24px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Eyebrow",
+         "id": "yEtwuxLpV",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+          "textAlignment": "center",
+          "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:yEtwuxLpV:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:yEtwuxLpV:0:0",
+             "attributes": {
+              "text": "Plan a Visit"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "name": "Heading",
+         "id": "AAlW8_L4s",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/Section Title",
+          "textAlignment": "center",
+          "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:AAlW8_L4s:0",
+           "attributes": {
+            "tag": "h2"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:AAlW8_L4s:0:0",
+             "attributes": {
+              "text": "By appointment"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "name": "Details",
+         "id": "oSfeut7qe",
+         "attributes": {
+          "linkStylePreset": "Link Styles/Blake Ward/Body Link",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "620px",
+          "textStylePreset": "Text Styles/Blake Ward/Body",
+          "textAlignment": "center",
+          "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:oSfeut7qe:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:oSfeut7qe:0:0",
+             "attributes": {
+              "text": "Visits to Petley Jones Gallery are available by appointment. Contact the gallery at "
+             }
+            },
+            {
+             "type": "TextRun",
+             "id": "v:oSfeut7qe:0:1",
+             "attributes": {
+              "text": "info@petleyjones.com",
+              "link": {
+               "href": "mailto:info@petleyjones.com"
+              },
+              "linkStylePreset": "Link Styles/Blake Ward/Body Link"
+             }
+            },
+            {
+             "type": "TextRun",
+             "id": "v:oSfeut7qe:0:2",
+             "attributes": {
+              "text": " or "
+             }
+            },
+            {
+             "type": "TextRun",
+             "id": "v:oSfeut7qe:0:3",
+             "attributes": {
+              "text": "604 732 5353",
+              "link": {
+               "href": "tel:+16047325353"
+              },
+              "linkStylePreset": "Link Styles/Blake Ward/Body Link"
+             }
+            },
+            {
+             "type": "TextRun",
+             "id": "v:oSfeut7qe:0:4",
+             "attributes": {
+              "text": "."
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Contact CTA",
+     "id": "CMH89g0BN",
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+      "borderTop": "1px",
+      "htmlTag": "section",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "110px 0px 110px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "CTA Wrap",
+       "id": "c1XN36DUu",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "28px",
+        "padding": "0px 32px 0px 32px",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto",
+        "maxWidth": "1920px"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Heading",
+         "id": "A2e5fF6vO",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/CTA Title",
+          "textAlignment": "center",
+          "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+          "textWrap": "balance"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:A2e5fF6vO:0",
+           "attributes": {
+            "tag": "h2"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:A2e5fF6vO:0:0",
+             "attributes": {
+              "text": "Get in touch for further inquiries"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Contact Link",
+         "id": "AtWK5Cgwl",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "link": {
+           "href": "/contact"
+          },
+          "position": "relative",
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "X4FKnpbnO",
+           "component": "OuR190HGL",
+           "$componentDisplayName": "Blake Ward Button",
+           "attributes": {
+            "$control__variant": "Dark",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "id": "bad35YjQ3",
+   "attributes": {
+    "fill": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "49px",
+    "overflow": "clip",
+    "position": "relative",
+    "width": "1208px",
+    "height": "auto",
+    "visible": "false"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "FqGXNBsyF",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/j2TfMktzOKdT5G8qcKSSAaH4dw.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1fr",
+      "height": "288px"
+     }
+    },
+    {
+     "type": "FrameNode",
+     "id": "nFKsVtt4G",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/YO3IcYBYvbkK1AHPqhWbYm3hwwA.png",
+      "layout": "stack",
+      "stackDirection": "horizontal",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1fr",
+      "height": "209px"
+     }
+    },
+    {
+     "type": "RichTextNode",
+     "id": "ZV3VauONE",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "1142px",
+      "height": "140px",
+      "textStylePreset": "Text Styles/Heading 3",
+      "textAlignment": "left",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:ZV3VauONE:0",
+       "attributes": {
+        "tag": "h3"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:ZV3VauONE:0:0",
+         "attributes": {
+          "text": "Petley Jones Gallery has been a longstanding and dedicated partner in Blake Ward and Boky Hackel-Ward's artistic journey for over a decade. Based in Vancouver's South Granville arts district, the gallery has brought their sculpture to Canadian audiences through three landmark exhibitions, each marking a distinct chapter in the artists' evolving practice."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "RichTextNode",
+     "id": "b3ojP2t30",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "1156px",
+      "height": "50px",
+      "textAlignment": "start",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:b3ojP2t30:0",
+       "attributes": {
+        "tag": "h1"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:b3ojP2t30:0:0",
+         "attributes": {
+          "text": "ELIXIR (2019)"
+         }
+        }
+       ]
+      },
+      {
+       "type": "TextBlock",
+       "id": "v:b3ojP2t30:1",
+       "attributes": {
+        "tag": "h4"
+       },
+       "children": [
+        {
+         "type": "TextLineBreak",
+         "id": "v:b3ojP2t30:1:0"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "RichTextNode",
+     "id": "T81TEupzo",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "1158px",
+      "height": "69px",
+      "textStylePreset": "Text Styles/Heading 4",
+      "textAlignment": "start",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:T81TEupzo:0",
+       "attributes": {
+        "tag": "h4"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:T81TEupzo:0:0",
+         "attributes": {
+          "text": "Elixir",
+          "italic": true
+         }
+        },
+        {
+         "type": "TextRun",
+         "id": "v:T81TEupzo:0:1",
+         "attributes": {
+          "text": " (2019) marked a new threshold ; a collection showcasing the fusion between the two artists, in which Blake and Boky share the body as a material extension, a fragment, mortified on the net in the digital age. It was a distillation of everything the collaboration had become."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "mJS29T2jq",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/giPhDMXZtjSy2S5H2UBaMfWICU.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "472px",
+      "height": "331px"
+     }
+    },
+    {
+     "type": "FrameNode",
+     "id": "S2ixSZIgb",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/7XWpOy798Dcuq3EvDrkUuWXpoI.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "337px",
+      "height": "330px"
+     }
+    },
+    {
+     "type": "RichTextNode",
+     "id": "J96eoyk15",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "464px",
+      "height": "70px",
+      "textStylePreset": "Text Styles/Heading 1",
+      "textAlignment": "start",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:J96eoyk15:0",
+       "attributes": {
+        "tag": "h1"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:J96eoyk15:0:0",
+         "attributes": {
+          "text": "The Space Within",
+          "italic": true
+         }
+        },
+        {
+         "type": "TextRun",
+         "id": "v:J96eoyk15:0:1",
+         "attributes": {
+          "text": " (2018)"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "RichTextNode",
+     "id": "CulzIwTeX",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "1120px",
+      "height": "101px",
+      "fontName": "Inter",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "fontSize": "25px",
+      "letterSpacing": "0em",
+      "lineHeight": "1.2em",
+      "textAlignment": "start",
+      "textDecorationStyle": "solid",
+      "textColor": "rgb(255, 255, 255)",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:CulzIwTeX:0",
+       "attributes": {
+        "tag": "p"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:CulzIwTeX:0:0",
+         "attributes": {
+          "text": "An exhibition that deepened that conversation, presenting bronze figures that evoke a dialogue between the conscious and the unconscious, their textured exterior surfaces alluding to the layered complexity of our individuality, their open exposed interiors eliciting introspection."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "qLU0boMMt",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/MOXGyinCyXd9a9BkWQXe7osJg4.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1130px",
+      "height": "386px"
+     }
+    },
+    {
+     "type": "RichTextNode",
+     "id": "hqtdIAPIP",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "567px",
+      "height": "51px",
+      "textStylePreset": "Text Styles/Heading 1",
+      "textAlignment": "start",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:hqtdIAPIP:0",
+       "attributes": {
+        "tag": "h1"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:hqtdIAPIP:0:0",
+         "attributes": {
+          "text": "Depth & Perception (2015)",
+          "italic": true
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "RichTextNode",
+     "id": "GbqsThhjO",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "1073px",
+      "height": "74px",
+      "fontName": "Inter",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "fontSize": "25px",
+      "letterSpacing": "0em",
+      "lineHeight": "1.2em",
+      "textAlignment": "start",
+      "textDecorationStyle": "solid",
+      "textColor": "rgb(255, 255, 255)",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:GbqsThhjO:0",
+       "attributes": {
+        "tag": "p"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:GbqsThhjO:0:0",
+         "attributes": {
+          "text": "The highly anticipated, first major presentation of the Spirits Collection brought Blake’s artworks back to his native land after decades abroad allowed him to expand his vision and return not only with a body of work years in the refining, but with the artistic partnership that had reshaped it. The Spirits collection’s abiding inquiry : partial figures challenge the classical form by shifting attention toward negative space, leading the viewer inward toward an exploration of our inner landscape, where aesthetic ideals give way to introspection, and imagination."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "INd6YdfRe",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/GTqONkXxbWFtIDfFLm1BgGXmA.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "257px",
+      "height": "493px"
+     }
+    },
+    {
+     "type": "FrameNode",
+     "id": "w5FTuxK7E",
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/Su3AIgRqmjpgrMBQMCUaa7HfFY.png",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "758px",
+      "height": "366px"
+     }
+    },
+    {
+     "type": "RichTextNode",
+     "id": "AeXkh0B8C",
+     "attributes": {
+      "blockquoteStylePreset": "Blockquote Styles/Blockquote",
+      "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+      "linkStylePreset": "Link Styles/Link",
+      "position": "relative",
+      "width": "665px",
+      "height": "100px",
+      "fontName": "Inter",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "fontSize": "25px",
+      "letterSpacing": "0em",
+      "lineHeight": "1.2em",
+      "textAlignment": "start",
+      "textDecorationStyle": "solid",
+      "textColor": "rgb(255, 255, 255)",
+      "textVerticalAlignment": "top"
+     },
+     "children": [
+      {
+       "type": "TextBlock",
+       "id": "v:AeXkh0B8C:0",
+       "attributes": {
+        "tag": "p"
+       },
+       "children": [
+        {
+         "type": "TextRun",
+         "id": "v:AeXkh0B8C:0:0",
+         "attributes": {
+          "text": "Petley Jones Gallery Visits are available by appointment. Contact the gallery at "
+         }
+        },
+        {
+         "type": "TextRun",
+         "id": "v:AeXkh0B8C:0:1",
+         "attributes": {
+          "text": "info@petleyjones.com",
+          "link": {
+           "href": "mailto:info@petleyjones.com"
+          }
+         }
+        },
+        {
+         "type": "TextRun",
+         "id": "v:AeXkh0B8C:0:2",
+         "attributes": {
+          "text": " or 604-732-5353."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

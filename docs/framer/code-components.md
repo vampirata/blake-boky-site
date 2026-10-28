@@ -1,0 +1,863 @@
+# Code and external components
+
+Read-only export from the Framer project, 28 Oct 2026. Source files are in `code-components/`. Per-instance prop values (every page and breakpoint) are generated below the hand-written summary. Raw instance data: `code-components/_instances.json`.
+
+Usage was found by scanning every page, layout template and component. "x3" means one instance per breakpoint (Desktop, Tablet, Phone).
+
+## Project code components
+
+### GalleryLightbox (`code-components/GalleryLightbox.tsx`)
+- **Renders:** a grid of 9:16 tiles (CSS grid, `columns` x `gap`) built from props `image1..image12`. Empty slots are dropped, so the grid and the lightbox only contain real images. Hover outlines the tile in `highlight` (1px, 260ms) and scales the image to 1.04 (620ms cubic-bezier(0.22,0.61,0.36,1)). Tiles are `<button aria-label="Open image i of n">`.
+- **Lightbox:** a fixed full-screen overlay (z 2147483000, background `backdrop`) holding a 9:16 frame (height min(80vh,100%), max-width 90vw). Images sit on a horizontal track that slides with translateX over 560ms cubic-bezier(0.22,0.61,0.36,1). There are round prev/next buttons (52px, ‹ ›) and a close button (44px, ×, top right), all in `accent`; on hover they fill with `highlight` and the text turns dark, and they scale to 0.92 while pressed. A counter "n / total" sits at the bottom (Inter 300, 12px, 0.18em tracking).
+- **Open/close:** clicking a tile opens that index. Clicking the backdrop or ×, or pressing Escape, closes it. ArrowLeft/ArrowRight step through the images and wrap around. There is **no swipe or touch gesture** and no scroll lock.
+- **Defaults:** columns 3, gap 16, backdrop rgba(10,10,10,0.94), accent rgba(240,238,232,0.9), highlight rgb(227,202,166).
+- **Used on:** every work detail page, x3: Andromeda, Fragments, Spirit Collection, In Lucem, Figurative Poetry. Images are bound to the CMS Image 1..12 fields, and highlight uses the `/Colors/highlight` token. Columns are 3 on Desktop and Tablet except Figurative Poetry (2). On Phone they are 2, and 1 for In Lucem and Figurative Poetry.
+
+### ImageTicker (`code-components/ImageTicker.tsx`)
+- **Renders:** a full-width strip `heightVh` tall. The images (image1..12, empty slots dropped) are drawn twice for a seamless loop. Every image has the same height and keeps its proportions (objectFit contain); `gap` sets the spacing between them.
+- **Behaviour:** a rAF loop moves a translate3d transform by `speed` px/s (0 stops it), so movement is sub-pixel. The default direction is right to left. Pointer drag takes over (pointer capture, cursor grab/grabbing, `touch-action: pan-y` so vertical page scroll still works on touch). On release, the drag velocity (above 0.02 px/ms) sets the new direction. There is no inertia and no pause on hover. Native image drag is disabled. It re-measures on resize and on image load. Optional left and right edge fades use `edgeFade` px in `fadeColor`.
+- **Props as set:** every instance uses speed 40, heightVh 70, gap 4, edgeFade 0 and fadeColour rgb(15,15,15). Images are bound to the CMS Image fields.
+- **Used on:** all 5 work detail pages, x3.
+
+### WorksSearchGrid (`code-components/WorksSearchGrid.tsx`)
+- **Renders:** a search bar (magnifier SVG, borderless input in Inter 300 at 15px, a "N pieces" count in 12px uppercase, a bottom border in `lineColor`, 44px margin below). Under it is a grid of cards (`columns`, row gap `gap`, column gap `gap*0.85`). Each card is a 9:16 image on `cardBg` with the title below in Cormorant Garamond 16px.
+- **Filter:** a live, case-insensitive substring match on the **title only**. With no matches it shows "No pieces match your search."
+- **Card hover:** the card lifts translateY(-10px) over 0.4s cubic-bezier(0.59,0.02,0.44,1), and a 1px `highlight` underline draws in from the left (scaleX, 0.35s).
+- **Data:** props title/image/link 1..24; a slot is included only when both title and image are set. **On the site these values are typed in per page, not bound to the CMS** (static image URLs, with links pointing to the CMS item's `/collections/<series>/:slug`).
+- **Props as set:** columns 4, gap 24, highlight rgb(227,202,166), text rgb(242,242,242), muted rgb(138,138,134), line rgb(42,42,40), card rgb(22,22,21), placeholder "Search pieces in this collection…". Phone overrides are in the generated section.
+- **Used on:** the series overview pages, x3: `/collections/andromeda` (3 works), `/collections/fragments` (11), `/collections/spirit-collection` (21), `/collections/in-lucem` (7) and `/collections/figurative-poetry` (6).
+- **Note:** these hand-entered lists include works whose CMS items are drafts (e.g. Goddess Ma'at, Angel Camael, Putkimiina M 68, STUDRATS, WOOF?). Their links probably lead to unpublished pages.
+
+### VideoCarousel (`code-components/VideoCarousel.tsx`, Workshop folder)
+- A generic video-only 3D carousel: perspective depth, horizontal or vertical layout, scroll/drag/wheel/dot/button navigation, ArrowLeft/Up and ArrowRight/Down keys, autoplay on an interval, and it plays the active video and pauses inactive ones. It also has posters, hover zoom with blur-to-clear, a counter and dots, and sound on hover with a toggle.
+- **Not used on any page.**
+
+### Examples (`code-components/Examples.tsx`)
+- These are Framer's sample overrides (withRotate, withHover, withRandomColor). **Not used.**
+
+## External (Framer marketplace) components
+Their source code cannot be read through the API; only the props set on each instance can.
+
+### Smooth Scroll (`Yppqt3Cs3Y8TZqvASnXl`)
+- **Settings:** `intensity` 30, with all other props at the component defaults. It is the same on every instance.
+- **Used on (x3 each):** `/`, `/contact`, `/news`, `/news/:slug`, `/collections`, `/boky-bio` and draft `/trial`. The other pages (blake-bio, galleries, past works, series overviews, work details) do not have it.
+
+### Parallax Floating (`FJ6Tdhm43j9BNWb0QHUP`)
+- **Used on:** the home hero only. There are 7 instances, each a child of one of the 7 "Hero Image" frames (Image 1..7) in the hero's Image Container, x3 breakpoints.
+- **Settings:** direction "Away", enabled true, smoothing 100. Speed is set per image: 25, 50, 200, 45, 65, 20 and so on (see the generated section, in id order: MPa2kQPyr, XNevxVmMo, fni4prZB7, N4BkhVEl3, KMCEOJKHi, gOKCBcW1g, ks2BjV1em). It appears to be a mouse-driven floating parallax that moves the parent frame away from the cursor.
+
+### Draggable Ticker (`qgPXZgoqu4R8erDqmQeL`)
+- **Used on:** the Spirit Collection work detail, x3.
+- **Settings:** direction Left, speed 100, draggable true, momentum 0.95, onThrow "Follow Drag", hover factor 1, gap 0, align center, no fade/clipping. Its children are 11 canvas frames.
+
+### Slideshow (Framer `zvkTOpMSuRzRhLzZZIwG`) and the local wrappers `Components/Elements/Slideshow` and `Components/Slideshow 2`
+- **Default Template:** the Slideshow instance there is **hidden** (visible=false on every breakpoint, autoPlay true), as is the Menu instance "Blake"; neither renders.
+- **Work detail pages (Fragments x1, Spirit Collection x6):** autoPlay false (Fragments Phone overrides it to true), draggable true, direction Left, spring transition (stiffness 200, damping 40), arrows shown, dots hidden.
+- **Wrapper components:** autoPlay true, interval 1.5s, draggable false, spring stiffness 128 / damping 40, effectsHover true, and they keep playing offscreen.
+- **`Slideshow 2` on `/boky-bio` (x3):** 7 fixed images (URLs in the generated section).
+
+### Counter (`yTZXL9EHML7pPhBCpXTS`)
+- **Used on:** home, 4 instances x3. They animate on viewport entry and replay, in Switzer italic at 90px with speedMs 50. The ranges are 40 to 78 ("+" suffix), 0 to 12, 20 to 29 and 80 to 350; the full values are below.
+
+### Others
+- **Image** (`4FYXL5lQz9cgJ2BJkaNV`): used inside the Project Thumbnail component.
+- **Material** icon (`6Ldpz1V0DkD45gXvi67I`): used inside CTA Button.
+
+## Per-instance props (generated)
+
+Desktop breakpoint values, deduplicated: pages with identical props are listed together. Tablet/Phone overrides are listed when they differ from Desktop. Bound CMS values show as `var(--variable-<fieldId>)` (field ids are in `cms-schema.json`). Full raw data: `code-components/_instances.json`.
+
+### GalleryLightbox (`codeFile/btMKvI2:default`)
+
+- Used on: /collections/andromeda/:Andromeda [Desktop] (Jw3ljrmsp)
+  - `accent`: rgba(240,238,232,0.9)
+  - `backdrop`: rgba(10,10,10,0.94)
+  - `columns`: 3
+  - `gap`: 16
+  - `highlight`: var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)
+  - `image1`: var(--variable-D2eRNGA4y)
+  - `image2`: var(--variable-QKc35d2IJ)
+  - `image3`: var(--variable-T1eYCkKcR)
+  - `image4`: var(--variable-S9vz9_Mxw)
+  - `image5`: var(--variable-VkjwxW4II)
+  - `image6`: var(--variable-zANeVcHHo)
+  - `image7`: var(--variable-qwlKUCu8_)
+  - `image8`: var(--variable-hc2gWZ5cL)
+- Used on: /collections/fragments/:Fragments [Desktop] (IiEDJElrX)
+  - `accent`: rgba(240,238,232,0.9)
+  - `backdrop`: rgba(10,10,10,0.94)
+  - `columns`: 3
+  - `gap`: 16
+  - `highlight`: var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)
+  - `image1`: var(--variable-rdseyX9Qa)
+  - `image10`: var(--variable-Y0VFuiR7R)
+  - `image11`: var(--variable-xkxL3DVzj)
+  - `image2`: var(--variable-u4SIVZvqg)
+  - `image3`: var(--variable-Ob9m8zYz2)
+  - `image4`: var(--variable-X6Uzdu85r)
+  - `image5`: var(--variable-GjQxs2Viz)
+  - `image6`: var(--variable-RNBL3qBuf)
+  - `image7`: var(--variable-IBotv6oJa)
+  - `image8`: var(--variable-cHWwvkVE2)
+  - `image9`: var(--variable-kk_m_N7uQ)
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (tZy1nlnf6)
+  - `accent`: rgba(240,238,232,0.9)
+  - `backdrop`: rgba(10,10,10,0.94)
+  - `columns`: 3
+  - `gap`: 16
+  - `highlight`: var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)
+  - `image1`: var(--variable-bot32dqPH)
+  - `image10`: var(--variable-pNkGX30lI)
+  - `image11`: var(--variable-eHnM_vyVB)
+  - `image12`: var(--variable-CtVcyxKcl)
+  - `image2`: var(--variable-f_vxG2f0e)
+  - `image3`: var(--variable-qF9CzjK9c)
+  - `image4`: var(--variable-j83fy0jay)
+  - `image5`: var(--variable-gskqetMqj)
+  - `image6`: var(--variable-Ijci4mmoh)
+  - `image7`: var(--variable-ndVP_XJ9C)
+  - `image8`: var(--variable-OkEUMeKXM)
+  - `image9`: var(--variable-v4dZjSrOg)
+- Used on: /collections/in-lucem/:In Lucem indiv-indiv [Desktop] (O7llCj71z)
+  - `accent`: rgba(240,238,232,0.9)
+  - `backdrop`: rgba(10,10,10,0.94)
+  - `columns`: 3
+  - `gap`: 16
+  - `highlight`: var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)
+  - `image1`: var(--variable-qQTyG3UzL)
+  - `image2`: var(--variable-lvLqycddk)
+  - `image3`: var(--variable-JlGzqPYIw)
+  - `image4`: var(--variable-BBZVCp7hT)
+  - `image5`: var(--variable-nXZrt8jS5)
+  - `image6`: var(--variable-uASEH5Kyf)
+  - `image7`: var(--variable-sHmwJ6Rb2)
+  - `image8`: var(--variable-AvF8cfGNG)
+- Used on: /collections/figurative-poetry/:Figurative Poetry indiv-indiv [Desktop] (y8lDPQrNq)
+  - `accent`: rgba(240,238,232,0.9)
+  - `backdrop`: rgba(10,10,10,0.94)
+  - `columns`: 2
+  - `gap`: 16
+  - `highlight`: var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)
+  - `image1`: var(--variable-CAMum9KKW)
+  - `image2`: var(--variable-g3S58UsVY)
+  - `image3`: var(--variable-wmsEpYO_Q)
+  - `image4`: var(--variable-rnxbUy_iY)
+  - `image5`: var(--variable-E4sCdU0ua)
+  - `image6`: var(--variable-KCanrDABq)
+  - `image7`: var(--variable-JVFFtK2Ny)
+  - `image8`: var(--variable-VxqBdWU3l)
+  - `image9`: var(--variable-dh8z0tRiZ)
+- Responsive overrides:
+  - /collections/andromeda/:Andromeda Phone: `columns`=2
+  - /collections/fragments/:Fragments Phone: `columns`=2
+  - /collections/spirit-collection/:Spirit Collection Phone: `columns`=2
+  - /collections/in-lucem/:In Lucem indiv-indiv Phone: `columns`=1
+  - /collections/figurative-poetry/:Figurative Poetry indiv-indiv Phone: `columns`=1
+
+### ImageTicker (`codeFile/r1Yrpm6:default`)
+
+- Used on: /collections/andromeda/:Andromeda [Desktop] (VW5iXWZ2M)
+  - `edgeFade`: 0
+  - `fadeColour`: rgb(15,15,15)
+  - `gap`: 4
+  - `heightVh`: 70
+  - `image1`: var(--variable-D2eRNGA4y)
+  - `image2`: var(--variable-QKc35d2IJ)
+  - `image3`: var(--variable-T1eYCkKcR)
+  - `image4`: var(--variable-S9vz9_Mxw)
+  - `image5`: var(--variable-VkjwxW4II)
+  - `image6`: var(--variable-zANeVcHHo)
+  - `image7`: var(--variable-qwlKUCu8_)
+  - `image8`: var(--variable-hc2gWZ5cL)
+  - `speed`: 40
+- Used on: /collections/fragments/:Fragments [Desktop] (qZi2i_erG)
+  - `edgeFade`: 0
+  - `fadeColour`: rgb(15,15,15)
+  - `gap`: 4
+  - `heightVh`: 70
+  - `image1`: var(--variable-rdseyX9Qa)
+  - `image10`: var(--variable-Y0VFuiR7R)
+  - `image11`: var(--variable-xkxL3DVzj)
+  - `image2`: var(--variable-u4SIVZvqg)
+  - `image3`: var(--variable-Ob9m8zYz2)
+  - `image4`: var(--variable-X6Uzdu85r)
+  - `image5`: var(--variable-GjQxs2Viz)
+  - `image6`: var(--variable-RNBL3qBuf)
+  - `image7`: var(--variable-IBotv6oJa)
+  - `image8`: var(--variable-cHWwvkVE2)
+  - `image9`: var(--variable-kk_m_N7uQ)
+  - `speed`: 40
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (HbPh3AyQm)
+  - `edgeFade`: 0
+  - `fadeColour`: rgb(15,15,15)
+  - `gap`: 4
+  - `heightVh`: 70
+  - `image1`: var(--variable-bot32dqPH)
+  - `image10`: var(--variable-pNkGX30lI)
+  - `image11`: var(--variable-eHnM_vyVB)
+  - `image12`: var(--variable-CtVcyxKcl)
+  - `image2`: var(--variable-f_vxG2f0e)
+  - `image3`: var(--variable-qF9CzjK9c)
+  - `image4`: var(--variable-j83fy0jay)
+  - `image5`: var(--variable-gskqetMqj)
+  - `image6`: var(--variable-Ijci4mmoh)
+  - `image7`: var(--variable-ndVP_XJ9C)
+  - `image8`: var(--variable-OkEUMeKXM)
+  - `image9`: var(--variable-v4dZjSrOg)
+  - `speed`: 40
+- Used on: /collections/in-lucem/:In Lucem indiv-indiv [Desktop] (xmZq0TzfW)
+  - `edgeFade`: 0
+  - `fadeColour`: rgb(15,15,15)
+  - `gap`: 4
+  - `heightVh`: 70
+  - `image1`: var(--variable-qQTyG3UzL)
+  - `image2`: var(--variable-lvLqycddk)
+  - `image3`: var(--variable-JlGzqPYIw)
+  - `image4`: var(--variable-BBZVCp7hT)
+  - `image5`: var(--variable-nXZrt8jS5)
+  - `image6`: var(--variable-uASEH5Kyf)
+  - `image7`: var(--variable-sHmwJ6Rb2)
+  - `image8`: var(--variable-AvF8cfGNG)
+  - `speed`: 40
+- Used on: /collections/figurative-poetry/:Figurative Poetry indiv-indiv [Desktop] (fafELFUl9)
+  - `edgeFade`: 0
+  - `fadeColour`: rgb(15,15,15)
+  - `gap`: 4
+  - `heightVh`: 70
+  - `image1`: var(--variable-CAMum9KKW)
+  - `image2`: var(--variable-g3S58UsVY)
+  - `image3`: var(--variable-wmsEpYO_Q)
+  - `image4`: var(--variable-rnxbUy_iY)
+  - `image5`: var(--variable-E4sCdU0ua)
+  - `image6`: var(--variable-KCanrDABq)
+  - `image7`: var(--variable-JVFFtK2Ny)
+  - `image8`: var(--variable-VxqBdWU3l)
+  - `image9`: var(--variable-dh8z0tRiZ)
+  - `speed`: 40
+
+### WorksSearchGrid (`codeFile/nGENbFQ:default`)
+
+- Used on: /collections/andromeda [Desktop] (bzKL0yMs4)
+  - `cardBackground`: rgb(22, 22, 21)
+  - `columns`: 4
+  - `gap`: 24
+  - `highlight`: rgb(227, 202, 166)
+  - `image1`: https://framerusercontent.com/images/J5naN7YGObFmPasL5Rt9oJf5gn4.png
+  - `image2`: https://framerusercontent.com/images/FnUomTyqQgxAZEJCt5GktJinbQ.jpg
+  - `image3`: https://framerusercontent.com/images/lcaHx3z1ozhy4pC9knl473Hiji4.jpg
+  - `lineColor`: rgb(42, 42, 40)
+  - `link1`: {"collectionItem": "andromeda-adrasteo", "href": "/collections/andromeda/:slug"}
+  - `link2`: {"collectionItem": "andromeda-callisto", "href": "/collections/andromeda/:slug"}
+  - `link3`: {"collectionItem": "andromeda-devorah", "href": "/collections/andromeda/:slug"}
+  - `mutedColor`: rgb(138, 138, 134)
+  - `placeholder`: Search pieces in this collection…
+  - `textColor`: rgb(242, 242, 242)
+  - `title1`: Andromeda Adrasteo
+  - `title10`: 
+  - `title11`: 
+  - `title12`: 
+  - `title13`: 
+  - `title14`: 
+  - `title15`: 
+  - `title16`: 
+  - `title17`: 
+  - `title18`: 
+  - `title19`: 
+  - `title2`: Andromeda Callisto
+  - `title20`: 
+  - `title21`: 
+  - `title22`: 
+  - `title23`: 
+  - `title24`: 
+  - `title3`: Andromeda Devorah
+  - `title4`: 
+  - `title5`: 
+  - `title6`: 
+  - `title7`: 
+  - `title8`: 
+  - `title9`: 
+- Used on: /collections/fragments [Desktop] (JGBOfz0z8)
+  - `cardBackground`: rgb(22, 22, 21)
+  - `columns`: 4
+  - `gap`: 24
+  - `highlight`: rgb(227, 202, 166)
+  - `image1`: https://framerusercontent.com/images/R2gqHT7k6pqAvqZkwzdWRxN6w.jpg
+  - `image10`: https://framerusercontent.com/images/ET3yiPQiAcZA67Ym8zkzlgPUMbo.jpg
+  - `image11`: https://framerusercontent.com/images/MphZ3xM1T4DZSJx4TQ1oilitfr8.jpg
+  - `image2`: https://framerusercontent.com/images/qDsOpdxDRk86pzFAIat61Z6fM.jpg
+  - `image3`: https://framerusercontent.com/images/MCz5ybnOLqEsQDPCFdZMkzUbxo.jpg
+  - `image4`: https://framerusercontent.com/images/Pu4QvbyMXziauMARCQT6EkgLKkk.jpg
+  - `image5`: https://framerusercontent.com/images/6JZkuZ1CWt7PXw8jlK6dbPtkI.jpg
+  - `image6`: https://framerusercontent.com/images/Sx8AcDclGdumDVbFwv05qn4w.jpg
+  - `image7`: https://framerusercontent.com/images/ryUHmcleI6ZUECBHn0p6ba1Ecw.jpg
+  - `image8`: https://framerusercontent.com/images/LAbTflmrHvkFp71G5f07bWmvxnc.jpg
+  - `image9`: https://framerusercontent.com/images/5Q9xMeYGia6MM6RpwjTmiXp6aY.jpg
+  - `lineColor`: rgb(42, 42, 40)
+  - `link1`: {"collectionItem": "fragment-pomz-m2", "href": "/collections/fragments/:slug"}
+  - `link10`: {"collectionItem": "fragment-butterfly-pfm-1", "href": "/collections/fragments/:slug"}
+  - `link11`: {"collectionItem": "gatorman", "href": "/collections/fragments/:slug"}
+  - `link2`: {"collectionItem": "hades-bl-755", "href": "/collections/fragments/:slug"}
+  - `link3`: {"collectionItem": "fragment-claymore-m18a1", "href": "/collections/fragments/:slug"}
+  - `link4`: {"collectionItem": "fragment-putkimiina-m-68", "href": "/collections/fragments/:slug"}
+  - `link5`: {"collectionItem": "fragments-scatmine-blu-92", "href": "/collections/fragments/:slug"}
+  - `link6`: {"collectionItem": "fragments-suu-58", "href": "/collections/fragments/:slug"}
+  - `link7`: {"collectionItem": "fragment-hornet-m93", "href": "/collections/fragments/:slug"}
+  - `link8`: {"collectionItem": "fragment-hamdy-hak-1", "href": "/collections/fragments/:slug"}
+  - `link9`: {"collectionItem": "apple-p-40", "href": "/collections/fragments/:slug"}
+  - `mutedColor`: rgb(138, 138, 134)
+  - `placeholder`: Search pieces in this collection…
+  - `textColor`: rgb(242, 242, 242)
+  - `title1`: POMZ M2
+  - `title10`: Butterfly PFM 1
+  - `title11`: Gatorman
+  - `title12`: 
+  - `title13`: 
+  - `title14`: 
+  - `title15`: 
+  - `title16`: 
+  - `title17`: 
+  - `title18`: 
+  - `title19`: 
+  - `title2`: Hades BL 755
+  - `title20`: 
+  - `title21`: 
+  - `title22`: 
+  - `title23`: 
+  - `title24`: 
+  - `title3`: Claymore M18A1
+  - `title4`: Putkimiina M 68
+  - `title5`: Scatmine Blu 92
+  - `title6`: SUU-58
+  - `title7`: Hornet M93
+  - `title8`: Hamdy HAK-1
+  - `title9`: Apple P-40
+- Used on: /collections/spirit-collection [Desktop] (GsqmG9yji)
+  - `cardBackground`: rgb(22, 22, 21)
+  - `columns`: 4
+  - `gap`: 24
+  - `highlight`: rgb(227, 202, 166)
+  - `image1`: https://framerusercontent.com/images/C7GVouiooDiJ8kY3uJUykrTKVE.jpg
+  - `image10`: https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg
+  - `image11`: https://framerusercontent.com/images/DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg
+  - `image12`: https://framerusercontent.com/images/hqhYpXIJ7UOgRrd8dOso7btdhnE.jpg
+  - `image13`: https://framerusercontent.com/images/hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg
+  - `image14`: https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg
+  - `image15`: https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg
+  - `image16`: https://framerusercontent.com/images/ZTk7WolnKLfstI6Pho3EV1Q24.jpg
+  - `image17`: https://framerusercontent.com/images/kORz0X1sGNfxc1oQbqz5E8Afz0.jpg
+  - `image18`: https://framerusercontent.com/images/uIkt1OfotA2uS3STlkzP9ag.jpg
+  - `image19`: https://framerusercontent.com/images/78baAnP9tbhxuqUXf2f1mzGo08.jpg
+  - `image2`: https://framerusercontent.com/images/Rv3qtmIXL22cWIaujowH1dciYws.jpg
+  - `image20`: https://framerusercontent.com/images/4DL1aqjebC8bDgnvAODF4BsSA4Y.jpg
+  - `image21`: https://framerusercontent.com/images/PHVvw5esASYLZoE2L5sevUnRQ.jpg
+  - `image3`: https://framerusercontent.com/images/7kKB863UklJvJZn4bxv7n5ucGQ.jpg
+  - `image4`: https://framerusercontent.com/images/574UdZk5eubmgUHg6RyudTUN4.png
+  - `image5`: https://framerusercontent.com/images/1ilLDDYibT0eJsLkIQlT5cng8M.jpg
+  - `image6`: https://framerusercontent.com/images/2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg
+  - `image7`: https://framerusercontent.com/images/Obiz6637tab2rEoNf5FZyz6xxdg.jpg
+  - `image8`: https://framerusercontent.com/images/gTVictnOFeocBGvHUcwiaMdgI.jpg
+  - `image9`: https://framerusercontent.com/images/fWiaWeZiWiyPxowaI4EHCQUn52w.jpg
+  - `lineColor`: rgb(42, 42, 40)
+  - `link1`: {"collectionItem": "goddess-ma-at", "href": "/collections/spirit-collection/:slug"}
+  - `link10`: {"collectionItem": "angel-ecanus", "href": "/collections/spirit-collection/:slug"}
+  - `link11`: {"collectionItem": "angel-leylah", "href": "/collections/spirit-collection/:slug"}
+  - `link12`: {"collectionItem": "angel-ishtar", "href": "/collections/spirit-collection/:slug"}
+  - `link13`: {"collectionItem": "angel-bastet", "href": "/collections/spirit-collection/:slug"}
+  - `link14`: {"collectionItem": "angel-hael", "href": "/collections/spirit-collection/:slug"}
+  - `link15`: {"collectionItem": "angel-tahere", "href": "/collections/spirit-collection/:slug"}
+  - `link16`: {"collectionItem": "goddess-neith", "href": "/collections/spirit-collection/:slug"}
+  - `link17`: {"collectionItem": "angel-asherah", "href": "/collections/spirit-collection/:slug"}
+  - `link18`: {"collectionItem": "angel-dalquielle", "href": "/collections/spirit-collection/:slug"}
+  - `link19`: {"collectionItem": "angel-daniel", "href": "/collections/spirit-collection/:slug"}
+  - `link2`: {"collectionItem": "angel-forces", "href": "/collections/spirit-collection/:slug"}
+  - `link20`: {"collectionItem": "angel-azrael", "href": "/collections/spirit-collection/:slug"}
+  - `link21`: {"collectionItem": "angel-angthal", "href": "/collections/spirit-collection/:slug"}
+  - `link3`: {"collectionItem": "angel-camael", "href": "/collections/spirit-collection/:slug"}
+  - `link4`: {"collectionItem": "angel-vohamanah", "href": "/collections/spirit-collection/:slug"}
+  - `link5`: {"collectionItem": "angel-hamiah", "href": "/collections/spirit-collection/:slug"}
+  - `link6`: {"collectionItem": "angel-urim", "href": "/collections/spirit-collection/:slug"}
+  - `link7`: {"collectionItem": "angel-valoel", "href": "/collections/spirit-collection/:slug"}
+  - `link8`: {"collectionItem": "angel-sariel", "href": "/collections/spirit-collection/:slug"}
+  - `link9`: {"collectionItem": "angel-assiel", "href": "/collections/spirit-collection/:slug"}
+  - `mutedColor`: rgb(138, 138, 134)
+  - `placeholder`: Search pieces in this collection…
+  - `textColor`: rgb(242, 242, 242)
+  - `title1`: Goddess Ma'at
+  - `title10`: Angel Ecanus
+  - `title11`: Angel Leylah
+  - `title12`: Angel Ishtar
+  - `title13`: Angel Bastet
+  - `title14`: Angel Hael
+  - `title15`: Angel Tahere
+  - `title16`: Goddess Neith
+  - `title17`: Angel Asherah
+  - `title18`: Angel Dalquielle
+  - `title19`: Angel Daniel
+  - `title2`: Angel Forces
+  - `title20`: Angel Azrael
+  - `title21`: Angel Angthal
+  - `title22`: 
+  - `title23`: 
+  - `title24`: 
+  - `title3`: Angel Camael
+  - `title4`: Angel Vohamanah
+  - `title5`: Angel Hamiah
+  - `title6`: Angel Urim
+  - `title7`: Angel Valoel
+  - `title8`: Angel Sariel
+  - `title9`: Angel Assiel
+- Used on: /collections/in-lucem [Desktop] (pWc03D0Ra)
+  - `cardBackground`: rgb(22, 22, 21)
+  - `columns`: 4
+  - `gap`: 24
+  - `highlight`: rgb(227, 202, 166)
+  - `image1`: https://framerusercontent.com/images/qgFMWFuGtddNm4jDPBKwG76tzc4.jpg
+  - `image2`: https://framerusercontent.com/images/IBraZoO3YKieRN4okGakIFKsxYs.jpg
+  - `image3`: https://framerusercontent.com/images/pk0cz65x3ZA2LmUvxQddGxpTUE.jpg
+  - `image4`: https://framerusercontent.com/images/Umo72WuUlIwZXSf5EZcZgPZ14g.jpg
+  - `image5`: https://framerusercontent.com/images/O1j4Fx8xnVGwNJA7EMKsyS7uvs.png
+  - `image6`: https://framerusercontent.com/images/8Id870QT4QRyhtQk3Dufh5zsfNY.png
+  - `image7`: https://framerusercontent.com/images/YxdO8xhNu8hZPWMlQfgxvbIs8U.png
+  - `lineColor`: rgb(42, 42, 40)
+  - `link1`: {"collectionItem": "studrats", "href": "/collections/in-lucem/:slug"}
+  - `link2`: {"collectionItem": "woof", "href": "/collections/in-lucem/:slug"}
+  - `link3`: {"collectionItem": "in-lucem-the-steel-studio", "href": "/collections/in-lucem/:slug"}
+  - `link4`: {"collectionItem": "letthelightin", "href": "/collections/in-lucem/:slug"}
+  - `link5`: {"collectionItem": "traumtaub", "href": "/collections/in-lucem/:slug"}
+  - `link6`: {"collectionItem": "restless-angels", "href": "/collections/in-lucem/:slug"}
+  - `link7`: {"collectionItem": "can-you-fix-it", "href": "/collections/in-lucem/:slug"}
+  - `mutedColor`: rgb(138, 138, 134)
+  - `placeholder`: Search pieces in this collection…
+  - `textColor`: rgb(242, 242, 242)
+  - `title1`: STUDRATS
+  - `title10`: 
+  - `title11`: 
+  - `title12`: 
+  - `title13`: 
+  - `title14`: 
+  - `title15`: 
+  - `title16`: 
+  - `title17`: 
+  - `title18`: 
+  - `title19`: 
+  - `title2`: WOOF?
+  - `title20`: 
+  - `title21`: 
+  - `title22`: 
+  - `title23`: 
+  - `title24`: 
+  - `title3`: In Lucem : The Steel Studio
+  - `title4`: LETTHELIGHTIN
+  - `title5`: TRAUMTAUB
+  - `title6`: Restless Angels
+  - `title7`: CAN YOU FIX IT ?
+  - `title8`: 
+  - `title9`: 
+- Used on: /collections/figurative-poetry [Desktop] (cwIH0eSOI)
+  - `cardBackground`: rgb(22, 22, 21)
+  - `columns`: 4
+  - `gap`: 24
+  - `highlight`: rgb(227, 202, 166)
+  - `image1`: https://framerusercontent.com/images/edftNZaauJhkan8yTUgi3WMAKac.jpg
+  - `image2`: https://framerusercontent.com/images/35ng1LD7thUoFnKRShsiZyziSA.png
+  - `image3`: https://framerusercontent.com/images/XQXgRY2FgkKoJNhConKFozXNq0.png
+  - `image4`: https://framerusercontent.com/images/Lz4it7e4E3BodzdkqQ5yX9sZ8I.png
+  - `image5`: https://framerusercontent.com/images/Ety9kGKMQ37RAdxO87qHlbw.png
+  - `image6`: https://framerusercontent.com/images/pXBg1VgTuUfaxvUMqPxX5CFtlU.png
+  - `lineColor`: rgb(42, 42, 40)
+  - `link1`: {"collectionItem": "broken", "href": "/collections/figurative-poetry/:slug"}
+  - `link2`: {"collectionItem": "coming-apart-at-the-seams", "href": "/collections/figurative-poetry/:slug"}
+  - `link3`: {"collectionItem": "loosing-myself-in-you", "href": "/collections/figurative-poetry/:slug"}
+  - `link4`: {"collectionItem": "das-ich-und-das-esch", "href": "/collections/figurative-poetry/:slug"}
+  - `link5`: {"collectionItem": "damaged", "href": "/collections/figurative-poetry/:slug"}
+  - `link6`: {"collectionItem": "kaboom", "href": "/collections/figurative-poetry/:slug"}
+  - `mutedColor`: rgb(138, 138, 134)
+  - `placeholder`: Search pieces in this collection…
+  - `textColor`: rgb(242, 242, 242)
+  - `title1`: BROKEN
+  - `title10`: 
+  - `title11`: 
+  - `title12`: 
+  - `title13`: 
+  - `title14`: 
+  - `title15`: 
+  - `title16`: 
+  - `title17`: 
+  - `title18`: 
+  - `title19`: 
+  - `title2`: COMING APART AT THE SEAMS
+  - `title20`: 
+  - `title21`: 
+  - `title22`: 
+  - `title23`: 
+  - `title24`: 
+  - `title3`: Loosing Myself in YOU
+  - `title4`: Das Ich Und Das Esch
+  - `title5`: Damaged
+  - `title6`: KABOOM!
+  - `title7`: 
+  - `title8`: 
+  - `title9`: 
+
+### Smooth Scroll (`Yppqt3Cs3Y8TZqvASnXl`)
+
+- Used on: / [Desktop] (lF2tlJrHg); /trial [Desktop] (OwWRQGqR9); /contact [Desktop] (eZX2jSxj8); /news [Desktop] (MknA2u6VA); /news/:News [Desktop] (AIzBHcdab); /collections [Desktop] (AFrQik4Ju); /boky-bio [Desktop] (wRVgRgkNP)
+  - `intensity`: 30
+
+### Parallax Floating (`FJ6Tdhm43j9BNWb0QHUP`)
+
+- Used on: / [Desktop] (MPa2kQPyr)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 25
+- Used on: / [Desktop] (XNevxVmMo)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 50
+- Used on: / [Desktop] (fni4prZB7)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 200
+- Used on: / [Desktop] (N4BkhVEl3); / [Desktop] (gOKCBcW1g)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 45
+- Used on: / [Desktop] (KMCEOJKHi)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 65
+- Used on: / [Desktop] (ks2BjV1em)
+  - `direction`: Away
+  - `enabled`: true
+  - `smoothing`: 100
+  - `speed`: 20
+
+### Draggable Ticker (`qgPXZgoqu4R8erDqmQeL`)
+
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (ceayjYuX1)
+  - `align`: center
+  - `children`: ["s6CmqKn5v", "UH0Kb1e_E", "qGgrq0a8k", "CzyOHbpsg", "ztZ4OYiDU", "m7ZJR_B1Q", "fpZU4w0b5", "ithtqEIj9", "EaclknYwZ", "Y5Z3XoiS8", "btMPGbczg"]
+  - `clipping`: {fadeContent: false, overflow: false, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `direction`: Left
+  - `draggable`: true
+  - `gap`: 0
+  - `hover`: 1
+  - `momentum`: 0.95
+  - `onThrow`: Follow Drag
+  - `padding`: 0px
+  - `sizing`: {widthType: true, heightType: true}
+  - `speed`: 100
+
+### Slideshow (`ZojagHbtw`)
+
+- Used on: /trial [Desktop] (ZB_3pfE8M)
+  - (no props overridden, component defaults)
+- Used on: [Default Template] [Desktop] (yZ5X6uf3f)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0, 0, 0, 0.13)"},"leftArrow":{"type":"image","value":"data:framer/asset-reference,Ww1UKQirCoOC2aQwo9tBmZHkyIY.jpg?originalFilename=Angel+Azrael+DSC03951.jpg&width=5089&height=7630"},"rightArrow":{"type":"i...
+  - `autoPlay`: true
+  - `clipping`: {fadeContent: false, overflow: false, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: []
+  - `current`: 0
+  - `direction`: Right
+  - `dots`: {showProgressDots: true, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: false
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: true, playOffscreen: false}
+  - `gap`: 10
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: [component Components/Elements/Slideshow] [Default] (N0HSqvwK8)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":false},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":40},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fa...
+  - `autoPlay`: true
+  - `clipping`: {fadeContent: false, overflow: false, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["kAItuJNeR", "kVuzKO7gv", "tJejAvXpn", "l0DXcDc3a", "ZHxD3U4ob", "IelU3fyTf", "kVuzKO7gv"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: false
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: true, playOffscreen: true}
+  - `gap`: 0
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":128,"damping":40,"mass":1,"stagger":0}
+- Used on: [component Components/Slideshow 2] [Default] (qtjxWFjfS)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":false},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":40},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fa...
+  - `autoPlay`: true
+  - `clipping`: {fadeContent: false, overflow: false, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["Y9e2Jhug1", "ARFZTUGza", "crtzBhhmU", "flWDNKQ_q", "kFIgFlzdK", "JocFSoevn", "RX1iJ_3Bp"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: false
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: true, playOffscreen: true}
+  - `gap`: 0
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":128,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/fragments/:Fragments [Desktop] (JKC5scqH4)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["v7Oc_HMOK", "lekk3Qpj9", "HlHOOEwkd", "yCPxQVIeg", "Q63udqSaC", "QwkO6x0VE", "UPwKUt893", "OlQVrr2Yq", "kfNzAF1rn", "hsJP5OUKx"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (P96AIju9e)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["GAmJ8WdHl", "Y5Z3XoiS8"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (ou6qZiqax)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["HbV1bCAxF", "GUscPWjca", "nDcOXfBxo", "gZBNilGmm", "j7NNIMt2S", "RUwYg8yUH", "H_KPx8Z_K", "SQaw64Yrn", "Wt14LCKe2", "GAmJ8WdHl", "NZ7C4XYCj", "BwYhCNKcN"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (AwDIXBPSP)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["GUscPWjca", "nDcOXfBxo", "gZBNilGmm", "j7NNIMt2S", "RUwYg8yUH", "H_KPx8Z_K", "SQaw64Yrn", "Wt14LCKe2", "GAmJ8WdHl", "NZ7C4XYCj", "BwYhCNKcN", "HbV1bCAxF"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (SjzG_H8Os)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["nDcOXfBxo", "gZBNilGmm", "j7NNIMt2S", "RUwYg8yUH", "H_KPx8Z_K", "NZ7C4XYCj", "BwYhCNKcN", "HbV1bCAxF", "GUscPWjca"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (YIJICizLp)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["gZBNilGmm", "j7NNIMt2S", "RUwYg8yUH", "H_KPx8Z_K", "NZ7C4XYCj", "BwYhCNKcN", "HbV1bCAxF", "GUscPWjca", "nDcOXfBxo"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Used on: /collections/spirit-collection/:Spirit Collection [Desktop] (fq8aASgvA)
+  - `align`: center
+  - `arrows`: {"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":39},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - `autoPlay`: false
+  - `clipping`: {fadeContent: false, overflow: true, fadeWidth: 25, fadeInset: 0, fadeAlpha: 0}
+  - `content`: ["j7NNIMt2S", "RUwYg8yUH", "H_KPx8Z_K", "NZ7C4XYCj", "BwYhCNKcN", "HbV1bCAxF", "GUscPWjca", "nDcOXfBxo", "gZBNilGmm"]
+  - `current`: 0
+  - `direction`: Left
+  - `dots`: {showProgressDots: false, dotSize: 10, dotsInset: 10, dotsGap: 10, dotsPadding: 10, dotsFill: "#fff", dotsBackground: "rgba(0,0,0,0.2)", dotsRadius: 50, dotsOpacity: 0.5, dotsActiveOpacity: 1, dotsBlur: 0}
+  - `draggable`: true
+  - `effects`: {effectsOpacity: 1, effectsScale: 1, effectsPerspective: 1200, effectsRotate: 0, effectsHover: false, playOffscreen: false}
+  - `gap`: 80
+  - `interval`: 1.5
+  - `items`: 1
+  - `padding`: 0px
+  - `radius`: 0
+  - `transition`: {"type":"spring","ease":[0.44,0,0.56,1],"duration":0.3,"delay":0,"stiffness":200,"damping":40,"mass":1,"stagger":0}
+- Responsive overrides:
+  - /collections/fragments/:Fragments Tablet: `arrows`={"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":40},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+  - /collections/fragments/:Fragments Phone: `autoPlay`=true, `arrows`={"showMouseControls":{"type":"boolean","value":true},"arrowFill":{"type":"color","value":"rgba(0,0,0,0.2)"},"leftArrow":{"type":"image"},"rightArrow":{"type":"image"},"arrowSize":{"type":"number","value":40},"arrowRadius":{"type":"number","value":40},"arrowShouldFadeIn":{"type":"boolean","value":fal...
+
+### Slideshow 2 (`pLmRoX9GX`)
+
+- Used on: /boky-bio [Desktop] (qCRLesw3w)
+  - `image1`: https://framerusercontent.com/images/RF4EkGoaD5KWlJGAbCerv8Gle4.jpg
+  - `image2`: https://framerusercontent.com/images/SOnPZJXYWgkRGLxp1MoixA09sUU.jpg
+  - `image3`: https://framerusercontent.com/images/bOtuducrW24t1QRFUVzKhZBOaO8.jpg
+  - `image4`: https://framerusercontent.com/images/8H1DBeaspL47WubBCma8XOBhtyo.jpg
+  - `image5`: https://framerusercontent.com/images/yzBtiBXzBLGXYBrGnECxujLUg1s.jpg
+  - `image6`: {"alt": "", "src": "https://framerusercontent.com/images/tyrK4kdItMKCfotqwaYG0pjLo8k.png"}
+  - `image7`: {"alt": "", "src": "https://framerusercontent.com/images/rkDrw4jjQNQH4ive7Onx5MBfA.png"}
+
+### Counter (`yTZXL9EHML7pPhBCpXTS`)
+
+- Used on: / [Desktop] (SCstb8RtQ)
+  - `endNumber`: 78
+  - `font`: {"fontSelector":"FS;Switzer-italic"}
+  - `fontColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `fontSize`: 90
+  - `gapSize`: 4
+  - `incrementType`: Integer
+  - `loopAnimation`: false
+  - `prefix`: 
+  - `prefixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `replay`: true
+  - `separator`: None
+  - `speedMs`: 50
+  - `startNumber`: 40
+  - `suffix`: +
+  - `suffixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `viewport`: true
+- Used on: / [Desktop] (T9tbS5oG8)
+  - `endNumber`: 12
+  - `font`: {"fontSelector":"FS;Switzer-italic"}
+  - `fontColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `fontSize`: 90
+  - `gapSize`: 4
+  - `incrementType`: Integer
+  - `loopAnimation`: false
+  - `prefix`: 
+  - `prefixColor`: var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)
+  - `replay`: true
+  - `separator`: None
+  - `speedMs`: 50
+  - `startNumber`: 0
+  - `suffix`: 
+  - `suffixColor`: var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)
+  - `viewport`: true
+- Used on: / [Desktop] (UXWKxgMAJ)
+  - `endNumber`: 29
+  - `font`: {"fontSelector":"FS;Switzer-italic"}
+  - `fontColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `fontSize`: 90
+  - `gapSize`: 4
+  - `incrementType`: Integer
+  - `loopAnimation`: false
+  - `prefix`: 
+  - `prefixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `replay`: false
+  - `separator`: None
+  - `speedMs`: 50
+  - `startNumber`: 20
+  - `suffix`: 
+  - `suffixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `viewport`: true
+- Used on: / [Desktop] (ActXe3ha_)
+  - `endNumber`: 350
+  - `font`: {"fontSelector":"FS;Switzer-italic"}
+  - `fontColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `fontSize`: 90
+  - `gapSize`: 4
+  - `incrementType`: Integer
+  - `loopAnimation`: false
+  - `prefix`: 
+  - `prefixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `replay`: true
+  - `separator`: None
+  - `speedMs`: 50
+  - `startNumber`: 80
+  - `suffix`: +
+  - `suffixColor`: var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)
+  - `viewport`: true
+
+### Image (`4FYXL5lQz9cgJ2BJkaNV`)
+
+- Used on: [component Components/Cards/Project Thumbnail] [Tablet Mobile] (puDS0siTQX8aaHjIbA); [component Components/Cards/Project Thumbnail] [Desktop] (pa3L9ut29X8aaHjIbA); [component Components/Cards/Project Thumbnail] [Desktop] (X8aaHjIbA)
+  - `alt`: Title
+  - `border`: null
+  - `newTab`: true
+  - `padding`: 0
+  - `radius`: 0
+  - `shadow`: null
+
+### Material (`6Ldpz1V0DkD45gXvi67I`)
+
+- Used on: [component Components/Buttons/CTA Button] [Button Secondary] (HSITaxV5KvCtVqfWNO); [component Components/Buttons/CTA Button] [Button] (Lt7H8IC4WvCtVqfWNO); [component Components/Buttons/CTA Button] [Button] (vCtVqfWNO)
+  - `color`: var(--token-4d33ac77-1285-4245-a35a-b7f0118e2cb7)
+  - `mirrored`: true
+  - `name1`: Home
+  - `select`: true
+  - `style`: Filled
+  - `style1`: Filled
+  - `style2`: Filled
+- Used on: [component Components/Buttons/CTA Button] [Button Secondary] (ItYJ8mU4EvCtVqfWNO)
+  - `color`: var(--token-091a6055-6360-4811-9192-2b92995d5732)
+  - `mirrored`: true
+  - `name1`: Home
+  - `select`: true
+  - `style`: Filled
+  - `style1`: Filled
+  - `style2`: Filled
+
+### Hero Image (`pEH6O5jlf`)
+
+- Used on: / [Desktop] (Q2C36lHIe)
+  - `image`: https://framerusercontent.com/images/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg
+- Used on: / [Desktop] (cnxwbzC1q)
+  - `image`: https://framerusercontent.com/images/wJCficzyaoM54jiBIEbaVDsfo18.jpg
+  - `link`: /boky-bio
+- Used on: / [Desktop] (R8b81GiY1)
+  - `image`: https://framerusercontent.com/images/kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg
+  - `link`: /blake-bio
+- Used on: / [Desktop] (YGPZd6EU0)
+  - `image`: https://framerusercontent.com/images/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg
+- Used on: / [Desktop] (z7zQhP3mg)
+  - `image`: https://framerusercontent.com/images/xc5jfMF8TMDBKASdj6jUrRjOeog.jpg
+  - `link`: collections/the-fragments-collection
+- Used on: / [Desktop] (c8pcAlzpW)
+  - `image`: https://framerusercontent.com/images/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg
+- Used on: / [Desktop] (OTIYfi5_I)
+  - `image`: https://framerusercontent.com/images/I26kbXbOTxVxG4D09wimVjsyYY.jpg

@@ -1,0 +1,2193 @@
+{
+  "collection": "Collections",
+  "collectionId": "iPaz0HKEb",
+  "detailPageId": null,
+  "itemCount": 14,
+  "publishedCount": 13,
+  "items": [
+    {
+      "id": "MXz7H_65O",
+      "draft": true,
+      "fields": {
+        "Title": "Conceptual works",
+        "Slug": "conceptual-works",
+        "Category": "Boky Hackel",
+        "Year": "2010",
+        "Size": null,
+        "Medium": null,
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:MXz7H_65O/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MXz7H_65O/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "A series of Conceptual artworks ranging from photography (Zeitgeist) to Film (Le Roi Est Mort) "
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": null,
+        "Credits": null,
+        "Full Width Layout": null,
+        "Lora from Another Land": null,
+        "MAYA marble": null,
+        "ushabti ryuu": null,
+        "Sharon Marble": null,
+        "Marble Larkin": null,
+        "Next Project": "G_8MT5OIG",
+        "Link": "/collections/coming-soon-boky",
+        "One Collection": null,
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "Uq9nAiHmW",
+      "draft": false,
+      "fields": {
+        "Title": "Andromeda Collection",
+        "Slug": "andromeda-collection",
+        "Category": "Blake Ward",
+        "Year": "2024",
+        "Size": null,
+        "Medium": "3D rendering, Bronze Casting ",
+        "Intro": null,
+        "Middle Text": null,
+        "Credits": null,
+        "Full Width Layout": "false",
+        "Lora from Another Land": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+        "MAYA marble": "https://framerusercontent.com/images/RxF8jP3Cq0iqlDkIHurAwv2mJU.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/ulbfiZV5QzjKmJIVhkMDjHPrDo.jpeg",
+        "Sharon Marble": null,
+        "Marble Larkin": null,
+        "Next Project": "aTwYATbJ9",
+        "Link": "/collections/coming-soon-blake",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "IQmCdQ7D6",
+      "draft": false,
+      "fields": {
+        "Title": "Spirit Collection : The Angels ",
+        "Slug": "spirit-collection",
+        "Category": "Collaborative ",
+        "Year": "2011 - 2022",
+        "Size": "",
+        "Medium": "Bronze, Gold",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "The foundation of Blake and Boky's collaborative work. This collection explores the beauty within, opening up the figure and diving into the inner structure. The driving force behind this project was to expose the inner world of the figure, one that usually isn't seen. Drawing attention to what is usually hidden became a conduit for deeper introspection. Subsequently, the engineering behind this first desire to open the figure also tied into the second desire : allowing the sculpture to be both static and in movement. Every artwork in this collection is subject to the rule of physics whereby their structure allows them to \"dance\" and be alive in accordance to their environment. "
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "\"Transcending traditional techniques while staying true to the essence of figurative sculpture is at the core of the Spirits collection.\" "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:IQmCdQ7D6/WqXEfNtWc:0:1"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:IQmCdQ7D6/WqXEfNtWc:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/WqXEfNtWc:0:3",
+                "attributes": {
+                  "text": "The figure must be explored fully in order to be understood"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/WqXEfNtWc:1",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/WqXEfNtWc:1:0",
+                "attributes": {
+                  "text": "The collaborative process started in 2011 with Angel NUMBER 1 and continued into ect;;;"
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "In Order of Appearance ",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "Angel Asherah "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:2:0",
+                "attributes": {
+                  "text": "Angel Liwet "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:3:0",
+                "attributes": {
+                  "text": "Angel ZUriel "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:4:0",
+                "attributes": {
+                  "text": "Ushabtit seqet and ji"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:5:0",
+                "attributes": {
+                  "text": "Angel Aquariel "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:6:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IQmCdQ7D6/fIyAgDaR4:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IQmCdQ7D6/fIyAgDaR4:7:0",
+                "attributes": {
+                  "text": "All Photos by Phil Hill "
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "false",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?scale-down-to=1024",
+          "alt": "asherah"
+        },
+        "MAYA marble": {
+          "src": "https://framerusercontent.com/images/t5edCI0aCEE2GX8frGn65YXy35c.jpg",
+          "alt": "Angel Liwet "
+        },
+        "ushabti ryuu": {
+          "src": "https://framerusercontent.com/images/5zg9ObsV2zIDippfMfqf80v82Q.jpg",
+          "alt": "Angel Zuriel "
+        },
+        "Sharon Marble": {
+          "src": "https://framerusercontent.com/images/lgNoRHV3UqDY86QZpPPmIgNNc.jpg",
+          "alt": "Ushabtis "
+        },
+        "Marble Larkin": {
+          "src": "https://framerusercontent.com/images/rRC5wOudDkX446ttZ1fKLxd7ds.jpg",
+          "alt": "Angel Aquariel "
+        },
+        "Next Project": "woazmjhha",
+        "Link": "/collections/spirit-collection",
+        "One Collection": null,
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "woazmjhha",
+      "draft": false,
+      "fields": {
+        "Title": "Spirit Collection : The Phantoms ",
+        "Slug": "spirit-collection-the-phantoms",
+        "Category": "Collaborative ",
+        "Year": "2011 - Present",
+        "Size": "8 artworks ",
+        "Medium": "Bronze",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:woazmjhha/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:woazmjhha/pNFKTmaam:0:0"
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:woazmjhha/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:woazmjhha/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "The Phantoms - spirits from beyond don't haunt, they guide us. The concept of death within spirituality is one we felt needed to be explored further. "
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:woazmjhha/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:woazmjhha/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "In order of appearance ",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:woazmjhha/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:woazmjhha/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "Phantom Elixir "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:woazmjhha/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:woazmjhha/fIyAgDaR4:2:0",
+                "attributes": {
+                  "text": "Phantom Nix "
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+          "alt": "Phantom Elixir"
+        },
+        "MAYA marble": {
+          "src": "https://framerusercontent.com/images/Hei52qJr1KGfDJemVWf3TNIIKE.jpg",
+          "alt": "Phantom Nix "
+        },
+        "ushabti ryuu": {
+          "src": "https://framerusercontent.com/images/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+          "alt": "PHantom Avira "
+        },
+        "Sharon Marble": "https://framerusercontent.com/images/wV3vqVEcTJiLI7YKHuGXTS8ik.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/FpH0Reo73cqTXiyyiwIUJIcBZk.jpg",
+        "Next Project": "CTaA017fn",
+        "Link": "/collections/spirit-collection",
+        "One Collection": null,
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "CTaA017fn",
+      "draft": false,
+      "fields": {
+        "Title": "Spirit Collection : The Ushabtis ",
+        "Slug": "spirit-collection-ushabtis",
+        "Category": "Collaborative ",
+        "Year": "2011 - Present ",
+        "Size": "15 artworks  ",
+        "Medium": "Bronze, Gold ",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:CTaA017fn/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Good design isn’t just what you see — it’s what you feel, understand, and remember. Here’s a curated collection of 20 design projects that explore form, function, and storytelling. From bold visuals to minimal systems, each piece is an invitation to look closer and think deeper."
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:CTaA017fn/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "the figure isn’t linear. It’s a loop of questions, trials, and tiny revelations."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CTaA017fn/WqXEfNtWc:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/WqXEfNtWc:0:2",
+                "attributes": {
+                  "text": "This midway pause is here to remind you: creativity often lives in the details, in the whitespace, in the ideas that almost got scrapped. Keep exploring — the second half is just as intentional."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:CTaA017fn/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "In order of Appearance ",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CTaA017fn/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "mafdet & mayet ",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:1"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:3",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:4",
+                "attributes": {
+                  "text": " — Phil Hill"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CTaA017fn/fIyAgDaR4:1:5"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CTaA017fn/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:CTaA017fn/fIyAgDaR4:2:0"
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+          "alt": "mafdet mayet"
+        },
+        "MAYA marble": {
+          "src": "https://framerusercontent.com/images/EWXYA0krRL82nI9224eUl1yNYU.jpg",
+          "alt": "ubasti"
+        },
+        "ushabti ryuu": {
+          "src": "https://framerusercontent.com/images/YVF5cqf3GuoPtHqMjXcWOCiqQ.jpg",
+          "alt": "Ryuu"
+        },
+        "Sharon Marble": {
+          "src": "https://framerusercontent.com/images/6N7rjujWeLHAuJXA4TIskXgI2E.jpg",
+          "alt": "NUit "
+        },
+        "Marble Larkin": {
+          "src": "https://framerusercontent.com/images/Nqts8Ty7vVJkHC832dqJ6FQLY74.jpg",
+          "alt": "prophet M1 & 2"
+        },
+        "Next Project": "LNIB7H1Au",
+        "Link": "/collections/spirit-collection",
+        "One Collection": null,
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "LNIB7H1Au",
+      "draft": false,
+      "fields": {
+        "Title": "Rethink Collection",
+        "Slug": "rethink-collection",
+        "Category": "Blake Ward",
+        "Year": "2005 - Present ",
+        "Size": "19 artworks ",
+        "Medium": "Bronze ",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:LNIB7H1Au/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Re-Think Collection is dedicated to the promotion of human rights."
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:LNIB7H1Au/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "The ReThink Collection began to take form slowly and without a specific intention to build a series of sculpture that commented on Human Rights or the actions of authoritarian governments. (1989 Emerging Continents, commenting on the Tiananmen Square Massacre). Nor did I ever think that the issue of Women’s Rights, (which inspired the sculptural work; The Burden – Glass Ceiling) would become a source of energy to build socio-political works. Yet, The Bench, provided an opportunity to present commentary on an historic injustice and thus I designed it to be supported by two males as caryatides, facing forward holding each end of the seat while a lone female figure supported the back of the platform, facing in the opposite direction."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:LNIB7H1Au/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "Artist ",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:1",
+                "attributes": {
+                  "text": "— Blake Ward "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:3",
+                "attributes": {
+                  "text": "Design",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:4",
+                "attributes": {
+                  "text": " — Tomas Nguyen, Clara Delaunay, Idriss B."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:6",
+                "attributes": {
+                  "text": "3D & Motion & Interaction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:7",
+                "attributes": {
+                  "text": " — Felix Rocha, Hanae Sato"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:9",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:LNIB7H1Au/fIyAgDaR4:0:10",
+                "attributes": {
+                  "text": " — Phil Hill "
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+          "alt": "Orange Flower"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/1g1GgkTy6cNThOv4ktoP6aOi5l8.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/QUGNEunXhNLesJxdK06YHqVAU8.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/sATqvYVgRwCaIxkGryvntx6kiI.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/7APjy4CFhFRFKhB7RwYfj5Q8gE.jpg",
+        "Next Project": "QH4VWT3IS",
+        "Link": "/collections/in-lucem",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "HtyGW_ul4",
+      "draft": false,
+      "fields": {
+        "Title": "The Fragments Collection ",
+        "Slug": "the-fragments-collection",
+        "Category": "Blake Ward",
+        "Year": null,
+        "Size": null,
+        "Medium": null,
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:HtyGW_ul4/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:HtyGW_ul4/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "SCULPTURE FOR PEACE"
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:HtyGW_ul4/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:HtyGW_ul4/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "SCULPTURE FOR PEACE"
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:HtyGW_ul4/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:HtyGW_ul4/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "SCULPTURE FOR PEACE"
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": null,
+        "Lora from Another Land": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+        "MAYA marble": "https://framerusercontent.com/images/v11edsikYWVyvmRVc1nwGv1prIA.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/utsq8VNNkM5qWZPIq5ncTF6KIuU.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/gPXnlvFuO8md1l8DInIwRtEGPo.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/WT3AKAyS5BqBA2sqWfshKRBUJw.jpg",
+        "Next Project": "G_8MT5OIG",
+        "Link": "/collections/fragments",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "QH4VWT3IS",
+      "draft": false,
+      "fields": {
+        "Title": "In Lucem ",
+        "Slug": "inlucem",
+        "Category": "Boky Hackel",
+        "Year": null,
+        "Size": "7 artworks ",
+        "Medium": "Galvanised Steel, LED ",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "This sculpture is a quiet reflection on our role in the degradation of our ecosystem and the challenges of the Anthropocene era. It resonates with the humanitarian crises and the shadows of war that cloud our world. Yet, it refuses to surrender to despair. The inversion challenges us to re-evaluate our approach, to question the status quo, and to consider a path toward healing."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/pNFKTmaam:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/pNFKTmaam:1:0",
+                "attributes": {
+                  "text": "The radiant light that emanates from the sculpture is not just symbolic; it's a promise—a promise that we possess the power to mend, to restore, and to flourish. It reminds us that even when our world seems to hang upside down, we have the ability to set it right and create a future where our dreams can indeed flourish."
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "In its minimalist elegance, this sculpture serves as a poignant call to awaken from our environmental apathy. It implores us to listen to the cries of a planet in peril, to acknowledge the urgency of the Anthropocene, and to take tangible steps to mitigate the destruction of our ecosystem."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "In order of Appearance ",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "LetTheLightIn "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:2:0",
+                "attributes": {
+                  "text": "Traumtaub "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:3:0",
+                "attributes": {
+                  "text": "CanYouFixIt "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:4:0",
+                "attributes": {
+                  "text": "OneHundredHeartbeatsAway "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:5:0",
+                "attributes": {
+                  "text": "WhiskeyTangoFoxtrot"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:6:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QH4VWT3IS/fIyAgDaR4:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:0",
+                "attributes": {
+                  "text": "Artist ",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:1",
+                "attributes": {
+                  "text": "— Boky Hackel-Ward "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:3",
+                "attributes": {
+                  "text": "Design",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:4",
+                "attributes": {
+                  "text": " — "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:6",
+                "attributes": {
+                  "text": "Technical Assistant ",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:7",
+                "attributes": {
+                  "text": " — Enzo "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:9",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QH4VWT3IS/fIyAgDaR4:7:10",
+                "attributes": {
+                  "text": " — "
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "false",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+          "alt": "letthelight in "
+        },
+        "MAYA marble": "https://framerusercontent.com/images/HzAJYilifx65r5dAoy1hyWLjWuk.png",
+        "ushabti ryuu": "https://framerusercontent.com/images/MOtfWGKjRCKuRqeE2um1Pn3ODbs.png",
+        "Sharon Marble": "https://framerusercontent.com/images/rSxn1anqozIrUjc25w0ibwXwGg.png",
+        "Marble Larkin": "https://framerusercontent.com/images/pyKL0j9x4ulYsokuqJZiUFgTgUw.png",
+        "Next Project": "BNt7Gfe2y",
+        "Link": "/collections/in-lucem",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "BNt7Gfe2y",
+      "draft": false,
+      "fields": {
+        "Title": "Figurative Poetry ",
+        "Slug": "figurative-poetry",
+        "Category": "Boky Hackel",
+        "Year": null,
+        "Size": "18 534 m²",
+        "Medium": "Bronze, 24k Gold leaf",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:BNt7Gfe2y/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Figurative Poetry embodies that feeling that simmers within the soul, comes to a boil and erupts into pieces like KABOOM. It is the introspection that develops with pieces like \"Das Ich Und Das Esch\" or \"Loosing Myself in you\" "
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:BNt7Gfe2y/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "Boky's first solo sculptural collection digs deep into her psyche and comments on women's suppression from cultural canons "
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:BNt7Gfe2y/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "Art Direction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:1",
+                "attributes": {
+                  "text": " — Zilo Partners"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:3",
+                "attributes": {
+                  "text": "Design",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:4",
+                "attributes": {
+                  "text": " — Tomas Nguyen, Clara Delaunay, Idriss B."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:6",
+                "attributes": {
+                  "text": "3D & Motion & Interaction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:7",
+                "attributes": {
+                  "text": " — Felix Rocha, Hanae Sato"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:9",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:10",
+                "attributes": {
+                  "text": " — Marco Bianchi, Adèle Tremblay"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:11"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:12",
+                "attributes": {
+                  "text": "Development",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:13",
+                "attributes": {
+                  "text": " — Nico Mendez, Aïcha Doucouré"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:14"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:15",
+                "attributes": {
+                  "text": "Project Support",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:BNt7Gfe2y/fIyAgDaR4:0:16",
+                "attributes": {
+                  "text": " — You, the viewers and clients who believe in the power of Zilo."
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+          "alt": "Lilac Flower"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/pq9O1tLagDyUcHIeweOWSebOSyw.png",
+        "ushabti ryuu": "https://framerusercontent.com/images/vLQblsbydSn6uqg0rL76Z5fGU.png",
+        "Sharon Marble": "https://framerusercontent.com/images/RZWpWjozjI1cpzBTEV2IxY733nE.png",
+        "Marble Larkin": "https://framerusercontent.com/images/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+        "Next Project": "G_8MT5OIG",
+        "Link": "/collections/figurative-poetry",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "G_8MT5OIG",
+      "draft": false,
+      "fields": {
+        "Title": "Silentium Aurum",
+        "Slug": "silentium-aurum",
+        "Category": "Boky Hackel",
+        "Year": null,
+        "Size": "dyptich ",
+        "Medium": "Steel, 24k Gold leaf, LED ",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Silentium Aurum abandons the formal language of"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:1:0",
+                "attributes": {
+                  "text": "sculpture, reducing it to its essence ; material, light, and word. Gold-leafed"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:2:0",
+                "attributes": {
+                  "text": "steel, carved with language, holds silence as its most valuable element."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:3:0",
+                "attributes": {
+                  "text": "Here, gold is not about opulence but reverence; silence is not emptiness"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:4:0",
+                "attributes": {
+                  "text": "but weight. The light that escapes through each word is not mere"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/pNFKTmaam:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/pNFKTmaam:5:0",
+                "attributes": {
+                  "text": "illumination—it is an invitation, a quiet insistence on introspection."
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": " Not about the objects themselves but about what they stir within us. Each piece exists in the liminal space between presence and"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/WqXEfNtWc:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/WqXEfNtWc:1:0",
+                "attributes": {
+                  "text": "absence, between what is spoken and what is only felt. Whispering"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/WqXEfNtWc:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/WqXEfNtWc:2:0",
+                "attributes": {
+                  "text": "Skies and Restless Angels do not dictate meaning; they reflect it back,"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/WqXEfNtWc:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/WqXEfNtWc:3:0",
+                "attributes": {
+                  "text": "shaped by the viewer’s own memories, desires, and truths. The unseen,"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/WqXEfNtWc:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/WqXEfNtWc:4:0",
+                "attributes": {
+                  "text": "the in-between—this is where Silentium Aurum resides."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "If Silentium spoke through absence, then Silentium Aurum refines that",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "absence into something luminous. It captures not the known, but the",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/fIyAgDaR4:2:0",
+                "attributes": {
+                  "text": "fleeting—what we long for, what we remember, what we have yet to",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:G_8MT5OIG/fIyAgDaR4:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:G_8MT5OIG/fIyAgDaR4:3:0",
+                "attributes": {
+                  "text": "understand. Here, silence is not void. It is precious. It is gold.",
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+          "alt": "Green Fern"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/LQFfHLDcGY4Th8PBRcL6SGCCBo.png",
+        "ushabti ryuu": "https://framerusercontent.com/images/j9gMMTCvXZVI1owTsHTm73tpjg.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/NHgB0dPYkkxzRdE96jucGnLYjEE.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/0THFXduIiKciM4qcNjCviz5wQ.jpg",
+        "Next Project": "RwAChpvxY",
+        "Link": "/collections/coming-soon-boky",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "RwAChpvxY",
+      "draft": false,
+      "fields": {
+        "Title": "The Figures : Marble ",
+        "Slug": "the-figures-marble",
+        "Category": "Blake Ward",
+        "Year": "1989 - 2010",
+        "Size": "11 artworks ",
+        "Medium": "Marbella, Spain",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Blake Ward began his career in the 1980s learning the traditional sculpting techniques under the apprenticeship of Cyril Heck in Paris. "
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "Marble is the genesis of my creative journey, imagining the figure within "
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "In order of appearance ",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:1:0",
+                "attributes": {
+                  "text": "Lora From Another Land"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:2:0",
+                "attributes": {
+                  "text": "Marble Maya "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:3:0",
+                "attributes": {
+                  "text": "Marble Layton "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:4:0",
+                "attributes": {
+                  "text": "Marble Sharon "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:5:0",
+                "attributes": {
+                  "text": "Marble Larkin "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:RwAChpvxY/fIyAgDaR4:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:0",
+                "attributes": {
+                  "text": "Artist",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:1",
+                "attributes": {
+                  "text": " — Blake Ward "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:3",
+                "attributes": {
+                  "text": "Medium ",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:4",
+                "attributes": {
+                  "text": "— Carrara Marble "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:6",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:RwAChpvxY/fIyAgDaR4:6:7",
+                "attributes": {
+                  "text": " — Phil Hill "
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+          "alt": "Yellow Flower"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/u6W1hEKTYQ5ftMJGG3mowTfSs.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/OmeW9d6C1FlXTF5kyW6OS7OkYuU.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/clie4RkdaVXBL6lPqGJGRHW8bw.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/N4bOHVLrMeLJYctrgKypA43xU.jpg",
+        "Next Project": "aTwYATbJ9",
+        "Link": "/collections/coming-soon-blake",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "aTwYATbJ9",
+      "draft": false,
+      "fields": {
+        "Title": "The Figures : Early Work",
+        "Slug": "the-figures-early-works",
+        "Category": "Blake Ward",
+        "Year": "1986 - 1998",
+        "Size": "12 artworks",
+        "Medium": "Sao Paulo, Brazil",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:aTwYATbJ9/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Good design isn’t just what you see — it’s what you feel, understand, and remember. Here’s a curated collection of 20 design projects that explore form, function, and storytelling. From bold visuals to minimal systems, each piece is an invitation to look closer and think deeper."
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:aTwYATbJ9/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "Design isn’t linear. It’s a loop of questions, trials, and tiny revelations."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/WqXEfNtWc:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/WqXEfNtWc:0:2",
+                "attributes": {
+                  "text": "This midway pause is here to remind you: creativity often lives in the details, in the whitespace, in the ideas that almost got scrapped. Keep exploring — the second half is just as intentional."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:aTwYATbJ9/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "Art Direction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:1",
+                "attributes": {
+                  "text": " — Zilo Partners"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:3",
+                "attributes": {
+                  "text": "Design",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:4",
+                "attributes": {
+                  "text": " — Tomas Nguyen, Clara Delaunay, Idriss B."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:6",
+                "attributes": {
+                  "text": "3D & Motion & Interaction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:7",
+                "attributes": {
+                  "text": " — Felix Rocha, Hanae Sato"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:9",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:10",
+                "attributes": {
+                  "text": " — Marco Bianchi, Adèle Tremblay"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:11"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:12",
+                "attributes": {
+                  "text": "Development",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:13",
+                "attributes": {
+                  "text": " — Nico Mendez, Aïcha Doucouré"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:14"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:15",
+                "attributes": {
+                  "text": "Project Support",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:aTwYATbJ9/fIyAgDaR4:0:16",
+                "attributes": {
+                  "text": " — You, the viewers and clients who believe in the power of Zilo."
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+          "alt": "Orange Flower"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/FpzgFnjmf5lmqEt0NY273g1YJJE.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/ELYbajePNoOGQuNdEQ6JyH5jB4.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/C9cWdzhmNTI9FBVkHt0AH8udxd0.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/PbixvJxwfbHuMjlwMxplg9ZyBlk.jpg",
+        "Next Project": "laEqfNnKc",
+        "Link": "/collections/coming-soon-blake",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "laEqfNnKc",
+      "draft": false,
+      "fields": {
+        "Title": "Public Installations ",
+        "Slug": "public-installations",
+        "Category": "Public Installations ",
+        "Year": null,
+        "Size": "Monaco ",
+        "Medium": "Marble ",
+        "Intro": [
+          {
+            "type": "TextBlock",
+            "id": "v:laEqfNnKc/pNFKTmaam:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/pNFKTmaam:0:0",
+                "attributes": {
+                  "text": "Blake Ward has been an active part of the Monaco art scene since "
+                }
+              }
+            ]
+          }
+        ],
+        "Middle Text": [
+          {
+            "type": "TextBlock",
+            "id": "v:laEqfNnKc/WqXEfNtWc:0",
+            "attributes": {
+              "tag": "h4"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/WqXEfNtWc:0:0",
+                "attributes": {
+                  "text": "Design isn’t linear. It’s a loop of questions, trials, and tiny revelations."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/WqXEfNtWc:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/WqXEfNtWc:0:2",
+                "attributes": {
+                  "text": "This midway pause is here to remind you: creativity often lives in the details, in the whitespace, in the ideas that almost got scrapped. Keep exploring — the second half is just as intentional."
+                }
+              }
+            ]
+          }
+        ],
+        "Credits": [
+          {
+            "type": "TextBlock",
+            "id": "v:laEqfNnKc/fIyAgDaR4:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:0",
+                "attributes": {
+                  "text": "Art Direction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:1",
+                "attributes": {
+                  "text": " — Zilo Partners"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:3",
+                "attributes": {
+                  "text": "Design",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:4",
+                "attributes": {
+                  "text": " — Tomas Nguyen, Clara Delaunay, Idriss B."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:6",
+                "attributes": {
+                  "text": "3D & Motion & Interaction",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:7",
+                "attributes": {
+                  "text": " — Felix Rocha, Hanae Sato"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:9",
+                "attributes": {
+                  "text": "Photography",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:10",
+                "attributes": {
+                  "text": " — Marco Bianchi, Adèle Tremblay"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:11"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:12",
+                "attributes": {
+                  "text": "Development",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:13",
+                "attributes": {
+                  "text": " — Nico Mendez, Aïcha Doucouré"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:14"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:15",
+                "attributes": {
+                  "text": "Project Support",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:laEqfNnKc/fIyAgDaR4:0:16",
+                "attributes": {
+                  "text": " — You, the viewers and clients who believe in the power of Zilo."
+                }
+              }
+            ]
+          }
+        ],
+        "Full Width Layout": "true",
+        "Lora from Another Land": {
+          "src": "https://framerusercontent.com/images/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+          "alt": "Purple Flower"
+        },
+        "MAYA marble": "https://framerusercontent.com/images/ecOsMDgiJ0W9I4yHxPIvp6IHi4.jpg",
+        "ushabti ryuu": "https://framerusercontent.com/images/rB80oFkKlWLuuunZh1DgzWVf4.jpg",
+        "Sharon Marble": "https://framerusercontent.com/images/zlCwmFDf72vYcLmi8deAhPXJZqI.jpg",
+        "Marble Larkin": "https://framerusercontent.com/images/bdEFTXDpiyMIXIhTAvRoj4PPBk.jpg",
+        "Next Project": "IQmCdQ7D6",
+        "Link": "/collections/coming-soon-blake",
+        "One Collection": "none",
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "Z04k4tMmv",
+      "draft": false,
+      "fields": {
+        "Title": null,
+        "Slug": null,
+        "Category": null,
+        "Year": null,
+        "Size": null,
+        "Medium": null,
+        "Intro": null,
+        "Middle Text": null,
+        "Credits": null,
+        "Full Width Layout": null,
+        "Lora from Another Land": null,
+        "MAYA marble": null,
+        "ushabti ryuu": null,
+        "Sharon Marble": null,
+        "Marble Larkin": null,
+        "Next Project": null,
+        "Link": null,
+        "One Collection": null,
+        "Image 6": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

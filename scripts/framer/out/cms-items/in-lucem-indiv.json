@@ -1,0 +1,558 @@
+{
+  "collection": "In Lucem indiv",
+  "collectionId": "k3CBB0CtN",
+  "detailPageId": "yGL8nVHMP",
+  "itemCount": 8,
+  "publishedCount": 4,
+  "items": [
+    {
+      "id": "WWOIX6zfy",
+      "draft": true,
+      "fields": {
+        "Title": "STUDRATS",
+        "Slug": "studrats",
+        "Gallery 1": "[\"https://framerusercontent.com/images/KZLUjMil0qVPsz9ZxSzsvQNBFdg.jpg\",\"https://framerusercontent.com/images/3vmINLywWzIGTj1BJi10Ek05I.jpg\",\"https://framerusercontent.com/images/DyRTdjUADIFyrGYHG8Wz2f77kXM.jpg\",\"https://framerusercontent.com/images/iDZMIEsAUAoaBWj09RArAt1quE.jpg\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:WWOIX6zfy/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WWOIX6zfy/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "STUDRATS is a constellation"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/qgFMWFuGtddNm4jDPBKwG76tzc4.jpg",
+        "Image 2": "https://framerusercontent.com/images/iDZMIEsAUAoaBWj09RArAt1quE.jpg",
+        "Image 3": "https://framerusercontent.com/images/KZLUjMil0qVPsz9ZxSzsvQNBFdg.jpg",
+        "Image 4": "https://framerusercontent.com/images/3vmINLywWzIGTj1BJi10Ek05I.jpg",
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "xL6pZuUFG",
+      "draft": true,
+      "fields": {
+        "Title": "WOOF? ",
+        "Slug": "woof",
+        "Gallery 1": "[\"https://framerusercontent.com/images/cKQ5khh5KaJEqkhG45hSQtOCU.jpg\",\"https://framerusercontent.com/images/JUqpsBbYPW9IMQs9B6qiAVZY0ig.jpg\",\"https://framerusercontent.com/images/HWE77JbQ89Dhx3P9yqvrnbVLEtA.jpg\",\"https://framerusercontent.com/images/GBcrjqmzAaas3vNuZ9vqJqsLKc.jpg\",\"https://framerusercontent.com/images/V0vmnxPMnyCLApjd7HBL98Xjs.jpg\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:xL6pZuUFG/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:xL6pZuUFG/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "WOOF? or What of Our Future? is a playful reminder of the serious consequences our actions can have on the environment. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:xL6pZuUFG/t_sdML5ui:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:xL6pZuUFG/t_sdML5ui:1:0"
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/IBraZoO3YKieRN4okGakIFKsxYs.jpg",
+        "Image 2": "https://framerusercontent.com/images/WfLd3yiLkHjIyTnULdWzP7ffBo.jpg",
+        "Image 3": "https://framerusercontent.com/images/JUqpsBbYPW9IMQs9B6qiAVZY0ig.jpg",
+        "Image 4": "https://framerusercontent.com/images/HHYVittxWlE916SKuu1EdBaiqGc.jpg",
+        "Image 5": "https://framerusercontent.com/images/HOhjqlQE8CCqt41tQsAV8N9AHE8.jpg",
+        "Image 6": "https://framerusercontent.com/images/HWE77JbQ89Dhx3P9yqvrnbVLEtA.jpg",
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "ef36NjEUO",
+      "draft": true,
+      "fields": {
+        "Title": "In Lucem : The Steel Studio ",
+        "Slug": "in-lucem-the-steel-studio",
+        "Gallery 1": "[\"https://framerusercontent.com/images/H0cfrNJH6hdZLCNf09A3d0CsXA.jpg\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:ef36NjEUO/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ef36NjEUO/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "In Lucem collection, seen in the Pietrasanta Atelier "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:ef36NjEUO/t_sdML5ui:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:ef36NjEUO/t_sdML5ui:1:0"
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/pk0cz65x3ZA2LmUvxQddGxpTUE.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "EfqCY12lY",
+      "draft": false,
+      "fields": {
+        "Title": "LETTHELIGHTIN",
+        "Slug": "letthelightin",
+        "Gallery 1": "[\"https://framerusercontent.com/images/w9JjEm6AqdGJqSappHyPuMNHPNs.jpg\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:EfqCY12lY/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:EfqCY12lY/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "The minimalist sculpture in question, with its rigorously Euclidean form, is a striking example of how art can address profound and urgent issues such as the degradation of our ecosystem during the Anthropocene epoch. Its simple elegance and powerful message come together to create a thought-provoking piece that encourages reflection and contemplation."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:EfqCY12lY/t_sdML5ui:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:EfqCY12lY/t_sdML5ui:1:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:EfqCY12lY/t_sdML5ui:1:1",
+                "attributes": {
+                  "text": "The sculpture features the words \"Let the light in\" cut into its form, and these words are illuminated, casting a gentle glow. This phrase, while seemingly straightforward, carries a deeply symbolic and resonant message. It serves as a call to action and an invitation to reevaluate our relationship with the natural world."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:EfqCY12lY/t_sdML5ui:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:EfqCY12lY/t_sdML5ui:2:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:EfqCY12lY/t_sdML5ui:2:1",
+                "attributes": {
+                  "text": "The minimalist design, characterised by clean lines and geometric precision, stands in stark contrast to the chaotic and intricate web of ecological systems that make up our planet. This juxtaposition highlights the detachment that often characterises our human-made constructs from the complex, interconnected reality of the natural world. The Euclidean form represents the structured order of our designed environments, while the illuminated words disrupt this order, signalling the need to break free from our human-centric perspective."
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/Umo72WuUlIwZXSf5EZcZgPZ14g.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "kQnZvJV4K",
+      "draft": false,
+      "fields": {
+        "Title": "TRAUMTAUB",
+        "Slug": "traumtaub",
+        "Gallery 1": "[\"https://framerusercontent.com/images/O1j4Fx8xnVGwNJA7EMKsyS7uvs.png\"]",
+        "Content": null,
+        "Image 1": "https://framerusercontent.com/images/O1j4Fx8xnVGwNJA7EMKsyS7uvs.png",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "dPIRpPY8F",
+      "draft": false,
+      "fields": {
+        "Title": "Restless Angels ",
+        "Slug": "restless-angels",
+        "Gallery 1": "[\"https://framerusercontent.com/images/8Id870QT4QRyhtQk3Dufh5zsfNY.png\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:dPIRpPY8F/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dPIRpPY8F/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "This sculpture is less an object than a threshold, a quiet opening where light and absence meet. It speaks in the language of what cannot be held—of the space between, of the moment before flight, of the hush before understanding. The steel holds its weight against the wall, yet it is the emptiness, the cut-out letters, that carries meaning. "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dPIRpPY8F/t_sdML5ui:0:1",
+                "attributes": {
+                  "text": "Restless Angels",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dPIRpPY8F/t_sdML5ui:0:2",
+                "attributes": {
+                  "text": " glows not in its form, but in what it allows through—light spilling, shifting, tracing the contours of something unseen but deeply felt."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dPIRpPY8F/t_sdML5ui:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dPIRpPY8F/t_sdML5ui:1:0",
+                "attributes": {
+                  "text": "The gold leaf catches the glow, a whisper of something ancient yet always present—love, goodness, the quiet insistence of hope. There is no fixed meaning here, only an invitation, a passage from now to what comes next. The angels are not figures; they are movement, possibility, the vastness of what still waits to be known."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dPIRpPY8F/t_sdML5ui:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dPIRpPY8F/t_sdML5ui:2:0",
+                "attributes": {
+                  "text": "In this liminal space, where steel dissolves into shadow and light becomes language, truth does not declare itself. It lingers, it flickers, it shines through. And we follow."
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/8Id870QT4QRyhtQk3Dufh5zsfNY.png",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "Eqm5DD6ia",
+      "draft": false,
+      "fields": {
+        "Title": "CAN YOU FIX IT ? ",
+        "Slug": "can-you-fix-it",
+        "Gallery 1": "[\"https://framerusercontent.com/images/YxdO8xhNu8hZPWMlQfgxvbIs8U.png\"]",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:0:0",
+                "attributes": {
+                  "text": "NEW VISUAL CODES BY BOKY HACKEL"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:1:0",
+                "attributes": {
+                  "text": "Jacqueline Ceresoli"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:2:0",
+                "attributes": {
+                  "text": "For the ancient Greeks, light encompassed understanding and knowledge (from oida meaning I have seen and therefore know), while blindness was feared, although it was regarded as an ability to predict future events. For example think of Tiresias with the gift of prophetic vision, or Homer, creator of poetic stories par excellence. Tiresias, the only soothsayer who can among the dead and the living, enunciate prophecies for Odysseus deprived of external sight, receives in return internal sight, a paradoxical metaphysical vision of future events in a state of blindness."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:3:0",
+                "attributes": {
+                  "text": "Blindness is a form of death of knowledge of the real that nevertheless gives a new flare to mythological-metahistorical tales. Light fuels reason, while darkness originates in the regions of imagination."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:4:0",
+                "attributes": {
+                  "text": "Boky Hackel starts from darkness, from blackness, from rust as a symbol of moral corruption of our time with the new series of LUCEM (INTO THE LIGHT), in which she takes detachment from figuration, replacing mostly bronze sculptures centered on the representation of the body in fragments, rigorous minimalist structures of Euclidean forms in rusty steel, black and backlit with LEDs."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:5:0",
+                "attributes": {
+                  "text": "Hackel, like Tiresias proceeds from darkness to light, shaping the perception of ourselves and world. The sculptor committed to issues of raising awareness against violence against women or the violation of their right to freedom in previous sculptural works, with the new series of minimalist works addresses cause and effect of the Anthropocene, without representing the visible, but to reflect on the invisible by subtracting importance from the formal and stylistic qualities of the work to focus on the expression of ideas and the need to ask questions about post-humanity, through light as a promise of transformation."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:6:0",
+                "attributes": {
+                  "text": "Her modules, primary forms of minimalist heritage that starting with fulgent black, masterfully explored through LED light, become media designed to highlight key words that should “enlighten us ” on the consequences of the environmental emergency and humanitarian crisis of the 21st century. Hackel’s monochrome volumes materialize sections of a dark night, monochrome paintings extrapolated from the Cosmos in which forms of the imagination appear, suggested by words transformed into verbal visions inscribed in darkness that investigate the complexity of our time, where it is necessary to incubate new paradigms for living on this planet."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:7:0",
+                "attributes": {
+                  "text": "Man is not the only master of the Earth and should learn to live with other living species, but we forget that."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:7:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:7:2",
+                "attributes": {
+                  "text": "Black in the linguistic usage of the Greeks and Romans is associated with feelings of enmity, danger, sadness, misfortune, and in the Old Testament, where the natural dualism of light and chaos becomes a moral-religious dualism, light is the manifestation of God and black of Satan. From darkness comes primordial chaos, evil, then death, a shadow of divine mystery while light is a universal symbol of life."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:8:0",
+                "attributes": {
+                  "text": "In Hackel’s works, too much light dazzles, blurs vision, makes one see in a murky way her rusty pitch-black steel; it is a non-color aimed at giving light and shedding light on processes of ecosystem degradation that we should change with our more environmentally conscious behaviors. Black is central to the palette of abstract art, think of Malevic’s black square and American Minimalism, in which standard-sized, industrially produced modules in wood or metal begin to expand in space and the materials themselves take on different meanings in relation to the environment."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Eqm5DD6ia/t_sdML5ui:9",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:9:0",
+                "attributes": {
+                  "text": "Hackel from the dark/light contrast highlights how our relationships with the ‘natural’ world reflect the totality of social relationships, but we are not aware of them. In her work light and dark are convergent, one needs the other to question human societies, directing our gaze toward a ‘luminous and illuminating anthropology on the necessity of hope."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:9:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Eqm5DD6ia/t_sdML5ui:9:2",
+                "attributes": {
+                  "text": "Hackel’s blackness paradoxically becomes a revelation in which light lifts the veil on the contradictions of our time, through words that mark both the end and the beginning of a new world, making thresholds of regeneration and vital impulse appear between light and dark in which the awakening from the great blindness that clouds our sight and mind takes the form of an unveiling beneath the social and humanitarian catastrophe we are experiencing, with glimmers of depth and wisdom."
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/YxdO8xhNu8hZPWMlQfgxvbIs8U.png",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "fhNnpECKN",
+      "draft": true,
+      "fields": {
+        "Title": null,
+        "Slug": null,
+        "Gallery 1": null,
+        "Content": null,
+        "Image 1": null,
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    }
+  ]
+}

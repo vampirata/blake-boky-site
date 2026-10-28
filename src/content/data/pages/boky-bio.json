@@ -1,0 +1,3147 @@
+{
+  "path": "/boky-bio",
+  "seo": {
+    "title": "Boky Hackel-Ward — Sculptor",
+    "description": "Boky Hackel-Ward, sculptor. Exploring the mysteries of time and being through light, steel, bronze and gold.",
+    "ogTitle": "Boky Hackel-Ward — Sculptor",
+    "ogDescription": "Boky Hackel-Ward, sculptor. Exploring the mysteries of time and being through light, steel, bronze and gold.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/boky-bio"
+  },
+  "navVariant": "DESKTOP GREY",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 10931,
+  "sections": [
+    {
+      "type": "hero",
+      "name": "Hero",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 799.9
+      },
+      "eyebrow": "SCULPTOR",
+      "heading": {
+        "tag": "h1",
+        "text": "Boky Hackel"
+      },
+      "body": [
+        {
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Exploring the mysteries of time and being",
+          "html": "<p>Exploring the mysteries of time and being</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/home/ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+          "alt": "Portrait of the sculptor Boky Hackel",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "SCULPTOR",
+          "html": "<p>Sculptor</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Boky Hackel",
+          "html": "<h1>Boky Hackel</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Exploring the mysteries of time and being",
+          "html": "<p>Exploring the mysteries of time and being</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/home/ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+          "alt": "Portrait of the sculptor Boky Hackel",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "name": "Artist Statement",
+      "tag": "section",
+      "box": {
+        "y": 800,
+        "h": 365.2
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [
+        {
+          "role": "Statement",
+          "tag": "p",
+          "text": "Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of humankind — an homage to all those who have inspired her, and all those who continue to be inspired by life itself.",
+          "html": "<p>Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of humankind — an homage to all those who have inspired her, and all those who continue to be inspired by life itself.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Statement",
+          "tag": "p",
+          "text": "Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of humankind — an homage to all those who have inspired her, and all those who continue to be inspired by life itself.",
+          "html": "<p>Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of humankind — an homage to all those who have inspired her, and all those who continue to be inspired by life itself.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "38px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "biography-timeline",
+      "name": "Biography",
+      "tag": "section",
+      "box": {
+        "y": 1165,
+        "h": 1434.4
+      },
+      "eyebrow": "THE ARTIST",
+      "heading": {
+        "tag": "h2",
+        "text": "Biography"
+      },
+      "body": [
+        {
+          "role": "Lead",
+          "tag": "p",
+          "text": "Boky Hackel — born in Rheinfelden, Germany, on May 6, 1964, and raised in Costa Rica and Venezuela.",
+          "html": "<p>Boky Hackel — born in Rheinfelden, Germany, on May 6, 1964, and raised in Costa Rica and Venezuela.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Boky Hackel has been sculpting for just over a decade. Initially learning under the guidance of Blake Ward, she quickly took the creative direction into her own hands.",
+          "html": "<p>Boky Hackel has been sculpting for just over a decade. Initially learning under the guidance of Blake Ward, she quickly took the creative direction into her own hands.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Her artistry has evolved with her since birth, initially inspired by the wilderness that cradled her creative spirit in the depth of the Costa Rican jungle were nature and nurture became one. The sky was her first playground. Her. mother an accomplished feminist and acrobatic commercial pilot gave Boky a bird’s eye view of life that would later shape her perspective on the human experience which she has made her mission to share on a spiritual an emotional level through her creative endeavours.",
+          "html": "<p>Her artistry has evolved with her since birth, initially inspired by the wilderness that cradled her creative spirit in the depth of the Costa Rican jungle were nature and nurture became one. The sky was her first playground. Her. mother an accomplished feminist and acrobatic commercial pilot gave Boky a bird’s eye view of life that would later shape her perspective on the human experience which she has made her mission to share on a spiritual an emotional level through her creative endeavours.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "From photography, film, poetry, music, conceptual art which all comes together in her sculptural body work which explores the mysteries of time and being through light, steel, poetry, bronze and gold. Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of human kind. An Homage to all those who have inspired her and all those who continue to be inspired by life itself.",
+          "html": "<p>From photography, film, poetry, music, conceptual art which all comes together in her sculptural body work which explores the mysteries of time and being through light, steel, poetry, bronze and gold. Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of human kind. An Homage to all those who have inspired her and all those who continue to be inspired by life itself.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1981 - 1985",
+          "html": "<p>1981 - 1985</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "University of Miami - Film School ",
+          "html": "<p>University of Miami - Film School </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1985 - 1987",
+          "html": "<p>1985 - 1987</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Full Sail Center for the Recording Arts - Degree in Recording Engineering. Boky moves to London ",
+          "html": "<p>Full Sail Center for the Recording Arts - Degree in Recording Engineering. Boky moves to London </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1990 - 1991",
+          "html": "<p>1990 - 1991</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Relocates to Florence and joins l'Instituto per l'Arte ed il Restauro, Palazzo Spinelli. Joins the Old Master Paintings Restoration Program, simultaneously studying Antique's Trade and Marketing ",
+          "html": "<p>Relocates to Florence and joins l'Instituto per l'Arte ed il Restauro, Palazzo Spinelli. Joins the Old Master Paintings Restoration Program, simultaneously studying Antique's Trade and Marketing </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1991– 1996 ",
+          "html": "<p>1991– 1996 </p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Boky returned to the USA and expanded her creative vision, exploring photography, film and the art market. Working between ",
+          "html": "<p>Boky returned to the USA and expanded her creative vision, exploring photography, film and the art market. Working between </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "1996 - 2000",
+          "html": "<p>1996 - 2000</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Florida Atlantic University - Bachelor in Music ; Honors Program in Composition and Historical Musicology from the Dorothy F. Schmidt College of Arts and Letters. Graduating summa cum laude, Phi Kappa Phi Honors society and National Dean's List. ",
+          "html": "<p>Florida Atlantic University - Bachelor in Music ; Honors Program in Composition and Historical Musicology from the Dorothy F. Schmidt College of Arts and Letters. Graduating summa cum laude, Phi Kappa Phi Honors society and National Dean's List. </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2003 ",
+          "html": "<p>2003 </p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Moves to Monaco - Pocock and Pocock Antiques, Maison d'art and MDA Today ",
+          "html": "<p>Moves to Monaco - Pocock and Pocock Antiques, Maison d'art and MDA Today </p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        },
+        {
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "THE ARTIST",
+          "html": "<p>The Artist</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Biography",
+          "html": "<h2>Biography</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Lead",
+          "tag": "p",
+          "text": "Boky Hackel — born in Rheinfelden, Germany, on May 6, 1964, and raised in Costa Rica and Venezuela.",
+          "html": "<p>Boky Hackel — born in Rheinfelden, Germany, on May 6, 1964, and raised in Costa Rica and Venezuela.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Boky Hackel has been sculpting for just over a decade. Initially learning under the guidance of Blake Ward, she quickly took the creative direction into her own hands.",
+          "html": "<p>Boky Hackel has been sculpting for just over a decade. Initially learning under the guidance of Blake Ward, she quickly took the creative direction into her own hands.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Her artistry has evolved with her since birth, initially inspired by the wilderness that cradled her creative spirit in the depth of the Costa Rican jungle were nature and nurture became one. The sky was her first playground. Her. mother an accomplished feminist and acrobatic commercial pilot gave Boky a bird’s eye view of life that would later shape her perspective on the human experience which she has made her mission to share on a spiritual an emotional level through her creative endeavours.",
+          "html": "<p>Her artistry has evolved with her since birth, initially inspired by the wilderness that cradled her creative spirit in the depth of the Costa Rican jungle were nature and nurture became one. The sky was her first playground. Her. mother an accomplished feminist and acrobatic commercial pilot gave Boky a bird’s eye view of life that would later shape her perspective on the human experience which she has made her mission to share on a spiritual an emotional level through her creative endeavours.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "From photography, film, poetry, music, conceptual art which all comes together in her sculptural body work which explores the mysteries of time and being through light, steel, poetry, bronze and gold. Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of human kind. An Homage to all those who have inspired her and all those who continue to be inspired by life itself.",
+          "html": "<p>From photography, film, poetry, music, conceptual art which all comes together in her sculptural body work which explores the mysteries of time and being through light, steel, poetry, bronze and gold. Rough reflections and noble materials come together in perfect synergy to emphasise the dichotomy of human kind. An Homage to all those who have inspired her and all those who continue to be inspired by life itself.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1981 - 1985",
+          "html": "<p>1981 - 1985</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "University of Miami - Film School ",
+          "html": "<p>University of Miami - Film School </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1985 - 1987",
+          "html": "<p>1985 - 1987</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Full Sail Center for the Recording Arts - Degree in Recording Engineering. Boky moves to London ",
+          "html": "<p>Full Sail Center for the Recording Arts - Degree in Recording Engineering. Boky moves to London </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1990 - 1991",
+          "html": "<p>1990 - 1991</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Relocates to Florence and joins l'Instituto per l'Arte ed il Restauro, Palazzo Spinelli. Joins the Old Master Paintings Restoration Program, simultaneously studying Antique's Trade and Marketing ",
+          "html": "<p>Relocates to Florence and joins l'Instituto per l'Arte ed il Restauro, Palazzo Spinelli. Joins the Old Master Paintings Restoration Program, simultaneously studying Antique's Trade and Marketing </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1991– 1996 ",
+          "html": "<p>1991– 1996 </p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Boky returned to the USA and expanded her creative vision, exploring photography, film and the art market. Working between ",
+          "html": "<p>Boky returned to the USA and expanded her creative vision, exploring photography, film and the art market. Working between </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "1996 - 2000",
+          "html": "<p>1996 - 2000</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Florida Atlantic University - Bachelor in Music ; Honors Program in Composition and Historical Musicology from the Dorothy F. Schmidt College of Arts and Letters. Graduating summa cum laude, Phi Kappa Phi Honors society and National Dean's List. ",
+          "html": "<p>Florida Atlantic University - Bachelor in Music ; Honors Program in Composition and Historical Musicology from the Dorothy F. Schmidt College of Arts and Letters. Graduating summa cum laude, Phi Kappa Phi Honors society and National Dean's List. </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2003 ",
+          "html": "<p>2003 </p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Moves to Monaco - Pocock and Pocock Antiques, Maison d'art and MDA Today ",
+          "html": "<p>Moves to Monaco - Pocock and Pocock Antiques, Maison d'art and MDA Today </p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Year",
+          "tag": "p",
+          "text": "2011",
+          "html": "<p>2011</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "Begins working with Blake The Spirits Collection, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.",
+          "html": "<p>Begins working with Blake The <em>Spirits Collection</em>, embracing negative space, crossing into the abstract and ethereal with exposed interior landscapes.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14.5px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Collections",
+      "tag": "section",
+      "box": {
+        "y": 2600,
+        "h": 2937.6
+      },
+      "eyebrow": "BODIES OF WORK",
+      "heading": {
+        "tag": "h2",
+        "text": "Collections"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+          "alt": "asherah",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+          "alt": "Phantom Elixir",
+          "naturalWidth": 3648,
+          "naturalHeight": 5472,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+          "alt": "mafdet mayet",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+          "alt": "letthelight in ",
+          "naturalWidth": 1152,
+          "naturalHeight": 766,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.665,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+          "alt": "Lilac Flower",
+          "naturalWidth": 1154,
+          "naturalHeight": 956,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.828,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+          "alt": "Green Fern",
+          "naturalWidth": 2080,
+          "naturalHeight": 856,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.412,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Spirit Collection : The Angels",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "Spirit Collection : The Phantoms",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "Spirit Collection : The Ushabtis",
+          "href": "/collections/spirit-collection"
+        },
+        {
+          "text": "In Lucem",
+          "href": "/collections/in-lucem"
+        },
+        {
+          "text": "Figurative Poetry",
+          "href": "/collections/figurative-poetry"
+        },
+        {
+          "text": "Silentium Aurum",
+          "href": "/collections/coming-soon-boky"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Angels",
+          "image": {
+            "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+            "alt": "asherah",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.344,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "Spirit Collection : The Angels "
+            }
+          ]
+        },
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Phantoms",
+          "image": {
+            "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+            "alt": "Phantom Elixir",
+            "naturalWidth": 3648,
+            "naturalHeight": 5472,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.5,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "Spirit Collection : The Phantoms "
+            }
+          ]
+        },
+        {
+          "href": "/collections/spirit-collection",
+          "label": "Spirit Collection : The Ushabtis",
+          "image": {
+            "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+            "alt": "mafdet mayet",
+            "naturalWidth": 640,
+            "naturalHeight": 860,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.344,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "Spirit Collection : The Ushabtis "
+            }
+          ]
+        },
+        {
+          "href": "/collections/in-lucem",
+          "label": "In Lucem",
+          "image": {
+            "src": "/assets/bio/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+            "alt": "letthelight in ",
+            "naturalWidth": 1152,
+            "naturalHeight": 766,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.665,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "In Lucem "
+            }
+          ]
+        },
+        {
+          "href": "/collections/figurative-poetry",
+          "label": "Figurative Poetry",
+          "image": {
+            "src": "/assets/bio/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+            "alt": "Lilac Flower",
+            "naturalWidth": 1154,
+            "naturalHeight": 956,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.828,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "Figurative Poetry "
+            }
+          ]
+        },
+        {
+          "href": "/collections/coming-soon-boky",
+          "label": "Silentium Aurum",
+          "image": {
+            "src": "/assets/bio/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+            "alt": "Green Fern",
+            "naturalWidth": 2080,
+            "naturalHeight": 856,
+            "rendered": {
+              "w": 668,
+              "h": 668
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.412,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "new story card venturekick",
+              "tag": "h3",
+              "text": "Silentium Aurum"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BODIES OF WORK",
+          "html": "<p>Bodies of Work</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Collections",
+          "html": "<h2>Collections</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Angels",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+          "alt": "asherah",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "Spirit Collection : The Angels ",
+          "html": "<h3>Spirit Collection : The Angels </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Phantoms",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+          "alt": "Phantom Elixir",
+          "naturalWidth": 3648,
+          "naturalHeight": 5472,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "Spirit Collection : The Phantoms ",
+          "html": "<h3>Spirit Collection : The Phantoms </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Spirit Collection : The Ushabtis",
+          "href": "/collections/spirit-collection",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+          "alt": "mafdet mayet",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "Spirit Collection : The Ushabtis ",
+          "html": "<h3>Spirit Collection : The Ushabtis </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "In Lucem",
+          "href": "/collections/in-lucem",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+          "alt": "letthelight in ",
+          "naturalWidth": 1152,
+          "naturalHeight": 766,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.665,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "In Lucem ",
+          "html": "<h3>In Lucem </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Figurative Poetry",
+          "href": "/collections/figurative-poetry",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+          "alt": "Lilac Flower",
+          "naturalWidth": 1154,
+          "naturalHeight": 956,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.828,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "Figurative Poetry ",
+          "html": "<h3>Figurative Poetry </h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Silentium Aurum",
+          "href": "/collections/coming-soon-boky",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+          "alt": "Green Fern",
+          "naturalWidth": 2080,
+          "naturalHeight": 856,
+          "rendered": {
+            "w": 668,
+            "h": 668
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.412,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "new story card venturekick",
+          "tag": "h3",
+          "text": "Silentium Aurum",
+          "html": "<h3>Silentium Aurum</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "28px",
+            "weight": "500"
+          }
+        }
+      ]
+    },
+    {
+      "type": "exhibitions",
+      "name": "Exhibitions",
+      "tag": "section",
+      "box": {
+        "y": 5537,
+        "h": 521.8
+      },
+      "eyebrow": "ACROSS THREE CONTINENTS",
+      "heading": {
+        "tag": "h2",
+        "text": "Exhibited In"
+      },
+      "body": [
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "United States",
+          "html": "<p>United States</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Canada",
+          "html": "<p>Canada</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "France",
+          "html": "<p>France</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Italy",
+          "html": "<p>Italy</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Monaco",
+          "html": "<p>Monaco</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Switzerland",
+          "html": "<p>Switzerland</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Germany",
+          "html": "<p>Germany</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "England",
+          "html": "<p>England</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Vietnam",
+          "html": "<p>Vietnam</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Singapore",
+          "html": "<p>Singapore</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Malaysia",
+          "html": "<p>Malaysia</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "Hong Kong",
+          "html": "<p>Hong Kong</p>"
+        },
+        {
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>"
+        },
+        {
+          "role": "Country",
+          "tag": "p",
+          "text": "India",
+          "html": "<p>India</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "40+",
+          "html": "<p>40+</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "YEARS SCULPTING",
+          "html": "<p>Years Sculpting</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "4",
+          "html": "<p>4</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "MAJOR COLLECTIONS",
+          "html": "<p>Major Collections</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "13",
+          "html": "<p>13</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "COUNTRIES EXHIBITED",
+          "html": "<p>Countries Exhibited</p>"
+        },
+        {
+          "role": "Number",
+          "tag": "p",
+          "text": "3",
+          "html": "<p>3</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTINENTS",
+          "html": "<p>Continents</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "ACROSS THREE CONTINENTS",
+          "html": "<p>Across Three Continents</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Exhibited In",
+          "html": "<h2>Exhibited In</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "United States",
+          "html": "<p>United States</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Canada",
+          "html": "<p>Canada</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "France",
+          "html": "<p>France</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Italy",
+          "html": "<p>Italy</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Monaco",
+          "html": "<p>Monaco</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Switzerland",
+          "html": "<p>Switzerland</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Germany",
+          "html": "<p>Germany</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "England",
+          "html": "<p>England</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Vietnam",
+          "html": "<p>Vietnam</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Singapore",
+          "html": "<p>Singapore</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Malaysia",
+          "html": "<p>Malaysia</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "Hong Kong",
+          "html": "<p>Hong Kong</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Separator",
+          "tag": "p",
+          "text": "·",
+          "html": "<p>·</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Country",
+          "tag": "p",
+          "text": "India",
+          "html": "<p>India</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "22px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "40+",
+          "html": "<p>40+</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "YEARS SCULPTING",
+          "html": "<p>Years Sculpting</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "4",
+          "html": "<p>4</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "MAJOR COLLECTIONS",
+          "html": "<p>Major Collections</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "13",
+          "html": "<p>13</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "COUNTRIES EXHIBITED",
+          "html": "<p>Countries Exhibited</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Number",
+          "tag": "p",
+          "text": "3",
+          "html": "<p>3</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "600"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTINENTS",
+          "html": "<p>Continents</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta",
+      "name": "Contact CTA",
+      "tag": "section",
+      "box": {
+        "y": 6059,
+        "h": 352.2
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [],
+      "links": [
+        {
+          "text": "CONTACT US",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "CONTACT US",
+          "image": null,
+          "texts": [
+            {
+              "role": "Label",
+              "tag": "p",
+              "text": "CONTACT US"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "52px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "CONTACT US",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "CONTACT US",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "name": "Artnet Feature",
+      "tag": "div",
+      "box": {
+        "y": 6411,
+        "h": 740
+      },
+      "eyebrow": "ARTNET NEWS · FEATURE",
+      "heading": {
+        "tag": "p",
+        "text": "The Restless Gaze and the Divided Ego"
+      },
+      "body": [
+        {
+          "role": null,
+          "tag": "p",
+          "text": "“Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.”",
+          "html": "<p>“Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.”</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "JACQUELINE CERESOLI, ART CRITIC",
+          "html": "<p>Jacqueline Ceresoli, Art Critic</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 656,
+            "h": 520
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.262,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Read the article →",
+          "href": "https://news.artnet.com/partner-content/blake-ward-and-boky-hackel-hilton-asmus",
+          "target": "_blank"
+        }
+      ],
+      "cards": [
+        {
+          "href": "https://news.artnet.com/partner-content/blake-ward-and-boky-hackel-hilton-asmus",
+          "target": "_blank",
+          "label": "Read the article →",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Read the article  →"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "ARTNET NEWS · FEATURE",
+          "html": "<p>Artnet News · Feature</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "The Restless Gaze and the Divided Ego",
+          "html": "<p>The Restless Gaze and the Divided Ego</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "46px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "“Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.”",
+          "html": "<p>“Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her artistic identity.”</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "23px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "JACQUELINE CERESOLI, ART CRITIC",
+          "html": "<p>Jacqueline Ceresoli, Art Critic</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Read the article →",
+          "href": "https://news.artnet.com/partner-content/blake-ward-and-boky-hackel-hilton-asmus",
+          "target": "_blank",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Read the article  →",
+          "html": "<p>Read the article  →</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 656,
+            "h": 520
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.262,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Collections",
+      "tag": "section",
+      "box": {
+        "y": 7151,
+        "h": 3305.2
+      },
+      "eyebrow": "BOKY'S ARCHIVE OF WORKS",
+      "heading": {
+        "tag": "h2",
+        "text": "Past Works"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2314,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.446,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+          "alt": "",
+          "naturalWidth": 1867,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.285,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+          "alt": "",
+          "naturalWidth": 2400,
+          "naturalHeight": 2010,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.838,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Damaged",
+          "href": "/past-works/damaged"
+        },
+        {
+          "text": "Broken",
+          "href": "/past-works/broken"
+        },
+        {
+          "text": "Losing Myself in You",
+          "href": "/past-works/losing-myself-in-you"
+        },
+        {
+          "text": "Ich und Es",
+          "href": "/past-works/ich-und-es"
+        },
+        {
+          "text": "Kaboom!",
+          "href": "/past-works/kaboom-archive"
+        },
+        {
+          "text": "The Restless Gaze and the Divided Ego",
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego"
+        },
+        {
+          "text": "Chicago Interview",
+          "href": "/past-works/chicago-interview-2019"
+        },
+        {
+          "text": "At Venturi Arte, Bologna",
+          "href": "/past-works/at-venturi-arte-bologna"
+        },
+        {
+          "text": "Working the Clay",
+          "href": "/past-works/working-the-clay"
+        },
+        {
+          "text": "At Mark Massa's",
+          "href": "/past-works/at-mark-massas"
+        },
+        {
+          "text": "Charting Landscapes",
+          "href": "/past-works/charting-landscapes"
+        },
+        {
+          "text": "The Story",
+          "href": "/past-works/the-story"
+        },
+        {
+          "text": "Press Document",
+          "href": "/past-works/press-document"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/past-works/damaged",
+          "label": "Damaged",
+          "image": {
+            "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+            "alt": "",
+            "naturalWidth": 1600,
+            "naturalHeight": 2314,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.446,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Damaged"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/broken",
+          "label": "Broken",
+          "image": {
+            "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+            "alt": "",
+            "naturalWidth": 1867,
+            "naturalHeight": 2400,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.285,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Broken"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/losing-myself-in-you",
+          "label": "Losing Myself in You",
+          "image": {
+            "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+            "alt": "",
+            "naturalWidth": 2400,
+            "naturalHeight": 2010,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.838,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Losing Myself in You"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/ich-und-es",
+          "label": "Ich und Es",
+          "image": {
+            "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+            "alt": "",
+            "naturalWidth": 1600,
+            "naturalHeight": 2400,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.5,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Ich und Es"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/kaboom-archive",
+          "label": "Kaboom!",
+          "image": {
+            "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+            "alt": "",
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.563,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Kaboom!"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego",
+          "label": "The Restless Gaze and the Divided Ego",
+          "image": {
+            "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+            "alt": "",
+            "naturalWidth": 543,
+            "naturalHeight": 543,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "The Restless Gaze and the Divided Ego"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/chicago-interview-2019",
+          "label": "Chicago Interview",
+          "image": {
+            "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Chicago Interview"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/at-venturi-arte-bologna",
+          "label": "At Venturi Arte, Bologna",
+          "image": {
+            "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "At Venturi Arte, Bologna"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/working-the-clay",
+          "label": "Working the Clay",
+          "image": {
+            "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Working the Clay"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/at-mark-massas",
+          "label": "At Mark Massa's",
+          "image": {
+            "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+            "alt": "",
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.563,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "At Mark Massa's"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/charting-landscapes",
+          "label": "Charting Landscapes",
+          "image": {
+            "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Charting Landscapes"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/the-story",
+          "label": "The Story",
+          "image": {
+            "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+            "alt": "",
+            "naturalWidth": 543,
+            "naturalHeight": 543,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "The Story"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/press-document",
+          "label": "Press Document",
+          "image": {
+            "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Press Document"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BOKY'S ARCHIVE OF WORKS",
+          "html": "<p>Boky's Archive of works</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Past Works",
+          "html": "<h2>Past Works</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Damaged",
+          "href": "/past-works/damaged",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2314,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.446,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Damaged",
+          "html": "<h4><span><span>D</span><span>a</span><span>m</span><span>a</span><span>g</span><span>e</span><span>d</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Broken",
+          "href": "/past-works/broken",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+          "alt": "",
+          "naturalWidth": 1867,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.285,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Broken",
+          "html": "<h4><span><span>B</span><span>r</span><span>o</span><span>k</span><span>e</span><span>n</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Losing Myself in You",
+          "href": "/past-works/losing-myself-in-you",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+          "alt": "",
+          "naturalWidth": 2400,
+          "naturalHeight": 2010,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.838,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Losing Myself in You",
+          "html": "<h4><span><span>L</span><span>o</span><span>s</span><span>i</span><span>n</span><span>g</span></span> <span><span>M</span><span>y</span><span>s</span><span>e</span><span>l</span><span>f</span></span> <span><span>i</span><span>n</span></span> <span><span>Y</span><span>o</span><span>u</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Ich und Es",
+          "href": "/past-works/ich-und-es",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Ich und Es",
+          "html": "<h4><span><span>I</span><span>c</span><span>h</span></span> <span><span>u</span><span>n</span><span>d</span></span> <span><span>E</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Kaboom!",
+          "href": "/past-works/kaboom-archive",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Kaboom!",
+          "html": "<h4><span><span>K</span><span>a</span><span>b</span><span>o</span><span>o</span><span>m</span><span>!</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Restless Gaze and the Divided Ego",
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "The Restless Gaze and the Divided Ego",
+          "html": "<h4><span><span>T</span><span>h</span><span>e</span></span> <span><span>R</span><span>e</span><span>s</span><span>t</span><span>l</span><span>e</span><span>s</span><span>s</span></span> <span><span>G</span><span>a</span><span>z</span><span>e</span></span> <span><span>a</span><span>n</span><span>d</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>D</span><span>i</span><span>v</span><span>i</span><span>d</span><span>e</span><span>d</span></span> <span><span>E</span><span>g</span><span>o</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Chicago Interview",
+          "href": "/past-works/chicago-interview-2019",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Chicago Interview",
+          "html": "<h4><span><span>C</span><span>h</span><span>i</span><span>c</span><span>a</span><span>g</span><span>o</span></span> <span><span>I</span><span>n</span><span>t</span><span>e</span><span>r</span><span>v</span><span>i</span><span>e</span><span>w</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "At Venturi Arte, Bologna",
+          "href": "/past-works/at-venturi-arte-bologna",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "At Venturi Arte, Bologna",
+          "html": "<h4><span><span>A</span><span>t</span></span> <span><span>V</span><span>e</span><span>n</span><span>t</span><span>u</span><span>r</span><span>i</span></span> <span><span>A</span><span>r</span><span>t</span><span>e</span><span>,</span></span> <span><span>B</span><span>o</span><span>l</span><span>o</span><span>g</span><span>n</span><span>a</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Working the Clay",
+          "href": "/past-works/working-the-clay",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Working the Clay",
+          "html": "<h4><span><span>W</span><span>o</span><span>r</span><span>k</span><span>i</span><span>n</span><span>g</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>C</span><span>l</span><span>a</span><span>y</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "At Mark Massa's",
+          "href": "/past-works/at-mark-massas",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "At Mark Massa's",
+          "html": "<h4><span><span>A</span><span>t</span></span> <span><span>M</span><span>a</span><span>r</span><span>k</span></span> <span><span>M</span><span>a</span><span>s</span><span>s</span><span>a</span><span>'</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Charting Landscapes",
+          "href": "/past-works/charting-landscapes",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Charting Landscapes",
+          "html": "<h4><span><span>C</span><span>h</span><span>a</span><span>r</span><span>t</span><span>i</span><span>n</span><span>g</span></span> <span><span>L</span><span>a</span><span>n</span><span>d</span><span>s</span><span>c</span><span>a</span><span>p</span><span>e</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Story",
+          "href": "/past-works/the-story",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "The Story",
+          "html": "<h4><span><span>T</span><span>h</span><span>e</span></span> <span><span>S</span><span>t</span><span>o</span><span>r</span><span>y</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Press Document",
+          "href": "/past-works/press-document",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Press Document",
+          "html": "<h4><span><span>P</span><span>r</span><span>e</span><span>s</span><span>s</span></span> <span><span>D</span><span>o</span><span>c</span><span>u</span><span>m</span><span>e</span><span>n</span><span>t</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    }
+  ]
+}

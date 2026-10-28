@@ -1,0 +1,51 @@
+---
+// Every content image goes through here. By default the frame takes the image's
+// own aspect ratio and the image is contained, so artwork is never cut off.
+// Pass ratio (e.g. "2 / 3") for a fixed frame, fit="cover" only for atmosphere
+// images (banners, CTA backgrounds), and pos for a focal point.
+import { img } from "../lib/img";
+
+interface Props {
+	src: string;
+	alt?: string;
+	sizes?: string;
+	ratio?: string;
+	fit?: "contain" | "cover";
+	pos?: string;
+	bg?: string;
+	zoom?: boolean;
+	eager?: boolean;
+	class?: string;
+	style?: string;
+}
+const { src, alt = "", sizes = "100vw", ratio, fit = "contain", pos, bg, zoom = false, eager = false, class: cls = "", style = "" } = Astro.props;
+const r = img(src);
+const own = r?.width && r?.height ? `${r.width} / ${r.height}` : undefined;
+const vars = [
+	`--ratio:${ratio ?? own ?? "auto"}`,
+	`--fit:${fit}`,
+	pos ? `--pos:${pos}` : "",
+	bg ? `--frame-bg:${bg}` : "",
+	style,
+]
+	.filter(Boolean)
+	.join(";");
+---
+
+<div class:list={["art", zoom && "art--zoom", cls]} style={vars}>
+	{
+		r && (
+			<img
+				src={r.src}
+				srcset={r.srcset}
+				sizes={sizes}
+				width={r.width}
+				height={r.height}
+				alt={alt}
+				loading={eager ? "eager" : "lazy"}
+				decoding="async"
+				fetchpriority={eager ? "high" : undefined}
+			/>
+		)
+	}
+</div>

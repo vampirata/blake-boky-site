@@ -1,0 +1,86 @@
+/* Measured from the live Framer site, see docs/design-spec.md. */
+:root {
+	--black: #000000;
+	--ink: #0f0f0f;
+	--ink-55: rgba(15, 15, 15, 0.55);
+	--charcoal: #1c1a17;
+	--grey-363: #363636;
+	--stone: #5c5852;
+	--taupe: #6f6a61;
+	--taupe-2: #8a8375;
+	--sand: #b4aea3;
+	--grey-c2: #c2c2c2;
+	--hairline: #dbdbdb;
+	--paper: #f5f2eb;
+	--paper-2: #f4f1ea;
+	--paper-3: #f3f1e9;
+	--paper-4: #e9e4d9;
+	--white: #ffffff;
+	--gold-light: #e3caa6;
+	--gold: #cca46c;
+	--gold-dark: #9c7f4e;
+	--hover-grey: #454545;
+	--hover-taupe: #91897d;
+
+	--font-display: "Cormorant Garamond", "Cormorant Garamond Placeholder", serif;
+	--font-body: "Inter", "Inter Placeholder", sans-serif;
+	--font-num: "Switzer", "Switzer Placeholder", sans-serif;
+
+	--gutter: 32px;
+	--gutter-grid: 20px;
+	--nav-h: 64px;
+
+	--ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+	--ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+	--ease-link: cubic-bezier(0.44, 0, 0.56, 1);
+
+	/* Type roles, desktop values. Tablet and phone steps live in global.css. */
+	--t-display: 104px;
+	--t-display-lh: 0.98;
+	--t-h2: 54px;
+	--t-h2-lh: 1.1;
+	--t-detail: 46px;
+	--t-intro: 38px;
+	--t-h3: 34px;
+	--t-card: 26px;
+	--t-card-date: 18px;
+	--t-cta: 52px;
+	--t-subtitle: 24px;
+	--t-pastworks: 86px;
+	--t-pastwork-detail: 66px;
+	--t-hero-line: 50px;
+}
+
+@media (max-width: 1399.98px) {
+	:root {
+		--t-display: 72px;
+		--t-h2: 44px;
+		--t-detail: 38px;
+		--t-intro: 30px;
+		--t-h3: 30px;
+		--t-card: 21px;
+		--t-card-date: 14px;
+		--t-cta: 42px;
+		--t-subtitle: 21px;
+		--t-pastworks: 60px;
+		--t-hero-line: 40px;
+	}
+}
+
+@media (max-width: 809.98px) {
+	:root {
+		--gutter: 15px;
+		--gutter-grid: 0px;
+		--t-display: 52px;
+		--t-h2: 34px;
+		--t-detail: 32px;
+		--t-intro: 24px;
+		--t-h3: 26px;
+		--t-card: 19px;
+		--t-card-date: 13px;
+		--t-cta: 32px;
+		--t-subtitle: 18px;
+		--t-pastworks: 46px;
+		--t-hero-line: 37px;
+	}
+}

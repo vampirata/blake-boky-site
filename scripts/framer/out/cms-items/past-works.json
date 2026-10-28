@@ -1,0 +1,793 @@
+{
+  "collection": "Past Works",
+  "collectionId": "VQilQDmhB",
+  "detailPageId": "zb43wOtnp",
+  "itemCount": 13,
+  "publishedCount": 13,
+  "items": [
+    {
+      "id": "q3UOOwkt5",
+      "draft": false,
+      "fields": {
+        "Title": "Damaged",
+        "Slug": "damaged",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:q3UOOwkt5/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "The interior of the female figure cites an extract from Paul Géraldy's poem "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:0:1",
+                "attributes": {
+                  "text": "Mea Culpa",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:0:2",
+                "attributes": {
+                  "text": ": “Au fond, vois-tu, mon erreur, ma grande folie, c'est d'avoir chargé ton cœur de tout le poids de ma vie” — taken from the book "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:0:3",
+                "attributes": {
+                  "text": "Moi et Toi",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:0:4",
+                "attributes": {
+                  "text": ", a source of inspiration for the artist."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:q3UOOwkt5/ZXcQjL1Aq:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:1:0",
+                "attributes": {
+                  "text": "In the metaphor of the unexpressed struggle for recognition of the Ego, the woman is hopelessly "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:1:1",
+                "attributes": {
+                  "text": "Damaged",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3UOOwkt5/ZXcQjL1Aq:1:2",
+                "attributes": {
+                  "text": "."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2013 – 2016",
+        "Medium": "Bronze with gold leaf",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "ON1vE1aKc",
+      "draft": false,
+      "fields": {
+        "Title": "Broken",
+        "Slug": "broken",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:ON1vE1aKc/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ON1vE1aKc/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Enigmatic faces, masks and broken bronze portraits — reinterpretations and transfigurations of the artist's own face, sphinxes of mystery that materialise a tenacious will to affirm her artistic identity."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2013 – 2016",
+        "Medium": "Bronze",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "QKjJSV9dJ",
+      "draft": false,
+      "fields": {
+        "Title": "Losing Myself in You",
+        "Slug": "losing-myself-in-you",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:QKjJSV9dJ/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QKjJSV9dJ/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Words welded together determine enigmatic identities. In the communicative energy of language and the universality of poetry, the artist yearns for rebirth — the materialisation and transfiguration of the "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QKjJSV9dJ/ZXcQjL1Aq:0:1",
+                "attributes": {
+                  "text": "verbum",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QKjJSV9dJ/ZXcQjL1Aq:0:2",
+                "attributes": {
+                  "text": "."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2013 – 2016",
+        "Medium": "Bronze",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "gWoSNvG7r",
+      "draft": false,
+      "fields": {
+        "Title": "Ich und Es",
+        "Slug": "ich-und-es",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:gWoSNvG7r/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:gWoSNvG7r/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "A complex search configured through sculptures laden with autobiographical references — the I, the you, the us, and the other-than-I."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2013 – 2016",
+        "Medium": "Bronze",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+        "Image 2": "https://framerusercontent.com/images/rLMAzQ4XtiagDqWah4UqKGK3zU.jpg",
+        "Image 3": "https://framerusercontent.com/images/dNlShhC6giCxcVCh6MDQhyQbEvs.jpg",
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "S6Vh_LFOJ",
+      "draft": false,
+      "fields": {
+        "Title": "Kaboom!",
+        "Slug": "kaboom-archive",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:S6Vh_LFOJ/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:S6Vh_LFOJ/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Composed with the words: “Particles Collide, Ignition, Fusion and Kaboom!” — representing the clash between male and female particles, a total fusion of two disjointed entities as an expression of a carnal and creative merger."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2013 – 2016",
+        "Medium": "Bronze, unique piece",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "eTs4RYg7n",
+      "draft": false,
+      "fields": {
+        "Title": "The Restless Gaze and the Divided Ego",
+        "Slug": "the-restless-gaze-and-the-divided-ego",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Enigmatic faces, masks, broken bronze portraits covered with gold leaf or platinum by Boky Hackel-Ward present reinterpretations and transfigurations of her enigmatic face — sphinxes of mystery that materialise a tenacious will to affirm her attitude and artistic identity."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:1:0",
+                "attributes": {
+                  "text": "The artist, in her experimental eclecticism, in search of her artistic daimon, autonomous and self-aware, finds in sculpture a code of renewal of the intangible and the spiritual, practised assiduously between 2013 and 2016 — years of fervent study and work."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:2:0",
+                "attributes": {
+                  "text": "Boky Hackel-Ward is a restorer, painter, musician, performer and photographer who trained in Florence, where she breathed, lived and absorbed the “grammar” of the Renaissance. Always passionate about poetry and fascinated by the sound of words, with these sculptures she shows a surprising artistic maturity in her ability to conjugate poetry and figuration."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:3:0",
+                "attributes": {
+                  "text": "At the foundry, battling the wax and then the bronze, in the interpenetration of poetry and anthropomorphic, stylised figures, she combines words and shapes to give life to sculptures that become "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:3:1",
+                "attributes": {
+                  "text": "éternelles",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:3:2",
+                "attributes": {
+                  "text": "."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:4:0",
+                "attributes": {
+                  "text": "Her rigorous search for the "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:4:1",
+                "attributes": {
+                  "text": "re-novatio",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:4:2",
+                "attributes": {
+                  "text": " of classicism and the recollection of Visual Poetry materialise into bodies that invite reflection on the difference between the male and female component."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:eTs4RYg7n/ZXcQjL1Aq:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eTs4RYg7n/ZXcQjL1Aq:5:0",
+                "attributes": {
+                  "text": "— Jacqueline Ceresoli, Art Critic"
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "Essay — Artnet News",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "http://bit.ly/artnetBlakeBoky",
+        "Credit": "Jacqueline Ceresoli, Art Critic",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "fxVxrcpu1",
+      "draft": false,
+      "fields": {
+        "Title": "Chicago Interview",
+        "Slug": "chicago-interview-2019",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:fxVxrcpu1/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:fxVxrcpu1/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Interview filmed in Chicago, 2019."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:fxVxrcpu1/ZXcQjL1Aq:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:fxVxrcpu1/ZXcQjL1Aq:1:0",
+                "attributes": {
+                  "text": "Video pending upload",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:fxVxrcpu1/ZXcQjL1Aq:1:1",
+                "attributes": {
+                  "text": " — add the hosted link to the “Video URL” field once the file has been transcoded and uploaded."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "Video — interview",
+        "Type": null,
+        "Cover Image": null,
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": null,
+        "Credit": "Filmed at Hilton Asmus Contemporary, Chicago",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "fENfy2XK6",
+      "draft": false,
+      "fields": {
+        "Title": "At Venturi Arte, Bologna",
+        "Slug": "at-venturi-arte-bologna",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:fENfy2XK6/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:fENfy2XK6/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Working the bronze at the Venturi Arte foundry in Bologna."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "Studio / foundry",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com/post/master-the-perfect-brush-stroke-technique",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "O9h7eRX3y",
+      "draft": false,
+      "fields": {
+        "Title": "Working the Clay",
+        "Slug": "working-the-clay",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:O9h7eRX3y/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:O9h7eRX3y/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "In the studio, working the clay."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "Studio",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "UPtjawOMo",
+      "draft": false,
+      "fields": {
+        "Title": "At Mark Massa's",
+        "Slug": "at-mark-massas",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:UPtjawOMo/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:UPtjawOMo/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "From the archive of bokysculpture.com — a studio visit at Mark Massa's, October 2019."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "October 2019",
+        "Medium": "Studio visit",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com/post/design-can-be-chaotic-your-studio-doesn-t-have-to-be",
+        "Credit": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "zeZXYB3aP",
+      "draft": false,
+      "fields": {
+        "Title": "Charting Landscapes",
+        "Slug": "charting-landscapes",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:zeZXYB3aP/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:zeZXYB3aP/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "From the archive of bokysculpture.com — Charting Landscapes, October 2019."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "October 2019",
+        "Medium": "Studio",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com/post/modern-minimalism-one-artist-s-journey",
+        "Credit": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "XesOgLGzd",
+      "draft": false,
+      "fields": {
+        "Title": "The Story",
+        "Slug": "the-story",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "The voyage that we impend upon in the darkness of a cloudy night, in an effort to vanquish the enemy within; doubt…"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:1:0",
+                "attributes": {
+                  "text": "Call it rupture, solitude, anguish, fear… all of it, and more, thrown into one violent battleground called our psyche. Where were the gods then?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:2:0",
+                "attributes": {
+                  "text": "It has been this crossing that has forged me as an artist and as a human being."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:3:0",
+                "attributes": {
+                  "text": "The gift is emerging on the other side. The gift is transcending and overcoming the paralysis of silent faith and acquiescence."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:4:0",
+                "attributes": {
+                  "text": "The gift is that one day we find that thing, that medium, and it no longer matters what we want to be, because we are, now and here. It doesn't even matter if they get us or not. We are finally free to create!"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:XesOgLGzd/ZXcQjL1Aq:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:XesOgLGzd/ZXcQjL1Aq:5:0",
+                "attributes": {
+                  "text": "— Boky Hackel-Ward"
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "Artist statement",
+        "Type": null,
+        "Cover Image": "https://framerusercontent.com/images/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com/interview",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "eCnc7tMd5",
+      "draft": false,
+      "fields": {
+        "Title": "Press Document",
+        "Slug": "press-document",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:eCnc7tMd5/ZXcQjL1Aq:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:eCnc7tMd5/ZXcQjL1Aq:0:0",
+                "attributes": {
+                  "text": "Two-page press document from the original bokysculpture.com archive. Opens as a PDF."
+                }
+              }
+            ]
+          }
+        ],
+        "Year": "2019",
+        "Medium": "PDF",
+        "Type": null,
+        "Cover Image": null,
+        "Image 2": null,
+        "Image 3": null,
+        "Image 4": null,
+        "Video URL": null,
+        "External Link": "https://www.bokysculpture.com/_files/ugd/ccee0b_3e52acd46b8048f0b400f0050ed484e2.pdf",
+        "Credit": "bokysculpture.com",
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

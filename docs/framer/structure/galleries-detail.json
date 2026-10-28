@@ -1,0 +1,543 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "kZgXMnua6",
+ "$isPrimary": true,
+ "$parentId": "QMjVU0N2B",
+ "$scopeId": "QMjVU0N2B",
+ "$layoutTemplateId": "CWeg27bi1",
+ "$layoutTemplateDisplayName": "Default Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "-162px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "FrameNode",
+   "name": "Hero",
+   "id": "bCRgdFU5d",
+   "attributes": {
+    "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+    "htmlTag": "header",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "overflow": "clip",
+    "padding": "180px 0px 64px 0px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "RpXulNN2J",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "26px",
+      "padding": "0px 32px 0px 32px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "RichTextNode",
+       "name": "Eyebrow",
+       "id": "H1g5EwU7i",
+       "attributes": {
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+        "textAlignment": "center",
+        "textColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:H1g5EwU7i:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:H1g5EwU7i:0:0",
+           "attributes": {
+            "text": "Gallery Partner"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "RichTextNode",
+       "name": "Title",
+       "id": "zzHMHkeDb",
+       "attributes": {
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto",
+        "text": "var(--variable-ConjjFAmJ)",
+        "textStylePreset": "Text Styles/Blake Ward/Hero Title",
+        "textAlignment": "center",
+        "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+        "textWrap": "balance"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Image",
+   "id": "KRBPgTdxb",
+   "attributes": {
+    "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "padding": "20px 32px 80px 32px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto",
+    "visible": {
+     "from": "var(--variable-VVKT0E_6w)",
+     "transforms": [
+      {
+       "name": "isSet"
+      }
+     ]
+    }
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "sDXe7u_eq",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "padding": "0px 32px 0px 32px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Frame",
+       "id": "BVh9EuZfn",
+       "attributes": {
+        "fill": "var(--token-ea774264-c4f8-4abb-a9aa-d13e28fd3960)",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "100%",
+        "height": "560px"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Image Fill",
+         "id": "og_idRY9Y",
+         "attributes": {
+          "fill": "var(--variable-VVKT0E_6w)",
+          "layout": "null",
+          "position": "relative",
+          "width": "100%",
+          "height": "100%"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Info",
+   "id": "mYiXyT5Id",
+   "attributes": {
+    "borderStyle": "solid",
+    "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+    "borderTop": "1px",
+    "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "padding": "80px 0px 80px 0px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "kEnxzXtr6",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "32px",
+      "padding": "0px 32px 0px 32px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "RichTextNode",
+       "name": "Content",
+       "id": "xGnsnBgm3",
+       "attributes": {
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto",
+        "text": "var(--variable-hOht0kN8p)",
+        "stylePresetHeading1": "Text Styles/Blake Ward/Hero Title",
+        "stylePresetHeading2": "Text Styles/Blake Ward/Section Title",
+        "stylePresetHeading3": "Text Styles/Blake Ward/Card Title",
+        "stylePresetParagraph": "Text Styles/Blake Ward/Body"
+       }
+      },
+      {
+       "type": "FrameNode",
+       "name": "External Links",
+       "id": "k3tXfqtmo",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "24px",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Link 1",
+         "id": "XJRiUi27x",
+         "attributes": {
+          "link": {
+           "href": "var(--variable-dvXgP6DUx)",
+           "openInNewTab": true
+          },
+          "linkStylePreset": "Link Styles/Article Light/Link",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/Small",
+          "textAlignment": "start",
+          "visible": {
+           "from": "var(--variable-dvXgP6DUx)",
+           "transforms": [
+            {
+             "name": "isSet"
+            }
+           ]
+          }
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:XJRiUi27x:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:XJRiUi27x:0:0",
+             "attributes": {
+              "text": "Visit gallery website"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "name": "Link 2",
+         "id": "LXBfJARxT",
+         "attributes": {
+          "link": {
+           "href": "var(--variable-weRE7d_lk)",
+           "openInNewTab": true
+          },
+          "linkStylePreset": "Link Styles/Article Light/Link",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Blake Ward/Small",
+          "textAlignment": "start",
+          "visible": {
+           "from": "var(--variable-weRE7d_lk)",
+           "transforms": [
+            {
+             "name": "isSet"
+            }
+           ]
+          }
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:LXBfJARxT:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:LXBfJARxT:0:0",
+             "attributes": {
+              "text": "Additional link"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "RichTextNode",
+       "name": "Read Full Feature",
+       "id": "p9AWBMqEh",
+       "attributes": {
+        "link": {
+         "href": "/galleriespetley"
+        },
+        "linkStylePreset": "Link Styles/Article Light/Link",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Blake Ward/Small",
+        "textAlignment": "start",
+        "visible": {
+         "from": "var(--variable-S9xoPBEB0)",
+         "transforms": [
+          {
+           "name": "equals",
+           "value": "jjj"
+          }
+         ]
+        }
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:p9AWBMqEh:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:p9AWBMqEh:0:0",
+           "attributes": {
+            "text": "Read the full feature →"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Contact CTA",
+   "id": "PdYt8ls0v",
+   "attributes": {
+    "borderStyle": "solid",
+    "borderColor": "var(--token-e9a185e7-9aba-4305-91eb-ce4e5ad79557)",
+    "borderTop": "1px",
+    "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "padding": "110px 0px 110px 0px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "cqBO3Y1Qd",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "28px",
+      "padding": "0px 32px 0px 32px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "RichTextNode",
+       "name": "Heading",
+       "id": "Ez7WPA1vc",
+       "attributes": {
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Blake Ward/CTA Title",
+        "textAlignment": "center",
+        "textColor": "var(--token-d6224910-89be-43a3-bfab-890b2d9e6ae2)",
+        "textWrap": "balance"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:Ez7WPA1vc:0",
+         "attributes": {
+          "tag": "h2"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:Ez7WPA1vc:0:0",
+           "attributes": {
+            "text": "Get in touch for further inquiries"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "name": "Contact Link",
+       "id": "KrPUB153m",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "link": {
+         "href": "/contact"
+        },
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "ComponentInstanceNode",
+         "id": "XaUoRDjAq",
+         "component": "OuR190HGL",
+         "$componentDisplayName": "Blake Ward Button",
+         "attributes": {
+          "$control__variant": "Dark",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "mGNEap538",
+   "component": "NJX6voBkJ",
+   "$componentDisplayName": "Go-back",
+   "attributes": {
+    "$control__variant": "Light",
+    "$control__link": "/galleriespetley",
+    "$control__title": "Galleries",
+    "hoverEffect": {
+     "opacity": 1,
+     "x": "0px",
+     "y": "0px",
+     "scale": 1,
+     "skewX": "0deg",
+     "skewY": "0deg",
+     "backgroundColor": "var(--token-845bff36-5701-4ad7-b7c8-76125781c65b)",
+     "transition": "spring-duration 0.4s 0.2 0s",
+     "rotate": "0deg"
+    },
+    "position": "fixed",
+    "left": "20px",
+    "right": "null",
+    "top": "88px",
+    "bottom": "null",
+    "centerAnchorX": "6.33%",
+    "centerAnchorY": "13.38%",
+    "constraintsLocked": true,
+    "width": "auto",
+    "height": "auto"
+   }
+  }
+ ]
+}

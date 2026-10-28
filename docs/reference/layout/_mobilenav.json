@@ -1,0 +1,22 @@
+{
+ "390": {
+  "nav": [],
+  "afterScroll": [
+   {
+    "top": 8,
+    "name": "Tablet Mobile"
+   }
+  ],
+  "candidates": []
+ },
+ "810": {
+  "nav": [],
+  "afterScroll": [
+   {
+    "top": 8,
+    "name": "Tablet Mobile"
+   }
+  ],
+  "candidates": []
+ }
+}

@@ -1,0 +1,1989 @@
+{
+  "path": "/",
+  "seo": {
+    "title": "Blake Ward & Boky Hackel-Ward — Sculpture",
+    "description": "Figurative sculpture by Blake Ward and Boky Hackel-Ward. Fragments, Spirits, Re-Think, Andromeda, In Lucem and Figurative Poetry.",
+    "ogTitle": "Blake Ward & Boky Hackel-Ward — Sculpture",
+    "ogDescription": "Figurative sculpture by Blake Ward and Boky Hackel-Ward. Fragments, Spirits, Re-Think, Andromeda, In Lucem and Figurative Poetry.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/"
+  },
+  "navVariant": "Desktop BLACK",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 5821,
+  "sections": [
+    {
+      "type": "hero-collage",
+      "name": "Hero Main",
+      "tag": "div",
+      "box": {
+        "y": 0,
+        "h": 900
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h1",
+        "text": "Blake Ward & Boky Hackel Exploring human essence through figurative sculpture "
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/home/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+          "alt": "",
+          "naturalWidth": 574,
+          "naturalHeight": 481,
+          "rendered": {
+            "w": 186,
+            "h": 194
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.803,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+          "alt": "",
+          "naturalWidth": 2448,
+          "naturalHeight": 3264,
+          "rendered": {
+            "w": 221,
+            "h": 312
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.944,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+          "alt": "",
+          "naturalWidth": 1932,
+          "naturalHeight": 1932,
+          "rendered": {
+            "w": 300,
+            "h": 340
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.882,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+          "alt": "",
+          "naturalWidth": 3456,
+          "naturalHeight": 5184,
+          "rendered": {
+            "w": 180,
+            "h": 198
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.364,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+          "alt": "",
+          "naturalWidth": 3328,
+          "naturalHeight": 4992,
+          "rendered": {
+            "w": 221,
+            "h": 356
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.931,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+          "alt": "",
+          "naturalWidth": 2130,
+          "naturalHeight": 2130,
+          "rendered": {
+            "w": 195,
+            "h": 246
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.793,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+          "alt": "",
+          "naturalWidth": 778,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 146,
+            "h": 146
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.105,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": null
+        },
+        {
+          "text": "",
+          "href": "/boky-bio",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "/blake-bio",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": null
+        },
+        {
+          "text": "",
+          "href": "https://collections/the-fragments-collection",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": null
+        }
+      ],
+      "cards": [
+        {
+          "href": null,
+          "label": "",
+          "image": {
+            "src": "/assets/home/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+            "alt": "",
+            "naturalWidth": 574,
+            "naturalHeight": 481,
+            "rendered": {
+              "w": 186,
+              "h": 194
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.803,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/boky-bio",
+          "target": "_blank",
+          "label": "",
+          "image": {
+            "src": "/assets/home/wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+            "alt": "",
+            "naturalWidth": 2448,
+            "naturalHeight": 3264,
+            "rendered": {
+              "w": 221,
+              "h": 312
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.944,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/blake-bio",
+          "target": "_blank",
+          "label": "",
+          "image": {
+            "src": "/assets/home/kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+            "alt": "",
+            "naturalWidth": 1932,
+            "naturalHeight": 1932,
+            "rendered": {
+              "w": 300,
+              "h": 340
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.882,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": null,
+          "label": "",
+          "image": {
+            "src": "/assets/home/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+            "alt": "",
+            "naturalWidth": 3456,
+            "naturalHeight": 5184,
+            "rendered": {
+              "w": 180,
+              "h": 198
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.364,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "https://collections/the-fragments-collection",
+          "target": "_blank",
+          "label": "",
+          "image": {
+            "src": "/assets/home/xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+            "alt": "",
+            "naturalWidth": 3328,
+            "naturalHeight": 4992,
+            "rendered": {
+              "w": 221,
+              "h": 356
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.931,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/",
+          "target": "_blank",
+          "label": "",
+          "image": {
+            "src": "/assets/home/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+            "alt": "",
+            "naturalWidth": 2130,
+            "naturalHeight": 2130,
+            "rendered": {
+              "w": 195,
+              "h": 246
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.793,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": null,
+          "label": "",
+          "image": {
+            "src": "/assets/home/I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+            "alt": "",
+            "naturalWidth": 778,
+            "naturalHeight": 860,
+            "rendered": {
+              "w": 146,
+              "h": 146
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.105,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h1",
+          "text": "Blake Ward & Boky Hackel Exploring human essence through figurative sculpture ",
+          "html": "<h1>Blake Ward &amp; Boky Hackel Exploring human essence through figurative sculpture </h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "50px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": null,
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+          "alt": "",
+          "naturalWidth": 574,
+          "naturalHeight": 481,
+          "rendered": {
+            "w": 186,
+            "h": 194
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.803,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": "/boky-bio",
+          "target": "_blank",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+          "alt": "",
+          "naturalWidth": 2448,
+          "naturalHeight": 3264,
+          "rendered": {
+            "w": 221,
+            "h": 312
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.944,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": "/blake-bio",
+          "target": "_blank",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+          "alt": "",
+          "naturalWidth": 1932,
+          "naturalHeight": 1932,
+          "rendered": {
+            "w": 300,
+            "h": 340
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.882,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": null,
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+          "alt": "",
+          "naturalWidth": 3456,
+          "naturalHeight": 5184,
+          "rendered": {
+            "w": 180,
+            "h": 198
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.364,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": "https://collections/the-fragments-collection",
+          "target": "_blank",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+          "alt": "",
+          "naturalWidth": 3328,
+          "naturalHeight": 4992,
+          "rendered": {
+            "w": 221,
+            "h": 356
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.931,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": "/",
+          "target": "_blank",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+          "alt": "",
+          "naturalWidth": 2130,
+          "naturalHeight": 2130,
+          "rendered": {
+            "w": 195,
+            "h": 246
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.793,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "link",
+          "text": "",
+          "href": null,
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/home/I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+          "alt": "",
+          "naturalWidth": 778,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 146,
+            "h": 146
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.105,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "artists-intro",
+      "name": "About the Artists",
+      "tag": "section",
+      "box": {
+        "y": 900,
+        "h": 1295.9
+      },
+      "eyebrow": "SCULPTOR · MONACO",
+      "heading": {
+        "tag": "h1",
+        "text": "Blake Ward"
+      },
+      "body": [
+        {
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Pushing the figure into the 21st century",
+          "html": "<p>Pushing the figure into the 21st century</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Canadian-born and working from Monaco, Blake has spent four decades on the human figure. Classically educated, he quickly began deconstructing his knowledge through the Fragments and Spirits Collections. His partial bronzes ask what remains of a body once the inessential is removed.",
+          "html": "<p>Canadian-born and working from Monaco, Blake has spent four decades on the human figure. Classically educated, he quickly began deconstructing his knowledge through the Fragments and Spirits Collections. His partial bronzes ask what remains of a body once the inessential is removed.</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "HIS COLLECTIONS",
+          "html": "<p>His collections</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Fragments · Andromeda · The Figures",
+          "html": "<p>Fragments · Andromeda · The Figures</p>"
+        },
+        {
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "SCULPTOR",
+          "html": "<p>Sculptor</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h1",
+          "text": "Boky Hackel",
+          "html": "<h1>Boky Hackel</h1>"
+        },
+        {
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Exploring the mysteries of time and being",
+          "html": "<p>Exploring the mysteries of time and being</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Born in Rheinfelden, Germany, she quickly moved to central America; her youth lit by the Venezuelan Sun and and Boky works in steel, light and gold leaf. Her sculptures turn inward focusing on memory, fracture and what endures. ",
+          "html": "<p>Born in Rheinfelden, Germany, she quickly moved to central America; her youth lit by the Venezuelan Sun and and Boky works in steel, light and gold leaf. Her sculptures turn inward focusing on memory, fracture and what endures. </p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "HER COLLECTIONS",
+          "html": "<p>Her collections</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "In Lucem · Figurative Poetry · Silentium Aurum",
+          "html": "<p>In Lucem · Figurative Poetry · Silentium Aurum</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/home/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+          "alt": "Portrait of the sculptor Blake Ward",
+          "naturalWidth": 400,
+          "naturalHeight": 392,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+          "alt": "Portrait of the sculptor Boky Hackel",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Blake Ward",
+          "href": "/blake-bio"
+        },
+        {
+          "text": "Read Blake’s story →",
+          "href": "/blake-bio"
+        },
+        {
+          "text": "Boky Hackel-Ward",
+          "href": "/boky-bio"
+        },
+        {
+          "text": "Read Boky’s story →",
+          "href": "/boky-bio"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/blake-bio",
+          "label": "Blake Ward",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Blake Ward"
+            }
+          ]
+        },
+        {
+          "href": "/blake-bio",
+          "label": "Read Blake’s story →",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Read Blake’s story  →"
+            }
+          ]
+        },
+        {
+          "href": "/boky-bio",
+          "label": "Boky Hackel-Ward",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Boky Hackel-Ward"
+            }
+          ]
+        },
+        {
+          "href": "/boky-bio",
+          "label": "Read Boky’s story →",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Read Boky’s story  →"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-button-0849e7c22e.svg",
+          "rendered": {
+            "w": 24,
+            "h": 24
+          }
+        },
+        {
+          "src": "/assets/global/icon-button-c194bb7e9c.svg",
+          "rendered": {
+            "w": 24,
+            "h": 24
+          }
+        }
+      ],
+      "content": [
+        {
+          "kind": "link",
+          "text": "Blake Ward",
+          "href": "/blake-bio",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Blake Ward",
+          "html": "<p>Blake Ward</p>",
+          "font": {
+            "family": "Switzer",
+            "size": "22px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-button-0849e7c22e.svg"
+        },
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "SCULPTOR · MONACO",
+          "html": "<p>Sculptor · Monaco</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Blake Ward",
+          "html": "<h1>Blake Ward</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Pushing the figure into the 21st century",
+          "html": "<p>Pushing the figure into the 21st century</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/home/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+          "alt": "Portrait of the sculptor Blake Ward",
+          "naturalWidth": 400,
+          "naturalHeight": 392,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Canadian-born and working from Monaco, Blake has spent four decades on the human figure. Classically educated, he quickly began deconstructing his knowledge through the Fragments and Spirits Collections. His partial bronzes ask what remains of a body once the inessential is removed.",
+          "html": "<p>Canadian-born and working from Monaco, Blake has spent four decades on the human figure. Classically educated, he quickly began deconstructing his knowledge through the Fragments and Spirits Collections. His partial bronzes ask what remains of a body once the inessential is removed.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "15px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "HIS COLLECTIONS",
+          "html": "<p>His collections</p>",
+          "font": {
+            "family": "Inter",
+            "size": "11px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Fragments · Andromeda · The Figures",
+          "html": "<p>Fragments · Andromeda · The Figures</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "18px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Read Blake’s story →",
+          "href": "/blake-bio",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Read Blake’s story  →",
+          "html": "<p>Read Blake’s story  →</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Boky Hackel-Ward",
+          "href": "/boky-bio",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Boky Hackel-Ward",
+          "html": "<p>Boky Hackel-Ward</p>",
+          "font": {
+            "family": "Switzer",
+            "size": "22px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-button-c194bb7e9c.svg"
+        },
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "SCULPTOR",
+          "html": "<p>Sculptor</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Boky Hackel",
+          "html": "<h1>Boky Hackel</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Tagline",
+          "tag": "p",
+          "text": "Exploring the mysteries of time and being",
+          "html": "<p>Exploring the mysteries of time and being</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "src": "/assets/home/ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+          "alt": "Portrait of the sculptor Boky Hackel",
+          "naturalWidth": 640,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 380,
+            "h": 380
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.344,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Born in Rheinfelden, Germany, she quickly moved to central America; her youth lit by the Venezuelan Sun and and Boky works in steel, light and gold leaf. Her sculptures turn inward focusing on memory, fracture and what endures. ",
+          "html": "<p>Born in Rheinfelden, Germany, she quickly moved to central America; her youth lit by the Venezuelan Sun and and Boky works in steel, light and gold leaf. Her sculptures turn inward focusing on memory, fracture and what endures. </p>",
+          "font": {
+            "family": "Inter",
+            "size": "15px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "HER COLLECTIONS",
+          "html": "<p>Her collections</p>",
+          "font": {
+            "family": "Inter",
+            "size": "11px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "In Lucem · Figurative Poetry · Silentium Aurum",
+          "html": "<p>In Lucem · Figurative Poetry · Silentium Aurum</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "18px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Read Boky’s story →",
+          "href": "/boky-bio",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Read Boky’s story  →",
+          "html": "<p>Read Boky’s story  →</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "name": "Section",
+      "tag": "div",
+      "box": {
+        "y": 2196,
+        "h": 774.5
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [
+        {
+          "role": null,
+          "tag": "span",
+          "text": "48"
+        },
+        {
+          "role": null,
+          "tag": "span",
+          "text": "+"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "exhibitions ",
+          "html": "<p>exhibitions </p>"
+        },
+        {
+          "role": null,
+          "tag": "span",
+          "text": "8"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Collections",
+          "html": "<p>Collections</p>"
+        },
+        {
+          "role": null,
+          "tag": "span",
+          "text": "88"
+        },
+        {
+          "role": null,
+          "tag": "span",
+          "text": "+"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Sculptures made ",
+          "html": "<p>Sculptures made </p>"
+        },
+        {
+          "role": null,
+          "tag": "span",
+          "text": "28"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "Countries exhibited in ",
+          "html": "<p>Countries exhibited in </p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/home/vLQblsbydSn6uqg0rL76Z5fGU.png",
+          "alt": "",
+          "naturalWidth": 912,
+          "naturalHeight": 1388,
+          "rendered": {
+            "w": 260,
+            "h": 286.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50.3% 30.9%",
+          "cropped": true,
+          "cropRatio": 1.38,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+          "alt": "",
+          "naturalWidth": 1200,
+          "naturalHeight": 1800,
+          "rendered": {
+            "w": 260,
+            "h": 286.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.36,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+          "alt": "",
+          "naturalWidth": 902,
+          "naturalHeight": 1378,
+          "rendered": {
+            "w": 260,
+            "h": 287.8
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.38,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/home/5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 260,
+            "h": 287.8
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.356,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "stats": [
+        {
+          "value": "48",
+          "suffix": "+",
+          "label": "exhibitions "
+        },
+        {
+          "value": "8",
+          "suffix": null,
+          "label": "Collections"
+        },
+        {
+          "value": "88",
+          "suffix": "+",
+          "label": "Sculptures made "
+        },
+        {
+          "value": "28",
+          "suffix": null,
+          "label": "Countries exhibited in "
+        }
+      ],
+      "statsNote": "Numbers are plain text spans (likely animated counters); values captured after scrolling, i.e. final values.",
+      "content": [
+        {
+          "src": "/assets/home/vLQblsbydSn6uqg0rL76Z5fGU.png",
+          "alt": "",
+          "naturalWidth": 912,
+          "naturalHeight": 1388,
+          "rendered": {
+            "w": 260,
+            "h": 286.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50.3% 30.9%",
+          "cropped": true,
+          "cropRatio": 1.38,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "48",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "+",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "exhibitions ",
+          "html": "<p>exhibitions </p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "src": "/assets/home/4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+          "alt": "",
+          "naturalWidth": 1200,
+          "naturalHeight": 1800,
+          "rendered": {
+            "w": 260,
+            "h": 286.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.36,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "8",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Collections",
+          "html": "<p>Collections</p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "88",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "+",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Sculptures made ",
+          "html": "<p>Sculptures made </p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "src": "/assets/home/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+          "alt": "",
+          "naturalWidth": 902,
+          "naturalHeight": 1378,
+          "rendered": {
+            "w": 260,
+            "h": 287.8
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.38,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "span",
+          "text": "28",
+          "plain": true,
+          "font": {
+            "family": "Switzer",
+            "size": "90px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Countries exhibited in ",
+          "html": "<p>Countries exhibited in </p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "src": "/assets/home/5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+          "alt": "",
+          "naturalWidth": 573,
+          "naturalHeight": 860,
+          "rendered": {
+            "w": 260,
+            "h": 287.8
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.356,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "section-link",
+      "name": "Section",
+      "tag": "a",
+      "box": {
+        "y": 2970,
+        "h": 136
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [],
+      "media": [],
+      "links": [
+        {
+          "text": "All Collections",
+          "href": "/collections"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/collections",
+          "label": "All Collections",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "All Collections"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-button-9dc05e68a6.svg",
+          "rendered": {
+            "w": 24,
+            "h": 24
+          }
+        }
+      ],
+      "content": [
+        {
+          "kind": "link",
+          "text": "All Collections",
+          "href": "/collections",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "All Collections",
+          "html": "<p>All Collections</p>",
+          "font": {
+            "family": "Switzer",
+            "size": "22px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-button-9dc05e68a6.svg"
+        }
+      ]
+    },
+    {
+      "type": "full-bleed-image",
+      "name": "Fullscreen Section",
+      "tag": "figure",
+      "box": {
+        "y": 3106,
+        "h": 900
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/home/58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+          "alt": "",
+          "naturalWidth": 5616,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 1440,
+            "h": 1080
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.889,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "src": "/assets/home/58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+          "alt": "",
+          "naturalWidth": 5616,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 1440,
+            "h": 1080
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.889,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "card-grid",
+      "name": "Section",
+      "tag": "section",
+      "box": {
+        "y": 4006,
+        "h": 701
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h4",
+        "text": "Invoco Te Divina Stella - an interview with Boky Hackel-Ward"
+      },
+      "body": [
+        {
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>"
+        },
+        {
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h4",
+          "text": "Fragments of Infinity – A collection for Humanity by Blake Ward ",
+          "html": "<h4><span><span>F</span><span>r</span><span>a</span><span>g</span><span>m</span><span>e</span><span>n</span><span>t</span><span>s</span></span> <span><span>o</span><span>f</span></span> <span><span>I</span><span>n</span><span>f</span><span>i</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>–</span></span> <span><span>A</span></span> <span><span>c</span><span>o</span><span>l</span><span>l</span><span>e</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span></span> <span><span>f</span><span>o</span><span>r</span></span> <span><span>H</span><span>u</span><span>m</span><span>a</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>b</span><span>y</span></span> <span><span>B</span><span>l</span><span>a</span><span>k</span><span>e</span></span> <span><span>W</span><span>a</span><span>r</span><span>d</span></span> <span></span></h4>"
+        },
+        {
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h4",
+          "text": "Pietrasanta – understanding the poetry of space.",
+          "html": "<h4><span><span>P</span><span>i</span><span>e</span><span>t</span><span>r</span><span>a</span><span>s</span><span>a</span><span>n</span><span>t</span><span>a</span></span> <span><span>–</span></span> <span><span>u</span><span>n</span><span>d</span><span>e</span><span>r</span><span>s</span><span>t</span><span>a</span><span>n</span><span>d</span><span>i</span><span>n</span><span>g</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>p</span><span>o</span><span>e</span><span>t</span><span>r</span><span>y</span></span> <span><span>o</span><span>f</span></span> <span><span>s</span><span>p</span><span>a</span><span>c</span><span>e</span><span>.</span></span></h4>"
+        },
+        {
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h4",
+          "text": "Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "html": "<h4><span><span>S</span><span>c</span><span>u</span><span>l</span><span>p</span><span>t</span><span>u</span><span>r</span><span>e</span><span>s</span></span> <span><span>S</span><span>y</span><span>m</span><span>b</span><span>o</span><span>l</span><span>i</span><span>s</span><span>i</span><span>i</span><span>n</span><span>g</span></span> <span><span>H</span><span>o</span><span>p</span><span>e</span></span> <span><span>:</span></span> <span><span>I</span><span>D</span></span> <span><span>M</span><span>a</span><span>g</span><span>a</span><span>z</span><span>i</span><span>n</span><span>e</span></span> <span><span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r</span></span> <span><span>2</span><span>0</span><span>0</span><span>8</span></span></h4>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+          "alt": "Fragments exhibition India 2012",
+          "naturalWidth": 960,
+          "naturalHeight": 720,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.75,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+          "alt": "",
+          "naturalWidth": 3360,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "51.2% 48.1%",
+          "cropped": true,
+          "cropRatio": 1.114,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+          "alt": "",
+          "naturalWidth": 1168,
+          "naturalHeight": 830,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.711,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "All Articles",
+          "href": "/news"
+        },
+        {
+          "text": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers"
+        },
+        {
+          "text": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward"
+        },
+        {
+          "text": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids"
+        },
+        {
+          "text": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "href": "/news/sculptures_symbolisiing_hope"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/news",
+          "label": "All Articles",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "All Articles"
+            }
+          ]
+        },
+        {
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers",
+          "label": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "image": {
+            "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 335,
+              "h": 335
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward",
+          "label": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "image": {
+            "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+            "alt": "Fragments exhibition India 2012",
+            "naturalWidth": 960,
+            "naturalHeight": 720,
+            "rendered": {
+              "w": 335,
+              "h": 335
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.75,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids",
+          "label": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "image": {
+            "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+            "alt": "",
+            "naturalWidth": 3360,
+            "naturalHeight": 3744,
+            "rendered": {
+              "w": 335,
+              "h": 335
+            },
+            "objectFit": "cover",
+            "objectPosition": "51.2% 48.1%",
+            "cropped": true,
+            "cropRatio": 1.114,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        },
+        {
+          "href": "/news/sculptures_symbolisiing_hope",
+          "label": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "image": {
+            "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+            "alt": "",
+            "naturalWidth": 1168,
+            "naturalHeight": 830,
+            "rendered": {
+              "w": 335,
+              "h": 335
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.711,
+            "kind": "image",
+            "name": null
+          },
+          "texts": []
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-button-c194bb7e9c.svg",
+          "rendered": {
+            "w": 24,
+            "h": 24
+          }
+        }
+      ],
+      "content": [
+        {
+          "kind": "link",
+          "text": "All Articles",
+          "href": "/news",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "All Articles",
+          "html": "<p>All Articles</p>",
+          "font": {
+            "family": "Switzer",
+            "size": "22px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-button-c194bb7e9c.svg"
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "href": "/news/when-walls-become-words-buildings-as-silent-storytellers",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+          "html": "<h4><span><span>I</span><span>n</span><span>v</span><span>o</span><span>c</span><span>o</span></span> <span><span>T</span><span>e</span></span> <span><span>D</span><span>i</span><span>v</span><span>i</span><span>n</span><span>a</span></span> <span><span>S</span><span>t</span><span>e</span><span>l</span><span>l</span><span>a</span></span> <span><span>-</span></span> <span><span>a</span><span>n</span></span> <span><span>i</span><span>n</span><span>t</span><span>e</span><span>r</span><span>v</span><span>i</span><span>e</span><span>w</span></span> <span><span>w</span><span>i</span><span>t</span><span>h</span></span> <span><span>B</span><span>o</span><span>k</span><span>y</span></span> <span><span>H</span><span>a</span><span>c</span><span>k</span><span>e</span><span>l</span><span>-</span><span>W</span><span>a</span><span>r</span><span>d</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Fragments of Infinity – A collection for Humanity by Blake Ward",
+          "href": "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+          "alt": "Fragments exhibition India 2012",
+          "naturalWidth": 960,
+          "naturalHeight": 720,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.75,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Fragments of Infinity – A collection for Humanity by Blake Ward ",
+          "html": "<h4><span><span>F</span><span>r</span><span>a</span><span>g</span><span>m</span><span>e</span><span>n</span><span>t</span><span>s</span></span> <span><span>o</span><span>f</span></span> <span><span>I</span><span>n</span><span>f</span><span>i</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>–</span></span> <span><span>A</span></span> <span><span>c</span><span>o</span><span>l</span><span>l</span><span>e</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span></span> <span><span>f</span><span>o</span><span>r</span></span> <span><span>H</span><span>u</span><span>m</span><span>a</span><span>n</span><span>i</span><span>t</span><span>y</span></span> <span><span>b</span><span>y</span></span> <span><span>B</span><span>l</span><span>a</span><span>k</span><span>e</span></span> <span><span>W</span><span>a</span><span>r</span><span>d</span></span> <span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Pietrasanta – understanding the poetry of space.",
+          "href": "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+          "alt": "",
+          "naturalWidth": 3360,
+          "naturalHeight": 3744,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "51.2% 48.1%",
+          "cropped": true,
+          "cropRatio": 1.114,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Pietrasanta – understanding the poetry of space.",
+          "html": "<h4><span><span>P</span><span>i</span><span>e</span><span>t</span><span>r</span><span>a</span><span>s</span><span>a</span><span>n</span><span>t</span><span>a</span></span> <span><span>–</span></span> <span><span>u</span><span>n</span><span>d</span><span>e</span><span>r</span><span>s</span><span>t</span><span>a</span><span>n</span><span>d</span><span>i</span><span>n</span><span>g</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>p</span><span>o</span><span>e</span><span>t</span><span>r</span><span>y</span></span> <span><span>o</span><span>f</span></span> <span><span>s</span><span>p</span><span>a</span><span>c</span><span>e</span><span>.</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Nov 24, 2025 Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "href": "/news/sculptures_symbolisiing_hope",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/news/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+          "alt": "",
+          "naturalWidth": 1168,
+          "naturalHeight": 830,
+          "rendered": {
+            "w": 335,
+            "h": 335
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.711,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Date",
+          "tag": "p",
+          "text": "Nov 24, 2025",
+          "html": "<p><time>Nov 24, 2025</time></p>",
+          "font": {
+            "family": "Switzer",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+          "html": "<h4><span><span>S</span><span>c</span><span>u</span><span>l</span><span>p</span><span>t</span><span>u</span><span>r</span><span>e</span><span>s</span></span> <span><span>S</span><span>y</span><span>m</span><span>b</span><span>o</span><span>l</span><span>i</span><span>s</span><span>i</span><span>i</span><span>n</span><span>g</span></span> <span><span>H</span><span>o</span><span>p</span><span>e</span></span> <span><span>:</span></span> <span><span>I</span><span>D</span></span> <span><span>M</span><span>a</span><span>g</span><span>a</span><span>z</span><span>i</span><span>n</span><span>e</span></span> <span><span>S</span><span>u</span><span>m</span><span>m</span><span>e</span><span>r</span></span> <span><span>2</span><span>0</span><span>0</span><span>8</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta-banner",
+      "name": "Desktop",
+      "tag": "div",
+      "box": {
+        "y": 4707,
+        "h": 638.4
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/home/9hCGhHVc0NtTWoZ5TAOUXgFqI.png",
+          "alt": "",
+          "naturalWidth": 12096,
+          "naturalHeight": 5184,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "Contact Us",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Contact Us"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg",
+          "rendered": {
+            "w": 21,
+            "h": 21
+          }
+        }
+      ],
+      "content": [
+        {
+          "src": "/assets/home/9hCGhHVc0NtTWoZ5TAOUXgFqI.png",
+          "alt": "",
+          "naturalWidth": 12096,
+          "naturalHeight": 5184,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Contact Us",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Contact Us",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg"
+        }
+      ]
+    }
+  ]
+}

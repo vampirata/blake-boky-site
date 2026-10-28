@@ -1,0 +1,83 @@
+---
+// Pre-footer band on dark pages: full-bleed photo, heading, black Contact Us button.
+import Img from "./Img.astro";
+import { url } from "../lib/site";
+interface Props {
+	image: string;
+	pos?: string;
+	heading?: string;
+}
+const { image, pos = "50% 50%", heading = "Get in touch for further inquiries" } = Astro.props;
+---
+
+<section class="cta">
+	<Img src={image} fit="cover" pos={pos} class="bg" sizes="100vw" />
+	<div class="inner">
+		<h2 class="t" data-reveal>{heading}</h2>
+		<a class="btn" href={url("/contact")} data-reveal style="--d:120ms">Contact Us <span aria-hidden="true">→</span></a>
+	</div>
+</section>
+
+<style>
+	.cta {
+		position: relative;
+		display: grid;
+		place-items: center;
+		min-block-size: 638px;
+		padding: 250px 20px;
+		overflow: hidden;
+		color: var(--white);
+	}
+	.cta :global(.bg) {
+		position: absolute;
+		inset: 0;
+		aspect-ratio: auto;
+	}
+	.inner {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 28px;
+		text-align: center;
+	}
+	.t {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-cta);
+		line-height: 1.15;
+		letter-spacing: -0.04em;
+		max-inline-size: 16ch;
+	}
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 10px 20px;
+		min-block-size: 54px;
+		background: var(--black);
+		font-family: var(--font-display);
+		font-style: italic;
+		font-size: 24px;
+		line-height: 1.4;
+		transition:
+			background-color 300ms var(--ease-out),
+			padding 300ms var(--ease-out);
+	}
+	.btn:hover {
+		background: var(--hover-grey);
+		padding-inline: 22px 23px;
+	}
+	@media (max-width: 1399.98px) {
+		.cta {
+			padding: 250px 40px;
+			min-block-size: 627px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.cta {
+			padding: 200px 20px;
+			min-block-size: 554px;
+		}
+	}
+</style>

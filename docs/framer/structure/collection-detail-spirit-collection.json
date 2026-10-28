@@ -1,0 +1,1107 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "EnRJTsGyk",
+ "$isPrimary": true,
+ "$parentId": "CM8ZzXWAv",
+ "$scopeId": "CM8ZzXWAv",
+ "$layoutTemplateId": "CWeg27bi1",
+ "$layoutTemplateDisplayName": "Default Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "-58px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "FrameNode",
+   "id": "M5MbXAUoT",
+   "attributes": {
+    "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "position": "relative",
+    "width": "100%",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Wrap",
+     "id": "DX0Y7XGdf",
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "start",
+      "stackWrapEnabled": false,
+      "gap": "106px",
+      "padding": "200px 0px 110px 0px",
+      "position": "relative",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "1920px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "name": "Head",
+       "id": "h2Qid0RL2",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "stackWrapEnabled": false,
+        "gap": "12px",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "RichTextNode",
+         "name": "Eyebrow",
+         "id": "R1JkGy6wF",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Article/Label",
+          "textAlignment": "start"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:R1JkGy6wF:0",
+           "attributes": {
+            "tag": "p"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:R1JkGy6wF:0:0",
+             "attributes": {
+              "text": "Blake Ward and Boky Hackel-Ward"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "RichTextNode",
+         "name": "Heading",
+         "id": "uGDfMCnl6",
+         "attributes": {
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "textStylePreset": "Text Styles/Article/Heading 1",
+          "textAlignment": "start",
+          "textColor": "var(--token-4d33ac77-1285-4245-a35a-b7f0118e2cb7)"
+         },
+         "children": [
+          {
+           "type": "TextBlock",
+           "id": "v:uGDfMCnl6:0",
+           "attributes": {
+            "tag": "h1"
+           },
+           "children": [
+            {
+             "type": "TextRun",
+             "id": "v:uGDfMCnl6:0:0",
+             "attributes": {
+              "text": "Spirit Collection"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "id": "OFKFM4kiv",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "position": "relative",
+        "collectionList": {
+         "collection": "Collections",
+         "repeatedDescendantId": "MQznvsVeQ",
+         "limit": "1",
+         "filters": [
+          {
+           "variableId": "wSPsBioiK",
+           "transforms": [
+            {
+             "name": "equals",
+             "value": "Spirit Collection : The Angels "
+            }
+           ]
+          }
+         ],
+         "filtersOperator": "and"
+        },
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "id": "MQznvsVeQ",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "56px",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "id": "uXSj3_RWO",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "0px",
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "maxWidth": "820px"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "id": "i5ibnacS2",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "text": "var(--variable-pNFKTmaam)",
+              "stylePresetHeading1": "Text Styles/Article/Heading 1 Inverse",
+              "stylePresetParagraph": "Text Styles/Blake Ward/Statement Inverse"
+             }
+            },
+            {
+             "type": "RichTextNode",
+             "id": "DPvS4ojX2",
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "text": "var(--variable-WqXEfNtWc)",
+              "stylePresetHeading1": "Text Styles/Article/Heading 1 Inverse",
+              "stylePresetHeading4": "Text Styles/Blake Ward/Body Inverse H4",
+              "stylePresetParagraph": "Text Styles/Blake Ward/Body Inverse"
+             }
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "id": "xEIIShdLm",
+           "attributes": {
+            "layout": "grid",
+            "gridAlignment": "center",
+            "gridColumnCount": 4,
+            "gridColumnMinWidth": "120px",
+            "gridRowCount": 1,
+            "gridRowHeightType": "auto",
+            "gridRowHeight": "200px",
+            "gap": "0px 32px",
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "id": "LcWS4sZm6",
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "padding": "18px 0px 0px 0px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "wH0e7pxc3",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                "textAlignment": "start"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:wH0e7pxc3:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:wH0e7pxc3:0:0",
+                   "attributes": {
+                    "text": "Year"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "xeHTM55Fb",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "text": "var(--variable-TyEAqL6f1)",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "id": "dk6iuQVXD",
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "padding": "18px 0px 0px 0px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "jGfetKflk",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                "textAlignment": "start"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:jGfetKflk:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:jGfetKflk:0:0",
+                   "attributes": {
+                    "text": "Category"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "L4PDPn6qj",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:L4PDPn6qj:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:L4PDPn6qj:0:0",
+                   "attributes": {
+                    "text": "Collaborative"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "id": "nAb_fA1EW",
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "padding": "18px 0px 0px 0px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "RYO_s4rJI",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                "textAlignment": "start"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:RYO_s4rJI:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:RYO_s4rJI:0:0",
+                   "attributes": {
+                    "text": "Size"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "on5Hx5vfK",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "text": "var(--variable-RdQMLwz76)",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "id": "zn_5naCNh",
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "start",
+              "stackWrapEnabled": false,
+              "gap": "8px",
+              "padding": "18px 0px 0px 0px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "e9T81KfGN",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+                "textAlignment": "start"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:e9T81KfGN:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:e9T81KfGN:0:0",
+                   "attributes": {
+                    "text": "Medium"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "iMzUWWHBf",
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "text": "var(--variable-AK_qYXq_u)",
+                "textStylePreset": "Text Styles/Blake Ward/Year",
+                "textAlignment": "start"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "id": "pTqygLvm3",
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "20px",
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "FrameNode",
+             "id": "azKRPYRMJ",
+             "attributes": {
+              "layout": "grid",
+              "gridAlignment": "center",
+              "gridColumnCount": 2,
+              "gridColumnMinWidth": "200px",
+              "gridRowCount": 1,
+              "gridRowHeightType": "auto",
+              "gridRowHeight": "200px",
+              "gap": "20px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "id": "NKcSs6faK",
+               "attributes": {
+                "fill": "var(--variable-oKdB_U7yY)",
+                "layout": "null",
+                "position": "relative",
+                "width": "1fr",
+                "height": "620px"
+               }
+              },
+              {
+               "type": "FrameNode",
+               "id": "DRFeGltnA",
+               "attributes": {
+                "fill": "var(--variable-OEzcC8pM8)",
+                "layout": "null",
+                "position": "relative",
+                "width": "1fr",
+                "height": "620px"
+               }
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "id": "PUEITiJR3",
+             "attributes": {
+              "layout": "grid",
+              "gridAlignment": "center",
+              "gridColumnCount": 3,
+              "gridColumnMinWidth": "150px",
+              "gridRowCount": 1,
+              "gridRowHeightType": "auto",
+              "gridRowHeight": "200px",
+              "gap": "20px",
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "FrameNode",
+               "id": "JvJngSx0Q",
+               "attributes": {
+                "fill": "var(--variable-RZzo3Dzvp)",
+                "layout": "null",
+                "position": "relative",
+                "width": "1fr",
+                "height": "0px",
+                "aspectRatio": 0.56
+               }
+              },
+              {
+               "type": "FrameNode",
+               "id": "wuxb6tPLi",
+               "attributes": {
+                "fill": "var(--variable-oDKvBNY5F)",
+                "layout": "null",
+                "position": "relative",
+                "width": "1fr",
+                "height": "0px",
+                "aspectRatio": 0.56
+               }
+              },
+              {
+               "type": "FrameNode",
+               "id": "GTEnaJ6qd",
+               "attributes": {
+                "fill": "var(--variable-pSBXBjkW7)",
+                "layout": "null",
+                "position": "relative",
+                "width": "1fr",
+                "height": "0px",
+                "aspectRatio": 0.56
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "id": "E2t1MklNt",
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "24px",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "id": "n1is7YGpu",
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "4px",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "id": "K1rNe9vp7",
+           "attributes": {
+            "position": "relative",
+            "width": "auto",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+            "textAlignment": "start"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:K1rNe9vp7:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:K1rNe9vp7:0:0",
+               "attributes": {
+                "text": "The Works"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "RichTextNode",
+           "id": "vXXngDlTE",
+           "attributes": {
+            "position": "relative",
+            "width": "auto",
+            "height": "auto",
+            "textStylePreset": "Text Styles/Blake Ward/Section Title Inverse",
+            "textAlignment": "start"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:vXXngDlTE:0",
+             "attributes": {
+              "tag": "h2"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:vXXngDlTE:0:0",
+               "attributes": {
+                "text": "Spirit Collection"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "id": "ap9kmdOCS",
+         "attributes": {
+          "htmlTag": "label",
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "gap": "8px",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "id": "M0nrnxMjY",
+           "attributes": {
+            "position": "relative",
+            "width": "auto",
+            "height": "auto",
+            "fontName": "Inter",
+            "fontStyle": "normal",
+            "fontWeight": 500,
+            "fontSize": "12px",
+            "letterSpacing": "0em",
+            "lineHeight": "1.2em",
+            "textAlignment": "start",
+            "textDecorationStyle": "solid",
+            "textColor": "rgb(245, 242, 235)",
+            "userSelect": "none",
+            "visible": "false"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:M0nrnxMjY:0",
+             "attributes": {
+              "tag": "p"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:M0nrnxMjY:0:0",
+               "attributes": {
+                "text": "Title"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FormPlainTextInputNode",
+           "id": "l3P8MC0Wq",
+           "attributes": {
+            "border": "1px solid rgba(136, 136, 136, 0.1)",
+            "fill": "rgba(187, 187, 187, 0.15)",
+            "formInputValue": "",
+            "formInputFocusedBorderColor": "rgba(0, 153, 255, 1)",
+            "formInputFocusedBorderWidth": 1,
+            "formInputFocusedBorderTop": 1,
+            "formInputFocusedBorderRight": 1,
+            "formInputFocusedBorderBottom": 1,
+            "formInputFocusedBorderLeft": 1,
+            "formInputFocusedBorderPerSide": false,
+            "formInputFocusedBorderStyle": "solid",
+            "formInputIconImage": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 fill=%22none%22><path d=%22M7 2.5a5 5 0 0 1 4.13 7.82l2.03 2.03a.75.75 0 0 1-1.06 1.06l-2-2A5 5 0 1 1 7 2.5Zm-3.5 5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 0 0-7 0Z%22 fill=%22%23999%22/></svg>",
+            "formInputIconColor": "rgba(153, 153, 153, 1)",
+            "formInputPlaceholder": "Search…",
+            "formInputPlaceholderColor": "rgba(153, 153, 153, 1)",
+            "formTextInputType": "text",
+            "padding": "12px",
+            "position": "relative",
+            "radius": "10px",
+            "width": "1fr",
+            "height": "40px",
+            "fontName": "Inter",
+            "fontStyle": "normal",
+            "fontWeight": 400,
+            "fontSize": "14px",
+            "letterSpacing": "0em",
+            "lineHeight": "1.2em",
+            "textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+            "variableBinding": "var(--variable-tPfo0hh7r)"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "id": "xBPta6IhZ",
+         "attributes": {
+          "layout": "grid",
+          "gridAlignment": "center",
+          "gridColumnCount": 4,
+          "gridColumnMinWidth": "50px",
+          "gap": "100px 0px",
+          "position": "relative",
+          "collectionList": {
+           "collection": "Spirit Collection",
+           "repeatedDescendantId": "cp3dPbf7L"
+          },
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "cp3dPbf7L",
+           "component": "RKOTpOXF5",
+           "$componentDisplayName": "Article Thumbnail",
+           "attributes": {
+            "$control__variant": "Default",
+            "$control__image": "var(--variable-bot32dqPH)",
+            "$control__date": "2026-02-24T00:00:00.000Z",
+            "$control__title": "var(--variable-zPDJyVUyH)",
+            "$control__link": {
+             "href": "/collections/spirit-collection/:slug",
+             "collectionItem": "var(--variable-irnHdwg4z)"
+            },
+            "$control__textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+            "position": "relative",
+            "width": "433px",
+            "height": "auto"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "ComponentInstanceNode",
+       "id": "GsqmG9yji",
+       "component": "codeFile/nGENbFQ:default",
+       "$componentDisplayName": "WorksSearchGrid",
+       "attributes": {
+        "$control__columns": "4",
+        "$control__gap": "24",
+        "$control__highlight": "rgb(227, 202, 166)",
+        "$control__textColor": "rgb(242, 242, 242)",
+        "$control__mutedColor": "rgb(138, 138, 134)",
+        "$control__lineColor": "rgb(42, 42, 40)",
+        "$control__cardBackground": "rgb(22, 22, 21)",
+        "$control__placeholder": "Search pieces in this collection…",
+        "$control__title1": "Goddess Ma'at",
+        "$control__image1": "https://framerusercontent.com/images/C7GVouiooDiJ8kY3uJUykrTKVE.jpg",
+        "$control__link1": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "goddess-ma-at"
+        },
+        "$control__title2": "Angel Forces",
+        "$control__image2": "https://framerusercontent.com/images/Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+        "$control__link2": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-forces"
+        },
+        "$control__title3": "Angel Camael",
+        "$control__image3": "https://framerusercontent.com/images/7kKB863UklJvJZn4bxv7n5ucGQ.jpg",
+        "$control__link3": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-camael"
+        },
+        "$control__title4": "Angel Vohamanah",
+        "$control__image4": "https://framerusercontent.com/images/574UdZk5eubmgUHg6RyudTUN4.png",
+        "$control__link4": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-vohamanah"
+        },
+        "$control__title5": "Angel Hamiah",
+        "$control__image5": "https://framerusercontent.com/images/1ilLDDYibT0eJsLkIQlT5cng8M.jpg",
+        "$control__link5": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-hamiah"
+        },
+        "$control__title6": "Angel Urim",
+        "$control__image6": "https://framerusercontent.com/images/2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+        "$control__link6": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-urim"
+        },
+        "$control__title7": "Angel Valoel",
+        "$control__image7": "https://framerusercontent.com/images/Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+        "$control__link7": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-valoel"
+        },
+        "$control__title8": "Angel Sariel",
+        "$control__image8": "https://framerusercontent.com/images/gTVictnOFeocBGvHUcwiaMdgI.jpg",
+        "$control__link8": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-sariel"
+        },
+        "$control__title9": "Angel Assiel",
+        "$control__image9": "https://framerusercontent.com/images/fWiaWeZiWiyPxowaI4EHCQUn52w.jpg",
+        "$control__link9": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-assiel"
+        },
+        "$control__title10": "Angel Ecanus",
+        "$control__image10": "https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+        "$control__link10": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-ecanus"
+        },
+        "$control__title11": "Angel Leylah",
+        "$control__image11": "https://framerusercontent.com/images/DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+        "$control__link11": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-leylah"
+        },
+        "$control__title12": "Angel Ishtar",
+        "$control__image12": "https://framerusercontent.com/images/hqhYpXIJ7UOgRrd8dOso7btdhnE.jpg",
+        "$control__link12": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-ishtar"
+        },
+        "$control__title13": "Angel Bastet",
+        "$control__image13": "https://framerusercontent.com/images/hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+        "$control__link13": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-bastet"
+        },
+        "$control__title14": "Angel Hael",
+        "$control__image14": "https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg",
+        "$control__link14": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-hael"
+        },
+        "$control__title15": "Angel Tahere",
+        "$control__image15": "https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+        "$control__link15": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-tahere"
+        },
+        "$control__title16": "Goddess Neith",
+        "$control__image16": "https://framerusercontent.com/images/ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+        "$control__link16": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "goddess-neith"
+        },
+        "$control__title17": "Angel Asherah",
+        "$control__image17": "https://framerusercontent.com/images/kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+        "$control__link17": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-asherah"
+        },
+        "$control__title18": "Angel Dalquielle",
+        "$control__image18": "https://framerusercontent.com/images/uIkt1OfotA2uS3STlkzP9ag.jpg",
+        "$control__link18": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-dalquielle"
+        },
+        "$control__title19": "Angel Daniel",
+        "$control__image19": "https://framerusercontent.com/images/78baAnP9tbhxuqUXf2f1mzGo08.jpg",
+        "$control__link19": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-daniel"
+        },
+        "$control__title20": "Angel Azrael",
+        "$control__image20": "https://framerusercontent.com/images/4DL1aqjebC8bDgnvAODF4BsSA4Y.jpg",
+        "$control__link20": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-azrael"
+        },
+        "$control__title21": "Angel Angthal",
+        "$control__image21": "https://framerusercontent.com/images/PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+        "$control__link21": {
+         "href": "/collections/spirit-collection/:slug",
+         "collectionItem": "angel-angthal"
+        },
+        "$control__title22": "",
+        "$control__title23": "",
+        "$control__title24": "",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto",
+        "visible": "false"
+       }
+      },
+      {
+       "type": "FrameNode",
+       "name": "Works",
+       "id": "QEsZtDtqv",
+       "attributes": {
+        "layout": "grid",
+        "gridAlignment": "start",
+        "gridColumnCount": 3,
+        "gridColumnMinWidth": "50px",
+        "gap": "32px 24px",
+        "position": "relative",
+        "collectionList": {
+         "collection": "Spirit Collection",
+         "repeatedDescendantId": "j26gxHHA0"
+        },
+        "width": "1fr",
+        "height": "auto",
+        "visible": "false"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Work",
+         "id": "j26gxHHA0",
+         "attributes": {
+          "cursor": "pointer",
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "start",
+          "stackWrapEnabled": false,
+          "gap": "14px",
+          "link": {
+           "href": "/collections/spirit-collection/:slug",
+           "collectionItem": "var(--variable-irnHdwg4z)"
+          },
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Image",
+           "id": "xi4_v3jJM",
+           "attributes": {
+            "fill": "var(--variable-bot32dqPH)",
+            "layout": "null",
+            "overflow": "clip",
+            "position": "relative",
+            "width": "1fr",
+            "height": "320px"
+           }
+          },
+          {
+           "type": "RichTextNode",
+           "name": "Title",
+           "id": "V5RIeX9uz",
+           "attributes": {
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "text": "var(--variable-zPDJyVUyH)",
+            "fontName": "Inter",
+            "fontStyle": "normal",
+            "fontWeight": 400,
+            "fontSize": "16px",
+            "letterSpacing": "0em",
+            "lineHeight": "1.2em",
+            "textAlignment": "start",
+            "textDecorationStyle": "solid",
+            "textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "nmf4NTZYF",
+   "component": "NJX6voBkJ",
+   "$componentDisplayName": "Go-back",
+   "attributes": {
+    "$control__variant": "Dark",
+    "$control__link": "/collections",
+    "$control__title": "Collections",
+    "position": "fixed",
+    "left": "20px",
+    "right": "null",
+    "top": "88px",
+    "bottom": "null",
+    "centerAnchorX": "6.43%",
+    "centerAnchorY": "13.38%",
+    "constraintsLocked": false,
+    "width": "auto",
+    "height": "auto"
+   }
+  }
+ ]
+}

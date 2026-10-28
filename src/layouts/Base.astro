@@ -1,0 +1,64 @@
+---
+import "../styles/global.css";
+import Nav, { type NavVariant } from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_NAME, DEFAULT_DESCRIPTION, url } from "../lib/site";
+import { img } from "../lib/img";
+
+interface Props {
+	title?: string;
+	description?: string;
+	ogImage?: string;
+	nav?: NavVariant;
+	/** Page background and default text colour. */
+	bg?: string;
+	fg?: string;
+	/** Lenis smooth scroll, on the pages that had it live. */
+	smooth?: boolean;
+	footer?: boolean;
+}
+const {
+	title,
+	description = DEFAULT_DESCRIPTION,
+	ogImage,
+	nav = "black",
+	bg = "var(--ink)",
+	fg = "var(--white)",
+	smooth = false,
+	footer = true,
+} = Astro.props;
+const fullTitle = title && title !== SITE_NAME ? `${title} | ${SITE_NAME}` : SITE_NAME;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const og = ogImage ? new URL(url(img(ogImage)?.src ?? ogImage), Astro.site).href : undefined;
+---
+
+<!doctype html>
+<html lang="en" data-smooth={smooth ? "true" : "false"}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{fullTitle}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
+		<link rel="icon" href={url("/favicon.png")} />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content={SITE_NAME} />
+		<meta property="og:title" content={fullTitle} />
+		<meta property="og:description" content={description} />
+		{og && <meta property="og:image" content={og} />}
+		<meta name="twitter:card" content={og ? "summary_large_image" : "summary"} />
+		<meta name="theme-color" content="#0f0f0f" />
+		<script is:inline>document.documentElement.classList.add("js");</script>
+		<slot name="head" />
+	</head>
+	<body style={`--page-bg:${bg};--page-fg:${fg}`}>
+		<Nav variant={nav} />
+		<main id="main">
+			<slot />
+		</main>
+		{footer && <Footer />}
+		<script>
+			import "../scripts/motion.ts";
+		</script>
+	</body>
+</html>

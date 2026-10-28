@@ -1,0 +1,624 @@
+{
+ "url": "/blake-bio",
+ "vw": 1440,
+ "docH": 9152,
+ "bodyBg": "#0f0f0f",
+ "sections": [
+  {
+   "name": "Main",
+   "tag": "div",
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 8678,
+   "position": "relative",
+   "top": "0px",
+   "zIndex": "auto",
+   "bg": "#f3f1e9",
+   "bgImage": null,
+   "padding": "0px",
+   "display": "flex",
+   "flexDir": "column",
+   "gap": "0px",
+   "gridCols": "none",
+   "justify": "center",
+   "align": "center",
+   "children": [
+    {
+     "name": "Hero",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 841,
+     "bg": "#000000@0",
+     "padding": "90px 0px 70px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    },
+    {
+     "name": "Artist Statement",
+     "x": 0,
+     "y": 841,
+     "w": 1440,
+     "h": 365,
+     "bg": "#000000@0",
+     "padding": "80px 0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    },
+    {
+     "name": "Biography",
+     "x": 0,
+     "y": 1206,
+     "w": 1440,
+     "h": 1015,
+     "bg": "#000000@0",
+     "padding": "80px 0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    },
+    {
+     "name": "Collections",
+     "x": 0,
+     "y": 2221,
+     "w": 1440,
+     "h": 5583,
+     "bg": "#000000@0",
+     "padding": "80px 0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    },
+    {
+     "name": "Exhibitions",
+     "x": 0,
+     "y": 7804,
+     "w": 1440,
+     "h": 522,
+     "bg": "#000000@0",
+     "padding": "80px 0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    },
+    {
+     "name": "Contact CTA",
+     "x": 0,
+     "y": 8325,
+     "w": 1440,
+     "h": 352,
+     "bg": "#000000@0",
+     "padding": "110px 0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "div",
+   "tag": "div",
+   "x": 0,
+   "y": 8678,
+   "w": 1440,
+   "h": 475,
+   "position": "sticky",
+   "top": "0px",
+   "zIndex": "9",
+   "bg": "#000000@0",
+   "bgImage": null,
+   "padding": "0px",
+   "display": "block",
+   "flexDir": "row",
+   "gap": "normal",
+   "gridCols": "none",
+   "justify": "normal",
+   "align": "normal",
+   "children": [
+    {
+     "name": "Desktop",
+     "x": 0,
+     "y": 8678,
+     "w": 1440,
+     "h": 475,
+     "bg": "#000000",
+     "padding": "52px 46px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "32px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "div",
+   "tag": "div",
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 64,
+   "position": "fixed",
+   "top": "0px",
+   "zIndex": "9",
+   "bg": "#000000@0",
+   "bgImage": null,
+   "padding": "0px",
+   "display": "block",
+   "flexDir": "row",
+   "gap": "normal",
+   "gridCols": "none",
+   "justify": "normal",
+   "align": "normal",
+   "children": [
+    {
+     "name": "Desktop Light",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 64,
+     "bg": "#f5f2eb",
+     "padding": "0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "row",
+     "gap": "20px",
+     "gridCols": "none"
+    }
+   ]
+  }
+ ],
+ "grids": [
+  {
+   "name": "",
+   "x": 32,
+   "y": 2453,
+   "w": 1376,
+   "h": 5271,
+   "display": "grid",
+   "cols": "668px 668px",
+   "rows": "minmax(0px, 1fr)",
+   "gap": "52px 40px",
+   "padding": "0px",
+   "items": 8,
+   "perRow": 2,
+   "rowsCount": 4,
+   "itemW": [
+    668,
+    668,
+    668,
+    668
+   ],
+   "itemH": [
+    1279,
+    1279,
+    1279,
+    1279
+   ]
+  },
+  {
+   "name": "Countries",
+   "x": 310,
+   "y": 8035,
+   "w": 820,
+   "h": 72,
+   "display": "flex",
+   "cols": "none",
+   "rows": "auto",
+   "gap": "10px 14px",
+   "padding": "0px",
+   "items": 25,
+   "perRow": 16,
+   "rowsCount": 2,
+   "itemW": [
+    111,
+    4,
+    63,
+    4
+   ],
+   "itemH": [
+    31,
+    31,
+    31,
+    31
+   ]
+  },
+  {
+   "name": "Stats",
+   "x": 32,
+   "y": 8171,
+   "w": 1376,
+   "h": 74,
+   "display": "grid",
+   "cols": "326px 326px 326px 326px",
+   "rows": "min-content",
+   "gap": "24px",
+   "padding": "0px",
+   "items": 4,
+   "perRow": 4,
+   "rowsCount": 1,
+   "itemW": [
+    326,
+    326,
+    326,
+    326
+   ],
+   "itemH": [
+    74,
+    74,
+    74,
+    74
+   ]
+  }
+ ],
+ "rails": [],
+ "imgs": [
+  {
+   "src": "z96199S1Rw3C69lhGQjoGDyD4LM.png",
+   "alt": "Portrait of the sculptor Blake Ward",
+   "x": 505,
+   "y": 350,
+   "w": 430,
+   "h": 421,
+   "natural": [
+    400,
+    392
+   ],
+   "renderedAspect": 1.021,
+   "naturalAspect": 1.02,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "y",
+    "pct": 0.1
+   },
+   "parent": "Hero Sculpture"
+  },
+  {
+   "src": "PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+   "alt": "",
+   "x": 32,
+   "y": 2453,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    1099
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 0.608,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 7.5
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+   "alt": "asherah",
+   "x": 740,
+   "y": 2453,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    640,
+    860
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 0.744,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 24.4
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+   "alt": "Phantom Elixir",
+   "x": 32,
+   "y": 3783,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    1002
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 0.667,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 15.6
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "cdIbmmNXhBW4uocYrqrNVCU.jpg",
+   "alt": "mafdet mayet",
+   "x": 740,
+   "y": 3783,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    897
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 0.745,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 24.5
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+   "alt": "Orange Flower",
+   "x": 32,
+   "y": 5114,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    738
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 0.905,
+   "fit": "cover",
+   "pos": "50.7% 44.3%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 37.9
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+   "alt": "",
+   "x": 740,
+   "y": 5114,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    435
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 1.536,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 63.4
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+   "alt": "Yellow Flower",
+   "x": 32,
+   "y": 6445,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    668
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 1,
+   "fit": "cover",
+   "pos": "48.7% 46.3%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 43.7
+   },
+   "parent": "Collections Wrap"
+  },
+  {
+   "src": "kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+   "alt": "Orange Flower",
+   "x": 740,
+   "y": 6445,
+   "w": 668,
+   "h": 1188,
+   "natural": [
+    668,
+    454
+   ],
+   "renderedAspect": 0.563,
+   "naturalAspect": 1.471,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "2px",
+   "cut": {
+    "axis": "x",
+    "pct": 61.8
+   },
+   "parent": "Collections Wrap"
+  }
+ ],
+ "bgImgs": [],
+ "videos": [],
+ "iframes": [],
+ "tally": {
+  "bg": {
+   "#0f0f0f": 1,
+   "#f3f1e9": 1,
+   "#1c1a17": 8,
+   "#0f0f0f@0.01": 1,
+   "#000000": 1,
+   "#ffffff@0": 3,
+   "#f5f2eb": 1
+  },
+  "radius": {
+   "2px": 27,
+   "50%": 8,
+   "12px": 3
+  },
+  "backdrop": {
+   "blur(10px)": 1
+  }
+ },
+ "hairlines": [],
+ "nav": {
+  "name": "Desktop Light",
+  "x": 0,
+  "y": 0,
+  "w": 1440,
+  "h": 64,
+  "wrapperPos": "fixed",
+  "bg": "#f5f2eb",
+  "backdrop": "blur(10px)",
+  "padding": "0px",
+  "inner": [
+   {
+    "name": "Container",
+    "x": 0,
+    "y": 3,
+    "w": 1440,
+    "h": 59,
+    "bg": "#000000@0",
+    "padding": "0px 20px",
+    "gap": "normal"
+   },
+   {
+    "name": "Top",
+    "x": 20,
+    "y": 3,
+    "w": 120,
+    "h": 59,
+    "bg": "#000000@0",
+    "padding": "10px 0px",
+    "gap": "0px"
+   },
+   {
+    "name": "ON LIGHT",
+    "x": 20,
+    "y": 13,
+    "w": 120,
+    "h": 39,
+    "bg": "#000000@0",
+    "padding": "4px",
+    "gap": "10px"
+   },
+   {
+    "name": "Links",
+    "x": 730,
+    "y": 15,
+    "w": 690,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "0px",
+    "gap": "0px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 730,
+    "y": 15,
+    "w": 68,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 797,
+    "y": 15,
+    "w": 64,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 861,
+    "y": 15,
+    "w": 109,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 970,
+    "y": 15,
+    "w": 107,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 1077,
+    "y": 15,
+    "w": 189,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 1267,
+    "y": 15,
+    "w": 69,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   },
+   {
+    "name": "LIGHT",
+    "x": 1336,
+    "y": 15,
+    "w": 84,
+    "h": 34,
+    "bg": "#000000@0",
+    "padding": "4px 14px",
+    "gap": "10px"
+   }
+  ]
+ },
+ "motion": {
+  "atLoad": [],
+  "loadAnims": [],
+  "preScrollHidden": [],
+  "scrollAnims": [],
+  "easings": [],
+  "settledStillHidden": []
+ }
+}

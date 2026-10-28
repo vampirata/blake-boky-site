@@ -1,0 +1,1603 @@
+{
+  "path": "/contact",
+  "seo": {
+    "title": "Contact — Blake & Boky",
+    "description": "Enquiries about available work, commissions and exhibitions. Atelier in Pietrasanta, Italy, by appointment.",
+    "ogTitle": "Contact — Blake & Boky",
+    "ogDescription": "Enquiries about available work, commissions and exhibitions. Atelier in Pietrasanta, Italy, by appointment.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/contact"
+  },
+  "navVariant": "Desktop Light",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 2872,
+  "sections": [
+    {
+      "type": "hero",
+      "name": "Hero",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 379.9
+      },
+      "eyebrow": "ENQUIRIES",
+      "heading": {
+        "tag": "h1",
+        "text": "Contact"
+      },
+      "body": [
+        {
+          "role": "Line",
+          "tag": "p",
+          "text": "For available work, commissions, exhibitions and studio visits.",
+          "html": "<p>For available work, commissions, exhibitions and studio visits.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "ENQUIRIES",
+          "html": "<p>Enquiries</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h1",
+          "text": "Contact",
+          "html": "<h1>Contact</h1>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "104px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Line",
+          "tag": "p",
+          "text": "For available work, commissions, exhibitions and studio visits.",
+          "html": "<p>For available work, commissions, exhibitions and studio visits.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Portrait",
+      "tag": "div",
+      "box": {
+        "y": 380,
+        "h": 764
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/contact/HW1h9xSrg3Vb51GhfM2XxzV8g.jpeg",
+          "alt": "Boky Hackel-Ward and Blake Ward",
+          "naturalWidth": 1882,
+          "naturalHeight": 1498,
+          "rendered": {
+            "w": 860,
+            "h": 684
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [],
+      "content": [
+        {
+          "src": "/assets/contact/HW1h9xSrg3Vb51GhfM2XxzV8g.jpeg",
+          "alt": "Boky Hackel-Ward and Blake Ward",
+          "naturalWidth": 1882,
+          "naturalHeight": 1498,
+          "rendered": {
+            "w": 860,
+            "h": 684
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        }
+      ]
+    },
+    {
+      "type": "contact-details",
+      "name": "Details",
+      "tag": "section",
+      "box": {
+        "y": 1144,
+        "h": 317.7
+      },
+      "eyebrow": "ATELIER",
+      "heading": {
+        "tag": "h3",
+        "text": "Pietrasanta, Italy"
+      },
+      "body": [
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "By appointment only.",
+          "html": "<p>By appointment only.</p>"
+        },
+        {
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BLAKE WARD",
+          "html": "<p>Blake Ward</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h3",
+          "text": "General inquiries",
+          "html": "<h3>General inquiries</h3>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "blake@blakeward.com",
+          "html": "<p><!--$--><a href=\"mailto:blake@blakeward.com\" rel=\"\">blake@blakeward.com</a><!--/$--></p>"
+        },
+        {
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BOKY HACKEL-WARD",
+          "html": "<p>Boky Hackel-Ward</p>"
+        },
+        {
+          "role": "Title",
+          "tag": "h3",
+          "text": "General inquiries",
+          "html": "<h3>General inquiries</h3>"
+        },
+        {
+          "role": "Detail",
+          "tag": "p",
+          "text": "boky@bokyhackel.com",
+          "html": "<p><!--$--><a href=\"mailto:boky@bokyhackel.com\" rel=\"\">boky@bokyhackel.com</a><!--/$--></p>"
+        }
+      ],
+      "media": [],
+      "links": [
+        {
+          "text": "blake@blakeward.com",
+          "href": "mailto:blake@blakeward.com",
+          "inline": true
+        },
+        {
+          "text": "boky@bokyhackel.com",
+          "href": "mailto:boky@bokyhackel.com",
+          "inline": true
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "ATELIER",
+          "html": "<p>Atelier</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h3",
+          "text": "Pietrasanta, Italy",
+          "html": "<h3>Pietrasanta, Italy</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "By appointment only.",
+          "html": "<p>By appointment only.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BLAKE WARD",
+          "html": "<p>Blake Ward</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h3",
+          "text": "General inquiries",
+          "html": "<h3>General inquiries</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "blake@blakeward.com",
+          "html": "<p><!--$--><a href=\"mailto:blake@blakeward.com\" rel=\"\">blake@blakeward.com</a><!--/$--></p>",
+          "links": [
+            {
+              "text": "blake@blakeward.com",
+              "href": "mailto:blake@blakeward.com"
+            }
+          ],
+          "font": {
+            "family": "Inter",
+            "size": "18px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "BOKY HACKEL-WARD",
+          "html": "<p>Boky Hackel-Ward</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h3",
+          "text": "General inquiries",
+          "html": "<h3>General inquiries</h3>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Detail",
+          "tag": "p",
+          "text": "boky@bokyhackel.com",
+          "html": "<p><!--$--><a href=\"mailto:boky@bokyhackel.com\" rel=\"\">boky@bokyhackel.com</a><!--/$--></p>",
+          "links": [
+            {
+              "text": "boky@bokyhackel.com",
+              "href": "mailto:boky@bokyhackel.com"
+            }
+          ],
+          "font": {
+            "family": "Inter",
+            "size": "18px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-form",
+      "name": "Message",
+      "tag": "section",
+      "box": {
+        "y": 1462,
+        "h": 935.8
+      },
+      "eyebrow": "WRITE TO US",
+      "heading": {
+        "tag": "h2",
+        "text": "Send a message"
+      },
+      "body": [
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "NAME",
+          "html": "<p>Name</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "EMAIL",
+          "html": "<p>Email</p>"
+        },
+        {
+          "role": null,
+          "tag": "p",
+          "text": "PIECE INTERESTED IN",
+          "html": "<p>Piece Interested In</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "MESSAGE",
+          "html": "<p>Message</p>"
+        },
+        {
+          "role": "Label",
+          "tag": "p",
+          "text": "SEND MESSAGE",
+          "html": "<p>Send message</p>"
+        },
+        {
+          "role": "Note",
+          "tag": "p",
+          "text": "We aim to reply within a few days. For gallery representation, please write directly to either artist.",
+          "html": "<p>We aim to reply within a few days. For gallery representation, please write directly to either artist.</p>"
+        }
+      ],
+      "media": [],
+      "links": [],
+      "form": [
+        {
+          "kind": "form",
+          "action": null,
+          "method": "post",
+          "name": "Contact Form",
+          "box": {
+            "w": 680,
+            "h": 558.4,
+            "x": 380,
+            "y": 1685
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "name",
+          "placeholder": "Your name",
+          "required": true,
+          "value": "",
+          "label": "NAME",
+          "autocomplete": "",
+          "box": {
+            "w": 680,
+            "h": 24,
+            "x": 380,
+            "y": 1728
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "email",
+          "fieldName": "email",
+          "placeholder": "you@example.com",
+          "required": true,
+          "value": "",
+          "label": "EMAIL",
+          "autocomplete": "",
+          "box": {
+            "w": 680,
+            "h": 24,
+            "x": 380,
+            "y": 1834
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "select",
+          "type": "select-one",
+          "fieldName": "piece_interested_in",
+          "required": false,
+          "value": null,
+          "options": [
+            {
+              "value": "",
+              "label": "General inquiry — no specific piece"
+            },
+            {
+              "value": "POMZ M2",
+              "label": "POMZ M2"
+            },
+            {
+              "value": "Hades BL 755",
+              "label": "Hades BL 755"
+            },
+            {
+              "value": "Claymore M18A1",
+              "label": "Claymore M18A1"
+            },
+            {
+              "value": "Putkimiina M 68",
+              "label": "Putkimiina M 68"
+            },
+            {
+              "value": "Scatmine Blu 92",
+              "label": "Scatmine Blu 92"
+            },
+            {
+              "value": "SUU-58",
+              "label": "SUU-58"
+            },
+            {
+              "value": "Hornet M93",
+              "label": "Hornet M93"
+            },
+            {
+              "value": "Hamdy HAK-1",
+              "label": "Hamdy HAK-1"
+            },
+            {
+              "value": "Apple P-40",
+              "label": "Apple P-40"
+            },
+            {
+              "value": "Butterfly PFM 1",
+              "label": "Butterfly PFM 1"
+            },
+            {
+              "value": "Gatorman",
+              "label": "Gatorman"
+            },
+            {
+              "value": "Andromeda Adrasteo",
+              "label": "Andromeda Adrasteo"
+            },
+            {
+              "value": "Andromeda Callisto",
+              "label": "Andromeda Callisto"
+            },
+            {
+              "value": "Andromeda Devorah",
+              "label": "Andromeda Devorah"
+            },
+            {
+              "value": "Goddess Ma'at",
+              "label": "Goddess Ma'at"
+            },
+            {
+              "value": "Angel Forces",
+              "label": "Angel Forces"
+            },
+            {
+              "value": "Angel Camael",
+              "label": "Angel Camael"
+            },
+            {
+              "value": "Angel Vohamanah",
+              "label": "Angel Vohamanah"
+            },
+            {
+              "value": "Angel Hamiah",
+              "label": "Angel Hamiah"
+            },
+            {
+              "value": "Angel Urim",
+              "label": "Angel Urim"
+            },
+            {
+              "value": "Angel Valoel",
+              "label": "Angel Valoel"
+            },
+            {
+              "value": "Angel Sariel",
+              "label": "Angel Sariel"
+            },
+            {
+              "value": "Angel Assiel",
+              "label": "Angel Assiel"
+            },
+            {
+              "value": "Angel Ecanus",
+              "label": "Angel Ecanus"
+            },
+            {
+              "value": "Angel Leylah",
+              "label": "Angel Leylah"
+            },
+            {
+              "value": "Angel Ishtar",
+              "label": "Angel Ishtar"
+            },
+            {
+              "value": "Angel Bastet",
+              "label": "Angel Bastet"
+            },
+            {
+              "value": "Angel Hael",
+              "label": "Angel Hael"
+            },
+            {
+              "value": "Angel Tahere",
+              "label": "Angel Tahere"
+            },
+            {
+              "value": "Goddess Neith",
+              "label": "Goddess Neith"
+            },
+            {
+              "value": "Angel Asherah",
+              "label": "Angel Asherah"
+            },
+            {
+              "value": "Angel Dalquielle",
+              "label": "Angel Dalquielle"
+            },
+            {
+              "value": "Angel Daniel",
+              "label": "Angel Daniel"
+            },
+            {
+              "value": "Angel Azrael",
+              "label": "Angel Azrael"
+            },
+            {
+              "value": "Angel Angthal",
+              "label": "Angel Angthal"
+            },
+            {
+              "value": "STUDRATS",
+              "label": "STUDRATS"
+            },
+            {
+              "value": "WOOF?",
+              "label": "WOOF?"
+            },
+            {
+              "value": "In Lucem : The Steel Studio",
+              "label": "In Lucem : The Steel Studio"
+            },
+            {
+              "value": "LETTHELIGHTIN",
+              "label": "LETTHELIGHTIN"
+            },
+            {
+              "value": "TRAUMTAUB",
+              "label": "TRAUMTAUB"
+            },
+            {
+              "value": "Restless Angels",
+              "label": "Restless Angels"
+            },
+            {
+              "value": "CAN YOU FIX IT ?",
+              "label": "CAN YOU FIX IT ?"
+            },
+            {
+              "value": "BROKEN",
+              "label": "BROKEN"
+            },
+            {
+              "value": "COMING APART AT THE SEAMS",
+              "label": "COMING APART AT THE SEAMS"
+            },
+            {
+              "value": "Loosing Myself in YOU",
+              "label": "Loosing Myself in YOU"
+            },
+            {
+              "value": "Das Ich Und Das Esch",
+              "label": "Das Ich Und Das Esch"
+            },
+            {
+              "value": "Damaged",
+              "label": "Damaged"
+            },
+            {
+              "value": "KABOOM!",
+              "label": "KABOOM!"
+            }
+          ],
+          "label": "PIECE INTERESTED IN\n\nGeneral inquiry — no specific piece\nPOMZ M2\nHades BL 755\nClaymore M18A1\nPutkimiina M 68\nScatmine Blu 92\nSUU-58\nHornet M93\nHamdy HAK-1\nApple P-40\nButterfly PFM 1\nGatorman\nAndromeda Adrasteo\nAndromeda Callisto\nAndromeda Devorah\nGoddess Ma'at\nAngel Forces\nAngel Camael\nAngel Vohamanah\nAngel Hamiah\nAngel Urim\nAngel Valoel\nAngel Sariel\nAngel Assiel\nAngel Ecanus\nAngel Leylah\nAngel Ishtar\nAngel Bastet\nAngel Hael\nAngel Tahere\nGoddess Neith\nAngel Asherah\nAngel Dalquielle\nAngel Daniel\nAngel Azrael\nAngel Angthal\nSTUDRATS\nWOOF?\nIn Lucem : The Steel Studio\nLETTHELIGHTIN\nTRAUMTAUB\nRestless Angels\nCAN YOU FIX IT ?\nBROKEN\nCOMING APART AT THE SEAMS\nLoosing Myself in YOU\nDas Ich Und Das Esch\nDamaged\nKABOOM!",
+          "autocomplete": "",
+          "box": {
+            "w": 664,
+            "h": 44,
+            "x": 380,
+            "y": 1931
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "textarea",
+          "type": "textarea",
+          "fieldName": "message",
+          "placeholder": "How can we help?",
+          "required": true,
+          "value": "",
+          "label": "MESSAGE",
+          "autocomplete": "",
+          "box": {
+            "w": 680,
+            "h": 120,
+            "x": 380,
+            "y": 2037
+          }
+        },
+        {
+          "kind": "button",
+          "type": "submit",
+          "text": "SEND MESSAGE",
+          "name": "Default",
+          "box": {
+            "w": 212.1,
+            "h": 46.8,
+            "x": 614,
+            "y": 2197
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "website",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "company",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "message",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "subject",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "title",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "description",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "feedback",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "notes",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "details",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "remarks",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "comments",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code",
+          "box": {
+            "w": 0,
+            "h": 0,
+            "x": 447,
+            "y": 1695
+          }
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": "Eyebrow",
+          "tag": "p",
+          "text": "WRITE TO US",
+          "html": "<p>Write to us</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "text",
+          "role": "Heading",
+          "tag": "h2",
+          "text": "Send a message",
+          "html": "<h2>Send a message</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "form",
+          "action": null,
+          "method": "post",
+          "name": "Contact Form"
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "NAME",
+          "html": "<p>Name</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "name",
+          "placeholder": "Your name",
+          "required": true,
+          "value": "",
+          "label": "NAME",
+          "autocomplete": ""
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "EMAIL",
+          "html": "<p>Email</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "email",
+          "fieldName": "email",
+          "placeholder": "you@example.com",
+          "required": true,
+          "value": "",
+          "label": "EMAIL",
+          "autocomplete": ""
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "PIECE INTERESTED IN",
+          "html": "<p>Piece Interested In</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "select",
+          "type": "select-one",
+          "fieldName": "piece_interested_in",
+          "required": false,
+          "value": null,
+          "options": [
+            {
+              "value": "",
+              "label": "General inquiry — no specific piece"
+            },
+            {
+              "value": "POMZ M2",
+              "label": "POMZ M2"
+            },
+            {
+              "value": "Hades BL 755",
+              "label": "Hades BL 755"
+            },
+            {
+              "value": "Claymore M18A1",
+              "label": "Claymore M18A1"
+            },
+            {
+              "value": "Putkimiina M 68",
+              "label": "Putkimiina M 68"
+            },
+            {
+              "value": "Scatmine Blu 92",
+              "label": "Scatmine Blu 92"
+            },
+            {
+              "value": "SUU-58",
+              "label": "SUU-58"
+            },
+            {
+              "value": "Hornet M93",
+              "label": "Hornet M93"
+            },
+            {
+              "value": "Hamdy HAK-1",
+              "label": "Hamdy HAK-1"
+            },
+            {
+              "value": "Apple P-40",
+              "label": "Apple P-40"
+            },
+            {
+              "value": "Butterfly PFM 1",
+              "label": "Butterfly PFM 1"
+            },
+            {
+              "value": "Gatorman",
+              "label": "Gatorman"
+            },
+            {
+              "value": "Andromeda Adrasteo",
+              "label": "Andromeda Adrasteo"
+            },
+            {
+              "value": "Andromeda Callisto",
+              "label": "Andromeda Callisto"
+            },
+            {
+              "value": "Andromeda Devorah",
+              "label": "Andromeda Devorah"
+            },
+            {
+              "value": "Goddess Ma'at",
+              "label": "Goddess Ma'at"
+            },
+            {
+              "value": "Angel Forces",
+              "label": "Angel Forces"
+            },
+            {
+              "value": "Angel Camael",
+              "label": "Angel Camael"
+            },
+            {
+              "value": "Angel Vohamanah",
+              "label": "Angel Vohamanah"
+            },
+            {
+              "value": "Angel Hamiah",
+              "label": "Angel Hamiah"
+            },
+            {
+              "value": "Angel Urim",
+              "label": "Angel Urim"
+            },
+            {
+              "value": "Angel Valoel",
+              "label": "Angel Valoel"
+            },
+            {
+              "value": "Angel Sariel",
+              "label": "Angel Sariel"
+            },
+            {
+              "value": "Angel Assiel",
+              "label": "Angel Assiel"
+            },
+            {
+              "value": "Angel Ecanus",
+              "label": "Angel Ecanus"
+            },
+            {
+              "value": "Angel Leylah",
+              "label": "Angel Leylah"
+            },
+            {
+              "value": "Angel Ishtar",
+              "label": "Angel Ishtar"
+            },
+            {
+              "value": "Angel Bastet",
+              "label": "Angel Bastet"
+            },
+            {
+              "value": "Angel Hael",
+              "label": "Angel Hael"
+            },
+            {
+              "value": "Angel Tahere",
+              "label": "Angel Tahere"
+            },
+            {
+              "value": "Goddess Neith",
+              "label": "Goddess Neith"
+            },
+            {
+              "value": "Angel Asherah",
+              "label": "Angel Asherah"
+            },
+            {
+              "value": "Angel Dalquielle",
+              "label": "Angel Dalquielle"
+            },
+            {
+              "value": "Angel Daniel",
+              "label": "Angel Daniel"
+            },
+            {
+              "value": "Angel Azrael",
+              "label": "Angel Azrael"
+            },
+            {
+              "value": "Angel Angthal",
+              "label": "Angel Angthal"
+            },
+            {
+              "value": "STUDRATS",
+              "label": "STUDRATS"
+            },
+            {
+              "value": "WOOF?",
+              "label": "WOOF?"
+            },
+            {
+              "value": "In Lucem : The Steel Studio",
+              "label": "In Lucem : The Steel Studio"
+            },
+            {
+              "value": "LETTHELIGHTIN",
+              "label": "LETTHELIGHTIN"
+            },
+            {
+              "value": "TRAUMTAUB",
+              "label": "TRAUMTAUB"
+            },
+            {
+              "value": "Restless Angels",
+              "label": "Restless Angels"
+            },
+            {
+              "value": "CAN YOU FIX IT ?",
+              "label": "CAN YOU FIX IT ?"
+            },
+            {
+              "value": "BROKEN",
+              "label": "BROKEN"
+            },
+            {
+              "value": "COMING APART AT THE SEAMS",
+              "label": "COMING APART AT THE SEAMS"
+            },
+            {
+              "value": "Loosing Myself in YOU",
+              "label": "Loosing Myself in YOU"
+            },
+            {
+              "value": "Das Ich Und Das Esch",
+              "label": "Das Ich Und Das Esch"
+            },
+            {
+              "value": "Damaged",
+              "label": "Damaged"
+            },
+            {
+              "value": "KABOOM!",
+              "label": "KABOOM!"
+            }
+          ],
+          "label": "PIECE INTERESTED IN\n\nGeneral inquiry — no specific piece\nPOMZ M2\nHades BL 755\nClaymore M18A1\nPutkimiina M 68\nScatmine Blu 92\nSUU-58\nHornet M93\nHamdy HAK-1\nApple P-40\nButterfly PFM 1\nGatorman\nAndromeda Adrasteo\nAndromeda Callisto\nAndromeda Devorah\nGoddess Ma'at\nAngel Forces\nAngel Camael\nAngel Vohamanah\nAngel Hamiah\nAngel Urim\nAngel Valoel\nAngel Sariel\nAngel Assiel\nAngel Ecanus\nAngel Leylah\nAngel Ishtar\nAngel Bastet\nAngel Hael\nAngel Tahere\nGoddess Neith\nAngel Asherah\nAngel Dalquielle\nAngel Daniel\nAngel Azrael\nAngel Angthal\nSTUDRATS\nWOOF?\nIn Lucem : The Steel Studio\nLETTHELIGHTIN\nTRAUMTAUB\nRestless Angels\nCAN YOU FIX IT ?\nBROKEN\nCOMING APART AT THE SEAMS\nLoosing Myself in YOU\nDas Ich Und Das Esch\nDamaged\nKABOOM!",
+          "autocomplete": ""
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "MESSAGE",
+          "html": "<p>Message</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "300",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "textarea",
+          "type": "textarea",
+          "fieldName": "message",
+          "placeholder": "How can we help?",
+          "required": true,
+          "value": "",
+          "label": "MESSAGE",
+          "autocomplete": ""
+        },
+        {
+          "kind": "button",
+          "type": "submit",
+          "text": "SEND MESSAGE",
+          "name": "Default"
+        },
+        {
+          "kind": "text",
+          "role": "Label",
+          "tag": "p",
+          "text": "SEND MESSAGE",
+          "html": "<p>Send message</p>",
+          "font": {
+            "family": "Inter",
+            "size": "14px",
+            "weight": "400",
+            "transform": "uppercase"
+          }
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "website",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "company",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "message",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "subject",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "title",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "description",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "feedback",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "notes",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "details",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "remarks",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "field",
+          "tag": "input",
+          "type": "text",
+          "fieldName": "comments",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "label": null,
+          "autocomplete": "one-time-code"
+        },
+        {
+          "kind": "text",
+          "role": "Note",
+          "tag": "p",
+          "text": "We aim to reply within a few days. For gallery representation, please write directly to either artist.",
+          "html": "<p>We aim to reply within a few days. For gallery representation, please write directly to either artist.</p>",
+          "font": {
+            "family": "Inter",
+            "size": "16px",
+            "weight": "300"
+          }
+        }
+      ]
+    }
+  ],
+  "form": {
+    "name": "Contact Form",
+    "method": "POST",
+    "action": "https://api.framer.com/forms/v1/forms/3eb57677-3c73-4469-885a-804fb17280c9/submit",
+    "actionSource": "Framer Forms endpoint, read from the page JS bundle (FormContainer action prop); not visible in the DOM. Not submitted during extraction.",
+    "fields": [
+      {
+        "name": "name",
+        "tag": "input",
+        "type": "text",
+        "label": "NAME",
+        "placeholder": "Your name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "tag": "input",
+        "type": "email",
+        "label": "EMAIL",
+        "placeholder": "you@example.com",
+        "required": true
+      },
+      {
+        "name": "piece_interested_in",
+        "tag": "select",
+        "type": "select-one",
+        "label": "PIECE INTERESTED IN\n\nGeneral inquiry — no specific piece\nPOMZ M2\nHades BL 755\nClaymore M18A1\nPutkimiina M 68\nScatmine Blu 92\nSUU-58\nHornet M93\nHamdy HAK-1\nApple P-40\nButterfly PFM 1\nGatorman\nAndromeda Adrasteo\nAndromeda Callisto\nAndromeda Devorah\nGoddess Ma'at\nAngel Forces\nAngel Camael\nAngel Vohamanah\nAngel Hamiah\nAngel Urim\nAngel Valoel\nAngel Sariel\nAngel Assiel\nAngel Ecanus\nAngel Leylah\nAngel Ishtar\nAngel Bastet\nAngel Hael\nAngel Tahere\nGoddess Neith\nAngel Asherah\nAngel Dalquielle\nAngel Daniel\nAngel Azrael\nAngel Angthal\nSTUDRATS\nWOOF?\nIn Lucem : The Steel Studio\nLETTHELIGHTIN\nTRAUMTAUB\nRestless Angels\nCAN YOU FIX IT ?\nBROKEN\nCOMING APART AT THE SEAMS\nLoosing Myself in YOU\nDas Ich Und Das Esch\nDamaged\nKABOOM!",
+        "placeholder": null,
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "General inquiry — no specific piece"
+          },
+          {
+            "divider": "Fragments"
+          },
+          {
+            "value": "POMZ M2",
+            "label": "POMZ M2"
+          },
+          {
+            "value": "Hades BL 755",
+            "label": "Hades BL 755"
+          },
+          {
+            "value": "Claymore M18A1",
+            "label": "Claymore M18A1"
+          },
+          {
+            "value": "Putkimiina M 68",
+            "label": "Putkimiina M 68"
+          },
+          {
+            "value": "Scatmine Blu 92",
+            "label": "Scatmine Blu 92"
+          },
+          {
+            "value": "SUU-58",
+            "label": "SUU-58"
+          },
+          {
+            "value": "Hornet M93",
+            "label": "Hornet M93"
+          },
+          {
+            "value": "Hamdy HAK-1",
+            "label": "Hamdy HAK-1"
+          },
+          {
+            "value": "Apple P-40",
+            "label": "Apple P-40"
+          },
+          {
+            "value": "Butterfly PFM 1",
+            "label": "Butterfly PFM 1"
+          },
+          {
+            "value": "Gatorman",
+            "label": "Gatorman"
+          },
+          {
+            "divider": "Andromeda"
+          },
+          {
+            "value": "Andromeda Adrasteo",
+            "label": "Andromeda Adrasteo"
+          },
+          {
+            "value": "Andromeda Callisto",
+            "label": "Andromeda Callisto"
+          },
+          {
+            "value": "Andromeda Devorah",
+            "label": "Andromeda Devorah"
+          },
+          {
+            "divider": "Spirit Collection"
+          },
+          {
+            "value": "Goddess Ma'at",
+            "label": "Goddess Ma'at"
+          },
+          {
+            "value": "Angel Forces",
+            "label": "Angel Forces"
+          },
+          {
+            "value": "Angel Camael",
+            "label": "Angel Camael"
+          },
+          {
+            "value": "Angel Vohamanah",
+            "label": "Angel Vohamanah"
+          },
+          {
+            "value": "Angel Hamiah",
+            "label": "Angel Hamiah"
+          },
+          {
+            "value": "Angel Urim",
+            "label": "Angel Urim"
+          },
+          {
+            "value": "Angel Valoel",
+            "label": "Angel Valoel"
+          },
+          {
+            "value": "Angel Sariel",
+            "label": "Angel Sariel"
+          },
+          {
+            "value": "Angel Assiel",
+            "label": "Angel Assiel"
+          },
+          {
+            "value": "Angel Ecanus",
+            "label": "Angel Ecanus"
+          },
+          {
+            "value": "Angel Leylah",
+            "label": "Angel Leylah"
+          },
+          {
+            "value": "Angel Ishtar",
+            "label": "Angel Ishtar"
+          },
+          {
+            "value": "Angel Bastet",
+            "label": "Angel Bastet"
+          },
+          {
+            "value": "Angel Hael",
+            "label": "Angel Hael"
+          },
+          {
+            "value": "Angel Tahere",
+            "label": "Angel Tahere"
+          },
+          {
+            "value": "Goddess Neith",
+            "label": "Goddess Neith"
+          },
+          {
+            "value": "Angel Asherah",
+            "label": "Angel Asherah"
+          },
+          {
+            "value": "Angel Dalquielle",
+            "label": "Angel Dalquielle"
+          },
+          {
+            "value": "Angel Daniel",
+            "label": "Angel Daniel"
+          },
+          {
+            "value": "Angel Azrael",
+            "label": "Angel Azrael"
+          },
+          {
+            "value": "Angel Angthal",
+            "label": "Angel Angthal"
+          },
+          {
+            "divider": "In Lucem"
+          },
+          {
+            "value": "STUDRATS",
+            "label": "STUDRATS"
+          },
+          {
+            "value": "WOOF?",
+            "label": "WOOF?"
+          },
+          {
+            "value": "In Lucem : The Steel Studio",
+            "label": "In Lucem : The Steel Studio"
+          },
+          {
+            "value": "LETTHELIGHTIN",
+            "label": "LETTHELIGHTIN"
+          },
+          {
+            "value": "TRAUMTAUB",
+            "label": "TRAUMTAUB"
+          },
+          {
+            "value": "Restless Angels",
+            "label": "Restless Angels"
+          },
+          {
+            "value": "CAN YOU FIX IT ?",
+            "label": "CAN YOU FIX IT ?"
+          },
+          {
+            "divider": "Figurative Poetry"
+          },
+          {
+            "value": "BROKEN",
+            "label": "BROKEN"
+          },
+          {
+            "value": "COMING APART AT THE SEAMS",
+            "label": "COMING APART AT THE SEAMS"
+          },
+          {
+            "value": "Loosing Myself in YOU",
+            "label": "Loosing Myself in YOU"
+          },
+          {
+            "value": "Das Ich Und Das Esch",
+            "label": "Das Ich Und Das Esch"
+          },
+          {
+            "value": "Damaged",
+            "label": "Damaged"
+          },
+          {
+            "value": "KABOOM!",
+            "label": "KABOOM!"
+          }
+        ]
+      },
+      {
+        "name": "message",
+        "tag": "textarea",
+        "type": "textarea",
+        "label": "MESSAGE",
+        "placeholder": "How can we help?",
+        "required": true
+      }
+    ],
+    "honeypotFields": [
+      "website",
+      "company",
+      "message",
+      "subject",
+      "title",
+      "description",
+      "feedback",
+      "notes",
+      "details",
+      "remarks",
+      "comments"
+    ],
+    "submit": {
+      "label": "SEND MESSAGE",
+      "type": "submit"
+    },
+    "note": "We aim to reply within a few days. For gallery representation, please write directly to either artist."
+  }
+}

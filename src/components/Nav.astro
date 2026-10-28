@@ -1,0 +1,151 @@
+---
+// Desktop (>= 1400): fixed 64px bar in one of three fills, per page.
+// Tablet and phone: floating black 200x60 box that springs open to a menu.
+import { nav, url } from "../lib/site";
+
+export type NavVariant = "black" | "grey" | "light";
+interface Props {
+	variant?: NavVariant;
+}
+const { variant = "black" } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const active = (href: string) => path === href || path.startsWith(href + "/");
+---
+
+<header class:list={["bar", `bar--${variant}`]}>
+	<a class="mark link" href={url("/")}>Blake &amp; Boky</a>
+	<nav aria-label="Main">
+		<ul>
+			{
+				nav.map((n) => (
+					<li>
+						<a class="link" href={url(n.href)} aria-current={active(n.href) ? "page" : undefined}>
+							{n.label}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+</header>
+
+<div class="box" data-menu>
+	<button class="box-head" type="button" aria-expanded="false" aria-controls="menu-list" data-menu-toggle>
+		<span class="mark">Blake &amp; Boky</span>
+		<svg class="plus" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+		</svg>
+		<span class="sr-only">Menu</span>
+	</button>
+	<ul id="menu-list" class="box-list">
+		<li><a href={url("/")}>Home</a></li>
+		{
+			nav.map((n) => (
+				<li>
+					<a href={url(n.href)}>{n.menu}</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
+
+<style>
+	.bar {
+		position: fixed;
+		inset: 0 0 auto;
+		z-index: 50;
+		block-size: var(--nav-h);
+		display: none;
+		align-items: center;
+		justify-content: space-between;
+		padding-inline: 24px 34px;
+		color: var(--white);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+	.bar--black {
+		background: var(--black);
+	}
+	.bar--grey {
+		background: var(--ink);
+	}
+	.bar--light {
+		background: var(--paper);
+		color: var(--ink);
+	}
+	.mark {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 1.4;
+		letter-spacing: -0.44px;
+	}
+	.bar ul {
+		display: flex;
+		gap: 28px;
+		font-size: 16px;
+	}
+	.bar a[aria-current="page"] {
+		color: var(--gold-light);
+	}
+	@media (min-width: 1400px) {
+		.bar {
+			display: flex;
+		}
+		.box {
+			display: none;
+		}
+	}
+
+	.box {
+		position: fixed;
+		top: 8px;
+		left: 8px;
+		z-index: 60;
+		inline-size: 200px;
+		block-size: 60px;
+		overflow: hidden;
+		background: var(--black);
+		color: var(--white);
+		transition: block-size 0.9s var(--ease-out);
+	}
+	.box.is-open {
+		block-size: var(--open-h, 469px);
+	}
+	.box-head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		inline-size: 100%;
+		block-size: 60px;
+		padding: 10px 14px 10px 18px;
+		text-align: start;
+	}
+	.plus {
+		transition: transform 0.9s var(--ease-out);
+	}
+	.is-open .plus {
+		transform: rotate(45deg);
+	}
+	.box-list {
+		padding: 0 10px 10px;
+	}
+	.box-list a {
+		display: block;
+		padding: 10px 8px;
+		min-block-size: 54px;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 34px;
+		color: var(--hairline);
+		transition: color 200ms var(--ease-link);
+	}
+	.box-list a:hover {
+		color: var(--gold-light);
+	}
+	.box:not(.is-open) .box-list {
+		visibility: hidden;
+		transition: visibility 0s 0.9s;
+	}
+</style>

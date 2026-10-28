@@ -1,0 +1,2173 @@
+{
+  "collection": "News",
+  "collectionId": "wRxgp4ui0",
+  "detailPageId": "crEk4KALi",
+  "itemCount": 9,
+  "publishedCount": 5,
+  "items": [
+    {
+      "id": "Z9jqNQgEX",
+      "draft": true,
+      "fields": {
+        "Title": "Artnet Publication ",
+        "Slug": "artnet-publication",
+        "Date": "2026-08-06T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/30nuWrgPuN7JPzmscvuxFIvChbc.png",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:Z9jqNQgEX/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "h1"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Z9jqNQgEX/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "For Years, This Couple Has Been Quietly Collaborating on Sculptures. Now, They Are Finally Showing Together"
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "artnet-publication"
+        },
+        "publik link": "https://news.artnet.com/partner-content/blake-ward-and-boky-hackel-hilton-asmus",
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "kXOFSaLC1",
+      "draft": true,
+      "fields": {
+        "Title": "Blake et Boky : une Histoire d'Art et d'Amour ",
+        "Slug": "blake-et-boky-une-histoire-d-art-et-d-amour",
+        "Date": "2015-07-23T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/ZhWNDjLZvKdt7aGNrvIqQtYuPg.png",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:kXOFSaLC1/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:kXOFSaLC1/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "Article published in Nice-Matin on Thursday 23 July 2015 "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:kXOFSaLC1/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:kXOFSaLC1/eOuRAVD0z:1:0",
+                "attributes": {
+                  "text": "written by Joel Deviras "
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "blake-et-boky-une-histoire-d-art-et-d-amour"
+        },
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "srJecg6h_",
+      "draft": true,
+      "fields": {
+        "Title": "Le Litteraire : De l'Inexistence des elfes au Zeitgeist de la Figure ",
+        "Slug": "le-litteraire-de-l-inexistence-des-elfes-au-zeitgeist-de-la-figure",
+        "Date": "2019-07-05T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/luXNDmzJjrHWuBHgHU3UL4Nc9Ro.png",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:srJecg6h_/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:srJecg6h_/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "https://www.lelitteraire.com/boky-hackel-ward-blake-ward-de-linexistence-des-elfes-au-zeitgeist-de-la-figure/"
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "le-litteraire-de-l-inexistence-des-elfes-au-zeitgeist-de-la-figure"
+        },
+        "publik link": "https://www.lelitteraire.com/boky-hackel-ward-blake-ward-de-linexistence-des-elfes-au-zeitgeist-de-la-figure/",
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "Q5Dalbjnb",
+      "draft": false,
+      "fields": {
+        "Title": "Invoco Te Divina Stella - an interview with Boky Hackel-Ward",
+        "Slug": "when-walls-become-words-buildings-as-silent-storytellers",
+        "Date": "2025-11-24T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/JkmFVBCxM8X7MEhkhrPhKBhJ4.jpg",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "As Boky returns to the atelier after a tumultuous end of year, I met up with her to discuss what 2026 would look like for her and her partner Blake. I had the pleasure to meet them in their Italian atelier in Pietrasanta, close the the Carrara mountains which have been providing marble to the masters since the Roman empire. As I arrived to the address the garage door was open, giving into a glorious open-space with various workstations. Boky smiled and waved frantically from the other end of the atelier, coming to welcome me at fullspeed on her snazzy Rollerskates! The first question I didn't expect to ask was : "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:1:0",
+                "attributes": {
+                  "text": "Do you always wear roller skates in the studio? "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:2:0",
+                "attributes": {
+                  "text": "Depending on the type of day I'm having. I would say if I'm working with power tools I'll keep safety in mind and stay relatively grounded. I deeply believe that my art, as serious as the thematics can be, also anchors itself in playfulness. Life is fun, and sometimes we can get engulfed by the breadth of it. Rollerblading keeps me focused and allows me to feel more free in my movement and my mind. Even when I'm feeling slightly overwhelmed by my inspirations it allows me to take a step back and gives me a change of perspective. My inspirations take me from one place to another so quickly, I must move just as fast. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:3",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:3:0",
+                "attributes": {
+                  "text": "On that note, where does you inspiration come from ?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:4:0",
+                "attributes": {
+                  "text": "Inspiration is like a gust of wind, sometimes its a light breeze, sometimes it's like a tornado. I'm constantly somewhere in between and when i find myself in the doldrums or worse in the Dunkelflaute, I reconnect with myself and the world around me. I put my roller skates on, listen to Peter Gabriel and keep the momentum going. Whenever I feel stuck, I keep it moving. The inspiration never stops, catching it is the tricky part. You have to act fast if you want it to be true to that initial spark. If I wait to long the though changes ultimately allowing me to create something completely different than the initial idea. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:5",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:5:0",
+                "attributes": {
+                  "text": "Can you explain your creative process? "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:6:0",
+                "attributes": {
+                  "text": "Once an idea has entered my mind, I explore the meanings of it, the conceptual layers it evokes in my mid. Writing is a big part of the initial process. With this collection I bring that process into the final piece. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:7",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:7:0",
+                "attributes": {
+                  "text": "Invoco Te Divina Stella is right down that alley, how did this artwork come to life? "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:8:0",
+                "attributes": {
+                  "text": "\"Invoco Te Divina Stella\" comes from a centuries-old prayer by Gabriello Chiabrera, I first saw it etched on the Torretta Leon Pancaldo in Savona. Originally this prayer was meant to save sailors at sea, as they embarked on perilous journeys they would pray to the Virgin Mary or the \"Blessed Stars\". "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:9",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:9:0",
+                "attributes": {
+                  "text": "What are your hopes and dreams for 2026? "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Q5Dalbjnb/eOuRAVD0z:10",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:10:0",
+                "attributes": {
+                  "text": "This year is about action, not restraint. It is about becoming even more free and unafraid. I hope that I can allow myself to be more wild, and not let my fears or doubts overtake my desires to create. Last year was quite chaotic as we had a major flood in our primary home. I was still able to create and present a diptych for Art Dubai Digital 2025, entitled "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:10:1",
+                "attributes": {
+                  "text": "\"In Lucem Aurum\"",
+                  "link": {
+                    "href": "/boky-bio"
+                  }
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Q5Dalbjnb/eOuRAVD0z:10:2",
+                "attributes": {
+                  "text": ". Although I didn't produce as much as I wanted to due to the circumstances, I was able to enter a phase of reflection which I am excited to translate into creation as 2026 unfolds. In regard my hopes and dreams, I have a lot of hope in humanity, my pieces often go back to this theme. "
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "when-walls-become-words-buildings-as-silent-storytellers"
+        },
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "TUEaHvLag",
+      "draft": false,
+      "fields": {
+        "Title": "Fragments of Infinity – A collection for Humanity by Blake Ward ",
+        "Slug": "fragments-of-infinity-a-collection-for-humanity-by-blake-ward",
+        "Date": "2025-11-24T00:00:00.000Z",
+        "Image": {
+          "src": "https://framerusercontent.com/images/ezw4ZouIwYVyueCdlf18ym70kCs.jpg",
+          "alt": "Fragments exhibition India 2012"
+        },
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "What is the premise of the Fragments Collection?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:1:0",
+                "attributes": {
+                  "text": "For more than a decade I had given myself to the whole figure — to the canons of classical realism, to idealised beauty, to proportion inherited from the ateliers of Paris. "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:1:1",
+                "attributes": {
+                  "text": "Fragments",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:1:2",
+                "attributes": {
+                  "text": " is where I broke with that. It took shape after my time in Vietnam, teaching at the University of Hanoi, where I came to understand what landmines do to a body and to a life long after the war that laid them is over. I returned to the studio and, for the first time, changed my relationship to the human form. I began to "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:1:3",
+                "attributes": {
+                  "text": "de-sculpt",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:1:4",
+                "attributes": {
+                  "text": " it."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:2:0",
+                "attributes": {
+                  "text": "I call these works the Partial Figures. I take the classical torso — still beautiful, still true to its anatomy — and leave it incomplete: an arm gone, a head absent, the surface scarred and scored. What remains is deliberately unfinished, so that beauty is given another voice, one that speaks as much through what is missing as through what still stands. These are not ruins. They are survivors."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:3:0",
+                "attributes": {
+                  "text": "Each sculpture carries the name of the weapon that maimed the person it stands for — GEMSS, Claymore, Pineapple Cluster, POMZ, Butterfly, Hades. I want the label to read like an inventory of ordnance, because these absences are not the accidents of time we forgive in a broken antique. They are the deliberate arithmetic of war, and the scratches and missing limbs are the permanent scars the survivors carry, fixed now in bronze. There is a paradox at the centre of the work and I mean it to be there: a body can be mutilated and still be beautiful; a beautiful thing can hold a tragedy. That tension is the whole point — the fragile persistence of grace after so much has been taken away."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:4",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:4:0",
+                "attributes": {
+                  "text": "Proceeds "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:5:0",
+                "attributes": {
+                  "text": "Fragments",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:5:1",
+                "attributes": {
+                  "text": " was never meant to end at the gallery wall. From the beginning it has been activist work, and the proceeds from the sale of the sculptures go toward clearing the ground of what was buried in it — funding mine clearance, mine-risk education, and support for survivors in the countries that live with this legacy every day: Vietnam, Kosovo, Cambodia, Afghanistan, and Angola. I have carried this out in association with No More Landmines, Adopt-A-Minefield of the United Nations, The Landmine Relief Fund in the United States, and Cambodian Self Help Demining."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:6:0",
+                "attributes": {
+                  "text": "Over the life of the collection, these works have raised more than a quarter of a million dollars for landmine education, removal, and support — helping to clear cluster munitions in Kosovo and landmines in Cambodia, and to fund mine-risk education in Afghanistan. When one of these figures finds a home, a small part of the real ground is made safe again. That is the exchange I care about most."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:7",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:7:0",
+                "attributes": {
+                  "text": "Events : "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TUEaHvLag/eOuRAVD0z:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:8:0",
+                "attributes": {
+                  "text": "Fragments",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:8:1",
+                "attributes": {
+                  "text": " has travelled as a touring exhibition across three continents, carried as much by the activists working to clear minefields as by the art world. The international tour ran from Canterbury Cathedral in London in 2007 through to Delhi, India in 2012, where the figures became symbols of hope for those campaigning to rid the land of mines. In 2016 the collection was shown as "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:8:2",
+                "attributes": {
+                  "text": "Fragments: Art and the Explosive Remnants of War",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TUEaHvLag/eOuRAVD0z:8:3",
+                "attributes": {
+                  "text": ", a solo exhibition presented by the Sculptors Society of Canada at the Canadian Sculpture Centre in Toronto, its quarter-life-size bronzes turning a gallery into a reckoning with the civilian cost of war. Across its years the work has reached audiences in North America, Europe, and Asia — each showing another chance to put the question the collection exists to ask."
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "fragments-of-infinity-a-collection-for-humanity-by-blake-ward"
+        },
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "IvBcQ23aV",
+      "draft": false,
+      "fields": {
+        "Title": "Pietrasanta – understanding the poetry of space.",
+        "Slug": "the-weight-of-empty-space-understanding-the-poetry-of-voids",
+        "Date": "2025-11-24T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/z36nYYR1xX7Rnl8nciPdUXfB3g.jpg",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "Why Pietrasanta ?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:1:0",
+                "attributes": {
+                  "text": "Pietrasanta is a small community of world renowned artists, specifically sculptures. Boky and I had been living in a bubble, working out of our studio in Monaco up until Covid started. The neighbourhood was historically an artistic one, however, our precious atelier in Rue des Lilas suffered from a flood and we had to relocate. When looking for studio spaces in a new city, Pietrasanta was an obvious choice. The cultural presence, the historical importance and the technical infrastructure, craftsmanship and innovation within the community have influenced us in the most inspirational ways. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:2:0",
+                "attributes": {
+                  "text": "We have been there for 6 years and have had the immense pleasure of connecting with some of this generations' brilliant minds in the field. We are grateful to have joined this community and always look forward to going back."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:3",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:3:0",
+                "attributes": {
+                  "text": "How does it differ from the other places you've lived?  "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:4:0",
+                "attributes": {
+                  "text": "Boky's Take : Pietrasanta is a family. A creative and curious one, that sits in the piazza on days the studio gets to sunny or cloudy; discussing ideas, sharing processes and projects, and expanding artistic directions through genuine exchange and pure passion. Growing up in Switzerland, then Costa Rica and Venezuela my childhood was seeped in international influences and defined by the cultural exchange I experienced. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:5:0",
+                "attributes": {
+                  "text": "Blake : "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:6",
+            "attributes": {
+              "tag": "h3"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:6:0",
+                "attributes": {
+                  "text": "What do you like most about working in Pietrasanta ?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:7:0",
+                "attributes": {
+                  "text": "When it comes down to it, it's both the people and the calm. In regards the latter, Boky and I really value our time alone, as it is then that we are most in tune with ourselves, allowing us to create and express ourselves freely. However, the community in Pietrasanta is unlike any other. We are grateful to have made such inspiring and most importantly genuine friends and neighbours who made us feel at home from the very first day we got there. "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:IvBcQ23aV/eOuRAVD0z:8",
+            "attributes": {
+              "tag": "h3"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:IvBcQ23aV/eOuRAVD0z:8:0"
+              }
+            ]
+          }
+        ],
+        "Link": "/news/Pietrasanta-understanding-the-poetry-of-voids",
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "OZb1oDVvY",
+      "draft": false,
+      "fields": {
+        "Title": "Sculptures Symbolisiing Hope : ID Magazine Summer 2008",
+        "Slug": "sculptures_symbolisiing_hope",
+        "Date": "2025-11-24T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/dxHxIy7QYGTIm2Y5ilUBmwDRvUQ.jpg",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "At first, the figures are haunting, beautiful echoes of the enduring Greek and Roman marbles of the ancients. Then comes the stark reality: each is a broken body, named after a type of landmine. Artist "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:1",
+                "attributes": {
+                  "text": "Blake",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:2",
+                "attributes": {
+                  "text": " talks with "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:3",
+                "attributes": {
+                  "text": "Farah Ameen",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:4",
+                "attributes": {
+                  "text": " about "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:5",
+                "attributes": {
+                  "text": "Fragments",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:6",
+                "attributes": {
+                  "text": ", his generous and compelling campaign to raise funds with UNA-USA's "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:7",
+                "attributes": {
+                  "text": "Adopt-A-Minefield®",
+                  "italic": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:0:8",
+                "attributes": {
+                  "text": " to eradicate these hidden devices that take lives and limbs long after conflicts are over."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:1:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:2:0",
+                "attributes": {
+                  "text": "A three-month trip to Vietnam in 2003 to teach sculpture at the Hanoi Fine Arts University changed Blake Ward's life forever. While his students worked on their pieces, Blake toured Cambodia and Vietnam, where he learned that the Vietnam War was still taking casualties 30 years after it had ended."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:3:0",
+                "attributes": {
+                  "text": "\"It shocked me. I found that very hard to understand and I found that terribly unfair, because the victims had to be innocent — they couldn't have been involved.\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:4:0",
+                "attributes": {
+                  "text": "As he researched the landmine crisis, Blake said he began to realize that his generation and his parents' had \"contaminated\" the world."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:5:0",
+                "attributes": {
+                  "text": "\"We need to stand up and recognize that and do something about it,\" he said."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:6:0",
+                "attributes": {
+                  "text": "Blake got involved with the demining operation and began filming a documentary."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:7:0",
+                "attributes": {
+                  "text": "Upon returning to Monaco, where the Canadian artist has made his home for 19 years, Blake began focusing public attention on the landmine tragedy."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:8:0",
+                "attributes": {
+                  "text": "\"As an artist, I am privileged to have the freedom to think the unthinkable and to speak the unspeakable and to manifest these ideas in my art.\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:9",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:9:0",
+                "attributes": {
+                  "text": "Fragments — a collection of 19 bronze figures, one-quarter life-size, representing the devastating effects of war on society — were begun almost a decade before, inspired by archaeological remnants of Greek and Roman sculptures destroyed in the cycles of war."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:10",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:10:0",
+                "attributes": {
+                  "text": "Blake re-created the series, naming the sculptures after landmines — Pomz-2M, Gator Blu-92, Maped F1, Pineapple Cluster BLU-3, Scatmine Blu 92, among others."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:11",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:11:0",
+                "attributes": {
+                  "text": "Soon the pieces started to take on a life of their own:"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:12",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:12:0",
+                "attributes": {
+                  "text": "\"They were very strong, crying out about the innocent civilians killed, not during the conflict, which is sad enough, but after the conflict, which I thought was unforgivable.\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:13",
+            "attributes": {
+              "tag": "h3"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:13:0",
+                "attributes": {
+                  "text": "Canada's Prairies, Paris, Monaco"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:14",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:14:0",
+                "attributes": {
+                  "text": "Blake grew up in Edmonton, Alberta, and studied at the University of Alberta where, amid the modern art explosion of the early 1970s, he began creating abstract sculptures. He later apprenticedin Paris under the American artist "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:14:1",
+                "attributes": {
+                  "text": "Cyril Heck",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:14:2",
+                "attributes": {
+                  "text": ". Fulfilling a promise to his mentor, Blake still helps train new artists who are interested in the ancient sculpting techniques."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:15",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:15:0",
+                "attributes": {
+                  "text": "Blake's art consists of three distinct kinds of sculptures: first, the very traditional, \"decorative\" pieces that are often about dance, from classical to flamenco to modern. The second type consists of his "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:15:1",
+                "attributes": {
+                  "text": "We Think",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:15:2",
+                "attributes": {
+                  "text": " series of classical figurative work, which makes a political, social or religious statement."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:16",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:16:0",
+                "attributes": {
+                  "text": "Fragments",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:16:1",
+                "attributes": {
+                  "text": " bronze sculptures are the third group, with sculptures that are a juxtaposition of perfectly proportioned bodies destroyed to symbolize the imperfections caused by war."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:17",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:17:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlockquote",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:18",
+            "attributes": {},
+            "children": [
+              {
+                "type": "TextBlock",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:18:0",
+                "attributes": {
+                  "tag": "p"
+                },
+                "children": [
+                  {
+                    "type": "TextRun",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:18:0:0",
+                    "attributes": {
+                      "text": "\"I find we can identify humanity even in some of the smaller badly damaged ones,\" Blake said. \"The destruction is deliberate as it often is in war, and yet, after we rebuild we have created something of dust. And some of that is dedicated to survivors, who have to re-create their lives.\""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:19",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:19:0",
+                "attributes": {
+                  "text": "It can take Blake up to "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:19:1",
+                "attributes": {
+                  "text": "100 hours",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:19:2",
+                "attributes": {
+                  "text": " to complete each piece. He creates a clay sculpture, with a live model posing for about 80 hours, and allows the clay to dry. Blake then breaks the pieces carefully, with an eye on the aesthetics and on the high-risk technique."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlockquote",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:20",
+            "attributes": {},
+            "children": [
+              {
+                "type": "TextBlock",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:20:0",
+                "attributes": {
+                  "tag": "p"
+                },
+                "children": [
+                  {
+                    "type": "TextRun",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:20:0:0",
+                    "attributes": {
+                      "text": "\"I'm trying to take off a piece in a way that the sculpture will appear injured but remain intact, damaged but still live.\""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:21",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:21:0",
+                "attributes": {
+                  "text": "It's a very \"fearful time,\" he said, because after the intense investment of time and creativity, the fragile clay could be lost in an instant."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:22",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:22:0",
+                "attributes": {
+                  "text": "The final steps involve taking a mold and then casting the work in bronze."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:23",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:23:0",
+                "attributes": {
+                  "text": "Adopt-A-Minefield®"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:24",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:24:0",
+                "attributes": {
+                  "text": "In 2006 Blake began working with "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:24:1",
+                "attributes": {
+                  "text": "No More Landmines",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:24:2",
+                "attributes": {
+                  "text": ", the United Kingdom partner of "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:24:3",
+                "attributes": {
+                  "text": "UNA-USA's Adopt-A-Minefield program",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:24:4",
+                "attributes": {
+                  "text": "."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:25",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:25:0",
+                "attributes": {
+                  "text": "These campaigns help communities around the world by removing landmines and unexploded ordnance, providing assistance to survivors and teaching about dangerous mines."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlockquote",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:26",
+            "attributes": {},
+            "children": [
+              {
+                "type": "TextBlock",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:26:0",
+                "attributes": {
+                  "tag": "p"
+                },
+                "children": [
+                  {
+                    "type": "TextRun",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:26:0:0",
+                    "attributes": {
+                      "text": "\"If you have pictures of people injured by landmines or unexploded ordnance, it's quite gruesome,\" he said. \"I wanted to bring about the same sort of effect through the actual art. I wanted clients to say, 'I'll buy this piece if you clear a minefield in Vietnam or Afghanistan,' where we're going to do some mine-risk education this year with the money raised from these sculptures.\""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:27",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:27:0",
+                "attributes": {
+                  "text": "The sculptures sell for "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:27:1",
+                "attributes": {
+                  "text": "$23,000 to $29,000",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:27:2",
+                "attributes": {
+                  "text": ", with "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:27:3",
+                "attributes": {
+                  "text": "75 percent of the sale proceeds",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:27:4",
+                "attributes": {
+                  "text": " going to Adopt-A-Minefield, which then directs its share of donations into field operations rather than administration."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:28",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:28:0",
+                "attributes": {
+                  "text": "So far, Blake had sold two sculptures in New York, raising "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:28:1",
+                "attributes": {
+                  "text": "$35,000",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:28:2",
+                "attributes": {
+                  "text": "."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:29",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:29:0",
+                "attributes": {
+                  "text": "Pre-exhibition sales of his sculptures have helped clear landmines, cluster bombs and other unexploded weapons from communities and villages in Vietnam."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:30",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:30:0",
+                "attributes": {
+                  "text": "In Angola, they have funded mapping equipment to identify minefields, thereby enhancing the safety of people living nearby."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlockquote",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:31",
+            "attributes": {},
+            "children": [
+              {
+                "type": "TextBlock",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:31:0",
+                "attributes": {
+                  "tag": "p"
+                },
+                "children": [
+                  {
+                    "type": "TextRun",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:31:0:0",
+                    "attributes": {
+                      "text": "\"I have something very important to say, and it's very serious. And I need to say it quickly... the cause has added a great deal of influence and passion to my work,\" said Blake."
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:32",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:32:0",
+                "attributes": {
+                  "text": "His art symbolizes hope, but he does not think \"hope is that strong a beacon here [in the US] at the moment because of the war [in Iraq] and that's just human nature.\""
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:33",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:33:0",
+                "attributes": {
+                  "text": "He wants to change that, one sculpture at a time."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:34",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:34:0",
+                "attributes": {
+                  "text": "Legacy of Landmines"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:35",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:35:0",
+                "attributes": {
+                  "text": "(Sidebar from the article)",
+                  "italic": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:36",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:36:0",
+                "attributes": {
+                  "text": "Landmines and similar devices have been banned since 1999 by the "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:36:1",
+                "attributes": {
+                  "text": "International Anti-Personnel Mine Ban Treaty",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:36:2",
+                "attributes": {
+                  "text": ", with 156 countries signing, but not the US, China or Russia."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:37",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:37:0",
+                "attributes": {
+                  "text": "Landmines do not distinguish among targets — they are just as likely to kill a child as a soldier. They also restrict farming and the rebuilding of roads and bridges."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:38",
+            "attributes": {
+              "tag": "h3"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:38:0",
+                "attributes": {
+                  "text": "Statistics cited in the article:"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBulletList",
+            "id": "v:OZb1oDVvY/eOuRAVD0z:39",
+            "attributes": {},
+            "children": [
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:0",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:0:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:0:0:0",
+                        "attributes": {
+                          "text": "Approximately "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:0:0:1",
+                        "attributes": {
+                          "text": "15,000–20,000 civilians",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:0:0:2",
+                        "attributes": {
+                          "text": " are killed or maimed each year."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:1",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:1:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:1:0:0",
+                        "attributes": {
+                          "text": "Most affected: "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:1:0:1",
+                        "attributes": {
+                          "text": "Afghanistan, Cambodia, Burma/Myanmar, Angola, parts of the former Yugoslavia, and parts of South America.",
+                          "bold": true
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:2",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0:0",
+                        "attributes": {
+                          "text": "Mines cost as little as "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0:1",
+                        "attributes": {
+                          "text": "$3",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0:2",
+                        "attributes": {
+                          "text": " to produce and "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0:3",
+                        "attributes": {
+                          "text": "$1,000",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:2:0:4",
+                        "attributes": {
+                          "text": " to remove."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:3",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:3:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:3:0:0",
+                        "attributes": {
+                          "text": "Mines laid during "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:3:0:1",
+                        "attributes": {
+                          "text": "World War II",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:3:0:2",
+                        "attributes": {
+                          "text": " were still killing and maiming civilians."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:4",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0:0",
+                        "attributes": {
+                          "text": "Between 2002 and 2003, new landmine casualties were reported in "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0:1",
+                        "attributes": {
+                          "text": "65 countries",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0:2",
+                        "attributes": {
+                          "text": "; "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0:3",
+                        "attributes": {
+                          "text": "41",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:4:0:4",
+                        "attributes": {
+                          "text": " were not at war."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextListItem",
+                "id": "v:OZb1oDVvY/eOuRAVD0z:39:5",
+                "attributes": {},
+                "children": [
+                  {
+                    "type": "TextBlock",
+                    "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0",
+                    "attributes": {
+                      "tag": "p"
+                    },
+                    "children": [
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0:0",
+                        "attributes": {
+                          "text": "As of November 2007, "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0:1",
+                        "attributes": {
+                          "text": "42 million antipersonnel landmines",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0:2",
+                        "attributes": {
+                          "text": " had been destroyed and "
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0:3",
+                        "attributes": {
+                          "text": "81 countries",
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "TextRun",
+                        "id": "v:OZb1oDVvY/eOuRAVD0z:39:5:0:4",
+                        "attributes": {
+                          "text": " were considered clear."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "sculptures_symbolisiing_hope"
+        },
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "MHFpwoOrT",
+      "draft": false,
+      "fields": {
+        "Title": "Fontveille : Blake et \"Les Atlantes\" 1004",
+        "Slug": "blakewardlesatlantesfontveille",
+        "Date": "2025-11-24T00:00:00.000Z",
+        "Image": "https://framerusercontent.com/images/AatlIn6qqTL6Uvtgdg5aBv1YI.jpg",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:0",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:0:0",
+                "attributes": {
+                  "text": "Fontvieille: Blake and \"The Atlantes\"..."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:1:0",
+                "attributes": {
+                  "text": "Having been established in the Principality for three years, Canadian sculptor "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:1:1",
+                "attributes": {
+                  "text": "Blake Ward",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:1:2",
+                "attributes": {
+                  "text": " has lent one of his works to decorate the lawns of the heliport."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:2:0",
+                "attributes": {
+                  "text": "\"The Atlantes,\" three bronze figures that now adorn the Fontvieille rocks near the heliport, are the work of a young Canadian sculptor, Blake Ward, who has lived in the Principality for three years."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:3:0",
+                "attributes": {
+                  "text": "An unusual path has led this artist, who studied art in both Canada and Europe—first in Rome and then in Paris—where he also owns a gallery."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:4:0",
+                "attributes": {
+                  "text": "The young artist participated in numerous exhibitions such as the Bastille Salon, the Salon des Indépendants, and the Grand Palais in Paris."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:5:0",
+                "attributes": {
+                  "text": "His first artistic approach was directed toward abstraction. He created harmonious volumes that played with space. Yet his growing interest in the human being pushed him to return to figurative sculpture, through a journey back to its sources."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:6:0",
+                "attributes": {
+                  "text": "For he reveres Michelangelo, Bernini, Houdon, Carpeaux, Rodin, and, through their work, the magnificent lesson of figurative sculpture. This artistic tradition led Blake to leave Canada and travel through Europe in order to study the great Italian and French masters of the Renaissance and beyond."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:7",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:7:0",
+                "attributes": {
+                  "text": "In Monaco, whose climate, culture, and family environment make it the ideal place for artists, he carries all the arts in his heart."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:8",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:8:0",
+                "attributes": {
+                  "text": "In his Fontvieille studio, where he has lived for three years, Blake Ward no longer creates only figures of every beauty. The young artist, who considers himself somewhat \"old-fashioned\" because he believes that a sculptor's role is to realize a \"group\" from which a composition is born, has completed an imposing work: "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:8:1",
+                "attributes": {
+                  "text": "\"Les Atlantes\"",
+                  "bold": true
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:8:2",
+                "attributes": {
+                  "text": ", three bronze men standing upright, their arms raised."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:9",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:9:0",
+                "attributes": {
+                  "text": "The work is symbolized by a skull and a blindfold, representing the secrets of time passing, hidden in the depths of living beings, beyond this inevitable struggle."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:10",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:10:0",
+                "attributes": {
+                  "text": "Two Atlantes seem determined to challenge the future, while the last one clearly marks his refusal, but perhaps his retreat, thereby emphasizing this dual quality of life and death."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:11",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:11:0",
+                "attributes": {
+                  "text": "It is in this region that Blake Ward recruits most of his models."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:12",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:12:0",
+                "attributes": {
+                  "text": "Thus, one of the Atlantes—is he a rugby player from Nice?"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:MHFpwoOrT/eOuRAVD0z:13",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:MHFpwoOrT/eOuRAVD0z:13:0",
+                "attributes": {
+                  "text": "HM"
+                }
+              }
+            ]
+          }
+        ],
+        "Link": {
+          "href": "/news/:slug",
+          "collectionItem": "blakewardlesatlantesfontveille"
+        },
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "aRKohcBW0",
+      "draft": true,
+      "fields": {
+        "Title": null,
+        "Slug": null,
+        "Date": "2026-09-19T00:00:00.000Z",
+        "Image": null,
+        "Content": null,
+        "Link": null,
+        "publik link": null,
+        "youtube link": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    }
+  ]
+}

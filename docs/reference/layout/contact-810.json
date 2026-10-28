@@ -1,0 +1,306 @@
+{
+ "url": "/contact",
+ "vw": 810,
+ "docH": 2939,
+ "bodyBg": "#0f0f0f",
+ "sections": [
+  {
+   "name": "Blake ",
+   "tag": "div",
+   "x": 8,
+   "y": 8,
+   "w": 200,
+   "h": 60,
+   "position": "fixed",
+   "top": "8px",
+   "zIndex": "10",
+   "bg": "#000000@0",
+   "bgImage": null,
+   "padding": "0px",
+   "display": "block",
+   "flexDir": "row",
+   "gap": "normal",
+   "gridCols": "none",
+   "justify": "normal",
+   "align": "normal",
+   "children": [
+    {
+     "name": "Tablet Mobile",
+     "x": 8,
+     "y": 8,
+     "w": 200,
+     "h": 60,
+     "bg": "#000000",
+     "padding": "0px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "Hero",
+   "tag": "header",
+   "x": 0,
+   "y": 0,
+   "w": 810,
+   "h": 344,
+   "position": "relative",
+   "top": "0px",
+   "zIndex": "auto",
+   "bg": "#ffffff",
+   "bgImage": null,
+   "padding": "106px 0px 64px",
+   "display": "flex",
+   "flexDir": "column",
+   "gap": "0px",
+   "gridCols": "none",
+   "justify": "flex-start",
+   "align": "center",
+   "children": [
+    {
+     "name": "Wrap",
+     "x": 0,
+     "y": 106,
+     "w": 810,
+     "h": 174,
+     "bg": "#000000@0",
+     "padding": "0px 32px",
+     "maxWidth": "1920px",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "26px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "Portrait",
+   "tag": "div",
+   "x": 0,
+   "y": 344,
+   "w": 810,
+   "h": 674,
+   "position": "relative",
+   "top": "0px",
+   "zIndex": "auto",
+   "bg": "#ffffff",
+   "bgImage": null,
+   "padding": "0px 0px 80px",
+   "display": "flex",
+   "flexDir": "column",
+   "gap": "0px",
+   "gridCols": "none",
+   "justify": "flex-start",
+   "align": "center",
+   "children": [
+    {
+     "name": "Wrap",
+     "x": 0,
+     "y": 344,
+     "w": 810,
+     "h": 594,
+     "bg": "#000000@0",
+     "padding": "0px 32px",
+     "maxWidth": "1920px",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "Details",
+   "tag": "section",
+   "x": 0,
+   "y": 1018,
+   "w": 810,
+   "h": 318,
+   "position": "relative",
+   "top": "0px",
+   "zIndex": "auto",
+   "bg": "#ffffff",
+   "bgImage": null,
+   "padding": "80px 0px",
+   "display": "flex",
+   "flexDir": "column",
+   "gap": "0px",
+   "gridCols": "none",
+   "justify": "flex-start",
+   "align": "center",
+   "children": [
+    {
+     "name": "Wrap",
+     "x": 0,
+     "y": 1098,
+     "w": 810,
+     "h": 158,
+     "bg": "#000000@0",
+     "padding": "0px",
+     "maxWidth": "1920px",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "0px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "Message",
+   "tag": "section",
+   "x": 0,
+   "y": 1336,
+   "w": 810,
+   "h": 925,
+   "position": "relative",
+   "top": "0px",
+   "zIndex": "auto",
+   "bg": "#ffffff",
+   "bgImage": null,
+   "padding": "80px 0px",
+   "display": "flex",
+   "flexDir": "column",
+   "gap": "0px",
+   "gridCols": "none",
+   "justify": "flex-start",
+   "align": "center",
+   "children": [
+    {
+     "name": "Wrap",
+     "x": 0,
+     "y": 1416,
+     "w": 810,
+     "h": 765,
+     "bg": "#000000@0",
+     "padding": "0px 32px",
+     "maxWidth": "1920px",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "48px",
+     "gridCols": "none"
+    }
+   ]
+  },
+  {
+   "name": "div",
+   "tag": "div",
+   "x": 0,
+   "y": 2261,
+   "w": 810,
+   "h": 679,
+   "position": "sticky",
+   "top": "0px",
+   "zIndex": "9",
+   "bg": "#000000@0",
+   "bgImage": null,
+   "padding": "0px",
+   "display": "block",
+   "flexDir": "row",
+   "gap": "normal",
+   "gridCols": "none",
+   "justify": "normal",
+   "align": "normal",
+   "children": [
+    {
+     "name": "Tablet",
+     "x": 0,
+     "y": 2261,
+     "w": 810,
+     "h": 679,
+     "bg": "#000000",
+     "padding": "52px 46px",
+     "maxWidth": "none",
+     "display": "flex",
+     "flexDir": "column",
+     "gap": "32px",
+     "gridCols": "none"
+    }
+   ]
+  }
+ ],
+ "grids": [
+  {
+   "name": "Details Grid",
+   "x": 0,
+   "y": 1098,
+   "w": 810,
+   "h": 158,
+   "display": "grid",
+   "cols": "270px 270px 270px",
+   "rows": "min-content",
+   "gap": "30px 0px",
+   "padding": "0px",
+   "items": 3,
+   "perRow": 3,
+   "rowsCount": 1,
+   "itemW": [
+    270,
+    270,
+    270
+   ],
+   "itemH": [
+    158,
+    158,
+    158
+   ]
+  }
+ ],
+ "rails": [],
+ "imgs": [
+  {
+   "src": "HW1h9xSrg3Vb51GhfM2XxzV8g.jpeg",
+   "alt": "Boky Hackel-Ward and Blake Ward",
+   "x": 32,
+   "y": 344,
+   "w": 746,
+   "h": 594,
+   "natural": [
+    746,
+    593
+   ],
+   "renderedAspect": 1.256,
+   "naturalAspect": 1.258,
+   "fit": "cover",
+   "pos": "50% 50%",
+   "radius": "0px",
+   "cut": {
+    "axis": "x",
+    "pct": 0.2
+   },
+   "parent": "Artists"
+  }
+ ],
+ "bgImgs": [],
+ "videos": [],
+ "iframes": [],
+ "tally": {
+  "bg": {
+   "#0f0f0f": 1,
+   "#000000": 4,
+   "#ffffff": 4,
+   "#f5f2eb": 1,
+   "#bbbbbb@0.15": 1,
+   "#ffffff@0": 3
+  },
+  "cursor": {
+   "text": 3
+  },
+  "radius": {
+   "10px": 1,
+   "12px": 3
+  }
+ },
+ "hairlines": [],
+ "nav": null,
+ "motion": {
+  "atLoad": [],
+  "loadAnims": [],
+  "preScrollHidden": [],
+  "scrollAnims": [],
+  "easings": [],
+  "settledStillHidden": []
+ }
+}

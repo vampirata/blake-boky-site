@@ -1,0 +1,169 @@
+---
+import { footer, url } from "../lib/site";
+const year = new Date().getFullYear();
+const cols = [
+	{ label: "[Links]", items: footer.links },
+	{ label: "[Blake Social]", items: footer.blake },
+	{ label: "[Boky Social]", items: footer.boky },
+];
+---
+
+<footer class="footer">
+	<div class="top">
+		<div class="cols">
+			{
+				cols.map((c) => (
+					<div class="col">
+						<p class="eyebrow lab">{c.label}</p>
+						<ul>
+							{c.items.map((i) => {
+								const ext = i.href.startsWith("http");
+								return (
+									<li>
+										<a class="flink" href={url(i.href)} {...(ext ? { target: "_blank", rel: "noopener" } : {})}>
+											{i.label}
+											<span class="line" aria-hidden="true" />
+										</a>
+									</li>
+								);
+							})}
+						</ul>
+					</div>
+				))
+			}
+		</div>
+		<div class="side">
+			<p class="h2 word">Blake &amp; Boky</p>
+			<a class="contact link" href={url("/contact")}>Contact <span aria-hidden="true">→</span></a>
+		</div>
+	</div>
+	<div class="bottom">
+		<p>Copyright © {year} Blake&amp;Boky. All rights reserved.</p>
+	</div>
+</footer>
+
+<style>
+	.footer {
+		background: var(--black);
+		color: var(--white);
+		padding: 52px 46px;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		min-block-size: 475px;
+	}
+	.top {
+		flex: 1;
+		display: flex;
+		justify-content: space-between;
+		gap: 32px;
+	}
+	.cols {
+		display: flex;
+		gap: 64px;
+	}
+	.col {
+		min-inline-size: 162px;
+	}
+	.lab {
+		color: var(--gold-light);
+		margin-block-end: 18px;
+	}
+	.col li + li {
+		margin-block-start: 16px;
+	}
+	.flink {
+		position: relative;
+		display: inline-block;
+		font-size: 16px;
+		line-height: 1.6;
+		transition: color 200ms var(--ease-link);
+	}
+	.line {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		block-size: 1px;
+		inline-size: 0;
+		opacity: 0;
+		background: currentColor;
+		transition:
+			inline-size 200ms var(--ease-link),
+			opacity 200ms var(--ease-link);
+	}
+	.flink:hover {
+		color: var(--gold-light);
+	}
+	.flink:hover .line {
+		inline-size: 100%;
+		opacity: 1;
+	}
+	.side {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+		text-align: end;
+	}
+	.word {
+		margin-block-start: 49px;
+		font-size: 54px;
+	}
+	.contact {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 1.2;
+		letter-spacing: -1.12px;
+	}
+	.bottom {
+		border-block-start: 1px solid var(--grey-363);
+		padding-block-start: 20px;
+		font-family: var(--font-display);
+		font-weight: 300;
+		font-size: 13px;
+		line-height: 1.6;
+		color: var(--grey-c2);
+	}
+	@media (max-width: 1399.98px) {
+		.footer {
+			min-block-size: 679px;
+		}
+		.top {
+			flex-direction: column;
+		}
+		.side {
+			align-items: flex-start;
+			text-align: start;
+			gap: 40px;
+		}
+		.cols {
+			flex-wrap: wrap;
+			gap: 40px 64px;
+		}
+		.word {
+			margin-block-start: 0;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.footer {
+			padding: 24px 12px 52px;
+			min-block-size: 0;
+		}
+		.cols {
+			flex-direction: column;
+			gap: 40px;
+			padding-inline-start: 12px;
+		}
+		.side {
+			padding-inline-start: 12px;
+		}
+		.word {
+			font-size: 34px;
+		}
+		.bottom {
+			font-size: 12px;
+			padding-inline-start: 12px;
+		}
+	}
+</style>

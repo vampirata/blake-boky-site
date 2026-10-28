@@ -1,0 +1,1061 @@
+{
+  "source": "https://blakeandboky.com",
+  "extractedAt": "2026-10-28T15:09:22.540Z",
+  "logo": {
+    "type": "text",
+    "text": "Blake & Boky",
+    "href": "/",
+    "font": {
+      "family": "Cormorant Garamond",
+      "size": "22px",
+      "weight": "600"
+    },
+    "note": "The logo is live text in the nav (no SVG or image logo on the site)."
+  },
+  "favicon": [
+    {
+      "rel": "icon",
+      "media": "(prefers-color-scheme: light)",
+      "href": "/assets/global/VNUMh0oHReAipsJOyJ7cr8897k.jpg",
+      "sizes": null
+    },
+    {
+      "rel": "icon",
+      "media": "(prefers-color-scheme: dark)",
+      "href": "/assets/global/VNUMh0oHReAipsJOyJ7cr8897k.jpg",
+      "sizes": null
+    }
+  ],
+  "nav": {
+    "items": [
+      {
+        "href": "/",
+        "desktop": false,
+        "desktopLabel": null,
+        "desktopOrder": null,
+        "mobile": true,
+        "mobileLabel": "Home",
+        "mobileOrder": 1
+      },
+      {
+        "href": "/blake-bio",
+        "desktop": true,
+        "desktopLabel": "Blake",
+        "desktopOrder": 1,
+        "mobile": true,
+        "mobileLabel": "Blake Biography",
+        "mobileOrder": 2
+      },
+      {
+        "href": "/boky-bio",
+        "desktop": true,
+        "desktopLabel": "Boky",
+        "desktopOrder": 2,
+        "mobile": true,
+        "mobileLabel": "Boky Biography",
+        "mobileOrder": 3
+      },
+      {
+        "href": "/past-works",
+        "desktop": true,
+        "desktopLabel": "Past Works",
+        "desktopOrder": 3,
+        "mobile": true,
+        "mobileLabel": "Past Works",
+        "mobileOrder": 4
+      },
+      {
+        "href": "/collections",
+        "desktop": true,
+        "desktopLabel": "Collections",
+        "desktopOrder": 4,
+        "mobile": true,
+        "mobileLabel": "Collections",
+        "mobileOrder": 5
+      },
+      {
+        "href": "/galleriespetley",
+        "desktop": true,
+        "desktopLabel": "Exhibitions & Galleries",
+        "desktopOrder": 5,
+        "mobile": true,
+        "mobileLabel": "Exhibitions & Galleries",
+        "mobileOrder": 6
+      },
+      {
+        "href": "/news",
+        "desktop": true,
+        "desktopLabel": "News",
+        "desktopOrder": 6,
+        "mobile": true,
+        "mobileLabel": "News",
+        "mobileOrder": 7
+      },
+      {
+        "href": "/contact",
+        "desktop": true,
+        "desktopLabel": "Contact",
+        "desktopOrder": 7,
+        "mobile": true,
+        "mobileLabel": "Contact",
+        "mobileOrder": 8
+      }
+    ],
+    "desktopOrder": [
+      "Blake",
+      "Boky",
+      "Past Works",
+      "Collections",
+      "Exhibitions & Galleries",
+      "News",
+      "Contact"
+    ],
+    "mobileOrder": [
+      "Home",
+      "Blake Biography",
+      "Boky Biography",
+      "Past Works",
+      "Collections",
+      "Exhibitions & Galleries",
+      "News",
+      "Contact"
+    ],
+    "mobileTrigger": "Menu (whole nav pill is the trigger; closed state shows logo only)",
+    "mobileOpenVariant": "Tablet Mobile Open",
+    "mobileCloseIcon": [
+      "/assets/global/icon-menu-close-e03b3cb8ec.svg"
+    ],
+    "variantsByPage": {
+      "/": "Desktop BLACK",
+      "/contact": "Desktop Light",
+      "/news": "DESKTOP GREY",
+      "/boky-bio": "DESKTOP GREY",
+      "/galleriespetley": "Desktop Light",
+      "/blake-bio": "Desktop Light",
+      "/past-works": "DESKTOP GREY",
+      "/past-works/damaged": "DESKTOP GREY",
+      "/past-works/broken": "DESKTOP GREY",
+      "/past-works/losing-myself-in-you": "DESKTOP GREY",
+      "/past-works/ich-und-es": "DESKTOP GREY",
+      "/past-works/kaboom-archive": "DESKTOP GREY",
+      "/past-works/the-restless-gaze-and-the-divided-ego": "DESKTOP GREY",
+      "/past-works/chicago-interview-2019": "DESKTOP GREY",
+      "/past-works/at-venturi-arte-bologna": "DESKTOP GREY",
+      "/past-works/working-the-clay": "DESKTOP GREY",
+      "/past-works/at-mark-massas": "DESKTOP GREY",
+      "/past-works/charting-landscapes": "DESKTOP GREY",
+      "/past-works/the-story": "DESKTOP GREY",
+      "/past-works/press-document": "DESKTOP GREY",
+      "/galleriespetley/zurich-art-salon": "Desktop Light",
+      "/galleriespetley/art-fairs-and-salons": "Desktop Light",
+      "/galleriespetley/hilton-contemporary": "Desktop Light",
+      "/galleriespetley/petley-jones": "Desktop Light",
+      "/news/when-walls-become-words-buildings-as-silent-storytellers": "Desktop Light",
+      "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward": "Desktop Light",
+      "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids": "Desktop Light",
+      "/news/sculptures_symbolisiing_hope": "Desktop Light",
+      "/news/blakewardlesatlantesfontveille": "Desktop Light"
+    }
+  },
+  "footer": {
+    "variantName": "Desktop",
+    "columns": [
+      {
+        "title": "[LINKS]",
+        "links": [
+          {
+            "label": "Blake Biography",
+            "href": "/blake-bio"
+          },
+          {
+            "label": "Boky Biography",
+            "href": "/boky-bio"
+          },
+          {
+            "label": "Past Works",
+            "href": "/past-works"
+          },
+          {
+            "label": "Collections",
+            "href": "/collections"
+          },
+          {
+            "label": "Exhibitions & Galleries",
+            "href": "/galleriespetley"
+          },
+          {
+            "label": "News",
+            "href": "/news"
+          }
+        ]
+      },
+      {
+        "title": "[BLAKE SOCIAL]",
+        "links": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/blakesculpture/?hl=en"
+          },
+          {
+            "label": "Sculpture Network",
+            "href": "https://sculpture-network.org/en/artist/669/blake-ward"
+          },
+          {
+            "label": "Wikipedia",
+            "href": "https://en.wikipedia.org/wiki/Blake_Ward"
+          }
+        ]
+      },
+      {
+        "title": "[BOKY SOCIAL]",
+        "links": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/boky_sculpture/"
+          },
+          {
+            "label": "Sculpture Network",
+            "href": "https://sculpture-network.org/en/artist/44147/boky-hackel-ward"
+          },
+          {
+            "label": "Wikipedia",
+            "href": null
+          }
+        ]
+      }
+    ],
+    "brand": "Blake & Boky",
+    "contactLink": {
+      "label": "Contact",
+      "href": "/contact"
+    },
+    "copyright": " Copyright © 2026 Blake&Boky. All rights reserved.",
+    "allText": [
+      "[LINKS]",
+      "Blake Biography ",
+      "Boky Biography ",
+      "Past Works",
+      "Collections",
+      "Exhibitions & Galleries ",
+      "News",
+      "[BLAKE SOCIAL]",
+      "Instagram",
+      "Sculpture Network",
+      "Wikipedia",
+      "[BOKY SOCIAL]",
+      "Instagram",
+      "Sculpture Network",
+      "Wikipedia",
+      "Blake & Boky",
+      "Contact",
+      " Copyright © 2026 Blake&Boky. All rights reserved."
+    ],
+    "icons": [
+      "/assets/global/icon-footer-arrow-4747e6f69b.svg"
+    ]
+  },
+  "fonts": {
+    "families": [
+      {
+        "family": "Cormorant Garamond",
+        "weightsInUse": [
+          "300",
+          "400",
+          "500",
+          "600"
+        ]
+      },
+      {
+        "family": "Switzer",
+        "weightsInUse": [
+          "300",
+          "400"
+        ]
+      },
+      {
+        "family": "Inter",
+        "weightsInUse": [
+          "300",
+          "400"
+        ]
+      }
+    ],
+    "faces": [
+      {
+        "family": "Fragment Mono",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": false,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+            "local": null
+          }
+        ]
+      },
+      {
+        "family": "Fragment Mono",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": false,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+            "local": null
+          }
+        ]
+      },
+      {
+        "family": "Fragment Mono",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": false,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+            "local": null
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2",
+            "local": "/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2",
+            "local": "/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "500",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2",
+            "local": "/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2",
+            "local": "/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "500",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2",
+            "local": "/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "600",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2",
+            "local": "/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "600",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2",
+            "local": "/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2",
+            "local": "/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2",
+            "local": "/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Cormorant Garamond",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2",
+            "local": "/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+            "local": "/fonts/inter/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+            "local": "/fonts/inter/EOr0mi4hNtlgWNn9if640EZzXCo.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+            "local": "/fonts/inter/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+            "local": "/fonts/inter/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+            "local": "/fonts/inter/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+            "local": "/fonts/inter/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+            "local": "/fonts/inter/b6Y37FthZeALduNqHicBT6FutY.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/BkDpl4ghaqvMi1btKFyG2tdbec.woff2",
+            "local": "/fonts/inter/BkDpl4ghaqvMi1btKFyG2tdbec.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/zAMK70AQRFSShJgUiaR5IiIhgzk.woff2",
+            "local": "/fonts/inter/zAMK70AQRFSShJgUiaR5IiIhgzk.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/IETjvc5qzUaRoaruDpPSwCUM8.woff2",
+            "local": "/fonts/inter/IETjvc5qzUaRoaruDpPSwCUM8.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/oLCoaT3ioA0fHdJnWR9W6k7NY.woff2",
+            "local": "/fonts/inter/oLCoaT3ioA0fHdJnWR9W6k7NY.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/Sj0PCHQSBjFmEp6NBWg6FNaKc.woff2",
+            "local": "/fonts/inter/Sj0PCHQSBjFmEp6NBWg6FNaKc.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/aqiiD4LUKkKzXdjGL5UzHq8bo5w.woff2",
+            "local": "/fonts/inter/aqiiD4LUKkKzXdjGL5UzHq8bo5w.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/H4TfENUY1rh8R9UaSD6vngjJP3M.woff2",
+            "local": "/fonts/inter/H4TfENUY1rh8R9UaSD6vngjJP3M.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+            "local": "/fonts/inter/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+            "local": "/fonts/inter/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+            "local": "/fonts/inter/1K3W8DizY3v4emK8Mb08YHxTbs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+            "local": "/fonts/inter/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+            "local": "/fonts/inter/VgYFWiwsAC5OYxAycRXXvhze58.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+            "local": "/fonts/inter/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "normal",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+            "local": "/fonts/inter/GIryZETIX4IFypco5pYZONKhJIo.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+            "local": "/fonts/inter/H89BbHkbHDzlxZzxi8uPzTsp90.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+            "local": "/fonts/inter/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+            "local": "/fonts/inter/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+            "local": "/fonts/inter/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+            "local": "/fonts/inter/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+            "local": "/fonts/inter/ia3uin3hQWqDrVloC1zEtYHWw.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "700",
+        "style": "italic",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+            "local": "/fonts/inter/2A4Xx7CngadFGlVV4xrO06OBHY.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+            "local": "/fonts/inter/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2",
+            "local": "/fonts/inter/867QObYax8ANsfX4TGEVU9YiCM.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+            "local": "/fonts/inter/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+            "local": "/fonts/inter/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+            "local": "/fonts/inter/DOfvtmE1UplCq161m6Hj8CSQYg.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+            "local": "/fonts/inter/pKRFNWFoZl77qYCAIp84lN1h944.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+            "local": "/fonts/inter/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/YYB6GZmCWnZq3RWZOghuZIOxQY.woff2",
+            "local": "/fonts/inter/YYB6GZmCWnZq3RWZOghuZIOxQY.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/miJTzODdiyIr3tRo9KEoqXXk2PM.woff2",
+            "local": "/fonts/inter/miJTzODdiyIr3tRo9KEoqXXk2PM.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+1F00-1FFF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/6ZMhcggRFfEfbf7lncCpaUbA.woff2",
+            "local": "/fonts/inter/6ZMhcggRFfEfbf7lncCpaUbA.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+370-3FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/8sCN6PGUr4I8q5hC5twAXfcwqV0.woff2",
+            "local": "/fonts/inter/8sCN6PGUr4I8q5hC5twAXfcwqV0.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/aUYDUTztS7anQw5JuwCncXeLOBY.woff2",
+            "local": "/fonts/inter/aUYDUTztS7anQw5JuwCncXeLOBY.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/8mwKwShtYEXIZ5diRBT74yn9jdQ.woff2",
+            "local": "/fonts/inter/8mwKwShtYEXIZ5diRBT74yn9jdQ.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Inter",
+        "weight": "300",
+        "style": "italic",
+        "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/assets/yDiPvYxioBHsicnYxpPW35WQmx8.woff2",
+            "local": "/fonts/inter/yDiPvYxioBHsicnYxpPW35WQmx8.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Switzer",
+        "weight": "400",
+        "style": "italic",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/XVUY2PHYBA6KMN4RMEMJPHQSTKCQ267G/UICOQA6KCSHFOSCPYDVVDNNCDKYFXHJB/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.woff2",
+            "local": "/fonts/switzer/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.woff2"
+          }
+        ]
+      },
+      {
+        "family": "Switzer",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": null,
+        "used": true,
+        "files": [
+          {
+            "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2",
+            "local": "/fonts/switzer/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2"
+          }
+        ]
+      }
+    ],
+    "unusedFacesDeclared": [
+      "Fragment Mono"
+    ]
+  },
+  "pageBackgrounds": {
+    "/": "rgb(15, 15, 15)",
+    "/contact": "rgb(15, 15, 15)",
+    "/news": "rgb(15, 15, 15)",
+    "/boky-bio": "rgb(15, 15, 15)",
+    "/galleriespetley": "rgb(15, 15, 15)",
+    "/blake-bio": "rgb(15, 15, 15)",
+    "/past-works": "rgb(15, 15, 15)",
+    "/past-works/damaged": "rgb(15, 15, 15)",
+    "/past-works/broken": "rgb(15, 15, 15)",
+    "/past-works/losing-myself-in-you": "rgb(15, 15, 15)",
+    "/past-works/ich-und-es": "rgb(15, 15, 15)",
+    "/past-works/kaboom-archive": "rgb(15, 15, 15)",
+    "/past-works/the-restless-gaze-and-the-divided-ego": "rgb(15, 15, 15)",
+    "/past-works/chicago-interview-2019": "rgb(15, 15, 15)",
+    "/past-works/at-venturi-arte-bologna": "rgb(15, 15, 15)",
+    "/past-works/working-the-clay": "rgb(15, 15, 15)",
+    "/past-works/at-mark-massas": "rgb(15, 15, 15)",
+    "/past-works/charting-landscapes": "rgb(15, 15, 15)",
+    "/past-works/the-story": "rgb(15, 15, 15)",
+    "/past-works/press-document": "rgb(15, 15, 15)",
+    "/galleriespetley/zurich-art-salon": "rgb(15, 15, 15)",
+    "/galleriespetley/art-fairs-and-salons": "rgb(15, 15, 15)",
+    "/galleriespetley/hilton-contemporary": "rgb(15, 15, 15)",
+    "/galleriespetley/petley-jones": "rgb(15, 15, 15)",
+    "/news/when-walls-become-words-buildings-as-silent-storytellers": "rgb(15, 15, 15)",
+    "/news/fragments-of-infinity-a-collection-for-humanity-by-blake-ward": "rgb(15, 15, 15)",
+    "/news/the-weight-of-empty-space-understanding-the-poetry-of-voids": "rgb(15, 15, 15)",
+    "/news/sculptures_symbolisiing_hope": "rgb(15, 15, 15)",
+    "/news/blakewardlesatlantesfontveille": "rgb(15, 15, 15)"
+  }
+}

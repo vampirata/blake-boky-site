@@ -1,0 +1,1044 @@
+[
+  {
+    "type": "WebPageNode",
+    "id": "augiA20Il",
+    "name": "Home",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "WQLkyLRf1",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "UTZ5AQcDl",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "oVlzj9c2S",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop BLACK",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Blake Ward & Boky Hackel-Ward — Sculpture",
+        "description": "Figurative sculpture by Blake Ward and Boky Hackel-Ward. Fragments, Spirits, Re-Think, Andromeda, In Lucem and Figurative Poetry."
+      },
+      "path": "/"
+    },
+    "$truncated": true,
+    "$descendantCount": 420
+  },
+  {
+    "type": "WebPageNode",
+    "id": "AnXSLcWKH",
+    "name": "/trial",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "nd9HemRIS",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "POukLJLOv",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "AjcXr2UfB",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "draft": true,
+      "layoutTemplate": "CWeg27bi1",
+      "metadata": {
+        "title": "Spirit Collection — Blake & Boky",
+        "description": "The Spirit Collection, made together by Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/trial"
+    },
+    "$truncated": true,
+    "$descendantCount": 405
+  },
+  {
+    "type": "WebPageNode",
+    "id": "BBOPu_KAC",
+    "name": "/contact",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "yOoAd8IFC",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "Tz7NGy4Ff",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "oIdIkbT86",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "CWeg27bi1",
+      "metadata": {
+        "title": "Contact — Blake & Boky",
+        "description": "Enquiries about available work, commissions and exhibitions. Atelier in Pietrasanta, Italy, by appointment."
+      },
+      "path": "/contact"
+    },
+    "$truncated": true,
+    "$descendantCount": 429
+  },
+  {
+    "type": "WebPageNode",
+    "id": "eR12mXyIF",
+    "name": "/news",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "eh2wp0pmv",
+    "$layoutTemplateDisplayName": "Page Template",
+    "$breakpoints": [
+      {
+        "id": "FWCuvAtz4",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "x2iuxN6yd",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "CaNmtOog_",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__pageTitle": "News",
+      "$control__cTAVisible": "true",
+      "$control__cTAImageVisible": "true",
+      "$control__cTAImage": "https://framerusercontent.com/images/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg",
+      "$control__nAVBARCOLOUR": "DESKTOP GREY",
+      "$control__color": "var(--token-be079bad-eabd-4234-8a56-5579c7057187)",
+      "$control__cTABackgroundColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__fillColorBackground": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__paperTittleColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+      "layoutTemplate": "eh2wp0pmv",
+      "metadata": {
+        "title": "News — Blake & Boky",
+        "description": "Studio news, interviews and exhibition announcements from Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/news"
+    },
+    "$truncated": true,
+    "$descendantCount": 15
+  },
+  {
+    "type": "WebPageNode",
+    "id": "crEk4KALi",
+    "name": "/news/:News",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "rQlqri_w0",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "IEFxkYtot",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "a8LrVEd75",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} — Blake & Boky",
+        "description": "News and interviews from the studio of Blake Ward and Boky Hackel-Ward.",
+        "noIndexSite": false
+      },
+      "path": "/news/:News"
+    },
+    "$truncated": true,
+    "$descendantCount": 87
+  },
+  {
+    "type": "WebPageNode",
+    "id": "tzLJ7sBGm",
+    "name": "/collections",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "eh2wp0pmv",
+    "$layoutTemplateDisplayName": "Page Template",
+    "$breakpoints": [
+      {
+        "id": "X9uhlxZhH",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "h9dyXlLui",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "NlfasvtCi",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__pageTitle": "Collections",
+      "$control__cTAVisible": "true",
+      "$control__cTAImageVisible": "true",
+      "$control__cTAImage": "https://framerusercontent.com/images/QeLtbE1aT2cG7lh5u93pzi3Ro.jpg",
+      "$control__nAVBARCOLOUR": "DESKTOP GREY",
+      "$control__color": "var(--token-be079bad-eabd-4234-8a56-5579c7057187)",
+      "$control__cTABackgroundColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__fillColorBackground": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__paperTittleColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+      "layoutTemplate": "eh2wp0pmv",
+      "metadata": {
+        "title": "Collections — Blake & Boky",
+        "description": "The bodies of work of Blake Ward and Boky Hackel-Ward, from Fragments and Spirits to In Lucem and Figurative Poetry."
+      },
+      "path": "/collections"
+    },
+    "$truncated": true,
+    "$descendantCount": 24
+  },
+  {
+    "type": "WebPageNode",
+    "id": "OdMjM6ZTX",
+    "name": "/boky-bio",
+    "variables": [
+      {
+        "key": "$control__category",
+        "id": "TEwjPwPCf",
+        "name": "Category",
+        "node": "ControlReferenceVariable",
+        "type": "option",
+        "source": "Collections",
+        "control": "T6BZ4iDfR",
+        "queryParam": "category"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "EqbZlBfoj",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "B2nqqBckB",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "jZwxubcH0",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Boky Hackel-Ward — Sculptor",
+        "description": "Boky Hackel-Ward, sculptor. Exploring the mysteries of time and being through light, steel, bronze and gold."
+      },
+      "path": "/boky-bio"
+    },
+    "$truncated": true,
+    "$descendantCount": 1677
+  },
+  {
+    "type": "WebPageNode",
+    "id": "sE5PCj9ru",
+    "name": "/galler",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "AlWKDEVjH",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "Sa8fAY59v",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "DZjqBHFKH",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "draft": true,
+      "layoutTemplate": "CWeg27bi1",
+      "metadata": {
+        "title": "Petley Jones Gallery — Blake & Boky",
+        "description": "Petley Jones Gallery, Vancouver. Three landmark exhibitions of sculpture by Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/galler"
+    },
+    "$truncated": true,
+    "$descendantCount": 459
+  },
+  {
+    "type": "WebPageNode",
+    "id": "yPGYlRv5f",
+    "name": "/collections/fragments/:Fragments",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "lMmMmUN6r",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "MZUPxlWBH",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "YaYxaMA8k",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} - Zilo — Framer Template by Sidebay Supply"
+      },
+      "path": "/collections/fragments/:Fragments"
+    },
+    "$truncated": true,
+    "$descendantCount": 176
+  },
+  {
+    "type": "WebPageNode",
+    "id": "tNt7DYuwT",
+    "name": "/collections/andromeda/:Andromeda",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "jBY_U38x7",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "d3cPyUfP_",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "Tt1DGL9t1",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} - Zilo — Framer Template by Sidebay Supply"
+      },
+      "path": "/collections/andromeda/:Andromeda"
+    },
+    "$truncated": true,
+    "$descendantCount": 177
+  },
+  {
+    "type": "WebPageNode",
+    "id": "yGTnEhF9K",
+    "name": "/collections/spirit-collection/:Spirit Collection",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "hbP0PBc8I",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "h4uZxvaqY",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "RaoBlXMlt",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop BLACK",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} - Zilo — Framer Template by Sidebay Supply"
+      },
+      "path": "/collections/spirit-collection/:Spirit Collection"
+    },
+    "$truncated": true,
+    "$descendantCount": 268
+  },
+  {
+    "type": "WebPageNode",
+    "id": "FzCEPYeZn",
+    "name": "/blake-bio",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "Rk6T6FIxO",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "p3Sahk5o3",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "ZwXdkNGPJ",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Blake Ward — Sculptor",
+        "description": "Blake Ward, sculptor. Four decades of figurative work exhibited across thirteen countries and three continents."
+      },
+      "path": "/blake-bio"
+    },
+    "$truncated": true,
+    "$descendantCount": 1212
+  },
+  {
+    "type": "WebPageNode",
+    "id": "CM8ZzXWAv",
+    "name": "/collections/spirit-collection",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "tPfo0hh7r",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "queryParam": "title"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "EnRJTsGyk",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "WEX0tOglg",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "gvBdhRzsW",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop BLACK",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Spirit Collection — Blake & Boky",
+        "description": "Works from the Spirit Collection by Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/collections/spirit-collection"
+    },
+    "$truncated": true,
+    "$descendantCount": 201
+  },
+  {
+    "type": "WebPageNode",
+    "id": "mXosxyPq1",
+    "name": "/collections/andromeda",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "GDXZOzbxK",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "queryParam": "title"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "SPbdMWafH",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "W1rHojb9P",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "FL5QGVoO8",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Andromeda — Blake & Boky",
+        "description": "Works from the Andromeda by Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/collections/andromeda"
+    },
+    "$truncated": true,
+    "$descendantCount": 195
+  },
+  {
+    "type": "WebPageNode",
+    "id": "yGL8nVHMP",
+    "name": "/collections/in-lucem/:In Lucem indiv-indiv",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "QZ6r98jX5",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "OU4y7gH3t",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "l_hRpWrrr",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop BLACK",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} — In Lucem",
+        "description": "A work from the In Lucem collection by Boky Hackel-Ward."
+      },
+      "path": "/collections/in-lucem/:In Lucem indiv-indiv"
+    },
+    "$truncated": true,
+    "$descendantCount": 162
+  },
+  {
+    "type": "WebPageNode",
+    "id": "QOEuK_LCN",
+    "name": "/collections/figurative-poetry/:Figurative Poetry indiv-indiv",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "fApOdwJpu",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "RrZaT2hRN",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "dgNWmksg3",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "{{Title}} — Figurative Poetry",
+        "description": "A work from the Figurative Poetry collection by Boky Hackel-Ward."
+      },
+      "path": "/collections/figurative-poetry/:Figurative Poetry indiv-indiv"
+    },
+    "$truncated": true,
+    "$descendantCount": 195
+  },
+  {
+    "type": "WebPageNode",
+    "id": "myxe7ZU9o",
+    "name": "/collections/in-lucem",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "vuGOHXzdD",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "queryParam": "title"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "CJJ1Jx9jm",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "Tou2mTUzw",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "Vqqn94OIO",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "In Lucem — Boky Hackel-Ward",
+        "description": "Works in steel and light from the Steel Studio by Boky Hackel-Ward."
+      },
+      "path": "/collections/in-lucem"
+    },
+    "$truncated": true,
+    "$descendantCount": 201
+  },
+  {
+    "type": "WebPageNode",
+    "id": "CjWOYvF6X",
+    "name": "/collections/figurative-poetry",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "znUrfPmyO",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "queryParam": "title"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "ahuXSg4as",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "fqWxhhnUT",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "gYyLvRxgU",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Figurative Poetry — Boky Hackel-Ward",
+        "description": "Fragmented faces and figures in bronze and gold by Boky Hackel-Ward."
+      },
+      "path": "/collections/figurative-poetry"
+    },
+    "$truncated": true,
+    "$descendantCount": 201
+  },
+  {
+    "type": "WebPageNode",
+    "id": "KxCqXtlmj",
+    "name": "/galleriespetley",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "K2vXbg6HA",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "ZJZ49iJGM",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "cdtIMTJdO",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "CWeg27bi1",
+      "metadata": {
+        "title": "Petley Jones Gallery — Blake & Boky",
+        "description": "Petley Jones Gallery, Vancouver. Three landmark exhibitions of sculpture by Blake Ward and Boky Hackel-Ward."
+      },
+      "path": "/galleriespetley"
+    },
+    "$truncated": true,
+    "$descendantCount": 498
+  },
+  {
+    "type": "WebPageNode",
+    "id": "QMjVU0N2B",
+    "name": "/galleriespetley/:Galleries",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "kZgXMnua6",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "OdfCN95Kb",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "Y4aNwVmU_",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "CWeg27bi1",
+      "metadata": {
+        "title": "{{Title}} — Blake & Boky",
+        "description": "Blake Ward and Boky Hackel-Ward's gallery representation."
+      },
+      "path": "/galleriespetley/:Galleries"
+    },
+    "$truncated": true,
+    "$descendantCount": 96
+  },
+  {
+    "type": "WebPageNode",
+    "id": "YIcxwGjiR",
+    "name": "/collections/fragments",
+    "variables": [
+      {
+        "key": "$control__title",
+        "id": "Ctisxpfw0",
+        "name": "Title",
+        "node": "Variable",
+        "type": "string",
+        "queryParam": "title"
+      }
+    ],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "JDsJ1m8eb",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "TLeImb6HV",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "V1vYdQJcG",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Fragments — Blake Ward",
+        "description": "The Fragments Collection by Blake Ward. The partial figure, and an activist art funding the clearing of minefields worldwide."
+      },
+      "path": "/collections/fragments"
+    },
+    "$truncated": true,
+    "$descendantCount": 204
+  },
+  {
+    "type": "WebPageNode",
+    "id": "t5_X2vY3d",
+    "name": "/404",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "rVi64A0Wu",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "xy8Z1yWfX",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "J_zwtOwW2",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "noIndex": true,
+        "noIndexSite": true
+      },
+      "path": "/404"
+    },
+    "$truncated": true,
+    "$descendantCount": 150
+  },
+  {
+    "type": "WebPageNode",
+    "id": "bixZWPJWx",
+    "name": "/collections/coming-soon-boky",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "YUEjpaWOq",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "nCfCTZ5uS",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "aCZH3JMuY",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Coming Soon — Boky Hackel-Ward",
+        "description": "This collection is in preparation. Photography and cataloguing are underway."
+      },
+      "path": "/collections/coming-soon-boky"
+    },
+    "$truncated": true,
+    "$descendantCount": 195
+  },
+  {
+    "type": "WebPageNode",
+    "id": "dGl9TpVmv",
+    "name": "/collections/coming-soon-blake",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "XUzx6fIcc",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "p1yLuU0Hp",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "caBJ6vL1W",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "Desktop Light",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Coming Soon — Blake Ward",
+        "description": "This collection is in preparation. Photography and cataloguing are underway."
+      },
+      "path": "/collections/coming-soon-blake"
+    },
+    "$truncated": true,
+    "$descendantCount": 195
+  },
+  {
+    "type": "WebPageNode",
+    "id": "a4blT_S0Y",
+    "name": "/past-works",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "eh2wp0pmv",
+    "$layoutTemplateDisplayName": "Page Template",
+    "$breakpoints": [
+      {
+        "id": "wbrDyJg64",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "QyRliljiR",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "VFHTICxr7",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__pageTitle": "Boky Hackel-Ward",
+      "$control__cTAVisible": "true",
+      "$control__cTAImageVisible": "true",
+      "$control__cTAImage": "https://framerusercontent.com/images/N3p5Wb949dODDSFfHjEz6xJau2c.png",
+      "$control__nAVBARCOLOUR": "DESKTOP GREY",
+      "$control__color": "var(--token-be079bad-eabd-4234-8a56-5579c7057187)",
+      "$control__cTABackgroundColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__fillColorBackground": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "$control__paperTittleColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+      "layoutTemplate": "eh2wp0pmv",
+      "metadata": {
+        "title": "Past Works — Boky Hackel-Ward",
+        "description": "An archive of Boky Hackel-Ward's earlier sculpture, studio work and press."
+      },
+      "path": "/past-works"
+    },
+    "$truncated": true,
+    "$descendantCount": 48
+  },
+  {
+    "type": "WebPageNode",
+    "id": "zb43wOtnp",
+    "name": "/past-works/:Past Works",
+    "variables": [],
+    "$parentId": "sn7IXw6X9",
+    "$layoutTemplateId": "CWeg27bi1",
+    "$layoutTemplateDisplayName": "Default Template",
+    "$breakpoints": [
+      {
+        "id": "RkffV0qYJ",
+        "name": "Desktop",
+        "mediaQueryRange": "(min-width: 1400px)"
+      },
+      {
+        "id": "ioHfkAtFi",
+        "name": "Tablet",
+        "mediaQueryRange": "(min-width: 810px) and (max-width: 1399.98px)"
+      },
+      {
+        "id": "hIi24I5TY",
+        "name": "Phone",
+        "mediaQueryRange": "(max-width: 809.98px)"
+      }
+    ],
+    "attributes": {
+      "$control__nAVBARTOGGLE": "DESKTOP GREY",
+      "layoutTemplate": "default",
+      "metadata": {
+        "title": "Past Works — Boky Hackel-Ward",
+        "description": "From the archive of Boky Hackel-Ward."
+      },
+      "path": "/past-works/:Past Works"
+    },
+    "$truncated": true,
+    "$descendantCount": 102
+  }
+]

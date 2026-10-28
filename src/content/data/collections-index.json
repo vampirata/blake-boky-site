@@ -1,0 +1,371 @@
+{
+  "seo": {
+    "title": "Collections — Blake & Boky",
+    "description": "The bodies of work of Blake Ward and Boky Hackel-Ward, from Fragments and Spirits to In Lucem and Figurative Poetry.",
+    "ogTitle": "Collections — Blake & Boky",
+    "ogDescription": "The bodies of work of Blake Ward and Boky Hackel-Ward, from Fragments and Spirits to In Lucem and Figurative Poetry.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/collections"
+  },
+  "heading": "Collections",
+  "cards": [
+    {
+      "title": "Andromeda Collection",
+      "date": "May 17, 2026",
+      "href": "./collections/coming-soon-blake",
+      "target": "/collections/coming-soon-blake",
+      "image": {
+        "role": "card",
+        "src": "/assets/works/andromeda-adrasteo/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+        "alt": "",
+        "naturalWidth": 6594,
+        "naturalHeight": 10854,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 20,
+          "y": 256
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg?scale-down-to=1024&width=6594&height=10854",
+        "naturalAspect": 0.6075,
+        "renderedAspect": 1,
+        "cropPercentHidden": 39.2
+      },
+      "collectionSlug": "coming-soon-blake"
+    },
+    {
+      "title": "Spirit Collection : The Angels ",
+      "date": "May 12, 2025",
+      "href": "./collections/spirit-collection",
+      "target": "/collections/spirit-collection",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/xEKIDCWqL4dmtmKXK5wnRtw.jpg",
+        "alt": "asherah",
+        "naturalWidth": 640,
+        "naturalHeight": 860,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 370,
+          "y": 256
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg?width=640&height=860",
+        "naturalAspect": 0.7442,
+        "renderedAspect": 1,
+        "cropPercentHidden": 25.6
+      },
+      "collectionSlug": "spirit-collection"
+    },
+    {
+      "title": "Spirit Collection : The Phantoms ",
+      "date": "May 12, 2025",
+      "href": "./collections/spirit-collection",
+      "target": "/collections/spirit-collection",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg",
+        "alt": "Phantom Elixir",
+        "naturalWidth": 3648,
+        "naturalHeight": 5472,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 720,
+          "y": 256
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/NwmlhdixLa1xe2DvZPPkFVXVjI.jpg?scale-down-to=1024&width=3648&height=5472",
+        "naturalAspect": 0.6667,
+        "renderedAspect": 1,
+        "cropPercentHidden": 33.3
+      },
+      "collectionSlug": "spirit-collection"
+    },
+    {
+      "title": "Spirit Collection : The Ushabtis ",
+      "date": "May 12, 2025",
+      "href": "./collections/spirit-collection",
+      "target": "/collections/spirit-collection",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/cdIbmmNXhBW4uocYrqrNVCU.jpg",
+        "alt": "mafdet mayet",
+        "naturalWidth": 640,
+        "naturalHeight": 860,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 1070,
+          "y": 256
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/cdIbmmNXhBW4uocYrqrNVCU.jpg?width=640&height=860",
+        "naturalAspect": 0.7442,
+        "renderedAspect": 1,
+        "cropPercentHidden": 25.6
+      },
+      "collectionSlug": "spirit-collection"
+    },
+    {
+      "title": "Rethink Collection",
+      "date": "May 12, 2025",
+      "href": "./collections/in-lucem",
+      "target": "/collections/in-lucem",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/GzY5QorY2PhylH1H7Fo1XZuCs.jpg",
+        "alt": "Orange Flower",
+        "naturalWidth": 1662,
+        "naturalHeight": 1836,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 20,
+          "y": 814
+        },
+        "objectFit": "cover",
+        "objectPosition": "50.7% 44.3%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/GzY5QorY2PhylH1H7Fo1XZuCs.jpg?scale-down-to=1024&width=1662&height=1836",
+        "naturalAspect": 0.9052,
+        "renderedAspect": 1,
+        "cropPercentHidden": 9.5
+      },
+      "collectionSlug": "in-lucem"
+    },
+    {
+      "title": "The Fragments Collection ",
+      "date": "May 17, 2026",
+      "href": "./collections/fragments",
+      "target": "/collections/fragments",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/zoBmEcijYE9xnVBbahoyAIpzZA.jpg",
+        "alt": "",
+        "naturalWidth": 3006,
+        "naturalHeight": 1958,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 370,
+          "y": 814
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/zoBmEcijYE9xnVBbahoyAIpzZA.jpg?scale-down-to=512&width=3006&height=1958",
+        "naturalAspect": 1.5352,
+        "renderedAspect": 1,
+        "cropPercentHidden": 34.9
+      },
+      "collectionSlug": "fragments"
+    },
+    {
+      "title": "In Lucem ",
+      "date": "May 12, 2025",
+      "href": "./collections/in-lucem",
+      "target": "/collections/in-lucem",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/pRRgq7Ed9SABt8TAfBx5W2EEGA.png",
+        "alt": "letthelight in ",
+        "naturalWidth": 1152,
+        "naturalHeight": 766,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 720,
+          "y": 814
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/pRRgq7Ed9SABt8TAfBx5W2EEGA.png?scale-down-to=512&width=1152&height=766",
+        "naturalAspect": 1.5039,
+        "renderedAspect": 1,
+        "cropPercentHidden": 33.5
+      },
+      "collectionSlug": "in-lucem"
+    },
+    {
+      "title": "Figurative Poetry ",
+      "date": "May 12, 2025",
+      "href": "./collections/figurative-poetry",
+      "target": "/collections/figurative-poetry",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/G3gqVN9vlRRscX5ReQa8CHFzbHo.png",
+        "alt": "Lilac Flower",
+        "naturalWidth": 1154,
+        "naturalHeight": 956,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 1070,
+          "y": 814
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/G3gqVN9vlRRscX5ReQa8CHFzbHo.png?scale-down-to=512&width=1154&height=956",
+        "naturalAspect": 1.2071,
+        "renderedAspect": 1,
+        "cropPercentHidden": 17.2
+      },
+      "collectionSlug": "figurative-poetry"
+    },
+    {
+      "title": "Silentium Aurum",
+      "date": "May 12, 2025",
+      "href": "./collections/coming-soon-boky",
+      "target": "/collections/coming-soon-boky",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/knpzClyFZ0NxPTTj6K7NCkqNrOU.png",
+        "alt": "Green Fern",
+        "naturalWidth": 2080,
+        "naturalHeight": 856,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 20,
+          "y": 1371
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/knpzClyFZ0NxPTTj6K7NCkqNrOU.png?scale-down-to=512&width=2080&height=856",
+        "naturalAspect": 2.4299,
+        "renderedAspect": 1,
+        "cropPercentHidden": 58.8
+      },
+      "collectionSlug": "coming-soon-boky"
+    },
+    {
+      "title": "The Figures : Marble ",
+      "date": "May 12, 2025",
+      "href": "./collections/coming-soon-blake",
+      "target": "/collections/coming-soon-blake",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg",
+        "alt": "Yellow Flower",
+        "naturalWidth": 4294,
+        "naturalHeight": 4294,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 370,
+          "y": 1371
+        },
+        "objectFit": "cover",
+        "objectPosition": "48.7% 46.3%",
+        "cropped": false,
+        "liveUrl": "https://framerusercontent.com/images/SzSVhCxBHHEW7QmdP2w1IGvEN9w.jpg?scale-down-to=512&width=4294&height=4294",
+        "naturalAspect": 1,
+        "renderedAspect": 1
+      },
+      "collectionSlug": "coming-soon-blake"
+    },
+    {
+      "title": "The Figures : Early Work",
+      "date": "May 12, 2025",
+      "href": "./collections/coming-soon-blake",
+      "target": "/collections/coming-soon-blake",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/kL15X3wXCiQE3KRU3QxrajvXxE.jpg",
+        "alt": "Orange Flower",
+        "naturalWidth": 2435,
+        "naturalHeight": 1654,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 720,
+          "y": 1371
+        },
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/kL15X3wXCiQE3KRU3QxrajvXxE.jpg?scale-down-to=512&width=2435&height=1654",
+        "naturalAspect": 1.4722,
+        "renderedAspect": 1,
+        "cropPercentHidden": 32.1
+      },
+      "collectionSlug": "coming-soon-blake"
+    },
+    {
+      "title": "Public Installations ",
+      "date": "May 12, 2025",
+      "href": "./collections/coming-soon-blake",
+      "target": "/collections/coming-soon-blake",
+      "image": {
+        "role": "card",
+        "src": "/assets/collections/coming-soon-blake/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg",
+        "alt": "Purple Flower",
+        "naturalWidth": 860,
+        "naturalHeight": 573,
+        "rendered": {
+          "width": 350,
+          "height": 350,
+          "x": 1070,
+          "y": 1371
+        },
+        "objectFit": "cover",
+        "objectPosition": "55.4% 38%",
+        "cropped": true,
+        "liveUrl": "https://framerusercontent.com/images/ttRzgtkGdH5Xc6m8rEOQMe7fOM.jpg?scale-down-to=512&width=860&height=573",
+        "naturalAspect": 1.5009,
+        "renderedAspect": 1,
+        "cropPercentHidden": 33.4
+      },
+      "collectionSlug": "coming-soon-blake"
+    }
+  ],
+  "cta": {
+    "image": {
+      "role": "cta-background",
+      "src": "/assets/collections/index/QeLtbE1aT2cG7lh5u93pzi3Ro.jpg",
+      "alt": "",
+      "naturalWidth": 4032,
+      "naturalHeight": 1960,
+      "rendered": {
+        "width": 1440,
+        "height": 638.4,
+        "x": 0,
+        "y": 1978
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "cropped": true,
+      "liveUrl": "https://framerusercontent.com/images/QeLtbE1aT2cG7lh5u93pzi3Ro.jpg?scale-down-to=2048&width=4032&height=1960",
+      "naturalAspect": 2.0571,
+      "renderedAspect": 2.2556,
+      "cropPercentHidden": 8.8
+    },
+    "heading": "Get in touch for further inquiries",
+    "button": {
+      "label": "Contact Us",
+      "href": "./contact",
+      "target": "/contact"
+    }
+  },
+  "sectionOrder": [
+    "Nav",
+    "Arrive (H4 \"Collections\")",
+    "Blog Posts grid (12 collection cards, 4-up 350x457: image 350x350, date, title)",
+    "CTA (full-bleed image 1440x638 with H2 + Contact Us button)",
+    "Footer"
+  ]
+}

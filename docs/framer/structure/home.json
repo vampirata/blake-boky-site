@@ -1,0 +1,3055 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "WQLkyLRf1",
+ "$isPrimary": true,
+ "$parentId": "augiA20Il",
+ "$scopeId": "augiA20Il",
+ "$layoutTemplateId": "CWeg27bi1",
+ "$layoutTemplateDisplayName": "Default Template",
+ "$rect": {
+  "height": 5553
+ },
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "pageEffects": {
+   "all": {
+    "enter": {
+     "x": "0px",
+     "y": "0px",
+     "scale": 1,
+     "opacity": 0.1,
+     "rotate": 0,
+     "rotateX": 0,
+     "rotateY": 0,
+     "transition": "tween 0.27,0,0.51,1 0.5s 0s"
+    }
+   }
+  },
+  "left": "12px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-physics 500 60 1 0s"
+ },
+ "children": [
+  {
+   "type": "ComponentInstanceNode",
+   "id": "lF2tlJrHg",
+   "component": "Yppqt3Cs3Y8TZqvASnXl",
+   "$rect": {
+    "x": 700,
+    "y": 0,
+    "width": 0,
+    "height": 0
+   },
+   "$componentDisplayName": "Smooth Scroll",
+   "attributes": {
+    "$control__intensity": "30",
+    "position": "relative",
+    "width": "auto",
+    "height": "auto"
+   }
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "Hi51p3flb",
+   "component": "cTZlPAz08",
+   "$componentDisplayName": "Get Template Button",
+   "attributes": {
+    "appearEffect": {
+     "threshold": 0.5,
+     "trigger": "onMount",
+     "enter": {
+      "opacity": 0,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0,
+      "transition": "spring-physics 200 60 1 1.5s"
+     }
+    },
+    "position": "fixed",
+    "left": "null",
+    "right": "36px",
+    "top": "null",
+    "bottom": "20px",
+    "centerAnchorX": "92.36%",
+    "centerAnchorY": "95%",
+    "constraintsLocked": false,
+    "width": "auto",
+    "height": "auto",
+    "visible": "false",
+    "zIndex": "10"
+   }
+  },
+  {
+   "type": "FrameNode",
+   "name": "Hero Main",
+   "id": "IIftbhYgt",
+   "$rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1400,
+    "height": 800
+   },
+   "attributes": {
+    "fill": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "10px",
+    "overflow": "clip",
+    "position": "sticky",
+    "width": "1fr",
+    "height": "auto"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Hero",
+     "id": "wqtVjTo6Q",
+     "$rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 800
+     },
+     "attributes": {
+      "fill": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)",
+      "htmlTag": "header",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px 30px 30px 30px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "100vh",
+      "maxWidth": "1920px",
+      "zIndex": "1"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "Mi9pkClCa",
+       "name": "Buttons",
+       "component": "Hk7nfY1pH",
+       "$componentDisplayName": "Button",
+       "attributes": {
+        "$control__variant": "Light",
+        "$control__linkTitle": "",
+        "$control__link": "/",
+        "$control__iconVisible": "true",
+        "position": "absolute",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "75px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "88.5%",
+        "constraintsLocked": true,
+        "width": "auto",
+        "height": "auto",
+        "visible": "false",
+        "zIndex": "5"
+       }
+      },
+      {
+       "type": "FrameNode",
+       "name": "Tile Container",
+       "id": "aeVHTDt3B",
+       "$rect": {
+        "x": 365,
+        "y": 316,
+        "width": 670,
+        "height": 189
+       },
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "0px",
+        "position": "relative",
+        "width": "0.5fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Title",
+         "id": "rhBnam767",
+         "$rect": {
+          "x": 0,
+          "y": 0,
+          "width": 670,
+          "height": 189
+         },
+         "attributes": {
+          "appearEffect": {
+           "threshold": 0,
+           "trigger": "onInView",
+           "replay": false,
+           "enter": {
+            "opacity": 0,
+            "x": 0,
+            "y": 0,
+            "scale": 1,
+            "rotate": 0,
+            "rotateX": 0,
+            "rotateY": 0,
+            "skewX": 0,
+            "skewY": 0,
+            "transition": "spring-duration 2s 0.2 0s"
+           },
+           "exit": "null"
+          },
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "overflow": "clip",
+          "padding": "12px",
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto",
+          "zIndex": "10"
+         },
+         "children": [
+          {
+           "type": "RichTextNode",
+           "id": "s_m4zWxD0",
+           "$rect": {
+            "x": 12,
+            "y": 12,
+            "width": 646,
+            "height": 165
+           },
+           "attributes": {
+            "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+            "linkStylePreset": "Link Styles/Link",
+            "position": "relative",
+            "width": "1fr",
+            "height": "auto",
+            "maxWidth": "700px",
+            "textStylePreset": "Text Styles/Heading 1",
+            "textAlignment": "center"
+           },
+           "children": [
+            {
+             "type": "TextBlock",
+             "id": "v:s_m4zWxD0:0",
+             "attributes": {
+              "tag": "h1"
+             },
+             "children": [
+              {
+               "type": "TextRun",
+               "id": "v:s_m4zWxD0:0:0",
+               "attributes": {
+                "text": "Blake Ward & Boky Hackel Exploring human essence through figurative sculpture "
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "name": "Image Container",
+       "id": "P8Ud6iRAE",
+       "$rect": {
+        "width": 1400,
+        "height": 800
+       },
+       "attributes": {
+        "layout": "null",
+        "position": "absolute",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "null",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "48.38%",
+        "constraintsLocked": true,
+        "width": "100%",
+        "height": "100%",
+        "zIndex": "2"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Image 7",
+         "id": "YIZCjE6db",
+         "$rect": {
+          "width": 186,
+          "height": 194
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "null",
+          "right": "257px",
+          "top": "null",
+          "bottom": "-16px",
+          "centerAnchorX": "75%",
+          "centerAnchorY": "88.75%",
+          "constraintsLocked": true,
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "Q2C36lHIe",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/WuG4NZHG4xbWumLmuUqR5noNWE.jpeg",
+            "position": "relative",
+            "width": "186px",
+            "height": "194px",
+            "zIndex": "1"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "MPa2kQPyr",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 186,
+            "y": 97,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "25",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 6",
+         "id": "Ve9KTR5IP",
+         "$rect": {
+          "width": 221,
+          "height": 312
+         },
+         "attributes": {
+          "boxShadows": [
+           "-0.7726180944632507px -0.5878615936133429px 1.7475024214478116px -0.46875px rgba(0, 0, 0, 0.07), -1.8312413091043709px -1.3933357786663692px 4.141889304493063px -0.9375px rgba(0, 0, 0, 0.07), -3.340373434484354px -2.5415884827598343px 7.555234218733408px -1.40625px rgba(0, 0, 0, 0.06), -5.553364129140391px -4.225385750432906px 12.560561721759992px -1.875px rgba(0, 0, 0, 0.06), -8.968230252100039px -6.823653452684812px 20.28428300340793px -2.34375px rgba(0, 0, 0, 0.06), -14.68010309941426px -11.169643662597808px 33.20335868026988px -2.8125px rgba(0, 0, 0, 0.05), -25.278146211149288px -19.233372117178806px 57.17394147283502px -3.28125px rgba(0, 0, 0, 0.04), -46px -35px 104.04249131965267px -3.75px rgba(0, 0, 0, 0.02)"
+          ],
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "null",
+          "right": "36px",
+          "top": "null",
+          "bottom": "77px",
+          "centerAnchorX": "89.5%",
+          "centerAnchorY": "67.64%",
+          "constraintsLocked": true,
+          "radius": "8px",
+          "width": "auto",
+          "height": "auto",
+          "zIndex": "2"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "cnxwbzC1q",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/wJCficzyaoM54jiBIEbaVDsfo18.jpg",
+            "$control__link": "/boky-bio",
+            "position": "relative",
+            "width": "221px",
+            "height": "312px",
+            "zIndex": "2"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "XNevxVmMo",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 111,
+            "y": 312,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "50",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 5",
+         "id": "nwKzpOVa8",
+         "$rect": {
+          "width": 300,
+          "height": 340
+         },
+         "attributes": {
+          "boxShadows": [
+           "-0.7726180944632507px -0.5878615936133429px 1.7475024214478116px -0.46875px rgba(0, 0, 0, 0.07), -1.8312413091043709px -1.3933357786663692px 4.141889304493063px -0.9375px rgba(0, 0, 0, 0.07), -3.340373434484354px -2.5415884827598343px 7.555234218733408px -1.40625px rgba(0, 0, 0, 0.06), -5.553364129140391px -4.225385750432906px 12.560561721759992px -1.875px rgba(0, 0, 0, 0.06), -8.968230252100039px -6.823653452684812px 20.28428300340793px -2.34375px rgba(0, 0, 0, 0.06), -14.68010309941426px -11.169643662597808px 33.20335868026988px -2.8125px rgba(0, 0, 0, 0.05), -25.278146211149288px -19.233372117178806px 57.17394147283502px -3.28125px rgba(0, 0, 0, 0.04), -46px -35px 104.04249131965267px -3.75px rgba(0, 0, 0, 0.02)"
+          ],
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "216px",
+          "right": "null",
+          "top": "null",
+          "bottom": "-74px",
+          "centerAnchorX": "25.68%",
+          "centerAnchorY": "87.69%",
+          "constraintsLocked": true,
+          "radius": "8px",
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "R8b81GiY1",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/kZ6kYu7Uevb9XMo0brqmtnvJv7Y.jpg",
+            "$control__link": "/blake-bio",
+            "position": "relative",
+            "width": "300px",
+            "height": "340px",
+            "zIndex": "2"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "fni4prZB7",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 150,
+            "y": 340,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "200",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 4",
+         "id": "nGGtbkeCK",
+         "$rect": {
+          "width": 180,
+          "height": 198
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "78px",
+          "right": "null",
+          "top": "null",
+          "bottom": "147px",
+          "centerAnchorX": "11.79%",
+          "centerAnchorY": "68.46%",
+          "constraintsLocked": true,
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "YGPZd6EU0",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/9FzeqLzBt3fx0ZQgTpl71OZJIVY.jpg",
+            "position": "relative",
+            "width": "180px",
+            "height": "198px",
+            "zIndex": "1"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "N4BkhVEl3",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 180,
+            "y": 99,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "45",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 3",
+         "id": "EmBaWqPf0",
+         "$rect": {
+          "width": 221,
+          "height": 356
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "horizontal",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "null",
+          "right": "210px",
+          "top": "-52px",
+          "bottom": "null",
+          "centerAnchorX": "76.14%",
+          "centerAnchorY": "15.28%",
+          "constraintsLocked": true,
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "z7zQhP3mg",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/xc5jfMF8TMDBKASdj6jUrRjOeog.jpg",
+            "$control__link": "collections/the-fragments-collection",
+            "position": "relative",
+            "width": "221px",
+            "height": "356px",
+            "zIndex": "1"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "KMCEOJKHi",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 221,
+            "y": 178,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "65",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 2",
+         "id": "Pcg_IBlBC",
+         "$rect": {
+          "width": 195,
+          "height": 246
+         },
+         "attributes": {
+          "boxShadows": [
+           "-0.7726180944632507px -0.5878615936133429px 1.7475024214478116px -0.46875px rgba(0, 0, 0, 0.07), -1.8312413091043709px -1.3933357786663692px 4.141889304493063px -0.9375px rgba(0, 0, 0, 0.07), -3.340373434484354px -2.5415884827598343px 7.555234218733408px -1.40625px rgba(0, 0, 0, 0.06), -5.553364129140391px -4.225385750432906px 12.560561721759992px -1.875px rgba(0, 0, 0, 0.06), -8.968230252100039px -6.823653452684812px 20.28428300340793px -2.34375px rgba(0, 0, 0, 0.06), -14.68010309941426px -11.169643662597808px 33.20335868026988px -2.8125px rgba(0, 0, 0, 0.05), -25.278146211149288px -19.233372117178806px 57.17394147283502px -3.28125px rgba(0, 0, 0, 0.04), -46px -35px 104.04249131965267px -3.75px rgba(0, 0, 0, 0.02)"
+          ],
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "null",
+          "right": "831px",
+          "top": "30px",
+          "bottom": "null",
+          "centerAnchorX": "33.64%",
+          "centerAnchorY": "21.25%",
+          "constraintsLocked": true,
+          "radius": "8px",
+          "width": "auto",
+          "height": "auto",
+          "zIndex": "1"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "c8pcAlzpW",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/4kOxT728DVdZ6ev02Z2fVmkzXY.jpg",
+            "position": "relative",
+            "width": "195px",
+            "height": "246px",
+            "aspectRatio": 0.79,
+            "zIndex": "1"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "gOKCBcW1g",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 98,
+            "y": 246,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "45",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        },
+        {
+         "type": "FrameNode",
+         "name": "Image 1",
+         "id": "QsIXIIzaO",
+         "$rect": {
+          "width": 146,
+          "height": 146
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "center",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "0px",
+          "left": "150px",
+          "right": "null",
+          "top": "200px",
+          "bottom": "null",
+          "centerAnchorX": "14.88%",
+          "centerAnchorY": "33.59%",
+          "constraintsLocked": true,
+          "width": "auto",
+          "height": "auto"
+         },
+         "children": [
+          {
+           "type": "ComponentInstanceNode",
+           "id": "OTIYfi5_I",
+           "component": "pEH6O5jlf",
+           "$rect": {
+            "x": 0,
+            "y": 0
+           },
+           "$componentDisplayName": "Hero Image",
+           "attributes": {
+            "$control__image": "https://framerusercontent.com/images/I26kbXbOTxVxG4D09wimVjsyYY.jpg",
+            "position": "relative",
+            "width": "146px",
+            "height": "146px",
+            "aspectRatio": 1,
+            "zIndex": "1"
+           }
+          },
+          {
+           "type": "ComponentInstanceNode",
+           "id": "ks2BjV1em",
+           "component": "FJ6Tdhm43j9BNWb0QHUP",
+           "$rect": {
+            "x": 73,
+            "y": 146,
+            "width": 0,
+            "height": 0
+           },
+           "$componentDisplayName": "Parallax Floating",
+           "attributes": {
+            "$control__enabled": "true",
+            "$control__direction": "Away",
+            "$control__speed": "20",
+            "$control__smoothing": "100",
+            "position": "relative",
+            "width": "auto",
+            "height": "auto"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "About the Artists",
+   "id": "Sm5TUVpiP",
+   "$rect": {
+    "x": 0,
+    "y": 800,
+    "width": 1400,
+    "height": 1296
+   },
+   "attributes": {
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "overflow": "clip",
+    "position": "relative",
+    "width": "1fr",
+    "height": "auto",
+    "maxWidth": "1920px",
+    "zIndex": "1"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Blake",
+     "id": "v6ATlANdE",
+     "$rect": {
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 1296
+     },
+     "attributes": {
+      "fill": "var(--token-3884b012-35c8-4707-b16f-e85a492c63ed)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "0px 0px 100px 0px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "1fr"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "iZ96Cy68L",
+       "$rect": {
+        "x": 0,
+        "y": 0,
+        "width": 700,
+        "height": 136
+       },
+       "attributes": {
+        "hoverEffect": {
+         "opacity": 1,
+         "x": "0px",
+         "y": "0px",
+         "scale": 1,
+         "skewX": "0deg",
+         "skewY": "0deg",
+         "backgroundColor": "var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)",
+         "transition": "spring-duration 0.4s 0.2 0s",
+         "rotate": "0deg"
+        },
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "10px",
+        "link": {
+         "href": "/blake-bio"
+        },
+        "overflow": "clip",
+        "padding": "50px 0px 50px 0px",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "ComponentInstanceNode",
+         "id": "ElsJakV2b",
+         "name": "Buttons",
+         "component": "Hk7nfY1pH",
+         "$rect": {
+          "x": 283,
+          "y": 50,
+          "width": 134,
+          "height": 36
+         },
+         "$componentDisplayName": "Button",
+         "attributes": {
+          "$control__variant": "Dark",
+          "$control__linkTitle": "Blake Ward",
+          "$control__iconVisible": "true",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto"
+         }
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "id": "L2foT5Gkk",
+       "$rect": {
+        "x": 0,
+        "y": 136,
+        "width": 700,
+        "height": 1060
+       },
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "10px",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Hero Wrap",
+         "id": "CxproRABv",
+         "$rect": {
+          "x": 0,
+          "y": 0,
+          "width": 700,
+          "height": 1060
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "54px",
+          "padding": "32px 32px 0px 32px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "1180px"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Hero Copy",
+           "id": "VYEyA3Qy4",
+           "$rect": {
+            "x": 32,
+            "y": 32,
+            "width": 636,
+            "height": 206
+           },
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "26px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Eyebrow",
+             "id": "b4zOteXRV",
+             "$rect": {
+              "x": 0,
+              "y": 0,
+              "width": 636,
+              "height": 22
+             },
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+              "textAlignment": "center",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:b4zOteXRV:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:b4zOteXRV:0:0",
+                 "attributes": {
+                  "text": "Sculptor · Monaco"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Title Group",
+             "id": "vUC4DXsWB",
+             "$rect": {
+              "x": 0,
+              "y": 48,
+              "width": 636,
+              "height": 158
+             },
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "22px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Title",
+               "id": "HqUOcnIy1",
+               "$rect": {
+                "x": 0,
+                "y": 0,
+                "width": 636,
+                "height": 102
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Hero Title",
+                "textAlignment": "center",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:HqUOcnIy1:0",
+                 "attributes": {
+                  "tag": "h1"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:HqUOcnIy1:0:0",
+                   "attributes": {
+                    "text": "Blake Ward"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Tagline",
+               "id": "rtNgqw3fq",
+               "$rect": {
+                "x": 0,
+                "y": 124,
+                "width": 636,
+                "height": 34
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Hero Tagline",
+                "textAlignment": "center",
+                "textColor": "rgb(111, 106, 97)",
+                "textWrap": "balance"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:rtNgqw3fq:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:rtNgqw3fq:0:0",
+                   "attributes": {
+                    "text": "Pushing the figure into the 21st century"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Hero Sculpture",
+           "id": "eS_wxegfN",
+           "$rect": {
+            "x": 160,
+            "y": 292
+           },
+           "attributes": {
+            "fill": "https://framerusercontent.com/images/z96199S1Rw3C69lhGQjoGDyD4LM.png",
+            "altText": "Portrait of the sculptor Blake Ward",
+            "layout": "stack",
+            "stackDirection": "horizontal",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "stackWrapEnabled": false,
+            "gap": "0px",
+            "overflow": "clip",
+            "position": "relative",
+            "radius": "2px",
+            "width": "380px",
+            "height": "380px",
+            "aspectRatio": 1
+           }
+          },
+          {
+           "type": "FrameNode",
+           "name": "Detail",
+           "id": "RxvN7w5Ar",
+           "$rect": {
+            "x": 130,
+            "y": 726,
+            "width": 440,
+            "height": 334
+           },
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "26px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto",
+            "maxWidth": "440px"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "id": "UIMKa2bph",
+             "$rect": {
+              "x": 0,
+              "y": 0,
+              "width": 440,
+              "height": 144
+             },
+             "attributes": {
+              "position": "relative",
+              "width": "100%",
+              "height": "auto",
+              "minHeight": "144px",
+              "fontName": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": 300,
+              "fontSize": "15px",
+              "letterSpacing": "0em",
+              "lineHeight": "1.6em",
+              "textAlignment": "center",
+              "textDecorationStyle": "solid",
+              "textColor": "rgb(111, 106, 97)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:UIMKa2bph:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:UIMKa2bph:0:0",
+                 "attributes": {
+                  "text": "Canadian-born and working from Monaco, Blake has spent four decades on the human figure. Classically educated, he quickly began deconstructing his knowledge through the Fragments and Spirits Collections. His partial bronzes ask what remains of a body once the inessential is removed."
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Works",
+             "id": "iJFGmczN2",
+             "$rect": {
+              "x": 0,
+              "y": 170,
+              "width": 440,
+              "height": 67
+             },
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "rgba(28, 26, 23, 0.14)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "12px",
+              "padding": "20px 0px 0px 0px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "uUpPKhK0D",
+               "$rect": {
+                "x": 0,
+                "y": 20,
+                "width": 440,
+                "height": 13
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "11px",
+                "letterSpacing": "0.22em",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(111, 106, 97)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:uUpPKhK0D:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:uUpPKhK0D:0:0",
+                   "attributes": {
+                    "text": "His collections"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "HRBV6wg8b",
+               "$rect": {
+                "x": 0,
+                "y": 45,
+                "width": 440,
+                "height": 22
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "fontName": "Cormorant Garamond",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "18px",
+                "letterSpacing": "0em",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:HRBV6wg8b:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:HRBV6wg8b:0:0",
+                   "attributes": {
+                    "text": "Fragments · Andromeda · The Figures"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "CTA",
+             "id": "VZAB_FxDb",
+             "$rect": {
+              "x": 70,
+              "y": 263,
+              "width": 300,
+              "height": 71
+             },
+             "attributes": {
+              "border": "1px solid rgb(28, 26, 23)",
+              "cursor": "pointer",
+              "hoverEffect": {
+               "opacity": 1,
+               "x": "0px",
+               "y": "0px",
+               "scale": 1,
+               "skewX": "0deg",
+               "skewY": "0deg",
+               "backgroundColor": "var(--token-edbc2df2-9b8f-4114-bdd2-37d28756dfda)",
+               "transition": "tween 0.4,0,0.2,1 0.35s 0s",
+               "rotate": "0deg"
+              },
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "center",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "14px",
+              "link": {
+               "href": "/blake-bio"
+              },
+              "padding": "20px 44px 20px 44px",
+              "position": "relative",
+              "width": "auto",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "xXaB7Vbg1",
+               "$rect": {
+                "x": 44,
+                "y": 20,
+                "width": 212,
+                "height": 31
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "fontName": "Cormorant Garamond",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "26px",
+                "letterSpacing": "0em",
+                "lineHeight": "1.2em",
+                "textAlignment": "start",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(28, 26, 23)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:xXaB7Vbg1:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:xXaB7Vbg1:0:0",
+                   "attributes": {
+                    "text": "Read Blake’s story  →"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Boky",
+     "id": "knANdbT5_",
+     "$rect": {
+      "x": 700,
+      "y": 0,
+      "width": 700,
+      "height": 1296
+     },
+     "attributes": {
+      "fill": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "start",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "1fr",
+      "height": "1fr"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "TIlnfH8_j",
+       "$rect": {
+        "x": 0,
+        "y": 0,
+        "width": 700,
+        "height": 136
+       },
+       "attributes": {
+        "hoverEffect": {
+         "opacity": 1,
+         "x": "0px",
+         "y": "0px",
+         "scale": 1,
+         "skewX": "0deg",
+         "skewY": "0deg",
+         "backgroundColor": "var(--token-845bff36-5701-4ad7-b7c8-76125781c65b)",
+         "transition": "spring-duration 0.4s 0.2 0s",
+         "rotate": "0deg"
+        },
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "10px",
+        "link": {
+         "href": "/boky-bio"
+        },
+        "overflow": "clip",
+        "padding": "50px 0px 50px 0px",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "ComponentInstanceNode",
+         "id": "Q_tFWmNS1",
+         "name": "Buttons",
+         "component": "Hk7nfY1pH",
+         "$rect": {
+          "x": 249,
+          "y": 50,
+          "width": 202,
+          "height": 36
+         },
+         "$componentDisplayName": "Button",
+         "attributes": {
+          "$control__variant": "Light",
+          "$control__linkTitle": "Boky Hackel-Ward",
+          "$control__iconVisible": "true",
+          "position": "relative",
+          "width": "auto",
+          "height": "auto"
+         }
+        }
+       ]
+      },
+      {
+       "type": "FrameNode",
+       "id": "XINyxvacv",
+       "$rect": {
+        "x": 0,
+        "y": 136,
+        "width": 700,
+        "height": 1160
+       },
+       "attributes": {
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "center",
+        "stackAlignment": "center",
+        "stackWrapEnabled": false,
+        "gap": "10px",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "FrameNode",
+         "name": "Hero Wrap",
+         "id": "Q2xgey_Tp",
+         "$rect": {
+          "x": 0,
+          "y": 0,
+          "width": 700,
+          "height": 1160
+         },
+         "attributes": {
+          "layout": "stack",
+          "stackDirection": "vertical",
+          "stackDistribution": "start",
+          "stackAlignment": "center",
+          "stackWrapEnabled": false,
+          "gap": "54px",
+          "padding": "32px 32px 100px 32px",
+          "position": "relative",
+          "width": "100%",
+          "height": "auto",
+          "maxWidth": "1180px"
+         },
+         "children": [
+          {
+           "type": "FrameNode",
+           "name": "Hero Copy",
+           "id": "JNbf0a8to",
+           "$rect": {
+            "x": 32,
+            "y": 32,
+            "width": 636,
+            "height": 206
+           },
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "26px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "name": "Eyebrow",
+             "id": "tncvyOUQJ",
+             "$rect": {
+              "x": 0,
+              "y": 0,
+              "width": 636,
+              "height": 22
+             },
+             "attributes": {
+              "position": "relative",
+              "width": "1fr",
+              "height": "auto",
+              "textStylePreset": "Text Styles/Blake Ward/Eyebrow",
+              "textAlignment": "center",
+              "textColor": "rgb(245, 242, 235)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:tncvyOUQJ:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:tncvyOUQJ:0:0",
+                 "attributes": {
+                  "text": "Sculptor"
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Title Group",
+             "id": "ywLQbHj7K",
+             "$rect": {
+              "x": 0,
+              "y": 48,
+              "width": 636,
+              "height": 158
+             },
+             "attributes": {
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "22px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "name": "Title",
+               "id": "jZJJ6Kufp",
+               "$rect": {
+                "x": 0,
+                "y": 0,
+                "width": 636,
+                "height": 102
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Hero Title Inverse",
+                "textAlignment": "center",
+                "textColor": "rgb(245, 242, 235)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:jZJJ6Kufp:0",
+                 "attributes": {
+                  "tag": "h1"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:jZJJ6Kufp:0:0",
+                   "attributes": {
+                    "text": "Boky Hackel"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "name": "Tagline",
+               "id": "bzc3gY9q9",
+               "$rect": {
+                "x": 0,
+                "y": 124,
+                "width": 636,
+                "height": 34
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "1fr",
+                "height": "auto",
+                "textStylePreset": "Text Styles/Blake Ward/Hero Tagline Inverse",
+                "textAlignment": "center",
+                "textColor": "rgb(180, 174, 163)",
+                "textWrap": "balance"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:bzc3gY9q9:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:bzc3gY9q9:0:0",
+                   "attributes": {
+                    "text": "Exploring the mysteries of time and being"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "FrameNode",
+           "name": "Portrait",
+           "id": "Srlc7Ieqd",
+           "$rect": {
+            "x": 160,
+            "y": 292
+           },
+           "attributes": {
+            "fill": "https://framerusercontent.com/images/ClbYPq5IeZTp3YyrqCvTxsOKhU.jpg",
+            "altText": "Portrait of the sculptor Boky Hackel",
+            "layout": "null",
+            "overflow": "clip",
+            "position": "relative",
+            "radius": "2px",
+            "width": "380px",
+            "height": "380px",
+            "aspectRatio": 1
+           }
+          },
+          {
+           "type": "FrameNode",
+           "name": "Detail",
+           "id": "MxQExF0xt",
+           "$rect": {
+            "x": 130,
+            "y": 726,
+            "width": 440,
+            "height": 334
+           },
+           "attributes": {
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "center",
+            "stackWrapEnabled": false,
+            "gap": "26px",
+            "position": "relative",
+            "width": "100%",
+            "height": "auto",
+            "maxWidth": "440px"
+           },
+           "children": [
+            {
+             "type": "RichTextNode",
+             "id": "Abxxi3uhx",
+             "$rect": {
+              "x": 0,
+              "y": 0,
+              "width": 440,
+              "height": 144
+             },
+             "attributes": {
+              "position": "relative",
+              "width": "100%",
+              "height": "auto",
+              "minHeight": "144px",
+              "fontName": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": 300,
+              "fontSize": "15px",
+              "letterSpacing": "0em",
+              "lineHeight": "1.6em",
+              "textAlignment": "center",
+              "textDecorationStyle": "solid",
+              "textColor": "rgb(180, 174, 163)"
+             },
+             "children": [
+              {
+               "type": "TextBlock",
+               "id": "v:Abxxi3uhx:0",
+               "attributes": {
+                "tag": "p"
+               },
+               "children": [
+                {
+                 "type": "TextRun",
+                 "id": "v:Abxxi3uhx:0:0",
+                 "attributes": {
+                  "text": "Born in Rheinfelden, Germany, she quickly moved to central America; her youth lit by the Venezuelan Sun and and Boky works in steel, light and gold leaf. Her sculptures turn inward focusing on memory, fracture and what endures. "
+                 }
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "Works",
+             "id": "njeTHU9mn",
+             "$rect": {
+              "x": 0,
+              "y": 170,
+              "width": 440,
+              "height": 67
+             },
+             "attributes": {
+              "borderStyle": "solid",
+              "borderColor": "rgba(245, 242, 235, 0.14)",
+              "borderTop": "1px",
+              "layout": "stack",
+              "stackDirection": "vertical",
+              "stackDistribution": "start",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "12px",
+              "padding": "20px 0px 0px 0px",
+              "position": "relative",
+              "width": "100%",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "l8AGNKBkw",
+               "$rect": {
+                "x": 0,
+                "y": 20,
+                "width": 440,
+                "height": 13
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "fontName": "Inter",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "11px",
+                "letterSpacing": "0.22em",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textTransform": "uppercase",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(180, 174, 163)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:l8AGNKBkw:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:l8AGNKBkw:0:0",
+                   "attributes": {
+                    "text": "Her collections"
+                   }
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "type": "RichTextNode",
+               "id": "hdn_e0zHO",
+               "$rect": {
+                "x": 0,
+                "y": 45,
+                "width": 440,
+                "height": 22
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "100%",
+                "height": "auto",
+                "fontName": "Cormorant Garamond",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "18px",
+                "letterSpacing": "0em",
+                "lineHeight": "1.2em",
+                "textAlignment": "center",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(245, 242, 235)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:hdn_e0zHO:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:hdn_e0zHO:0:0",
+                   "attributes": {
+                    "text": "In Lucem · Figurative Poetry · Silentium Aurum"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "FrameNode",
+             "name": "CTA",
+             "id": "nfYFztmUL",
+             "$rect": {
+              "x": 72,
+              "y": 263,
+              "width": 296,
+              "height": 71
+             },
+             "attributes": {
+              "border": "1px solid rgb(245, 242, 235)",
+              "cursor": "pointer",
+              "hoverEffect": {
+               "opacity": 1,
+               "x": "0px",
+               "y": "0px",
+               "scale": 1,
+               "skewX": "0deg",
+               "skewY": "0deg",
+               "backgroundColor": "var(--token-845bff36-5701-4ad7-b7c8-76125781c65b)",
+               "transition": "tween 0.4,0,0.2,1 0.35s 0s",
+               "rotate": "0deg"
+              },
+              "layout": "stack",
+              "stackDirection": "horizontal",
+              "stackDistribution": "center",
+              "stackAlignment": "center",
+              "stackWrapEnabled": false,
+              "gap": "14px",
+              "link": {
+               "href": "/boky-bio"
+              },
+              "padding": "20px 44px 20px 44px",
+              "position": "relative",
+              "width": "auto",
+              "height": "auto"
+             },
+             "children": [
+              {
+               "type": "RichTextNode",
+               "id": "eMMYdTxZe",
+               "$rect": {
+                "x": 44,
+                "y": 20,
+                "width": 208,
+                "height": 31
+               },
+               "attributes": {
+                "position": "relative",
+                "width": "auto",
+                "height": "auto",
+                "fontName": "Cormorant Garamond",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "fontSize": "26px",
+                "letterSpacing": "0em",
+                "lineHeight": "1.2em",
+                "textAlignment": "start",
+                "textDecorationStyle": "solid",
+                "textColor": "rgb(245, 242, 235)"
+               },
+               "children": [
+                {
+                 "type": "TextBlock",
+                 "id": "v:eMMYdTxZe:0",
+                 "attributes": {
+                  "tag": "p"
+                 },
+                 "children": [
+                  {
+                   "type": "TextRun",
+                   "id": "v:eMMYdTxZe:0:0",
+                   "attributes": {
+                    "text": "Read Boky’s story  →"
+                   }
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Section",
+   "id": "UFEA4uJ41",
+   "$rect": {
+    "x": 0,
+    "y": 2096,
+    "width": 1400,
+    "height": 753
+   },
+   "attributes": {
+    "borderStyle": "solid",
+    "borderColor": "var(--token-091a6055-6360-4811-9192-2b92995d5732)",
+    "borderTop": "1px",
+    "borderBottom": "1px",
+    "htmlTag": "div",
+    "layout": "grid",
+    "gridAlignment": "center",
+    "gridColumnCount": 4,
+    "gridColumnMinWidth": "50px",
+    "gridRowCount": 2,
+    "gridRowHeightType": "fit",
+    "gridRowHeight": "400px",
+    "gap": "0px 0px",
+    "overflow": "clip",
+    "position": "relative",
+    "width": "1fr",
+    "height": "auto",
+    "maxWidth": "1920px",
+    "zIndex": "1"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "smMNSq89B",
+     "$rect": {
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 376
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "borderBottom": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "500px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "THPpqKJYc",
+       "$rect": {
+        "x": 50,
+        "y": 50,
+        "width": 250,
+        "height": 276
+       },
+       "attributes": {
+        "appearEffect": {
+         "threshold": 0,
+         "trigger": "onInView",
+         "replay": false,
+         "enter": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1,
+          "rotate": 0,
+          "rotateX": 0,
+          "rotateY": 0,
+          "skewX": 0,
+          "skewY": 0,
+          "transition": "spring-duration 2s 0.2 0s"
+         },
+         "exit": "null"
+        },
+        "fill": "https://framerusercontent.com/images/vLQblsbydSn6uqg0rL76Z5fGU.png",
+        "fillImagePositionX": "50.3%",
+        "fillImagePositionY": "30.9%",
+        "layout": "null",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "1fr"
+       }
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "a6T9T4FkL",
+     "$rect": {
+      "x": 350,
+      "y": 0,
+      "width": 350,
+      "height": 376
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "borderBottom": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "SCstb8RtQ",
+       "component": "yTZXL9EHML7pPhBCpXTS",
+       "$rect": {
+        "x": 93,
+        "y": 114,
+        "width": 164,
+        "height": 119
+       },
+       "$componentDisplayName": "Counter",
+       "attributes": {
+        "$control__viewport": "true",
+        "$control__replay": "true",
+        "$control__font": "{\"fontSelector\":\"FS;Switzer-italic\"}",
+        "$control__fontSize": "90",
+        "$control__fontColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__startNumber": "40",
+        "$control__endNumber": "78",
+        "$control__separator": "None",
+        "$control__incrementType": "Integer",
+        "$control__prefix": "",
+        "$control__prefixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__suffix": "+",
+        "$control__suffixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__gapSize": "4",
+        "$control__speedMs": "50",
+        "$control__loopAnimation": "false",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       }
+      },
+      {
+       "type": "RichTextNode",
+       "id": "AQaOJ4hok",
+       "$rect": {
+        "x": 134,
+        "y": 233,
+        "width": 82,
+        "height": 29
+       },
+       "attributes": {
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Body",
+        "textAlignment": "start"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:AQaOJ4hok:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:AQaOJ4hok:0:0",
+           "attributes": {
+            "text": "exhibitions "
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "oCvKTuG3U",
+     "$rect": {
+      "x": 700,
+      "y": 0,
+      "width": 350,
+      "height": 376
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "borderBottom": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "aIa521YLX",
+       "$rect": {
+        "x": 50,
+        "y": 50,
+        "width": 250,
+        "height": 276
+       },
+       "attributes": {
+        "appearEffect": {
+         "threshold": 0,
+         "trigger": "onInView",
+         "replay": false,
+         "enter": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1,
+          "rotate": 0,
+          "rotateX": 0,
+          "rotateY": 0,
+          "skewX": 0,
+          "skewY": 0,
+          "transition": "spring-duration 2s 0.2 0s"
+         },
+         "exit": "null"
+        },
+        "fill": "https://framerusercontent.com/images/4UA6Y4qOQaeAjisnaPLGLuzMzuQ.jpg",
+        "layout": "null",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "1fr"
+       }
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "q9KxqSpc0",
+     "$rect": {
+      "x": 1050,
+      "y": 0,
+      "width": 350,
+      "height": 376
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderBottom": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "4000px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "T9tbS5oG8",
+       "component": "yTZXL9EHML7pPhBCpXTS",
+       "$rect": {
+        "x": 145,
+        "y": 114,
+        "width": 60,
+        "height": 119
+       },
+       "$componentDisplayName": "Counter",
+       "attributes": {
+        "$control__viewport": "true",
+        "$control__replay": "true",
+        "$control__font": "{\"fontSelector\":\"FS;Switzer-italic\"}",
+        "$control__fontSize": "90",
+        "$control__fontColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__startNumber": "0",
+        "$control__endNumber": "12",
+        "$control__separator": "None",
+        "$control__incrementType": "Integer",
+        "$control__prefix": "",
+        "$control__prefixColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+        "$control__suffix": "",
+        "$control__suffixColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+        "$control__gapSize": "4",
+        "$control__speedMs": "50",
+        "$control__loopAnimation": "false",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       }
+      },
+      {
+       "type": "RichTextNode",
+       "id": "pXsrUnfE9",
+       "$rect": {
+        "x": 135,
+        "y": 233,
+        "width": 81,
+        "height": 29
+       },
+       "attributes": {
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Body",
+        "textAlignment": "start"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:pXsrUnfE9:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:pXsrUnfE9:0:0",
+           "attributes": {
+            "text": "Collections"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "AQ7YCCECF",
+     "$rect": {
+      "x": 0,
+      "y": 376,
+      "height": 377
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "ActXe3ha_",
+       "component": "yTZXL9EHML7pPhBCpXTS",
+       "$rect": {
+        "x": 93,
+        "y": 115,
+        "width": 164,
+        "height": 119
+       },
+       "$componentDisplayName": "Counter",
+       "attributes": {
+        "$control__viewport": "true",
+        "$control__replay": "true",
+        "$control__font": "{\"fontSelector\":\"FS;Switzer-italic\"}",
+        "$control__fontSize": "90",
+        "$control__fontColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__startNumber": "80",
+        "$control__endNumber": "350",
+        "$control__separator": "None",
+        "$control__incrementType": "Integer",
+        "$control__prefix": "",
+        "$control__prefixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__suffix": "+",
+        "$control__suffixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__gapSize": "4",
+        "$control__speedMs": "50",
+        "$control__loopAnimation": "false",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       }
+      },
+      {
+       "type": "RichTextNode",
+       "id": "WBcaZyAS4",
+       "$rect": {
+        "x": 111,
+        "y": 234,
+        "width": 128,
+        "height": 28
+       },
+       "attributes": {
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Body",
+        "textAlignment": "start"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:WBcaZyAS4:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:WBcaZyAS4:0:0",
+           "attributes": {
+            "text": "Sculptures made "
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "I0hyom8iN",
+     "$rect": {
+      "x": 350,
+      "y": 376,
+      "height": 377
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "ezzXCNTIh",
+       "$rect": {
+        "x": 50,
+        "y": 50,
+        "width": 250,
+        "height": 277
+       },
+       "attributes": {
+        "appearEffect": {
+         "threshold": 0,
+         "trigger": "onInView",
+         "replay": false,
+         "enter": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1,
+          "rotate": 0,
+          "rotateX": 0,
+          "rotateY": 0,
+          "skewX": 0,
+          "skewY": 0,
+          "transition": "spring-duration 2s 0.2 0s"
+         },
+         "exit": "null"
+        },
+        "fill": "https://framerusercontent.com/images/8KH7PwtdjdzNx1Dh8x7mNaPKq0.png",
+        "layout": "null",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "1fr"
+       }
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "XtJDn8vCI",
+     "$rect": {
+      "x": 700,
+      "y": 376,
+      "height": 377
+     },
+     "attributes": {
+      "borderStyle": "solid",
+      "borderColor": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+      "borderRight": "1px",
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "0px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "UXWKxgMAJ",
+       "component": "yTZXL9EHML7pPhBCpXTS",
+       "$rect": {
+        "x": 119,
+        "y": 115,
+        "width": 112,
+        "height": 119
+       },
+       "$componentDisplayName": "Counter",
+       "attributes": {
+        "$control__viewport": "true",
+        "$control__replay": "false",
+        "$control__font": "{\"fontSelector\":\"FS;Switzer-italic\"}",
+        "$control__fontSize": "90",
+        "$control__fontColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__startNumber": "20",
+        "$control__endNumber": "29",
+        "$control__separator": "None",
+        "$control__incrementType": "Integer",
+        "$control__prefix": "",
+        "$control__prefixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__suffix": "",
+        "$control__suffixColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "$control__gapSize": "4",
+        "$control__speedMs": "50",
+        "$control__loopAnimation": "false",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       }
+      },
+      {
+       "type": "RichTextNode",
+       "id": "XtauufLmT",
+       "$rect": {
+        "x": 95,
+        "y": 234,
+        "width": 160,
+        "height": 28
+       },
+       "attributes": {
+        "inlineCodeStylePreset": "Inline Code Styles/Inline Code",
+        "linkStylePreset": "Link Styles/Link",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto",
+        "textStylePreset": "Text Styles/Body",
+        "textAlignment": "start"
+       },
+       "children": [
+        {
+         "type": "TextBlock",
+         "id": "v:XtauufLmT:0",
+         "attributes": {
+          "tag": "p"
+         },
+         "children": [
+          {
+           "type": "TextRun",
+           "id": "v:XtauufLmT:0:0",
+           "attributes": {
+            "text": "Countries exhibited in "
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "name": "Case",
+     "id": "s7nJaiuIC",
+     "$rect": {
+      "x": 1050,
+      "y": 376,
+      "width": 350,
+      "height": 377
+     },
+     "attributes": {
+      "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+      "layout": "stack",
+      "stackDirection": "vertical",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "overflow": "clip",
+      "padding": "50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "400px",
+      "aspectRatio": 0.93,
+      "minHeight": "350px"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "Ko0OeP9z7",
+       "$rect": {
+        "x": 50,
+        "y": 50,
+        "width": 250,
+        "height": 277
+       },
+       "attributes": {
+        "appearEffect": {
+         "threshold": 0,
+         "trigger": "onInView",
+         "replay": false,
+         "enter": {
+          "opacity": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1,
+          "rotate": 0,
+          "rotateX": 0,
+          "rotateY": 0,
+          "skewX": 0,
+          "skewY": 0,
+          "transition": "spring-duration 2s 0.2 0s"
+         },
+         "exit": "null"
+        },
+        "fill": "https://framerusercontent.com/images/5d6nH05Bhs4sDnJlzWFAHqP6ci4.jpg",
+        "layout": "null",
+        "overflow": "clip",
+        "position": "relative",
+        "width": "1fr",
+        "height": "1fr"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Section",
+   "id": "LMTj3kpBg",
+   "$rect": {
+    "x": 0,
+    "y": 2849,
+    "width": 1400,
+    "height": 136
+   },
+   "attributes": {
+    "fill": "var(--token-0de040f0-b5ea-4023-bc26-fe477adc34f7)",
+    "hoverEffect": {
+     "opacity": 1,
+     "x": "0px",
+     "y": "0px",
+     "scale": 1,
+     "skewX": "0deg",
+     "skewY": "0deg",
+     "backgroundColor": "rgb(145, 137, 125)",
+     "transition": "spring-duration 0.4s 0.2 0s",
+     "rotate": "0deg"
+    },
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "100px",
+    "link": {
+     "href": "/collections"
+    },
+    "overflow": "clip",
+    "padding": "50px 20px 50px 20px",
+    "position": "relative",
+    "scrollTargetEnabled": true,
+    "elementId": "trigger-for-menu",
+    "width": "1fr",
+    "height": "auto",
+    "zIndex": "1"
+   },
+   "children": [
+    {
+     "type": "ComponentInstanceNode",
+     "id": "MgFUm1N_F",
+     "name": "Buttons",
+     "component": "Hk7nfY1pH",
+     "$rect": {
+      "x": 621,
+      "y": 50,
+      "width": 158,
+      "height": 36
+     },
+     "$componentDisplayName": "Button",
+     "attributes": {
+      "$control__variant": "Dark",
+      "$control__linkTitle": "All Collections",
+      "$control__iconVisible": "true",
+      "position": "relative",
+      "width": "auto",
+      "height": "auto"
+     }
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Fullscreen Section",
+   "id": "OfcMfztfo",
+   "$rect": {
+    "x": 0,
+    "y": 2985,
+    "width": 1400,
+    "height": 800
+   },
+   "attributes": {
+    "htmlTag": "figure",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "end",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "10px",
+    "overflow": "clip",
+    "position": "sticky",
+    "positionStickyTop": 0,
+    "width": "1fr",
+    "height": "100vh",
+    "maxWidth": "1920px"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "kcj3ZeV86",
+     "$rect": {
+      "x": 0,
+      "y": -160,
+      "width": 1400,
+      "height": 960
+     },
+     "attributes": {
+      "fill": "https://framerusercontent.com/images/58KjHtLoAuzflEvdq4agbw7ALGg.jpg",
+      "layout": "null",
+      "overflow": "clip",
+      "position": "relative",
+      "width": "100%",
+      "height": "120%"
+     }
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "name": "Section",
+   "id": "LN7u3Pv3P",
+   "$rect": {
+    "x": 0,
+    "y": 3785,
+    "width": 1400,
+    "height": 655
+   },
+   "attributes": {
+    "fill": "var(--token-f8d7fb7f-7cb1-4459-b460-4a81fba211a5)",
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "0px",
+    "overflow": "clip",
+    "padding": "0px 0px 50px 0px",
+    "position": "sticky",
+    "positionStickyTop": 0,
+    "width": "1fr",
+    "height": "auto",
+    "maxWidth": "1920px"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "O_x_vnqJ4",
+     "$rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 136
+     },
+     "attributes": {
+      "hoverEffect": {
+       "opacity": 1,
+       "x": "0px",
+       "y": "0px",
+       "scale": 1,
+       "skewX": "0deg",
+       "skewY": "0deg",
+       "backgroundColor": "var(--token-4c0790e7-ef55-41a2-ba2b-b035f745ed65)",
+       "transition": "spring-duration 0.4s 0.2 0s",
+       "rotate": "0deg"
+      },
+      "layout": "stack",
+      "stackDirection": "horizontal",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "link": {
+       "href": "/news"
+      },
+      "overflow": "clip",
+      "padding": "50px 0px 50px 0px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "SXyf6ThN4",
+       "name": "Buttons",
+       "component": "Hk7nfY1pH",
+       "$rect": {
+        "x": 638,
+        "y": 50,
+        "width": 124,
+        "height": 36
+       },
+       "$componentDisplayName": "Button",
+       "attributes": {
+        "$control__variant": "Light",
+        "$control__linkTitle": "All Articles",
+        "$control__iconVisible": "true",
+        "position": "relative",
+        "width": "auto",
+        "height": "auto"
+       }
+      }
+     ]
+    },
+    {
+     "type": "FrameNode",
+     "id": "gxKvGxYCk",
+     "$rect": {
+      "x": 0,
+      "y": 136,
+      "width": 1400,
+      "height": 469
+     },
+     "attributes": {
+      "layout": "stack",
+      "stackDirection": "horizontal",
+      "stackDistribution": "center",
+      "stackAlignment": "center",
+      "stackWrapEnabled": false,
+      "gap": "10px",
+      "padding": "0px 50px 0px 50px",
+      "position": "relative",
+      "width": "1fr",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "FrameNode",
+       "id": "oL4Z8XD_s",
+       "$rect": {
+        "x": 50,
+        "y": 0,
+        "width": 1300,
+        "height": 469
+       },
+       "attributes": {
+        "layout": "grid",
+        "gridAlignment": "center",
+        "gridColumnCount": 4,
+        "gridColumnMinWidth": "50px",
+        "gap": "30px 0px",
+        "position": "relative",
+        "collectionList": {
+         "collection": "News",
+         "repeatedDescendantId": "u40QdMqV8",
+         "limit": "4"
+        },
+        "width": "1fr",
+        "height": "auto"
+       },
+       "children": [
+        {
+         "type": "ComponentInstanceNode",
+         "id": "u40QdMqV8",
+         "component": "RKOTpOXF5",
+         "$rect": {
+          "x": 0,
+          "y": 0,
+          "width": 325,
+          "height": 432
+         },
+         "$componentDisplayName": "Article Thumbnail",
+         "attributes": {
+          "$control__variant": "Square Desktop",
+          "$control__image": "var(--variable-LGnwizZ_1)",
+          "$control__date": "var(--variable-BdKfsEd8j)",
+          "$control__title": "var(--variable-DcIyvdwWS)",
+          "$control__link": {
+           "href": "/news/:slug",
+           "collectionItem": "var(--variable-zjoVadzNr)"
+          },
+          "$control__textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+          "cursor": "pointer",
+          "hoverEffect": {
+           "opacity": 1,
+           "x": "0px",
+           "y": "-10px",
+           "scale": 1,
+           "skewX": "0deg",
+           "skewY": "0deg",
+           "transition": "tween 0.59,0.02,0.44,1 0.4s 0s",
+           "rotate": "0deg"
+          },
+          "position": "relative",
+          "width": "1fr",
+          "height": "auto"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "AWwLAdMGk",
+   "component": "kegOod3C4",
+   "$rect": {
+    "x": 0,
+    "y": 4440,
+    "width": 1400,
+    "height": 638
+   },
+   "$componentDisplayName": "CTA",
+   "attributes": {
+    "$control__variant": "Desktop",
+    "$control__imageVisible": "true",
+    "$control__image": "https://framerusercontent.com/images/9hCGhHVc0NtTWoZ5TAOUXgFqI.png",
+    "$control__cTABackgroundColor": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)",
+    "$control__color": "var(--token-be079bad-eabd-4234-8a56-5579c7057187)",
+    "position": "relative",
+    "width": "1fr",
+    "height": "auto",
+    "zIndex": "1"
+   }
+  },
+  {
+   "type": "FrameNode",
+   "name": "Botom menu",
+   "id": "ybZDk5UEc",
+   "attributes": {
+    "fill": "var(--token-71133c02-1c55-4af2-b843-5349bf9976d6)",
+    "backgroundBlur": "10px",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "8px",
+    "position": "fixed",
+    "left": "null",
+    "right": "null",
+    "top": "null",
+    "bottom": "40px",
+    "centerAnchorX": "50%",
+    "centerAnchorY": "91.75%",
+    "constraintsLocked": true,
+    "width": "200px",
+    "height": "auto",
+    "visible": "false",
+    "zIndex": "10"
+   },
+   "children": [
+    {
+     "type": "ComponentInstanceNode",
+     "id": "DpRNr_SiK",
+     "component": "G6yXIAYJj",
+     "$componentDisplayName": "Atom/Search Button",
+     "attributes": {
+      "$control__variant": "Desktop",
+      "$control__title": "Search",
+      "position": "relative",
+      "width": "1fr",
+      "height": "auto"
+     }
+    }
+   ]
+  }
+ ]
+}

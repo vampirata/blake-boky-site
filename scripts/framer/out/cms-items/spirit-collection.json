@@ -1,0 +1,3596 @@
+{
+  "collection": "Spirit Collection",
+  "collectionId": "r_wpSmAxy",
+  "detailPageId": "yGTnEhF9K",
+  "itemCount": 22,
+  "publishedCount": 14,
+  "items": [
+    {
+      "id": "wShkoluYL",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Ramiel",
+        "Slug": "angel-ramiel",
+        "Name 1": null,
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:wShkoluYL/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:wShkoluYL/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "In angelic lore the Angel Ramiel has been described as the Angel of True Vision."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:wShkoluYL/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:wShkoluYL/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "As an Archangel, Ramiel is known to assist us with the interpretation and comprehension of various communications in such a way as to find a positive perception within. Connected with historians, scholars, and archaeologists she is known for preserving and illustrating our history"
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/HswsSVG4lNUTsQc5Uu9rQ1HJw.jpg\",\"https://framerusercontent.com/images/yOX21F7IrRvDpWlOukktCZHtrk.jpg\",\"https://framerusercontent.com/images/HswsSVG4lNUTsQc5Uu9rQ1HJw.jpg\",\"https://framerusercontent.com/images/FzeKJhzGdCRquUvHOoj8olVqaSE.jpg\"]",
+        "Content 2": null,
+        "Image 1": "https://framerusercontent.com/images/df5UXJqaYoNTofeHTh6IMIUlk.jpg",
+        "Image 2": "https://framerusercontent.com/images/KfdQwuhG6jJlu4aG3CHalx5t84.jpg",
+        "Image 3": "https://framerusercontent.com/images/Gq9Sp6tKAGoaEDWJlqLFbKrdnw.jpg",
+        "Image 4": "https://framerusercontent.com/images/zL9kDynN38qUabc2JU0pkCPmH08.jpg",
+        "Image 5": "https://framerusercontent.com/images/yOX21F7IrRvDpWlOukktCZHtrk.jpg",
+        "Image 6": "https://framerusercontent.com/images/LnoDRAUkemoVjX5qCbnOFLWSjYs.jpg",
+        "Image 7": "https://framerusercontent.com/images/Z6DRNNb884Q8pYUoTpfZv3mGu4.jpg",
+        "Image 8": "https://framerusercontent.com/images/KfdQwuhG6jJlu4aG3CHalx5t84.jpg",
+        "Image 9": "https://framerusercontent.com/images/Z6DRNNb884Q8pYUoTpfZv3mGu4.jpg",
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "mZZxZAnvU",
+      "draft": true,
+      "fields": {
+        "Title": "Goddess Ma'at",
+        "Slug": "goddess-ma-at",
+        "Name 1": "Goddess Ma'at",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Celebrated as the Goddess of truth and justice, Ma’at is recognized for her ability to create balance and equilibrium in all that she touches. It is said that she prevented the universe from reverting to chaos and is known to the Gods as the mediator. Due to her abilities as an adjudicator, she was tasked with assessing the deeds of the dead."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/f5ShnaAZMfq1cp6VuQCdQ5apIR4.jpg\",\"https://framerusercontent.com/images/vMSpkXiaOekCqK0yOKmKDoclrA.jpg\",\"https://framerusercontent.com/images/tUUFuNk7PeH23ja29qULVk0bg.jpg\",\"https://framerusercontent.com/images/Irx0DT0EI0d0xtN6gIiy2DqU7A.jpg\",\"https://framerusercontent.com/images/0jG92ThgAd3vU7su7cozWJEHJE0.jpg\",\"https://framerusercontent.com/images/1fvtJ6sHjU3boGGWFAHPqgTJ5c.jpg\",\"https://framerusercontent.com/images/QK5z1wWAGFZTcxqLEUqCaegrNE.jpg\",\"https://framerusercontent.com/images/qhriWi4K6USCLZpC902ioMzJyZw.jpg\",\"https://framerusercontent.com/images/fJyJEm7LpjNqPhHLdy3XxYiPws.jpg\",\"https://framerusercontent.com/images/oVsENL8trSnvxdn6aYfik7GQs.jpg\",\"https://framerusercontent.com/images/muTXlQif80WfvxpzNYCUDhvOuig.jpg\",\"https://framerusercontent.com/images/a6uEjuCwcuFHnARGRL5RZprRiLA.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions : 67cm, 24cm, 37cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:mZZxZAnvU/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:mZZxZAnvU/bwIWv2KYY:4:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/C7GVouiooDiJ8kY3uJUykrTKVE.jpg",
+        "Image 2": "https://framerusercontent.com/images/f5ShnaAZMfq1cp6VuQCdQ5apIR4.jpg",
+        "Image 3": "https://framerusercontent.com/images/vMSpkXiaOekCqK0yOKmKDoclrA.jpg",
+        "Image 4": "https://framerusercontent.com/images/IL6bGptRiNL2wK3ai2faMbDoIqo.jpg",
+        "Image 5": "https://framerusercontent.com/images/tUUFuNk7PeH23ja29qULVk0bg.jpg",
+        "Image 6": "https://framerusercontent.com/images/0jG92ThgAd3vU7su7cozWJEHJE0.jpg",
+        "Image 7": "https://framerusercontent.com/images/1fvtJ6sHjU3boGGWFAHPqgTJ5c.jpg",
+        "Image 8": "https://framerusercontent.com/images/QK5z1wWAGFZTcxqLEUqCaegrNE.jpg",
+        "Image 9": "https://framerusercontent.com/images/FNtJXnB8LH0OI1Q2yPi70RJHmA.jpg",
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "WqBl0F04g",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Forces",
+        "Slug": "angel-forces",
+        "Name 1": "Angel Forces",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Angel of Invisibility"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "This Sculpture is presently FOR SALE"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "Please Contact me on my Profile Page BTC and SOL Accepted"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:5"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:6"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/a2QfkggHL:0:7",
+                "attributes": {
+                  "text": "It is thought that she has the ability to locate and return lost property and other items of value including love. An instructor in both Mathematics and Logic, she is known to be a master in the art and emotional enlightenment."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/bNN22a5EZUeTCKYtZ3bWAfc.jpg\",\"https://framerusercontent.com/images/Rv3qtmIXL22cWIaujowH1dciYws.jpg\",\"https://framerusercontent.com/images/1AsiGJoSGFtjk1rfhAUEsNJcgU.jpg\",\"https://framerusercontent.com/images/66tTF4KoD2hbbt2aVoMVL5KY1Vk.jpg\",\"https://framerusercontent.com/images/2hToegvj3IcqTQQxRReu0bxkPE.jpg\",\"https://framerusercontent.com/images/lsjZfnmdnzdZolQRk9XL6fqV5g.jpg\",\"https://framerusercontent.com/images/tNtKPKCy2KKKBX585XLMRpyZUw.jpg\",\"https://framerusercontent.com/images/Tokiv2aSplYwVWSUGqUDlLRaAQ.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/bwIWv2KYY:0:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:1:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Dimensions : 58cm, 19cm, 31cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:WqBl0F04g/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:WqBl0F04g/bwIWv2KYY:5:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/Rv3qtmIXL22cWIaujowH1dciYws.jpg",
+        "Image 2": "https://framerusercontent.com/images/bNN22a5EZUeTCKYtZ3bWAfc.jpg",
+        "Image 3": "https://framerusercontent.com/images/1AsiGJoSGFtjk1rfhAUEsNJcgU.jpg",
+        "Image 4": "https://framerusercontent.com/images/66tTF4KoD2hbbt2aVoMVL5KY1Vk.jpg",
+        "Image 5": "https://framerusercontent.com/images/2hToegvj3IcqTQQxRReu0bxkPE.jpg",
+        "Image 6": "https://framerusercontent.com/images/lsjZfnmdnzdZolQRk9XL6fqV5g.jpg",
+        "Image 7": "https://framerusercontent.com/images/tNtKPKCy2KKKBX585XLMRpyZUw.jpg",
+        "Image 8": "https://framerusercontent.com/images/Tokiv2aSplYwVWSUGqUDlLRaAQ.jpg",
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "CiaJoYkME",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Camael ",
+        "Slug": "angel-camael",
+        "Name 1": "Angel Camael ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Joy",
+                  "bold": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/a2QfkggHL:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/a2QfkggHL:1:0",
+                "attributes": {
+                  "text": "This Angel is said to preside over contentment, joy and beauty."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/7kKB863UklJvJZn4bxv7n5ucGQ.jpg\",\"https://framerusercontent.com/images/sVRA0F0eVXD6gKYrFSlBIiTc7M.jpg\",\"https://framerusercontent.com/images/I5upNsMfyGH3rjJwgmgTzKkc4.jpg\",\"https://framerusercontent.com/images/bj40CfLKD7WFRIRLmHQUKf5yU.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions : 55cm, 24cm, 31cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Year : 2013"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:CiaJoYkME/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:CiaJoYkME/bwIWv2KYY:5:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/7kKB863UklJvJZn4bxv7n5ucGQ.jpg",
+        "Image 2": "https://framerusercontent.com/images/sVRA0F0eVXD6gKYrFSlBIiTc7M.jpg",
+        "Image 3": "https://framerusercontent.com/images/I5upNsMfyGH3rjJwgmgTzKkc4.jpg",
+        "Image 4": "https://framerusercontent.com/images/bj40CfLKD7WFRIRLmHQUKf5yU.jpg",
+        "Image 5": null,
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "feuhBua1_",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Vohamanah",
+        "Slug": "angel-vohamanah",
+        "Name 1": "Angel Vohamanah",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Optimism"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:feuhBua1_/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "The Angel Vohamanah inspires us to think and act positively and to generally maintain an optimistic outlook on life. Known for inner strength and awareness, she is of a giving nature and shares high ideals and presides over verbal expression."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:feuhBua1_/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "This Angel remains as a symbol to remind us of the voice that women have been denied."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/574UdZk5eubmgUHg6RyudTUN4.png\",\"https://framerusercontent.com/images/eYXS6NVoKbsMtgQ2yCRnSOVIag.png\",\"https://framerusercontent.com/images/GOxfd3r9CWuJAoQCIQZZeEEFkbo.png\",\"https://framerusercontent.com/images/fwDvywAWMlhzWCs0rWjn5wypr5s.png\",\"https://framerusercontent.com/images/efjXxzMp31VpXGSJi4bW617Vbb0.png\",\"https://framerusercontent.com/images/z5ZoqqQtCkrXio555SbjjBHHp4.png\",\"https://framerusercontent.com/images/8n2KWQdFyQ4oiTUD2nyJo1aBa8g.png\",\"https://framerusercontent.com/images/13DqfhKXa8jHgt3iFsDLv2W8CoQ.png\",\"https://framerusercontent.com/images/wJZWUIdnkqdbR1LblyviXVVALFo.png\",\"https://framerusercontent.com/images/4IsWIeF1dacLFZ8mlcavAx9pQM.png\",\"https://framerusercontent.com/images/z2Aze3AKCsW5g5yXAoAekouE.png\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions : 50cm, 16cm, 16cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:feuhBua1_/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:feuhBua1_/bwIWv2KYY:4:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/574UdZk5eubmgUHg6RyudTUN4.png",
+        "Image 2": "https://framerusercontent.com/images/z5ZoqqQtCkrXio555SbjjBHHp4.png",
+        "Image 3": "https://framerusercontent.com/images/8n2KWQdFyQ4oiTUD2nyJo1aBa8g.png",
+        "Image 4": "https://framerusercontent.com/images/13DqfhKXa8jHgt3iFsDLv2W8CoQ.png",
+        "Image 5": "https://framerusercontent.com/images/wJZWUIdnkqdbR1LblyviXVVALFo.png",
+        "Image 6": "https://framerusercontent.com/images/z2Aze3AKCsW5g5yXAoAekouE.png",
+        "Image 7": "https://framerusercontent.com/images/PouxF430wIgSlbqV6kVpAXejTo.png",
+        "Image 8": "https://framerusercontent.com/images/efjXxzMp31VpXGSJi4bW617Vbb0.png",
+        "Image 9": "https://framerusercontent.com/images/fwDvywAWMlhzWCs0rWjn5wypr5s.png",
+        "Image 10": "https://framerusercontent.com/images/GOxfd3r9CWuJAoQCIQZZeEEFkbo.png",
+        "Image 11": "https://framerusercontent.com/images/eYXS6NVoKbsMtgQ2yCRnSOVIag.png",
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "VytR663xA",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Hamiah",
+        "Slug": "angel-hamiah",
+        "Name 1": "Angel Hamiah",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:VytR663xA/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:VytR663xA/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Integrity, Hamiah guides us in making ethical decisions and encourages as to express our true selves, by strengthen our self-confidence and teaching us perseverance. Hamiah is associated with rituals and truth, assisting us in our honesty and encourages us to connect with others and cherish our friends and loved ones. She is known to be diplomatic and graceful in social affairs and adapt in dealing with authorities, she is sympathetic and emboldened with sincerity and gratitude."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/VqNabuvndBE10XGwKzkR7pCtBzQ.png\",\"https://framerusercontent.com/images/UFVhrB8sTVuyv4WEKbVWD9yuoPI.png\",\"https://framerusercontent.com/images/LQBXunYbwIXpHz4kBq17uUR5Pz4.png\",\"https://framerusercontent.com/images/zKmoAR49tJxBBrAAsSwhN724v4.png\"]",
+        "Content 2": null,
+        "Image 1": "https://framerusercontent.com/images/1ilLDDYibT0eJsLkIQlT5cng8M.jpg",
+        "Image 2": "https://framerusercontent.com/images/N5YnILPT3BUBcsPEiXQJLiw8vfY.jpg",
+        "Image 3": "https://framerusercontent.com/images/cnwSVb1bN3Ri25d7VI2O0FOFSA.jpg",
+        "Image 4": "https://framerusercontent.com/images/wqtHZkEul0TmdiXUHQswnEM9c.jpg",
+        "Image 5": "https://framerusercontent.com/images/YGIV2Z8ALpxTGRwqxsgyyoA0kEo.jpg",
+        "Image 6": "https://framerusercontent.com/images/cEMrdn50egNBVwyfeUs6D3JukhY.jpg",
+        "Image 7": "https://framerusercontent.com/images/u6N6SdgDmJgXS72L2Z0lcohe1M.jpg",
+        "Image 8": "https://framerusercontent.com/images/dTe3Tk4q25NusayLqLE7CGi8.jpg",
+        "Image 9": "https://framerusercontent.com/images/WXgw1DqqN2aYLEswbFK2nKWkbk.jpg",
+        "Image 10": "https://framerusercontent.com/images/Zu0luOLO5vD1GqjThpQB9HQx2IQ.jpg",
+        "Image 11": "https://framerusercontent.com/images/CNtAxJAY2NivxeFRSgED9mKo30.jpg",
+        "Image 12": "https://framerusercontent.com/images/1tGa5VMyv7pfjt2wmhBpYC5IGA.jpg",
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "jNqqKF8FR",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Urim",
+        "Slug": "angel-urim",
+        "Name 1": "Angel Urim",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Angel of Illumination"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:jNqqKF8FR/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Our \"illumination\" He is believed to possess the virtue of casting our fate."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/FKQCLdPHrIQ7GyWYXXdsDnUBdxI.jpg\",\"https://framerusercontent.com/images/mxUO84Y3Gp6og9PxWkTmkV3XY4.jpg\",\"https://framerusercontent.com/images/6VY9Uk0D82fXDxtey3694kdK4.jpg\",\"https://framerusercontent.com/images/D3IfgixtZElwRDuUYnkAgxubKg.jpg\",\"https://framerusercontent.com/images/8SoeFlGjtYUQKnEnEv5adK3TLQ.jpg\",\"https://framerusercontent.com/images/UidcKwGPJ4P9lHvRYAgyULAOQ.jpg\",\"https://framerusercontent.com/images/WwDSXnQnqe05Zt0jx9gdcAGKE.jpg\",\"https://framerusercontent.com/images/jBXnZxiJlDWgPRadAIVztPKmvgQ.jpg\",\"https://framerusercontent.com/images/pau8mu3zmxlaj6vxNOU01EX3yw.jpg\",\"https://framerusercontent.com/images/v61ZFkPxfrmE3Djx7D16kRe8BE.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Male Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions : 48cm, 25cm, 15cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Weight : 12kg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:jNqqKF8FR/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:jNqqKF8FR/bwIWv2KYY:5:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/2tZ4WEOyjKzqaTobTiCtdXNasa4.jpg",
+        "Image 2": "https://framerusercontent.com/images/zsNUEdcnFZ5b9bg7ThNkJFnBe3M.jpg",
+        "Image 3": "https://framerusercontent.com/images/GYca87IuJg81lE6FhNNE5No5EeQ.jpg",
+        "Image 4": "https://framerusercontent.com/images/qu4SkRxQaijaUu8vzFVx4Fc6YU.jpg",
+        "Image 5": "https://framerusercontent.com/images/mxUO84Y3Gp6og9PxWkTmkV3XY4.jpg",
+        "Image 6": "https://framerusercontent.com/images/jBXnZxiJlDWgPRadAIVztPKmvgQ.jpg",
+        "Image 7": "https://framerusercontent.com/images/v61ZFkPxfrmE3Djx7D16kRe8BE.jpg",
+        "Image 8": "https://framerusercontent.com/images/8JPf816LuqmFea6iQLR7FbbCY.jpg",
+        "Image 9": "https://framerusercontent.com/images/pau8mu3zmxlaj6vxNOU01EX3yw.jpg",
+        "Image 10": "https://framerusercontent.com/images/81Spyzm24WjfTfEt6qVbhAFg.jpg",
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "TfUZ_NdB5",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Valoel",
+        "Slug": "angel-valoel",
+        "Name 1": "Angel Valoel",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Angel of Peace"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:TfUZ_NdB5/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Wakes us with a serene feeling of inner peace and assists us in resolving conflict within our hearts."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/Obiz6637tab2rEoNf5FZyz6xxdg.jpg\",\"https://framerusercontent.com/images/Vbwc0gZRp054yKaIJB2hyVfnyw.jpg\",\"https://framerusercontent.com/images/z273VjhLUahOiIxttOTJJzG1U.jpg\",\"https://framerusercontent.com/images/DyrnsBOHupHWliG8tBp41FPb7HE.jpg\",\"https://framerusercontent.com/images/qdPwuaHl9WpFqEy99TmyhLZqwE.jpg\",\"https://framerusercontent.com/images/Fxh5v60GsphiXliPOoLOvtoI8dQ.jpg\",\"https://framerusercontent.com/images/XZoCfPNCafdvb5mnNHe5czWUc6o.jpg\",\"https://framerusercontent.com/images/F12NpwJgIQRMxDyT7nNCpGxc.jpg\",\"https://framerusercontent.com/images/3ov5exT764yW36AWSACUUKzfiXg.jpg\",\"https://framerusercontent.com/images/LULbNOB3K6IKdfgdZSZb9Q5joG8.jpg\",\"https://framerusercontent.com/images/9XmURrW60nwMUeive33VzrjuMEE.jpg\",\"https://framerusercontent.com/images/FVFyU2hFNnquOuSjnSxP2jExBVw.jpg\",\"https://framerusercontent.com/images/j2Ss6bFhKAb8gODXdsBG8xKRZM.jpg\",\"https://framerusercontent.com/images/SFrpVAe3dK30RbsqL6pNm1EJUFo.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions : 51cm, 19cm, 21cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:4:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:TfUZ_NdB5/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "This Sculpture is presently FOR SALE"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:5:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:TfUZ_NdB5/bwIWv2KYY:5:2",
+                "attributes": {
+                  "text": "Please Contact me on my Profile Page BTC and SOL Accepted"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/Obiz6637tab2rEoNf5FZyz6xxdg.jpg",
+        "Image 2": "https://framerusercontent.com/images/DyrnsBOHupHWliG8tBp41FPb7HE.jpg",
+        "Image 3": "https://framerusercontent.com/images/qdPwuaHl9WpFqEy99TmyhLZqwE.jpg",
+        "Image 4": "https://framerusercontent.com/images/Fxh5v60GsphiXliPOoLOvtoI8dQ.jpg",
+        "Image 5": "https://framerusercontent.com/images/F12NpwJgIQRMxDyT7nNCpGxc.jpg",
+        "Image 6": "https://framerusercontent.com/images/LULbNOB3K6IKdfgdZSZb9Q5joG8.jpg",
+        "Image 7": "https://framerusercontent.com/images/9XmURrW60nwMUeive33VzrjuMEE.jpg",
+        "Image 8": "https://framerusercontent.com/images/j2Ss6bFhKAb8gODXdsBG8xKRZM.jpg",
+        "Image 9": "https://framerusercontent.com/images/JbPxNxqcGGSh6432X18Q83H97U.jpg",
+        "Image 10": "https://framerusercontent.com/images/3ov5exT764yW36AWSACUUKzfiXg.jpg",
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "z60VD086W",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Sariel",
+        "Slug": "angel-sariel",
+        "Name 1": "Angel Sariel",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Throughout many belief systems, the stories of angels make up a part of our heritage, existing as important mystical beings sharing spiritual messages."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "In the angelic realm, the Archangel Sariel originates principally from Judaic tradition, her Hebrew name translates as “God’s Command” and appears in the Talmud as well as other sacred Jewish texts."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/a2QfkggHL:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/a2QfkggHL:1:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/a2QfkggHL:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:2:0",
+                "attributes": {
+                  "text": "The Dead Sea Scrolls, lists her name among others as written upon the shields of soldiers invoked for her protective powers in Jewish and early Christian texts. "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/a2QfkggHL:2:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:2:2",
+                "attributes": {
+                  "text": "Considered one of the archangels who rule Earth, she is linked with the skies and the celestial forms, holding sacred knowledge concerning the Moon."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/a2QfkggHL:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/a2QfkggHL:3:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:3:1",
+                "attributes": {
+                  "text": " While considered a holy angel with primordial powers, she is known to be one of the nine angels of the summer equinox and rules the zodiacal sign of the Ram; Aries. In The Book of Enoch, the ancient Hebrew apocalyptic text sighting material on the origins of demons and giants, Sariel is said to be one of the holy angels who watch over other spirits, and who “look upon the bloodshed on Earth”. She is considered to be a holy Archangel also known as the “Angel of Punishment and Death” and believed to be tasked with punishing both mortals and angels who violate God’s commands."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/a2QfkggHL:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/a2QfkggHL:4:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/a2QfkggHL:4:1",
+                "attributes": {
+                  "text": "A warrior angel she is both holy and fallen, believed to be a kind angel of death and an angel of healing, bring both hope and comfort, retribution and protection. "
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/1pHZkO8Kra66QjG5ioIQYlwXKM.jpg\",\"https://framerusercontent.com/images/ssE37pW4SHpYw2nan91aTuVQU0.jpg\",\"https://framerusercontent.com/images/7EqNma1hvhh9ajTIaoG3q3hi8Q.jpg\",\"https://framerusercontent.com/images/f0Uwa6sp3Y3M8YSkJaQM12hlF8.jpg\",\"https://framerusercontent.com/images/7L5w6pi3xwpkepjnVlNxHMIzFg.jpg\",\"https://framerusercontent.com/images/06cGdlqwFLTLTvTrTLIhju7tM.jpg\",\"https://framerusercontent.com/images/tDoLnGF4HXjOAXU5Tct9lT1aF0.jpg\",\"https://framerusercontent.com/images/gTVictnOFeocBGvHUcwiaMdgI.jpg\",\"https://framerusercontent.com/images/7f2GTdhkAd443rJBTAdTU6cko.jpg\",\"https://framerusercontent.com/images/acgsHEjulefmEui5h8uc5Kfy1w.jpg\",\"https://framerusercontent.com/images/m7wGB4qAORH3lOga4Q9EWH4c3BU.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:z60VD086W/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 59cm, 21cm, 19cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:z60VD086W/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:z60VD086W/bwIWv2KYY:3:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/gTVictnOFeocBGvHUcwiaMdgI.jpg",
+        "Image 2": "https://framerusercontent.com/images/1pHZkO8Kra66QjG5ioIQYlwXKM.jpg",
+        "Image 3": "https://framerusercontent.com/images/7L5w6pi3xwpkepjnVlNxHMIzFg.jpg",
+        "Image 4": "https://framerusercontent.com/images/06cGdlqwFLTLTvTrTLIhju7tM.jpg",
+        "Image 5": "https://framerusercontent.com/images/acgsHEjulefmEui5h8uc5Kfy1w.jpg",
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "klEZcfnti",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Assiel ",
+        "Slug": "angel-assiel",
+        "Name 1": "Angel Assiel ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Healing"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "This Sculpture is presently FOR SALE"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "Please Contact me on my Profile Page BTC and SOL Accepted"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/a2QfkggHL:0:5"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/a2QfkggHL:0:6"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/a2QfkggHL:0:7",
+                "attributes": {
+                  "text": "Also known as the Lion of God\" or the \"Hearth of God,\" Assiel is mentioned with other elemental titles such as the spirit of air and an angel of the waters. She is considered as a governing angel with dominion over the Earth, and creative forces associated with curative therapy."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/JvCXdfGDlUl3cr9jfMkpJbnSyc.png\",\"https://framerusercontent.com/images/RHBoXPTdrxy0Z7WT68QZXpmS8s4.png\",\"https://framerusercontent.com/images/lp7Nb2Xg6avUROi8U6SbV6usuZA.png\",\"https://framerusercontent.com/images/UaFIGG2GoTqonZqzvLDPAbJFaI.png\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/bwIWv2KYY:0:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:1:6",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "h2"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Factsheet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Dimensions : 60cm, 23cm, 33cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Year : 2013"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:klEZcfnti/bwIWv2KYY:6",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:6:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:klEZcfnti/bwIWv2KYY:6:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/fWiaWeZiWiyPxowaI4EHCQUn52w.jpg",
+        "Image 2": "https://framerusercontent.com/images/e8tiDBUrJHlk39IgHuApPNWtYM.jpg",
+        "Image 3": "https://framerusercontent.com/images/rBUmPiCgiPVE9DKQgvJT73bUKrg.jpg",
+        "Image 4": "https://framerusercontent.com/images/aZU6zBU8YZDKnvmZ0ks7r9p9fFo.jpg",
+        "Image 5": "https://framerusercontent.com/images/ksnBEo5XjoYYm8251mobKZWNY.jpg",
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "Gb4Q2ZEXH",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Ecanus",
+        "Slug": "angel-ecanus",
+        "Name 1": "Angel Ecanus",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Writers"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "This Angel is said to inspire writers and other creative persons with original thoughts and to in provide them with the resolution and perseverance to ensure they see their works through to completion."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg\",\"https://framerusercontent.com/images/2LAoUvLKapLalkcPsvexVxiH2RI.jpg\",\"https://framerusercontent.com/images/CmNicehd85zemNO8xb4VprTOM.jpg\",\"https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg\",\"https://framerusercontent.com/images/wy6R6AG23LyJivuo2Jvqr2n5wt8.jpg\",\"https://framerusercontent.com/images/BQjYzjkMz9yXwboGBbTlHHHdXdI.jpg\",\"https://framerusercontent.com/images/230OUVDLkYam45XaujiPr9OkfRk.jpg\",\"https://framerusercontent.com/images/2CmaN4Ow31w4FFntMGosK4DiwI.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:0:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:1:6",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "h3"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Factsheet "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Dimensions : 56cm, 20cm, 20cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Weight : 17kg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Gb4Q2ZEXH/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Gb4Q2ZEXH/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "Material : Bronze"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/TrbQJ72ZBBWK8VQOWioO9H0s.jpg",
+        "Image 2": "https://framerusercontent.com/images/Jt9W9CO9baFfvCTCXc4vtRdFgg8.jpg",
+        "Image 3": "https://framerusercontent.com/images/wy6R6AG23LyJivuo2Jvqr2n5wt8.jpg",
+        "Image 4": "https://framerusercontent.com/images/BQjYzjkMz9yXwboGBbTlHHHdXdI.jpg",
+        "Image 5": "https://framerusercontent.com/images/230OUVDLkYam45XaujiPr9OkfRk.jpg",
+        "Image 6": "https://framerusercontent.com/images/2LAoUvLKapLalkcPsvexVxiH2RI.jpg",
+        "Image 7": "https://framerusercontent.com/images/8XhtnBv3qZ3lCIsbinzPT21lxY.jpg",
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "qcjctKAVb",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Leylah",
+        "Slug": "angel-leylah",
+        "Name 1": "Angel Leylah",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Angel of Conception"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:qcjctKAVb/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Leylah was among the very first pieces created in the Spirit collection. At the beginning of this series these works had no interior elements, and even the concepts behind the artworks were only developing. The idea that the interior landscape was to take importance in the work allowed the inside of the bronze to become a focal point, and as the notion of the spirit was developing is evident in this work by the absence of any inner structure."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/a2QfkggHL:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/a2QfkggHL:1:0",
+                "attributes": {
+                  "text": "As one of the very first works in this collection, I thought it fitting to name her after the Angel of Conception, who is believed to watch over the new born spirit from conception to birth and oversees and protects childbirth."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/QsEBvRyIcD2NwWLgDZtfCxCByMA.jpg\",\"https://framerusercontent.com/images/CLCzGte9288JkgShfbsxRDQGPk.jpg\",\"https://framerusercontent.com/images/C9z62ZtyorBuaXZZ3Tr3cDx9Xo.jpg\",\"https://framerusercontent.com/images/jBbzXoC0EaCeZeM9krcs4uT84tI.jpg\",\"https://framerusercontent.com/images/Cx4LMgLFrBR9MWt3OtK4uvEVc.jpg\",\"https://framerusercontent.com/images/YwvUMpAz7vEGq5bRojuRu8xtSs0.jpg\",\"https://framerusercontent.com/images/XGYDzV5WJKNZjRA5BSW0cyMnBcg.jpg\",\"https://framerusercontent.com/images/Qndsyu6r10oyAjOSosSXX9BoMaA.jpg\",\"https://framerusercontent.com/images/lCC8I35zxfSbzA8RIWLXAU4USc.jpg\",\"https://framerusercontent.com/images/EqARMtNctZNlsC2b4kXkmNj5rOw.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Dimensions : 44cm, 20cm, 15cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Year : 2011 "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:qcjctKAVb/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:qcjctKAVb/bwIWv2KYY:3:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/DUk0HjCo3Le1kdVPW1ATn4VybN8.jpg",
+        "Image 2": "https://framerusercontent.com/images/jBbzXoC0EaCeZeM9krcs4uT84tI.jpg",
+        "Image 3": "https://framerusercontent.com/images/cLlHEQiW311Zz8izOS6KashRykw.jpg",
+        "Image 4": "https://framerusercontent.com/images/ipJIituoJd6VhYmiaCPq1KdOg.jpg",
+        "Image 5": "https://framerusercontent.com/images/Cx4LMgLFrBR9MWt3OtK4uvEVc.jpg",
+        "Image 6": "https://framerusercontent.com/images/Mfzv3D8weG8Y9MuxsH88tgTBuc.jpg",
+        "Image 7": "https://framerusercontent.com/images/rNy4WwuIatacjfT8o4Az04npeno.jpg",
+        "Image 8": "https://framerusercontent.com/images/XGYDzV5WJKNZjRA5BSW0cyMnBcg.jpg",
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "a7keWOUi0",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Ishtar ",
+        "Slug": "angel-ishtar",
+        "Name 1": "Angel Ishtar",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:a7keWOUi0/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of fertility, love, war, and sex"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Considered as one of the more powerful sky deities, she was the divine personification of the planet Venus. A heavenly being, to both the Assyrians and Babylonians, Ishtar was the goddess of fertility, love, war, and sex. During the reign of Constantine and the Christianisation of the lands Easter was created from the mythology surrounding the goddess Ishtar."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:6",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:7"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:8",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:9"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:a7keWOUi0/a2QfkggHL:0:10",
+                "attributes": {
+                  "text": "Photo Credit Phil Hill"
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/V3DeFg2pEI8zz6gTYf5gvY8Qt4.jpg\",\"https://framerusercontent.com/images/hqhYpXIJ7UOgRrd8dOso7btdhnE.jpg\",\"https://framerusercontent.com/images/BeSoCKXHitVwyU6uENAh6B8VY.jpg\",\"https://framerusercontent.com/images/Z3TqgUypuffJOE64TGo0YId9fQ.jpg\",\"https://framerusercontent.com/images/hCkjzKz8WbfloQQEdND0Eb700E.jpg\",\"https://framerusercontent.com/images/ZHORM4tWLirhUaZPrjjK8VgsbPc.jpg\",\"https://framerusercontent.com/images/hCkjzKz8WbfloQQEdND0Eb700E.jpg\",\"https://framerusercontent.com/images/FJBmkoGyQSwgy3wHCg9hUpeYg6M.jpg\",\"https://framerusercontent.com/images/OYfdtjwbkStf4tQU6TVvleQ7U9o.jpg\",\"https://framerusercontent.com/images/tmlQompEQKPBpdEf80Jepecou0.jpg\",\"https://framerusercontent.com/images/X0Mgo6eErRCGLuaNx2AyjpvKSSk.jpg\",\"https://framerusercontent.com/images/9I7PYVEG1KAUGg0ZnxofvNCm0.jpg\",\"https://framerusercontent.com/images/iqwbpqzqScliCJcn7RkfCGrPZRo.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:a7keWOUi0/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/bwIWv2KYY:0:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:a7keWOUi0/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:a7keWOUi0/bwIWv2KYY:1:0"
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/hqhYpXIJ7UOgRrd8dOso7btdhnE.jpg",
+        "Image 2": "https://framerusercontent.com/images/V3DeFg2pEI8zz6gTYf5gvY8Qt4.jpg",
+        "Image 3": "https://framerusercontent.com/images/Z3TqgUypuffJOE64TGo0YId9fQ.jpg",
+        "Image 4": "https://framerusercontent.com/images/BeSoCKXHitVwyU6uENAh6B8VY.jpg",
+        "Image 5": "https://framerusercontent.com/images/hCkjzKz8WbfloQQEdND0Eb700E.jpg",
+        "Image 6": "https://framerusercontent.com/images/FJBmkoGyQSwgy3wHCg9hUpeYg6M.jpg",
+        "Image 7": "https://framerusercontent.com/images/OYfdtjwbkStf4tQU6TVvleQ7U9o.jpg",
+        "Image 8": "https://framerusercontent.com/images/tmlQompEQKPBpdEf80Jepecou0.jpg",
+        "Image 9": "https://framerusercontent.com/images/X0Mgo6eErRCGLuaNx2AyjpvKSSk.jpg",
+        "Image 10": "https://framerusercontent.com/images/9I7PYVEG1KAUGg0ZnxofvNCm0.jpg",
+        "Image 11": "https://framerusercontent.com/images/iqwbpqzqScliCJcn7RkfCGrPZRo.jpg",
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "rwRYg2cyb",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Bastet ",
+        "Slug": "angel-bastet",
+        "Name 1": "Angel Bastet ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "Angel of Dignity"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:3",
+                "attributes": {
+                  "text": "The Cat Goddess and solar deity linked with fertility, childbirth and perfume. Widely adored in Egypt, she was thought to be able to shield women and property from misfortune and was seen as the custodian of love. In Egyptian Heterography Bastet is depicted as a cat or a woman with a cat's head and was believed to be the protector of Lower Egypt."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:4"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/a2QfkggHL:0:5",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/X3YUrblngmfmhjhjM3ElgTPNk.jpg\",\"https://framerusercontent.com/images/5Fr4tRBmyrRb7NdgeGFkigE.jpg\",\"https://framerusercontent.com/images/8q7pySsmDQW2SbPM7sGCT82HX0.jpg\",\"https://framerusercontent.com/images/8LG3hPjB4xaClrOas9BBhzV1M.jpg\",\"https://framerusercontent.com/images/4YI6A1Ms0s0EdsjqIEDwzZOPdQ.jpg\",\"https://framerusercontent.com/images/B0Ap2uT0xtBlc84PmRcAGPY6WNk.jpg\",\"https://framerusercontent.com/images/YTeCOZzwvuI7j6dOdZ7Ur6fLAu0.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 75cm, 24cm, 37cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Year : 2019"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:rwRYg2cyb/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:rwRYg2cyb/bwIWv2KYY:4:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/hXjTyX2BjGgaxB2gGt0QLRyfOM.jpg",
+        "Image 2": "https://framerusercontent.com/images/HPvehQWECcyORd3EsDEThZkiAw0.jpg",
+        "Image 3": "https://framerusercontent.com/images/lNO7lj3P3D2Uclvj33Dl3VXqSyc.jpg",
+        "Image 4": "https://framerusercontent.com/images/8t6T61ltABboiZycLQzSzUWuw4.jpg",
+        "Image 5": "https://framerusercontent.com/images/bW1dinWFDl78AIgSp3e1b6rO70.jpg",
+        "Image 6": "https://framerusercontent.com/images/fr3Phv2kGUgPXJogN3Gnfz44uOY.jpg",
+        "Image 7": "https://framerusercontent.com/images/kfGdOvFOoCo3KGbJOofNCzTEQ.jpg",
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "ATHcMXK6C",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Hael ",
+        "Slug": "angel-hael",
+        "Name 1": "Angel Hael ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:ATHcMXK6C/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Kindness"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Inspires Beauty, Art and Kindness"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "The Angel Hael inspires art, and beauty. Although never mentioned in the scriptures, she is considered a modern addition to traditional angelic lore and is thought to inspire the kindness in mankind."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/a2QfkggHL:0:6",
+                "attributes": {
+                  "text": "Bronze Blake Ward and Boky Hackel"
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg\",\"https://framerusercontent.com/images/syKzWLog3eBiT6LrZ13NcGIz8Y.jpg\",\"https://framerusercontent.com/images/kOPL9PkgNKupXu0c8Q7W1JpKA.jpg\",\"https://framerusercontent.com/images/Z9VT0HnwezI8G1wkF6GarNYaCg.jpg\",\"https://framerusercontent.com/images/ChdE5Jxea95XLxggdTNdGOuUYk.jpg\",\"https://framerusercontent.com/images/5B7Dzy46hRKe85zQfBT6p7dUc.jpg\",\"https://framerusercontent.com/images/8pTIdgfqmx7TwF3Xvm0gpOcMDvc.jpg\",\"https://framerusercontent.com/images/X7kuyYzrbVMD51tpPCOTnHQ5N3w.jpg\",\"https://framerusercontent.com/images/4eXprjVI8GyS9ApR5lgqHXcoE44.jpg\",\"https://framerusercontent.com/images/S4KXwMSQJt1oH8sGMD9Y0Zkk.jpg\",\"https://framerusercontent.com/images/Ur9MjvsjQz96IoiltJQSypPl080.jpg\",\"https://framerusercontent.com/images/4VDjkSyhqooG3LtNVMXZdJbiM.jpg\",\"https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg\",\"https://framerusercontent.com/images/COjXVVnip8a1wUF4NZd8dARgg.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:ATHcMXK6C/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Dimensions : 63cm, 20cm, 31cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:ATHcMXK6C/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:ATHcMXK6C/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ATHcMXK6C/bwIWv2KYY:2:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg",
+        "Image 2": "https://framerusercontent.com/images/4VDjkSyhqooG3LtNVMXZdJbiM.jpg",
+        "Image 3": "https://framerusercontent.com/images/Ur9MjvsjQz96IoiltJQSypPl080.jpg",
+        "Image 4": "https://framerusercontent.com/images/S4KXwMSQJt1oH8sGMD9Y0Zkk.jpg",
+        "Image 5": "https://framerusercontent.com/images/8pTIdgfqmx7TwF3Xvm0gpOcMDvc.jpg",
+        "Image 6": "https://framerusercontent.com/images/ChdE5Jxea95XLxggdTNdGOuUYk.jpg",
+        "Image 7": "https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+        "Image 8": "https://framerusercontent.com/images/syKzWLog3eBiT6LrZ13NcGIz8Y.jpg",
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "egt0Wz24z",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Tahere",
+        "Slug": "angel-tahere",
+        "Name 1": "Angel Tahere",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:egt0Wz24z/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "An Angel of Women's Rights"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:egt0Wz24z/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "This work is dedicated to the life of Fatimah Baraghani (1814 -1852), an influential poet and theologian of the Baha Faith in Iran. Her life, influence and execution made her a key figure of the religion. Described as \"the first woman suffrage martyr” and as an example of courage in the struggle for women's rights."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:egt0Wz24z/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "Spirits Collection carries the figure forward by exposing the interior of the sculpture and thus addressing that which lies within us, creating partial figures by retaining only a fragment of the whole. Seeing our interior features as one of the most vital parts of our existence he addresses humanity and our human condition, while remaining true to his foundation and the tenets of classical figurative sculpture."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/ZfNBtEPdg0CFHdUoORbmw66aKk.jpg\",\"https://framerusercontent.com/images/eibRh2Ih1p2zg2O4NI76egoZrA.jpg\",\"https://framerusercontent.com/images/L15tGjTapH5IQEMt6b5sBckSe7I.jpg\",\"https://framerusercontent.com/images/82MHsPEmF8Vxuw7JktRLsebR70.jpg\",\"https://framerusercontent.com/images/rUl6UKaNvNEEi3RTTPVo4miNec.jpg\",\"https://framerusercontent.com/images/qm1zVmGYFDAZNmvC5WPjNrZ15dQ.jpg\",\"https://framerusercontent.com/images/RFkywQm9AVMzYfM2HKqS64r9WyM.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:egt0Wz24z/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "The Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:egt0Wz24z/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 69cm, 21cm, 16cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:egt0Wz24z/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:egt0Wz24z/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:egt0Wz24z/bwIWv2KYY:3:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/q9pqaCVA8rYkmiYdGKcmoeiMrI.jpg",
+        "Image 2": "https://framerusercontent.com/images/syKzWLog3eBiT6LrZ13NcGIz8Y.jpg",
+        "Image 3": "https://framerusercontent.com/images/kOPL9PkgNKupXu0c8Q7W1JpKA.jpg",
+        "Image 4": "https://framerusercontent.com/images/Z9VT0HnwezI8G1wkF6GarNYaCg.jpg",
+        "Image 5": "https://framerusercontent.com/images/8pTIdgfqmx7TwF3Xvm0gpOcMDvc.jpg",
+        "Image 6": "https://framerusercontent.com/images/S4KXwMSQJt1oH8sGMD9Y0Zkk.jpg",
+        "Image 7": "https://framerusercontent.com/images/Ur9MjvsjQz96IoiltJQSypPl080.jpg",
+        "Image 8": "https://framerusercontent.com/images/7AgUwllyZtSS1DyfZi00fCIk.jpg",
+        "Image 9": "https://framerusercontent.com/images/COjXVVnip8a1wUF4NZd8dARgg.jpg",
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "Mc2jUnaVo",
+      "draft": false,
+      "fields": {
+        "Title": "Goddess Neith",
+        "Slug": "goddess-neith",
+        "Name 1": "Goddess Neith",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:Mc2jUnaVo/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "An early Egyptian deity, Neith was considered the creator of the universe and mother of all Gods. She was said to have both female traits, as well as the masculine energy required in creation. Associated with wisdom, the cosmos, water, hunting, war, and fate as well as many of the domestic arts. One myth insinuates that she created the world by weaving it. The Warrior characteristic within Neith was considered an arbitrator and protector of the people, she also cared for the dead and helped to prepare their souls for the afterlife."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/ZTk7WolnKLfstI6Pho3EV1Q24.jpg\",\"https://framerusercontent.com/images/C55WBovmz0Vktdfuh7AezCiiGws.jpg\",\"https://framerusercontent.com/images/BK3jCoIxdaI7lRlALNJfGcAj5Ug.jpg\",\"https://framerusercontent.com/images/3UNrHT4y6yqJd2faicpZhCt8wXE.jpg\",\"https://framerusercontent.com/images/y2i8lzHZ1hR949eUvXARIcafgts.jpg\",\"https://framerusercontent.com/images/oi3ty4oKkSqWoftR696wKb9P4I.jpg\",\"https://framerusercontent.com/images/efhzM5NVMuT6Ff1fTdY5qS2wZw.jpg\",\"https://framerusercontent.com/images/0AB3Irxl0zOMPOkGwvYQzfpYVA.jpg\",\"https://framerusercontent.com/images/rLciHE9EyLErxYjFLojTEVIyXnY.jpg\",\"https://framerusercontent.com/images/mC3SQj3zFPRzRJdXqq0CTMb0S64.jpg\",\"https://framerusercontent.com/images/mC3SQj3zFPRzRJdXqq0CTMb0S64.jpg\",\"https://framerusercontent.com/images/LW4L4BMQdyiYocyYKKzrSKVpY.jpg\",\"https://framerusercontent.com/images/jtrCP0vXFyeG184sYtFeGxPxK4Y.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:Mc2jUnaVo/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Mc2jUnaVo/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 76cm, 24cm, 34cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Mc2jUnaVo/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:Mc2jUnaVo/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:Mc2jUnaVo/bwIWv2KYY:3:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/ZTk7WolnKLfstI6Pho3EV1Q24.jpg",
+        "Image 2": "https://framerusercontent.com/images/C55WBovmz0Vktdfuh7AezCiiGws.jpg",
+        "Image 3": "https://framerusercontent.com/images/BK3jCoIxdaI7lRlALNJfGcAj5Ug.jpg",
+        "Image 4": "https://framerusercontent.com/images/3UNrHT4y6yqJd2faicpZhCt8wXE.jpg",
+        "Image 5": "https://framerusercontent.com/images/y2i8lzHZ1hR949eUvXARIcafgts.jpg",
+        "Image 6": "https://framerusercontent.com/images/f5fCjy3VuvCfmdCfVs0x9AtIlbY.jpg",
+        "Image 7": "https://framerusercontent.com/images/efhzM5NVMuT6Ff1fTdY5qS2wZw.jpg",
+        "Image 8": "https://framerusercontent.com/images/rLciHE9EyLErxYjFLojTEVIyXnY.jpg",
+        "Image 9": "https://framerusercontent.com/images/PyyGfRvGtntiWZs4FEPHS3KuZJ0.jpg",
+        "Image 10": "https://framerusercontent.com/images/mC3SQj3zFPRzRJdXqq0CTMb0S64.jpg",
+        "Image 11": "https://framerusercontent.com/images/LW4L4BMQdyiYocyYKKzrSKVpY.jpg",
+        "Image 12": "https://framerusercontent.com/images/jtrCP0vXFyeG184sYtFeGxPxK4Y.jpg",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "nMB0vepBC",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Asherah",
+        "Slug": "angel-asherah",
+        "Name 1": "Angel Asherah",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "A Goddess of Healing and occasionally referred to as the Lady of the Sea. Considered a sacred feminine in several ancient religious beliefs, Asherah is thought of as a mother figure as well as a goddess in some Egyptian, Hittite, Philistine and Arabic texts."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/Ze4OvKuCmO4hfxCqLRQpSMfb2Y.jpg\",\"https://framerusercontent.com/images/Zkc3YbMPiSIAea2NEz1fzHT9U.jpg\",\"https://framerusercontent.com/images/lzWrJdNlRhs175fkd0LLDgRd4FE.jpg\",\"https://framerusercontent.com/images/xEKIDCWqL4dmtmKXK5wnRtw.jpg\",\"https://framerusercontent.com/images/Bu9HbvPxPfV4N4bM6zgCTRvPsM.jpg\",\"https://framerusercontent.com/images/8LvGNv3k6sA6z2LqSBtbE7p1Ee0.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "By Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 68cm, 20cm, 40cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Year : 2016"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:nMB0vepBC/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:nMB0vepBC/bwIWv2KYY:4:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/kORz0X1sGNfxc1oQbqz5E8Afz0.jpg",
+        "Image 2": "https://framerusercontent.com/images/TYGIwQHjAfKTBpm7KyyHgBvMA4.jpg",
+        "Image 3": "https://framerusercontent.com/images/ATHugy9H4beTOI9dN4Rch2rh5M.jpg",
+        "Image 4": "https://framerusercontent.com/images/wrpkLexA93coioWg8RRjCS3L8g.jpg",
+        "Image 5": "https://framerusercontent.com/images/GrRJjqtYUN7L7EOxVoS8KP3tKM.jpg",
+        "Image 6": "https://framerusercontent.com/images/abq6eFC2TOt1xhXYZblnN3KswE.jpg",
+        "Image 7": "https://framerusercontent.com/images/EGJLsb0dXtM26OYy7tdwa4eUb7o.jpg",
+        "Image 8": "https://framerusercontent.com/images/2w5257Qlzt2TLhq0gvhkv5Gt6QM.jpg",
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "J1IJLbhDK",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Dalquielle",
+        "Slug": "angel-dalquielle",
+        "Name 1": "Angel Dalquielle ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "One of three princesses of the Third Heaven"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Dalquielle was trained in fine graces as a means of protecting her public dignity. Using her beauty to advantage, she is outwardly flirtatious and covets attention, still she often remains apart and alone so as to conceal her dark side. This inexplicable element of her personality is shrouded in secrecy and mystery. She is known to be a courageous yet fierce opponent."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/a2QfkggHL:0:3"
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/uIkt1OfotA2uS3STlkzP9ag.jpg\",\"https://framerusercontent.com/images/iMfxNcUAnppb8VJBmroRrzM.jpg\",\"https://framerusercontent.com/images/dOeqv3QTHgXCft9S3pyZniPWKmQ.jpg\",\"https://framerusercontent.com/images/GpNcWHWnKmS09Eq6Jg2SMCeKEc.jpg\",\"https://framerusercontent.com/images/lSWy51sXB2HfOzO5HVZPnqChY.jpg\",\"https://framerusercontent.com/images/aAU6XtAxlqYbD68znnV4YC9XC9k.jpg\",\"https://framerusercontent.com/images/TIfWLqiOQ4cvlWhd2DyQQXBRsA.jpg\",\"https://framerusercontent.com/images/Ylhw6bFpNlioGNfqh4nAk7gtX7k.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : 67cm, 23cm, 31cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:3:1",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:4:0"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:J1IJLbhDK/bwIWv2KYY:5",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:J1IJLbhDK/bwIWv2KYY:5:0",
+                "attributes": {
+                  "text": "This Sculpture is presently for sale. Contact us for more information. "
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/uIkt1OfotA2uS3STlkzP9ag.jpg",
+        "Image 2": "https://framerusercontent.com/images/lSWy51sXB2HfOzO5HVZPnqChY.jpg",
+        "Image 3": "https://framerusercontent.com/images/acBsReKKHVCNHowuIx5ARi8JPE.jpg",
+        "Image 4": "https://framerusercontent.com/images/8EtYAy3ov6RvImGLqzHYm64bi4.jpg",
+        "Image 5": "https://framerusercontent.com/images/aAU6XtAxlqYbD68znnV4YC9XC9k.jpg",
+        "Image 6": "https://framerusercontent.com/images/iMfxNcUAnppb8VJBmroRrzM.jpg",
+        "Image 7": "https://framerusercontent.com/images/t7WBYwbP5m65KuFf6mwGPkUiSpU.jpg",
+        "Image 8": "https://framerusercontent.com/images/u4sKo7pX0ctg07FA6hz5d4KaIkA.jpg",
+        "Image 9": "https://framerusercontent.com/images/dOeqv3QTHgXCft9S3pyZniPWKmQ.jpg",
+        "Image 10": "https://framerusercontent.com/images/GpNcWHWnKmS09Eq6Jg2SMCeKEc.jpg",
+        "Image 11": "https://framerusercontent.com/images/pfpv6j5RwK6mrI8jEWBDxpBSiao.jpg",
+        "Image 12": "https://framerusercontent.com/images/WeZtM0fncOqOICY4EMH7eedxpY.jpg",
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "ImvWhQZmP",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Daniel ",
+        "Slug": "angel-daniel",
+        "Name 1": "Angel Daniel ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:ImvWhQZmP/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Angel of Eloquence helps us to distinguish the possible from the impossible and assists us by indicating which of our aspirations will be appropriate, constructive and genuine."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:2",
+                "attributes": {
+                  "text": "Angelic lore credits him with the rejuvenation of our inspirations and he is known to support and protect the undecided among us from the temptation to live by illicit means."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:4",
+                "attributes": {
+                  "text": "He encourages reflection and detachment from events so as to perceive the reality and has the capacity to materialize thoughts through our deeds."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/a2QfkggHL:0:6",
+                "attributes": {
+                  "text": "Known for his grace, eloquence and conviction, he grants forgiveness and solace for our sins."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/cAy5TyEBkRrWeH17EtJDTluJHA.jpg\",\"https://framerusercontent.com/images/0YfPATB5bytoUQgM4P4Nlow0cPk.jpg\",\"https://framerusercontent.com/images/mOu1gZNn3JNVCboei7pjK2neVE.jpg\",\"https://framerusercontent.com/images/GVOmEngkwpRMMsKz6Fhhe4CYNA.jpg\",\"https://framerusercontent.com/images/QxOZ8mS4sYfrHmu9JsHh8QVaprU.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:ImvWhQZmP/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "One Quarter Life-size Male Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:ImvWhQZmP/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Edition : Unique Piece "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:ImvWhQZmP/bwIWv2KYY:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:ImvWhQZmP/bwIWv2KYY:2:0",
+                "attributes": {
+                  "text": "Dimensions: 75cm, 24cm, 37cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/78baAnP9tbhxuqUXf2f1mzGo08.jpg",
+        "Image 2": "https://framerusercontent.com/images/M2Fs5aQpzGBbqC3g7YkwLC3SvuA.jpg",
+        "Image 3": "https://framerusercontent.com/images/7i8Pl1vOSXgvH2wlZeFSoFAH7qM.jpg",
+        "Image 4": "https://framerusercontent.com/images/tVYdpbQC6JrJbygGHhXsQEPzo.jpg",
+        "Image 5": "https://framerusercontent.com/images/ONVMcxxZpvdTaYKpg112xcGlItw.jpg",
+        "Image 6": "https://framerusercontent.com/images/iQXTZv11XUaAMNiz3vVKdwdlB8.jpg",
+        "Image 7": "https://framerusercontent.com/images/blMtshmMCsAWBsBUbu76h8DBi9U.jpg",
+        "Image 8": "https://framerusercontent.com/images/Ww7pZXar5GL9ku7jXV2wmOKQEis.jpg",
+        "Image 9": "https://framerusercontent.com/images/qbG7UXYO9x4SnD18ht20o1wXFiw.jpg",
+        "Image 10": "https://framerusercontent.com/images/1Z4sOZ7hoSgsEFFENZgskLnj0.jpg",
+        "Image 11": "https://framerusercontent.com/images/UedvAdEcmwS885M3Qxc4zudPLKQ.jpg",
+        "Image 12": "https://framerusercontent.com/images/JnMKf9XFuajGuFckU8rwmhcKUyY.jpg",
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "VIoApYJe0",
+      "draft": true,
+      "fields": {
+        "Title": "Angel Azrael ",
+        "Slug": "angel-azrael",
+        "Name 1": "Angel Azrael ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:VIoApYJe0/a2QfkggHL:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/a2QfkggHL:0:0",
+                "attributes": {
+                  "text": "The Archangel Azrael is known in Angelic lore to assist us in our passage from the material to the spiritual world. Often an arduous transition, Azrael brings comfort and guidance to those seeking their way. Azrael offers those who seek his guidance, comfort, and inspiration. He serves as a bridge to the spiritual realm offering thoughts and experiences that provide us with guidance. To find him one needs only to look inside yourself."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/nnsj8rzEzyjzjRZZT1meAhU2h8.jpg\",\"https://framerusercontent.com/images/FB83BfxasZM6cQFoA5SNHpoymjc.jpg\",\"https://framerusercontent.com/images/EohzMLLRKvQG7wOwDtBE1bYOwaA.jpg\",\"https://framerusercontent.com/images/0NgYkoMJZNq4IPgsd3UUzf51XCA.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:VIoApYJe0/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "The Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "One Quarter Life-size Male Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:4",
+                "attributes": {
+                  "text": "Bronze by Blake Ward & Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:5"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:0:6",
+                "attributes": {
+                  "text": "Photo Stephano "
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:VIoApYJe0/bwIWv2KYY:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:1:0",
+                "attributes": {
+                  "text": "Dimensions : "
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:VIoApYJe0/bwIWv2KYY:1:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:VIoApYJe0/bwIWv2KYY:1:2",
+                "attributes": {
+                  "text": "75cm, 19cm, 39cm (Height, Width, Depth)"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:VIoApYJe0/bwIWv2KYY:1:3"
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/4DL1aqjebC8bDgnvAODF4BsSA4Y.jpg",
+        "Image 2": "https://framerusercontent.com/images/n7XXWSEf50NyzdSRzZfYcabaHwE.jpg",
+        "Image 3": "https://framerusercontent.com/images/n7XXWSEf50NyzdSRzZfYcabaHwE.jpg",
+        "Image 4": "https://framerusercontent.com/images/nAM1i2qnZKwugJFKKtYeQsQBuo.jpg",
+        "Image 5": "https://framerusercontent.com/images/EohzMLLRKvQG7wOwDtBE1bYOwaA.jpg",
+        "Image 6": "https://framerusercontent.com/images/E6o4KfiacqzL6hrEzs8wTvBLVoU.jpg",
+        "Image 7": "https://framerusercontent.com/images/MslboLAo6yGjyUd4NKMuaerGwmc.jpg",
+        "Image 8": "https://framerusercontent.com/images/IreN3YGmHEThfRPdqisrbv5AWzg.jpg",
+        "Image 9": "https://framerusercontent.com/images/OFeaOiPjB9PEy6yeNLFkEmWmx0.jpg",
+        "Image 10": "https://framerusercontent.com/images/HbVY1ZeMP5TgS11M5AomzDWqqxs.jpg",
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {
+        "draft": true
+      }
+    },
+    {
+      "id": "q3fd1jL02",
+      "draft": false,
+      "fields": {
+        "Title": "Angel Angthal",
+        "Slug": "angel-angthal",
+        "Name 1": "Angel Angthal Angel of Peace",
+        "Content": null,
+        "Gallery": "[\"https://framerusercontent.com/images/R3r79tqKuZYbZ6gb55bqX6zo60.jpg\",\"https://framerusercontent.com/images/WBIuiZh5mSJnpGpSdnpJu0tV8M.jpg\",\"https://framerusercontent.com/images/XH3RwDDm72wXfSpF0EQzzrLHe8.jpg\",\"https://framerusercontent.com/images/xahwIjiVeeldW6ZP2bI5GbxH8E.jpg\",\"https://framerusercontent.com/images/sOlH39oanwyXoqFytuVMOL8kFU.jpg\",\"https://framerusercontent.com/images/sOlH39oanwyXoqFytuVMOL8kFU.jpg\",\"https://framerusercontent.com/images/21S2GUr58JfSTlHlHK8F8JCXs.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:q3fd1jL02/bwIWv2KYY:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:0",
+                "attributes": {
+                  "text": "Angel Angthal Angel of Peace"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:2",
+                "attributes": {
+                  "text": "This Sculpture is presently FOR SALE"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:3"
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:4"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:5",
+                "attributes": {
+                  "text": "Known as a planner and considered a peacemaker with a desire to balance and understand the law of harmony, she holds justice and truth in very high esteem."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:6"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:7",
+                "attributes": {
+                  "text": "Spirit Collection"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:9",
+                "attributes": {
+                  "text": "One Quarter Life-size Partial Female Figure"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:10"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:11",
+                "attributes": {
+                  "text": "Bronze by Blake Ward and Boky Hackel"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:12"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:q3fd1jL02/bwIWv2KYY:0:13",
+                "attributes": {
+                  "text": "Photo Phil Hill"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/PHVvw5esASYLZoE2L5sevUnRQ.jpg",
+        "Image 2": "https://framerusercontent.com/images/leJDVkBO5N0en9WhpNwLAYiQ.jpg",
+        "Image 3": "https://framerusercontent.com/images/qtKHEwhcgYGkV70Gr5JQnaWVccM.jpg",
+        "Image 4": "https://framerusercontent.com/images/eGiUxlnLzzNLuJzPLEAufjvg08w.jpg",
+        "Image 5": "https://framerusercontent.com/images/fN4scIbbXeYrLyAZd8Pqxd6MNro.jpg",
+        "Image 6": "https://framerusercontent.com/images/Bhm4HocH0QYKqbg7Ucu2kCy0.jpg",
+        "Image 7": "https://framerusercontent.com/images/e7KfoVd04QzVWz9jmmNHszqPZU.jpg",
+        "Image 8": null,
+        "Image 9": null,
+        "Image 10": null,
+        "Image 11": null,
+        "Image 12": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

@@ -1,0 +1,1323 @@
+{
+  "path": "/past-works",
+  "seo": {
+    "title": "Past Works — Boky Hackel-Ward",
+    "description": "An archive of Boky Hackel-Ward's earlier sculpture, studio work and press.",
+    "ogTitle": "Past Works — Boky Hackel-Ward",
+    "ogDescription": "An archive of Boky Hackel-Ward's earlier sculpture, studio work and press.",
+    "ogImage": null,
+    "canonical": "https://blakeandboky.com/past-works"
+  },
+  "navVariant": "DESKTOP GREY",
+  "bodyBackground": "rgb(15, 15, 15)",
+  "scrollHeight": 4645,
+  "sections": [
+    {
+      "type": "page-title",
+      "name": "Arrive",
+      "tag": "header",
+      "box": {
+        "y": 0,
+        "h": 206.4
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h4",
+        "text": "Boky Hackel-Ward"
+      },
+      "body": [],
+      "media": [],
+      "links": [],
+      "content": [
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h4",
+          "text": "Boky Hackel-Ward",
+          "html": "<h4><span><span>B</span><span>o</span><span>k</span><span>y</span></span> <span><span>H</span><span>a</span><span>c</span><span>k</span><span>e</span><span>l</span><span>-</span><span>W</span><span>a</span><span>r</span><span>d</span></span></h4>",
+          "font": {
+            "family": "Inter",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "back-link",
+      "name": "Dark",
+      "tag": "a",
+      "box": {
+        "y": 88,
+        "h": 38
+      },
+      "eyebrow": null,
+      "heading": null,
+      "body": [],
+      "media": [],
+      "links": [
+        {
+          "text": "← Back to Boky",
+          "href": "/boky-bio"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/boky-bio",
+          "label": "← Back to Boky",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "←"
+            },
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Back to Boky"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "link",
+          "text": "← Back to Boky",
+          "href": "/boky-bio",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "←",
+          "html": "<p>←</p>",
+          "font": {
+            "family": "Inter",
+            "size": "15px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Back to Boky",
+          "html": "<p>Back to Boky</p>",
+          "font": {
+            "family": "Inter",
+            "size": "12px",
+            "weight": "400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Wrap",
+      "tag": "div",
+      "box": {
+        "y": 206,
+        "h": 3225.9
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "p",
+        "text": "Past Works"
+      },
+      "body": [
+        {
+          "role": null,
+          "tag": "p",
+          "text": "An archive of earlier sculpture, studio work and press — the years of study and work that led to In Lucem and Figurative Poetry.",
+          "html": "<p>An archive of earlier sculpture, studio work and press — the years of study and work that led to In Lucem and Figurative Poetry.</p>"
+        }
+      ],
+      "media": [
+        {
+          "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2314,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.446,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+          "alt": "",
+          "naturalWidth": 1867,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.285,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+          "alt": "",
+          "naturalWidth": 2400,
+          "naturalHeight": 2010,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.838,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Damaged",
+          "href": "/past-works/damaged"
+        },
+        {
+          "text": "Broken",
+          "href": "/past-works/broken"
+        },
+        {
+          "text": "Losing Myself in You",
+          "href": "/past-works/losing-myself-in-you"
+        },
+        {
+          "text": "Ich und Es",
+          "href": "/past-works/ich-und-es"
+        },
+        {
+          "text": "Kaboom!",
+          "href": "/past-works/kaboom-archive"
+        },
+        {
+          "text": "The Restless Gaze and the Divided Ego",
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego"
+        },
+        {
+          "text": "Chicago Interview",
+          "href": "/past-works/chicago-interview-2019"
+        },
+        {
+          "text": "At Venturi Arte, Bologna",
+          "href": "/past-works/at-venturi-arte-bologna"
+        },
+        {
+          "text": "Working the Clay",
+          "href": "/past-works/working-the-clay"
+        },
+        {
+          "text": "At Mark Massa's",
+          "href": "/past-works/at-mark-massas"
+        },
+        {
+          "text": "Charting Landscapes",
+          "href": "/past-works/charting-landscapes"
+        },
+        {
+          "text": "The Story",
+          "href": "/past-works/the-story"
+        },
+        {
+          "text": "Press Document",
+          "href": "/past-works/press-document"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/past-works/damaged",
+          "label": "Damaged",
+          "image": {
+            "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+            "alt": "",
+            "naturalWidth": 1600,
+            "naturalHeight": 2314,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.446,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Damaged"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/broken",
+          "label": "Broken",
+          "image": {
+            "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+            "alt": "",
+            "naturalWidth": 1867,
+            "naturalHeight": 2400,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.285,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Broken"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/losing-myself-in-you",
+          "label": "Losing Myself in You",
+          "image": {
+            "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+            "alt": "",
+            "naturalWidth": 2400,
+            "naturalHeight": 2010,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.838,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Losing Myself in You"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/ich-und-es",
+          "label": "Ich und Es",
+          "image": {
+            "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+            "alt": "",
+            "naturalWidth": 1600,
+            "naturalHeight": 2400,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 1.5,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Ich und Es"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/kaboom-archive",
+          "label": "Kaboom!",
+          "image": {
+            "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+            "alt": "",
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.563,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Kaboom!"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego",
+          "label": "The Restless Gaze and the Divided Ego",
+          "image": {
+            "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+            "alt": "",
+            "naturalWidth": 543,
+            "naturalHeight": 543,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "The Restless Gaze and the Divided Ego"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/chicago-interview-2019",
+          "label": "Chicago Interview",
+          "image": {
+            "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Chicago Interview"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/at-venturi-arte-bologna",
+          "label": "At Venturi Arte, Bologna",
+          "image": {
+            "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "At Venturi Arte, Bologna"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/working-the-clay",
+          "label": "Working the Clay",
+          "image": {
+            "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Working the Clay"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/at-mark-massas",
+          "label": "At Mark Massa's",
+          "image": {
+            "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+            "alt": "",
+            "naturalWidth": 1920,
+            "naturalHeight": 1080,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.563,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "At Mark Massa's"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/charting-landscapes",
+          "label": "Charting Landscapes",
+          "image": {
+            "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+            "alt": "",
+            "naturalWidth": 3024,
+            "naturalHeight": 3024,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Charting Landscapes"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/the-story",
+          "label": "The Story",
+          "image": {
+            "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+            "alt": "",
+            "naturalWidth": 543,
+            "naturalHeight": 543,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": false,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "The Story"
+            }
+          ]
+        },
+        {
+          "href": "/past-works/press-document",
+          "label": "Press Document",
+          "image": {
+            "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+            "alt": "",
+            "naturalWidth": 1100,
+            "naturalHeight": 801,
+            "rendered": {
+              "w": 458.7,
+              "h": 458.7
+            },
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "cropped": true,
+            "cropRatio": 0.728,
+            "kind": "image",
+            "name": null
+          },
+          "texts": [
+            {
+              "role": "Title",
+              "tag": "h4",
+              "text": "Press Document"
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Past Works",
+          "html": "<p>Past Works</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "86px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "An archive of earlier sculpture, studio work and press — the years of study and work that led to In Lucem and Figurative Poetry.",
+          "html": "<p>An archive of earlier sculpture, studio work and press — the years of study and work that led to In Lucem and Figurative Poetry.</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Damaged",
+          "href": "/past-works/damaged",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/YvE9LDD1pE0Qu9w6oqR0YR5e8.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2314,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.446,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Damaged",
+          "html": "<h4><span><span>D</span><span>a</span><span>m</span><span>a</span><span>g</span><span>e</span><span>d</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Broken",
+          "href": "/past-works/broken",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/6307sy9VvJlRbkas5rN5yx0F8A.jpg",
+          "alt": "",
+          "naturalWidth": 1867,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.285,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Broken",
+          "html": "<h4><span><span>B</span><span>r</span><span>o</span><span>k</span><span>e</span><span>n</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Losing Myself in You",
+          "href": "/past-works/losing-myself-in-you",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/5GkoG9YQwesqSvKkBXSJ4h6po.jpg",
+          "alt": "",
+          "naturalWidth": 2400,
+          "naturalHeight": 2010,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.838,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Losing Myself in You",
+          "html": "<h4><span><span>L</span><span>o</span><span>s</span><span>i</span><span>n</span><span>g</span></span> <span><span>M</span><span>y</span><span>s</span><span>e</span><span>l</span><span>f</span></span> <span><span>i</span><span>n</span></span> <span><span>Y</span><span>o</span><span>u</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Ich und Es",
+          "href": "/past-works/ich-und-es",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/mfp9119LaI7KUCIZcH87cqEp6x0.jpg",
+          "alt": "",
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 1.5,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Ich und Es",
+          "html": "<h4><span><span>I</span><span>c</span><span>h</span></span> <span><span>u</span><span>n</span><span>d</span></span> <span><span>E</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Kaboom!",
+          "href": "/past-works/kaboom-archive",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Kaboom!",
+          "html": "<h4><span><span>K</span><span>a</span><span>b</span><span>o</span><span>o</span><span>m</span><span>!</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Restless Gaze and the Divided Ego",
+          "href": "/past-works/the-restless-gaze-and-the-divided-ego",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "The Restless Gaze and the Divided Ego",
+          "html": "<h4><span><span>T</span><span>h</span><span>e</span></span> <span><span>R</span><span>e</span><span>s</span><span>t</span><span>l</span><span>e</span><span>s</span><span>s</span></span> <span><span>G</span><span>a</span><span>z</span><span>e</span></span> <span><span>a</span><span>n</span><span>d</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>D</span><span>i</span><span>v</span><span>i</span><span>d</span><span>e</span><span>d</span></span> <span><span>E</span><span>g</span><span>o</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Chicago Interview",
+          "href": "/past-works/chicago-interview-2019",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Chicago Interview",
+          "html": "<h4><span><span>C</span><span>h</span><span>i</span><span>c</span><span>a</span><span>g</span><span>o</span></span> <span><span>I</span><span>n</span><span>t</span><span>e</span><span>r</span><span>v</span><span>i</span><span>e</span><span>w</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "At Venturi Arte, Bologna",
+          "href": "/past-works/at-venturi-arte-bologna",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/ZhCOXqTgunWaMvLik9bzUbAITqU.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "At Venturi Arte, Bologna",
+          "html": "<h4><span><span>A</span><span>t</span></span> <span><span>V</span><span>e</span><span>n</span><span>t</span><span>u</span><span>r</span><span>i</span></span> <span><span>A</span><span>r</span><span>t</span><span>e</span><span>,</span></span> <span><span>B</span><span>o</span><span>l</span><span>o</span><span>g</span><span>n</span><span>a</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Working the Clay",
+          "href": "/past-works/working-the-clay",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/rSM4IW2915r3qazMBbznQREJ7BA.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Working the Clay",
+          "html": "<h4><span><span>W</span><span>o</span><span>r</span><span>k</span><span>i</span><span>n</span><span>g</span></span> <span><span>t</span><span>h</span><span>e</span></span> <span><span>C</span><span>l</span><span>a</span><span>y</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "At Mark Massa's",
+          "href": "/past-works/at-mark-massas",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/oLPnNqH6hrcXqc3g5zxOjFh2ZU.jpg",
+          "alt": "",
+          "naturalWidth": 1920,
+          "naturalHeight": 1080,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.563,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "At Mark Massa's",
+          "html": "<h4><span><span>A</span><span>t</span></span> <span><span>M</span><span>a</span><span>r</span><span>k</span></span> <span><span>M</span><span>a</span><span>s</span><span>s</span><span>a</span><span>'</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Charting Landscapes",
+          "href": "/past-works/charting-landscapes",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/TXsvvBuZzfz72xKZ0PhB48ZMc.jpg",
+          "alt": "",
+          "naturalWidth": 3024,
+          "naturalHeight": 3024,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Charting Landscapes",
+          "html": "<h4><span><span>C</span><span>h</span><span>a</span><span>r</span><span>t</span><span>i</span><span>n</span><span>g</span></span> <span><span>L</span><span>a</span><span>n</span><span>d</span><span>s</span><span>c</span><span>a</span><span>p</span><span>e</span><span>s</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "The Story",
+          "href": "/past-works/the-story",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/past-works/7tUZHkHswAUA1UUQttt2yqi1cA.jpg",
+          "alt": "",
+          "naturalWidth": 543,
+          "naturalHeight": 543,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": false,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "The Story",
+          "html": "<h4><span><span>T</span><span>h</span><span>e</span></span> <span><span>S</span><span>t</span><span>o</span><span>r</span><span>y</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Press Document",
+          "href": "/past-works/press-document",
+          "zeroBox": false
+        },
+        {
+          "src": "/assets/bio/7YkCSpz8qDukZfoNr62ZZd3xonQ.jpg",
+          "alt": "",
+          "naturalWidth": 1100,
+          "naturalHeight": 801,
+          "rendered": {
+            "w": 458.7,
+            "h": 458.7
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 0.728,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": "Title",
+          "tag": "h4",
+          "text": "Press Document",
+          "html": "<h4><span><span>P</span><span>r</span><span>e</span><span>s</span><span>s</span></span> <span><span>D</span><span>o</span><span>c</span><span>u</span><span>m</span><span>e</span><span>n</span><span>t</span></span></h4>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "26px",
+            "weight": "300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "contact-cta-banner",
+      "name": "Desktop",
+      "tag": "div",
+      "box": {
+        "y": 3521,
+        "h": 638.4
+      },
+      "eyebrow": null,
+      "heading": {
+        "tag": "h2",
+        "text": "Get in touch for further inquiries"
+      },
+      "body": [],
+      "media": [
+        {
+          "src": "/assets/past-works/N3p5Wb949dODDSFfHjEz6xJau2c.png",
+          "alt": "",
+          "naturalWidth": 3200,
+          "naturalHeight": 4800,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 3.383,
+          "kind": "image",
+          "name": null
+        }
+      ],
+      "links": [
+        {
+          "text": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "cards": [
+        {
+          "href": "/contact",
+          "label": "Contact Us",
+          "image": null,
+          "texts": [
+            {
+              "role": null,
+              "tag": "p",
+              "text": "Contact Us"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        {
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg",
+          "rendered": {
+            "w": 21,
+            "h": 21
+          }
+        }
+      ],
+      "content": [
+        {
+          "src": "/assets/past-works/N3p5Wb949dODDSFfHjEz6xJau2c.png",
+          "alt": "",
+          "naturalWidth": 3200,
+          "naturalHeight": 4800,
+          "rendered": {
+            "w": 1440,
+            "h": 638.4
+          },
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "cropped": true,
+          "cropRatio": 3.383,
+          "kind": "image",
+          "name": null
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "h2",
+          "text": "Get in touch for further inquiries",
+          "html": "<h2>Get in touch for further inquiries</h2>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "54px",
+            "weight": "500"
+          }
+        },
+        {
+          "kind": "link",
+          "text": "Contact Us",
+          "href": "/contact",
+          "zeroBox": false
+        },
+        {
+          "kind": "text",
+          "role": null,
+          "tag": "p",
+          "text": "Contact Us",
+          "html": "<p>Contact Us</p>",
+          "font": {
+            "family": "Cormorant Garamond",
+            "size": "24px",
+            "weight": "400"
+          }
+        },
+        {
+          "kind": "svg",
+          "src": "/assets/global/icon-icon-81c7c0f29e.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "collection": "Andromeda",
+  "collectionId": "pWRaq9WmZ",
+  "detailPageId": "tNt7DYuwT",
+  "itemCount": 3,
+  "publishedCount": 3,
+  "items": [
+    {
+      "id": "QzH5erFPH",
+      "draft": false,
+      "fields": {
+        "Title": "Andromeda Adrasteo",
+        "Slug": "andromeda-adrasteo",
+        "Name": "Andromeda Adrasteo",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/ZhdDzuNaW:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/ZhdDzuNaW:0:0",
+                "attributes": {
+                  "text": "Sculpting an image of self"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/ZhdDzuNaW:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/ZhdDzuNaW:1:0",
+                "attributes": {
+                  "text": "Both the Andromeda and the Spirit Collections of sculptural work explore the notion of our interior essence. Searching for a trace that might revel our presence or passage, that could draw us in to inspect, consider and appraise."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/ZhdDzuNaW:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/ZhdDzuNaW:2:0",
+                "attributes": {
+                  "text": "Exploiting the physicality that sculpture furnishes at its’ core; Adrasteo portrays the human form depicted by a lattice curtain, thus allowing the viewer access to the interior cavity of the artwork, and exposing a spiraling structure of both conceptual and mechanical purpose."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/ZhdDzuNaW:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/ZhdDzuNaW:3:0",
+                "attributes": {
+                  "text": "Any significance that may be revealed to the observer is a matter of personal interpretation, yet suggested within this inner sanctum is a veiled path that might guide one into an unresolved or neglected volume within oneself, which may even include an impression of our history and perhaps even that of our ancestors. For those who remain invisible to us today, remain harboured within every cell of our being."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/U34TYnS6kB20b7kbffoJHs2N7U.jpeg\",\"https://framerusercontent.com/images/ulbfiZV5QzjKmJIVhkMDjHPrDo.jpeg\",\"https://framerusercontent.com/images/jD8okmwHfAowgt3OGtuyEY11M.jpeg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/mOhigPIK9:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextLineBreak",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:0"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:1",
+                "attributes": {
+                  "text": "Andromeda Adrasteo 3D Printed Cast Bronze"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:2"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:3",
+                "attributes": {
+                  "text": "This Sculpture is presently FOR SALE Delivery required 3 Months."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:4"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:5",
+                "attributes": {
+                  "text": "Please Contact me at Blake@BlakeWard.com"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:6"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:7",
+                "attributes": {
+                  "text": "BTC and SOL Accepted"
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:8"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:0:9",
+                "attributes": {
+                  "text": "Above you will find images of the Printed Wax and the Brut Bronze in the Foundry as well as the digital files."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:QzH5erFPH/mOhigPIK9:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:QzH5erFPH/mOhigPIK9:1:0",
+                "attributes": {
+                  "text": "Edition of 3"
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/PpkeJSmwUGJ2e9yCO3X3yyK9bc.jpg",
+        "Image 2": "https://framerusercontent.com/images/jwvEfh6kNJydYLvAwJV0yhw30jo.jpg",
+        "Image 3": "https://framerusercontent.com/images/BUgAYIXsnsrcwgIE462lYEQWnc.jpg",
+        "Image 4": "https://framerusercontent.com/images/KZKJ4wPFdG40z1rRVHo9bmcAA.jpg",
+        "Image 5": "https://framerusercontent.com/images/iDg2kHWvlE5uDjskITYHX036gwU.jpg",
+        "Image 6": "https://framerusercontent.com/images/tvCyYoffKfh3O7oyfxw7TnxS3XU.png",
+        "Image 7": "https://framerusercontent.com/images/4lokB3cI3D4OvY2r8EzhlkQWUiQ.png",
+        "Image 8": "https://framerusercontent.com/images/IZWVzN6MW8FshCvUvj86g4Iq9gU.png",
+        "Spline link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "dd98fhbI1",
+      "draft": false,
+      "fields": {
+        "Title": "Andromeda Callisto",
+        "Slug": "andromeda-callisto",
+        "Name": "Andromeda Callisto",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/ZhdDzuNaW:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:0:0",
+                "attributes": {
+                  "text": "Created on a completely digital platform, Callisto was born purely of mathematical geometry, yet an interior structure, that serves a mechanical purpose within the sculpture would be used as a physical form in an attempt to explore and represent a notion of being that speaks of the our increasingly intellectual and spiritual world today."
+                }
+              },
+              {
+                "type": "TextLineBreak",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:0:1"
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:0:2",
+                "attributes": {
+                  "text": "Attempting to evolve with our changing world these 3D printed bronze sculptures celebrate both our intellectual and spiritual strengths, while unveiling our weaknesses, they beckon us to look inside ourselves and awake, to commemorate our humanity and our inner beauty."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/ZhdDzuNaW:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:1:0",
+                "attributes": {
+                  "text": "A digital platform was seen as the only possible way in which I could attempt to represent a notion of our psychological abilities pertaining the branch of metaphysics devoted to the soul. The ability of the imagination to develop shapes and see forms mentally could now be paired with a technology that would, to a certain extent, be able to realize those imagined forms and thus could be used to create a representation, within the physical sculpture, to speak of our interior landscape, and some aspects of metaphysics that might contribute to our understanding of being."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/ZhdDzuNaW:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:2:0",
+                "attributes": {
+                  "text": "The representation of the figure would be reduced to various extents, exposing the interior to reveal our inner landscapes. In creating these intimate and complex structures I began with the mechanical in the first piece within the collection; Devorah, and have moved towards the organic within Callisto. By stripping the figure of the exterior shell the work also accentuates our faiblesses, underlining the splendour of our imperfections and our distinctive individual signatures."
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/ZhdDzuNaW:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/ZhdDzuNaW:3:0",
+                "attributes": {
+                  "text": "Attempting to evolve with our changing world these 3D printed bronze sculptures celebrate both our intellectual and spiritual strengths, while unveiling our weaknesses, they beckon us to look inside ourselves and awake, to commemorate our humanity and our inner beauty."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/FnUomTyqQgxAZEJCt5GktJinbQ.jpg\",\"https://framerusercontent.com/images/DtmZuwKsLumLCZopIAGKprLYxig.jpg\",\"https://framerusercontent.com/images/JEPIL6Ggwpjb1YPcj5CxMEyWME.jpg\",\"https://framerusercontent.com/images/1bRGCLGmDYhPvcpsir4kFvsL0B8.jpg\",\"https://framerusercontent.com/images/IvfJxEDwOuV18iOc9iWiZRzkxzs.jpg\",\"https://framerusercontent.com/images/AfuR6pzrOaCEmo6XTI2HeHaEmQg.jpg\",\"https://framerusercontent.com/images/zQpKJj0ZgwKFGZCqY3IqPuE0dw.jpg\",\"https://framerusercontent.com/images/uT0Py7i979SuPaqinZQ6gIEVS8o.jpg\",\"https://framerusercontent.com/images/6n06cQTej6krP4tYKHbOV5qs.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/mOhigPIK9:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:0:0",
+                "attributes": {
+                  "text": "Dimensions : 62cm, 20cm, 16cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/mOhigPIK9:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:1:0",
+                "attributes": {
+                  "text": "Weight : 13kg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/mOhigPIK9:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:2:0",
+                "attributes": {
+                  "text": "Year : 2021"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/mOhigPIK9:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:3:0",
+                "attributes": {
+                  "text": "Edition of 3 plus 1 Artist Proof"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:dd98fhbI1/mOhigPIK9:4",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:1",
+                "attributes": {
+                  "text": "3D-Printing",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=435"
+                  }
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:2",
+                "attributes": {
+                  "text": ", "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:3",
+                "attributes": {
+                  "text": "Wax",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=65571"
+                  }
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:4",
+                "attributes": {
+                  "text": ", "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:dd98fhbI1/mOhigPIK9:4:5",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/oxuyjUchaCOaIFsXJtX9t5yZWHY.jpg",
+        "Image 2": "https://framerusercontent.com/images/xNxRFRDRDW91j3zss4EYGv0zgjk.jpg",
+        "Image 3": "https://framerusercontent.com/images/6MsYFgrziRRX9zu2F1R8wplc6rI.jpg",
+        "Image 4": "https://framerusercontent.com/images/DwRfW3g2MCqZgisjmBT4NYLjZi4.jpg",
+        "Image 5": "https://framerusercontent.com/images/YGK4X40eFYfdpHeWXcZg00yC3BY.jpg",
+        "Image 6": null,
+        "Image 7": null,
+        "Image 8": null,
+        "Spline link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    },
+    {
+      "id": "GWijZ14VN",
+      "draft": false,
+      "fields": {
+        "Title": "Andromeda Devorah ",
+        "Slug": "andromeda-devorah",
+        "Name": "Andromeda Devorah ",
+        "Content": [
+          {
+            "type": "TextBlock",
+            "id": "v:GWijZ14VN/ZhdDzuNaW:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/ZhdDzuNaW:0:0",
+                "attributes": {
+                  "text": "An original sculpture entitled “Andromeda” was created by hand, in wax, using the traditional methods of the artist, and cast in bronze. “Andromeda” was then digitally scanned and uploaded to the CAD software: “ZBrush”. In this program a modified digital sculpture entitled “Devorah” was created from the original scan. This digital file was altered by removing some of the surface of the sculpture as well as by adding an interior structure. The altered digital file was then printed on a SLS 3D powder bed printer in a wax polymer and cast in bronze using the lost wax process."
+                }
+              }
+            ]
+          }
+        ],
+        "Gallery": "[\"https://framerusercontent.com/images/lcaHx3z1ozhy4pC9knl473Hiji4.jpg\",\"https://framerusercontent.com/images/8jIdbfTvl9MpbG7Vn92cFlOXRsA.jpg\",\"https://framerusercontent.com/images/K28Wtqh151weamF3AqNONt91lM.jpg\",\"https://framerusercontent.com/images/QhLxOdJXw8SMxxNc8eZpQUdJfgk.jpg\"]",
+        "Content 2": [
+          {
+            "type": "TextBlock",
+            "id": "v:GWijZ14VN/mOhigPIK9:0",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:0:0",
+                "attributes": {
+                  "text": "Dimensions : 62cm, 12cm, 20cm (Height, Width, Depth)"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:GWijZ14VN/mOhigPIK9:1",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:1:0",
+                "attributes": {
+                  "text": "Year : 2019"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:GWijZ14VN/mOhigPIK9:2",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:2:0",
+                "attributes": {
+                  "text": "Edition of 3 plus 1 Artist Proof"
+                }
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "id": "v:GWijZ14VN/mOhigPIK9:3",
+            "attributes": {
+              "tag": "p"
+            },
+            "children": [
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:0",
+                "attributes": {
+                  "text": "Material : "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:1",
+                "attributes": {
+                  "text": "3D-Printing",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=435"
+                  }
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:2",
+                "attributes": {
+                  "text": ", "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:3",
+                "attributes": {
+                  "text": "Wax",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=65571"
+                  }
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:4",
+                "attributes": {
+                  "text": ", "
+                }
+              },
+              {
+                "type": "TextRun",
+                "id": "v:GWijZ14VN/mOhigPIK9:3:5",
+                "attributes": {
+                  "text": "Bronze",
+                  "link": {
+                    "href": "https://sculpture-network.org/en/search?qhasanyobject=419"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "Image 1": "https://framerusercontent.com/images/FOpVQaHzQVYaqMZCoPgIKdDNAP0.jpg",
+        "Image 2": "https://framerusercontent.com/images/Xqy03q5cfL8b4q0Rb42CcO7TXk.jpg",
+        "Image 3": "https://framerusercontent.com/images/MYwqbVORoA3ZvpQjDI7HkBQNXms.jpg",
+        "Image 4": "https://framerusercontent.com/images/uBIc1VgB6qA0SNC5oDW9MgvxHW0.jpg",
+        "Image 5": "https://framerusercontent.com/images/e6w51N1zEmI4s0jDXRTGoLJ8.jpg",
+        "Image 6": "https://framerusercontent.com/images/7YjM2dBkznyTPebE4wKreMLGPao.jpg",
+        "Image 7": null,
+        "Image 8": null,
+        "Spline link": null,
+        "id": null
+      },
+      "otherAttributes": {}
+    }
+  ]
+}

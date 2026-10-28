@@ -1,0 +1,227 @@
+{
+ "type": "FrameNode",
+ "name": "Desktop",
+ "id": "X9uhlxZhH",
+ "$isPrimary": true,
+ "$parentId": "tzLJ7sBGm",
+ "$scopeId": "tzLJ7sBGm",
+ "$layoutTemplateId": "eh2wp0pmv",
+ "$layoutTemplateDisplayName": "Page Template",
+ "$mediaQuery": {
+  "range": "(min-width: 1400px)",
+  "name": "Desktop"
+ },
+ "attributes": {
+  "left": "-51px",
+  "right": "null",
+  "top": "0px",
+  "bottom": "null",
+  "centerAnchorX": "0%",
+  "centerAnchorY": "0%",
+  "constraintsLocked": false,
+  "width": "1400px",
+  "height": "auto",
+  "transition": "spring-duration 0.4s 0.2 0s"
+ },
+ "children": [
+  {
+   "type": "ComponentInstanceNode",
+   "id": "AFrQik4Ju",
+   "component": "Yppqt3Cs3Y8TZqvASnXl",
+   "$componentDisplayName": "Smooth Scroll",
+   "attributes": {
+    "$control__intensity": "30",
+    "position": "relative",
+    "width": "auto",
+    "height": "auto"
+   }
+  },
+  {
+   "type": "FrameNode",
+   "name": "Blog Posts",
+   "id": "T6mK8mMz_",
+   "attributes": {
+    "appearEffect": {
+     "threshold": 0.5,
+     "trigger": "onMount",
+     "enter": {
+      "opacity": 0,
+      "x": 0,
+      "y": 150,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0,
+      "transition": "spring-duration 1.5s 0 1s"
+     }
+    },
+    "htmlTag": "section",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "center",
+    "stackAlignment": "center",
+    "stackWrapEnabled": false,
+    "gap": "10px",
+    "overflow": "hidden",
+    "padding": "50px 20px 150px 20px",
+    "position": "relative",
+    "scrollTargetEnabled": true,
+    "elementId": "posts",
+    "width": "1fr",
+    "height": "auto",
+    "zIndex": "5"
+   },
+   "children": [
+    {
+     "type": "FrameNode",
+     "id": "r6EwCTr21",
+     "attributes": {
+      "layout": "grid",
+      "gridAlignment": "center",
+      "gridColumnCount": 4,
+      "gridColumnMinWidth": "50px",
+      "gap": "100px 0px",
+      "position": "relative",
+      "collectionList": {
+       "collection": "Collections",
+       "repeatedDescendantId": "UZssYMhUM"
+      },
+      "width": "1fr",
+      "height": "auto"
+     },
+     "children": [
+      {
+       "type": "ComponentInstanceNode",
+       "id": "UZssYMhUM",
+       "component": "RKOTpOXF5",
+       "$componentDisplayName": "Article Thumbnail",
+       "attributes": {
+        "$control__variant": "Square Desktop",
+        "$control__image": "var(--variable-oKdB_U7yY)",
+        "$control__title": "var(--variable-wSPsBioiK)",
+        "$control__link": "var(--variable-h42an1rpv)",
+        "$control__textColor": "var(--token-28353d2e-dccd-43d2-b65d-08536d81b97b)",
+        "cursor": "pointer",
+        "hoverEffect": {
+         "opacity": 1,
+         "x": "0px",
+         "y": "-10px",
+         "scale": 1,
+         "skewX": "0deg",
+         "skewY": "0deg",
+         "transition": "tween 0.59,0.02,0.44,1 0.4s 0s",
+         "rotate": "0deg"
+        },
+        "position": "relative",
+        "width": "433px",
+        "height": "auto"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "FrameNode",
+   "id": "U1xfqgWcf",
+   "attributes": {
+    "appearEffect": {
+     "threshold": 0.5,
+     "trigger": "onMount",
+     "enter": {
+      "opacity": 0,
+      "x": 0,
+      "y": 150,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0,
+      "transition": "spring-duration 1s 0 1.5s"
+     }
+    },
+    "fill": "var(--token-c344a79f-ab0b-4307-a35b-e6d12f18275e)",
+    "htmlTag": "section",
+    "layout": "grid",
+    "gridAlignment": "center",
+    "gridColumnCount": 4,
+    "gridColumnMinWidth": "50px",
+    "gap": "40px 0px",
+    "position": "relative",
+    "collectionList": {
+     "collection": "Collections",
+     "repeatedDescendantId": "xcCpdOuoq"
+    },
+    "width": "1fr",
+    "height": "auto",
+    "visible": "false",
+    "zIndex": "1"
+   },
+   "children": [
+    {
+     "type": "ComponentInstanceNode",
+     "id": "xcCpdOuoq",
+     "name": "Project Thumbnail",
+     "component": "X4T7SLIlh",
+     "$componentDisplayName": "Project Thumbnail",
+     "attributes": {
+      "onClick": [
+       {
+        "action": "SET_VARIANT",
+        "controls": {
+         "variant": "TeTxxSVxx"
+        }
+       }
+      ],
+      "$control__variant": "Desktop",
+      "$control__thumbnail": "var(--variable-oKdB_U7yY)",
+      "$control__projectTitle": "var(--variable-wSPsBioiK)",
+      "$control__category": {
+       "from": "var(--variable-T6BZ4iDfR)",
+       "transforms": [
+        {
+         "name": "optionToDisplayName"
+        }
+       ]
+      },
+      "$control__link": "var(--variable-h42an1rpv)",
+      "gridItemColumnSpan": "1",
+      "gridItemRowSpan": "1",
+      "hoverEffect": {
+       "opacity": 1,
+       "x": "0px",
+       "y": "-10px",
+       "scale": 1,
+       "skewX": "0deg",
+       "skewY": "0deg",
+       "transition": "spring-physics 330 50 6.6 0s",
+       "rotate": "0deg"
+      },
+      "position": "relative",
+      "width": "1fr",
+      "height": "auto"
+     }
+    }
+   ]
+  },
+  {
+   "type": "ComponentInstanceNode",
+   "id": "lOsGptaQr",
+   "component": "b2Fo96jRF",
+   "$componentDisplayName": "Project Views",
+   "attributes": {
+    "$control__variant": "All Desktop Grid",
+    "position": "relative",
+    "scrollTargetEnabled": true,
+    "elementId": "curriculum",
+    "width": "100%",
+    "height": "auto",
+    "visible": "false",
+    "zIndex": "2"
+   }
+  }
+ ]
+}
