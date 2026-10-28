@@ -1,0 +1,116 @@
+---
+import Base from "../../layouts/Base.astro";
+import Card from "../../components/Card.astro";
+import CtaBand from "../../components/CtaBand.astro";
+import BackPill from "../../components/BackPill.astro";
+import ListHeader from "../../components/news/ListHeader.astro";
+import works from "../../content/data/past-works.json";
+import page from "../../content/data/pages/past-works.json";
+
+const items = [...works].sort((a, b) => Number(a.order) - Number(b.order));
+const wrap = page.sections.find((s) => s.name === "Wrap");
+const texts = (wrap?.content ?? []).filter((c) => c.kind === "text" && c.tag === "p");
+const heading = texts[0]?.text ?? "Past Works";
+const intro = texts[1]?.text ?? "";
+const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[0]?.src ?? "/assets/past-works/N3p5Wb949dODDSFfHjEz6xJau2c.png";
+---
+
+<Base title="Past Works" description={page.seo.description} nav="grey">
+	<BackPill href="/boky-bio" label="Back to Boky" />
+	<ListHeader title="Boky Hackel-Ward" />
+	<section class="wrap">
+		<div class="intro" data-arrive style="--d:1200ms">
+			<h2 class="ttl">{heading}</h2>
+			{intro && <p class="it">{intro}</p>}
+		</div>
+		<div class="grid">
+			{
+				items.map((w) => (
+					<Card
+						href={`/past-works/${w.slug}`}
+						image={w.cardImage?.src}
+						title={w.cardTitle.trim()}
+						ratio="1 / 1"
+						bg="var(--ink)"
+						sizes="(min-width: 1400px) 33vw, (min-width: 810px) 50vw, 100vw"
+					/>
+				))
+			}
+		</div>
+	</section>
+	<CtaBand image={cta} pos="50% 62%" />
+</Base>
+
+<style>
+	.wrap {
+		padding: 0 32px 100px;
+	}
+	.intro {
+		margin-block-start: -10px;
+		padding-block-end: 68px;
+	}
+	.ttl {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-pastworks);
+		line-height: 1.04;
+		letter-spacing: normal;
+		color: var(--paper);
+	}
+	.it {
+		margin-block-start: 27px;
+		max-inline-size: 660px;
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 36.4px;
+		letter-spacing: normal;
+		color: var(--sand);
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		row-gap: 26px;
+	}
+	/* Live cards reserve a fixed caption block, so rows keep one rhythm. */
+	.grid :global(.meta) {
+		min-block-size: 115px;
+	}
+	@media (max-width: 1399.98px) {
+		.wrap {
+			padding-inline: 26px;
+		}
+		.intro {
+			margin-block-start: -6px;
+		}
+		.it {
+			margin-block-start: 22px;
+		}
+		.grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			row-gap: 27px;
+		}
+		.grid :global(.meta) {
+			min-block-size: 143px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.wrap {
+			padding-inline: 0;
+		}
+		.intro {
+			padding-inline: 12px;
+			padding-block-end: 70px;
+		}
+		.it {
+			margin-block-start: 22px;
+			font-size: 20px;
+			line-height: 28px;
+		}
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 28px;
+		}
+	}
+</style>

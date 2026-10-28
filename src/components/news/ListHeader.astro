@@ -1,0 +1,31 @@
+---
+// Wraps the shared ArriveHeader so the title renders as on the live list and
+// article pages: Inter 300 26px/36.4, not the Cormorant H2 role.
+import ArriveHeader from "../ArriveHeader.astro";
+interface Props {
+	title: string;
+	tone?: "dark" | "light";
+}
+const { title, tone = "dark" } = Astro.props;
+---
+
+<div class="lh">
+	<ArriveHeader title={title} tone={tone} />
+</div>
+
+<style>
+	.lh :global(.arrive h1) {
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 26px;
+		line-height: 36.4px;
+		letter-spacing: -1.04px;
+	}
+	.lh :global(.arrive--light h1) {
+		color: var(--black);
+	}
+	/* The live hairline is #363636 on dark and light pages alike. */
+	.lh :global(.rule) {
+		background: var(--grey-363);
+	}
+</style>

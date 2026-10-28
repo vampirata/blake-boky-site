@@ -1,0 +1,99 @@
+---
+// Article body from the CMS rich text blocks (p, h2, h3, blockquote, ul).
+// Empty headings (Framer "<h3><br></h3>") become plain spacer paragraphs.
+interface Block {
+	tag: string;
+	html: string;
+	text?: string;
+}
+interface Props {
+	blocks: Block[];
+}
+const { blocks } = Astro.props;
+const out = blocks.map((b) => {
+	const empty = !(b.text ?? "").trim() && !/<img/i.test(b.html);
+	if (empty && /^h[1-6]$/.test(b.tag)) return "<p><br></p>";
+	return b.html;
+});
+---
+
+<div class="body" set:html={out.join("\n")} />
+
+<style>
+	.body {
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 29.75px;
+		letter-spacing: -0.34px;
+		color: var(--charcoal);
+	}
+	.body :global(> * + *) {
+		margin-block-start: 20px;
+	}
+	.body :global(strong),
+	.body :global(b) {
+		font-weight: 400;
+	}
+	.body :global(h2) {
+		margin-block: 48px 4px;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-h3);
+		line-height: 1.2;
+		letter-spacing: 0.3px;
+	}
+	.body :global(h3) {
+		margin-block: 40px 4px;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 27px;
+		line-height: 1.25;
+		letter-spacing: -0.04em;
+	}
+	.body :global(blockquote) {
+		margin-block: 28px;
+		padding-inline-start: 20px;
+		border-inline-start: 2px solid var(--hairline);
+		font-weight: 400;
+		font-style: italic;
+		font-size: 16px;
+		line-height: 28.8px;
+		letter-spacing: normal;
+		color: #999999;
+	}
+	.body :global(blockquote p + p) {
+		margin-block-start: 12px;
+	}
+	.body :global(ul) {
+		list-style: disc;
+		padding-inline-start: 21px;
+	}
+	.body :global(ol) {
+		list-style: decimal;
+		padding-inline-start: 21px;
+	}
+	.body :global(a) {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		transition: color 200ms var(--ease-link);
+	}
+	.body :global(a:hover) {
+		color: var(--gold-dark);
+	}
+	@media (max-width: 1399.98px) {
+		.body :global(h3) {
+			font-size: 25px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.body {
+			font-size: 16px;
+			line-height: 28px;
+			letter-spacing: -0.32px;
+		}
+		.body :global(h3) {
+			font-size: 23px;
+		}
+	}
+</style>

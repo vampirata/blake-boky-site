@@ -1,0 +1,204 @@
+---
+import Base from "../../layouts/Base.astro";
+import BackPill from "../../components/BackPill.astro";
+import Img from "../../components/Img.astro";
+import works from "../../content/data/past-works.json";
+import { img } from "../../lib/img";
+import { url } from "../../lib/site";
+
+export function getStaticPaths() {
+	return works.map((w) => ({ params: { slug: w.slug }, props: { w } }));
+}
+const { w } = Astro.props;
+const title = w.title.trim();
+const hero = w.heroImage?.src ?? null;
+const heroRatio = img(hero)?.ratio ?? 1;
+// Prefer the archived local copy of a linked file (the press PDF) when it exists.
+const ext = w.externalLink as { label?: string; href?: string; local?: string } | null;
+const linkHref = ext ? (ext.local ? url(ext.local) : ext.href) : null;
+const linkLabel = (ext?.label ?? "View original").replace(/\s*→\s*$/, "");
+const meta = [
+	{ label: "Year", value: w.year },
+	{ label: "Medium", value: w.medium },
+].filter((m) => m.value);
+type Block = { type: string; html?: string; src?: string; alt?: string };
+const body = (w.body ?? []) as Block[];
+const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year ? ` (${w.year})` : ""}.`;
+---
+
+<Base title={title} description={description} ogImage={hero ?? undefined} nav="grey">
+	<BackPill href="/past-works" label="Past Works" />
+	<article class="wrap">
+		<header class="hd" data-arrive>
+			<p class="eb">{w.artist ?? "Boky Hackel-Ward"}</p>
+			<h1 class="ttl">{title}</h1>
+		</header>
+		{
+			meta.length > 0 && (
+				<dl class="meta" data-arrive style="--d:1200ms">
+					{meta.map((m) => (
+						<div>
+							<dt>{m.label}</dt>
+							<dd>{m.value}</dd>
+						</div>
+					))}
+				</dl>
+			)
+		}
+		{
+			hero && (
+				<div class="hero" style={`--r:${heroRatio}`} data-reveal>
+					<Img src={hero} alt={w.heroImage?.alt || title} sizes="(min-width: 810px) 90vw, 100vw" eager />
+				</div>
+			)
+		}
+		<div class="body" data-reveal>
+			{
+				body.map((b) =>
+					b.type === "image" && b.src ? (
+						<div class="inline-img">
+							<Img src={b.src} alt={b.alt ?? ""} sizes="(min-width: 810px) 340px, 50vw" />
+						</div>
+					) : (
+						<Fragment set:html={b.html} />
+					)
+				)
+			}
+		</div>
+		{w.sourceLabel && <p class="src">{w.sourceLabel}</p>}
+		{
+			linkHref && (
+				<a class="view" href={linkHref} target="_blank" rel="noopener">
+					{linkLabel} <span aria-hidden="true">→</span>
+				</a>
+			)
+		}
+	</article>
+</Base>
+
+<style>
+	.wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 18px;
+		/* Live starts at 120px, where the fixed back pill covers the eyebrow. */
+		padding: 146px 32px 100px;
+	}
+	.hd {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+	.eb {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14.4px;
+		letter-spacing: 3.36px;
+		text-transform: uppercase;
+		color: #8a8a86;
+	}
+	.ttl {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-pastwork-detail);
+		line-height: 1.05;
+		letter-spacing: normal;
+		color: var(--paper);
+		overflow-wrap: anywhere;
+	}
+	.meta {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 24px;
+		inline-size: 100%;
+		margin: 7px 0 0;
+		padding-block-start: 34px;
+		border-block-start: 1px solid var(--grey-363);
+	}
+	.meta dt {
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13.2px;
+		letter-spacing: 2.42px;
+		text-transform: uppercase;
+		color: #8a8a86;
+	}
+	.meta dd {
+		margin: 7px 0 0;
+		font-family: var(--font-display);
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 26.4px;
+		letter-spacing: normal;
+		color: var(--paper);
+	}
+	/* Whole image at its own ratio, never taller than 80vh. */
+	.hero {
+		inline-size: min(100%, calc(80vh * var(--r)));
+		border-radius: 2px;
+		overflow: hidden;
+	}
+	.body {
+		max-inline-size: 700px;
+		margin-block-start: 4px;
+		font-size: 17px;
+		line-height: 29.75px;
+		letter-spacing: -0.34px;
+		color: var(--sand);
+	}
+	.body :global(p + p),
+	.body :global(* + .inline-img),
+	.body :global(.inline-img + p) {
+		margin-block-start: 20px;
+	}
+	.body :global(strong) {
+		font-weight: 400;
+		color: var(--grey-c2);
+	}
+	.inline-img {
+		display: inline-block;
+		inline-size: calc(50% - 10px);
+		vertical-align: top;
+	}
+	.inline-img + .inline-img {
+		margin-inline-start: 16px;
+	}
+	.src {
+		margin-block-start: 13px;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 15.6px;
+		letter-spacing: normal;
+		color: #8a8a86;
+	}
+	.view {
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		margin-block-start: 12px;
+		padding: 15px 31px;
+		border: 1px solid var(--white);
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19.2px;
+		letter-spacing: normal;
+		color: var(--white);
+		transition:
+			background-color 300ms var(--ease-out),
+			border-color 300ms var(--ease-out),
+			color 300ms var(--ease-out);
+	}
+	.view:hover {
+		background: var(--gold);
+		border-color: var(--gold);
+		color: var(--ink);
+	}
+	@media (max-width: 809.98px) {
+		.body {
+			font-size: 16px;
+			line-height: 28px;
+			letter-spacing: -0.32px;
+		}
+	}
+</style>

@@ -1,0 +1,68 @@
+---
+import Base from "../../layouts/Base.astro";
+import Card from "../../components/Card.astro";
+import CtaBand from "../../components/CtaBand.astro";
+import ListHeader from "../../components/news/ListHeader.astro";
+import news from "../../content/data/news.json";
+import page from "../../content/data/pages/news.json";
+
+const items = [...news].sort((a, b) => Number(a.order) - Number(b.order));
+const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[0]?.src ?? "/assets/news/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg";
+---
+
+<Base title="News" description={page.seo.description} nav="grey" smooth>
+	<ListHeader title="News" />
+	<section class="posts">
+		<div class="grid">
+			{
+				items.map((n) => (
+					<Card
+						href={`/news/${n.slug}`}
+						image={n.cardImage?.src}
+						title={n.cardTitle.trim()}
+						date={n.cardDate}
+						ratio="1 / 1"
+						bg="var(--ink)"
+						sizes="(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw"
+					/>
+				))
+			}
+		</div>
+	</section>
+	<CtaBand image={cta} pos="50% 50%" />
+</Base>
+
+<style>
+	.posts {
+		padding: 50px 20px 150px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		row-gap: 32px;
+	}
+	/* Live cards reserve a fixed caption block, so rows keep one rhythm. */
+	.grid :global(.meta) {
+		min-block-size: 179px;
+	}
+	.grid :global(.card-date) {
+		color: var(--white);
+	}
+	@media (max-width: 1399.98px) {
+		.grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			row-gap: 0;
+		}
+		.grid :global(.meta) {
+			min-block-size: 143px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.posts {
+			padding-inline: 15px;
+		}
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+		}
+	}
+</style>

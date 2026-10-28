@@ -1,0 +1,85 @@
+---
+import Base from "../../layouts/Base.astro";
+import BackPill from "../../components/BackPill.astro";
+import Img from "../../components/Img.astro";
+import ListHeader from "../../components/news/ListHeader.astro";
+import ArticleBody from "../../components/news/ArticleBody.astro";
+import PrevNext from "../../components/news/PrevNext.astro";
+import news from "../../content/data/news.json";
+
+export function getStaticPaths() {
+	return news.map((n) => ({ params: { slug: n.slug }, props: { n } }));
+}
+const { n } = Astro.props;
+const title = n.title.trim();
+const hero = n.heroImage?.src ?? n.cardImage?.src;
+---
+
+<Base title={title} description={n.seo?.description} ogImage={hero ?? undefined} nav="light" bg="var(--paper)" fg="var(--charcoal)" smooth>
+	<BackPill href="/news" label="News" tone="light" />
+	<ListHeader title={title} tone="light" />
+	<article class="main">
+		{
+			hero && (
+				<div class="lead" data-arrive style="--d:1200ms">
+					<Img src={hero} alt={n.heroImage?.alt ?? ""} sizes="(min-width: 1400px) 659px, 100vw" eager />
+				</div>
+			)
+		}
+		<div class="col">
+			<p class="date">{n.date}</p>
+			<ArticleBody blocks={n.body} />
+		</div>
+	</article>
+	<PrevNext previous={n.previous} next={n.next} />
+</Base>
+
+<style>
+	.main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-block-start: 20px;
+	}
+	.lead {
+		inline-size: 659px;
+		max-inline-size: 100%;
+	}
+	.col {
+		inline-size: 100%;
+		max-inline-size: calc(1120px + 40px);
+		padding: 100px 20px 75px;
+	}
+	.date {
+		margin-block-end: 49px;
+		font-size: 20px;
+		line-height: 34px;
+		letter-spacing: -0.4px;
+		color: var(--charcoal);
+	}
+	@media (max-width: 1399.98px) {
+		.main {
+			padding-block-start: 0;
+		}
+		.lead {
+			inline-size: 100%;
+		}
+		.col {
+			max-inline-size: calc(76% + 40px);
+		}
+		.date {
+			font-size: 19px;
+			line-height: 32.3px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.col {
+			max-inline-size: none;
+			padding: 100px 15px 75px;
+		}
+		.date {
+			font-size: 18px;
+			line-height: 30.6px;
+		}
+	}
+</style>

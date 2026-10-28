@@ -1,16 +1,19 @@
 ---
-// List-page header: title rises in after load, full-width hairline below.
+// List-page header: the title (Inter 300 26px, split per character on live)
+// rises in after load, full-width hairline below.
+import SplitTitle from "./SplitTitle.astro";
 interface Props {
 	title: string;
 	tone?: "dark" | "light";
+	as?: string;
 }
-const { title, tone = "dark" } = Astro.props;
+const { title, tone = "dark", as = "h1" } = Astro.props;
 ---
 
 <header class:list={["arrive", `arrive--${tone}`]}>
 	<div data-arrive>
 		<slot name="before" />
-		<h1 class="h2">{title}</h1>
+		<SplitTitle text={title} as={as} class="arrive-title" />
 		<slot />
 	</div>
 </header>
@@ -21,8 +24,12 @@ const { title, tone = "dark" } = Astro.props;
 		padding: 150px var(--gutter) 20px;
 		overflow: hidden;
 	}
-	.arrive h1 {
-		line-height: 1.1;
+	.arrive :global(.arrive-title) {
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 26px;
+		line-height: 1.4;
+		letter-spacing: -0.02em;
 	}
 	.arrive--light {
 		color: var(--charcoal);

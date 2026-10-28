@@ -1,0 +1,108 @@
+---
+// Previous / next article cards at the foot of a news article.
+import Img from "../Img.astro";
+import { img } from "../../lib/img";
+import { url } from "../../lib/site";
+
+interface Link {
+	title: string;
+	href: string;
+	thumb?: { src?: string | null; alt?: string } | null;
+}
+interface Props {
+	previous?: Link | null;
+	next?: Link | null;
+}
+const { previous, next } = Astro.props;
+const THUMB = 122 / 150;
+// Cover only when the thumb frame barely differs from the photo; otherwise
+// contain it so the whole image stays visible.
+const fitFor = (src?: string | null) => {
+	const r = img(src)?.ratio;
+	if (!r) return "cover";
+	return Math.abs(r - THUMB) / THUMB < 0.12 ? "cover" : "contain";
+};
+const items = [
+	previous && { ...previous, kind: "Previous" },
+	next && { ...next, kind: "Next" },
+].filter(Boolean) as (Link & { kind: string })[];
+---
+
+{
+	items.length > 0 && (
+		<nav class="pn" aria-label="More news">
+			{items.map((l) => (
+				<a class:list={["c", l.kind === "Next" && "c--next"]} href={url(l.href)} data-reveal>
+					{l.thumb?.src && (
+						<Img src={l.thumb.src} alt={l.thumb.alt ?? ""} ratio="122 / 150" fit={fitFor(l.thumb.src)} bg="var(--paper-4)" sizes="122px" class="th" />
+					)}
+					<span class="tx">
+						<span class="k">{l.kind}</span>
+						<span class="t">{l.title.trim()}</span>
+					</span>
+				</a>
+			))}
+		</nav>
+	)
+}
+
+<style>
+	.pn {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		padding: 50px 32px 100px;
+	}
+	.c {
+		display: flex;
+		align-items: center;
+		gap: 22px;
+		inline-size: min(450px, 100%);
+		border: 1px solid rgba(28, 26, 23, 0.6);
+		color: var(--charcoal);
+		transition: background-color 300ms var(--ease-out);
+	}
+	.c:hover {
+		background: var(--paper-4);
+	}
+	.c--next {
+		flex-direction: row-reverse;
+		margin-inline-start: auto;
+		text-align: end;
+	}
+	.c :global(.th) {
+		flex: 0 0 122px;
+		inline-size: 122px;
+	}
+	.tx {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		padding-block: 12px;
+		min-inline-size: 0;
+	}
+	.c:not(.c--next) .tx {
+		padding-inline-end: 20px;
+	}
+	.c--next .tx {
+		padding-inline-start: 20px;
+	}
+	.k {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 19.2px;
+		letter-spacing: 1.8px;
+		text-transform: uppercase;
+	}
+	.t {
+		font-size: 16px;
+		line-height: 25.6px;
+		letter-spacing: -0.32px;
+	}
+	@media (max-width: 809.98px) {
+		.pn {
+			flex-direction: column;
+			padding-inline: 15px;
+		}
+	}
+</style>
