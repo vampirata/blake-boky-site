@@ -1,0 +1,237 @@
+---
+// Home hero: centred line and seven floating photos. Each frame takes its
+// image's own ratio (no crop). Grayscale at rest, colour + scale 1.1 on hover.
+// Mouse parallax moves each photo away from the cursor with its own depth
+// (Framer "Parallax Floating": direction Away, smoothing 100, speeds 20 to 200).
+import Img from "../Img.astro";
+import { url } from "../../lib/site";
+import { img } from "../../lib/img";
+
+interface Props {
+	line: string;
+	media: { src: string; alt?: string }[];
+}
+const { line, media } = Astro.props;
+
+// Per image, in data order. Desktop centres (cx, cy in %) are the live positions
+// measured at 1440x900, speeds come from the Framer frames "Image 1..7", widths
+// keep the live frame widths. Tablet and
+// phone anchors are re-laid so every photo stays inside the viewport.
+// Links: the live hero had null, malformed and self links; see docs/fixes/home.md.
+const layout = [
+	{ frame: 7, speed: 25, href: "/boky-bio", label: "Boky Hackel biography", d: [76.9, 90.9, 186], t: [70, 88, 150], p: [84, 90, 110] },
+	{ frame: 6, speed: 50, href: "/boky-bio", label: "Boky Hackel biography", d: [92.3, 75.6, 221], t: [86, 66, 170], p: [82, 72, 110] },
+	{ frame: 5, speed: 200, href: "/blake-bio", label: "Blake Ward biography", d: [35.4, 100, 300], t: [38, 86, 220], p: [48, 86, 130] },
+	{ frame: 4, speed: 45, href: "/collections", label: "All collections", d: [13.9, 73.8, 165], t: [14, 72, 140], p: [18, 72, 100] },
+	{ frame: 3, speed: 65, href: "/collections/fragments", label: "Fragments collection", d: [81, 16.3, 221], t: [78, 13, 170], p: [20, 22, 110] },
+	{ frame: 2, speed: 45, href: "/collections", label: "All collections", d: [37.7, 18.1, 195], t: [38, 12, 150], p: [55, 11, 90] },
+	{ frame: 1, speed: 20, href: "/collections", label: "All collections", d: [16.5, 30, 141], t: [12, 20, 120], p: [80, 25, 100] },
+];
+const items = media.slice(0, 7).map((m, i) => {
+	const l = layout[i];
+	const r = img(m.src)?.ratio ?? 1;
+	return { ...m, ...l, ratio: r };
+});
+const vars = (it: (typeof items)[number]) =>
+	[
+		`--r:${it.ratio.toFixed(4)}`,
+		`--dx:${it.d[0]}%`,
+		`--dy:${it.d[1]}%`,
+		`--dw:${it.d[2]}px`,
+		`--tx:${it.t[0]}%`,
+		`--ty:${it.t[1]}%`,
+		`--tw:${it.t[2]}px`,
+		`--px:${it.p[0]}%`,
+		`--py:${it.p[1]}%`,
+		`--pw:${it.p[2]}px`,
+	].join(";");
+---
+
+<section class="hero" data-hero>
+	<div class="field">
+		{
+			items.map((it) => (
+				<a class="float" href={url(it.href)} style={vars(it)} data-speed={it.speed} aria-label={it.label}>
+					<span class="shift">
+						<span class="pic">
+							<Img src={it.src} alt={it.alt ?? ""} sizes="(min-width: 1400px) 300px, 220px" eager />
+						</span>
+					</span>
+				</a>
+			))
+		}
+	</div>
+	<h1 class="line">{line}</h1>
+</section>
+
+<style>
+	.hero {
+		position: sticky;
+		top: 0;
+		block-size: 100vh;
+		block-size: 100svh;
+		min-block-size: 560px;
+		overflow: hidden;
+		background: var(--black);
+		padding: 50px 30px 30px;
+		display: grid;
+		place-items: center;
+	}
+	.field {
+		position: absolute;
+		inset: 0;
+	}
+	.line {
+		position: relative;
+		z-index: 2;
+		max-inline-size: 640px;
+		text-align: center;
+		font-family: var(--font-display);
+		font-weight: 400;
+		font-size: var(--t-hero-line);
+		line-height: 1.1;
+		letter-spacing: -0.06em;
+		color: var(--hairline);
+		pointer-events: none;
+	}
+	.float {
+		--x: var(--dx);
+		--y: var(--dy);
+		--w: var(--dw);
+		position: absolute;
+		left: var(--x);
+		top: var(--y);
+		inline-size: var(--w);
+		translate: -50% -50%;
+		z-index: 1;
+	}
+	.shift {
+		display: block;
+		will-change: transform;
+	}
+	.pic {
+		display: block;
+		filter: grayscale(1);
+		transform: scale(1);
+		transition:
+			filter 600ms var(--ease-spring),
+			transform 600ms var(--ease-spring);
+		box-shadow:
+			-0.77px -0.59px 1.75px -0.47px rgba(0, 0, 0, 0.07),
+			-1.83px -1.39px 4.14px -0.94px rgba(0, 0, 0, 0.07),
+			-3.34px -2.54px 7.56px -1.41px rgba(0, 0, 0, 0.06),
+			-5.55px -4.23px 12.56px -1.88px rgba(0, 0, 0, 0.06),
+			-8.97px -6.82px 20.28px -2.34px rgba(0, 0, 0, 0.06),
+			-14.68px -11.17px 33.2px -2.81px rgba(0, 0, 0, 0.05),
+			-25.28px -19.23px 57.17px -3.28px rgba(0, 0, 0, 0.04),
+			-46px -35px 104.04px -3.75px rgba(0, 0, 0, 0.02);
+	}
+	.pic :global(.art) {
+		aspect-ratio: var(--r);
+	}
+	.float:hover .pic,
+	.float:focus-visible .pic {
+		filter: grayscale(0);
+		transform: scale(1.1);
+	}
+	.float:hover {
+		z-index: 3;
+	}
+	@media (max-width: 1399.98px) {
+		.float {
+			--x: var(--tx);
+			--y: var(--ty);
+			--w: var(--tw);
+		}
+	}
+	@media (max-width: 809.98px) {
+		.float {
+			--x: var(--px);
+			--y: var(--py);
+			--w: var(--pw);
+		}
+		.line {
+			max-inline-size: 330px;
+			margin-block-start: 0;
+		}
+	}
+	@media (hover: none) {
+		.float:hover .pic {
+			transform: none;
+		}
+	}
+</style>
+
+<script>
+	// Away-from-cursor parallax, smoothed with a rAF lerp. Pointer devices only.
+	const hero = document.querySelector<HTMLElement>("[data-hero]");
+	const fine = matchMedia("(hover: hover) and (pointer: fine)");
+	const reduce = matchMedia("(prefers-reduced-motion: reduce)");
+	if (hero) {
+		const els = [...hero.querySelectorAll<HTMLElement>(".float")].map((a) => ({
+			el: a.querySelector<HTMLElement>(".shift")!,
+			k: Number(a.dataset.speed) || 50,
+			x: 0,
+			y: 0,
+		}));
+		// Speed 200 moves about 55px at the hero edge (measured live).
+		const SCALE = 55 / 200;
+		const LERP = 0.06;
+		let tx = 0;
+		let ty = 0;
+		let raf = 0;
+		let visible = true;
+		const tick = () => {
+			let moving = false;
+			for (const p of els) {
+				const gx = -tx * p.k * SCALE;
+				const gy = -ty * p.k * SCALE;
+				p.x += (gx - p.x) * LERP;
+				p.y += (gy - p.y) * LERP;
+				if (Math.abs(gx - p.x) > 0.05 || Math.abs(gy - p.y) > 0.05) moving = true;
+				p.el.style.transform = `translate3d(${p.x.toFixed(2)}px, ${p.y.toFixed(2)}px, 0)`;
+			}
+			raf = moving && visible ? requestAnimationFrame(tick) : 0;
+		};
+		const kick = () => {
+			if (!raf) raf = requestAnimationFrame(tick);
+		};
+		const onMove = (e: PointerEvent) => {
+			if (e.pointerType !== "mouse") return;
+			const r = hero.getBoundingClientRect();
+			tx = Math.max(-1, Math.min(1, ((e.clientX - r.left) / r.width) * 2 - 1));
+			ty = Math.max(-1, Math.min(1, ((e.clientY - r.top) / r.height) * 2 - 1));
+			kick();
+		};
+		const onLeave = () => {
+			tx = 0;
+			ty = 0;
+			kick();
+		};
+		let on = false;
+		const sync = () => {
+			const want = fine.matches && !reduce.matches;
+			if (want === on) return;
+			on = want;
+			if (on) {
+				hero.addEventListener("pointermove", onMove);
+				hero.addEventListener("pointerleave", onLeave);
+			} else {
+				hero.removeEventListener("pointermove", onMove);
+				hero.removeEventListener("pointerleave", onLeave);
+				tx = ty = 0;
+				for (const p of els) {
+					p.x = p.y = 0;
+					p.el.style.transform = "";
+				}
+			}
+		};
+		new IntersectionObserver(([e]) => {
+			visible = e.isIntersecting;
+			if (visible) kick();
+		}).observe(hero);
+		fine.addEventListener("change", sync);
+		reduce.addEventListener("change", sync);
+		sync();
+	}
+</script>

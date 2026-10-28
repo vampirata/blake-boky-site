@@ -1,0 +1,156 @@
+---
+// Stats and image grid: 4 / 2 / 1 columns of image and stat cells on stone.
+// Images are contained (whole sculpture visible). Counters count up once when
+// they enter the viewport and settle on fixed targets. Without JS, or with
+// reduced motion, the final numbers are simply shown.
+import Img from "../Img.astro";
+
+interface Stat {
+	from: number;
+	to: number;
+	suffix?: string;
+	label: string;
+}
+interface Props {
+	images: { src: string; alt?: string }[];
+	stats: Stat[];
+}
+const { images, stats } = Astro.props;
+// DOM order of the live grid: img, stat, img, stat, stat, img, stat, img.
+const cells = [
+	{ img: images[0] },
+	{ stat: stats[0] },
+	{ img: images[1] },
+	{ stat: stats[1] },
+	{ stat: stats[2] },
+	{ img: images[2] },
+	{ stat: stats[3] },
+	{ img: images[3] },
+];
+---
+
+<section class="stats">
+	{
+		cells.map((c) =>
+			c.img ? (
+				<div class="cell cell--img">
+					<div class="frame" data-reveal>
+						<Img src={c.img.src} alt={c.img.alt ?? ""} bg="var(--stone)" sizes="(min-width: 1400px) 260px, (min-width: 810px) 305px, 290px" />
+					</div>
+				</div>
+			) : (
+				<div class="cell cell--stat">
+					<p class="num" aria-label={`${c.stat!.to}${c.stat!.suffix ?? ""}`}>
+						<span class="n" data-count-from={c.stat!.from} data-count-to={c.stat!.to} aria-hidden="true">
+							{c.stat!.to}
+						</span>
+						{c.stat!.suffix && <span class="sfx" aria-hidden="true">{c.stat!.suffix}</span>}
+					</p>
+					<p class="cap">{c.stat!.label}</p>
+				</div>
+			)
+		)
+	}
+</section>
+
+<style>
+	.stats {
+		position: relative;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: 387px;
+		gap: 1px;
+		background: var(--ink);
+		padding-block: 1px 0;
+	}
+	.cell {
+		background: var(--stone);
+		padding: 50px;
+		min-inline-size: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.frame {
+		inline-size: 100%;
+		block-size: 100%;
+	}
+	.frame :global(.art) {
+		aspect-ratio: auto;
+		inline-size: 100%;
+		block-size: 100%;
+	}
+	.num {
+		display: flex;
+		align-items: baseline;
+		gap: 0.16em;
+		font-family: var(--font-num);
+		font-weight: 400;
+		font-size: 90px;
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+		color: var(--white);
+		font-variant-numeric: tabular-nums;
+	}
+	.cap {
+		margin-block-start: 14px;
+		font-family: var(--font-num);
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 1.4;
+		letter-spacing: -0.04em;
+		color: var(--hairline);
+	}
+	@media (max-width: 1399.98px) {
+		.stats {
+			grid-template-columns: repeat(2, 1fr);
+			grid-auto-rows: 435px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.stats {
+			grid-template-columns: 1fr;
+			grid-auto-rows: 419px;
+		}
+	}
+</style>
+
+<script>
+	// Count up once in view, then settle on the target (the live counter never settled).
+	const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+	const nums = [...document.querySelectorAll<HTMLElement>("[data-count-to]")];
+	if (!reduce && nums.length) {
+		const DUR = 1800;
+		const ease = (t: number) => 1 - Math.pow(1 - t, 3);
+		const run = (el: HTMLElement) => {
+			const from = Number(el.dataset.countFrom) || 0;
+			const to = Number(el.dataset.countTo) || 0;
+			const t0 = performance.now();
+			const step = (now: number) => {
+				const t = Math.min(1, (now - t0) / DUR);
+				el.textContent = String(Math.round(from + (to - from) * ease(t)));
+				if (t < 1) requestAnimationFrame(step);
+				else el.textContent = String(to);
+			};
+			requestAnimationFrame(step);
+		};
+		const io = new IntersectionObserver(
+			(entries) => {
+				for (const e of entries) {
+					if (!e.isIntersecting) continue;
+					io.unobserve(e.target);
+					run(e.target as HTMLElement);
+				}
+			},
+			{ threshold: 0.6 }
+		);
+		for (const el of nums) {
+			const r = el.getBoundingClientRect();
+			// Already on screen at load: leave the final value, nothing to count.
+			if (r.top < innerHeight && r.bottom > 0) continue;
+			el.textContent = el.dataset.countFrom ?? "0";
+			io.observe(el);
+		}
+	}
+</script>

@@ -1,7 +1,118 @@
 ---
 import Base from "../layouts/Base.astro";
+import CtaBand from "../components/CtaBand.astro";
+import Hero from "../components/home/Hero.astro";
+import ArtistHalf from "../components/home/ArtistHalf.astro";
+import Stats from "../components/home/Stats.astro";
+import SectionBar from "../components/home/SectionBar.astro";
+import Fullscreen from "../components/home/Fullscreen.astro";
+import Articles from "../components/home/Articles.astro";
+import home from "../content/data/pages/home.json";
+import news from "../content/data/news.json";
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+const sections = home.sections as any[];
+const byType = (t: string) => sections.find((s) => s.type === t);
+const hero = byType("hero-collage");
+const artists = byType("artists-intro");
+const statsSec = byType("stats");
+const full = byType("full-bleed-image");
+const cta = byType("contact-cta-banner");
+
+const aImg = (artists.content as any[]).filter((c) => c.kind === "image");
+const aText = (artists.content as any[]).filter((c) => c.kind === "text");
+const t = (i: number) => String(aText[i].text).trim();
+// aText order: bar, eyebrow, name, tagline, text, list label, list, cta; Blake then Boky.
+const blake = { bar: t(0), eyebrow: t(1), name: t(2), sub: t(3), text: t(4), ll: t(5), list: t(6), cta: t(7) };
+const boky = { bar: t(8), eyebrow: t(9), name: t(10), sub: t(11), text: t(12), ll: t(13), list: t(14), cta: t(15) };
+
+// Counter targets from the Framer Counter instances (startNumber / endNumber).
+// The live counters never settle; these settle on endNumber. Client to confirm.
+const labels = (statsSec.stats as any[]).map((s) => String(s.label).trim());
+const stats = [
+	{ from: 40, to: 78, suffix: "+", label: labels[0] },
+	{ from: 0, to: 12, label: labels[1] },
+	{ from: 80, to: 350, suffix: "+", label: labels[2] },
+	{ from: 20, to: 29, label: labels[3] },
+];
+
+const articles = (news as any[])
+	.filter((n) => !n.draft)
+	.sort((a, b) => (a.order ?? 99) - (b.order ?? 99))
+	.slice(0, 4)
+	.map((n) => ({
+		slug: n.slug,
+		title: String(n.cardTitle ?? n.title).trim(),
+		date: n.cardDate ?? n.date,
+		image: n.cardImage?.src,
+		alt: n.cardImage?.alt,
+	}));
 ---
 
-<Base title="Blake & Boky" smooth>
-	<section style="padding:200px 32px"><h1 class="display">Foundation check</h1></section>
+<Base title="Blake & Boky" description={home.seo.description} nav="black" smooth>
+	<Hero line={String(hero.heading.text).trim()} media={hero.media} />
+	<section class="artists" aria-label="About the Artists">
+		<ArtistHalf
+			tone="paper"
+			href="/blake-bio"
+			barLabel={blake.bar}
+			eyebrow={blake.eyebrow}
+			name={blake.name}
+			subtitle={blake.sub}
+			portrait={aImg[0]}
+			text={blake.text}
+			listLabel={blake.ll}
+			list={blake.list}
+			cta={blake.cta}
+		/>
+		<ArtistHalf
+			tone="ink"
+			href="/boky-bio"
+			barLabel={boky.bar}
+			eyebrow={boky.eyebrow}
+			name={boky.name}
+			subtitle={boky.sub}
+			portrait={aImg[1]}
+			portraitPos="50% 15%"
+			text={boky.text}
+			listLabel={boky.ll}
+			list={boky.list}
+			cta={boky.cta}
+		/>
+	</section>
+	<Stats images={statsSec.media} stats={stats} />
+	<div class="layer">
+		<SectionBar href="/collections" label="All Collections" glyph="up" bg="var(--paper-2)" fg="var(--ink)" hoverBg="var(--hover-taupe)" />
+	</div>
+	<Fullscreen src={full.media[0].src} alt={full.media[0].alt ?? ""} />
+	<Articles items={articles} />
+	<CtaBand image={cta.media[0].src} pos="50% 30%" />
 </Base>
+
+<style>
+	.artists,
+	.layer {
+		position: relative;
+	}
+	.artists {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	@media (max-width: 809.98px) {
+		.artists {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
+
+<script>
+	// Sticky layers taller than the viewport stick by their bottom edge, so
+	// nothing inside them is hidden behind the next section.
+	const els = [...document.querySelectorAll<HTMLElement>("[data-sticky]")];
+	const fit = () => {
+		for (const el of els) el.style.top = `${Math.min(0, innerHeight - el.offsetHeight)}px`;
+	};
+	fit();
+	addEventListener("resize", fit);
+	new ResizeObserver(fit).observe(document.body);
+</script>

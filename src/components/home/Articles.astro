@@ -1,0 +1,71 @@
+---
+// Home articles: sticky stone section with the "All Articles" bar and the
+// first four news cards (two below 1400px, as live). Images use a 4:3 frame
+// with contain on stone so no press photo or headline is cut.
+import Card from "../Card.astro";
+import SectionBar from "./SectionBar.astro";
+
+interface Article {
+	slug: string;
+	title: string;
+	date: string;
+	image?: string;
+	alt?: string;
+}
+interface Props {
+	items: Article[];
+}
+const { items } = Astro.props;
+---
+
+<section class="articles" data-sticky>
+	<SectionBar href="/news" label="All Articles" bg="var(--stone)" fg="var(--hairline)" hoverBg="var(--taupe)" line="var(--grey-c2)" />
+	<div class="row">
+		{
+			items.map((a) => (
+				<div class="slot">
+					<Card href={`/news/${a.slug}`} image={a.image} title={a.title} date={a.date} ratio="4 / 3" bg="var(--stone)" sizes="(min-width: 1400px) 335px, (min-width: 810px) 50vw, 100vw" />
+				</div>
+			))
+		}
+	</div>
+</section>
+
+<style>
+	.articles {
+		position: sticky;
+		top: 0;
+		background: var(--stone);
+		padding-block-end: 50px;
+	}
+	.row {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding-inline: 50px;
+	}
+	.slot {
+		min-inline-size: 0;
+	}
+	.slot :global(.card .meta) {
+		padding: 14px 12px 0;
+	}
+	.slot :global(.card .d) {
+		color: var(--hairline);
+	}
+	@media (max-width: 1399.98px) {
+		.row {
+			grid-template-columns: repeat(2, 1fr);
+			padding-inline: 40px;
+		}
+		.slot:nth-child(n + 3) {
+			display: none;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.row {
+			grid-template-columns: 1fr;
+			row-gap: 40px;
+			padding-inline: 0;
+		}
+	}
+</style>
