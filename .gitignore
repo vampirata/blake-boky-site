@@ -7,3 +7,10 @@ public/img
 scripts/.optimize.log
 scripts/.raw
 scripts/.qa-report.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
