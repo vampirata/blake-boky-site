@@ -4,12 +4,14 @@ interface Props {
 	quote: string;
 	/** Measured text width: 820 for Blake, 740 for Boky. */
 	width?: number;
+	/** Text width from 810 to 1399px: 648 for Blake, 730 for Boky. */
+	tablet?: number;
 }
-const { quote, width = 820 } = Astro.props;
+const { quote, width = 820, tablet = 730 } = Astro.props;
 ---
 
 <section class="st">
-	<blockquote class="intro-italic q" data-reveal style={`--w:${width}px`}>{quote}</blockquote>
+	<blockquote class="intro-italic q" data-reveal style={`--w:${width}px;--wt:${tablet}px`}>{quote}</blockquote>
 </section>
 
 <style>
@@ -21,11 +23,12 @@ const { quote, width = 820 } = Astro.props;
 	.q {
 		max-inline-size: var(--w);
 		text-align: center;
+		text-wrap: balance;
 		color: var(--bio-quote, var(--bio-fg));
 	}
 	@media (max-width: 1399.98px) {
 		.q {
-			max-inline-size: min(var(--w), 730px);
+			max-inline-size: min(var(--w), var(--wt));
 		}
 	}
 </style>

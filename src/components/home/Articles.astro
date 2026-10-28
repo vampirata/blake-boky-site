@@ -1,7 +1,8 @@
 ---
 // Home articles: sticky stone section with the "All Articles" bar and the
-// first four news cards (two below 1400px, as live). Images use a 4:3 frame
-// with contain on stone so no press photo or headline is cut.
+// first four news cards (two below 1400px, as live). Images keep the live
+// square frame but are contained on stone, so no press photo or headline is cut.
+// Sticky (curtain) only on desktop, as live.
 import Card from "../Card.astro";
 import SectionBar from "./SectionBar.astro";
 
@@ -24,7 +25,7 @@ const { items } = Astro.props;
 		{
 			items.map((a) => (
 				<div class="slot">
-					<Card href={`/news/${a.slug}`} image={a.image} title={a.title} date={a.date} ratio="4 / 3" bg="var(--stone)" sizes="(min-width: 1400px) 335px, (min-width: 810px) 50vw, 100vw" />
+					<Card href={`/news/${a.slug}`} image={a.image} title={a.title} date={a.date} ratio="1 / 1" bg="var(--stone)" sizes="(min-width: 1400px) 335px, (min-width: 810px) 50vw, 100vw" />
 				</div>
 			))
 		}
@@ -33,8 +34,7 @@ const { items } = Astro.props;
 
 <style>
 	.articles {
-		position: sticky;
-		top: 0;
+		position: relative;
 		background: var(--stone);
 		padding-block-end: 50px;
 	}
@@ -46,11 +46,35 @@ const { items } = Astro.props;
 	.slot {
 		min-inline-size: 0;
 	}
+	/* Live text block is a fixed 350px (12px inset), so titles wrap the same
+	   at every width. */
 	.slot :global(.card .meta) {
-		padding: 14px 12px 0;
+		inline-size: 350px;
+		max-inline-size: 100vw;
+		padding: 10px 12px 32px;
 	}
-	.slot :global(.card .d) {
-		color: var(--hairline);
+	/* Live home cards: the hairline sits under the text, not the image. It is
+	   shown at rest below 1400px and slides in from the left on desktop hover. */
+	.slot :global(.card .rule) {
+		order: 3;
+		margin-block-start: -1px;
+		opacity: 1;
+		transform: none;
+	}
+	@media (min-width: 1400px) {
+		.slot :global(.card .rule) {
+			transform: scaleX(0);
+		}
+		.slot :global(.card:hover .rule),
+		.slot :global(.card:focus-visible .rule) {
+			transform: scaleX(1);
+		}
+	}
+	@media (min-width: 1400px) {
+		.articles {
+			position: sticky;
+			top: 0;
+		}
 	}
 	@media (max-width: 1399.98px) {
 		.row {
@@ -60,12 +84,19 @@ const { items } = Astro.props;
 		.slot:nth-child(n + 3) {
 			display: none;
 		}
+		/* Live tablet and phone: 144px text block, date 21px (24px phone) under the image. */
+		.slot :global(.card .meta) {
+			min-block-size: 144px;
+			padding-block-start: 21px;
+		}
 	}
 	@media (max-width: 809.98px) {
 		.row {
 			grid-template-columns: 1fr;
-			row-gap: 40px;
 			padding-inline: 0;
+		}
+		.slot :global(.card .meta) {
+			padding-block-start: 24px;
 		}
 	}
 </style>

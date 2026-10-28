@@ -28,7 +28,7 @@ const { stats } = Astro.props;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 13px;
+		gap: 8px;
 		text-align: center;
 	}
 	.v {
@@ -37,6 +37,8 @@ const { stats } = Astro.props;
 		font-size: 52px;
 		line-height: 1;
 		letter-spacing: -0.02em;
+		/* Live uses tabular figures. */
+		font-feature-settings: "tnum";
 		color: var(--bio-fg);
 	}
 	.l {
@@ -46,7 +48,7 @@ const { stats } = Astro.props;
 	@media (max-width: 809.98px) {
 		.stats {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: 40px 24px;
+			gap: 35px 24px;
 		}
 		.v {
 			font-size: 42px;

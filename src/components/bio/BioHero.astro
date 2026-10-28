@@ -38,15 +38,17 @@ const { eyebrow, name, tagline, portrait, frame = "own", pos } = Astro.props;
 	}
 	.e {
 		color: var(--bio-muted);
-		margin-block-end: 18px;
+		margin-block-end: 25px;
 	}
 	.n {
 		color: var(--bio-fg);
-		line-height: 1.04;
-		margin-block-end: 26px;
+		/* Live 0.98; no ancestor clips it. */
+		line-height: 0.98;
+		margin-block-end: 23px;
 	}
 	.t {
 		color: var(--bio-muted);
+		text-wrap: balance;
 		margin-block-end: 52px;
 	}
 	.p {
@@ -64,9 +66,6 @@ const { eyebrow, name, tagline, portrait, frame = "own", pos } = Astro.props;
 	@media (max-width: 809.98px) {
 		.hero {
 			padding-block-start: 106px;
-		}
-		.n {
-			margin-block-end: 28px;
 		}
 		.p--square {
 			margin-inline: -27px;

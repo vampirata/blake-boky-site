@@ -1,6 +1,6 @@
 ---
 // Boky's archive: square cards (3 / 2 / 1 per row), per-character titles,
-// hairline under the title. Images are contained on ink so nothing is cut.
+// hairline under the title (desktop: on hover). Images are contained on ink so nothing is cut.
 import Img from "../Img.astro";
 import SplitTitle from "../SplitTitle.astro";
 import SectionHead from "./SectionHead.astro";
@@ -71,8 +71,16 @@ const { eyebrow, heading, items } = Astro.props;
 		transform-origin: left;
 		transition: transform 600ms var(--ease-spring);
 	}
-	.card:hover .rule {
-		transform: scaleX(0.96);
+	/* Live: the hairline is hidden on desktop and slides in from the left on
+	   hover; below 1400px it is always shown. */
+	@media (min-width: 1400px) {
+		.rule {
+			transform: scaleX(0);
+		}
+		.card:hover .rule,
+		.card:focus-visible .rule {
+			transform: scaleX(1);
+		}
 	}
 	@media (max-width: 1399.98px) {
 		.grid {

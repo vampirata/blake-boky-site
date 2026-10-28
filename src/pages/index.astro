@@ -110,7 +110,12 @@ const articles = (news as any[])
 	// nothing inside them is hidden behind the next section.
 	const els = [...document.querySelectorAll<HTMLElement>("[data-sticky]")];
 	const fit = () => {
-		for (const el of els) el.style.top = `${Math.min(0, innerHeight - el.offsetHeight)}px`;
+		for (const el of els) {
+			el.style.top = "";
+			// Sticky on desktop only; a relative element must keep top auto.
+			if (getComputedStyle(el).position !== "sticky") continue;
+			el.style.top = `${Math.min(0, innerHeight - el.offsetHeight)}px`;
+		}
 	};
 	fit();
 	addEventListener("resize", fit);

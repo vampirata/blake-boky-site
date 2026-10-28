@@ -117,7 +117,7 @@ for (const o of options) {
 	.cform {
 		display: flex;
 		flex-direction: column;
-		gap: 30px;
+		gap: 28px;
 		inline-size: 100%;
 		max-inline-size: 680px;
 		margin-inline: auto;
@@ -126,7 +126,7 @@ for (const o of options) {
 	.field {
 		display: flex;
 		flex-direction: column;
-		gap: 18px;
+		gap: 11px;
 	}
 	.lab {
 		color: var(--ink);
@@ -136,7 +136,7 @@ for (const o of options) {
 	select {
 		inline-size: 100%;
 		font-family: var(--font-display);
-		font-size: 17px;
+		font-size: 20px;
 		font-weight: 400;
 		line-height: 24px;
 		letter-spacing: 0;
@@ -148,7 +148,8 @@ for (const o of options) {
 	}
 	input,
 	textarea {
-		padding: 0 0 10px;
+		/* Live: 24px text line with 10px above and below, hairline under. */
+		padding: 10px 0;
 		border-block-end: 1px solid var(--hairline);
 		transition: border-color 200ms var(--ease-link);
 	}
@@ -203,8 +204,8 @@ for (const o of options) {
 	}
 	.send {
 		align-self: center;
-		margin-block-start: 10px;
-		padding: 15px 39px;
+		margin-block-start: 12px;
+		padding: 14px 39px;
 		border: 1px solid var(--charcoal);
 		font-family: var(--font-body);
 		font-weight: 400;

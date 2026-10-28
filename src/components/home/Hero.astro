@@ -54,7 +54,7 @@ const vars = (it: (typeof items)[number]) =>
 				<a class="float" href={url(it.href)} style={vars(it)} data-speed={it.speed} aria-label={it.label}>
 					<span class="shift">
 						<span class="pic">
-							<Img src={it.src} alt={it.alt ?? ""} sizes="(min-width: 1400px) 300px, 220px" eager />
+							<Img src={it.src} alt={it.alt ?? ""} sizes="(min-width: 1400px) 300px, (min-width: 810px) 220px, 130px" eager />
 						</span>
 					</span>
 				</a>
@@ -66,8 +66,8 @@ const vars = (it: (typeof items)[number]) =>
 
 <style>
 	.hero {
-		position: sticky;
-		top: 0;
+		/* Live "Hero Main" is sticky with top auto, so it scrolls normally. */
+		position: relative;
 		block-size: 100vh;
 		block-size: 100svh;
 		min-block-size: 560px;
@@ -84,7 +84,8 @@ const vars = (it: (typeof items)[number]) =>
 	.line {
 		position: relative;
 		z-index: 2;
-		max-inline-size: 640px;
+		/* Live title box: 666 / 576 / 300 wide. */
+		max-inline-size: 666px;
 		text-align: center;
 		font-family: var(--font-display);
 		font-weight: 400;
@@ -138,6 +139,9 @@ const vars = (it: (typeof items)[number]) =>
 		z-index: 3;
 	}
 	@media (max-width: 1399.98px) {
+		.line {
+			max-inline-size: 576px;
+		}
 		.float {
 			--x: var(--tx);
 			--y: var(--ty);
@@ -151,7 +155,7 @@ const vars = (it: (typeof items)[number]) =>
 			--w: var(--pw);
 		}
 		.line {
-			max-inline-size: 330px;
+			max-inline-size: 300px;
 			margin-block-start: 0;
 		}
 	}

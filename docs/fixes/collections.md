@@ -17,3 +17,10 @@
 
 Flagged for the client:
 - "Rethink Collection" card linked to Boky's /collections/in-lucem on live. Rethink is Blake's and has no page yet, so it now links to /collections/coming-soon-blake (same as the Blake bio). Client to confirm.
+
+Polish pass:
+- Each series now uses its live colour theme (Spirit stone; Andromeda and Fragments paper; In Lucem and Figurative Poetry dark), with matching nav, back pill, rules and cards.
+- Coming Soon Boky is dark as on live; its title was unreadable live (#212121 on near-black) and now uses the lead colour.
+- "Collections you can see now" no longer lists Rethink (no page yet), so it shows 7 cards.
+- Lightbox: fades out on close, no scrollbar jump, tap on the margin closes, small originals are not blown up. Ticker only takes horizontal swipes.
+- Search: count shows only while searching, Escape clears it.

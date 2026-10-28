@@ -51,12 +51,16 @@ const works = [...pastWorks]
 	.bio > :global(* + *) {
 		border-block-start: 1px solid var(--bio-rule);
 	}
-	.cta :global(.ccta .e:empty) {
-		display: none;
+	/* Live: 32px side padding, balanced heading (it wraps after "for" on
+	   phone), a 177x44 button 28px under the heading. */
+	.cta :global(.ccta) {
+		padding-inline: 32px;
 	}
-	.cta :global(.ccta .h2) {
-		font-size: var(--t-cta);
-		line-height: 1.15;
-		letter-spacing: -0.04em;
+	.cta :global(.ccta .t) {
+		text-wrap: balance;
+	}
+	.cta :global(.ccta .btn-outline) {
+		margin-block-start: 8px;
+		padding: 14px 39px;
 	}
 </style>

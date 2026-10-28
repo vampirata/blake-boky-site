@@ -43,16 +43,16 @@ const { eyebrow, title, quote, cite, image, link } = Astro.props;
 		letter-spacing: 3.36px;
 		text-transform: uppercase;
 		color: var(--gold-light);
-		margin-block-end: 18px;
+		margin-block-end: 21px;
 	}
 	.ti {
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 46px;
 		line-height: 1.12;
+		letter-spacing: normal;
 		color: var(--paper);
-		max-inline-size: 640px;
-		margin-block-end: 26px;
+		margin-block-end: 20px;
 	}
 	.q {
 		font-family: var(--font-display);
@@ -60,9 +60,10 @@ const { eyebrow, title, quote, cite, image, link } = Astro.props;
 		font-weight: 400;
 		font-size: 23px;
 		line-height: 1.45;
+		letter-spacing: normal;
 		color: var(--sand);
-		max-inline-size: 570px;
-		margin-block-end: 17px;
+		max-inline-size: 560px;
+		margin-block-end: 20px;
 	}
 	.ci {
 		font-family: var(--font-body);
@@ -72,7 +73,7 @@ const { eyebrow, title, quote, cite, image, link } = Astro.props;
 		letter-spacing: 2.16px;
 		text-transform: uppercase;
 		color: var(--taupe-2);
-		margin-block-end: 21px;
+		margin-block-end: 20px;
 	}
 	.btn {
 		display: inline-flex;
@@ -104,7 +105,7 @@ const { eyebrow, title, quote, cite, image, link } = Astro.props;
 	}
 	@media (max-width: 1399.98px) {
 		.af {
-			column-gap: 32px;
+			column-gap: 64px;
 		}
 	}
 	@media (max-width: 809.98px) {

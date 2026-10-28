@@ -84,34 +84,41 @@ const cells = [
 	.num {
 		display: flex;
 		align-items: baseline;
-		gap: 0.16em;
+		gap: 4px;
 		font-family: var(--font-num);
-		font-weight: 400;
+		/* Live only loads Switzer 300 (normal), so its "400" numbers render light. */
+		font-weight: 300;
 		font-size: 90px;
-		line-height: 1.1;
-		letter-spacing: -0.02em;
+		line-height: normal;
+		letter-spacing: normal;
 		color: var(--white);
 		font-variant-numeric: tabular-nums;
 	}
 	.cap {
-		margin-block-start: 14px;
+		margin-block-start: 3px;
 		font-family: var(--font-num);
 		font-weight: 300;
 		font-size: 18px;
-		line-height: 1.4;
+		line-height: 1.6;
 		letter-spacing: -0.04em;
-		color: var(--hairline);
+		color: var(--grey-c2);
 	}
 	@media (max-width: 1399.98px) {
 		.stats {
 			grid-template-columns: repeat(2, 1fr);
 			grid-auto-rows: 435px;
 		}
+		.cap {
+			font-size: 14px;
+		}
 	}
 	@media (max-width: 809.98px) {
 		.stats {
 			grid-template-columns: 1fr;
 			grid-auto-rows: 419px;
+		}
+		.cap {
+			font-size: 13px;
 		}
 	}
 </style>

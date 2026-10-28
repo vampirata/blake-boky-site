@@ -1,5 +1,5 @@
 ---
-// Fullscreen photo of Blake at work: sticky 100vh frame, image 120% tall,
+// Fullscreen photo of Blake at work: 100vh frame (sticky on desktop), image 120% tall,
 // the next section slides over it like a curtain. The focal point keeps
 // Blake's face and hands in frame on tablet and phone.
 import Img from "../Img.astro";
@@ -17,8 +17,7 @@ const { src, alt = "" } = Astro.props;
 <style>
 	.full {
 		--focal: 50% 50%;
-		position: sticky;
-		top: 0;
+		position: relative;
 		block-size: 100vh;
 		block-size: 100svh;
 		overflow: hidden;
@@ -30,6 +29,13 @@ const { src, alt = "" } = Astro.props;
 		top: -10%;
 		block-size: 120%;
 		aspect-ratio: auto;
+	}
+	/* Curtain (sticky) only on desktop, as live. */
+	@media (min-width: 1400px) {
+		.full {
+			position: sticky;
+			top: 0;
+		}
 	}
 	@media (max-width: 1399.98px) {
 		.full {
