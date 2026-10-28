@@ -214,6 +214,7 @@ const contact = work.contact ?? {};
 		--w-label: var(--hairline);
 		--w-card: var(--grey-c2);
 		--w-btn: var(--hairline);
+		--w-inq: var(--grey-c2);
 	}
 
 	.body {
@@ -302,10 +303,15 @@ const contact = work.contact ?? {};
 	}
 	.rt :global(a) {
 		color: var(--w-link);
+		text-decoration: none;
+		transition: color 200ms var(--ease-link);
+	}
+	/* Paper pages: the live links were near white and unreadable; dark text
+	   plus an underline marks them as links. */
+	.work--paper .rt :global(a) {
 		text-decoration: underline;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 3px;
-		transition: color 200ms var(--ease-link);
 	}
 	.rt :global(a:hover) {
 		color: var(--gold-light);

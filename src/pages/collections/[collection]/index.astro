@@ -10,6 +10,7 @@ import Card from "../../../components/Card.astro";
 import Img from "../../../components/Img.astro";
 import { collections, worksIn, type Collection, type ImageRec } from "../../../lib/data";
 import { url } from "../../../lib/site";
+import { img } from "../../../lib/img";
 
 export function getStaticPaths() {
 	return collections.map((c) => ({ params: { collection: c.slug }, props: { col: c } }));
@@ -43,6 +44,10 @@ const notes = intro.filter((b) => b.tag !== "p");
 // Feature images keep the live rows: grouped by their rendered row on the
 // desktop capture, columns from their rendered width (2-up, 3-up or full).
 type Row = { cols: number; items: ImageRec[] };
+const ratioOf = (src: string) => img(src)?.ratio ?? 1;
+// Live row heights at 1440 (620 for 2 up, 830 for 3 up, 480 full width) as a
+// share of the row width: a row never grows taller than it was on the live site.
+const ROW_CAP: Record<number, number> = { 1: 480 / 1440, 2: 620 / 1440, 3: 830 / 1440 };
 const rows: Row[] = [];
 for (const g of (col.gallery ?? []) as ImageRec[]) {
 	const y = Math.round(g.rendered?.y ?? 0);
@@ -75,6 +80,35 @@ const elsewhere = soon
 			.filter((c) => !soonSlugs.has(slugOf(c.href)))
 	: [];
 
+// Per collection theme, measured on the live pages (1440, computed styles):
+// Spirit sits on stone, Andromeda and Fragments on paper, the Boky series on ink.
+type Theme = "stone" | "paper" | "ink";
+const THEMES: Record<string, Theme> = {
+	"spirit-collection": "stone",
+	andromeda: "paper",
+	fragments: "paper",
+	"in-lucem": "ink",
+	"figurative-poetry": "ink",
+};
+const theme: Theme = THEMES[col.slug] ?? "stone";
+const NAV = { stone: "black", paper: "light", ink: "grey" } as const;
+const BG = { stone: "var(--stone)", paper: "var(--paper)", ink: "var(--ink)" } as const;
+// Works grid: live used 3 columns of 433px cards for these, 4 elsewhere; square
+// frames on Andromeda and In Lucem, 9:16 elsewhere (shown here as 2:3 so the
+// contained artwork is not lost in bars).
+const THREE_UP = new Set(["andromeda", "in-lucem", "figurative-poetry"]);
+const SQUARE = new Set(["andromeda", "in-lucem"]);
+const gridCols = THREE_UP.has(col.slug) ? 3 : 4;
+const cardRatio = SQUARE.has(col.slug) ? "1 / 1" : "2 / 3";
+// Spirit's notes are small Inter; the Boky series set them as 26px Cormorant.
+const bigNotes = col.slug !== "spirit-collection";
+// Header to first block: Fragments has no blank lead line; Andromeda has no intro.
+const bodyGap = col.slug === "fragments" ? 57 : col.slug === "andromeda" ? 159 : 107;
+
+// Coming Soon Boky is the dark (ink) variant on the live site, Blake's is paper.
+const soonDark = col.slug === "coming-soon-boky";
+const soonBg = soonDark ? "var(--ink)" : "var(--paper-2)";
+
 const pageTitle = soon
 	? `Coming Soon: ${String(col.eyebrow ?? "").toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase())}`
 	: col.title;
@@ -85,9 +119,9 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 
 {
 	soon ? (
-		<Base title={pageTitle} description={description} ogImage={og} nav="light" bg="var(--paper-2)" fg="var(--ink)">
-			<BackPill href="/collections" label="Collections" tone="light" />
-			<div class="cs">
+		<Base title={pageTitle} description={description} ogImage={og} nav={soonDark ? "grey" : "light"} bg={soonBg} fg={soonDark ? "var(--paper)" : "var(--ink)"}>
+			<BackPill href="/collections" label="Collections" tone={soonDark ? "dark" : "light"} />
+			<div class:list={["cs", soonDark && "cs--dark"]}>
 				<header class="cs-head">
 					<p class="cs-eyebrow" data-arrive>{col.eyebrow}</p>
 					<h1 class="cs-title" data-arrive style="--d:1100ms">{col.title}</h1>
@@ -108,7 +142,7 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 					</div>
 					{col.hero?.image?.src && (
 						<div class="cs-plate">
-							<Img src={col.hero.image.src} alt={col.hero.image.alt ?? ""} bg="var(--paper-2)" pos="50% 0%" sizes="(min-width: 810px) 46vw, 100vw" eager />
+							<Img src={col.hero.image.src} alt={col.hero.image.alt ?? ""} bg={soonBg} pos="50% 0%" sizes="(min-width: 810px) 46vw, 100vw" eager />
 						</div>
 					)}
 				</div>
@@ -129,8 +163,8 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 										title={c.title}
 										date={c.date}
 										ratio="4 / 5"
-										bg="var(--paper-2)"
-										tone="light"
+										bg={soonBg}
+										tone={soonDark ? "dark" : "light"}
 										sizes="(min-width: 1400px) 25vw, (min-width: 810px) 33vw, 100vw"
 									/>
 								</li>
@@ -141,9 +175,9 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 			</div>
 		</Base>
 	) : (
-		<Base title={pageTitle} description={description} ogImage={og} nav="black" bg="var(--stone)">
-			<BackPill href="/collections" label="Collections" />
-			<div class="cd">
+		<Base title={pageTitle} description={description} ogImage={og} nav={NAV[theme]} bg={BG[theme]} fg={theme === "paper" ? "var(--charcoal)" : "var(--paper)"}>
+			<BackPill href="/collections" label="Collections" tone={theme === "paper" ? "light" : "dark"} />
+			<div class:list={["cd", `cd--${theme}`, bigNotes && "cd--big-notes", gridCols === 3 && "cd--three"]} style={`--body-gap:${bodyGap}px`}>
 				<header class="cd-head pad" data-arrive>
 					<p class="cd-eyebrow">{col.eyebrow}</p>
 					<h1 class="detail-title cd-title">{col.title}</h1>
@@ -179,14 +213,18 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 					{rows.length > 0 && (
 						<div class="cd-feat">
 							{rows.map((r) => (
-								<div class:list={["cd-row", `cd-row--${r.cols}`]} style={`--cols:${r.cols}`}>
+								<div
+									class:list={["cd-row", `cd-row--${r.cols}`]}
+									style={`--n:${r.items.length};--sum:${r.items.reduce((a, g) => a + ratioOf(g.src), 0).toFixed(4)};--cap:${ROW_CAP[r.cols] ?? 0.4306}`}
+								>
 									{r.items.map((g) => (
 										<Img
 											src={g.src}
 											alt={g.alt?.trim() ?? ""}
-											bg="var(--stone)"
+											bg={BG[theme]}
 											class="cd-fig"
-											sizes={`(min-width: 810px) ${Math.round(100 / r.cols)}vw, 100vw`}
+											style={`--grow:${ratioOf(g.src).toFixed(4)}`}
+											sizes={`(min-width: 810px) ${Math.min(100, Math.ceil(ratioOf(g.src) * Math.min(1 / r.items.reduce((a, x) => a + ratioOf(x.src), 0), ROW_CAP[r.cols] ?? 0.4306) * 100))}vw, 100vw`}
 										/>
 									))}
 								</div>
@@ -210,16 +248,23 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 								<label class="sr-only" for={`q-${col.slug}`}>
 									Search works in {col.title}
 								</label>
-								<input id={`q-${col.slug}`} type="search" placeholder="Search..." autocomplete="off" data-q />
-								<span class="cd-count" aria-live="polite" data-count>
-									{`${works.length} ${works.length === 1 ? "piece" : "pieces"}`}
-								</span>
+								<input id={`q-${col.slug}`} type="search" placeholder="Search…" autocomplete="off" enterkeyhint="search" data-q />
+								<span class="cd-count" aria-live="polite" data-count />
 							</div>
 						</div>
 						<ul class="cd-grid" data-grid>
 							{works.map((w) => (
 								<li data-title={w.title.toLowerCase()}>
-									<Card href={`/collections/${col.slug}/${w.slug}`} image={w.image} title={w.title} date={w.date} ratio="2 / 3" bg="var(--stone)" />
+									<Card
+										href={`/collections/${col.slug}/${w.slug}`}
+										image={w.image}
+										title={w.title}
+										date={w.date}
+										ratio={cardRatio}
+										bg={BG[theme]}
+										tone={theme === "paper" ? "light" : "dark"}
+										sizes={gridCols === 3 ? "(min-width: 1400px) 433px, (min-width: 810px) 50vw, 100vw" : "(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw"}
+									/>
 								</li>
 							))}
 						</ul>
@@ -253,23 +298,55 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 					li.querySelectorAll("[data-reveal], [data-split]").forEach((el) => el.classList.add("is-in"));
 				}
 			}
-			if (count) count.textContent = `${n} ${n === 1 ? "piece" : "pieces"}`;
+			// The live bar has no counter; it only appears while a search is active.
+			if (count) count.textContent = q ? `${n} ${n === 1 ? "piece" : "pieces"}` : "";
 			if (empty) empty.hidden = n !== 0;
 		};
 		input.addEventListener("input", run);
+		input.addEventListener("keydown", (e) => {
+			if (e.key === "Escape" && input.value) {
+				e.preventDefault();
+				input.value = "";
+				run();
+			}
+		});
 	});
 </script>
 
 <style>
 	/* ---------- Series overview ---------- */
 	.cd {
+		--c-eyebrow: var(--hairline);
+		--c-title: var(--hairline);
+		--c-body: var(--paper);
+		--c-lead: var(--paper);
+		--c-label: var(--paper);
+		--c-value: var(--paper);
+		--c-rule: var(--white);
+		--c-works: var(--paper);
+		--c-input: var(--white);
 		display: flex;
 		flex-direction: column;
 		gap: 106px;
 		max-inline-size: 1920px;
 		margin-inline: auto;
 		padding: 200px 0 110px;
-		color: var(--paper);
+		color: var(--c-body);
+	}
+	/* Colours measured per theme on the live pages. */
+	.cd--paper {
+		--c-eyebrow: var(--taupe);
+		--c-title: var(--charcoal);
+		--c-body: var(--taupe);
+		--c-lead: #666666;
+		--c-label: var(--taupe);
+		--c-value: var(--charcoal);
+		--c-rule: var(--grey-363);
+		--c-works: var(--black);
+		--c-input: var(--charcoal);
+	}
+	.cd--ink {
+		--c-rule: #2a2a28;
 	}
 	.pad {
 		padding-inline: var(--gutter);
@@ -281,42 +358,59 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		line-height: 1.6;
 		letter-spacing: 1.8px;
 		text-transform: uppercase;
-		color: var(--hairline);
+		color: var(--c-eyebrow);
 	}
 	.cd-title {
-		margin-block-start: 8px;
-		color: var(--hairline);
+		margin-block-start: 12px;
+		color: var(--c-title);
 	}
 	.cd-body {
 		display: flex;
 		flex-direction: column;
 		gap: 56px;
+		/* Live spacing from the title to the first block differs per page. */
+		margin-block-start: calc(var(--body-gap, 107px) - 106px);
 	}
 	.cd-intro {
-		max-inline-size: calc(810px + 2 * var(--gutter));
+		max-inline-size: calc(820px + 2 * var(--gutter));
 	}
 	.cd-lead {
 		line-height: 1.35;
+		color: var(--c-lead);
+	}
+	.cd-lead + .cd-lead {
+		margin-block-start: 20px;
 	}
 	.cd-notes {
 		display: flex;
 		flex-direction: column;
-		gap: 26px;
-		margin-block-start: 6px;
+		gap: 20px;
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 1.6;
 		letter-spacing: -0.02em;
 	}
+	/* In Lucem and Figurative Poetry: notes in the display serif. */
+	.cd--big-notes .cd-notes {
+		font-family: var(--font-display);
+		font-weight: 300;
+		font-size: 26px;
+		line-height: 1.4;
+		letter-spacing: -0.04em;
+	}
 	.cd-meta {
 		display: grid;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		gap: 0 32px;
+		margin: 0;
 	}
 	.cd-meta-i {
-		border-block-start: 1px solid var(--hairline);
+		border-block-start: 1px solid var(--c-rule);
 		padding-block: 20px 0;
 		min-block-size: 77px;
+	}
+	.cd-meta dt {
+		color: var(--c-label);
 	}
 	.cd-meta dd {
 		margin: 8px 0 0;
@@ -325,46 +419,66 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		font-size: 22px;
 		line-height: 1.3;
 		letter-spacing: -0.44px;
+		color: var(--c-value);
 	}
 	.cd-feat {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
 	}
+	/* Each row keeps the live rhythm (2 up, 3 up, full width) but every image
+	   takes a width in proportion to its own ratio, so the row shares one
+	   height and shows each artwork whole with no bars. */
+	.cd-feat {
+		container-type: inline-size;
+	}
 	.cd-row {
-		display: grid;
-		grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+		/* Shared row height: what fills the width, capped at the live height. */
+		--h: min(calc((100cqw - (var(--n) - 1) * 20px) / var(--sum)), calc(var(--cap) * 100cqw));
+		display: flex;
+		justify-content: center;
 		gap: 20px;
 	}
-	/* Fixed live frames at tablet and up, whole artwork contained on stone. */
-	.cd-row--1 :global(.cd-fig) {
-		aspect-ratio: 3 / 1;
+	.cd-row > :global(.cd-fig) {
+		flex: none;
+		inline-size: calc(var(--grow) * var(--h));
 	}
-	.cd-row--2 :global(.cd-fig) {
-		aspect-ratio: 710 / 620;
-	}
-	.cd-row--3 :global(.cd-fig) {
-		aspect-ratio: 2 / 3;
+	.cd-works .eyebrow {
+		color: var(--c-label);
 	}
 	.cd-works-h {
 		margin-block-start: 2px;
+		color: var(--c-works);
 	}
 	.cd-search {
 		display: flex;
 		align-items: center;
 		gap: 10px;
 		margin-block: 24px;
-		padding: 0 14px 0 18px;
+		padding: 0 14px 0 12px;
 		block-size: 40px;
 		border-radius: 10px;
+		/* Keep the field clear of the fixed bar and back pill when focused. */
+		scroll-margin-block: 160px 40vh;
 		background: rgba(187, 187, 187, 0.15);
-		color: rgba(245, 242, 235, 0.6);
+		color: var(--c-input);
+		opacity: 0.85;
+		transition: opacity 200ms var(--ease-link);
+	}
+	.cd-search:focus-within {
+		opacity: 1;
+		outline: 1px solid var(--gold-light);
+		outline-offset: 2px;
+	}
+	.cd--paper .cd-search:focus-within {
+		outline-color: var(--gold-dark);
 	}
 	html:not(.js) .cd-search {
 		display: none;
 	}
 	.cd-search svg {
 		flex: none;
+		opacity: 0.6;
 	}
 	.cd-search input {
 		flex: 1;
@@ -373,20 +487,20 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		background: transparent;
 		border: 0;
 		outline: 0;
-		color: var(--paper);
-		font: 300 14px/1 var(--font-body);
+		border-radius: 0;
+		scroll-margin-block: 172px 40vh;
+		color: var(--c-input);
+		/* 16px on phones so iOS does not zoom into the field. */
+		font: 400 14px/1 var(--font-body);
 		-webkit-appearance: none;
 		appearance: none;
 	}
 	.cd-search input::placeholder {
-		color: rgba(245, 242, 235, 0.5);
+		color: currentColor;
+		opacity: 0.6;
 	}
 	.cd-search input::-webkit-search-cancel-button {
 		-webkit-appearance: none;
-	}
-	.cd-search:focus-within {
-		outline: 1px solid var(--gold-light);
-		outline-offset: 2px;
 	}
 	.cd-count {
 		flex: none;
@@ -395,11 +509,17 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		font-size: 12px;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
+		opacity: 0.6;
 	}
 	.cd-grid {
 		display: grid;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		gap: 130px 0;
+	}
+	/* Andromeda, In Lucem, Figurative Poetry: three 433px cards, 47px apart. */
+	.cd--three .cd-grid {
+		grid-template-columns: repeat(3, minmax(0, 433px));
+		column-gap: 47px;
 	}
 	.cd-grid > li {
 		min-inline-size: 0;
@@ -408,8 +528,11 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		display: none;
 	}
 	.cd-empty {
+		/* Holds some height so the footer does not jump up under the cursor. */
+		min-block-size: 40vh;
+		padding-block-start: 16px;
 		font-size: 14px;
-		color: rgba(245, 242, 235, 0.7);
+		color: var(--c-body);
 	}
 	@media (max-width: 1399.98px) {
 		.cd {
@@ -421,8 +544,14 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		.cd-intro {
 			max-inline-size: none;
 		}
-		.cd-grid {
+		.cd--big-notes .cd-notes {
+			font-size: 21px;
+			letter-spacing: -0.04em;
+		}
+		.cd-grid,
+		.cd--three .cd-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
+			column-gap: 0;
 		}
 	}
 	@media (max-width: 809.98px) {
@@ -432,18 +561,25 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		.cd .pad {
 			padding-inline: 12px;
 		}
+		.cd--big-notes .cd-notes {
+			font-size: 19px;
+		}
 		.cd-meta {
 			grid-template-columns: minmax(0, 1fr);
 		}
 		/* Live phone layout overflowed the row of 3 off screen. Stack every
 		   feature image full width at its own ratio instead. */
 		.cd-row {
-			grid-template-columns: minmax(0, 1fr);
+			flex-direction: column;
 		}
-		.cd-row :global(.cd-fig) {
-			aspect-ratio: var(--ratio);
+		.cd-row > :global(.cd-fig) {
+			inline-size: 100%;
 		}
-		.cd-grid {
+		.cd-search input {
+			font-size: 16px;
+		}
+		.cd-grid,
+		.cd--three .cd-grid {
 			grid-template-columns: minmax(0, 1fr);
 			row-gap: 60px;
 		}
@@ -451,10 +587,32 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 
 	/* ---------- Coming soon ---------- */
 	.cs {
+		--s-eyebrow: var(--taupe-2);
+		--s-title: var(--ink);
+		--s-tag: var(--gold-dark);
+		--s-lead: var(--charcoal);
+		--s-note: var(--taupe);
+		--s-main: var(--charcoal);
+		--s-ghost-line: rgba(28, 26, 23, 0.15);
+		--s-ghost: var(--taupe);
+		--s-rule: rgba(28, 26, 23, 0.15);
 		max-inline-size: 1920px;
 		margin-inline: auto;
 		padding: 120px 32px 90px;
-		color: var(--ink);
+		color: var(--s-title);
+	}
+	/* Boky: measured on the live page. Its title was #212121 on #0f0f0f there
+	   (unreadable); it now uses the lead colour. */
+	.cs--dark {
+		--s-eyebrow: #8a8a86;
+		--s-title: var(--paper);
+		--s-tag: var(--gold-light);
+		--s-lead: var(--paper);
+		--s-note: var(--sand);
+		--s-main: var(--paper);
+		--s-ghost-line: var(--taupe);
+		--s-ghost: var(--sand);
+		--s-rule: #2a2a28;
 	}
 	.cs-head {
 		padding-block-start: 43px;
@@ -466,7 +624,7 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		line-height: 1.2;
 		letter-spacing: 3.36px;
 		text-transform: uppercase;
-		color: var(--taupe-2);
+		color: var(--s-eyebrow);
 	}
 	.cs-title {
 		margin-block-start: 12px;
@@ -475,13 +633,13 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		font-size: 100px;
 		line-height: 1.1;
 		letter-spacing: -6px;
-		color: var(--ink);
+		color: var(--s-title);
 	}
 	.cs-tag {
 		display: inline-block;
 		margin-block-start: 24px;
 		padding: 9px 17px;
-		border: 1px solid var(--gold-dark);
+		border: 1px solid var(--s-tag);
 		border-radius: 999px;
 		font-family: var(--font-body);
 		font-weight: 400;
@@ -489,7 +647,7 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		line-height: 1.2;
 		letter-spacing: 1.98px;
 		text-transform: uppercase;
-		color: var(--gold-dark);
+		color: var(--s-tag);
 	}
 	.cs-split {
 		display: grid;
@@ -499,21 +657,23 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		margin-block-start: 56px;
 	}
 	.cs-lead {
+		letter-spacing: normal;
 		max-inline-size: 440px;
 		font-family: var(--font-display);
 		font-style: italic;
 		font-weight: 400;
 		font-size: 32px;
 		line-height: 1.4;
-		color: var(--charcoal);
+		color: var(--s-lead);
 	}
 	.cs-note {
+		letter-spacing: normal;
 		max-inline-size: 540px;
 		margin-block-start: 24px;
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 1.7;
-		color: var(--taupe);
+		color: var(--s-note);
 	}
 	.cs-btns {
 		display: flex;
@@ -540,12 +700,12 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 			color 300ms var(--ease-out);
 	}
 	.cs-btn--main {
-		border-color: var(--charcoal);
-		color: var(--charcoal);
+		border-color: var(--s-main);
+		color: var(--s-main);
 	}
 	.cs-btn--ghost {
-		border-color: rgba(28, 26, 23, 0.15);
-		color: var(--taupe);
+		border-color: var(--s-ghost-line);
+		color: var(--s-ghost);
 	}
 	.cs-btn:hover {
 		background: var(--gold);
@@ -559,18 +719,19 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 		margin: 0;
 		border: 0;
 		block-size: 1px;
-		background: rgba(28, 26, 23, 0.15);
+		background: var(--s-rule);
 	}
 	.cs-more {
 		padding-block-start: 88px;
 	}
 	.cs-more-h {
+		letter-spacing: normal;
 		margin-block: 9px 12px;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 32px;
 		line-height: 1.15;
-		color: var(--charcoal);
+		color: var(--s-lead);
 	}
 	.cs-grid {
 		display: grid;

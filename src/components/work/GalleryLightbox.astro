@@ -47,6 +47,7 @@ const full = images.map((im) => img(im.src));
 									width={full[i]?.width}
 									height={full[i]?.height}
 									alt={im.alt || `${title}, image ${i + 1} of ${n}`}
+									style={full[i]?.width ? `--nw:${full[i].width}px;--nh:${full[i].height}px` : undefined}
 									decoding="async"
 									draggable="false"
 								/>
@@ -138,12 +139,36 @@ const full = images.map((im) => img(im.src));
 	.lb[open] {
 		animation: lb-in 320ms cubic-bezier(0.22, 0.61, 0.36, 1);
 	}
+	.lb[open] .lb-stage {
+		animation: lb-zoom 420ms cubic-bezier(0.22, 0.61, 0.36, 1);
+	}
+	.lb.is-closing {
+		animation: lb-out 220ms cubic-bezier(0.4, 0, 1, 1) forwards;
+	}
+	.lb.is-closing .lb-stage {
+		animation: lb-zoom-out 220ms cubic-bezier(0.4, 0, 1, 1) forwards;
+	}
 	.lb::backdrop {
 		background: transparent;
 	}
 	@keyframes lb-in {
 		from {
 			opacity: 0;
+		}
+	}
+	@keyframes lb-out {
+		to {
+			opacity: 0;
+		}
+	}
+	@keyframes lb-zoom {
+		from {
+			scale: 0.96;
+		}
+	}
+	@keyframes lb-zoom-out {
+		to {
+			scale: 0.97;
 		}
 	}
 	.lb-stage {
@@ -173,8 +198,9 @@ const full = images.map((im) => img(im.src));
 		justify-content: center;
 	}
 	.lb-slide img {
-		inline-size: 100%;
-		block-size: 100%;
+		/* Fill the stage, but never blow a small original up past 1.5x. */
+		inline-size: min(100%, calc(var(--nw, 9999px) * 1.5));
+		block-size: min(100%, calc(var(--nh, 9999px) * 1.5));
 		object-fit: contain;
 		user-select: none;
 		-webkit-user-drag: none;
@@ -257,7 +283,10 @@ const full = images.map((im) => img(im.src));
 		}
 	}
 	@media (prefers-reduced-motion: reduce) {
-		.lb[open] {
+		.lb[open],
+		.lb[open] .lb-stage,
+		.lb.is-closing,
+		.lb.is-closing .lb-stage {
 			animation: none;
 		}
 		.lb-track {
@@ -297,23 +326,44 @@ const full = images.map((im) => img(im.src));
 			load(index - 1);
 		};
 		const lenis = () => (window as unknown as { __lenis?: Lenisish }).__lenis;
+		const html = document.documentElement;
+		const reduce = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 		const open = (i: number, from: HTMLElement) => {
 			opener = from;
 			show(i, false);
-			document.documentElement.style.overflow = "hidden";
+			// Lock the page (and smooth scroll) without the layout jumping where
+			// the scrollbar was.
+			const bar = innerWidth - html.clientWidth;
+			html.style.overflow = "hidden";
+			if (bar > 0) html.style.paddingInlineEnd = `${bar}px`;
 			lenis()?.stop();
+			dlg.classList.remove("is-closing");
 			dlg.showModal();
-			dlg.querySelector<HTMLElement>("[data-close]")?.focus();
+			dlg.querySelector<HTMLElement>("[data-close]")?.focus({ preventScroll: true });
 		};
+		let closing = false;
 		const close = () => {
-			if (!dlg.open) return;
-			dlg.close();
+			if (!dlg.open || closing) return;
+			if (reduce()) return dlg.close();
+			closing = true;
+			dlg.classList.add("is-closing");
+			const done = () => {
+				clearTimeout(t);
+				dlg.removeEventListener("animationend", onEnd);
+				closing = false;
+				dlg.classList.remove("is-closing");
+				dlg.close();
+			};
+			const onEnd = (e: AnimationEvent) => e.target === dlg && done();
+			const t = setTimeout(done, 400);
+			dlg.addEventListener("animationend", onEnd);
 		};
 		dlg.addEventListener("close", () => {
-			document.documentElement.style.overflow = "";
+			html.style.overflow = "";
+			html.style.paddingInlineEnd = "";
 			lenis()?.start();
-			opener?.focus();
+			opener?.focus({ preventScroll: true });
 		});
 		dlg.addEventListener("cancel", (e) => {
 			e.preventDefault();
@@ -344,6 +394,18 @@ const full = images.map((im) => img(im.src));
 				f[next]?.focus();
 			}
 		});
+
+		const onPicture = (im: HTMLImageElement, x: number, y: number) => {
+			const r = im.getBoundingClientRect();
+			const nw = im.naturalWidth || Number(im.getAttribute("width")) || r.width;
+			const nh = im.naturalHeight || Number(im.getAttribute("height")) || r.height;
+			const k = Math.min(r.width / nw, r.height / nh);
+			const w = nw * k;
+			const h = nh * k;
+			const left = r.left + (r.width - w) / 2;
+			const top = r.top + (r.height - h) / 2;
+			return x >= left && x <= left + w && y >= top && y <= top + h;
+		};
 
 		// Swipe / drag between images. A tap outside the image closes.
 		let startX = 0;
@@ -378,7 +440,10 @@ const full = images.map((im) => img(im.src));
 			const fast = Math.abs(dx) / Math.max(performance.now() - t0, 1) > 0.4;
 			if (Math.abs(dx) < 6 && Math.abs(dy) < 6 && e.type === "pointerup") {
 				show(index, true);
-				if ((e.target as HTMLElement).tagName !== "IMG") close();
+				// Close on a tap outside the picture itself (the contained image
+				// leaves empty bands inside its own box).
+				const im = slides[index]?.querySelector("img");
+				if (!im || !onPicture(im, e.clientX, e.clientY)) close();
 				return;
 			}
 			if (n > 1 && (Math.abs(dx) > stage.clientWidth * 0.18 || (fast && Math.abs(dx) > 30))) show(index + (dx < 0 ? 1 : -1));

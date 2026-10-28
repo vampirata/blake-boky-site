@@ -123,7 +123,9 @@ const sizesFor = (src: string) => {
 		let raf = 0;
 		let last = 0;
 		let visible = false;
-		const drag = { active: false, id: -1, startX: 0, startOffset: 0, lastX: 0, lastT: 0, vx: 0 };
+		// pending: finger down but not yet a horizontal drag (a vertical swipe
+		// must scroll the page without nudging the strip).
+		const drag = { active: false, pending: false, id: -1, startX: 0, startY: 0, startOffset: 0, lastX: 0, lastT: 0, vx: 0 };
 
 		const measure = () => {
 			const firstClone = track.querySelector<HTMLElement>(".tk-clone");
@@ -193,14 +195,23 @@ const sizesFor = (src: string) => {
 		view.addEventListener("dragstart", (e) => e.preventDefault());
 		view.addEventListener("pointerdown", (e) => {
 			if (e.pointerType === "mouse" && e.button !== 0) return;
-			Object.assign(drag, { active: true, id: e.pointerId, startX: e.clientX, startOffset: offset, lastX: e.clientX, lastT: performance.now(), vx: 0 });
-			view.classList.add("is-grabbing");
-			try {
-				view.setPointerCapture(e.pointerId);
-			} catch {}
+			Object.assign(drag, { active: false, pending: true, id: e.pointerId, startX: e.clientX, startY: e.clientY, startOffset: offset, lastX: e.clientX, lastT: performance.now(), vx: 0 });
 		});
 		view.addEventListener("pointermove", (e) => {
-			if (!drag.active || e.pointerId !== drag.id) return;
+			if (e.pointerId !== drag.id) return;
+			if (drag.pending) {
+				const dx = Math.abs(e.clientX - drag.startX);
+				const dy = Math.abs(e.clientY - drag.startY);
+				if (dx < 6 && dy < 6) return;
+				drag.pending = false;
+				if (dy > dx) return; // vertical: leave it to the page
+				Object.assign(drag, { active: true, startOffset: offset + (e.clientX - drag.startX), lastX: e.clientX, lastT: performance.now() });
+				view.classList.add("is-grabbing");
+				try {
+					view.setPointerCapture(e.pointerId);
+				} catch {}
+			}
+			if (!drag.active) return;
 			const now = performance.now();
 			const dt = Math.max(now - drag.lastT, 1);
 			drag.vx = (e.clientX - drag.lastX) / dt;
@@ -210,8 +221,11 @@ const sizesFor = (src: string) => {
 			if (!raf) paint();
 		});
 		const up = (e: PointerEvent) => {
-			if (!drag.active || e.pointerId !== drag.id) return;
-			if (Math.abs(drag.vx) > 0.02) dir = drag.vx < 0 ? 1 : -1;
+			if (e.pointerId !== drag.id) return;
+			drag.pending = false;
+			if (!drag.active) return;
+			// A deliberate flick sets the new direction; a slow drag keeps it.
+			if (Math.abs(drag.vx) > 0.1) dir = drag.vx < 0 ? 1 : -1;
 			drag.active = false;
 			view.classList.remove("is-grabbing");
 			try {

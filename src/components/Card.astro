@@ -20,11 +20,11 @@ const { href, image, title, date, ratio = "4 / 5", bg = "transparent", sizes = "
 
 <a class:list={["card", `card--${tone}`]} href={url(href)} data-reveal {...(external ? { target: "_blank", rel: "noopener" } : {})}>
 	{image && <Img src={image} ratio={ratio} bg={bg} zoom sizes={sizes} />}
-	<span class="rule" aria-hidden="true"></span>
 	<div class="meta">
 		{date && <p class="card-date d">{date}</p>}
 		<SplitTitle text={title} class="card-title" />
 	</div>
+	<span class="rule" aria-hidden="true"></span>
 </a>
 
 <style>
@@ -33,19 +33,30 @@ const { href, image, title, date, ratio = "4 / 5", bg = "transparent", sizes = "
 		flex-direction: column;
 		min-inline-size: 0;
 	}
+	/* Hairline under the title: hidden on desktop until hover (live). */
 	.rule {
 		display: block;
 		block-size: 1px;
-		background: var(--hairline);
-		opacity: 0.6;
-		transition: transform 600ms var(--ease-spring);
+		margin-block-start: 10px;
+		background: currentColor;
+		transition:
+			transform 600ms var(--ease-spring),
+			opacity 600ms var(--ease-spring);
 		transform-origin: left;
 	}
-	.card:hover .rule {
-		transform: scaleX(0.96);
+	@media (hover: hover) and (min-width: 1400px) {
+		.rule {
+			opacity: 0;
+			transform: scaleX(0);
+		}
+		.card:hover .rule,
+		.card:focus-visible .rule {
+			opacity: 1;
+			transform: none;
+		}
 	}
 	.meta {
-		padding: 14px 10px 0;
+		padding: 14px 12px 0;
 	}
 	.card--dark {
 		color: var(--white);
@@ -57,6 +68,6 @@ const { href, image, title, date, ratio = "4 / 5", bg = "transparent", sizes = "
 		color: var(--black);
 	}
 	.card--light .d {
-		color: var(--taupe);
+		color: var(--black);
 	}
 </style>
