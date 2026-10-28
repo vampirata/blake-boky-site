@@ -6,3 +6,4 @@ scripts/.cache
 public/img
 scripts/.optimize.log
 scripts/.raw
+scripts/.qa-report.json

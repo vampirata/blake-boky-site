@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/site";
+---
+
+<Base title="Page not found" nav="grey">
+	<section class="nf">
+		<p class="eyebrow">404</p>
+		<h1 class="h2">This page could not be found</h1>
+		<a class="btn-outline" href={url("/")}>Back to home</a>
+	</section>
+</Base>
+
+<style>
+	.nf {
+		min-block-size: 80svh;
+		display: grid;
+		place-content: center;
+		justify-items: center;
+		gap: 24px;
+		padding: 160px var(--gutter);
+		text-align: center;
+	}
+	.eyebrow {
+		color: var(--gold-light);
+	}
+</style>

@@ -1,0 +1,68 @@
+---
+// Collections index: Arrive header, 12 collection cards, pre-footer CTA band.
+// Template "collections" in docs/design-spec.md.
+import Base from "../../layouts/Base.astro";
+import ArriveHeader from "../../components/ArriveHeader.astro";
+import Card from "../../components/Card.astro";
+import CtaBand from "../../components/CtaBand.astro";
+import page from "../../content/data/collections-index.json";
+import { collections, cleanTitle } from "../../lib/data";
+
+type IndexCard = { title: string; date?: string; target: string; image?: { src: string } };
+
+// Live links fixed: the Andromeda card pointed at the Blake coming soon page
+// although /collections/andromeda is published. Any target that is not a
+// collection page falls back to the index.
+const slugs = new Set(collections.map((c) => c.slug));
+const fixTarget = (c: IndexCard) => {
+	if (/^andromeda\b/i.test(c.title.trim())) return "/collections/andromeda";
+	const slug = c.target.replace(/^\/collections\/?/, "").split("/")[0];
+	return slugs.has(slug) ? c.target : "/collections";
+};
+const cards = (page.cards as IndexCard[]).map((c) => ({ ...c, title: c.title.trim(), href: fixTarget(c) }));
+const title = cleanTitle(page.seo?.title, page.heading);
+---
+
+<Base title={title} description={page.seo?.description} ogImage={page.cta?.image?.src} nav="grey" bg="var(--ink)" smooth>
+	<ArriveHeader title={page.heading} />
+	<section class="grid-wrap" aria-label="All collections">
+		<ul class="grid">
+			{
+				cards.map((c) => (
+					<li>
+						<Card href={c.href} image={c.image?.src} title={c.title} date={c.date} ratio="4 / 5" bg="var(--ink)" />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+	{page.cta?.image?.src && <CtaBand image={page.cta.image.src} heading={page.cta.heading} pos="50% 60%" />}
+</Base>
+
+<style>
+	.grid-wrap {
+		padding: 50px var(--gutter-grid) 150px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 100px 0;
+	}
+	.grid > li {
+		min-inline-size: 0;
+	}
+	@media (max-width: 1399.98px) {
+		.grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+	@media (max-width: 809.98px) {
+		.grid-wrap {
+			padding: 50px 0 150px;
+		}
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 60px;
+		}
+	}
+</style>

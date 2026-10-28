@@ -1,0 +1,648 @@
+---
+// One page per collection in collections.json. Two layouts:
+//  - series overview (template "collection-detail"): intro, meta, feature
+//    images, "The Works" with a live title search over works.json
+//  - coming soon (template "collection-coming-soon"): placeholder with plate
+//    image and an "In the meantime" grid of collections you can see now.
+import Base from "../../../layouts/Base.astro";
+import BackPill from "../../../components/BackPill.astro";
+import Card from "../../../components/Card.astro";
+import Img from "../../../components/Img.astro";
+import { collections, worksIn, type Collection, type ImageRec } from "../../../lib/data";
+import { url } from "../../../lib/site";
+
+export function getStaticPaths() {
+	return collections.map((c) => ({ params: { collection: c.slug }, props: { col: c } }));
+}
+
+const { col } = Astro.props as { col: Collection };
+const soon = !!col.comingSoon;
+
+// Card links: the Andromeda card pointed at the Blake coming soon page on the
+// live site, although /collections/andromeda is published.
+const slugs = new Set(collections.map((c) => c.slug));
+const soonSlugs = new Set(collections.filter((c) => c.comingSoon).map((c) => c.slug));
+const slugOf = (target: string) => target.replace(/^\/collections\/?/, "").split("/")[0];
+const fixTarget = (c: { title: string; target: string }) => {
+	if (/^andromeda\b/i.test(c.title.trim())) return "/collections/andromeda";
+	return slugs.has(slugOf(c.target)) ? c.target : "/collections";
+};
+
+// ---------- Series overview data ----------
+const metaEntries: [string, string][] = ((col.metaOrder as string[] | undefined) ?? Object.keys(col.meta ?? {}))
+	.map((k) => [k, String(col.meta?.[k] ?? "").trim()] as [string, string])
+	.filter(([, v]) => v !== "");
+
+// Placeholder text left in the CMS ("... and continued into ect;;;") is cut at the unfinished clause.
+const cleanHtml = (h: string) => h.replace(/\s+and continued into ect;+\s*$/i, ".").trim();
+const intro = ((col.introBlocks ?? []) as { tag: string; html: string }[]).map((b) => ({ tag: b.tag, html: cleanHtml(b.html) }));
+const leads = intro.filter((b) => b.tag === "p");
+const notes = intro.filter((b) => b.tag !== "p");
+
+// Feature images keep the live rows: grouped by their rendered row on the
+// desktop capture, columns from their rendered width (2-up, 3-up or full).
+type Row = { cols: number; items: ImageRec[] };
+const rows: Row[] = [];
+for (const g of (col.gallery ?? []) as ImageRec[]) {
+	const y = Math.round(g.rendered?.y ?? 0);
+	const cols = Math.max(1, Math.round(1440 / (g.rendered?.width || 720)));
+	const last = rows[rows.length - 1] as (Row & { y?: number }) | undefined;
+	if (last && last.y === y) last.items.push(g);
+	else rows.push(Object.assign({ cols, items: [g] }, { y }));
+}
+
+const cardByTarget = new Map(
+	((col.workCards ?? []) as { target: string; date?: string; image?: ImageRec }[]).map((w) => [w.target.split("/").pop(), w])
+);
+const works = soon
+	? []
+	: worksIn(col.slug).map((w) => {
+			const card = cardByTarget.get(w.slug);
+			return {
+				slug: w.slug,
+				title: w.title.trim(),
+				date: card?.date,
+				image: card?.image?.src ?? w.images?.[0]?.src,
+			};
+		});
+
+// ---------- Coming soon data ----------
+const elsewhere = soon
+	? ((col.elsewhere?.cards ?? []) as { title: string; date?: string; target: string; image?: ImageRec }[])
+			.map((c) => ({ ...c, title: c.title.trim(), href: fixTarget(c) }))
+			// "Collections you can see now" listed the in-preparation ones too.
+			.filter((c) => !soonSlugs.has(slugOf(c.href)))
+	: [];
+
+const pageTitle = soon
+	? `Coming Soon: ${String(col.eyebrow ?? "").toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase())}`
+	: col.title;
+const description = col.seo?.description;
+const og = soon ? col.hero?.image?.src : (col.gallery?.[0]?.src ?? col.hero?.image?.src);
+const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
+---
+
+{
+	soon ? (
+		<Base title={pageTitle} description={description} ogImage={og} nav="light" bg="var(--paper-2)" fg="var(--ink)">
+			<BackPill href="/collections" label="Collections" tone="light" />
+			<div class="cs">
+				<header class="cs-head">
+					<p class="cs-eyebrow" data-arrive>{col.eyebrow}</p>
+					<h1 class="cs-title" data-arrive style="--d:1100ms">{col.title}</h1>
+					{col.status && <p class="cs-tag" data-arrive style="--d:1200ms">{col.status}</p>}
+				</header>
+
+				<div class="cs-split">
+					<div class="cs-text">
+						{col.intro?.[0] && <p class="cs-lead" data-reveal>{col.intro[0]}</p>}
+						{col.intro?.slice(1).map((t: string) => <p class="cs-note" data-reveal>{t}</p>)}
+						<div class="cs-btns" data-reveal>
+							{(col.ctas ?? []).map((c: { label: string; href: string; target?: string }, i: number) => (
+								<a class:list={["cs-btn", i === 0 ? "cs-btn--main" : "cs-btn--ghost"]} href={url(ctaHref(c))}>
+									{c.label}
+								</a>
+							))}
+						</div>
+					</div>
+					{col.hero?.image?.src && (
+						<div class="cs-plate">
+							<Img src={col.hero.image.src} alt={col.hero.image.alt ?? ""} bg="var(--paper-2)" pos="50% 0%" sizes="(min-width: 810px) 46vw, 100vw" eager />
+						</div>
+					)}
+				</div>
+				<hr class="cs-rule" />
+
+				{elsewhere.length > 0 && (
+					<section class="cs-more" aria-labelledby="cs-more-h">
+						<p class="cs-eyebrow">{col.elsewhere?.eyebrow}</p>
+						<h2 class="cs-more-h" id="cs-more-h">
+							{col.elsewhere?.heading}
+						</h2>
+						<ul class="cs-grid">
+							{elsewhere.map((c) => (
+								<li>
+									<Card
+										href={c.href}
+										image={c.image?.src}
+										title={c.title}
+										date={c.date}
+										ratio="4 / 5"
+										bg="var(--paper-2)"
+										tone="light"
+										sizes="(min-width: 1400px) 25vw, (min-width: 810px) 33vw, 100vw"
+									/>
+								</li>
+							))}
+						</ul>
+					</section>
+				)}
+			</div>
+		</Base>
+	) : (
+		<Base title={pageTitle} description={description} ogImage={og} nav="black" bg="var(--stone)">
+			<BackPill href="/collections" label="Collections" />
+			<div class="cd">
+				<header class="cd-head pad" data-arrive>
+					<p class="cd-eyebrow">{col.eyebrow}</p>
+					<h1 class="detail-title cd-title">{col.title}</h1>
+				</header>
+
+				<div class="cd-body">
+					{(leads.length > 0 || notes.length > 0) && (
+						<div class="cd-intro pad" data-reveal>
+							{leads.map((b) => (
+								<p class="intro-italic cd-lead" set:html={b.html} />
+							))}
+							{notes.length > 0 && (
+								<div class="cd-notes">
+									{notes.map((b) => (
+										<p set:html={b.html} />
+									))}
+								</div>
+							)}
+						</div>
+					)}
+
+					{metaEntries.length > 0 && (
+						<dl class="cd-meta pad" data-reveal>
+							{metaEntries.map(([k, v]) => (
+								<div class="cd-meta-i">
+									<dt class="eyebrow">{k}</dt>
+									<dd>{v}</dd>
+								</div>
+							))}
+						</dl>
+					)}
+
+					{rows.length > 0 && (
+						<div class="cd-feat">
+							{rows.map((r) => (
+								<div class:list={["cd-row", `cd-row--${r.cols}`]} style={`--cols:${r.cols}`}>
+									{r.items.map((g) => (
+										<Img
+											src={g.src}
+											alt={g.alt?.trim() ?? ""}
+											bg="var(--stone)"
+											class="cd-fig"
+											sizes={`(min-width: 810px) ${Math.round(100 / r.cols)}vw, 100vw`}
+										/>
+									))}
+								</div>
+							))}
+						</div>
+					)}
+				</div>
+
+				{works.length > 0 && (
+					<section class="cd-works" aria-labelledby="works-h" data-works>
+						<div class="pad">
+							<p class="eyebrow">{col.worksEyebrow ?? "THE WORKS"}</p>
+							<h2 class="h2 cd-works-h" id="works-h">
+								{col.worksHeading ?? col.title}
+							</h2>
+							<div class="cd-search">
+								<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+									<circle cx="11" cy="11" r="7" />
+									<line x1="21" y1="21" x2="16.65" y2="16.65" />
+								</svg>
+								<label class="sr-only" for={`q-${col.slug}`}>
+									Search works in {col.title}
+								</label>
+								<input id={`q-${col.slug}`} type="search" placeholder="Search..." autocomplete="off" data-q />
+								<span class="cd-count" aria-live="polite" data-count>
+									{`${works.length} ${works.length === 1 ? "piece" : "pieces"}`}
+								</span>
+							</div>
+						</div>
+						<ul class="cd-grid" data-grid>
+							{works.map((w) => (
+								<li data-title={w.title.toLowerCase()}>
+									<Card href={`/collections/${col.slug}/${w.slug}`} image={w.image} title={w.title} date={w.date} ratio="2 / 3" bg="var(--stone)" />
+								</li>
+							))}
+						</ul>
+						<p class="cd-empty pad" data-empty hidden>
+							No pieces match your search.
+						</p>
+					</section>
+				)}
+			</div>
+		</Base>
+	)
+}
+
+<script>
+	// Live title search (port of WorksSearchGrid). Without JS every card shows.
+	document.querySelectorAll<HTMLElement>("[data-works]").forEach((root) => {
+		const input = root.querySelector<HTMLInputElement>("[data-q]");
+		const count = root.querySelector<HTMLElement>("[data-count]");
+		const empty = root.querySelector<HTMLElement>("[data-empty]");
+		const items = [...root.querySelectorAll<HTMLElement>("[data-grid] > li")];
+		if (!input) return;
+		const run = () => {
+			const q = input.value.trim().toLowerCase();
+			let n = 0;
+			for (const li of items) {
+				const show = !q || (li.dataset.title ?? "").includes(q);
+				li.hidden = !show;
+				if (show) {
+					n++;
+					// Cards revealed by a search are shown at once.
+					li.querySelectorAll("[data-reveal], [data-split]").forEach((el) => el.classList.add("is-in"));
+				}
+			}
+			if (count) count.textContent = `${n} ${n === 1 ? "piece" : "pieces"}`;
+			if (empty) empty.hidden = n !== 0;
+		};
+		input.addEventListener("input", run);
+	});
+</script>
+
+<style>
+	/* ---------- Series overview ---------- */
+	.cd {
+		display: flex;
+		flex-direction: column;
+		gap: 106px;
+		max-inline-size: 1920px;
+		margin-inline: auto;
+		padding: 200px 0 110px;
+		color: var(--paper);
+	}
+	.pad {
+		padding-inline: var(--gutter);
+	}
+	.cd-eyebrow {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.6;
+		letter-spacing: 1.8px;
+		text-transform: uppercase;
+		color: var(--hairline);
+	}
+	.cd-title {
+		margin-block-start: 8px;
+		color: var(--hairline);
+	}
+	.cd-body {
+		display: flex;
+		flex-direction: column;
+		gap: 56px;
+	}
+	.cd-intro {
+		max-inline-size: calc(810px + 2 * var(--gutter));
+	}
+	.cd-lead {
+		line-height: 1.35;
+	}
+	.cd-notes {
+		display: flex;
+		flex-direction: column;
+		gap: 26px;
+		margin-block-start: 6px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.6;
+		letter-spacing: -0.02em;
+	}
+	.cd-meta {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 0 32px;
+	}
+	.cd-meta-i {
+		border-block-start: 1px solid var(--hairline);
+		padding-block: 20px 0;
+		min-block-size: 77px;
+	}
+	.cd-meta dd {
+		margin: 8px 0 0;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 1.3;
+		letter-spacing: -0.44px;
+	}
+	.cd-feat {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.cd-row {
+		display: grid;
+		grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+		gap: 20px;
+	}
+	/* Fixed live frames at tablet and up, whole artwork contained on stone. */
+	.cd-row--1 :global(.cd-fig) {
+		aspect-ratio: 3 / 1;
+	}
+	.cd-row--2 :global(.cd-fig) {
+		aspect-ratio: 710 / 620;
+	}
+	.cd-row--3 :global(.cd-fig) {
+		aspect-ratio: 2 / 3;
+	}
+	.cd-works-h {
+		margin-block-start: 2px;
+	}
+	.cd-search {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-block: 24px;
+		padding: 0 14px 0 18px;
+		block-size: 40px;
+		border-radius: 10px;
+		background: rgba(187, 187, 187, 0.15);
+		color: rgba(245, 242, 235, 0.6);
+	}
+	html:not(.js) .cd-search {
+		display: none;
+	}
+	.cd-search svg {
+		flex: none;
+	}
+	.cd-search input {
+		flex: 1;
+		min-inline-size: 0;
+		block-size: 100%;
+		background: transparent;
+		border: 0;
+		outline: 0;
+		color: var(--paper);
+		font: 300 14px/1 var(--font-body);
+		-webkit-appearance: none;
+		appearance: none;
+	}
+	.cd-search input::placeholder {
+		color: rgba(245, 242, 235, 0.5);
+	}
+	.cd-search input::-webkit-search-cancel-button {
+		-webkit-appearance: none;
+	}
+	.cd-search:focus-within {
+		outline: 1px solid var(--gold-light);
+		outline-offset: 2px;
+	}
+	.cd-count {
+		flex: none;
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+	.cd-grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 130px 0;
+	}
+	.cd-grid > li {
+		min-inline-size: 0;
+	}
+	.cd-grid > li[hidden] {
+		display: none;
+	}
+	.cd-empty {
+		font-size: 14px;
+		color: rgba(245, 242, 235, 0.7);
+	}
+	@media (max-width: 1399.98px) {
+		.cd {
+			padding-inline: 32px;
+		}
+		.cd .pad {
+			padding-inline: 0;
+		}
+		.cd-intro {
+			max-inline-size: none;
+		}
+		.cd-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+	@media (max-width: 809.98px) {
+		.cd {
+			padding: 200px 0 80px;
+		}
+		.cd .pad {
+			padding-inline: 12px;
+		}
+		.cd-meta {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		/* Live phone layout overflowed the row of 3 off screen. Stack every
+		   feature image full width at its own ratio instead. */
+		.cd-row {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		.cd-row :global(.cd-fig) {
+			aspect-ratio: var(--ratio);
+		}
+		.cd-grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 60px;
+		}
+	}
+
+	/* ---------- Coming soon ---------- */
+	.cs {
+		max-inline-size: 1920px;
+		margin-inline: auto;
+		padding: 120px 32px 90px;
+		color: var(--ink);
+	}
+	.cs-head {
+		padding-block-start: 43px;
+	}
+	.cs-eyebrow {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 3.36px;
+		text-transform: uppercase;
+		color: var(--taupe-2);
+	}
+	.cs-title {
+		margin-block-start: 12px;
+		font-family: var(--font-display);
+		font-weight: 400;
+		font-size: 100px;
+		line-height: 1.1;
+		letter-spacing: -6px;
+		color: var(--ink);
+	}
+	.cs-tag {
+		display: inline-block;
+		margin-block-start: 24px;
+		padding: 9px 17px;
+		border: 1px solid var(--gold-dark);
+		border-radius: 999px;
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 1.2;
+		letter-spacing: 1.98px;
+		text-transform: uppercase;
+		color: var(--gold-dark);
+	}
+	.cs-split {
+		display: grid;
+		grid-template-columns: minmax(0, 688fr) minmax(0, 656fr);
+		gap: 32px;
+		align-items: start;
+		margin-block-start: 56px;
+	}
+	.cs-lead {
+		max-inline-size: 440px;
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 1.4;
+		color: var(--charcoal);
+	}
+	.cs-note {
+		max-inline-size: 540px;
+		margin-block-start: 24px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.7;
+		color: var(--taupe);
+	}
+	.cs-btns {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 14px;
+		margin-block-start: 44px;
+	}
+	.cs-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		block-size: 42px;
+		padding: 0 29px;
+		border: 1px solid;
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 1.92px;
+		text-transform: uppercase;
+		transition:
+			background-color 300ms var(--ease-out),
+			border-color 300ms var(--ease-out),
+			color 300ms var(--ease-out);
+	}
+	.cs-btn--main {
+		border-color: var(--charcoal);
+		color: var(--charcoal);
+	}
+	.cs-btn--ghost {
+		border-color: rgba(28, 26, 23, 0.15);
+		color: var(--taupe);
+	}
+	.cs-btn:hover {
+		background: var(--gold);
+		border-color: var(--gold);
+		color: var(--ink);
+	}
+	.cs-plate :global(.art) {
+		aspect-ratio: 656 / 620;
+	}
+	.cs-rule {
+		margin: 0;
+		border: 0;
+		block-size: 1px;
+		background: rgba(28, 26, 23, 0.15);
+	}
+	.cs-more {
+		padding-block-start: 88px;
+	}
+	.cs-more-h {
+		margin-block: 9px 12px;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 1.15;
+		color: var(--charcoal);
+	}
+	.cs-grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 100px 0;
+	}
+	.cs-grid > li {
+		min-inline-size: 0;
+	}
+	@media (max-width: 1399.98px) {
+		.cs {
+			padding-inline: 0;
+		}
+		.cs-head,
+		.cs-text,
+		.cs-more > :not(.cs-grid) {
+			padding-inline: 32px;
+		}
+		.cs-title {
+			font-size: 90px;
+			letter-spacing: -5.4px;
+		}
+		.cs-split {
+			grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+			gap: 32px;
+		}
+		.cs-text {
+			padding-inline-end: 0;
+		}
+		/* Plate shown whole at its own ratio once the column narrows. */
+		.cs-plate :global(.art) {
+			aspect-ratio: var(--ratio);
+		}
+		.cs-rule {
+			margin-inline: 32px;
+		}
+		.cs-grid {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+	}
+	@media (max-width: 809.98px) {
+		.cs-head,
+		.cs-text,
+		.cs-more > :not(.cs-grid) {
+			padding-inline: 12px;
+		}
+		.cs-head {
+			padding-block-start: 43px;
+		}
+		.cs-title {
+			font-size: 60px;
+			letter-spacing: -3.6px;
+		}
+		.cs-tag {
+			margin-block-start: 21px;
+		}
+		.cs-split {
+			grid-template-columns: minmax(0, 1fr);
+			gap: 64px;
+		}
+		.cs-text {
+			padding-inline-end: 12px;
+		}
+		.cs-btns {
+			flex-direction: column;
+			align-items: center;
+		}
+		.cs-rule {
+			display: none;
+		}
+		.cs-grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 60px;
+		}
+	}
+</style>

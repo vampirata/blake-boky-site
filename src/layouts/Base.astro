@@ -41,6 +41,8 @@ const og = ogImage ? new URL(url(img(ogImage)?.src ?? ogImage), Astro.site).href
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
 		<link rel="icon" href={url("/favicon.png")} />
+		<link rel="apple-touch-icon" href={url("/apple-touch-icon.png")} />
+		{Astro.site?.hostname !== "blakeandboky.com" && <meta name="robots" content="noindex" />}
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content={SITE_NAME} />
 		<meta property="og:title" content={fullTitle} />
