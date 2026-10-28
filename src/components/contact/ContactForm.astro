@@ -1,17 +1,18 @@
 ---
-// Contact message form. Native validation, fetch POST as FormData to the form
-// endpoint, inline success and error states, mailto fallback on failure.
-// The endpoint lives in the page data (pages/contact.json form.action) and is
-// passed in from contact.astro, where it is set once as FORM_ENDPOINT.
+// Contact message form. Native validation and inline success and error states.
+// With a Web3Forms key (formKey) it posts to Web3Forms, which emails the
+// address the key was created for. Without a key it opens the visitor's email
+// app with the message prefilled to the artists' addresses.
 /* eslint-disable @typescript-eslint/no-explicit-any */
+const ENDPOINT = "https://api.web3forms.com/submit";
 interface Props {
-	endpoint: string;
+	formKey?: string;
 	fields: any[];
 	options: any[];
 	submitLabel?: string;
 	fallbackEmails: string[];
 }
-const { endpoint, fields, options, submitLabel = "Send message", fallbackEmails } = Astro.props;
+const { formKey = "", fields, options, submitLabel = "Send message", fallbackEmails } = Astro.props;
 const f = (name: string) => fields.find((x) => x.name === name) ?? {};
 const label = (name: string) => String(f(name).label ?? name).split("\n")[0].trim();
 
@@ -26,7 +27,18 @@ for (const o of options) {
 }
 ---
 
-<form class="cform" action={endpoint} method="post" data-contact-form data-endpoint={endpoint}>
+<form
+	class="cform"
+	action={formKey ? ENDPOINT : `mailto:${fallbackEmails.join(",")}`}
+	method="post"
+	enctype={formKey ? undefined : "text/plain"}
+	data-contact-form
+	data-endpoint={formKey ? ENDPOINT : ""}
+	data-to={fallbackEmails.join(",")}
+>
+	{formKey && <input type="hidden" name="access_key" value={formKey} />}
+	{formKey && <input type="hidden" name="subject" value="New inquiry from blakeandboky.com" />}
+	{formKey && <input type="hidden" name="from_name" value="Blake & Boky website" />}
 	<div class="field">
 		<label class="eyebrow lab" for="cf-name">{label("name")}</label>
 		<input id="cf-name" name="name" type="text" placeholder={f("name").placeholder} required autocomplete="name" />
@@ -94,13 +106,25 @@ for (const o of options) {
 				return;
 			}
 			data.delete("website");
+			const endpoint = form.dataset.endpoint;
+			if (!endpoint) {
+				// No delivery key yet: hand the message to the visitor's email app.
+				const name = String(data.get("name") ?? "");
+				const piece = String(data.get("piece_interested_in") ?? "");
+				const body = [String(data.get("message") ?? ""), "", `Name: ${name}`, `Email: ${data.get("email") ?? ""}`, piece ? `Piece: ${piece}` : ""].filter((l, i) => i < 2 || l).join("\n");
+				const href = `mailto:${form.dataset.to}?subject=${encodeURIComponent(`Inquiry from ${name}`)}&body=${encodeURIComponent(body)}`;
+				window.location.href = href;
+				show("ok", "Your email app should open with the message ready to send.");
+				return;
+			}
 			btn.disabled = true;
 			btn.textContent = "Sending…";
 			status.hidden = true;
 			err.hidden = true;
 			try {
-				const res = await fetch(form.dataset.endpoint!, { method: "POST", body: data });
-				if (!res.ok) throw new Error(String(res.status));
+				const res = await fetch(endpoint, { method: "POST", body: data, headers: { Accept: "application/json" } });
+				const json = await res.json().catch(() => ({}));
+				if (!res.ok || json.success === false) throw new Error(String(res.status));
 				form.reset();
 				show("ok", "Thank you. Your message has been sent, we will be in touch soon.");
 			} catch {

@@ -6,8 +6,13 @@ import ContactForm from "../components/contact/ContactForm.astro";
 import { cleanTitle } from "../lib/data";
 import page from "../content/data/pages/contact.json";
 
-/** Where the message form posts (Framer Forms, read from the live bundle). Swap here. */
-const FORM_ENDPOINT = "https://api.framer.com/forms/v1/forms/3eb57677-3c73-4469-885a-804fb17280c9/submit";
+/**
+ * Contact form delivery. Framer's own form endpoint only accepts posts from
+ * Framer-hosted pages, so the coded site uses Web3Forms when a key is set
+ * (env PUBLIC_FORM_KEY at build time, see README) and otherwise opens the
+ * visitor's email app with the message prefilled.
+ */
+const FORM_KEY = import.meta.env.PUBLIC_FORM_KEY ?? "";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const sections = page.sections as any[];
@@ -73,7 +78,7 @@ const title = cleanTitle(page.seo.title, "Contact");
 			<p class="eyebrow e">{message.eyebrow}</p>
 			<h2 class="h2">{message.heading.text}</h2>
 		</header>
-		<ContactForm endpoint={FORM_ENDPOINT} fields={page.form.fields} options={(page.form.fields as any[]).find((f) => f.name === "piece_interested_in").options} fallbackEmails={emails} />
+		<ContactForm formKey={FORM_KEY} fields={page.form.fields} options={(page.form.fields as any[]).find((f) => f.name === "piece_interested_in").options} fallbackEmails={emails} />
 		{note && <p class="note">{note}</p>}
 	</section>
 </Base>
