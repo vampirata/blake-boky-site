@@ -36,19 +36,37 @@ const { href, image, alt = "", title, date } = Astro.props;
 		transform: translateY(-10px);
 	}
 	.meta {
-		padding: 9px 12px 32px;
+		padding: 10px 12px 31px;
 	}
 	.d {
 		color: var(--black);
+	}
+	/* Live: on desktop the bottom line waits off to the left and slides in on hover;
+	   below 1400 it is always shown. */
+	.pcard {
+		overflow: hidden;
 	}
 	.rule {
 		display: block;
 		block-size: 1px;
 		background: var(--hairline);
+		transform: translateX(-600px);
+		transition: transform 800ms var(--ease-spring);
+	}
+	.pcard:hover .rule {
+		transform: none;
 	}
 	@media (max-width: 1399.98px) {
+		.rule {
+			transform: none;
+		}
 		.meta {
 			padding: 35px 12px 55px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.meta {
+			padding: 37px 12px 59px;
 		}
 	}
 </style>

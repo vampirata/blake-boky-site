@@ -37,8 +37,9 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		</svg>
 		<span class="sr-only">Menu</span>
 	</button>
+	<!-- Live: when the box opens, its first row turns into "Home". -->
+	<a class="box-home" href={url("/")}>Home</a>
 	<ul id="menu-list" class="box-list">
-		<li><a href={url("/")}>Home</a></li>
 		{
 			nav.map((n) => (
 				<li>
@@ -71,7 +72,15 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 	}
 	.bar--light {
 		background: var(--paper);
-		color: var(--ink);
+		color: var(--black);
+	}
+	.bar--light .mark {
+		color: #212121;
+	}
+	/* Live hover on the light bar is gold, not light gold. */
+	.bar--light .link:hover,
+	.bar--light .link:focus-visible {
+		color: var(--gold);
 	}
 	.mark {
 		font-family: var(--font-display);
@@ -95,6 +104,8 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 	}
 
 	.box {
+		/* Live spring: critically damped, about 50% at 200ms, 87% at 400ms, settled by 1s. */
+		--menu-spring: linear(0, 0.020 2.5%, 0.068 5%, 0.134 7.5%, 0.209 10%, 0.287 12.5%, 0.364 15%, 0.438 17.5%, 0.507 20%, 0.570 22.5%, 0.627 25%, 0.678 27.5%, 0.723 30%, 0.762 32.5%, 0.797 35%, 0.827 37.5%, 0.853 40%, 0.876 42.5%, 0.895 45%, 0.911 47.5%, 0.925 50%, 0.947 55%, 0.963 60%, 0.974 65%, 0.982 70%, 0.987 75%, 0.991 80%, 0.994 85%, 0.996 90%, 0.998 95%, 1);
 		position: fixed;
 		top: 8px;
 		left: 8px;
@@ -104,7 +115,15 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		overflow: hidden;
 		background: var(--black);
 		color: var(--white);
-		transition: block-size 0.9s var(--ease-out);
+		transition: block-size 1s var(--menu-spring);
+	}
+	/* Live: a hairline #363636 border (Framer's 0.01px, one device pixel). */
+	.box::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		border: 0.01px solid var(--grey-363);
+		pointer-events: none;
 	}
 	.box.is-open {
 		block-size: var(--open-h, 469px);
@@ -115,34 +134,74 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		justify-content: space-between;
 		inline-size: 100%;
 		block-size: 60px;
-		padding: 10px 14px 10px 18px;
+		padding: 10px 10px 10px 14px;
 		text-align: start;
 	}
+	.box-head .mark {
+		transition: opacity 200ms var(--ease-link);
+	}
 	.plus {
-		transition: transform 0.9s var(--ease-out);
+		color: var(--hairline);
+		transition: transform 1s var(--menu-spring);
 	}
 	.is-open .plus {
 		transform: rotate(45deg);
 	}
-	.box-list {
-		padding: 0 10px 10px;
+	/* Open: the head row reads "Home"; only the x keeps toggling. */
+	.is-open .box-head {
+		pointer-events: none;
 	}
+	.is-open .box-head .plus {
+		pointer-events: auto;
+		cursor: pointer;
+	}
+	.is-open .box-head .mark {
+		opacity: 0;
+	}
+	.box-home,
 	.box-list a {
 		display: block;
-		padding: 10px 8px;
-		min-block-size: 54px;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 24px;
-		line-height: 34px;
+		line-height: 1.4;
+		letter-spacing: -0.04em;
 		color: var(--hairline);
-		transition: color 200ms var(--ease-link);
+		transition:
+			color 200ms var(--ease-link),
+			opacity 200ms var(--ease-link);
 	}
+	.box-home {
+		position: absolute;
+		top: 0;
+		left: 10px;
+		padding-block: 13px;
+		opacity: 0;
+		visibility: hidden;
+		transition:
+			color 200ms var(--ease-link),
+			opacity 200ms var(--ease-link),
+			visibility 0s 200ms;
+	}
+	.is-open .box-home {
+		opacity: 1;
+		visibility: visible;
+		transition:
+			color 200ms var(--ease-link),
+			opacity 200ms var(--ease-link);
+	}
+	.box-list {
+		padding-inline: 10px;
+	}
+	.box-list a {
+		padding-block: 10px;
+	}
+	.box-home:hover,
 	.box-list a:hover {
 		color: var(--gold-light);
 	}
 	.box:not(.is-open) .box-list {
 		visibility: hidden;
-		transition: visibility 0s 0.9s;
+		transition: visibility 0s 1s;
 	}
 </style>

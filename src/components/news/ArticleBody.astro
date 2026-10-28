@@ -36,7 +36,7 @@ const out = blocks.map((b) => {
 		font-weight: 400;
 	}
 	.body :global(h2) {
-		margin-block: 48px 4px;
+		margin-block: 40px 0;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: var(--t-h3);
@@ -44,7 +44,7 @@ const out = blocks.map((b) => {
 		letter-spacing: 0.3px;
 	}
 	.body :global(h3) {
-		margin-block: 40px 4px;
+		margin-block: 40px 0;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 27px;
@@ -52,7 +52,7 @@ const out = blocks.map((b) => {
 		letter-spacing: -0.04em;
 	}
 	.body :global(blockquote) {
-		margin-block: 28px;
+		margin-block: 20px 0;
 		padding-inline-start: 20px;
 		border-inline-start: 2px solid var(--hairline);
 		font-weight: 400;
@@ -66,6 +66,7 @@ const out = blocks.map((b) => {
 		margin-block-start: 12px;
 	}
 	.body :global(ul) {
+		margin-block-start: 32px;
 		list-style: disc;
 		padding-inline-start: 21px;
 	}

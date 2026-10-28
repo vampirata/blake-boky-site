@@ -41,20 +41,61 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		row-gap: 32px;
 	}
-	/* Live cards reserve a fixed caption block, so rows keep one rhythm. */
+	/* Live news cards: caption 10px under the frame, 12px side inset, 32px below.
+	   No rule under the image; instead a #dbdbdb line on the card's bottom edge,
+	   parked off to the left on desktop and slid in on hover, always shown below 1400. */
+	.grid :global(.card) {
+		position: relative;
+		overflow: hidden;
+	}
+	.grid :global(.card > .rule) {
+		display: none;
+	}
+	.grid :global(.card)::after {
+		content: "";
+		position: absolute;
+		inset: auto 0 0;
+		block-size: 1px;
+		background: var(--hairline);
+		transform: translateX(-600px);
+		transition: transform 800ms var(--ease-spring);
+	}
+	.grid :global(.card:hover)::after {
+		transform: none;
+	}
 	.grid :global(.meta) {
-		min-block-size: 179px;
+		padding: 10px 12px 32px;
 	}
 	.grid :global(.card-date) {
 		color: var(--white);
+	}
+	/* Live titles wrap at 326px at every width. */
+	.grid :global(.card-title) {
+		max-inline-size: 326px;
+	}
+	@media (min-width: 1400px) {
+		.grid {
+			align-items: start;
+			grid-auto-rows: 1fr;
+		}
 	}
 	@media (max-width: 1399.98px) {
 		.grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 			row-gap: 0;
 		}
+		.grid :global(.card)::after {
+			transform: none;
+		}
+		/* Below 1400 the caption is a fixed 134px block with its text centred
+		   in the space above the 32px bottom padding, as live. */
 		.grid :global(.meta) {
-			min-block-size: 143px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-block-start: 10px;
+			padding-block: 0 32px;
+			block-size: 134px;
 		}
 	}
 	@media (max-width: 809.98px) {
@@ -64,5 +105,6 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 		.grid {
 			grid-template-columns: minmax(0, 1fr);
 		}
+
 	}
 </style>

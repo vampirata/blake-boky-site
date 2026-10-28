@@ -47,20 +47,30 @@ const items = [
 }
 
 <style>
+	/* Live: 470x150 cards (half the row each below 1400, stacked 9px apart on
+	   phone), a 1px #363636 border drawn inside, the thumb flush to the edge,
+	   label + title centred vertically 22px from the thumb. */
 	.pn {
 		display: flex;
 		justify-content: space-between;
-		gap: 20px;
 		padding: 50px 32px 100px;
 	}
 	.c {
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 22px;
-		inline-size: min(450px, 100%);
-		border: 1px solid rgba(28, 26, 23, 0.6);
+		inline-size: 470px;
+		block-size: 150px;
 		color: var(--charcoal);
 		transition: background-color 300ms var(--ease-out);
+	}
+	.c::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		border: 1px solid var(--grey-363);
+		pointer-events: none;
 	}
 	.c:hover {
 		background: var(--paper-4);
@@ -77,15 +87,14 @@ const items = [
 	.tx {
 		display: flex;
 		flex-direction: column;
-		gap: 6px;
-		padding-block: 12px;
+		gap: 8px;
 		min-inline-size: 0;
 	}
 	.c:not(.c--next) .tx {
-		padding-inline-end: 20px;
+		padding-inline-end: 22px;
 	}
 	.c--next .tx {
-		padding-inline-start: 20px;
+		padding-inline-start: 22px;
 	}
 	.k {
 		font-weight: 400;
@@ -99,10 +108,21 @@ const items = [
 		line-height: 25.6px;
 		letter-spacing: -0.32px;
 	}
+	@media (max-width: 1399.98px) {
+		.c {
+			flex: 1 1 0;
+			inline-size: auto;
+		}
+	}
 	@media (max-width: 809.98px) {
 		.pn {
 			flex-direction: column;
+			gap: 9px;
 			padding-inline: 15px;
+		}
+		.c {
+			flex: none;
+			inline-size: 100%;
 		}
 	}
 </style>

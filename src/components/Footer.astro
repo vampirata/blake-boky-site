@@ -1,4 +1,7 @@
 ---
+// Footer, measured on the live site at 1440, 810 and 390.
+// Desktop: three link columns left, wordmark top right, Contact bottom right.
+// Tablet and phone: columns, then Contact, then the wordmark fitted to the width.
 import { footer, url } from "../lib/site";
 const year = new Date().getFullYear();
 const cols = [
@@ -9,7 +12,7 @@ const cols = [
 ---
 
 <footer class="footer">
-	<div class="top">
+	<div class="up">
 		<div class="cols">
 			{
 				cols.map((c) => (
@@ -32,12 +35,19 @@ const cols = [
 				))
 			}
 		</div>
-		<div class="side">
-			<p class="h2 word">Blake &amp; Boky</p>
-			<a class="contact link" href={url("/contact")}>Contact <span aria-hidden="true">→</span></a>
-		</div>
+		<a class="contact" href={url("/contact")}>
+			<span>Contact</span>
+			<svg viewBox="0 0 256 256" width="20" height="20" aria-hidden="true">
+				<path
+					fill="currentColor"
+					d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+				></path>
+			</svg>
+			<span class="line" aria-hidden="true"></span>
+		</a>
+		<p class="word">Blake &amp; Boky</p>
 	</div>
-	<div class="bottom">
+	<div class="tile">
 		<p>Copyright © {year} Blake&amp;Boky. All rights reserved.</p>
 	</div>
 </footer>
@@ -50,39 +60,54 @@ const cols = [
 		display: flex;
 		flex-direction: column;
 		gap: 32px;
-		min-block-size: 475px;
 	}
-	.top {
-		flex: 1;
-		display: flex;
-		justify-content: space-between;
-		gap: 32px;
+	/* Desktop: columns span both rows; wordmark top right, Contact bottom right. */
+	.up {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto 1fr;
+		grid-template-areas:
+			"cols word"
+			"cols contact";
 	}
 	.cols {
-		display: flex;
-		gap: 64px;
+		grid-area: cols;
+		display: grid;
+		grid-template-columns: repeat(3, 216px);
+		align-items: start;
+		gap: 10px;
 	}
 	.col {
-		min-inline-size: 162px;
+		padding: 4px;
 	}
 	.lab {
+		padding-inline: 8px;
 		color: var(--gold-light);
-		margin-block-end: 18px;
 	}
-	.col li + li {
-		margin-block-start: 16px;
+	.col ul {
+		margin-block-start: 10px;
 	}
-	.flink {
+	.col:first-child ul {
+		margin-block-start: 14px;
+	}
+	.flink,
+	.contact {
 		position: relative;
-		display: inline-block;
-		font-size: 16px;
-		line-height: 1.6;
+		display: inline-flex;
+		align-items: center;
+		padding: 8px;
 		transition: color 200ms var(--ease-link);
 	}
+	.flink {
+		font-size: 16px;
+		line-height: 25.6px;
+		letter-spacing: -0.02em;
+	}
+	/* 1px underline 3px below the text box, from width 0 and opacity 0. */
 	.line {
 		position: absolute;
-		left: 0;
-		bottom: 0;
+		left: 8px;
+		top: calc(100% - 4.6px);
 		block-size: 1px;
 		inline-size: 0;
 		opacity: 0;
@@ -91,79 +116,97 @@ const cols = [
 			inline-size 200ms var(--ease-link),
 			opacity 200ms var(--ease-link);
 	}
-	.flink:hover {
+	.flink:hover,
+	.flink:focus-visible,
+	.contact:hover,
+	.contact:focus-visible {
 		color: var(--gold-light);
 	}
-	.flink:hover .line {
-		inline-size: 100%;
+	.flink:hover .line,
+	.flink:focus-visible .line,
+	.contact:hover .line,
+	.contact:focus-visible .line {
+		inline-size: calc(100% - 16px);
 		opacity: 1;
 	}
-	.side {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-end;
-		text-align: end;
-	}
-	.word {
-		margin-block-start: 49px;
-		font-size: 54px;
-	}
 	.contact {
+		grid-area: contact;
+		justify-self: end;
+		align-self: end;
+		gap: 8px;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 28px;
-		line-height: 1.2;
-		letter-spacing: -1.12px;
+		line-height: 33.6px;
+		letter-spacing: -0.04em;
 	}
-	.bottom {
-		border-block-start: 1px solid var(--grey-363);
-		padding-block-start: 20px;
+	.contact .line {
+		top: calc(100% - 5px);
+	}
+	.word {
+		grid-area: word;
+		justify-self: end;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 54px;
+		line-height: 59.4px;
+		letter-spacing: 0.5px;
+		white-space: nowrap;
+	}
+	.tile {
+		border-block-start: 1px solid var(--gold-light);
+		padding-block-start: 24px;
 		font-family: var(--font-display);
 		font-weight: 300;
 		font-size: 13px;
 		line-height: 1.6;
+		letter-spacing: -0.02em;
 		color: var(--grey-c2);
 	}
+
+	/* Tablet: stacked; the wordmark is fitted to the content width (live: SVG text, viewBox 354x64). */
 	@media (max-width: 1399.98px) {
-		.footer {
-			min-block-size: 679px;
-		}
-		.top {
+		.up {
+			display: flex;
 			flex-direction: column;
-		}
-		.side {
 			align-items: flex-start;
-			text-align: start;
-			gap: 40px;
 		}
 		.cols {
-			flex-wrap: wrap;
-			gap: 40px 64px;
+			grid-template-columns: repeat(3, 1fr);
+			inline-size: 100%;
+		}
+		.contact {
+			align-self: flex-start;
+			margin-block-start: 10px;
 		}
 		.word {
-			margin-block-start: 0;
+			align-self: stretch;
+			/* Live SVG text sits at the top of its 354x64 box. */
+			margin-block-start: 10px;
+			padding-block-end: 0.28em;
+			text-align: center;
+			font-size: calc((100vw - 92px) * 44 / 354);
+			line-height: 1.23;
+		}
+		.tile {
+			font-size: 12px;
 		}
 	}
+
 	@media (max-width: 809.98px) {
 		.footer {
 			padding: 24px 12px 52px;
-			min-block-size: 0;
 		}
 		.cols {
-			flex-direction: column;
-			gap: 40px;
-			padding-inline-start: 12px;
+			grid-template-columns: 1fr;
 		}
-		.side {
-			padding-inline-start: 12px;
+		.contact {
+			margin-block-start: 52px;
 		}
 		.word {
-			font-size: 34px;
-		}
-		.bottom {
-			font-size: 12px;
-			padding-inline-start: 12px;
+			margin-block-start: 10px;
+			padding-block-end: 0.71em;
+			font-size: calc((100vw - 24px) * 34 / 360);
 		}
 	}
 </style>

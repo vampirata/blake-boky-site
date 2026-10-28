@@ -117,6 +117,16 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 	section {
 		color: var(--charcoal);
 	}
+	/* Live: every section after the hero carries a 1px #d8d2c6 top rule drawn
+	   inside the box (Framer ::after), the Contact CTA included. */
+	.partners,
+	.intro,
+	.exh,
+	.views,
+	.visit,
+	:global(.ccta) {
+		box-shadow: inset 0 1px 0 #d8d2c6;
+	}
 	.e {
 		color: var(--taupe);
 	}
@@ -141,10 +151,12 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 	.sub {
 		color: var(--taupe);
 	}
+	/* Live multiplies the logo onto the paper, so its white box disappears. */
 	.logo {
 		inline-size: 420px;
 		max-inline-size: 100%;
 		margin-block-start: 22px;
+		mix-blend-mode: multiply;
 	}
 
 	/* Gallery Partners: 3 x 453 squares, gap 8 */
@@ -280,6 +292,10 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		}
 		.row {
 			grid-template-columns: minmax(0, 348fr) minmax(0, 398fr);
+		}
+		/* Live title column is 284px wide, so "The Space Within" wraps. */
+		.row h3 {
+			max-inline-size: 284px;
 		}
 		.vgrid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));

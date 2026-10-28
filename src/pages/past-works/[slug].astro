@@ -88,7 +88,7 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 	.hd {
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
+		gap: 18px;
 	}
 	.eb {
 		font-weight: 400;
@@ -107,14 +107,17 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 		color: var(--paper);
 		overflow-wrap: anywhere;
 	}
+	/* Live: each column carries its own #2a2a28 top rule, label 16px below it. */
 	.meta {
 		display: grid;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 24px;
 		inline-size: 100%;
-		margin: 7px 0 0;
-		padding-block-start: 34px;
-		border-block-start: 1px solid var(--grey-363);
+		margin: 33px 0 0;
+	}
+	.meta > div {
+		padding-block-start: 16px;
+		border-block-start: 1px solid #2a2a28;
 	}
 	.meta dt {
 		font-weight: 400;
@@ -125,7 +128,7 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 		color: #8a8a86;
 	}
 	.meta dd {
-		margin: 7px 0 0;
+		margin: 6px 0 0;
 		font-family: var(--font-display);
 		font-weight: 400;
 		font-size: 22px;
@@ -140,8 +143,7 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 		overflow: hidden;
 	}
 	.body {
-		max-inline-size: 700px;
-		margin-block-start: 4px;
+		max-inline-size: 680px;
 		font-size: 17px;
 		line-height: 29.75px;
 		letter-spacing: -0.34px;
@@ -154,7 +156,6 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 	}
 	.body :global(strong) {
 		font-weight: 400;
-		color: var(--grey-c2);
 	}
 	.inline-img {
 		display: inline-block;
@@ -165,7 +166,7 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 		margin-inline-start: 16px;
 	}
 	.src {
-		margin-block-start: 13px;
+		margin-block-start: 19px;
 		font-weight: 400;
 		font-size: 13px;
 		line-height: 15.6px;
@@ -176,9 +177,8 @@ const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year
 		display: inline-flex;
 		align-items: center;
 		gap: 10px;
-		margin-block-start: 12px;
 		padding: 15px 31px;
-		border: 1px solid var(--white);
+		border: 1px solid var(--paper);
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 19.2px;

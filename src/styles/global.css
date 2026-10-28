@@ -8,7 +8,6 @@
 }
 html {
 	-webkit-text-size-adjust: 100%;
-	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
 html.lenis,
@@ -27,6 +26,7 @@ body {
 	font-size: 16px;
 	line-height: 1.6;
 	letter-spacing: -0.02em;
+	font-feature-settings: "blwf", "cv03", "cv04", "cv09", "cv11";
 	overflow-x: clip;
 }
 img,
