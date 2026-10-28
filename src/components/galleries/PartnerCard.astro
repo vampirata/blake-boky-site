@@ -1,0 +1,54 @@
+---
+// Gallery Partners card (galleries page). Square frame like live, but the image
+// is contained on paper so portrait gallery photos are never cut.
+// Live hover: the whole card lifts 10px (tween .59,.02,.44,1, 0.4s).
+import Img from "../Img.astro";
+import SplitTitle from "../SplitTitle.astro";
+import { url } from "../../lib/site";
+interface Props {
+	href: string;
+	image: string;
+	alt?: string;
+	title: string;
+	date?: string;
+}
+const { href, image, alt = "", title, date } = Astro.props;
+---
+
+<a class="pcard" href={url(href)}>
+	<Img src={image} alt={alt} ratio="1 / 1" bg="var(--paper)" sizes="(min-width: 1400px) 33vw, (min-width: 810px) 50vw, 100vw" />
+	<div class="meta">
+		{date && <p class="card-date d"><time>{date}</time></p>}
+		<SplitTitle text={title} as="h3" class="card-title" />
+	</div>
+	<span class="rule" aria-hidden="true"></span>
+</a>
+
+<style>
+	.pcard {
+		display: flex;
+		flex-direction: column;
+		min-inline-size: 0;
+		color: var(--black);
+		transition: transform 0.4s cubic-bezier(0.59, 0.02, 0.44, 1);
+	}
+	.pcard:hover {
+		transform: translateY(-10px);
+	}
+	.meta {
+		padding: 9px 12px 32px;
+	}
+	.d {
+		color: var(--black);
+	}
+	.rule {
+		display: block;
+		block-size: 1px;
+		background: var(--hairline);
+	}
+	@media (max-width: 1399.98px) {
+		.meta {
+			padding: 35px 12px 55px;
+		}
+	}
+</style>

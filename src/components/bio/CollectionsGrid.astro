@@ -1,0 +1,137 @@
+---
+// "Bodies of work": 2 columns from 810px, 1 on phone. Images are contained on
+// the page colour so landscape works are never cut (live used 0.563 cover frames).
+// variant "tall" = Blake (2:3 frames, title + years), "square" = Boky (1:1 frames, title).
+import Img from "../Img.astro";
+import SectionHead from "./SectionHead.astro";
+import type { CollectionCard } from "./bio";
+import { url } from "../../lib/site";
+interface Props {
+	eyebrow: string;
+	heading: string;
+	cards: CollectionCard[];
+	variant?: "tall" | "square";
+}
+const { eyebrow, heading, cards, variant = "tall" } = Astro.props;
+const ratio = variant === "tall" ? "2 / 3" : "1 / 1";
+---
+
+<section class:list={["cg", `cg--${variant}`]}>
+	<SectionHead eyebrow={eyebrow} heading={heading} />
+	<div class="grid">
+		{
+			cards.map((c) => (
+				<a class="card" href={url(c.href)} data-reveal>
+					{c.image && (
+						<Img
+							src={c.image.src}
+							alt={c.image.alt}
+							ratio={ratio}
+							pos="50% 100%"
+							bg="var(--page-bg)"
+							zoom
+							sizes="(min-width: 810px) 50vw, 100vw"
+						/>
+					)}
+					<div class="cap">
+						<h3 class="t">{c.title}</h3>
+						{c.years && <p class="yr">{c.years}</p>}
+					</div>
+				</a>
+			))
+		}
+	</div>
+</section>
+
+<style>
+	.cg {
+		padding: 80px 32px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 52px 40px;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		min-inline-size: 0;
+		color: var(--bio-card, var(--bio-fg));
+	}
+	.card :global(.art) {
+		border-radius: 2px;
+	}
+	.cap {
+		padding-block-start: 12px;
+	}
+	.t {
+		font-family: var(--font-display);
+		font-weight: 300;
+		font-size: 34px;
+		line-height: 1.2;
+		letter-spacing: -0.04em;
+	}
+	.yr {
+		margin-block-start: 17px;
+		font-size: 14px;
+		line-height: 1.6;
+		letter-spacing: 3.4px;
+		text-transform: uppercase;
+	}
+	/* Boky: square frames, CG 500 28px caption. */
+	.cg--square .cap {
+		padding-block-start: 50px;
+		min-block-size: 173px;
+	}
+	.cg--square .t {
+		font-weight: 500;
+		font-size: 28px;
+		letter-spacing: -0.04em;
+	}
+	.cg--square :global(.art) {
+		border-radius: 0;
+	}
+	@media (max-width: 1399.98px) {
+		.cg {
+			padding-inline: 20px;
+		}
+		.grid {
+			row-gap: 32px;
+		}
+		.t {
+			font-size: 29px;
+		}
+		.cg--square .cap {
+			min-block-size: 85px;
+			padding-inline: 8px;
+		}
+		.cg--square .t {
+			font-size: 28px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.cg {
+			padding-inline: 0;
+		}
+		.cg :global(.head) {
+			padding-inline: 32px;
+		}
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 52px;
+		}
+		.cap {
+			padding-inline: 15px;
+		}
+		/* One column: no row to align, so each work takes its own ratio. */
+		.card :global(.art) {
+			aspect-ratio: auto;
+		}
+		.card :global(.art img) {
+			block-size: auto;
+		}
+		.t {
+			font-size: 25px;
+		}
+	}
+</style>

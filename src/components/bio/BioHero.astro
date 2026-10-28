@@ -1,0 +1,76 @@
+---
+// Bio hero: eyebrow, display name, italic tagline, portrait.
+import Img from "../Img.astro";
+interface Props {
+	eyebrow: string;
+	name: string;
+	tagline: string;
+	portrait: { src: string; alt: string };
+	/** "own" keeps the image ratio (Blake). "square" is a 1:1 cover with a focal point (Boky). */
+	frame?: "own" | "square";
+	pos?: string;
+}
+const { eyebrow, name, tagline, portrait, frame = "own", pos } = Astro.props;
+---
+
+<header class="hero">
+	<p class="eyebrow e" data-arrive style="--d:200ms">{eyebrow}</p>
+	<h1 class="display n" data-arrive style="--d:300ms">{name}</h1>
+	<p class="subtitle t" data-arrive style="--d:400ms">{tagline}</p>
+	<div class:list={["p", `p--${frame}`]} data-arrive style="--d:500ms">
+		{
+			frame === "square" ? (
+				<Img src={portrait.src} alt={portrait.alt} ratio="1 / 1" fit="cover" pos={pos} eager sizes="380px" />
+			) : (
+				<Img src={portrait.src} alt={portrait.alt} eager sizes="(max-width: 809.98px) 326px, 430px" />
+			)
+		}
+	</div>
+</header>
+
+<style>
+	.hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 90px 32px 70px;
+	}
+	.e {
+		color: var(--bio-muted);
+		margin-block-end: 18px;
+	}
+	.n {
+		color: var(--bio-fg);
+		line-height: 1.04;
+		margin-block-end: 26px;
+	}
+	.t {
+		color: var(--bio-muted);
+		margin-block-end: 52px;
+	}
+	.p {
+		inline-size: 100%;
+	}
+	.p--own {
+		max-inline-size: 430px;
+	}
+	.p--square {
+		max-inline-size: 380px;
+	}
+	.p :global(.art) {
+		border-radius: 2px;
+	}
+	@media (max-width: 809.98px) {
+		.hero {
+			padding-block-start: 106px;
+		}
+		.n {
+			margin-block-end: 28px;
+		}
+		.p--square {
+			margin-inline: -27px;
+			inline-size: calc(100% + 54px);
+		}
+	}
+</style>

@@ -16,6 +16,8 @@ type IndexCard = { title: string; date?: string; target: string; image?: { src: 
 const slugs = new Set(collections.map((c) => c.slug));
 const fixTarget = (c: IndexCard) => {
 	if (/^andromeda\b/i.test(c.title.trim())) return "/collections/andromeda";
+	// Rethink is Blake's (2005 to present) and has no page yet; live sent it to Boky's In Lucem.
+	if (/^rethink\b/i.test(c.title.trim())) return "/collections/coming-soon-blake";
 	const slug = c.target.replace(/^\/collections\/?/, "").split("/")[0];
 	return slugs.has(slug) ? c.target : "/collections";
 };

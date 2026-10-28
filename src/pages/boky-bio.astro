@@ -1,0 +1,62 @@
+---
+import Base from "../layouts/Base.astro";
+import ContactCta from "../components/ContactCta.astro";
+import BioHero from "../components/bio/BioHero.astro";
+import Statement from "../components/bio/Statement.astro";
+import Biography from "../components/bio/Biography.astro";
+import CollectionsGrid from "../components/bio/CollectionsGrid.astro";
+import Exhibitions from "../components/bio/Exhibitions.astro";
+import ArtnetFeature from "../components/bio/ArtnetFeature.astro";
+import PastWorksGrid from "../components/bio/PastWorksGrid.astro";
+import { readBio } from "../components/bio/bio";
+import { cleanTitle } from "../lib/data";
+import page from "../content/data/pages/boky-bio.json";
+import pastWorks from "../content/data/past-works.json";
+
+const d = readBio(page as never);
+const works = [...pastWorks]
+	.sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+	.map((w) => ({ href: `/past-works/${w.slug}`, title: w.cardTitle ?? w.title, image: w.cardImage ?? undefined }));
+---
+
+<Base
+	title={cleanTitle(d.seo.title, "Boky Hackel-Ward")}
+	description={d.seo.description}
+	ogImage={d.hero.portrait.src}
+	nav="grey"
+	bg="var(--ink)"
+	fg="var(--paper)"
+	smooth
+>
+	<div class="bio">
+		<BioHero {...d.hero} frame="square" pos="50% 20%" />
+		<Statement quote={d.quote} width={740} />
+		<Biography {...d.bio} />
+		<CollectionsGrid {...d.collections} variant="square" />
+		<Exhibitions {...d.exhibitions} />
+		<div class="cta"><ContactCta eyebrow="" heading={d.cta.heading} tone="dark" /></div>
+		{d.feature && <ArtnetFeature {...d.feature} image={{ ...d.feature.image, alt: d.feature.image.alt || "Boky Hackel-Ward and Blake Ward" }} />}
+		{d.pastWorks && <PastWorksGrid {...d.pastWorks} items={works} />}
+	</div>
+</Base>
+
+<style>
+	.bio {
+		--bio-fg: var(--paper);
+		--bio-muted: var(--sand);
+		--bio-card: var(--white);
+		--bio-quote: var(--sand);
+		--bio-rule: #d8d2c6; /* measured section and timeline rule, no token */
+	}
+	.bio > :global(* + *) {
+		border-block-start: 1px solid var(--bio-rule);
+	}
+	.cta :global(.ccta .e:empty) {
+		display: none;
+	}
+	.cta :global(.ccta .h2) {
+		font-size: var(--t-cta);
+		line-height: 1.15;
+		letter-spacing: -0.04em;
+	}
+</style>

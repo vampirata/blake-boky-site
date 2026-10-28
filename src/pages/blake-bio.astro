@@ -1,0 +1,53 @@
+---
+import Base from "../layouts/Base.astro";
+import ContactCta from "../components/ContactCta.astro";
+import BioHero from "../components/bio/BioHero.astro";
+import Statement from "../components/bio/Statement.astro";
+import Biography from "../components/bio/Biography.astro";
+import CollectionsGrid from "../components/bio/CollectionsGrid.astro";
+import Exhibitions from "../components/bio/Exhibitions.astro";
+import { readBio } from "../components/bio/bio";
+import { cleanTitle } from "../lib/data";
+import page from "../content/data/pages/blake-bio.json";
+
+const d = readBio(page as never);
+---
+
+<Base
+	title={cleanTitle(d.seo.title, "Blake Ward")}
+	description={d.seo.description}
+	ogImage={d.hero.portrait.src}
+	nav="light"
+	bg="var(--paper-3)"
+	fg="var(--charcoal)"
+>
+	<div class="bio">
+		<BioHero {...d.hero} />
+		<Statement quote={d.quote} />
+		<Biography {...d.bio} />
+		<CollectionsGrid {...d.collections} variant="tall" />
+		<Exhibitions {...d.exhibitions} />
+		<div class="cta"><ContactCta eyebrow="" heading={d.cta.heading} tone="light" /></div>
+	</div>
+</Base>
+
+<style>
+	.bio {
+		--bio-fg: var(--charcoal);
+		--bio-muted: var(--taupe);
+		--bio-card: var(--ink);
+		--bio-rule: #d8d2c6; /* measured section and timeline rule, no token */
+	}
+	.bio > :global(* + *) {
+		border-block-start: 1px solid var(--bio-rule);
+	}
+	/* Live CTA has no eyebrow and uses the CTA type role (52 / 42 / 32). */
+	.cta :global(.ccta .e:empty) {
+		display: none;
+	}
+	.cta :global(.ccta .h2) {
+		font-size: var(--t-cta);
+		line-height: 1.15;
+		letter-spacing: -0.04em;
+	}
+</style>

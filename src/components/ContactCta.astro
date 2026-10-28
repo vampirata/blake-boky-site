@@ -1,20 +1,22 @@
 ---
-// Plain contact section on light pages (bios, galleries).
+// Plain contact section on light pages (bios, galleries). Live has no eyebrow
+// by default and a plain CONTACT US button.
 import { url } from "../lib/site";
 interface Props {
 	eyebrow?: string;
 	heading?: string;
 	line?: string;
+	button?: string;
 	tone?: "light" | "dark";
 }
-const { eyebrow = "Get in touch", heading = "Get in touch for further inquiries", line, tone = "light" } = Astro.props;
+const { eyebrow = "", heading = "Get in touch for further inquiries", line, button = "Contact Us", tone = "light" } = Astro.props;
 ---
 
 <section class:list={["ccta", `ccta--${tone}`]}>
-	<p class="eyebrow e" data-reveal>{eyebrow}</p>
-	<h2 class="h2" data-reveal style="--d:80ms">{heading}</h2>
+	{eyebrow && <p class="eyebrow e" data-reveal>{eyebrow}</p>}
+	<h2 class="t" data-reveal style="--d:80ms">{heading}</h2>
 	{line && <p class="l" data-reveal style="--d:160ms">{line}</p>}
-	<a class="btn-outline" href={url("/contact")} data-reveal style="--d:200ms">Contact Us <span aria-hidden="true">→</span></a>
+	<a class="btn-outline" href={url("/contact")} data-reveal style="--d:200ms">{button}</a>
 </section>
 
 <style>
@@ -31,6 +33,13 @@ const { eyebrow = "Get in touch", heading = "Get in touch for further inquiries"
 	}
 	.ccta--dark {
 		color: var(--paper);
+	}
+	.t {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-cta);
+		line-height: 1.15;
+		letter-spacing: -0.04em;
 	}
 	.e {
 		color: var(--taupe);

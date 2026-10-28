@@ -1,0 +1,66 @@
+---
+// Biography: italic lead and paragraphs on the left, timeline on the right.
+// Stacks to one column below 1400px.
+import SectionHead from "./SectionHead.astro";
+import Timeline from "./Timeline.astro";
+import type { TimelineEntry } from "./bio";
+interface Props {
+	eyebrow: string;
+	heading: string;
+	lead: string;
+	paras: string[];
+	timeline: TimelineEntry[];
+}
+const { eyebrow, heading, lead, paras, timeline } = Astro.props;
+---
+
+<section class="bio-s">
+	<SectionHead eyebrow={eyebrow} heading={heading} />
+	<div class="grid">
+		<div class="intro">
+			<p class="lead" data-reveal>{lead}</p>
+			{paras.map((p) => <p class="para" data-reveal>{p}</p>)}
+		</div>
+		<Timeline entries={timeline} />
+	</div>
+</section>
+
+<style>
+	.bio-s {
+		padding: 80px 32px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 600px minmax(0, 1fr);
+		column-gap: 60px;
+		align-items: start;
+	}
+	.intro {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+		max-inline-size: 590px;
+	}
+	.lead {
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 1.35;
+		letter-spacing: -0.02em;
+		color: var(--bio-fg);
+		margin-block-end: 6px;
+	}
+	.para {
+		color: var(--bio-muted);
+	}
+	@media (max-width: 1399.98px) {
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 52px;
+		}
+		.intro {
+			max-inline-size: none;
+		}
+	}
+</style>

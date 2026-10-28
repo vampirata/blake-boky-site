@@ -1,0 +1,101 @@
+---
+// Boky's archive: square cards (3 / 2 / 1 per row), per-character titles,
+// hairline under the title. Images are contained on ink so nothing is cut.
+import Img from "../Img.astro";
+import SplitTitle from "../SplitTitle.astro";
+import SectionHead from "./SectionHead.astro";
+import { url } from "../../lib/site";
+interface Props {
+	eyebrow: string;
+	heading: string;
+	items: { href: string; title: string; image?: { src: string; alt?: string } }[];
+}
+const { eyebrow, heading, items } = Astro.props;
+---
+
+<section class="pw">
+	<SectionHead eyebrow={eyebrow} heading={heading} />
+	<div class="grid">
+		{
+			items.map((w) => (
+				<a class="card" href={url(w.href)} data-reveal>
+					{w.image && (
+						<Img
+							src={w.image.src}
+							alt={w.image.alt || w.title}
+							ratio="1 / 1"
+							bg="var(--ink)"
+							zoom
+							sizes="(min-width: 1400px) 33vw, (min-width: 810px) 50vw, 100vw"
+						/>
+					)}
+					<div class="cap">
+						<SplitTitle text={w.title} class="card-title" />
+						<span class="rule" aria-hidden="true" />
+					</div>
+				</a>
+			))
+		}
+	</div>
+</section>
+
+<style>
+	.pw {
+		padding: 80px 32px;
+	}
+	.pw :global(.head) {
+		margin-block-end: 73px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		min-inline-size: 0;
+		color: var(--white);
+	}
+	.cap {
+		display: flex;
+		flex-direction: column;
+		min-block-size: 142px;
+		padding: 12px 12px 0;
+	}
+	.rule {
+		display: block;
+		block-size: 1px;
+		margin-block: auto 64px;
+		margin-inline: -12px;
+		background: var(--hairline);
+		transform-origin: left;
+		transition: transform 600ms var(--ease-spring);
+	}
+	.card:hover .rule {
+		transform: scaleX(0.96);
+	}
+	@media (max-width: 1399.98px) {
+		.grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+		.cap {
+			min-block-size: 172px;
+			padding-block-start: 48px;
+		}
+		.rule {
+			margin-block-end: 28px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.grid {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		/* One column: no row to align, so each work takes its own ratio. */
+		.card :global(.art) {
+			aspect-ratio: auto;
+		}
+		.card :global(.art img) {
+			block-size: auto;
+		}
+	}
+</style>

@@ -1,0 +1,221 @@
+---
+// Template "contact": hero, portrait, details grid, message form.
+import Base from "../layouts/Base.astro";
+import Img from "../components/Img.astro";
+import ContactForm from "../components/contact/ContactForm.astro";
+import { cleanTitle } from "../lib/data";
+import page from "../content/data/pages/contact.json";
+
+/** Where the message form posts (Framer Forms, read from the live bundle). Swap here. */
+const FORM_ENDPOINT = "https://api.framer.com/forms/v1/forms/3eb57677-3c73-4469-885a-804fb17280c9/submit";
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+const sections = page.sections as any[];
+const sec = (name: string) => sections.find((s) => s.name === name);
+const hero = sec("Hero");
+const portrait = sec("Portrait").media[0];
+const details = sec("Details");
+const message = sec("Message");
+const role = (s: any, r: string) => (s.content ?? s.body).find((c: any) => c.role === r)?.text ?? "";
+
+// Details: Eyebrow, Title, Detail triples.
+const cells: { eyebrow: string; title: string; detail: string; href?: string }[] = [];
+for (const c of details.content as any[]) {
+	if (c.role === "Eyebrow") cells.push({ eyebrow: c.text, title: "", detail: "" });
+	else if (c.role === "Title") cells[cells.length - 1].title = c.text;
+	else if (c.role === "Detail") {
+		const cell = cells[cells.length - 1];
+		cell.detail = c.text;
+		const m = /href="(mailto:[^"]+)"/.exec(c.html ?? "");
+		if (m) cell.href = m[1];
+	}
+}
+const emails = cells.filter((c) => c.href).map((c) => c.detail);
+const note = (message.body as any[]).find((b) => b.role === "Note")?.text;
+const title = cleanTitle(page.seo.title, "Contact");
+---
+
+<Base title={title} description={page.seo.description} nav="light" bg="var(--white)" fg="var(--charcoal)" smooth>
+	<section class="hero">
+		<p class="eyebrow e">{hero.eyebrow}</p>
+		<h1 class="display">{hero.heading.text}</h1>
+		<p class="subtitle sub">{role(hero, "Line")}</p>
+	</section>
+
+	<section class="portrait">
+		<div class="pwrap" data-arrive style="--d:1000ms">
+			<Img src={portrait.src} alt={portrait.alt} bg="var(--white)" eager sizes="(min-width: 1400px) 860px, (min-width: 810px) 100vw, 100vw" />
+		</div>
+	</section>
+
+	<section class="details">
+		<div class="dgrid" data-arrive style="--d:1500ms">
+			{
+				cells.map((c, i) => (
+					<div class:list={["cell", `cell--${i + 1}`]}>
+						<p class="eyebrow ce">{c.eyebrow}</p>
+						<h3 class="ct">{c.title}</h3>
+						{c.href ? (
+							<p class="cd">
+								<a href={c.href}>{c.detail}</a>
+							</p>
+						) : (
+							<p class="cd">{c.detail}</p>
+						)}
+					</div>
+				))
+			}
+		</div>
+	</section>
+
+	<section class="message">
+		<header class="head">
+			<p class="eyebrow e">{message.eyebrow}</p>
+			<h2 class="h2">{message.heading.text}</h2>
+		</header>
+		<ContactForm endpoint={FORM_ENDPOINT} fields={page.form.fields} options={(page.form.fields as any[]).find((f) => f.name === "piece_interested_in").options} fallbackEmails={emails} />
+		{note && <p class="note">{note}</p>}
+	</section>
+</Base>
+
+<style>
+	section {
+		color: var(--charcoal);
+	}
+	.e {
+		color: var(--taupe);
+	}
+
+	/* Hero: padding 106 0 64, gap 26 */
+	.hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 26px;
+		padding: 106px 32px 64px;
+		text-align: center;
+	}
+	.sub {
+		color: var(--taupe);
+	}
+
+	/* Portrait: 860 wide, own ratio */
+	.portrait {
+		padding: 0 32px 80px;
+	}
+	.pwrap {
+		inline-size: 860px;
+		max-inline-size: 100%;
+		margin-inline: auto;
+	}
+
+	/* Details grid: 3 equal full-bleed cells */
+	.details {
+		padding: 80px 0;
+		border-block-end: 1px solid var(--hairline);
+	}
+	.dgrid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		border-block-start: 1px solid var(--hairline);
+	}
+	.cell {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		min-block-size: 158px;
+		padding: 32px 22px 28px;
+	}
+	.cell--2 {
+		background: var(--paper-2);
+	}
+	.cell--3 {
+		background: var(--black);
+		color: var(--white);
+	}
+	.ce {
+		color: var(--taupe);
+	}
+	.cell--3 .ce {
+		color: var(--gold-light);
+	}
+	.ct {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 32.5px;
+		letter-spacing: 0;
+	}
+	.cd {
+		font-size: 18px;
+		line-height: 28.8px;
+		letter-spacing: 0;
+		color: var(--taupe);
+	}
+	.cell--2 .cd {
+		color: var(--charcoal);
+	}
+	.cell--3 .cd {
+		color: var(--white);
+	}
+	.cd a {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-thickness: 1px;
+		transition: color 200ms var(--ease-link);
+	}
+	.cell--2 .cd a:hover {
+		color: var(--gold-dark);
+	}
+	.cell--3 .cd a:hover {
+		color: var(--gold-light);
+	}
+
+	/* Message form */
+	.message {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 45px;
+		padding: 80px 32px;
+	}
+	.head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		text-align: center;
+	}
+	.note {
+		max-inline-size: 760px;
+		text-align: center;
+		letter-spacing: 0;
+		color: var(--taupe);
+	}
+
+	@media (max-width: 1399.98px) {
+		.cell {
+			padding-inline: 32px 22px;
+		}
+		.cell--2,
+		.cell--3 {
+			padding-inline: 22px;
+		}
+	}
+
+	@media (max-width: 809.98px) {
+		.portrait {
+			padding-inline: 0;
+		}
+		.dgrid {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		.cell,
+		.cell--2,
+		.cell--3 {
+			align-items: center;
+			padding-inline: 16px;
+			text-align: center;
+		}
+	}
+</style>

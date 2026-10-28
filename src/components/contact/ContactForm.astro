@@ -1,0 +1,240 @@
+---
+// Contact message form. Native validation, fetch POST as FormData to the form
+// endpoint, inline success and error states, mailto fallback on failure.
+// The endpoint lives in the page data (pages/contact.json form.action) and is
+// passed in from contact.astro, where it is set once as FORM_ENDPOINT.
+/* eslint-disable @typescript-eslint/no-explicit-any */
+interface Props {
+	endpoint: string;
+	fields: any[];
+	options: any[];
+	submitLabel?: string;
+	fallbackEmails: string[];
+}
+const { endpoint, fields, options, submitLabel = "Send message", fallbackEmails } = Astro.props;
+const f = (name: string) => fields.find((x) => x.name === name) ?? {};
+const label = (name: string) => String(f(name).label ?? name).split("\n")[0].trim();
+
+// Group the select options under their dividers (optgroups).
+type Opt = { value: string; label: string };
+const lead: Opt[] = [];
+const groups: { label: string; options: Opt[] }[] = [];
+for (const o of options) {
+	if (o.divider) groups.push({ label: o.divider, options: [] });
+	else if (groups.length) groups[groups.length - 1].options.push(o);
+	else lead.push(o);
+}
+---
+
+<form class="cform" action={endpoint} method="post" data-contact-form data-endpoint={endpoint}>
+	<div class="field">
+		<label class="eyebrow lab" for="cf-name">{label("name")}</label>
+		<input id="cf-name" name="name" type="text" placeholder={f("name").placeholder} required autocomplete="name" />
+	</div>
+	<div class="field">
+		<label class="eyebrow lab" for="cf-email">{label("email")}</label>
+		<input id="cf-email" name="email" type="email" placeholder={f("email").placeholder} required autocomplete="email" />
+	</div>
+	<div class="field">
+		<label class="eyebrow lab" for="cf-piece">{label("piece_interested_in")}</label>
+		<div class="sel">
+			<select id="cf-piece" name="piece_interested_in">
+				{lead.map((o) => <option value={o.value}>{o.label}</option>)}
+				{
+					groups.map((g) => (
+						<optgroup label={g.label}>
+							{g.options.map((o) => (
+								<option value={o.value}>{o.label}</option>
+							))}
+						</optgroup>
+					))
+				}
+			</select>
+			<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" stroke-width="1" /></svg>
+		</div>
+	</div>
+	<div class="field">
+		<label class="eyebrow lab" for="cf-message">{label("message")}</label>
+		<textarea id="cf-message" name="message" rows="4" placeholder={f("message").placeholder} required></textarea>
+	</div>
+
+	<!-- Honeypot: hidden from people, bots fill it in. -->
+	<div class="hp" aria-hidden="true">
+		<label for="cf-website">Website</label>
+		<input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+	</div>
+
+	<button class="send" type="submit">{submitLabel}</button>
+
+	<p class="status" role="status" aria-live="polite" data-status hidden></p>
+	<p class="status" data-kind="error" data-error role="alert" hidden>
+		Sorry, your message could not be sent. Please write to us directly at {fallbackEmails.map((addr, i) => <>{i > 0 && " or "}<a href={`mailto:${addr}`}>{addr}</a></>)}.
+	</p>
+</form>
+
+<script>
+	document.querySelectorAll<HTMLFormElement>("[data-contact-form]").forEach((form) => {
+		const status = form.querySelector<HTMLElement>("[data-status]")!;
+		const err = form.querySelector<HTMLElement>("[data-error]")!;
+		const btn = form.querySelector<HTMLButtonElement>(".send")!;
+		const label = btn.textContent;
+		const show = (kind: "ok" | "error", text = "") => {
+			status.hidden = kind !== "ok";
+			err.hidden = kind !== "error";
+			status.textContent = text;
+		};
+		form.addEventListener("submit", async (e) => {
+			e.preventDefault();
+			if (!form.reportValidity()) return;
+			const data = new FormData(form);
+			// Honeypot filled: pretend success, send nothing.
+			if (String(data.get("website") ?? "").trim()) {
+				form.reset();
+				show("ok", "Thank you. Your message has been sent, we will be in touch soon.");
+				return;
+			}
+			data.delete("website");
+			btn.disabled = true;
+			btn.textContent = "Sending…";
+			status.hidden = true;
+			err.hidden = true;
+			try {
+				const res = await fetch(form.dataset.endpoint!, { method: "POST", body: data });
+				if (!res.ok) throw new Error(String(res.status));
+				form.reset();
+				show("ok", "Thank you. Your message has been sent, we will be in touch soon.");
+			} catch {
+				show("error");
+			} finally {
+				btn.disabled = false;
+				btn.textContent = label;
+			}
+		});
+	});
+</script>
+
+<style>
+	.cform {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		inline-size: 100%;
+		max-inline-size: 680px;
+		margin-inline: auto;
+		text-align: start;
+	}
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+	.lab {
+		color: var(--ink);
+	}
+	input,
+	textarea,
+	select {
+		inline-size: 100%;
+		font-family: var(--font-display);
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0;
+		color: var(--charcoal);
+		background: transparent;
+		border: 0;
+		border-radius: 0;
+		outline: none;
+	}
+	input,
+	textarea {
+		padding: 0 0 10px;
+		border-block-end: 1px solid var(--hairline);
+		transition: border-color 200ms var(--ease-link);
+	}
+	textarea {
+		block-size: 120px;
+		resize: vertical;
+	}
+	input:focus,
+	textarea:focus {
+		border-color: var(--charcoal);
+	}
+	::placeholder {
+		color: var(--taupe-2);
+		opacity: 1;
+	}
+	.sel {
+		position: relative;
+		color: var(--charcoal);
+	}
+	select {
+		appearance: none;
+		-webkit-appearance: none;
+		block-size: 44px;
+		padding: 0 40px 0 16px;
+		background: #f4f4f4;
+		border-radius: 8px;
+		border-block-end: 1px solid var(--hairline);
+		cursor: pointer;
+	}
+	select:focus-visible {
+		outline: 1px solid var(--charcoal);
+		outline-offset: 2px;
+	}
+	.chev {
+		position: absolute;
+		inset-inline-end: 16px;
+		inset-block-start: 50%;
+		inline-size: 12px;
+		block-size: 12px;
+		translate: 0 -50%;
+		pointer-events: none;
+		color: var(--taupe);
+	}
+	.hp {
+		position: absolute;
+		inline-size: 1px;
+		block-size: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+		left: -9999px;
+	}
+	.send {
+		align-self: center;
+		margin-block-start: 10px;
+		padding: 15px 39px;
+		border: 1px solid var(--charcoal);
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16.8px;
+		letter-spacing: 1.92px;
+		text-transform: uppercase;
+		color: var(--charcoal);
+		transition:
+			background-color 300ms var(--ease-out),
+			color 300ms var(--ease-out),
+			border-color 300ms var(--ease-out);
+	}
+	.send:hover {
+		background: var(--charcoal);
+		color: var(--white);
+	}
+	.send:disabled {
+		opacity: 0.6;
+		cursor: progress;
+	}
+	.status {
+		text-align: center;
+		color: var(--charcoal);
+	}
+	.status[data-kind="error"] {
+		color: #8a2b20;
+	}
+	.status :global(a) {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+</style>

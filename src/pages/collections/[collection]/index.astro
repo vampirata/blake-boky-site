@@ -25,6 +25,7 @@ const soonSlugs = new Set(collections.filter((c) => c.comingSoon).map((c) => c.s
 const slugOf = (target: string) => target.replace(/^\/collections\/?/, "").split("/")[0];
 const fixTarget = (c: { title: string; target: string }) => {
 	if (/^andromeda\b/i.test(c.title.trim())) return "/collections/andromeda";
+	if (/^rethink\b/i.test(c.title.trim())) return "/collections/coming-soon-blake";
 	return slugs.has(slugOf(c.target)) ? c.target : "/collections";
 };
 

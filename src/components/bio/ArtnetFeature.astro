@@ -1,0 +1,126 @@
+---
+// Artnet press feature (Boky): text left, image right. The image is shown whole.
+import Img from "../Img.astro";
+interface Props {
+	eyebrow: string;
+	title: string;
+	quote: string;
+	cite: string;
+	image: { src: string; alt: string };
+	link: { label: string; href: string };
+}
+const { eyebrow, title, quote, cite, image, link } = Astro.props;
+---
+
+<section class="af">
+	<div class="txt">
+		<p class="eb" data-reveal>{eyebrow}</p>
+		<h2 class="ti" data-reveal>{title}</h2>
+		<blockquote class="q" data-reveal>{quote}</blockquote>
+		<p class="ci" data-reveal>{cite}</p>
+		<a class="btn" href={link.href} target="_blank" rel="noopener" data-reveal>
+			{link.label} <span aria-hidden="true">→</span>
+		</a>
+	</div>
+	<div class="img" data-reveal>
+		<Img src={image.src} alt={image.alt} ratio="1 / 1" sizes="(min-width: 1400px) 520px, (min-width: 810px) 45vw, 100vw" />
+	</div>
+</section>
+
+<style>
+	.af {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		column-gap: 64px;
+		align-items: start;
+		padding: 110px 32px;
+	}
+	.eb {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 3.36px;
+		text-transform: uppercase;
+		color: var(--gold-light);
+		margin-block-end: 18px;
+	}
+	.ti {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 46px;
+		line-height: 1.12;
+		color: var(--paper);
+		max-inline-size: 640px;
+		margin-block-end: 26px;
+	}
+	.q {
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 400;
+		font-size: 23px;
+		line-height: 1.45;
+		color: var(--sand);
+		max-inline-size: 570px;
+		margin-block-end: 17px;
+	}
+	.ci {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 2.16px;
+		text-transform: uppercase;
+		color: var(--taupe-2);
+		margin-block-end: 21px;
+	}
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 12px;
+		padding: 17px 37px;
+		border: 1px solid var(--paper);
+		font-family: var(--font-display);
+		font-size: 24px;
+		line-height: 1.2;
+		color: var(--paper);
+		transition:
+			background-color 300ms var(--ease-out),
+			border-color 300ms var(--ease-out),
+			color 300ms var(--ease-out);
+	}
+	.btn:hover {
+		background: var(--gold);
+		border-color: var(--gold);
+		color: var(--ink);
+	}
+	.img {
+		justify-self: end;
+		inline-size: 100%;
+		max-inline-size: 520px;
+	}
+	.img :global(.art) {
+		border-radius: 2px;
+	}
+	@media (max-width: 1399.98px) {
+		.af {
+			column-gap: 32px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.af {
+			grid-template-columns: minmax(0, 1fr);
+			row-gap: 40px;
+			padding: 110px 0;
+		}
+		.txt {
+			padding-inline: 12px;
+		}
+		.img {
+			max-inline-size: none;
+		}
+		.img :global(.art) {
+			border-radius: 0;
+		}
+	}
+</style>

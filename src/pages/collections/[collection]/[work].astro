@@ -1,0 +1,352 @@
+---
+// Artwork detail: one page per work in works.json.
+// Two live layouts (field `template`):
+//  - "work-zilo" (Andromeda, Spirit, Fragments): ticker, centred 600px text column,
+//    gallery, prev/next, inquire box.
+//  - "work-indiv" (In Lucem, Figurative Poetry): ticker, left aligned full width text,
+//    gallery, more text, ruled prev/next, inquire box, optional in-flow back link.
+// The live site also used three colour themes per collection (measured, see below).
+import Base from "../../../layouts/Base.astro";
+import BackPill from "../../../components/BackPill.astro";
+import ImageTicker from "../../../components/work/ImageTicker.astro";
+import GalleryLightbox from "../../../components/work/GalleryLightbox.astro";
+import WorkPager from "../../../components/work/WorkPager.astro";
+import InquireBox from "../../../components/work/InquireBox.astro";
+import { works, collectionBySlug, cleanTitle, type Work, type ImageRec } from "../../../lib/data";
+import { DEFAULT_DESCRIPTION } from "../../../lib/site";
+import type { NavVariant } from "../../../components/Nav.astro";
+
+export function getStaticPaths() {
+	return works.map((work) => ({ params: { collection: work.collection, work: work.slug }, props: { work } }));
+}
+
+const { work } = Astro.props as { work: Work };
+const col = collectionBySlug(work.collection);
+const indiv = work.template === "work-indiv";
+
+// Themes measured on the live pages (1440, computed styles).
+type Theme = "stone" | "paper" | "ink";
+const THEME: Record<string, Theme> = {
+	"spirit-collection": "stone",
+	andromeda: "paper",
+	fragments: "paper",
+	"in-lucem": "ink",
+	"figurative-poetry": "ink",
+};
+const theme: Theme = THEME[work.collection] ?? (indiv ? "ink" : "stone");
+const NAV: Record<Theme, NavVariant> = { stone: "black", paper: "light", ink: "grey" };
+const BG: Record<Theme, string> = { stone: "var(--stone)", paper: "var(--paper)", ink: "var(--ink)" };
+const FG: Record<Theme, string> = { stone: "var(--hairline)", paper: "var(--charcoal)", ink: "var(--hairline)" };
+
+// Gallery columns from the GalleryLightbox instance props (desktop / tablet / phone).
+const COLS: Record<string, { desktop: number; tablet: number; phone: number }> = {
+	"in-lucem": { desktop: 3, tablet: 3, phone: 1 },
+	"figurative-poetry": { desktop: 2, tablet: 2, phone: 1 },
+};
+const cols = COLS[work.collection] ?? { desktop: 3, tablet: 3, phone: 2 };
+// Andromeda's lower half sits in a 1180px column on the live site.
+const wideMax = work.collection === "andromeda" ? "1180px" : "none";
+
+// Images: drop repeats (several works list the same file twice).
+const dedupe = (list: ImageRec[] = []) => {
+	const seen = new Set<string>();
+	return list.filter((im) => im?.src && !seen.has(im.src) && seen.add(im.src));
+};
+const gallery = dedupe(work.images);
+const ticker = dedupe(work.tickerImages?.length ? work.tickerImages : work.images);
+
+// Rich text blocks, rendered as the client wrote them. Drop blocks that are truly empty.
+type Block = { tag: string; html: string; text?: string };
+const blocks = (k: "content" | "content2" | "content3"): Block[] =>
+	((work.richText?.[k] ?? []) as Block[]).filter((b) => b.html.replace(/&nbsp;|\s/g, "") !== "");
+const content = blocks("content");
+const content2 = blocks("content2");
+const content3 = blocks("content3");
+
+const title = (work.title ?? "").trim();
+const name = (work.name ?? "").trim();
+const colTitle = col?.title ?? work.collectionTitle ?? "Collections";
+const colHref = col ? `/collections/${col.slug}` : "/collections";
+
+// Prev / next: link by slug inside this collection.
+const slot = (p: any) =>
+	p && works.some((w) => w.slug === p.slug)
+		? { label: p.label, title: p.title, href: `/collections/${work.collection}/${p.slug}`, thumb: p.thumb }
+		: null;
+const prev = slot(work.prevNext?.prev);
+const next = slot(work.prevNext?.next);
+
+// SEO
+const plain = (h: string) =>
+	h
+		.replace(/<br\s*\/?>/gi, " ")
+		.replace(/<[^>]+>/g, "")
+		.replace(/&nbsp;/g, " ")
+		.replace(/&amp;/g, "&")
+		.replace(/\s+/g, " ")
+		.trim();
+const firstPara = plain(work.description?.[0] ?? content[0]?.html ?? "");
+const clip = (s: string, n = 155) => {
+	if (s.length <= n) return s;
+	const cut = s.slice(0, n - 1);
+	return cut.slice(0, cut.lastIndexOf(" ") > 80 ? cut.lastIndexOf(" ") : cut.length).replace(/[\s,.;:]+$/, "") + "…";
+};
+const description = firstPara.length > 40 ? clip(firstPara) : DEFAULT_DESCRIPTION;
+const pageTitle = cleanTitle(work.seo?.title, title);
+const ogImage = gallery[0]?.src;
+
+// Section order from the data. "Prev Slot"/"Next Slot" render as one pager.
+const order: string[] = work.sectionOrder ?? [];
+const sections: string[] = [];
+for (const s of order) {
+	const key = s === "Prev Slot" || s === "Next Slot" ? "Pager" : s;
+	if (key === "Name" || key === "Title") {
+		if (!sections.includes("Head")) sections.push("Head");
+		continue;
+	}
+	if (!sections.includes(key)) sections.push(key);
+}
+if (!sections.includes("Head")) sections.unshift("Head");
+const hasBottomBack = sections.includes("Back");
+const contact = work.contact ?? {};
+---
+
+<Base title={pageTitle} description={description} ogImage={ogImage} nav={NAV[theme]} bg={BG[theme]} fg={FG[theme]} smooth>
+	<BackPill href={colHref} label={colTitle} />
+
+	<article class:list={["work", `work--${theme}`, indiv ? "work--indiv" : "work--zilo", hasBottomBack && "has-back"]} style={`--wide-max:${wideMax}`}>
+		{ticker.length > 0 && <ImageTicker images={ticker} label={`${title}: images`} />}
+
+		<div class="body">
+			{
+				sections.map((s) => {
+					if (s === "Head")
+						return (
+							<header class="head text">
+								<h1 class="w-title">{title}</h1>
+								{!indiv && name && <p class="w-name">{name}</p>}
+							</header>
+						);
+					if (s === "Content" && content.length)
+						return (
+							<div class="rt text">
+								{content.map((b) => {
+									const Tag = b.tag as "p";
+									return <Tag class:list={[b.tag !== "p" && "rt-h"]} set:html={b.html} />;
+								})}
+							</div>
+						);
+					if ((s === "Content 2" && content2.length) || (s === "Content 3" && content3.length)) {
+						const list = s === "Content 2" ? content2 : content3;
+						return (
+							<div class="rt text">
+								{list.map((b) => {
+									const Tag = b.tag as "p";
+									return <Tag class:list={[b.tag !== "p" && "rt-h"]} set:html={b.html} />;
+								})}
+							</div>
+						);
+					}
+					if (s === "Gallery Lightbox" && gallery.length)
+						return (
+							<div class="wide">
+								<GalleryLightbox images={gallery} title={title} cols={cols} bg={BG[theme]} />
+							</div>
+						);
+					if (s === "Pager" && (prev || next))
+						return (
+							<div class="wide pager-wrap">
+								<WorkPager prev={prev} next={next} rule={indiv} />
+							</div>
+						);
+					if (s === "Contact")
+						return (
+							<div class="wide">
+								<InquireBox eyebrow={contact.eyebrow} heading={contact.heading} line={contact.line} button={contact.button?.label} />
+							</div>
+						);
+					if (s === "Back")
+						return (
+							<div class="bottom-back">
+								<BackPill href={colHref} label={colTitle} />
+							</div>
+						);
+					return null;
+				})
+			}
+		</div>
+	</article>
+</Base>
+
+<style>
+	.work {
+		background: var(--w-bg);
+		color: var(--w-body);
+	}
+	.work--stone {
+		--w-bg: var(--stone);
+		--w-title: var(--hairline);
+		--w-body: var(--grey-c2);
+		--w-link: var(--hairline);
+		--w-line: var(--white);
+		--w-label: var(--hairline);
+		--w-card: var(--grey-c2);
+		--w-btn: var(--hairline);
+	}
+	.work--paper {
+		--w-bg: var(--paper);
+		--w-title: var(--charcoal);
+		--w-body: var(--taupe);
+		--w-link: var(--charcoal);
+		--w-line: var(--grey-363);
+		--w-label: var(--taupe);
+		--w-card: var(--charcoal);
+		--w-btn: var(--black);
+	}
+	.work--ink {
+		--w-bg: var(--ink);
+		--w-title: var(--hairline);
+		--w-body: var(--sand);
+		--w-link: var(--hairline);
+		--w-line: var(--grey-363);
+		--w-label: var(--hairline);
+		--w-card: var(--grey-c2);
+		--w-btn: var(--hairline);
+	}
+
+	.body {
+		display: flex;
+		flex-direction: column;
+		max-inline-size: 1920px;
+		margin-inline: auto;
+	}
+	.wide {
+		inline-size: 100%;
+		max-inline-size: var(--wide-max, none);
+		margin-inline: auto;
+	}
+
+	/* Zilo: centred 600px column, 60px rhythm. */
+	.work--zilo .body {
+		gap: 60px;
+		padding-block: 82px;
+	}
+	.work--zilo .text {
+		inline-size: 100%;
+		max-inline-size: 600px;
+		margin-inline: auto;
+	}
+	.work--zilo .head {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		text-align: center;
+	}
+	.work--zilo .pager-wrap {
+		margin-block-start: 0;
+	}
+
+	/* Indiv: left aligned, 32px gutter, 48px rhythm. */
+	.work--indiv .body {
+		gap: 48px;
+		padding: 90px 0 109px;
+	}
+	.work--indiv .text,
+	.work--indiv .wide {
+		padding-inline: 32px;
+	}
+	.work--indiv.has-back .body {
+		padding-block-end: 0;
+	}
+
+	.w-title {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-detail);
+		line-height: 1.15;
+		letter-spacing: 0.4px;
+		color: var(--w-title);
+	}
+	.w-name {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-h3);
+		line-height: 1.2;
+		letter-spacing: 0.3px;
+		color: var(--w-title);
+	}
+
+	/* Client rich text, rendered as given. */
+	.rt {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 1.75;
+		letter-spacing: -0.34px;
+		color: var(--w-body);
+		overflow-wrap: anywhere;
+	}
+	.rt > :global(.rt-h) {
+		margin-block-start: 20px;
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: var(--t-h3);
+		line-height: 1.2;
+		letter-spacing: 0.3px;
+		color: var(--w-title);
+	}
+	.rt :global(a) {
+		color: var(--w-link);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
+		transition: color 200ms var(--ease-link);
+	}
+	.rt :global(a:hover) {
+		color: var(--gold-light);
+	}
+	.work--paper .rt :global(a:hover) {
+		color: var(--gold-dark);
+	}
+
+	.bottom-back {
+		display: flex;
+		justify-content: center;
+		margin-block-start: 61px; /* 48 gap + 61 = 109 measured */
+	}
+	.bottom-back :global(.pill) {
+		position: static;
+	}
+
+	@media (max-width: 1399.98px) {
+		.work--zilo .text {
+			max-inline-size: 600px;
+		}
+	}
+	@media (max-width: 809.98px) {
+		.work--zilo .text {
+			max-inline-size: none;
+			padding-inline: 12px;
+		}
+		.work--zilo .head {
+			padding-inline: 0;
+		}
+		.work--indiv .body {
+			padding-block-start: 56px;
+		}
+		.work--indiv .text {
+			padding-inline: 12px;
+		}
+		.work--indiv .wide {
+			padding-inline: 0;
+		}
+		.rt {
+			font-size: 16px;
+			line-height: 1.75;
+			letter-spacing: -0.32px;
+		}
+	}
+</style>

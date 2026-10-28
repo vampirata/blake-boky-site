@@ -1,0 +1,55 @@
+---
+// Four stats: CG 600 number over an Inter uppercase caption. 2x2 on phone.
+interface Props {
+	stats: { value: string; label: string }[];
+}
+const { stats } = Astro.props;
+---
+
+<dl class="stats">
+	{
+		stats.map((s) => (
+			<div class="s" data-reveal>
+				<dt class="v">{s.value}</dt>
+				<dd class="label l">{s.label}</dd>
+			</div>
+		))
+	}
+</dl>
+
+<style>
+	.stats {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 24px;
+		margin: 0;
+	}
+	.s {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+		text-align: center;
+	}
+	.v {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 52px;
+		line-height: 1;
+		letter-spacing: -0.02em;
+		color: var(--bio-fg);
+	}
+	.l {
+		margin: 0;
+		color: var(--bio-muted);
+	}
+	@media (max-width: 809.98px) {
+		.stats {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 40px 24px;
+		}
+		.v {
+			font-size: 42px;
+		}
+	}
+</style>

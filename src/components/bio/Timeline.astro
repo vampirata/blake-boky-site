@@ -1,0 +1,68 @@
+---
+// Vertical timeline: year (CG 600) over an Inter entry, dots on a 1px line.
+import type { TimelineEntry } from "./bio";
+interface Props {
+	entries: TimelineEntry[];
+}
+const { entries } = Astro.props;
+---
+
+<ol class="tl">
+	{
+		entries.map((e) => (
+			<li class="item" data-reveal>
+				<span class="dot" aria-hidden="true" />
+				<p class="y">{e.year}</p>
+				<p class="d" set:html={e.html} />
+			</li>
+		))
+	}
+</ol>
+
+<style>
+	.tl {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 28px;
+		padding-inline-start: 30px;
+	}
+	.tl::before {
+		content: "";
+		position: absolute;
+		inset-block: 8px 0;
+		inset-inline-start: 0;
+		inline-size: 1px;
+		background: var(--bio-rule);
+	}
+	.item {
+		position: relative;
+	}
+	.dot {
+		position: absolute;
+		inset-inline-start: -34px;
+		inset-block-start: 7px;
+		inline-size: 9px;
+		block-size: 9px;
+		border-radius: 50%;
+		background: var(--bio-fg);
+	}
+	.y {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 1.3;
+		letter-spacing: -0.02em;
+		color: var(--bio-fg);
+		margin-block-end: 6px;
+	}
+	.d {
+		font-size: 14.5px;
+		line-height: 1.6;
+		letter-spacing: -0.02em;
+		color: var(--bio-muted);
+	}
+	.d :global(em) {
+		font-style: italic;
+	}
+</style>

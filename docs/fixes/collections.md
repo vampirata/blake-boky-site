@@ -16,4 +16,4 @@
 - Coming Soon Boky used the grey desktop nav on the live site while Coming Soon Blake used the light one; both now use the light nav on the paper background.
 
 Flagged for the client:
-- "Rethink Collection" card links to /collections/in-lucem on the live site. There is no Rethink collection page, so the link is kept; confirm where it should go.
+- "Rethink Collection" card linked to Boky's /collections/in-lucem on live. Rethink is Blake's and has no page yet, so it now links to /collections/coming-soon-blake (same as the Blake bio). Client to confirm.

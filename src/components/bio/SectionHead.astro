@@ -1,0 +1,35 @@
+---
+// Centred eyebrow + H2 that opens every bio section.
+interface Props {
+	eyebrow?: string;
+	heading: string;
+}
+const { eyebrow, heading } = Astro.props;
+---
+
+<header class="head">
+	{eyebrow && <p class="eyebrow e" data-reveal>{eyebrow}</p>}
+	<h2 class="h2" data-reveal>{heading}</h2>
+</header>
+
+<style>
+	.head {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		text-align: center;
+		margin-block-end: 60px;
+	}
+	.e {
+		color: var(--bio-muted);
+	}
+	.h2 {
+		color: var(--bio-fg);
+	}
+	@media (max-width: 809.98px) {
+		.head {
+			margin-block-end: 52px;
+		}
+	}
+</style>

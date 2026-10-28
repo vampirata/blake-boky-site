@@ -1,0 +1,58 @@
+---
+// "Exhibited In": wrapping country list with dot separators, then the stats row.
+import SectionHead from "./SectionHead.astro";
+import StatsRow from "./StatsRow.astro";
+interface Props {
+	eyebrow: string;
+	heading: string;
+	countries: string[];
+	stats: { value: string; label: string }[];
+}
+const { eyebrow, heading, countries, stats } = Astro.props;
+---
+
+<section class="ex">
+	<SectionHead eyebrow={eyebrow} heading={heading} />
+	<ul class="list" data-reveal>
+		{
+			countries.map((c, i) => (
+				<>
+					<li class="c">{c}</li>
+					{i < countries.length - 1 && <li class="sep" aria-hidden="true">·</li>}
+				</>
+			))
+		}
+	</ul>
+	<StatsRow stats={stats} />
+</section>
+
+<style>
+	.ex {
+		padding: 80px 32px;
+	}
+	.ex :global(.head) {
+		margin-block-end: 59px;
+	}
+	.list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px 14px;
+		max-inline-size: 820px;
+		margin: 0 auto 64px;
+		padding: 0;
+		list-style: none;
+	}
+	.c,
+	.sep {
+		font-family: var(--font-display);
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 1.4;
+		letter-spacing: -0.02em;
+		color: var(--bio-fg);
+	}
+	.sep {
+		color: var(--bio-muted);
+	}
+</style>
