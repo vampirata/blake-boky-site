@@ -35,7 +35,7 @@ function toHref(absUrl, rawHref, page) {
 			let p = u.pathname.replace(/\/$/, '') || '/';
 			return p + u.search + u.hash;
 		}
-		return u.href;
+		return /^[a-z]+:/i.test(rawHref) ? rawHref : u.href;
 	} catch {
 		return rawHref;
 	}

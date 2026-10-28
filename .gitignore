@@ -3,3 +3,6 @@ dist
 .astro
 .DS_Store
 scripts/.cache
+public/img
+scripts/.optimize.log
+scripts/.raw
