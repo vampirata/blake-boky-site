@@ -14,3 +14,4 @@
 - Contact, portrait: shown whole at its own ratio on phone (live cropped it to 3:2, cutting 16% off the height).
 - Contact, form: posts with fetch to the Framer Forms endpoint (one constant, FORM_ENDPOINT, at the top of src/pages/contact.astro) with native validation, inline success and error states, and on failure an error that links to both artists' email addresses. One hidden honeypot field (website) replaces Framer's eleven.
 - Contact, "Piece interested in" select: the 48 works are grouped under their collections (Fragments, Andromeda, Spirit Collection, In Lucem, Figurative Poetry) as optgroups, as in the Framer data.
+- Galleries, Exhibitions banners: shown at their own ratio instead of fixed-height cover strips. The live crop cut up to 40% at wide screens, including people's heads and the baked-in "The Space Within" title.

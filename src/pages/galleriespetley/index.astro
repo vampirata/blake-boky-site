@@ -72,7 +72,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 							{isPortrait(b.image) ? (
 								<Img src={b.image.src} alt={b.image.alt} bg="var(--paper)" sizes="100vw" />
 							) : (
-								<Img src={b.image.src} alt={b.image.alt} fit="cover" sizes="100vw" />
+								<Img src={b.image.src} alt={b.image.alt} sizes="100vw" />
 							)}
 						</div>
 						<div class="row">
@@ -179,9 +179,10 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		gap: 100px;
 		padding: 56px 32px 0;
 	}
+	/* Banners show at their own ratio: they carry heads and baked-in exhibition
+	   titles that a fixed-height cover crop cut off at wide widths. */
 	.banner :global(.art) {
-		block-size: var(--bh);
-		aspect-ratio: auto;
+		block-size: auto;
 	}
 	.banner--1 {
 		--bh: 267px;

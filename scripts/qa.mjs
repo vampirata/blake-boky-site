@@ -43,11 +43,13 @@ for (const [w, h] of WIDTHS) {
 			document.querySelectorAll("img[loading=lazy]").forEach((i) => (i.loading = "eager"));
 		});
 		await page.waitForLoadState("networkidle").catch(() => {});
+		await page.evaluate(() => Promise.all([...document.images].filter((i) => !i.complete).map((i) => new Promise((r) => { i.onload = i.onerror = r; setTimeout(r, 8000); }))));
 		const res = await page.evaluate(() => {
 			const cw = document.documentElement.clientWidth;
 			const out = { overflow: document.documentElement.scrollWidth > cw + 1, clipped: [], broken: [], cover: [], links: [] };
 			document.querySelectorAll("h1,h2,h3,h4,p,a,span,li,button,label").forEach((el) => {
 				if (el.children.length && el.tagName !== "A") return;
+				if (el.closest(".sr-only, [hidden], dialog:not([open])") || getComputedStyle(el).clip === "rect(0px, 0px, 0px, 0px)") return;
 				const t = el.textContent.trim();
 				if (!t) return;
 				const r = el.getBoundingClientRect();
@@ -61,7 +63,8 @@ for (const [w, h] of WIDTHS) {
 					out.clipped.push("cut: " + t.slice(0, 40));
 			});
 			document.querySelectorAll("img").forEach((i) => {
-				if (!i.complete || i.naturalWidth === 0) out.broken.push(i.currentSrc || i.src);
+				if (!i.getAttribute("src") || i.closest("dialog:not([open])")) return;
+				if (i.complete && i.naturalWidth === 0) out.broken.push(i.currentSrc || i.src);
 				const cs = getComputedStyle(i);
 				if (cs.objectFit === "cover" && i.naturalWidth) {
 					const r = i.getBoundingClientRect();
