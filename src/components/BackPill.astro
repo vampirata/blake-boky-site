@@ -29,6 +29,7 @@ const { href, label, tone = "dark" } = Astro.props;
 		font-size: 12px;
 		line-height: 1.2;
 		letter-spacing: 0.96px;
+		border: 1px solid var(--taupe);
 		backdrop-filter: blur(10px);
 		-webkit-backdrop-filter: blur(10px);
 		transition:
@@ -47,11 +48,11 @@ const { href, label, tone = "dark" } = Astro.props;
 	}
 	.pill--light {
 		background: rgba(255, 255, 255, 0.02);
-		border: 1px solid rgba(15, 15, 15, 0.15);
 		color: var(--ink);
 	}
 	.pill:hover {
 		background: var(--gold);
+		border-color: var(--gold);
 		color: var(--ink);
 	}
 	.pill:hover .arr {

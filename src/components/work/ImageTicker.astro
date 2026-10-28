@@ -1,0 +1,226 @@
+---
+// Endless horizontal strip of a work's images (port of the Framer ImageTicker code
+// component). Every image is contained at the strip height, so the whole piece shows.
+// Auto-scrolls right to left; dragging scrubs it and the drag direction becomes the
+// new direction. Pauses off screen. With reduced motion (or no JS) it is a plain
+// horizontally scrollable row.
+import Img from "../Img.astro";
+import { img } from "../../lib/img";
+import type { ImageRec } from "../../lib/data";
+
+interface Props {
+	images: ImageRec[];
+	/** Pixels per second. The live site used 40 on every work page. */
+	speed?: number;
+	label?: string;
+}
+const { images, speed = 40, label = "Images" } = Astro.props;
+
+// Width hint for srcset: the frame is 70vh tall, so its width is 70vh x ratio.
+const sizesFor = (src: string) => {
+	const r = img(src)?.ratio ?? 0.667;
+	return `${Math.max(10, Math.round(70 * r))}vh`;
+};
+---
+
+{
+	images.length > 0 && (
+		<section class="ticker" data-ticker data-speed={speed} aria-label={label}>
+			<div class="tk-view">
+				<div class="tk-track">
+					{images.map((im, i) => (
+						<Img src={im.src} alt={im.alt ?? ""} sizes={sizesFor(im.src)} eager={i < 4} class="tk-item" />
+					))}
+					{images.map((im) => (
+						<Img src={im.src} alt="" sizes={sizesFor(im.src)} class="tk-item tk-clone" />
+					))}
+				</div>
+			</div>
+		</section>
+	)
+}
+
+<style>
+	.ticker {
+		position: relative;
+		inline-size: 100%;
+		block-size: 70vh;
+		overflow: hidden;
+	}
+	.tk-view {
+		position: absolute;
+		inset: 0;
+		cursor: grab;
+		touch-action: pan-y;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+	.tk-view.is-grabbing {
+		cursor: grabbing;
+	}
+	.tk-track {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		block-size: 100%;
+		inline-size: max-content;
+		will-change: transform;
+	}
+	.tk-track > :global(.art) {
+		flex: 0 0 auto;
+		block-size: 100%;
+		inline-size: auto;
+	}
+	.tk-track :global(.art img) {
+		-webkit-user-drag: none;
+		transition: transform 620ms cubic-bezier(0.22, 0.61, 0.36, 1);
+	}
+	.tk-track :global(.art:hover img) {
+		transform: scale(1.04);
+	}
+	.tk-view.is-grabbing :global(.art img) {
+		transform: none;
+	}
+
+	/* No JS or reduced motion: a static row the visitor can scroll. */
+	:global(html:not(.js)) .tk-view {
+		overflow-x: auto;
+		cursor: auto;
+	}
+	:global(html:not(.js)) .tk-track > :global(.tk-clone) {
+		display: none;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.tk-view {
+			overflow-x: auto;
+			cursor: auto;
+			touch-action: auto;
+			user-select: auto;
+		}
+		.tk-track > :global(.tk-clone) {
+			display: none;
+		}
+		.tk-track :global(.art:hover img) {
+			transform: none;
+		}
+	}
+</style>
+
+<script>
+	const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+	function init(root: HTMLElement) {
+		const view = root.querySelector<HTMLElement>(".tk-view");
+		const track = root.querySelector<HTMLElement>(".tk-track");
+		if (!view || !track) return;
+		const speed = Number(root.dataset.speed) || 40;
+		const firstSet = Array.from(track.children).filter((c) => !c.classList.contains("tk-clone"));
+
+		let loop = 0; // width of one set including its trailing gap
+		let offset = 0;
+		let dir = 1; // 1 = content moves right to left
+		let raf = 0;
+		let last = 0;
+		let visible = false;
+		const drag = { active: false, id: -1, startX: 0, startOffset: 0, lastX: 0, lastT: 0, vx: 0 };
+
+		const measure = () => {
+			const firstClone = track.querySelector<HTMLElement>(".tk-clone");
+			const first = track.children[0] as HTMLElement | undefined;
+			if (!firstClone || !first) return;
+			loop = firstClone.offsetLeft - first.offsetLeft;
+			// Enough copies so the strip never runs out (one image wider than the viewport, etc.).
+			let guard = 0;
+			while (loop > 0 && track.scrollWidth < loop + view.clientWidth + 2 && guard++ < 12) {
+				for (const el of firstSet) {
+					const c = el.cloneNode(true) as HTMLElement;
+					c.classList.add("tk-clone");
+					c.setAttribute("aria-hidden", "true");
+					c.querySelectorAll("img").forEach((i) => (i.alt = ""));
+					track.appendChild(c);
+				}
+			}
+		};
+
+		const paint = () => {
+			if (loop > 0) offset = ((offset % loop) + loop) % loop;
+			track.style.transform = `translate3d(${-offset}px,0,0)`;
+		};
+
+		const frame = (now: number) => {
+			const dt = Math.min((now - last) / 1000, 0.05);
+			last = now;
+			if (!drag.active) offset += speed * dir * dt;
+			paint();
+			raf = requestAnimationFrame(frame);
+		};
+		const start = () => {
+			if (raf) return;
+			last = performance.now();
+			raf = requestAnimationFrame(frame);
+		};
+		const stop = () => {
+			cancelAnimationFrame(raf);
+			raf = 0;
+		};
+
+		// Mark the server-rendered copy as decorative.
+		track.querySelectorAll<HTMLElement>(".tk-clone").forEach((c) => {
+			c.setAttribute("aria-hidden", "true");
+		});
+		measure();
+		paint();
+		addEventListener("resize", () => {
+			measure();
+			paint();
+		});
+		track.querySelectorAll("img").forEach((i) => {
+			i.draggable = false;
+			if (!i.complete) i.addEventListener("load", measure, { once: true });
+		});
+
+		new IntersectionObserver(([e]) => {
+			visible = e.isIntersecting;
+			if (visible && !document.hidden) start();
+			else stop();
+		}).observe(root);
+		document.addEventListener("visibilitychange", () => {
+			if (document.hidden) stop();
+			else if (visible) start();
+		});
+
+		view.addEventListener("dragstart", (e) => e.preventDefault());
+		view.addEventListener("pointerdown", (e) => {
+			if (e.pointerType === "mouse" && e.button !== 0) return;
+			Object.assign(drag, { active: true, id: e.pointerId, startX: e.clientX, startOffset: offset, lastX: e.clientX, lastT: performance.now(), vx: 0 });
+			view.classList.add("is-grabbing");
+			try {
+				view.setPointerCapture(e.pointerId);
+			} catch {}
+		});
+		view.addEventListener("pointermove", (e) => {
+			if (!drag.active || e.pointerId !== drag.id) return;
+			const now = performance.now();
+			const dt = Math.max(now - drag.lastT, 1);
+			drag.vx = (e.clientX - drag.lastX) / dt;
+			drag.lastX = e.clientX;
+			drag.lastT = now;
+			offset = drag.startOffset - (e.clientX - drag.startX);
+			if (!raf) paint();
+		});
+		const up = (e: PointerEvent) => {
+			if (!drag.active || e.pointerId !== drag.id) return;
+			if (Math.abs(drag.vx) > 0.02) dir = drag.vx < 0 ? 1 : -1;
+			drag.active = false;
+			view.classList.remove("is-grabbing");
+			try {
+				view.releasePointerCapture(e.pointerId);
+			} catch {}
+		};
+		view.addEventListener("pointerup", up);
+		view.addEventListener("pointercancel", up);
+	}
+
+	if (!reduce) document.querySelectorAll<HTMLElement>("[data-ticker]").forEach(init);
+</script>

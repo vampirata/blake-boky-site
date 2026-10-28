@@ -1,0 +1,118 @@
+---
+// Previous / next work cards. Colours come from the page theme variables
+// (--w-line, --w-label, --w-card) set on the work page.
+import Img from "../Img.astro";
+import { url } from "../../lib/site";
+
+type Slot = { label: string; title: string; href: string; thumb?: { src: string; alt?: string } | null } | null | undefined;
+interface Props {
+	prev?: Slot;
+	next?: Slot;
+	rule?: boolean;
+}
+const { prev, next, rule = false } = Astro.props;
+---
+
+{
+	(prev || next) && (
+		<nav class:list={["pager", rule && "pager--rule"]} aria-label="More works">
+			{prev && (
+				<a class="slot slot--prev" href={url(prev.href)} rel="prev">
+					<span class="lbl">{prev.label}</span>
+					<span class="card">
+						{prev.thumb && <Img src={prev.thumb.src} alt="" ratio="122 / 150" fit="contain" sizes="122px" class="thumb" />}
+						<span class="ttl">{prev.title.trim()}</span>
+					</span>
+				</a>
+			)}
+			{next && (
+				<a class="slot slot--next" href={url(next.href)} rel="next">
+					<span class="lbl">{next.label}</span>
+					<span class="card">
+						<span class="ttl">{next.title.trim()}</span>
+						{next.thumb && <Img src={next.thumb.src} alt="" ratio="122 / 150" fit="contain" sizes="122px" class="thumb" />}
+					</span>
+				</a>
+			)}
+		</nav>
+	)
+}
+
+<style>
+	.pager {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 20px;
+		padding-block-start: 32px;
+	}
+	.pager--rule {
+		border-block-start: 1px solid var(--w-line);
+	}
+	.slot {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		inline-size: min(470px, 100%);
+	}
+	.slot--next {
+		margin-inline-start: auto;
+		text-align: end;
+	}
+	.lbl {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.6;
+		letter-spacing: 1.8px;
+		text-transform: uppercase;
+		color: var(--w-label);
+	}
+	.card {
+		position: relative;
+		display: flex;
+		align-items: center;
+		block-size: 150px;
+		background: rgba(111, 106, 97, 0.02);
+		border: 1px solid var(--w-line);
+		overflow: hidden;
+		transition: background-color 300ms var(--ease-out);
+	}
+	.card > :global(.thumb) {
+		flex: 0 0 122px;
+		block-size: 100%;
+		inline-size: 122px;
+	}
+	.card > :global(.thumb img) {
+		transition: transform 600ms var(--ease-spring);
+	}
+	.ttl {
+		flex: 1;
+		padding-inline: 22px;
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.6;
+		letter-spacing: -0.32px;
+		color: var(--w-card);
+		transition: color 200ms var(--ease-link);
+	}
+	.slot:hover .ttl {
+		color: var(--gold-light);
+	}
+	.slot:hover .card > :global(.thumb img) {
+		transform: scale(1.04);
+	}
+	@media (max-width: 809.98px) {
+		.pager {
+			flex-direction: column;
+			gap: 25px;
+		}
+		.slot {
+			inline-size: 100%;
+		}
+		.lbl {
+			padding-inline: 12px;
+		}
+	}
+</style>

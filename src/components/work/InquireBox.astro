@@ -1,0 +1,86 @@
+---
+// "Get in touch / Inquire about this piece" box at the foot of every work page.
+import { url } from "../../lib/site";
+
+interface Props {
+	eyebrow?: string;
+	heading?: string;
+	line?: string;
+	button?: string;
+}
+const {
+	eyebrow = "GET IN TOUCH",
+	heading = "Inquire about this piece",
+	line = "This work is available for acquisition. Contact us for pricing, availability and shipping.",
+	button = "CONTACT US",
+} = Astro.props;
+---
+
+<aside class="inq" aria-labelledby="inq-h">
+	<p class="eb">{eyebrow}</p>
+	<h2 id="inq-h" class="hd">{heading}</h2>
+	<p class="ln">{line}</p>
+	<a class="btn" href={url("/contact")}>{button}</a>
+</aside>
+
+<style>
+	.inq {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+		padding: 48px 40px;
+		border: 1px solid var(--w-line);
+		text-align: center;
+	}
+	.eb {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 1.8px;
+		text-transform: uppercase;
+		color: var(--w-body);
+	}
+	.hd {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 1.2;
+		color: var(--w-title);
+	}
+	.ln {
+		max-inline-size: 440px;
+		font-family: var(--font-body);
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 1.65;
+		letter-spacing: normal;
+		color: var(--w-body);
+	}
+	.btn {
+		margin-block-start: 6px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 40px;
+		border: 1px solid var(--w-btn);
+		background: transparent;
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 1.92px;
+		text-transform: uppercase;
+		color: var(--w-btn);
+		transition:
+			background-color 300ms var(--ease-out),
+			border-color 300ms var(--ease-out),
+			color 300ms var(--ease-out);
+	}
+	.btn:hover {
+		background: var(--gold);
+		border-color: var(--gold);
+		color: var(--ink);
+	}
+</style>

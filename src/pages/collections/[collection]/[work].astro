@@ -35,6 +35,8 @@ const THEME: Record<string, Theme> = {
 };
 const theme: Theme = THEME[work.collection] ?? (indiv ? "ink" : "stone");
 const NAV: Record<Theme, NavVariant> = { stone: "black", paper: "light", ink: "grey" };
+// In Lucem used the BLACK bar over its ink page; Figurative Poetry used GREY.
+const navVariant: NavVariant = work.collection === "in-lucem" ? "black" : NAV[theme];
 const BG: Record<Theme, string> = { stone: "var(--stone)", paper: "var(--paper)", ink: "var(--ink)" };
 const FG: Record<Theme, string> = { stone: "var(--hairline)", paper: "var(--charcoal)", ink: "var(--hairline)" };
 
@@ -111,7 +113,7 @@ const hasBottomBack = sections.includes("Back");
 const contact = work.contact ?? {};
 ---
 
-<Base title={pageTitle} description={description} ogImage={ogImage} nav={NAV[theme]} bg={BG[theme]} fg={FG[theme]} smooth>
+<Base title={pageTitle} description={description} ogImage={ogImage} nav={navVariant} bg={BG[theme]} fg={FG[theme]} smooth>
 	<BackPill href={colHref} label={colTitle} />
 
 	<article class:list={["work", `work--${theme}`, indiv ? "work--indiv" : "work--zilo", hasBottomBack && "has-back"]} style={`--wide-max:${wideMax}`}>
