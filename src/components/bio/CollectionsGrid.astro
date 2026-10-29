@@ -1,7 +1,7 @@
 ---
 // "Bodies of work": 2 columns from 810px, 1 on phone. Images are contained on
 // the page colour so landscape works are never cut (live used 0.563 cover frames).
-// variant "tall" = Blake (2:3 frames, title + years), "square" = Boky (1:1 frames, title).
+// variant "tall" = Blake (9:16 frames as live, title + years), "square" = Boky (1:1 frames, title).
 import Img from "../Img.astro";
 import SectionHead from "./SectionHead.astro";
 import type { CollectionCard } from "./bio";
@@ -13,7 +13,7 @@ interface Props {
 	variant?: "tall" | "square";
 }
 const { eyebrow, heading, cards, variant = "tall" } = Astro.props;
-const ratio = variant === "tall" ? "2 / 3" : "1 / 1";
+const ratio = variant === "tall" ? "9 / 16" : "1 / 1";
 ---
 
 <section class:list={["cg", `cg--${variant}`]}>
@@ -27,7 +27,6 @@ const ratio = variant === "tall" ? "2 / 3" : "1 / 1";
 							src={c.image.src}
 							alt={c.image.alt}
 							ratio={ratio}
-							pos="50% 100%"
 							bg="var(--page-bg)"
 							zoom
 							sizes="(min-width: 810px) 50vw, 100vw"

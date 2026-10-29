@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "astro dev --port 4400",
 		"images": "node scripts/optimize-images.mjs",
-		"build": "node scripts/optimize-images.mjs && astro build && node scripts/postbuild.mjs",
+		"build": "node scripts/optimize-images.mjs && node scripts/analyze-images.mjs && astro build && node scripts/postbuild.mjs",
 		"preview": "pnpm run build && wrangler dev",
 		"check": "astro check",
 		"deploy": "SITE=https://blake-boky.g58tnpr47h.workers.dev pnpm build && npx wrangler@4 deploy",

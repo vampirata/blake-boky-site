@@ -97,7 +97,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 			{
 				views.media.map((m: any, i: number) => (
 					<div class:list={["v", `v--${i + 1}`]}>
-						<Img src={m.src} alt={m.alt} sizes="(min-width: 1400px) 432px, (min-width: 810px) 50vw, 100vw" />
+						<Img src={m.src} alt={m.alt} ratio="4 / 5" bg="var(--paper)" sizes="(min-width: 1400px) 432px, (min-width: 810px) 50vw, 100vw" />
 					</div>
 				))
 			}

@@ -32,7 +32,7 @@ const title = cleanTitle(page.seo?.title, page.heading);
 			{
 				cards.map((c) => (
 					<li>
-						<Card href={c.href} image={c.image?.src} title={c.title} date={c.date} ratio="4 / 5" bg="var(--ink)" />
+						<Card href={c.href} image={c.image?.src} title={c.title} date={c.date} ratio="1 / 1" ratioTablet="9 / 16" ratioPhone="9 / 16" bg="var(--ink)" />
 					</li>
 				))
 			}

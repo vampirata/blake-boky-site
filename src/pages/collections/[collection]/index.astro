@@ -99,7 +99,7 @@ const BG = { stone: "var(--stone)", paper: "var(--paper)", ink: "var(--ink)" } a
 const THREE_UP = new Set(["andromeda", "in-lucem", "figurative-poetry"]);
 const SQUARE = new Set(["andromeda", "in-lucem"]);
 const gridCols = THREE_UP.has(col.slug) ? 3 : 4;
-const cardRatio = SQUARE.has(col.slug) ? "1 / 1" : "2 / 3";
+const cardRatio = SQUARE.has(col.slug) ? "1 / 1" : "9 / 16";
 // Spirit's notes are small Inter; the Boky series set them as 26px Cormorant.
 const bigNotes = col.slug !== "spirit-collection";
 // Header to first block: Fragments has no blank lead line; Andromeda has no intro.
@@ -162,7 +162,7 @@ const ctaHref = (c: { target?: string; href: string }) => c.target ?? c.href;
 										image={c.image?.src}
 										title={c.title}
 										date={c.date}
-										ratio="4 / 5"
+										ratio="9 / 16"
 										bg={soonBg}
 										tone={soonDark ? "dark" : "light"}
 										sizes="(min-width: 1400px) 25vw, (min-width: 810px) 33vw, 100vw"

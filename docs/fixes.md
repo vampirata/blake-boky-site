@@ -148,3 +148,11 @@ Fixed:
 For the client (kept 1:1 with the live design):
 - Some small text uses the original low contrast colours (light grey on the stone background, pale grey quotes, the gold "coming soon" eyebrow). Raising the contrast would help readability and accessibility; it is a design decision for the client.
 - Links inside artwork text look the same as body text until hovered (live style).
+
+## Image fitting, 29 Oct 2026
+
+Kait's note: contained images left grids uneven. Grids now use the live site's exact frame shapes again (squares, 9:16 cards) and every image fills its frame without the artwork being cut:
+- Each image is analysed for its studio backdrop and where the piece sits in it (`scripts/analyze-images.mjs`).
+- If the frame only trims empty backdrop, the image fills the frame, positioned around the piece.
+- If filling would touch the piece, the whole image shows and the rest of the frame continues the photo's own backdrop colours, feathered so there is no seam. Busy photos get a soft blurred copy of themselves behind instead.
+- Logic: `src/lib/fit.ts`, used by `Img.astro` whenever a frame ratio is set.

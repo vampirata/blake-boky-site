@@ -29,7 +29,7 @@ const full = images.map((im) => img(im.src));
 				{images.map((im, i) => (
 					<li>
 						<button type="button" class="tile" data-open={i} aria-label={`Open image ${i + 1} of ${n}`} aria-haspopup="dialog">
-							<Img src={im.src} alt={im.alt ?? ""} ratio="2 / 3" fit="contain" bg={bg} sizes={sizes} />
+							<Img src={im.src} alt={im.alt ?? ""} ratio="9 / 16" bg={bg} sizes={sizes} />
 						</button>
 					</li>
 				))}

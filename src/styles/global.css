@@ -216,19 +216,57 @@ ol {
 	color: var(--ink);
 }
 
-/* Art frames: show the whole piece. The frame takes the image's own ratio
-   (or a fixed one), the image is contained on the frame colour. */
+/* Art frames (see Img.astro and lib/fit.ts). Per-breakpoint values come in as
+   --x, --x-t (tablet, < 1400) and --x-p (phone, < 810). */
 .art {
+	--_ratio: var(--ratio, auto);
+	--_fit: var(--fit, contain);
+	--_pos: var(--pos, 50% 50%);
+	--_fill: var(--fill, transparent);
+	--_blur: var(--blur, 0);
+	--_mask: var(--mask, none);
 	position: relative;
 	overflow: hidden;
-	background: var(--frame-bg, transparent);
-	aspect-ratio: var(--ratio, auto);
+	isolation: isolate;
+	background: var(--_fill);
+	aspect-ratio: var(--_ratio);
+}
+@media (max-width: 1399.98px) {
+	.art[data-rt] {
+		--_ratio: var(--ratio-t);
+		--_fit: var(--fit-t);
+		--_pos: var(--pos-t);
+		--_fill: var(--fill-t);
+		--_blur: var(--blur-t);
+		--_mask: var(--mask-t);
+	}
+}
+@media (max-width: 809.98px) {
+	.art[data-rp] {
+		--_ratio: var(--ratio-p);
+		--_fit: var(--fit-p);
+		--_pos: var(--pos-p);
+		--_fill: var(--fill-p);
+		--_blur: var(--blur-p);
+		--_mask: var(--mask-p);
+	}
+}
+.art::before {
+	content: "";
+	position: absolute;
+	inset: -12%;
+	z-index: -1;
+	background: var(--blur-src, none) center / cover no-repeat;
+	filter: blur(36px) saturate(0.95);
+	opacity: calc(var(--_blur) * 0.9);
 }
 .art img {
 	inline-size: 100%;
 	block-size: 100%;
-	object-fit: var(--fit, contain);
-	object-position: var(--pos, 50% 50%);
+	object-fit: var(--_fit);
+	object-position: var(--_pos);
+	-webkit-mask-image: var(--_mask);
+	mask-image: var(--_mask);
 }
 .art--zoom img {
 	transition: transform 600ms var(--ease-spring);

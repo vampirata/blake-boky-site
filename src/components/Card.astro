@@ -10,16 +10,18 @@ interface Props {
 	title: string;
 	date?: string;
 	ratio?: string;
+	ratioTablet?: string;
+	ratioPhone?: string;
 	bg?: string;
 	sizes?: string;
 	tone?: "dark" | "light";
 	external?: boolean;
 }
-const { href, image, title, date, ratio = "4 / 5", bg = "transparent", sizes = "(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw", tone = "dark", external = false } = Astro.props;
+const { href, image, title, date, ratio = "4 / 5", ratioTablet, ratioPhone, bg = "transparent", sizes = "(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw", tone = "dark", external = false } = Astro.props;
 ---
 
 <a class:list={["card", `card--${tone}`]} href={url(href)} data-reveal {...(external ? { target: "_blank", rel: "noopener" } : {})}>
-	{image && <Img src={image} ratio={ratio} bg={bg} zoom sizes={sizes} />}
+	{image && <Img src={image} ratio={ratio} ratioTablet={ratioTablet} ratioPhone={ratioPhone} bg={bg} zoom sizes={sizes} />}
 	<div class="meta">
 		{date && <p class="card-date d">{date}</p>}
 		<SplitTitle text={title} class="card-title" />

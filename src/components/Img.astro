@@ -1,16 +1,23 @@
 ---
-// Every content image goes through here. By default the frame takes the image's
-// own aspect ratio and the image is contained, so artwork is never cut off.
-// Pass ratio (e.g. "2 / 3") for a fixed frame, fit="cover" only for atmosphere
-// images (banners, CTA backgrounds), and pos for a focal point.
+// Every content image goes through here.
+// - No ratio: the frame takes the image's own ratio (nothing is cut).
+// - ratio (+ ratioTablet / ratioPhone for frames that change shape per
+//   breakpoint): a fixed grid frame filled by smartFill(), which crops only
+//   empty backdrop, otherwise shows the whole piece on its own edge colours or
+//   a blurred copy, so grids stay even without cutting the artwork.
+// - fit="cover" with pos: atmosphere images (banners, CTA backgrounds).
+// - fit="contain": force the whole image on bg.
 import { img } from "../lib/img";
+import { smartFill, type Fill } from "../lib/fit";
 
 interface Props {
 	src: string;
 	alt?: string;
 	sizes?: string;
 	ratio?: string;
-	fit?: "contain" | "cover";
+	ratioTablet?: string;
+	ratioPhone?: string;
+	fit?: "contain" | "cover" | "smart";
 	pos?: string;
 	bg?: string;
 	zoom?: boolean;
@@ -18,21 +25,49 @@ interface Props {
 	class?: string;
 	style?: string;
 }
-const { src, alt = "", sizes = "100vw", ratio, fit = "contain", pos, bg, zoom = false, eager = false, class: cls = "", style = "" } = Astro.props;
+const {
+	src,
+	alt = "",
+	sizes = "100vw",
+	ratio,
+	ratioTablet,
+	ratioPhone,
+	fit = ratio ? "smart" : "contain",
+	pos,
+	bg,
+	zoom = false,
+	eager = false,
+	class: cls = "",
+	style = "",
+} = Astro.props;
 const r = img(src);
 const own = r?.width && r?.height ? `${r.width} / ${r.height}` : undefined;
-const vars = [
-	`--ratio:${ratio ?? own ?? "auto"}`,
-	`--fit:${fit}`,
-	pos ? `--pos:${pos}` : "",
-	bg ? `--frame-bg:${bg}` : "",
-	style,
-]
-	.filter(Boolean)
-	.join(";");
+
+const vars: string[] = [];
+let blurSrc = "";
+const put = (suffix: string, frame: string | undefined) => {
+	if (!frame) return;
+	vars.push(`--ratio${suffix}:${frame}`);
+	let f: Fill;
+	if (fit === "smart") f = smartFill(src, r?.ratio, frame, bg);
+	else f = { fit: fit === "cover" ? "cover" : "contain", pos: pos ?? "50% 50%", fill: bg ?? "transparent", blur: false };
+	if (pos && fit === "smart" && f.fit === "cover") f.pos = pos;
+	vars.push(`--fit${suffix}:${f.fit}`, `--pos${suffix}:${f.pos}`, `--fill${suffix}:${f.fill}`, `--blur${suffix}:${f.blur ? 1 : 0}`, `--mask${suffix}:${f.mask ?? "none"}`);
+	if (f.blur && r?.srcset) blurSrc = r.srcset.split(",")[0].trim().split(" ")[0];
+};
+put("", ratio ?? own ?? "auto");
+put("-t", ratioTablet);
+put("-p", ratioPhone);
+if (blurSrc) vars.push(`--blur-src:url("${blurSrc}")`);
+if (style) vars.push(style);
 ---
 
-<div class:list={["art", zoom && "art--zoom", cls]} style={vars}>
+<div
+	class:list={["art", zoom && "art--zoom", cls]}
+	style={vars.join(";")}
+	data-rt={ratioTablet ? "" : undefined}
+	data-rp={ratioPhone ? "" : undefined}
+>
 	{
 		r && (
 			<img
