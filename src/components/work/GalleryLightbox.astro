@@ -458,4 +458,13 @@ const full = images.map((im) => img(im.src));
 	}
 
 	document.querySelectorAll<HTMLElement>("[data-gallery]").forEach(init);
+
+	// The image ticker at the top of the page asks for a preview of one image;
+	// open the viewer at the matching gallery tile.
+	document.addEventListener("bb:preview", (e) => {
+		const src = (e as CustomEvent<{ src: string }>).detail?.src;
+		if (!src) return;
+		const art = document.querySelector<HTMLElement>(`[data-gallery] .tile .art[data-src="${CSS.escape(src)}"]`);
+		art?.closest<HTMLButtonElement>(".tile")?.click();
+	});
 </script>

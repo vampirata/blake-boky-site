@@ -15,3 +15,7 @@ scripts/.qa-report.json
 .env*
 !.env.example
 scripts/.qa.log
+
+# local video contact sheets and scratch
+scripts/.video-cache
+public/video

@@ -81,6 +81,7 @@ const sizesFor = (src: string) => {
 	}
 	.tk-track :global(.art img) {
 		-webkit-user-drag: none;
+		cursor: zoom-in;
 		transition: transform 620ms cubic-bezier(0.22, 0.61, 0.36, 1);
 	}
 	.tk-track :global(.art:hover img) {
@@ -134,6 +135,9 @@ const sizesFor = (src: string) => {
 		let glide = 0; // remaining arrow key distance, eased in by frame()
 		// pending: finger down but not yet a horizontal drag (a vertical swipe
 		// must scroll the page without nudging the strip).
+		let moved = false;
+		view.addEventListener("pointerdown", () => { moved = false; }, true);
+		view.addEventListener("click", (e) => { if (moved) { e.stopImmediatePropagation(); moved = false; } }, true);
 		const drag = { active: false, pending: false, id: -1, startX: 0, startY: 0, startOffset: 0, lastX: 0, lastT: 0, vx: 0 };
 
 		const measure = () => {
@@ -228,6 +232,7 @@ const sizesFor = (src: string) => {
 				if (dx < 6 && dy < 6) return;
 				drag.pending = false;
 				if (dy > dx) return; // vertical: leave it to the page
+				moved = true;
 				Object.assign(drag, { active: true, startOffset: offset + (e.clientX - drag.startX), lastX: e.clientX, lastT: performance.now() });
 				view.classList.add("is-grabbing");
 				try {
@@ -260,4 +265,12 @@ const sizesFor = (src: string) => {
 	}
 
 	if (!reduce) document.querySelectorAll<HTMLElement>("[data-ticker]").forEach(init);
+
+	// Click (not drag) on a ticker image opens it in the gallery viewer.
+	document.querySelectorAll<HTMLElement>("[data-ticker] .tk-view").forEach((view) => {
+		view.addEventListener("click", (e) => {
+			const art = (e.target as HTMLElement).closest<HTMLElement>(".tk-item");
+			if (art?.dataset.src) document.dispatchEvent(new CustomEvent("bb:preview", { detail: { src: art.dataset.src } }));
+		});
+	});
 </script>
