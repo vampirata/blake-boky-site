@@ -29,7 +29,7 @@ const ratio = variant === "tall" ? "9 / 16" : "1 / 1";
 							ratio={ratio}
 							bg="var(--page-bg)"
 							zoom
-							sizes="(min-width: 810px) 50vw, 100vw"
+							sizes="(min-width: 1400px) 420px, (min-width: 810px) 50vw, 100vw"
 						/>
 					)}
 					<div class="cap">
@@ -48,7 +48,10 @@ const ratio = variant === "tall" ? "9 / 16" : "1 / 1";
 	}
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		/* Three per row on desktop (live had two very tall cards). */
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		max-inline-size: 1240px;
+		margin-inline: auto;
 		gap: 52px 40px;
 	}
 	.card {
@@ -95,6 +98,7 @@ const ratio = variant === "tall" ? "9 / 16" : "1 / 1";
 			padding-inline: 20px;
 		}
 		.grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			row-gap: 32px;
 		}
 		.t {
