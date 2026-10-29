@@ -167,3 +167,4 @@ Rule (docs/rebuild-rules.md): Blake = paper, Boky = ink, both together = stone, 
 - Contact: details cells are stone, deeper stone, black (gold eyebrow); form fields have light text and lines, gold focus line and outline, gold hover on Send; the open select list stays dark on paper.
 - News articles by subject: Fragments of Infinity, Sculptures Symbolising Hope and Les Atlantes (Blake) paper; Invoco Te Divina Stella (interview with Boky) ink; Pietrasanta (their shared studio) stone. Unknown future articles default to stone. ArticleBody and PrevNext read `--n-*` colour variables from the page (paper by default).
 - Verified already correct: home Stats and Articles on stone.
+- Exhibitions & Galleries (index and the 4 gallery pages) went back to the white paper look after review: it reads better white (Kait, 29 Oct 2026).

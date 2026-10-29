@@ -10,7 +10,8 @@
 
 - **Blake = white/light mode.** Paper `#f5f2eb` (or `#f3f1e9` / `#f4f1ea` as measured), dark text `#1c1a17`, light nav. Blake's pages: Blake bio, Andromeda, Fragments, Coming Soon Blake, Blake-only news.
 - **Boky = dark mode.** Ink `#0f0f0f`, light text `#f5f2eb` / `#dbdbdb`, grey nav. Boky's pages: Boky bio, Past Works (Boky's archive), In Lucem, Figurative Poetry, Coming Soon Boky, Boky-only news.
-- **Blake & Boky together = grey mode.** Stone `#5c5852`, text `#dbdbdb` / `#f5f2eb`, black nav. Shared pages: Spirit Collection (their collaboration), the Collections index, News index and shared articles, Exhibitions & Galleries, Contact, and the home page's shared sections.
+- **Blake & Boky together = grey mode.** Stone `#5c5852`, text `#dbdbdb` / `#f5f2eb`, black nav. Shared pages: Spirit Collection (their collaboration), the Collections index, News index and shared articles, Contact, and the home page's shared sections.
+- **Exception: Exhibitions & Galleries stays white** (paper, light nav) on the index and gallery pages. Kait, 29 Oct 2026: it looks better white.
 - Gold `#e3caa6` / `#cca46c` is the accent in every mode.
 - Any new page or CMS item takes its mode from whose work it is. If unclear, it is grey.
 
