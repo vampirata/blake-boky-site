@@ -63,6 +63,41 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		color: var(--white);
 		backdrop-filter: blur(10px);
 		-webkit-backdrop-filter: blur(10px);
+		/* Holds still while the page beneath cross-fades (view transitions). */
+		view-transition-name: site-nav;
+	}
+	/* Underline draws in from the left on hover and leaves to the right; the
+	   current page keeps a quiet hairline so you always know where you are. */
+	.bar ul .link {
+		position: relative;
+		display: inline-block;
+	}
+	.bar ul .link::after {
+		content: "";
+		position: absolute;
+		inset: auto 0 -3px 0;
+		block-size: 1px;
+		background: currentColor;
+		transform: scaleX(0);
+		transform-origin: right;
+		transition: transform 500ms var(--ease-out);
+	}
+	.bar ul .link:hover::after,
+	.bar ul .link:focus-visible::after {
+		transform: scaleX(1);
+		transform-origin: left;
+	}
+	.bar ul .link[aria-current="page"]::after {
+		transform: scaleX(1);
+		opacity: 0.45;
+	}
+	.bar ul .link[aria-current="page"]:hover::after {
+		opacity: 1;
+	}
+	.mark.link {
+		transition:
+			color 200ms var(--ease-link),
+			opacity 300ms var(--ease-out);
 	}
 	.bar--black {
 		background: var(--black);
@@ -116,6 +151,7 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		background: var(--black);
 		color: var(--white);
 		transition: block-size 1s var(--menu-spring);
+		view-transition-name: site-menu;
 	}
 	/* Live: a hairline #363636 border (Framer's 0.01px, one device pixel). */
 	.box::after {

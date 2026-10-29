@@ -86,3 +86,25 @@
 		--t-hero-line: 37px;
 	}
 }
+
+/* Grey mode (Blake & Boky together, see docs/rebuild-rules.md "Colour modes"):
+   text, muted text and hairline on var(--stone), as on the Spirit Collection pages. */
+:root {
+	--stone-text: #dbdbdb;
+	--stone-muted: #c2c2c2;
+	--stone-rule: rgba(219, 219, 219, 0.25);
+}
+:root {
+	--stone-deep: #4a4741; /* a second, deeper stone panel tone in grey mode */
+}
+
+/* Motion system (polish round, 29 Oct 2026). One feel: premium, calm, no overshoot.
+   Signature curve = --ease-out; reveals use --ease-reveal; exits use --ease-in. */
+:root {
+	--ease-reveal: cubic-bezier(0.77, 0, 0.18, 1);
+	--ease-in: cubic-bezier(0.55, 0, 0.75, 0.2);
+	--dur-quick: 200ms;
+	--dur-base: 600ms;
+	--dur-slow: 1100ms;
+	--cursor-size: 76px;
+}

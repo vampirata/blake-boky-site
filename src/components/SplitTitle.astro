@@ -9,9 +9,12 @@ interface Props {
 const { text, as: Tag = "h3", class: cls = "" } = Astro.props;
 let i = 0;
 const words = text.split(" ").map((w) => [...w].map((c) => ({ c, i: i++ })));
+// The whole title lands within about 700 ms however long it is: 50 ms per letter,
+// tightened for long titles.
+const step = Math.min(50, 700 / Math.max(1, i)).toFixed(1);
 ---
 
-<Tag class:list={["split", cls]} data-split aria-label={text}>
+<Tag class:list={["split", cls]} data-split aria-label={text} style={`--step:${step}ms`}>
 	{
 		words.map((w, wi) => (
 			<>

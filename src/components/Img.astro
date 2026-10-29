@@ -7,6 +7,8 @@
 //   a blurred copy, so grids stay even without cutting the artwork.
 // - fit="cover" with pos: atmosphere images (banners, CTA backgrounds).
 // - fit="contain": force the whole image on bg.
+// - data-src carries the original asset path so page transitions can pair the
+//   same artwork across pages (scripts/motion.ts). parallax / noWipe are motion opt-ins.
 import { img } from "../lib/img";
 import { smartFill, type Fill } from "../lib/fit";
 
@@ -22,6 +24,10 @@ interface Props {
 	bg?: string;
 	zoom?: boolean;
 	eager?: boolean;
+	/** Scroll-linked drift for large atmosphere images (fit="cover" only). */
+	parallax?: boolean;
+	/** Skip the scroll wipe for this image. */
+	noWipe?: boolean;
 	class?: string;
 	style?: string;
 }
@@ -37,6 +43,8 @@ const {
 	bg,
 	zoom = false,
 	eager = false,
+	parallax = false,
+	noWipe = false,
 	class: cls = "",
 	style = "",
 } = Astro.props;
@@ -67,6 +75,9 @@ if (style) vars.push(style);
 	style={vars.join(";")}
 	data-rt={ratioTablet ? "" : undefined}
 	data-rp={ratioPhone ? "" : undefined}
+	data-src={src.split("?")[0]}
+	data-parallax={parallax ? "" : undefined}
+	data-no-wipe={noWipe ? "" : undefined}
 >
 	{
 		r && (

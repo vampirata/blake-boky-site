@@ -9,13 +9,20 @@ const { href, label, tone = "dark" } = Astro.props;
 ---
 
 <a class:list={["pill", `pill--${tone}`]} href={url(href)}>
-	<span class="arr" aria-hidden="true">←</span>
+	<svg class="arr" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+		<path d="M13.25 8H3M7.25 3.75 3 8l4.25 4.25" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+	</svg>
 	<span>{label}</span>
 </a>
 
 <style>
-	/* Live: fixed at top 88px (all widths), left 20px desktop / 8px below 1400.
-	   The 1px border is drawn inside the box (Framer ::after), so it adds no size. */
+	/* Live position and size: fixed at top 88px, left 20px desktop / 8px below 1400,
+	   38px tall. Refined: frosted fill that reads on plain grounds and over the image
+	   ticker, a token hairline at 3:1 or more against the ground, an SVG arrow that
+	   nudges left on hover. Text is 7:1 or more in every state.
+	   Dark tone: paper text on ink glass (7.3:1 even over a white wall), sand border
+	   (3.2:1 on stone, 8.6:1 on ink). Light tone: ink on paper glass (17:1), stone
+	   border (6.4:1 on paper). Hover: gold fill with ink text (7.9:1). */
 	.pill {
 		position: fixed;
 		top: 88px;
@@ -25,49 +32,69 @@ const { href, label, tone = "dark" } = Astro.props;
 		align-items: center;
 		gap: 8px;
 		block-size: 38px;
-		padding: 10px 18px 10px 14px;
+		padding: 10px 18px 10px 12px;
 		font-family: var(--font-body);
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.2;
 		letter-spacing: 0.96px;
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		transition: background-color 200ms var(--ease-link);
-	}
-	.pill::after {
-		content: "";
-		position: absolute;
-		inset: 0;
-		border: 1px solid var(--taupe);
-		pointer-events: none;
-		transition: border-color 200ms var(--ease-link);
+		border: 1px solid var(--_line);
+		background: var(--_fill);
+		color: var(--_text);
+		backdrop-filter: blur(14px) saturate(1.3);
+		-webkit-backdrop-filter: blur(14px) saturate(1.3);
+		transition:
+			background-color 250ms var(--ease-out),
+			border-color 250ms var(--ease-out),
+			color 250ms var(--ease-out);
 	}
 	.arr {
-		font-size: 15px;
-		line-height: 18px;
-		letter-spacing: normal;
+		flex: none;
+		color: var(--_arrow);
+		transition:
+			translate 450ms var(--ease-out),
+			color 250ms var(--ease-out);
 	}
 	.pill--dark {
-		background: var(--ink-55);
-		color: #f2f2f2;
-	}
-	.pill--dark .arr {
-		color: var(--gold-light);
+		--_fill: rgb(15 15 15 / 0.72);
+		--_line: var(--sand);
+		--_text: var(--paper);
+		--_arrow: var(--gold-light);
+		--_hover: var(--gold);
 	}
 	.pill--light {
-		background: rgba(255, 255, 255, 0.02);
+		--_fill: rgb(245 242 235 / 0.78);
+		--_line: var(--stone);
+		--_text: var(--ink);
+		--_arrow: var(--gold-dark);
+		--_hover: var(--gold-light);
+	}
+	.pill:hover {
+		background: var(--_hover);
+		border-color: var(--_hover);
 		color: var(--ink);
 	}
-	/* Hover: the fill turns gold (dark) or light gold (light), the border fades out, text keeps its colours. */
-	.pill--dark:hover {
-		background: var(--gold);
+	.pill:hover .arr {
+		color: var(--ink);
+		translate: -3px 0;
 	}
-	.pill--light:hover {
-		background: var(--gold-light);
+	.pill:active {
+		scale: 0.98;
 	}
-	.pill:hover::after {
-		border-color: transparent;
+	.pill:focus-visible {
+		outline: 2px solid var(--gold-light);
+		outline-offset: 3px;
+	}
+	.pill--light:focus-visible {
+		outline-color: var(--gold-dark);
+	}
+	@media (prefers-reduced-transparency: reduce) {
+		.pill--dark {
+			--_fill: var(--ink);
+		}
+		.pill--light {
+			--_fill: var(--paper);
+		}
 	}
 	@media (max-width: 1399.98px) {
 		.pill {

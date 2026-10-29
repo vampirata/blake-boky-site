@@ -1,6 +1,8 @@
 ---
 // Grid card used on collections, news, past works, galleries and bios:
 // image frame, then date (Switzer) and a per-character title.
+// Motion: the image wipes in (motion.ts), the caption fades up after it; on
+// hover the image breathes in and the caption drifts a few pixels right.
 import Img from "./Img.astro";
 import SplitTitle from "./SplitTitle.astro";
 import { url } from "../lib/site";
@@ -20,9 +22,9 @@ interface Props {
 const { href, image, title, date, ratio = "4 / 5", ratioTablet, ratioPhone, bg = "transparent", sizes = "(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw", tone = "dark", external = false } = Astro.props;
 ---
 
-<a class:list={["card", `card--${tone}`]} href={url(href)} data-reveal {...(external ? { target: "_blank", rel: "noopener" } : {})}>
+<a class:list={["card", `card--${tone}`]} href={url(href)} {...(external ? { target: "_blank", rel: "noopener" } : {})}>
 	{image && <Img src={image} ratio={ratio} ratioTablet={ratioTablet} ratioPhone={ratioPhone} bg={bg} zoom sizes={sizes} />}
-	<div class="meta">
+	<div class="meta" data-reveal>
 		{date && <p class="card-date d">{date}</p>}
 		<SplitTitle text={title} class="card-title" />
 	</div>
@@ -59,6 +61,18 @@ const { href, image, title, date, ratio = "4 / 5", ratioTablet, ratioPhone, bg =
 	}
 	.meta {
 		padding: 14px 12px 0;
+	}
+	.meta > :global(*) {
+		transition: translate 700ms var(--ease-out);
+	}
+	.meta > :global(.split) {
+		transition-delay: 40ms;
+	}
+	@media (hover: hover) {
+		.card:hover .meta > :global(*),
+		.card:focus-visible .meta > :global(*) {
+			translate: 6px 0;
+		}
 	}
 	.card--dark {
 		color: var(--white);

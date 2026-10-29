@@ -1,0 +1,79 @@
+---
+// First visit in a session: the wordmark rises letter by letter, then the veil
+// lifts like a curtain (about 1.15 s in all). Pure CSS, so it never waits on
+// the script bundle. It only renders when the inline head script in Base.astro
+// added html.intro (no JS, crawlers on repeat, reduced motion: never shown).
+// The page content is in the HTML and paints underneath the whole time.
+const word = "Blake & Boky";
+let i = 0;
+---
+
+<div class="intro-veil" aria-hidden="true">
+	<p class="intro-word">
+		{
+			[...word].map((c) => (
+				<span class:list={["iw", c === "&" && "iw--amp"]} style={`--i:${c === " " ? i : i++}`}>
+					{c === " " ? " " : c}
+				</span>
+			))
+		}
+	</p>
+</div>
+
+<style>
+	.intro-veil {
+		display: none;
+	}
+	:global(html.intro) .intro-veil {
+		position: fixed;
+		inset: 0;
+		z-index: 9000;
+		display: grid;
+		place-items: center;
+		background: var(--page-bg, var(--ink));
+		color: var(--page-fg, var(--white));
+		pointer-events: none;
+		animation: veil-lift 500ms var(--ease-reveal) 620ms both;
+	}
+	.intro-word {
+		display: flex;
+		overflow: hidden;
+		padding-block: 0.18em;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: clamp(40px, 6.2vw, 92px);
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+		animation: word-out 400ms var(--ease-in) 640ms both;
+	}
+	.iw {
+		display: inline-block;
+		animation: ch-rise 700ms var(--ease-out) both;
+		animation-delay: calc(60ms + var(--i) * 28ms);
+	}
+	.iw--amp {
+		color: var(--gold);
+		font-style: italic;
+		font-weight: 500;
+	}
+	:global(html[data-tone="light"]) .iw--amp {
+		color: var(--gold-dark);
+	}
+	@keyframes ch-rise {
+		from {
+			transform: translateY(105%);
+		}
+	}
+	@keyframes word-out {
+		to {
+			transform: translateY(-14px);
+			opacity: 0;
+		}
+	}
+	@keyframes veil-lift {
+		to {
+			clip-path: inset(0 0 100% 0);
+			visibility: hidden;
+		}
+	}
+</style>

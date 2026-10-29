@@ -17,6 +17,12 @@ html.lenis body {
 .lenis.lenis-smooth {
 	scroll-behavior: auto !important;
 }
+.lenis.lenis-stopped {
+	overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
 body {
 	margin: 0;
 	background: var(--page-bg, var(--ink));
@@ -64,8 +70,12 @@ ol {
 	list-style: none;
 }
 :focus-visible {
-	outline: 1px solid var(--gold-light);
+	outline: 2px solid var(--focus, var(--gold-light));
 	outline-offset: 3px;
+}
+/* Light grounds: gold-dark keeps the ring at 3.5:1 on paper. */
+html[data-tone="light"] {
+	--focus: var(--gold-dark);
 }
 .sr-only {
 	position: absolute;
@@ -176,12 +186,30 @@ ol {
 .prose p + p {
 	margin-block-start: 1em;
 }
+/* Prose links: a quiet hairline that redraws in gold from the left on hover. */
 .prose a {
-	text-decoration: underline;
-	text-underline-offset: 3px;
+	text-decoration: none;
+	background:
+		linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat,
+		linear-gradient(var(--gold), var(--gold)) 0 100% / 0 1px no-repeat;
+	padding-block-end: 1px;
+	transition:
+		background-size 500ms var(--ease-out),
+		color 200ms var(--ease-link);
 }
-.prose a:hover {
+.prose a:hover,
+.prose a:focus-visible {
 	color: var(--gold-light);
+	background-size:
+		0 1px,
+		100% 1px;
+	background-position:
+		100% 100%,
+		0 100%;
+}
+html[data-tone="light"] .prose a:hover,
+html[data-tone="light"] .prose a:focus-visible {
+	color: var(--gold-dark);
 }
 
 /* Links */
@@ -208,7 +236,12 @@ ol {
 	text-transform: uppercase;
 	transition:
 		background-color 300ms var(--ease-out),
-		color 300ms var(--ease-out);
+		color 300ms var(--ease-out),
+		border-color 300ms var(--ease-out),
+		translate 700ms var(--ease-spring);
+}
+.btn-outline:active {
+	scale: 0.98;
 }
 .btn-outline:hover {
 	background: var(--gold);
@@ -268,12 +301,15 @@ ol {
 	-webkit-mask-image: var(--_mask);
 	mask-image: var(--_mask);
 }
+/* Hover zoom: slower and gentler than live (1.1 in 600ms) so the piece breathes
+   rather than jumps; still crops nothing at rest. */
 .art--zoom img {
-	transition: transform 600ms var(--ease-spring);
+	transition: transform 1100ms var(--ease-out);
 }
 a:hover .art--zoom img,
+a:focus-visible .art--zoom img,
 .art--zoom:hover img {
-	transform: scale(1.1);
+	transform: scale(1.06);
 }
 
 /* Motion. Hidden states apply only when JS runs and motion is allowed. */
@@ -311,9 +347,9 @@ html.js:not(.reduce) .split .ch {
 	opacity: 0;
 	transform: translateY(10px);
 	transition:
-		opacity 2s var(--ease-spring),
-		transform 2s var(--ease-spring);
-	transition-delay: calc(var(--i) * 50ms);
+		opacity 0.9s var(--ease-spring),
+		transform 0.9s var(--ease-spring);
+	transition-delay: calc(var(--i) * var(--step, 50ms));
 }
 html.js:not(.reduce) .split.is-in .ch {
 	opacity: 1;
@@ -325,5 +361,177 @@ html.js:not(.reduce) .split.is-in .ch {
 	*::after {
 		animation-duration: 0.01ms !important;
 		transition-duration: 0.01ms !important;
+	}
+}
+
+/* ---------------------------------------------------------------------------
+   Motion system (polish round). Everything below is off with reduced motion.
+   --------------------------------------------------------------------------- */
+
+/* Magnetic buttons ease home slowly, follow the pointer quickly. */
+[data-magnetic] {
+	transition: translate 700ms var(--ease-spring);
+}
+.btn-outline.is-magnet,
+[data-magnetic].is-magnet {
+	transition-property: background-color, color, border-color, padding, translate;
+	transition-duration: 300ms, 300ms, 300ms, 300ms, 160ms;
+	transition-timing-function: var(--ease-out);
+}
+
+/* Image wipe: the picture opens upward like a curtain lifting off a plinth, and
+   settles from 1.08. The clip sits on the contents, not the frame, so the frame
+   keeps its box (and stays observable). `scale` leaves hover zoom (transform) free. */
+html.js:not(.reduce) .art.is-pending img,
+html.js:not(.reduce) .art.is-pending::before {
+	clip-path: inset(100% 0 0 0);
+}
+html.js:not(.reduce) .art.is-pending img {
+	scale: 1.08;
+}
+html.js:not(.reduce) .art.is-wiping::before {
+	clip-path: inset(0 0 0 0);
+	transition: clip-path var(--dur-slow) var(--ease-reveal) var(--d, 0ms);
+}
+html.js:not(.reduce) .art.is-wiping img {
+	clip-path: inset(0 0 0 0);
+	scale: 1;
+	transition:
+		clip-path var(--dur-slow) var(--ease-reveal) var(--d, 0ms),
+		scale 1600ms var(--ease-out) var(--d, 0ms),
+		transform 1100ms var(--ease-out);
+}
+
+/* Scroll-linked parallax on large atmosphere images (data-parallax via Img).
+   Compositor-driven scroll timeline, no JS. Tablet and up only. */
+@supports (animation-timeline: view()) {
+	@media (prefers-reduced-motion: no-preference) and (min-width: 810px) {
+		.art[data-parallax] img {
+			scale: 1.1;
+			animation: art-parallax linear both;
+			animation-timeline: view();
+			will-change: translate;
+		}
+	}
+}
+@keyframes art-parallax {
+	from {
+		translate: 0 -4%;
+	}
+	to {
+		translate: 0 4%;
+	}
+}
+
+/* Cursor (built by scripts/cursor.ts on fine pointers only). */
+.cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 8000;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 200ms var(--ease-link);
+}
+.cursor.is-live {
+	opacity: 1;
+}
+.cursor[data-state="off"] {
+	opacity: 0;
+}
+.cursor-disc {
+	position: absolute;
+	top: calc(var(--cursor-size) / -2);
+	left: calc(var(--cursor-size) / -2);
+	display: grid;
+	place-items: center;
+	inline-size: var(--cursor-size);
+	block-size: var(--cursor-size);
+	border-radius: 50%;
+	background: var(--gold);
+	color: var(--ink);
+	scale: 0.1;
+	transition: scale 450ms var(--ease-out);
+}
+.cursor[data-state="link"] .cursor-disc {
+	scale: 0;
+}
+.cursor[data-state="label"] .cursor-disc {
+	scale: 1;
+}
+.cursor.is-down .cursor-disc {
+	scale: 0.08;
+}
+.cursor[data-state="label"].is-down .cursor-disc {
+	scale: 0.9;
+}
+.cursor-label {
+	font-family: var(--font-body);
+	font-weight: 400;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-inline-start: 2px;
+	opacity: 0;
+	transition: opacity 200ms var(--ease-link);
+}
+.cursor[data-state="label"] .cursor-label {
+	opacity: 1;
+	transition-delay: 120ms;
+}
+html.cursor-hide,
+html.cursor-hide * {
+	cursor: none !important;
+}
+
+/* Page transitions (cross-document View Transitions). The old page fades back,
+   the new one rises in; the nav holds still; a clicked artwork morphs into its
+   counterpart. Unsupported browsers navigate normally. */
+@view-transition {
+	navigation: auto;
+}
+::view-transition-old(root) {
+	animation: vt-out 280ms var(--ease-in) both;
+}
+::view-transition-new(root) {
+	animation: vt-in 620ms var(--ease-out) 200ms both;
+}
+::view-transition-group(bb-art) {
+	animation-duration: 760ms;
+	animation-timing-function: var(--ease-reveal);
+}
+::view-transition-old(bb-art),
+::view-transition-new(bb-art) {
+	block-size: 100%;
+	object-fit: contain;
+	animation-duration: 760ms;
+}
+@keyframes vt-out {
+	to {
+		opacity: 0;
+		transform: translateY(-12px);
+	}
+}
+@keyframes vt-in {
+	from {
+		opacity: 0;
+		transform: translateY(18px);
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation: vt-fade 180ms linear both;
+	}
+	::view-transition-old(root) {
+		animation-direction: reverse;
+	}
+	::view-transition-group(*) {
+		animation-duration: 0s;
+	}
+}
+@keyframes vt-fade {
+	from {
+		opacity: 0;
 	}
 }

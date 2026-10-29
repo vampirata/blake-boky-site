@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Nav, { type NavVariant } from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
+import IntroVeil from "../components/motion/IntroVeil.astro";
 import { SITE_NAME, DEFAULT_DESCRIPTION, url } from "../lib/site";
 import { img } from "../lib/img";
 
@@ -13,7 +14,7 @@ interface Props {
 	/** Page background and default text colour. */
 	bg?: string;
 	fg?: string;
-	/** Lenis smooth scroll, on the pages that had it live. */
+	/** Kept for compatibility: smooth scroll now runs on every page (off with reduced motion). */
 	smooth?: boolean;
 	footer?: boolean;
 }
@@ -24,16 +25,17 @@ const {
 	nav = "black",
 	bg = "var(--ink)",
 	fg = "var(--white)",
-	smooth = false,
 	footer = true,
 } = Astro.props;
 const fullTitle = title && title !== SITE_NAME ? `${title} | ${SITE_NAME}` : SITE_NAME;
 const canonical = new URL(Astro.url.pathname.replace(/(.)\/$/, "$1"), Astro.site);
+// Light grounds get the darker focus ring and gold so both keep 3:1.
+const tone = /paper|white|#f/i.test(bg) ? "light" : "dark";
 const og = ogImage ? new URL(url(img(ogImage)?.src ?? ogImage), Astro.site).href : undefined;
 ---
 
 <!doctype html>
-<html lang="en" data-smooth={smooth ? "true" : "false"}>
+<html lang="en" data-tone={tone}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,10 +52,24 @@ const og = ogImage ? new URL(url(img(ogImage)?.src ?? ogImage), Astro.site).href
 		{og && <meta property="og:image" content={og} />}
 		<meta name="twitter:card" content={og ? "summary_large_image" : "summary"} />
 		<meta name="theme-color" content="#0f0f0f" />
-		<script is:inline>document.documentElement.classList.add("js");</script>
+		<script is:inline>
+			(function () {
+				var r = document.documentElement;
+				r.classList.add("js");
+				// First page of a session plays the wordmark intro; never with reduced motion.
+				try {
+					if (!sessionStorage.getItem("bb-intro") && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+						r.classList.add("intro");
+						setTimeout(function () { r.classList.remove("intro"); }, 1400);
+					}
+					sessionStorage.setItem("bb-intro", "1");
+				} catch (e) {}
+			})();
+		</script>
 		<slot name="head" />
 	</head>
 	<body style={`--page-bg:${bg};--page-fg:${fg}`}>
+		<IntroVeil />
 		<Nav variant={nav} />
 		<main id="main">
 			<slot />
@@ -61,6 +77,28 @@ const og = ogImage ? new URL(url(img(ogImage)?.src ?? ogImage), Astro.site).href
 		{footer && <Footer />}
 		<script>
 			import "../scripts/motion.ts";
+		</script>
+		<script is:inline>
+			// Shared-element page transition, new-page side. Inline and at the end of body
+			// so it is registered before the first frame (pagereveal fires then).
+			addEventListener("pagereveal", function (e) {
+				var vt = e.viewTransition;
+				if (!vt) return;
+				var k;
+				try { k = sessionStorage.getItem("bb-vt"); sessionStorage.removeItem("bb-vt"); } catch (x) {}
+				if (!k || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+				var list = document.querySelectorAll("main .art[data-src]");
+				for (var i = 0; i < list.length; i++) {
+					var el = list[i];
+					if (el.getAttribute("data-src") !== k) continue;
+					var b = el.getBoundingClientRect();
+					if (b.bottom <= 0 || b.top >= innerHeight || b.right <= 0 || b.left >= innerWidth || b.width === 0) continue;
+					el.style.viewTransitionName = "bb-art";
+					window.__bbArrived = k;
+					vt.finished.finally(function () { el.style.viewTransitionName = ""; });
+					return;
+				}
+			});
 		</script>
 	</body>
 </html>
