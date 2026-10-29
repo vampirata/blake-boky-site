@@ -1,0 +1,33 @@
+// Builds the hosted client questionnaire: node questions/build.mjs
+// Questions live in form.json; answers and files are emailed to SEND_TO via FormSubmit.
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+const dir = fileURLToPath(new URL(".", import.meta.url));
+const SEND_TO = "contact@kah.design";
+const form = JSON.parse(readFileSync(dir + "form.json", "utf8"));
+const json = JSON.stringify(form).replace(/</g, "\\u003c");
+mkdirSync(dir + "site", { recursive: true });
+const html = readFileSync(dir + "template.html", "utf8")
+	.replace("__FORM__", () => json)
+	.replace("__SEND_TO__", SEND_TO)
+	.replace("__PREVIEW__", form.preview);
+writeFileSync(dir + "site/index.html", html);
+writeFileSync(dir + "site/thanks.html", `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>Thank you | Blake &amp; Boky</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@300&display=swap">
+<style>
+:root{color-scheme:dark}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#5c5852;color:#dbdbdb;font:300 17px/1.75 Inter,Arial,sans-serif;padding:24px;box-sizing:border-box;text-align:center}
+main{max-width:560px;display:grid;gap:18px;justify-items:center}
+p.e{margin:0;font-size:14px;letter-spacing:3.4px;text-transform:uppercase;color:#e3caa6}
+h1{margin:0;font:500 clamp(40px,7vw,72px)/1.05 "Cormorant Garamond",serif;color:#f5f2eb;text-wrap:balance}
+a{color:#e3caa6}
+</style></head><body><main>
+<p class="e">Blake &amp; Boky</p>
+<h1>Thank you. Your answers are on their way.</h1>
+<p>Kait has your answers and any files you attached, and will follow up with the updated website.</p>
+<p><a href="${form.preview}">Back to the new website</a></p>
+</main></body></html>
+`);
+console.log("built questions/site");
