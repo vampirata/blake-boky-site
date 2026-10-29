@@ -12,6 +12,7 @@ import ImageTicker from "../../../components/work/ImageTicker.astro";
 import GalleryLightbox from "../../../components/work/GalleryLightbox.astro";
 import WorkPager from "../../../components/work/WorkPager.astro";
 import InquireBox from "../../../components/work/InquireBox.astro";
+import VideoPlayer, { type VideoRec } from "../../../components/VideoPlayer.astro";
 import { works, collectionBySlug, cleanTitle, type Work, type ImageRec } from "../../../lib/data";
 import { DEFAULT_DESCRIPTION } from "../../../lib/site";
 import type { NavVariant } from "../../../components/Nav.astro";
@@ -109,6 +110,12 @@ for (const s of order) {
 	if (!sections.includes(key)) sections.push(key);
 }
 if (!sections.includes("Head")) sections.unshift("Head");
+// A film from the CMS `video` field sits right after the written info.
+const film = (work.video ?? null) as VideoRec | null;
+if (film) {
+	const lastText = Math.max(...["Content", "Content 2", "Content 3", "Head"].map((k) => sections.lastIndexOf(k)));
+	sections.splice(lastText + 1, 0, "Film");
+}
 const hasBottomBack = sections.includes("Back");
 const contact = work.contact ?? {};
 ---
@@ -149,6 +156,12 @@ const contact = work.contact ?? {};
 							</div>
 						);
 					}
+					if (s === "Film" && film)
+						return (
+							<div class="wide film" data-reveal>
+								<VideoPlayer video={film} tone={theme === "paper" ? "light" : theme === "stone" ? "grey" : "dark"} />
+							</div>
+						);
 					if (s === "Gallery Lightbox" && gallery.length)
 						return (
 							<div class="wide">
@@ -245,6 +258,11 @@ const contact = work.contact ?? {};
 		gap: 15px;
 		text-align: center;
 	}
+	/* The Adrasteo film is a 640x360 master: 960px keeps it from going soft. */
+	.work--zilo .film {
+		max-inline-size: calc(960px + 64px);
+		padding-inline: 32px;
+	}
 	.work--zilo .pager-wrap {
 		margin-block-start: 0;
 	}
@@ -339,6 +357,9 @@ const contact = work.contact ?? {};
 		}
 	}
 	@media (max-width: 809.98px) {
+		.work--zilo .film {
+			padding-inline: 12px;
+		}
 		.work--zilo .text {
 			max-inline-size: none;
 			padding-inline: 12px;

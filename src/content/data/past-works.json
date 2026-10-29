@@ -602,6 +602,16 @@
       "ogDescription": "From the archive of Boky Hackel-Ward.",
       "ogImage": null,
       "canonical": "https://blakeandboky.com/past-works/chicago-interview-2019"
+    },
+    "video": {
+      "hls": "/video/chicago-interview/master.m3u8",
+      "poster": "/video/chicago-interview/poster.jpg",
+      "posterWebp": "/video/chicago-interview/poster-1600.webp",
+      "title": "Chicago Interview",
+      "eyebrow": "Film",
+      "duration": "27:35",
+      "ratio": "1550 / 868",
+      "caption": "Hilton Asmus Contemporary, Chicago, 2019"
     }
   },
   {

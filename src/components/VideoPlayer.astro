@@ -1,0 +1,693 @@
+---
+// A film player in the site's own language: the poster carries a quiet play
+// button (Cormorant label, Inter duration, gold on hover); after the first press
+// a minimal bar shows play/pause, a scrubber, time, mute and fullscreen.
+//
+// Nothing is fetched until the visitor presses play: no src on the <video>,
+// preload="none", and hls.js (pinned, cdnjs) is only requested on browsers
+// without native HLS. Data lives in the CMS JSON as a `video` record:
+//   { hls | mp4, webm?, poster, posterWebp?, title, duration, ratio?, silent? }
+import { url } from "../lib/site";
+
+export interface VideoRec {
+	hls?: string;
+	mp4?: string;
+	webm?: string;
+	poster: string;
+	posterWebp?: string;
+	title: string;
+	eyebrow?: string;
+	duration?: string;
+	ratio?: string;
+	caption?: string;
+	silent?: boolean;
+}
+interface Props {
+	video: VideoRec;
+	/** Caption colours follow the page: "light" pages get dark type. */
+	tone?: "dark" | "light" | "grey";
+	/** Show the caption under the frame. */
+	caption?: boolean;
+	class?: string;
+}
+const { video: v, tone = "dark", caption = true, class: cls } = Astro.props;
+const ratio = v.ratio ?? "16 / 9";
+const type = v.hls ? "hls" : "mp4";
+const src = url((v.hls ?? v.mp4) as string);
+const label = `Play film: ${v.title}${v.duration ? `, ${v.duration}` : ""}`;
+---
+
+<figure class:list={["vp", `vp--${tone}`, cls]} data-vp data-type={type} data-src={src} data-webm={v.webm ? url(v.webm) : undefined} style={`--vp-r:${ratio}`}>
+	<div class="vp-stage">
+		<video class="vp-video" playsinline preload="none" aria-label={v.title}></video>
+		<picture class="vp-poster">
+			{v.posterWebp && <source srcset={url(v.posterWebp)} type="image/webp" />}
+			<img src={url(v.poster)} alt="" loading="lazy" decoding="async" />
+		</picture>
+		<button class="vp-play" type="button" aria-label={label}>
+			<span class="vp-ring" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"></path></svg>
+			</span>
+			<span class="vp-cta" aria-hidden="true">
+				<span class="vp-cta-t">Play film</span>
+				{v.duration && <span class="vp-cta-d">{v.duration}</span>}
+			</span>
+		</button>
+		<div class="vp-spin" aria-hidden="true"></div>
+		<div class="vp-bar" role="group" aria-label={`${v.title} controls`}>
+			<button class="vp-btn vp-toggle" type="button" aria-label="Pause">
+				<svg class="i-pause" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"></path></svg>
+				<svg class="i-play" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"></path></svg>
+			</button>
+			<span class="vp-time" aria-hidden="true"><span class="vp-cur">0:00</span></span>
+			<input class="vp-seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Seek" aria-valuetext="0:00" />
+			<span class="vp-time vp-dur" aria-hidden="true">{v.duration ?? "0:00"}</span>
+			{
+				!v.silent && (
+					<button class="vp-btn vp-mute" type="button" aria-label="Mute" aria-pressed="false">
+						<svg class="i-vol" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+							<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor" />
+							<path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+						</svg>
+						<svg class="i-muted" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+							<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor" />
+							<path d="M15.5 9.5l5 5M20.5 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+						</svg>
+					</button>
+				)
+			}
+			<button class="vp-btn vp-fs" type="button" aria-label="Full screen">
+				<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4.5 9V4.5H9M15 4.5h4.5V9M19.5 15v4.5H15M9 19.5H4.5V15" fill="none" stroke="currentColor" stroke-width="1.4"></path></svg>
+			</button>
+		</div>
+	</div>
+	{
+		caption && (
+			<figcaption class="vp-cap">
+				{v.eyebrow && <span class="vp-eb">{v.eyebrow}</span>}
+				<span class="vp-title">{v.title}</span>
+				{(v.caption || v.duration || v.silent) && (
+					<span class="vp-meta">{[v.caption, v.duration, v.silent ? "No sound" : null].filter(Boolean).join("  ·  ")}</span>
+				)}
+			</figcaption>
+		)
+	}
+</figure>
+
+<style>
+	.vp {
+		--vp-fg: var(--paper);
+		--vp-cap: var(--hairline);
+		--vp-muted: var(--sand);
+		inline-size: 100%;
+		margin: 0;
+	}
+	.vp--light {
+		--vp-cap: var(--charcoal);
+		--vp-muted: var(--taupe);
+	}
+	.vp--grey {
+		--vp-cap: var(--hairline);
+		--vp-muted: var(--grey-c2);
+	}
+	.vp-stage {
+		position: relative;
+		aspect-ratio: var(--vp-r);
+		/* Never taller than the screen, whole frame always visible. */
+		max-block-size: 86svh;
+		inline-size: min(100%, calc(86svh * (var(--vp-r))));
+		margin-inline: auto;
+		overflow: hidden;
+		background: var(--ink);
+		border-radius: 2px;
+		color: var(--vp-fg);
+		isolation: isolate;
+	}
+	.vp-video,
+	.vp-poster,
+	.vp-poster img {
+		position: absolute;
+		inset: 0;
+		inline-size: 100%;
+		block-size: 100%;
+		object-fit: contain;
+		background: var(--ink);
+	}
+	.vp-poster {
+		z-index: 1;
+		transition: opacity 600ms var(--ease-out);
+	}
+	.vp-poster img {
+		transition: transform 1400ms var(--ease-out);
+	}
+	/* A low scrim so the play label and bar read on any frame. */
+	.vp-stage::after {
+		content: "";
+		position: absolute;
+		inset: auto 0 0;
+		block-size: 46%;
+		z-index: 2;
+		pointer-events: none;
+		background: linear-gradient(to top, rgb(15 15 15 / 0.72), rgb(15 15 15 / 0));
+		transition: opacity 500ms var(--ease-out);
+	}
+	/* The poster stays until the first frame is on screen, so there is no black flash. */
+	.vp.is-live .vp-poster {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	/* Play button: ring + label, bottom left like a title card. */
+	.vp-play {
+		position: absolute;
+		inset: 0;
+		z-index: 3;
+		display: flex;
+		align-items: flex-end;
+		gap: 18px;
+		padding: clamp(18px, 3.2vw, 40px);
+		border: 0;
+		background: none;
+		color: inherit;
+		cursor: pointer;
+		text-align: start;
+	}
+	.vp-ring {
+		display: grid;
+		place-items: center;
+		flex: none;
+		inline-size: clamp(56px, 6vw, 76px);
+		aspect-ratio: 1;
+		border: 1px solid rgb(245 242 235 / 0.7);
+		border-radius: 50%;
+		background: rgb(15 15 15 / 0.22);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
+		transition:
+			background-color 400ms var(--ease-out),
+			border-color 400ms var(--ease-out),
+			color 400ms var(--ease-out),
+			transform 600ms var(--ease-spring);
+	}
+	.vp-ring svg {
+		margin-inline-start: 3px;
+	}
+	.vp-cta {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		padding-block-end: 4px;
+	}
+	.vp-cta-t {
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 400;
+		font-size: clamp(22px, 2.2vw, 30px);
+		line-height: 1.1;
+		color: var(--paper);
+	}
+	.vp-cta-d {
+		font-family: var(--font-body);
+		font-size: 11px;
+		line-height: 1.2;
+		letter-spacing: 2.4px;
+		text-transform: uppercase;
+		color: var(--gold-light);
+	}
+	.vp-play:hover .vp-ring,
+	.vp-play:focus-visible .vp-ring {
+		background: var(--gold-light);
+		border-color: var(--gold-light);
+		color: var(--ink);
+		transform: scale(1.06);
+	}
+	.vp-play:focus-visible {
+		outline: none;
+	}
+	.vp-play:focus-visible .vp-ring {
+		box-shadow: 0 0 0 3px rgb(15 15 15 / 0.6), 0 0 0 5px var(--gold-light);
+	}
+	@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+		.vp-stage:hover .vp-poster img {
+			transform: scale(1.025);
+		}
+	}
+	.vp.is-started .vp-play {
+		/* After the first press the whole frame toggles playback. */
+		opacity: 0;
+	}
+	.vp.is-started .vp-play .vp-cta,
+	.vp.is-started .vp-play .vp-ring {
+		visibility: hidden;
+	}
+
+	/* Loading ring while the first segment arrives. */
+	.vp-spin {
+		position: absolute;
+		inset-block-start: 50%;
+		inset-inline-start: 50%;
+		z-index: 3;
+		inline-size: 34px;
+		block-size: 34px;
+		margin: -17px 0 0 -17px;
+		border: 1px solid rgb(245 242 235 / 0.25);
+		border-block-start-color: var(--gold-light);
+		border-radius: 50%;
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 300ms;
+	}
+	.vp.is-waiting .vp-spin {
+		opacity: 1;
+		animation: vp-spin 900ms linear infinite;
+	}
+	@keyframes vp-spin {
+		to {
+			transform: rotate(1turn);
+		}
+	}
+
+	/* Control bar */
+	.vp-bar {
+		position: absolute;
+		inset: auto 0 0;
+		z-index: 4;
+		display: flex;
+		align-items: center;
+		gap: 14px;
+		padding: 14px clamp(12px, 2vw, 24px);
+		font-family: var(--font-body);
+		font-size: 12px;
+		letter-spacing: 0.6px;
+		font-variant-numeric: tabular-nums;
+		color: var(--paper);
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(6px);
+		transition:
+			opacity 400ms var(--ease-out),
+			transform 400ms var(--ease-out),
+			visibility 0s 400ms;
+	}
+	.vp.is-started .vp-bar {
+		visibility: visible;
+		transition:
+			opacity 400ms var(--ease-out),
+			transform 400ms var(--ease-out);
+	}
+	.vp.is-started:not(.is-idle) .vp-bar,
+	.vp.is-started .vp-bar:focus-within,
+	.vp.is-paused .vp-bar {
+		opacity: 1;
+		transform: none;
+	}
+	.vp.is-started.is-idle:not(.is-paused) .vp-stage::after {
+		opacity: 0;
+	}
+	.vp.is-started.is-idle:not(.is-paused) .vp-stage {
+		cursor: none;
+	}
+	.vp-btn {
+		display: grid;
+		place-items: center;
+		flex: none;
+		inline-size: 36px;
+		block-size: 36px;
+		padding: 0;
+		border: 0;
+		border-radius: 50%;
+		background: none;
+		color: inherit;
+		cursor: pointer;
+		transition: color 250ms var(--ease-out), background-color 250ms var(--ease-out);
+	}
+	.vp-btn:hover {
+		color: var(--gold-light);
+	}
+	.vp-btn:focus-visible {
+		outline: 1px solid var(--gold-light);
+		outline-offset: 1px;
+	}
+	.vp .i-play,
+	.vp.is-paused .i-pause,
+	.vp .i-muted,
+	.vp.is-muted .i-vol {
+		display: none;
+	}
+	.vp.is-paused .i-play,
+	.vp.is-muted .i-muted {
+		display: block;
+	}
+	.vp-time {
+		flex: none;
+		min-inline-size: 4ch;
+		opacity: 0.9;
+	}
+	.vp-dur {
+		opacity: 0.6;
+	}
+
+	/* Scrubber: a hairline with a gold played part and a soft buffered part. */
+	.vp-seek {
+		--p: 0%;
+		--b: 0%;
+		flex: 1;
+		min-inline-size: 60px;
+		block-size: 24px;
+		margin: 0;
+		background: transparent;
+		cursor: pointer;
+		appearance: none;
+		-webkit-appearance: none;
+	}
+	.vp-seek::-webkit-slider-runnable-track {
+		block-size: 2px;
+		background: linear-gradient(to right, var(--gold-light) var(--p), rgb(245 242 235 / 0.45) var(--p) var(--b), rgb(245 242 235 / 0.2) var(--b));
+	}
+	.vp-seek::-moz-range-track {
+		block-size: 2px;
+		background: linear-gradient(to right, var(--gold-light) var(--p), rgb(245 242 235 / 0.45) var(--p) var(--b), rgb(245 242 235 / 0.2) var(--b));
+	}
+	.vp-seek::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		inline-size: 11px;
+		block-size: 11px;
+		margin-block-start: -4.5px;
+		border: 0;
+		border-radius: 50%;
+		background: var(--paper);
+		transition: transform 200ms var(--ease-out);
+	}
+	.vp-seek::-moz-range-thumb {
+		inline-size: 11px;
+		block-size: 11px;
+		border: 0;
+		border-radius: 50%;
+		background: var(--paper);
+	}
+	.vp-seek:hover::-webkit-slider-thumb,
+	.vp-seek:focus-visible::-webkit-slider-thumb {
+		transform: scale(1.3);
+		background: var(--gold-light);
+	}
+	.vp-seek:focus-visible {
+		outline: 1px solid var(--gold-light);
+		outline-offset: 2px;
+	}
+
+	/* Fullscreen: fill the screen, letterboxed. */
+	.vp-stage:fullscreen {
+		inline-size: 100%;
+		max-block-size: none;
+		aspect-ratio: auto;
+		border-radius: 0;
+	}
+
+	/* Caption */
+	.vp-cap {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 6px 18px;
+		margin-block-start: 18px;
+		color: var(--vp-cap);
+	}
+	.vp-eb {
+		inline-size: 100%;
+		font-family: var(--font-body);
+		font-size: 11px;
+		line-height: 1.2;
+		letter-spacing: 2.4px;
+		text-transform: uppercase;
+		color: var(--vp-muted);
+	}
+	.vp-title {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: clamp(22px, 2vw, 28px);
+		line-height: 1.15;
+	}
+	.vp-meta {
+		font-family: var(--font-body);
+		font-size: 13px;
+		line-height: 1.4;
+		white-space: pre-wrap;
+		color: var(--vp-muted);
+	}
+
+	@media (max-width: 809.98px) {
+		.vp-bar {
+			gap: 6px;
+			padding-inline: 6px;
+		}
+		.vp-time {
+			font-size: 11px;
+		}
+		.vp-dur {
+			display: none;
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.vp-ring,
+		.vp-poster,
+		.vp-poster img,
+		.vp-bar {
+			transition: none;
+		}
+		.vp.is-waiting .vp-spin {
+			animation-duration: 2400ms;
+		}
+	}
+</style>
+
+<script>
+	// Pinned, older than two weeks, from cdnjs. Only fetched when native HLS is missing.
+	const HLS_JS = "https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.light.min.js";
+	type HlsCtor = { new (cfg?: object): any; isSupported(): boolean; Events: Record<string, string> };
+	let hlsLoad: Promise<HlsCtor> | null = null;
+	const loadHls = () =>
+		(hlsLoad ??= new Promise<HlsCtor>((ok, fail) => {
+			const w = window as unknown as { Hls?: HlsCtor };
+			if (w.Hls) return ok(w.Hls);
+			const s = document.createElement("script");
+			s.src = HLS_JS;
+			s.crossOrigin = "anonymous";
+			s.onload = () => (w.Hls ? ok(w.Hls) : fail(new Error("hls.js missing")));
+			s.onerror = () => fail(new Error("hls.js failed to load"));
+			document.head.append(s);
+		}));
+
+	const fmt = (t: number) => {
+		if (!Number.isFinite(t) || t < 0) t = 0;
+		const s = Math.floor(t % 60);
+		const m = Math.floor((t / 60) % 60);
+		const h = Math.floor(t / 3600);
+		return (h ? `${h}:${String(m).padStart(2, "0")}` : `${m}`) + `:${String(s).padStart(2, "0")}`;
+	};
+
+	const players = new Set<HTMLVideoElement>();
+
+	function init(root: HTMLElement) {
+		if (root.dataset.vpReady) return;
+		root.dataset.vpReady = "1";
+		const stage = root.querySelector<HTMLElement>(".vp-stage")!;
+		const video = root.querySelector<HTMLVideoElement>(".vp-video")!;
+		const play = root.querySelector<HTMLButtonElement>(".vp-play")!;
+		const toggle = root.querySelector<HTMLButtonElement>(".vp-toggle")!;
+		const mute = root.querySelector<HTMLButtonElement>(".vp-mute");
+		const fs = root.querySelector<HTMLButtonElement>(".vp-fs")!;
+		const seek = root.querySelector<HTMLInputElement>(".vp-seek")!;
+		const cur = root.querySelector<HTMLElement>(".vp-cur")!;
+		const dur = root.querySelector<HTMLElement>(".vp-dur")!;
+		players.add(video);
+
+		let attached: Promise<void> | null = null;
+		let idleTimer = 0;
+		let raf = 0;
+		let scrubbing = false;
+
+		// Attach the source once. Never call load() after play() (it cancels the play promise).
+		const attach = () =>
+			(attached ??= (async () => {
+				const src = root.dataset.src!;
+				if (root.dataset.type !== "hls") {
+					const webm = root.dataset.webm;
+					video.src = webm && video.canPlayType('video/webm; codecs="vp9"') ? webm : src;
+					return;
+				}
+				if (video.canPlayType("application/vnd.apple.mpegurl")) {
+					video.src = src;
+					return;
+				}
+				const Hls = await loadHls();
+				if (!Hls.isSupported()) {
+					video.src = src;
+					return;
+				}
+				const hls = new Hls({ capLevelToPlayerSize: true, maxBufferLength: 30 });
+				let recovered = false;
+				hls.on(Hls.Events.ERROR, (_: unknown, d: { fatal: boolean; type: string; details: string }) => {
+					if (!d.fatal) return;
+					console.warn("[video] hls", d.type, d.details);
+					if (d.type === "networkError") hls.startLoad();
+					else if (d.type === "mediaError" && !recovered) {
+						recovered = true;
+						hls.recoverMediaError();
+					} else {
+						hls.destroy();
+						fail();
+					}
+				});
+				hls.loadSource(src);
+				hls.attachMedia(video);
+			})());
+
+		// The film cannot play here (unsupported codec, missing files): put the
+		// poster back and say so plainly instead of spinning forever.
+		const fail = () => {
+			root.classList.remove("is-waiting", "is-started", "is-live");
+			root.classList.add("is-error");
+			const t = root.querySelector<HTMLElement>(".vp-cta-t");
+			if (t) t.textContent = "This film cannot play in this browser";
+		};
+		video.addEventListener("error", () => video.error && fail());
+
+		const start = async () => {
+			root.classList.add("is-started", "is-waiting");
+			try {
+				await attach();
+				await video.play();
+			} catch (e) {
+				root.classList.remove("is-waiting");
+				root.classList.add("is-paused");
+				console.warn("[video]", e);
+			}
+		};
+		const togglePlay = () => {
+			if (!root.classList.contains("is-started")) return void start();
+			if (video.paused || video.ended) video.play().catch(() => {});
+			else video.pause();
+		};
+
+		const wake = () => {
+			root.classList.remove("is-idle");
+			window.clearTimeout(idleTimer); // always clear before setting
+			if (!video.paused) idleTimer = window.setTimeout(() => root.classList.add("is-idle"), 2600);
+		};
+
+		const paint = () => {
+			const d = video.duration;
+			if (!scrubbing && Number.isFinite(d) && d > 0) {
+				const p = (video.currentTime / d) * 100;
+				seek.value = String(p);
+				seek.style.setProperty("--p", `${p}%`);
+				seek.setAttribute("aria-valuetext", `${fmt(video.currentTime)} of ${fmt(d)}`);
+			}
+			cur.textContent = fmt(video.currentTime);
+		};
+		const loop = () => {
+			cancelAnimationFrame(raf);
+			paint();
+			if (!video.paused) raf = requestAnimationFrame(loop);
+		};
+		const buffered = () => {
+			const d = video.duration;
+			const b = video.buffered;
+			if (!Number.isFinite(d) || !d || !b.length) return;
+			let end = 0;
+			for (let i = 0; i < b.length; i++) if (b.start(i) <= video.currentTime + 0.5) end = Math.max(end, b.end(i));
+			seek.style.setProperty("--b", `${(end / d) * 100}%`);
+		};
+
+		play.addEventListener("click", togglePlay);
+		toggle.addEventListener("click", togglePlay);
+		video.addEventListener("play", () => {
+			// One film at a time.
+			players.forEach((o) => o !== video && !o.paused && o.pause());
+			root.classList.remove("is-paused");
+			toggle.setAttribute("aria-label", "Pause");
+			wake();
+			loop();
+		});
+		video.addEventListener("pause", () => {
+			root.classList.add("is-paused");
+			root.classList.remove("is-idle");
+			toggle.setAttribute("aria-label", "Play");
+			window.clearTimeout(idleTimer);
+			paint();
+		});
+		video.addEventListener("waiting", () => root.classList.add("is-waiting"));
+		video.addEventListener("playing", () => root.classList.remove("is-waiting"));
+		video.addEventListener("playing", () => root.classList.add("is-live"), { once: true });
+		video.addEventListener("canplay", () => root.classList.remove("is-waiting"));
+		video.addEventListener("loadedmetadata", () => {
+			dur.textContent = fmt(video.duration);
+			paint();
+		});
+		video.addEventListener("progress", buffered);
+		video.addEventListener("timeupdate", () => {
+			buffered();
+			if (video.paused) paint();
+		});
+		video.addEventListener("ended", () => {
+			root.classList.add("is-paused");
+		});
+		video.addEventListener("volumechange", () => {
+			root.classList.toggle("is-muted", video.muted);
+			mute?.setAttribute("aria-pressed", String(video.muted));
+			mute?.setAttribute("aria-label", video.muted ? "Unmute" : "Mute");
+		});
+
+		seek.addEventListener("pointerdown", () => (scrubbing = true));
+		seek.addEventListener("input", () => {
+			const d = video.duration;
+			seek.style.setProperty("--p", `${seek.value}%`);
+			if (Number.isFinite(d) && d > 0) {
+				video.currentTime = (Number(seek.value) / 100) * d;
+				cur.textContent = fmt(video.currentTime);
+			}
+			wake();
+		});
+		seek.addEventListener("change", () => (scrubbing = false));
+		seek.addEventListener("pointerup", () => (scrubbing = false));
+
+		mute?.addEventListener("click", () => (video.muted = !video.muted));
+
+		fs.addEventListener("click", () => {
+			const v = video as HTMLVideoElement & { webkitEnterFullscreen?: () => void };
+			if (document.fullscreenElement) document.exitFullscreen();
+			else if (stage.requestFullscreen) stage.requestFullscreen().catch(() => v.webkitEnterFullscreen?.());
+			else v.webkitEnterFullscreen?.();
+		});
+		stage.addEventListener("dblclick", (e) => {
+			if ((e.target as HTMLElement).closest(".vp-bar")) return;
+			fs.click();
+		});
+
+		stage.addEventListener("pointermove", wake);
+		stage.addEventListener("focusin", wake);
+
+		// Keyboard, while focus is inside this player.
+		root.addEventListener("keydown", (e) => {
+			if (!root.classList.contains("is-started") || e.altKey || e.ctrlKey || e.metaKey) return;
+			const onSeek = e.target === seek;
+			const k = e.key.toLowerCase();
+			if (k === "k" || (k === " " && !(e.target instanceof HTMLButtonElement))) {
+				e.preventDefault();
+				togglePlay();
+			} else if (k === "m" && mute) {
+				video.muted = !video.muted;
+			} else if (k === "f") {
+				fs.click();
+			} else if (!onSeek && (k === "arrowleft" || k === "arrowright")) {
+				e.preventDefault();
+				video.currentTime = Math.max(0, video.currentTime + (k === "arrowleft" ? -5 : 5));
+			}
+			wake();
+		});
+	}
+
+	const run = () => document.querySelectorAll<HTMLElement>("[data-vp]").forEach(init);
+	run();
+	document.addEventListener("astro:page-load", run);
+</script>

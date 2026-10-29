@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import BackPill from "../../components/BackPill.astro";
 import Img from "../../components/Img.astro";
+import VideoPlayer, { type VideoRec } from "../../components/VideoPlayer.astro";
 import works from "../../content/data/past-works.json";
 import { img } from "../../lib/img";
 import { url } from "../../lib/site";
@@ -12,6 +13,8 @@ export function getStaticPaths() {
 const { w } = Astro.props;
 const title = w.title.trim();
 const hero = w.heroImage?.src ?? null;
+// A film from the CMS `video` field takes the hero slot (Chicago Interview had an empty placeholder).
+const video = ((w as { video?: VideoRec }).video ?? null) as VideoRec | null;
 const heroRatio = img(hero)?.ratio ?? 1;
 // Prefer the archived local copy of a linked file (the press PDF) when it exists.
 const ext = w.externalLink as { label?: string; href?: string; local?: string } | null;
@@ -29,7 +32,7 @@ const body = ((w.body ?? []) as Block[]).filter((b) => !isNote(b));
 // Our own sentence: no em or en dashes, even when the CMS medium/year carry them.
 const undash = (s: string) => s.replace(/\s*[\u2013\u2014]\s*/g, ", ");
 const description = undash(`${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year ? ` (${String(w.year).replace(/\s*[\u2013\u2014]\s*/g, " to ")})` : ""}.`);
-const og = hero ?? w.cardImage?.src ?? undefined;
+const og = hero ?? video?.poster ?? w.cardImage?.src ?? undefined;
 ---
 
 <Base title={`${title}, Past Works`} description={description} ogImage={og} nav="grey">
@@ -52,7 +55,14 @@ const og = hero ?? w.cardImage?.src ?? undefined;
 			)
 		}
 		{
-			hero && (
+			video && (
+				<div class="film" data-reveal>
+					<VideoPlayer video={video} tone="dark" caption={false} />
+				</div>
+			)
+		}
+		{
+			!video && hero && (
 				<div class="hero" style={`--r:${heroRatio}`} data-reveal>
 					<Img src={hero} alt={w.heroImage?.alt || title} sizes="(min-width: 810px) 90vw, 100vw" eager />
 				</div>
@@ -147,6 +157,10 @@ const og = hero ?? w.cardImage?.src ?? undefined;
 		inline-size: min(100%, calc(80vh * var(--r)));
 		border-radius: 2px;
 		overflow: hidden;
+	}
+	.film {
+		inline-size: 100%;
+		margin-block: 14px 22px;
 	}
 	.body {
 		max-inline-size: 680px;

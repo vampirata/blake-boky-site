@@ -443,7 +443,18 @@
       "Next Slot",
       "Contact"
     ],
-    "collectionTitle": "Andromeda"
+    "collectionTitle": "Andromeda",
+    "video": {
+      "mp4": "/video/adrasteo/adrasteo-360.mp4",
+      "webm": "/video/adrasteo/adrasteo-360.webm",
+      "poster": "/video/adrasteo/poster.jpg",
+      "posterWebp": "/video/adrasteo/poster-1600.webp",
+      "title": "Adrasteo",
+      "eyebrow": "Film",
+      "duration": "1:09",
+      "ratio": "16 / 9",
+      "caption": "Music by Grant Ransom"
+    }
   },
   {
     "slug": "andromeda-callisto",

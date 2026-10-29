@@ -2080,5 +2080,26 @@
         }
       ]
     }
+  ],
+  "videos": [
+    {
+      "hls": "/video/blake-presentation/master.m3u8",
+      "poster": "/video/blake-presentation/poster.jpg",
+      "posterWebp": "/video/blake-presentation/poster-1600.webp",
+      "title": "Blake Ward, presentation",
+      "eyebrow": "Film",
+      "duration": "21:52",
+      "ratio": "16 / 9"
+    },
+    {
+      "hls": "/video/blake-sculptures/master.m3u8",
+      "poster": "/video/blake-sculptures/poster.jpg",
+      "posterWebp": "/video/blake-sculptures/poster-1600.webp",
+      "title": "Sculptures, people, landscape",
+      "eyebrow": "Film",
+      "duration": "5:51",
+      "ratio": "16 / 9",
+      "silent": true
+    }
   ]
 }

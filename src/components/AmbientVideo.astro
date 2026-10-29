@@ -1,0 +1,193 @@
+---
+// A muted, looping film used as atmosphere (a hero band, a backdrop).
+// - The poster image is the real content and is always in the markup, so the
+//   frame is complete with JS off, scripts blocked or reduced motion on.
+// - Sources live in data-src until the frame scrolls near; under
+//   prefers-reduced-motion no video bytes are ever fetched.
+// - Plays only while in view and while the tab is visible; a small button lets
+//   the visitor pause it (WCAG 2.2.2, the loops run longer than 5 s).
+// - Follows cinematic-web.md: load() only before the first play(), never after;
+//   timers are cleared before they are set.
+import { url } from "../lib/site";
+
+interface Props {
+	mp4: string;
+	webm?: string;
+	poster: string;
+	posterWebp?: string;
+	/** Describes the poster for screen readers; the moving film is decorative. */
+	alt?: string;
+	ratio?: string;
+	fit?: "cover" | "contain";
+	pos?: string;
+	/** Fill the parent instead of taking a ratio (for full-bleed heroes). */
+	fill?: boolean;
+	eager?: boolean;
+	class?: string;
+}
+const { mp4, webm, poster, posterWebp, alt = "", ratio = "16 / 9", fit = "cover", pos = "50% 50%", fill = false, eager = false, class: cls } = Astro.props;
+---
+
+<div class:list={["amb", fill && "amb--fill", cls]} data-amb style={`--amb-r:${ratio};--amb-fit:${fit};--amb-pos:${pos}`}>
+	<picture class="amb-poster">
+		{posterWebp && <source srcset={url(posterWebp)} type="image/webp" />}
+		<img src={url(poster)} alt={alt} loading={eager ? "eager" : "lazy"} decoding="async" fetchpriority={eager ? "high" : undefined} />
+	</picture>
+	<video class="amb-video" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback aria-hidden="true" tabindex="-1">
+		{webm && <source data-src={url(webm)} type='video/webm; codecs="vp9"' />}
+		<source data-src={url(mp4)} type="video/mp4" />
+	</video>
+	<button class="amb-btn" type="button" aria-label="Pause background film" aria-pressed="false">
+		<svg class="i-pause" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"></path></svg>
+		<svg class="i-play" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"></path></svg>
+	</button>
+</div>
+
+<style>
+	.amb {
+		position: relative;
+		inline-size: 100%;
+		aspect-ratio: var(--amb-r);
+		overflow: hidden;
+		background: var(--ink);
+	}
+	.amb--fill {
+		position: absolute;
+		inset: 0;
+		aspect-ratio: auto;
+	}
+	.amb-poster,
+	.amb-poster img,
+	.amb-video {
+		position: absolute;
+		inset: 0;
+		inline-size: 100%;
+		block-size: 100%;
+		object-fit: var(--amb-fit);
+		object-position: var(--amb-pos);
+	}
+	/* The video fades in over the poster once frames are moving. Opacity only,
+	   so the observed box keeps its geometry. */
+	.amb-video {
+		opacity: 0;
+		transition: opacity 900ms var(--ease-out);
+	}
+	.amb.is-playing .amb-video {
+		opacity: 1;
+	}
+	.amb-btn {
+		position: absolute;
+		inset: auto 14px 14px auto;
+		z-index: 2;
+		display: none;
+		place-items: center;
+		inline-size: 32px;
+		block-size: 32px;
+		padding: 0;
+		border: 1px solid rgb(245 242 235 / 0.45);
+		border-radius: 50%;
+		background: rgb(15 15 15 / 0.3);
+		color: var(--paper);
+		cursor: pointer;
+		opacity: 0.6;
+		transition:
+			opacity 300ms var(--ease-out),
+			border-color 300ms var(--ease-out),
+			color 300ms var(--ease-out);
+	}
+	.amb.is-armed .amb-btn {
+		display: grid;
+	}
+	.amb-btn:hover,
+	.amb-btn:focus-visible {
+		opacity: 1;
+		border-color: var(--gold-light);
+		color: var(--gold-light);
+	}
+	.amb-btn:focus-visible {
+		outline: 1px solid var(--gold-light);
+		outline-offset: 2px;
+	}
+	.amb .i-play,
+	.amb.is-held .i-pause {
+		display: none;
+	}
+	.amb.is-held .i-play {
+		display: block;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		/* Belt and braces: the script never arms under reduced motion. */
+		.amb-video,
+		.amb-btn {
+			display: none !important;
+		}
+	}
+</style>
+
+<script>
+	const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+	type Amb = { root: HTMLElement; video: HTMLVideoElement; armed: boolean; inView: boolean; held: boolean };
+	const items: Amb[] = [];
+
+	const arm = (a: Amb) => {
+		if (a.armed) return;
+		a.armed = true;
+		a.video.querySelectorAll<HTMLSourceElement>("source[data-src]").forEach((s) => {
+			s.src = s.dataset.src!;
+			s.removeAttribute("data-src");
+		});
+		a.video.load(); // once, before any play()
+		a.root.classList.add("is-armed");
+	};
+	const sync = (a: Amb) => {
+		if (!a.armed) return;
+		if (a.inView && !a.held && !document.hidden) a.video.play().catch(() => {});
+		else if (!a.video.paused) a.video.pause();
+	};
+
+	function init(root: HTMLElement) {
+		if (root.dataset.ambReady) return;
+		root.dataset.ambReady = "1";
+		const video = root.querySelector<HTMLVideoElement>(".amb-video")!;
+		const btn = root.querySelector<HTMLButtonElement>(".amb-btn")!;
+		const a: Amb = { root, video, armed: false, inView: false, held: false };
+		items.push(a);
+		video.muted = true; // some browsers ignore the attribute for autoplay checks
+		video.addEventListener("playing", () => root.classList.add("is-playing"));
+		btn.addEventListener("click", () => {
+			a.held = !a.held;
+			root.classList.toggle("is-held", a.held);
+			btn.setAttribute("aria-pressed", String(a.held));
+			btn.setAttribute("aria-label", a.held ? "Play background film" : "Pause background film");
+			sync(a);
+		});
+		if (reduce.matches) return; // poster only, zero video requests
+		if (!("IntersectionObserver" in window)) {
+			a.inView = true;
+			arm(a);
+			sync(a);
+			return;
+		}
+		// Arm a screen ahead; play only while actually on screen.
+		new IntersectionObserver(
+			(es) => es.forEach((e) => e.isIntersecting && arm(a)),
+			{ rootMargin: "100% 0px 100% 0px" }
+		).observe(root);
+		new IntersectionObserver(
+			(es) =>
+				es.forEach((e) => {
+					a.inView = e.isIntersecting;
+					sync(a);
+				}),
+			{ threshold: 0.05 }
+		).observe(root);
+	}
+
+	document.addEventListener("visibilitychange", () => items.forEach(sync));
+	reduce.addEventListener?.("change", () => {
+		if (reduce.matches) items.forEach((a) => a.video.pause());
+	});
+	const run = () => document.querySelectorAll<HTMLElement>("[data-amb]").forEach(init);
+	run();
+	document.addEventListener("astro:page-load", run);
+</script>

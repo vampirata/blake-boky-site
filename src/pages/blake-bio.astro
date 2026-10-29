@@ -6,11 +6,15 @@ import Statement from "../components/bio/Statement.astro";
 import Biography from "../components/bio/Biography.astro";
 import CollectionsGrid from "../components/bio/CollectionsGrid.astro";
 import Exhibitions from "../components/bio/Exhibitions.astro";
+import SectionHead from "../components/bio/SectionHead.astro";
+import VideoPlayer, { type VideoRec } from "../components/VideoPlayer.astro";
 import { readBio } from "../components/bio/bio";
 import { cleanTitle } from "../lib/data";
 import page from "../content/data/pages/blake-bio.json";
 
 const d = readBio(page as never);
+// Films from the CMS (`videos` in blake-bio.json).
+const films = ((page as { videos?: VideoRec[] }).videos ?? []) as VideoRec[];
 ---
 
 <Base
@@ -25,6 +29,20 @@ const d = readBio(page as never);
 		<BioHero {...d.hero} />
 		<Statement quote={d.quote} tablet={648} />
 		<Biography {...d.bio} />
+		{
+			films.length > 0 && (
+				<section class="films" aria-label="Films">
+					<SectionHead eyebrow="Film" heading="Blake on film" />
+					<div class:list={["films-grid", films.length > 1 && "is-pair"]}>
+						{films.map((f) => (
+							<div data-reveal>
+								<VideoPlayer video={{ ...f, eyebrow: undefined }} tone="light" />
+							</div>
+						))}
+					</div>
+				</section>
+			)
+		}
 		<CollectionsGrid {...d.collections} variant="tall" />
 		<Exhibitions {...d.exhibitions} />
 		<div class="cta"><ContactCta eyebrow="" heading={d.cta.heading} tone="light" /></div>
@@ -43,6 +61,25 @@ const d = readBio(page as never);
 	}
 	/* Live: 32px side padding, balanced heading (it wraps after "for" on
 	   phone), a 177x44 button 28px under the heading. */
+	.films {
+		padding: 80px 32px;
+	}
+	.films-grid {
+		display: grid;
+		gap: 48px 32px;
+		max-inline-size: 1376px;
+		margin-inline: auto;
+	}
+	@media (min-width: 810px) {
+		.films-grid.is-pair {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+	@media (max-width: 809.98px) {
+		.films {
+			padding: 64px 15px;
+		}
+	}
 	.cta :global(.ccta) {
 		padding-inline: 32px;
 	}
