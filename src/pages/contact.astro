@@ -1,5 +1,6 @@
 ---
 // Template "contact": hero, portrait, details grid, message form.
+// Grey mode (shared page, see docs/rebuild-rules.md "Colour modes"): stone.
 import Base from "../layouts/Base.astro";
 import Img from "../components/Img.astro";
 import ContactForm from "../components/contact/ContactForm.astro";
@@ -40,7 +41,7 @@ const note = (message.body as any[]).find((b) => b.role === "Note")?.text;
 const title = cleanTitle(page.seo.title, "Contact");
 ---
 
-<Base title={title} description={page.seo.description} nav="light" bg="var(--white)" fg="var(--charcoal)" smooth>
+<Base title={title} description={page.seo.description} nav="black" bg="var(--stone)" fg="var(--stone-text)" smooth>
 	<section class="hero">
 		<p class="eyebrow e">{hero.eyebrow}</p>
 		<h1 class="display">{hero.heading.text}</h1>
@@ -49,7 +50,7 @@ const title = cleanTitle(page.seo.title, "Contact");
 
 	<section class="portrait">
 		<div class="pwrap" data-arrive style="--d:1000ms">
-			<Img src={portrait.src} alt={portrait.alt} bg="var(--white)" eager sizes="(min-width: 1400px) 860px, (min-width: 810px) 100vw, 100vw" />
+			<Img src={portrait.src} alt={portrait.alt} bg="var(--stone)" eager sizes="(min-width: 1400px) 860px, (min-width: 810px) 100vw, 100vw" />
 		</div>
 	</section>
 
@@ -85,10 +86,15 @@ const title = cleanTitle(page.seo.title, "Contact");
 
 <style>
 	section {
-		color: var(--charcoal);
+		color: var(--stone-text);
+	}
+	h1,
+	h2,
+	h3 {
+		color: var(--paper);
 	}
 	.e {
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 
 	/* Hero: padding 106 0 64, gap 26 */
@@ -101,7 +107,7 @@ const title = cleanTitle(page.seo.title, "Contact");
 		text-align: center;
 	}
 	.sub {
-		color: var(--taupe);
+		color: var(--stone-muted);
 		text-wrap: balance;
 	}
 
@@ -118,12 +124,12 @@ const title = cleanTitle(page.seo.title, "Contact");
 	/* Details grid: 3 equal full-bleed cells */
 	.details {
 		padding: 80px 0;
-		border-block-end: 1px solid var(--hairline);
+		border-block-end: 1px solid var(--stone-rule);
 	}
 	.dgrid {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
-		border-block-start: 1px solid var(--hairline);
+		border-block-start: 1px solid var(--stone-rule);
 	}
 	.cell {
 		display: flex;
@@ -133,14 +139,14 @@ const title = cleanTitle(page.seo.title, "Contact");
 		padding: 32px 22px 28px;
 	}
 	.cell--2 {
-		background: var(--paper-2);
+		background: var(--stone-deep);
 	}
 	.cell--3 {
 		background: var(--black);
 		color: var(--white);
 	}
 	.ce {
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 	.cell--3 .ce {
 		color: var(--gold-light);
@@ -156,10 +162,10 @@ const title = cleanTitle(page.seo.title, "Contact");
 		font-size: 18px;
 		line-height: 28.8px;
 		letter-spacing: 0;
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 	.cell--2 .cd {
-		color: var(--charcoal);
+		color: var(--stone-text);
 	}
 	.cell--3 .cd {
 		color: var(--white);
@@ -171,7 +177,7 @@ const title = cleanTitle(page.seo.title, "Contact");
 		transition: color 200ms var(--ease-link);
 	}
 	.cell--2 .cd a:hover {
-		color: var(--gold-dark);
+		color: var(--gold-light);
 	}
 	.cell--3 .cd a:hover {
 		color: var(--gold-light);
@@ -196,7 +202,7 @@ const title = cleanTitle(page.seo.title, "Contact");
 		max-inline-size: 760px;
 		text-align: center;
 		letter-spacing: 0;
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 
 	@media (max-width: 1399.98px) {

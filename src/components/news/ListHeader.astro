@@ -1,16 +1,17 @@
 ---
 // Wraps the shared ArriveHeader so the title renders as on the live list and
 // article pages: Inter 300 26px/36.4, not the Cormorant H2 role.
+// tone: "light" (Blake, paper), "dark" (Boky, ink), "stone" (shared, grey mode).
 import ArriveHeader from "../ArriveHeader.astro";
 interface Props {
 	title: string;
-	tone?: "dark" | "light";
+	tone?: "dark" | "light" | "stone";
 }
 const { title, tone = "dark" } = Astro.props;
 ---
 
-<div class="lh">
-	<ArriveHeader title={title} tone={tone} />
+<div class:list={["lh", tone === "stone" && "lh--stone"]}>
+	<ArriveHeader title={title} tone={tone === "light" ? "light" : "dark"} />
 </div>
 
 <style>
@@ -27,5 +28,12 @@ const { title, tone = "dark" } = Astro.props;
 	/* The live hairline is #363636 on dark and light pages alike. */
 	.lh :global(.rule) {
 		background: var(--grey-363);
+	}
+	/* Grey mode: light title, soft light hairline on stone. */
+	.lh--stone :global(.arrive h1) {
+		color: var(--paper);
+	}
+	.lh--stone :global(.rule) {
+		background: var(--stone-rule);
 	}
 </style>

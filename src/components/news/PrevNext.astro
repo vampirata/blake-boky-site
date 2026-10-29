@@ -34,7 +34,7 @@ const items = [
 			{items.map((l) => (
 				<a class:list={["c", l.kind === "Next" && "c--next"]} href={url(l.href)} data-reveal>
 					{l.thumb?.src && (
-						<Img src={l.thumb.src} alt={l.thumb.alt ?? ""} ratio="122 / 150" fit={fitFor(l.thumb.src)} bg="var(--paper-4)" sizes="122px" class="th" />
+						<Img src={l.thumb.src} alt={l.thumb.alt ?? ""} ratio="122 / 150" fit={fitFor(l.thumb.src)} bg="var(--n-fill, var(--paper-4))" sizes="122px" class="th" />
 					)}
 					<span class="tx">
 						<span class="k">{l.kind}</span>
@@ -62,18 +62,19 @@ const items = [
 		gap: 22px;
 		inline-size: 470px;
 		block-size: 150px;
-		color: var(--charcoal);
+		/* Mode colours come from the page (--n-*), paper by default. */
+		color: var(--n-text, var(--charcoal));
 		transition: background-color 300ms var(--ease-out);
 	}
 	.c::after {
 		content: "";
 		position: absolute;
 		inset: 0;
-		border: 1px solid var(--grey-363);
+		border: 1px solid var(--n-line, var(--grey-363));
 		pointer-events: none;
 	}
 	.c:hover {
-		background: var(--paper-4);
+		background: var(--n-hover, var(--paper-4));
 	}
 	.c--next {
 		flex-direction: row-reverse;

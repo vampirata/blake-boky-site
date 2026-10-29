@@ -156,3 +156,14 @@ Kait's note: contained images left grids uneven. Grids now use the live site's e
 - If the frame only trims empty backdrop, the image fills the frame, positioned around the piece.
 - If filling would touch the piece, the whole image shows and the rest of the frame continues the photo's own backdrop colours, feathered so there is no seam. Busy photos get a soft blurred copy of themselves behind instead.
 - Logic: `src/lib/fit.ts`, used by `Img.astro` whenever a frame ratio is set.
+
+## Colour modes, 29 Oct 2026
+
+Rule (docs/rebuild-rules.md): Blake = paper, Boky = ink, both together = stone, gold accent everywhere.
+- New tokens (appended to tokens.css): `--stone-text #dbdbdb`, `--stone-muted #c2c2c2`, `--stone-rule rgba(219,219,219,.25)`, `--stone-deep #4a4741`.
+- Grey mode (stone, black nav, light text, soft light hairlines, dark back pill, dark Contact CTA, image fills on stone): Collections index, News index, Exhibitions & Galleries (Petley Jones) and its 4 gallery pages, Contact, 404.
+- Paragraph copy on stone uses #dbdbdb (5.1:1), above the #c2c2c2 the Spirit work pages use (4.0:1); #c2c2c2 only for subtitles and placeholders.
+- Petley Jones logo (black and red) sits on a small paper plate on stone so it stays legible.
+- Contact: details cells are stone, deeper stone, black (gold eyebrow); form fields have light text and lines, gold focus line and outline, gold hover on Send; the open select list stays dark on paper.
+- News articles by subject: Fragments of Infinity, Sculptures Symbolising Hope and Les Atlantes (Blake) paper; Invoco Te Divina Stella (interview with Boky) ink; Pietrasanta (their shared studio) stone. Unknown future articles default to stone. ArticleBody and PrevNext read `--n-*` colour variables from the page (paper by default).
+- Verified already correct: home Stats and Articles on stone.

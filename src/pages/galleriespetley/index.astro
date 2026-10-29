@@ -1,5 +1,6 @@
 ---
 // Template "galleries": Petley Jones Gallery page with the Gallery Partners grid.
+// Grey mode (shared page, see docs/rebuild-rules.md "Colour modes"): stone.
 import Base from "../../layouts/Base.astro";
 import Img from "../../components/Img.astro";
 import ContactCta from "../../components/ContactCta.astro";
@@ -35,7 +36,7 @@ const visitHtml = (visit.content.find((c: any) => c.role === "Details")?.html ??
 const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 ---
 
-<Base title={title} description={page.seo.description} ogImage={blocks[0]?.image?.src} nav="light" bg="var(--paper)" fg="var(--charcoal)">
+<Base title={title} description={page.seo.description} ogImage={blocks[0]?.image?.src} nav="black" bg="var(--stone)" fg="var(--stone-text)">
 	<section class="hero">
 		<p class="eyebrow e">{hero.eyebrow}</p>
 		<h1 class="display">{hero.heading.text}</h1>
@@ -70,7 +71,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 					<article class="block">
 						<div class:list={["banner", `banner--${i + 1}`, isPortrait(b.image) && "banner--whole"]}>
 							{isPortrait(b.image) ? (
-								<Img src={b.image.src} alt={b.image.alt} bg="var(--paper)" sizes="100vw" />
+								<Img src={b.image.src} alt={b.image.alt} bg="var(--stone)" sizes="100vw" />
 							) : (
 								<Img src={b.image.src} alt={b.image.alt} sizes="100vw" />
 							)}
@@ -97,7 +98,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 			{
 				views.media.map((m: any, i: number) => (
 					<div class:list={["v", `v--${i + 1}`]}>
-						<Img src={m.src} alt={m.alt} ratio="4 / 5" bg="var(--paper)" sizes="(min-width: 1400px) 432px, (min-width: 810px) 50vw, 100vw" />
+						<Img src={m.src} alt={m.alt} ratio="4 / 5" bg="var(--stone)" sizes="(min-width: 1400px) 432px, (min-width: 810px) 50vw, 100vw" />
 					</div>
 				))
 			}
@@ -110,25 +111,33 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		<div class="vtext" set:html={visitHtml} />
 	</section>
 
-	<ContactCta eyebrow="" />
+	<ContactCta eyebrow="" tone="dark" />
 </Base>
 
 <style>
 	section {
-		color: var(--charcoal);
+		color: var(--stone-text);
+		/* Partner cards read these (grey mode). */
+		--pc-text: var(--stone-text);
+		--pc-fill: var(--stone);
 	}
-	/* Live: every section after the hero carries a 1px #d8d2c6 top rule drawn
-	   inside the box (Framer ::after), the Contact CTA included. */
+	h1,
+	h2,
+	h3 {
+		color: var(--paper);
+	}
+	/* Live: every section after the hero carries a 1px top rule drawn inside
+	   the box (Framer ::after), the Contact CTA included. Grey mode: light hairline. */
 	.partners,
 	.intro,
 	.exh,
 	.views,
 	.visit,
 	:global(.ccta) {
-		box-shadow: inset 0 1px 0 #d8d2c6;
+		box-shadow: inset 0 1px 0 var(--stone-rule);
 	}
 	.e {
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 	.head {
 		display: flex;
@@ -149,13 +158,19 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		text-align: center;
 	}
 	.sub {
-		color: var(--taupe);
+		color: var(--stone-muted);
 	}
-	/* Live multiplies the logo onto the paper, so its white box disappears. */
+	/* The partner's black and red logo is unreadable on stone, so it sits on a
+	   paper plate; the image multiplies onto the plate so its white box disappears. */
 	.logo {
 		inline-size: 420px;
 		max-inline-size: 100%;
 		margin-block-start: 22px;
+		padding: 14px 20px;
+		background: var(--paper);
+		isolation: isolate;
+	}
+	.logo :global(img) {
 		mix-blend-mode: multiply;
 	}
 
@@ -178,7 +193,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		max-inline-size: 800px;
 		margin-inline: auto;
 		text-align: center;
-		color: var(--charcoal);
+		color: var(--paper);
 	}
 
 	/* Exhibitions */
@@ -218,7 +233,7 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 		margin-block-end: 8px;
 	}
 	.desc {
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 
 	/* Installation Views: 3 x 432, gap 40 */
@@ -246,16 +261,16 @@ const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 	}
 	.vtext {
 		max-inline-size: 600px;
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 	.vtext :global(a) {
-		color: var(--charcoal);
+		color: var(--paper);
 		text-decoration: underline;
 		text-underline-offset: 3px;
 		transition: color 200ms var(--ease-link);
 	}
 	.vtext :global(a:hover) {
-		color: var(--gold-dark);
+		color: var(--gold-light);
 	}
 
 	/* Contact CTA has no eyebrow on this page live. */

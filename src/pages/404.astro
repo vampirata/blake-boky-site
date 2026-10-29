@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { url } from "../lib/site";
 ---
 
-<Base title="Page not found" nav="grey">
+<Base title="Page not found" nav="black" bg="var(--stone)" fg="var(--stone-text)">
 	<section class="nf">
 		<p class="eyebrow">404</p>
 		<h1 class="h2">This page could not be found</h1>
@@ -21,7 +21,11 @@ import { url } from "../lib/site";
 		padding: 160px var(--gutter);
 		text-align: center;
 	}
+	/* Grey mode (shared page): stone, light heading, gold eyebrow. */
 	.eyebrow {
 		color: var(--gold-light);
+	}
+	.h2 {
+		color: var(--paper);
 	}
 </style>

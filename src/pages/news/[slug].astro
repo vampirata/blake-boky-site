@@ -20,12 +20,27 @@ const excerpt = (t: string, max = 155) => {
 };
 const lede = (n.body as { tag: string; text?: string }[]).find((b) => b.tag === "p" && (b.text ?? "").trim().length > 60)?.text;
 const description = lede ? excerpt(lede) : n.seo?.description;
+
+// Colour mode by whose story it is (docs/rebuild-rules.md "Colour modes"):
+// Blake only = paper, Boky only = ink, both or unclear = stone.
+type Mode = "paper" | "ink" | "stone";
+const MODES: Record<string, Mode> = {
+	"fragments-of-infinity-a-collection-for-humanity-by-blake-ward": "paper", // Blake on Fragments
+	sculptures_symbolisiing_hope: "paper", // ID Magazine on Blake's Fragments
+	blakewardlesatlantesfontveille: "paper", // Blake's Les Atlantes, Fontvieille
+	"when-walls-become-words-buildings-as-silent-storytellers": "ink", // interview with Boky
+	"the-weight-of-empty-space-understanding-the-poetry-of-voids": "stone", // their shared Pietrasanta studio
+};
+const mode: Mode = MODES[n.slug] ?? "stone";
+const NAV = { paper: "light", ink: "grey", stone: "black" } as const;
+const BG = { paper: "var(--paper)", ink: "var(--ink)", stone: "var(--stone)" } as const;
+const FG = { paper: "var(--charcoal)", ink: "var(--paper)", stone: "var(--stone-text)" } as const;
 ---
 
-<Base title={title} description={description} ogImage={hero ?? undefined} nav="light" bg="var(--paper)" fg="var(--charcoal)" smooth>
-	<BackPill href="/news" label="News" tone="light" />
-	<ListHeader title={title} tone="light" />
-	<article class="main">
+<Base title={title} description={description} ogImage={hero ?? undefined} nav={NAV[mode]} bg={BG[mode]} fg={FG[mode]} smooth>
+	<BackPill href="/news" label="News" tone={mode === "paper" ? "light" : "dark"} />
+	<ListHeader title={title} tone={mode === "paper" ? "light" : mode === "ink" ? "dark" : "stone"} />
+	<article class={`main main--${mode}`}>
 		{
 			hero && (
 				<div class="lead" data-arrive style="--d:1200ms">
@@ -38,10 +53,33 @@ const description = lede ? excerpt(lede) : n.seo?.description;
 			<ArticleBody blocks={n.body} />
 		</div>
 	</article>
-	<PrevNext previous={n.previous} next={n.next} />
+	<div class={`more more--${mode}`}>
+		<PrevNext previous={n.previous} next={n.next} />
+	</div>
 </Base>
 
 <style>
+	/* Mode colours, read by ArticleBody and PrevNext through these variables. */
+	.main--ink,
+	.more--ink {
+		--n-text: var(--paper);
+		--n-quote: #999999;
+		--n-quote-line: var(--grey-363);
+		--n-link-hover: var(--gold-light);
+		--n-line: var(--grey-363);
+		--n-hover: var(--ink-2);
+		--n-fill: var(--ink-2);
+	}
+	.main--stone,
+	.more--stone {
+		--n-text: var(--stone-text);
+		--n-quote: var(--stone-muted);
+		--n-quote-line: var(--stone-rule);
+		--n-link-hover: var(--gold-light);
+		--n-line: var(--stone-rule);
+		--n-hover: var(--hover-taupe);
+		--n-fill: var(--taupe);
+	}
 	.main {
 		display: flex;
 		flex-direction: column;
@@ -62,7 +100,7 @@ const description = lede ? excerpt(lede) : n.seo?.description;
 		font-size: 20px;
 		line-height: 34px;
 		letter-spacing: -0.4px;
-		color: var(--charcoal);
+		color: var(--n-text, var(--charcoal));
 	}
 	@media (max-width: 1399.98px) {
 		.lead {

@@ -30,7 +30,8 @@ const out = blocks.map((b) => {
 		font-size: 17px;
 		line-height: 29.75px;
 		letter-spacing: -0.34px;
-		color: var(--charcoal);
+		/* Mode colours come from the page (--n-*), paper by default. */
+		color: var(--n-text, var(--charcoal));
 	}
 	.body :global(> * + *) {
 		margin-block-start: 20px;
@@ -58,13 +59,13 @@ const out = blocks.map((b) => {
 	.body :global(blockquote) {
 		margin-block: 20px 0;
 		padding-inline-start: 20px;
-		border-inline-start: 2px solid var(--hairline);
+		border-inline-start: 2px solid var(--n-quote-line, var(--hairline));
 		font-weight: 400;
 		font-style: italic;
 		font-size: 16px;
 		line-height: 28.8px;
 		letter-spacing: normal;
-		color: #999999;
+		color: var(--n-quote, #999999);
 	}
 	.body :global(blockquote p + p) {
 		margin-block-start: 12px;
@@ -84,7 +85,7 @@ const out = blocks.map((b) => {
 		transition: color 200ms var(--ease-link);
 	}
 	.body :global(a:hover) {
-		color: var(--gold-dark);
+		color: var(--n-link-hover, var(--gold-dark));
 	}
 	@media (max-width: 1399.98px) {
 		.body :global(h3) {

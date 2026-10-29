@@ -1,4 +1,5 @@
 ---
+// Grey mode (shared page, see docs/rebuild-rules.md "Colour modes"): stone.
 import Base from "../../layouts/Base.astro";
 import Card from "../../components/Card.astro";
 import CtaBand from "../../components/CtaBand.astro";
@@ -10,8 +11,8 @@ const items = [...news].sort((a, b) => Number(a.order) - Number(b.order));
 const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[0]?.src ?? "/assets/news/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg";
 ---
 
-<Base title="News" description={page.seo.description} ogImage={items[0]?.cardImage?.src ?? cta} nav="grey" smooth>
-	<ListHeader title="News" />
+<Base title="News" description={page.seo.description} ogImage={items[0]?.cardImage?.src ?? cta} nav="black" bg="var(--stone)" fg="var(--stone-text)" smooth>
+	<ListHeader title="News" tone="stone" />
 	<section class="posts">
 		<div class="grid">
 			{
@@ -22,7 +23,7 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 						title={n.cardTitle.trim()}
 						date={n.cardDate}
 						ratio="1 / 1"
-						bg="var(--ink)"
+						bg="var(--stone)"
 						sizes="(min-width: 1400px) 25vw, (min-width: 810px) 50vw, 100vw"
 					/>
 				))
@@ -56,7 +57,7 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 		position: absolute;
 		inset: auto 0 0;
 		block-size: 1px;
-		background: var(--hairline);
+		background: var(--stone-text);
 		transform: translateX(-600px);
 		transition: transform 800ms var(--ease-spring);
 	}

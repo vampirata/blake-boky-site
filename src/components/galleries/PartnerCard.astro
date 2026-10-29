@@ -16,7 +16,7 @@ const { href, image, alt = "", title, date } = Astro.props;
 ---
 
 <a class="pcard" href={url(href)}>
-	<Img src={image} alt={alt} ratio="1 / 1" bg="var(--paper)" sizes="(min-width: 1400px) 33vw, (min-width: 810px) 50vw, 100vw" />
+	<Img src={image} alt={alt} ratio="1 / 1" bg="var(--pc-fill, var(--paper))" sizes="(min-width: 1400px) 33vw, (min-width: 810px) 50vw, 100vw" />
 	<div class="meta">
 		{date && <p class="card-date d"><time>{date}</time></p>}
 		<SplitTitle text={title} as="h3" class="card-title" />
@@ -29,7 +29,8 @@ const { href, image, alt = "", title, date } = Astro.props;
 		display: flex;
 		flex-direction: column;
 		min-inline-size: 0;
-		color: var(--black);
+		/* Page sets --pc-text / --pc-fill for its colour mode; paper by default. */
+		color: var(--pc-text, var(--black));
 		transition: transform 0.4s cubic-bezier(0.59, 0.02, 0.44, 1);
 	}
 	.pcard:hover {
@@ -39,7 +40,7 @@ const { href, image, alt = "", title, date } = Astro.props;
 		padding: 10px 12px 31px;
 	}
 	.d {
-		color: var(--black);
+		color: inherit;
 	}
 	/* Live: on desktop the bottom line waits off to the left and slides in on hover;
 	   below 1400 it is always shown. */
@@ -49,7 +50,7 @@ const { href, image, alt = "", title, date } = Astro.props;
 	.rule {
 		display: block;
 		block-size: 1px;
-		background: var(--hairline);
+		background: var(--pc-text, var(--hairline));
 		transform: translateX(-600px);
 		transition: transform 800ms var(--ease-spring);
 	}

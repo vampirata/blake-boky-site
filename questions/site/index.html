@@ -135,7 +135,7 @@ input:focus, textarea:focus { outline: none; border-bottom-color: var(--gold-lig
 </style>
 </head>
 <body>
-<form id="qform" method="post" enctype="multipart/form-data" novalidate>
+<form id="qform" novalidate onsubmit="return false">
 	<div class="app">
 		<div class="top">
 			<a class="brand" href="https://blake-boky.g58tnpr47h.workers.dev" target="_blank" rel="noopener">Blake &amp; Boky</a>
@@ -148,7 +148,6 @@ input:focus, textarea:focus { outline: none; border-bottom-color: var(--gold-lig
 			<button type="button" id="down" aria-label="Next question">&#8595;</button>
 		</div>
 	</div>
-	<div id="hidden-fields" hidden></div>
 	<div class="hp" aria-hidden="true"><input type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
 </form>
 
@@ -396,39 +395,46 @@ input:focus, textarea:focus { outline: none; border-bottom-color: var(--gold-lig
 		if (send) send.addEventListener("click", () => submit(s));
 	}
 
-	// Sends one email to Kait through FormSubmit: every answer as its own row,
-	// plus the files as attachments. The page then moves to /thanks.
-	function submit(s) {
+	// Sends one email to Kait (free, no account) through FormSubmit's AJAX
+	// endpoint: every answer as its own row, plus the files as attachments.
+	// If the service is unreachable, the visitor gets a prefilled email instead,
+	// so no answers are lost.
+	function asText(who) {
+		return `Answered by: ${who || "(no name given)"}\n\n` + Q.filter((q) => q.type !== "files").map((q, k) => `${k + 1}. ${q.q}\n${answerText(q) || "(skipped)"}`).join("\n\n");
+	}
+	async function submit(s) {
 		const who = s.querySelector("#who").value.trim();
 		answers._who = who;
 		persist();
-		const box = document.getElementById("hidden-fields");
-		box.innerHTML = "";
-		const add = (name, value) => {
-			const el = document.createElement("textarea");
-			el.name = name; el.value = value; box.appendChild(el);
-		};
-		add("_subject", `Blake & Boky website questions${who ? ": " + who : ""}`);
-		add("_template", "table");
-		add("_captcha", "false");
-		add("_next", THANKS);
-		add("Answered by", who || "(no name given)");
-		Q.forEach((q, k) => { if (q.type !== "files") add(`${String(k + 1).padStart(2, "0")}. ${q.q}`, answerText(q) || "(skipped)"); });
-		files.forEach((f, k) => {
-			const input = document.createElement("input");
-			input.type = "file";
-			input.name = k === 0 ? "attachment" : `attachment${k + 1}`;
-			const dt = new DataTransfer();
-			dt.items.add(f);
-			input.files = dt.files;
-			box.appendChild(input);
-		});
 		const state = document.getElementById("send-state");
+		const err = s.querySelector("[data-err]");
+		const btn = s.querySelector("[data-send]");
+		err.innerHTML = "";
 		state.textContent = "Sending...";
-		s.querySelector("[data-send]").disabled = true;
-		qform.action = `https://formsubmit.co/${SEND_TO}`;
-		try { localStorage.setItem(KEY + ":sent", new Date().toISOString()); } catch {}
-		qform.submit();
+		btn.disabled = true;
+		const fd = new FormData();
+		fd.append("_subject", `Blake & Boky website questions${who ? ": " + who : ""}`);
+		fd.append("_template", "table");
+		fd.append("_captcha", "false");
+		fd.append("_honey", qform.querySelector('[name="_honey"]').value);
+		fd.append("Answered by", who || "(no name given)");
+		Q.forEach((q, k) => { if (q.type !== "files") fd.append(`${String(k + 1).padStart(2, "0")}. ${q.q}`, answerText(q) || "(skipped)"); });
+		files.forEach((f, k) => fd.append(k === 0 ? "attachment" : `attachment${k + 1}`, f, f.name));
+		try {
+			const ctrl = new AbortController();
+			const t = setTimeout(() => ctrl.abort(), 30000);
+			const res = await fetch(`https://formsubmit.co/ajax/${SEND_TO}`, { method: "POST", body: fd, headers: { Accept: "application/json" }, signal: ctrl.signal });
+			clearTimeout(t);
+			const json = await res.json().catch(() => ({}));
+			if (!res.ok || String(json.success) !== "true") throw new Error(json.message || res.status);
+			try { localStorage.setItem(KEY + ":sent", new Date().toISOString()); } catch {}
+			location.href = THANKS;
+		} catch (e) {
+			btn.disabled = false;
+			state.textContent = "Your answers are saved on this device.";
+			const mail = `mailto:${SEND_TO}?subject=${encodeURIComponent("Blake & Boky website questions" + (who ? ": " + who : ""))}&body=${encodeURIComponent(asText(who))}`;
+			err.innerHTML = `Sending did not go through just now. You can try again in a minute, or <a href="${mail}" style="color:inherit">email your answers to ${SEND_TO}</a>${files.length ? " (attach your files to that email)" : ""}.`;
+		}
 	}
 
 	document.addEventListener("keydown", (e) => {

@@ -1,6 +1,7 @@
 ---
 // Collections index: Arrive header, 12 collection cards, pre-footer CTA band.
 // Template "collections" in docs/design-spec.md.
+// Grey mode (both artists, see docs/rebuild-rules.md "Colour modes"): stone.
 import Base from "../../layouts/Base.astro";
 import ArriveHeader from "../../components/ArriveHeader.astro";
 import Card from "../../components/Card.astro";
@@ -25,14 +26,16 @@ const cards = (page.cards as IndexCard[]).map((c) => ({ ...c, title: c.title.tri
 const title = cleanTitle(page.seo?.title, page.heading);
 ---
 
-<Base title={title} description={page.seo?.description} ogImage={page.cta?.image?.src} nav="grey" bg="var(--ink)" smooth>
-	<ArriveHeader title={page.heading} />
+<Base title={title} description={page.seo?.description} ogImage={page.cta?.image?.src} nav="black" bg="var(--stone)" fg="var(--stone-text)" smooth>
+	<div class="head">
+		<ArriveHeader title={page.heading} />
+	</div>
 	<section class="grid-wrap" aria-label="All collections">
 		<ul class="grid">
 			{
 				cards.map((c) => (
 					<li>
-						<Card href={c.href} image={c.image?.src} title={c.title} date={c.date} ratio="1 / 1" ratioTablet="9 / 16" ratioPhone="9 / 16" bg="var(--ink)" />
+						<Card href={c.href} image={c.image?.src} title={c.title} date={c.date} ratio="1 / 1" ratioTablet="9 / 16" ratioPhone="9 / 16" bg="var(--stone)" />
 					</li>
 				))
 			}
@@ -42,6 +45,12 @@ const title = cleanTitle(page.seo?.title, page.heading);
 </Base>
 
 <style>
+	.head :global(.arrive-title) {
+		color: var(--paper);
+	}
+	.head :global(.rule) {
+		background: var(--stone-rule);
+	}
 	.grid-wrap {
 		padding: 50px var(--gutter-grid) 150px;
 	}

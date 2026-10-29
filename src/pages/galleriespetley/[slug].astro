@@ -1,5 +1,6 @@
 ---
 // Template "gallery-detail": one gallery partner page.
+// Grey mode (shared page, see docs/rebuild-rules.md "Colour modes"): stone.
 import Base from "../../layouts/Base.astro";
 import Img from "../../components/Img.astro";
 import BackPill from "../../components/BackPill.astro";
@@ -42,8 +43,8 @@ const excerpt = (t: string, max = 155) => (t.length <= max ? t : t.slice(0, t.la
 const description = firstText ? excerpt(firstText) : `${g.title}, a gallery partner of Blake Ward and Boky Hackel-Ward.`;
 ---
 
-<Base title={g.title} description={description} ogImage={hero.src} nav="light" bg="var(--paper)" fg="var(--charcoal)">
-	<BackPill href={g.backLink?.href ?? "/galleriespetley"} label={backLabel} tone="light" />
+<Base title={g.title} description={description} ogImage={hero.src} nav="black" bg="var(--stone)" fg="var(--stone-text)">
+	<BackPill href={g.backLink?.href ?? "/galleriespetley"} label={backLabel} tone="dark" />
 
 	<section class="hero">
 		<p class="eyebrow e">{g.eyebrow}</p>
@@ -54,7 +55,7 @@ const description = firstText ? excerpt(firstText) : `${g.title}, a gallery part
 		<Img
 			src={hero.src}
 			alt={hero.alt || g.title}
-			bg="var(--paper)"
+			bg="var(--stone)"
 			eager
 			sizes="(min-width: 1400px) 1312px, 100vw"
 			style={`inline-size:min(100%, calc(80vh * ${ratio.toFixed(4)}));margin-inline:auto`}
@@ -74,7 +75,7 @@ const description = firstText ? excerpt(firstText) : `${g.title}, a gallery part
 		)
 	}
 
-	<ContactCta eyebrow="" />
+	<ContactCta eyebrow="" tone="dark" />
 </Base>
 
 <style>
@@ -85,10 +86,10 @@ const description = firstText ? excerpt(firstText) : `${g.title}, a gallery part
 		gap: 26px;
 		padding: 180px 32px 64px;
 		text-align: center;
-		color: var(--charcoal);
+		color: var(--paper);
 	}
 	.e {
-		color: var(--taupe);
+		color: var(--stone-text);
 	}
 	.image {
 		padding: 20px 64px 80px;
@@ -102,14 +103,14 @@ const description = firstText ? excerpt(firstText) : `${g.title}, a gallery part
 		gap: 32px;
 		padding: 80px 32px;
 	}
-	/* Live: a 1px #d8d2c6 rule on top of the info and Contact CTA sections,
-	   drawn inside the box (Framer ::after), so it adds no height. */
+	/* Live: a 1px rule on top of the info and Contact CTA sections, drawn
+	   inside the box (Framer ::after), so it adds no height. Grey mode: light hairline. */
 	.info,
 	:global(.ccta) {
-		box-shadow: inset 0 1px 0 #d8d2c6;
+		box-shadow: inset 0 1px 0 var(--stone-rule);
 	}
 	.body {
-		color: var(--taupe-2);
+		color: var(--stone-text);
 	}
 	.body :global(p + p) {
 		margin-block-start: 20px;
@@ -122,10 +123,10 @@ const description = firstText ? excerpt(firstText) : `${g.title}, a gallery part
 		font-size: 14.5px;
 		line-height: 23.2px;
 		letter-spacing: -0.29px;
-		color: var(--charcoal);
+		color: var(--paper);
 	}
 	.visit:hover {
-		color: var(--gold-dark);
+		color: var(--gold-light);
 	}
 	:global(.ccta .e:empty) {
 		display: none;
