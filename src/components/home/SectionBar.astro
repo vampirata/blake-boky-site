@@ -11,13 +11,15 @@ interface Props {
 	bg: string;
 	fg: string;
 	hoverBg: string;
+	/** Text colour on hover, for contrast on the hover fill. Defaults to fg. */
+	hoverFg?: string;
 	line?: string;
 	class?: string;
 }
-const { href, label, glyph = "ne", bg, fg, hoverBg, line = "currentColor", class: cls = "" } = Astro.props;
+const { href, label, glyph = "ne", bg, fg, hoverBg, hoverFg, line = "currentColor", class: cls = "" } = Astro.props;
 ---
 
-<a class:list={["bar", cls]} href={url(href)} style={`--bar-bg:${bg};--bar-fg:${fg};--bar-hover:${hoverBg};--bar-line:${line}`}>
+<a class:list={["bar", cls]} href={url(href)} style={`--bar-bg:${bg};--bar-fg:${fg};--bar-hover:${hoverBg};--bar-hover-fg:${hoverFg ?? fg};--bar-line:${line}`}>
 	<span class="in">
 		<span class="lbl">{label}</span>
 		<svg class="ico" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -37,7 +39,9 @@ const { href, label, glyph = "ne", bg, fg, hoverBg, line = "currentColor", class
 		padding: 50px 20px;
 		background: var(--bar-bg);
 		color: var(--bar-fg);
-		transition: background-color 500ms var(--ease-spring);
+		transition:
+			background-color 500ms var(--ease-spring),
+			color 500ms var(--ease-spring);
 	}
 	.in {
 		position: relative;
@@ -74,6 +78,7 @@ const { href, label, glyph = "ne", bg, fg, hoverBg, line = "currentColor", class
 	@media (hover: hover) and (min-width: 1400px) {
 		.bar:hover {
 			background: var(--bar-hover);
+			color: var(--bar-hover-fg);
 		}
 		.bar:hover .ico {
 			transform: rotate(0deg);
@@ -99,6 +104,7 @@ const { href, label, glyph = "ne", bg, fg, hoverBg, line = "currentColor", class
 		}
 		.bar:active {
 			background: var(--bar-hover);
+			color: var(--bar-hover-fg);
 		}
 	}
 </style>

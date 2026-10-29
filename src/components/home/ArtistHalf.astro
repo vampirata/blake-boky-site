@@ -30,6 +30,7 @@ const paper = p.tone === "paper";
 		bg={paper ? "var(--paper)" : "var(--ink)"}
 		fg={paper ? "var(--ink)" : "var(--hairline)"}
 		hoverBg={paper ? "var(--gold-light)" : "var(--gold)"}
+		hoverFg="var(--ink)"
 	/>
 	<div class="body">
 		<p class="eyebrow eb" data-reveal>{p.eyebrow}</p>
@@ -140,7 +141,9 @@ const paper = p.tone === "paper";
 		font-size: 26px;
 		line-height: 1.2;
 		letter-spacing: normal;
-		transition: background-color 400ms var(--ease-out);
+		transition:
+			background-color 400ms var(--ease-out),
+			color 400ms var(--ease-out);
 	}
 	.cta:focus-visible {
 		outline: 2px solid currentColor;
@@ -148,6 +151,9 @@ const paper = p.tone === "paper";
 	}
 	.cta:hover {
 		background: var(--cta-hover);
+		border-color: var(--cta-hover);
+		/* Ink on gold: about 8:1 contrast (light text on gold was under 2:1). */
+		color: var(--ink);
 	}
 	@media (max-width: 1399.98px) {
 		.portrait {
