@@ -1,0 +1,504 @@
+<title>Blake &amp; Boky Questions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap">
+<style>
+/* One question per screen, typeform style, in the Blake & Boky studio palette:
+   stone and paper, Cormorant for the questions, Inter for everything you touch. */
+:root {
+	--bg: #f5f2eb;
+	--panel: #ebe6db;
+	--fg: #1c1a17;
+	--muted: #6f6a61;
+	--line: #d8d2c6;
+	--accent: #9c7f4e;
+	--accent-ink: #ffffff;
+	--focus: #cca46c;
+	--display: "Cormorant Garamond", "Times New Roman", serif;
+	--body: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--bg: #1a1916; --panel: #24221e; --fg: #f1ece2; --muted: #b4aea3; --line: #3a3732;
+		--accent: #e3caa6; --accent-ink: #1a1916; --focus: #e3caa6; color-scheme: dark;
+	}
+}
+:root[data-theme="dark"] {
+	--bg: #1a1916; --panel: #24221e; --fg: #f1ece2; --muted: #b4aea3; --line: #3a3732;
+	--accent: #e3caa6; --accent-ink: #1a1916; --focus: #e3caa6; color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+	background: var(--bg); color: var(--fg); font-family: var(--body); font-weight: 300;
+	font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; overflow: hidden;
+}
+.app { height: 100%; display: flex; flex-direction: column; }
+.top {
+	display: flex; align-items: center; justify-content: space-between; gap: 16px;
+	padding-block: 18px 0;
+	padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px));
+	font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+}
+.brand { font-family: var(--display); font-size: 20px; letter-spacing: 0; text-transform: none; color: var(--fg); font-weight: 500; }
+.saved { min-width: 7em; text-align: right; }
+.bar { height: 2px; background: var(--line); margin-top: 14px; }
+.bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .5s cubic-bezier(.22,1,.36,1); }
+.stage { flex: 1; position: relative; overflow: hidden; }
+.slide {
+	position: absolute; inset: 0; overflow-y: auto; display: flex; align-items: center;
+	padding-block: 32px 120px;
+	padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px));
+	transition: transform .6s cubic-bezier(.22,1,.36,1), opacity .45s ease;
+}
+.slide[data-pos="next"] { transform: translateY(40px); opacity: 0; pointer-events: none; }
+.slide[data-pos="prev"] { transform: translateY(-40px); opacity: 0; pointer-events: none; }
+.inner { width: 100%; max-width: 720px; margin-inline: auto; display: grid; gap: 22px; }
+.qnum { display: flex; align-items: center; gap: 8px; color: var(--accent); font-size: 14px; font-weight: 500; }
+.qnum small { color: var(--muted); font-weight: 300; letter-spacing: .08em; text-transform: uppercase; font-size: 11px; }
+h1, h2 { font-family: var(--display); font-weight: 500; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(40px, 7vw, 68px); line-height: 1.04; }
+h2 { font-size: clamp(28px, 4.6vw, 42px); line-height: 1.12; }
+.help { color: var(--muted); max-width: 62ch; margin: 0; }
+.ctx {
+	border-left: 2px solid var(--accent); padding: 4px 0 4px 16px; margin: 0;
+	font-family: var(--display); font-style: italic; font-size: 21px; line-height: 1.45; color: var(--fg);
+}
+.where { font-size: 12px; color: var(--muted); letter-spacing: .04em; }
+.where a { color: inherit; }
+.choices { display: grid; gap: 10px; max-width: 520px; }
+.choice {
+	display: flex; align-items: center; gap: 14px; width: 100%; text-align: left;
+	padding: 12px 16px; border: 1px solid var(--line); background: var(--panel); color: var(--fg);
+	font: inherit; font-weight: 400; cursor: pointer; border-radius: 4px;
+	transition: border-color .2s, background-color .2s, transform .15s;
+}
+.choice:hover { border-color: var(--accent); }
+.choice:active { transform: scale(.99); }
+.choice .key {
+	flex: none; width: 24px; height: 24px; display: grid; place-items: center;
+	border: 1px solid var(--line); font-size: 11px; font-weight: 500; border-radius: 3px; color: var(--muted);
+}
+.choice[aria-checked="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, var(--panel)); }
+.choice[aria-checked="true"] .key { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.field { display: grid; gap: 6px; }
+.field label { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+input[type="text"], input[type="url"], input[type="email"], textarea {
+	width: 100%; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--fg);
+	font-family: var(--display); font-size: 26px; line-height: 1.35; padding: 6px 0 8px; border-radius: 0;
+	transition: border-color .2s;
+}
+textarea { resize: none; min-height: 3.2em; overflow: hidden; }
+input::placeholder, textarea::placeholder { color: var(--muted); opacity: .55; }
+input:focus, textarea:focus { outline: none; border-bottom-color: var(--accent); }
+.choice:focus-visible, .btn:focus-visible, .nav button:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.btn {
+	display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border: 0; border-radius: 4px;
+	background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 500; cursor: pointer;
+	transition: filter .2s, transform .15s;
+}
+.btn:hover { filter: brightness(1.06); }
+.btn:active { transform: scale(.98); }
+.btn.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+.hint { font-size: 12px; color: var(--muted); }
+.hint b { font-weight: 500; }
+.nav {
+	position: absolute; right: max(24px, env(safe-area-inset-right, 0px)); bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+	display: flex; gap: 2px; z-index: 2;
+}
+.nav button {
+	width: 40px; height: 36px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; font-size: 16px;
+}
+.nav button:first-child { border-radius: 4px 0 0 4px; }
+.nav button:last-child { border-radius: 0 4px 4px 0; }
+.nav button:disabled { opacity: .35; cursor: default; }
+.err { color: #b0442c; font-size: 13px; min-height: 1.2em; margin: 0; }
+:root[data-theme="dark"] .err { color: #f0a08c; }
+.summary { display: grid; gap: 0; border-top: 1px solid var(--line); max-height: 46vh; overflow-y: auto; }
+.summary div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.summary dt { color: var(--muted); margin: 0; }
+.summary dd { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.summary .empty { color: var(--muted); font-style: italic; }
+.copybox { width: 100%; min-height: 8em; font-family: var(--body); font-size: 13px; border: 1px solid var(--line); padding: 10px; background: var(--panel); color: var(--fg); }
+@media (max-width: 600px) {
+	.summary div { grid-template-columns: 1fr; gap: 2px; }
+	input[type="text"], input[type="url"], input[type="email"], textarea { font-size: 22px; }
+	.ctx { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) { .slide, .bar i { transition: none; } }
+</style>
+
+<div class="app">
+	<div class="top">
+		<span class="brand">Blake &amp; Boky</span>
+		<span class="saved" id="saved" aria-live="polite"></span>
+	</div>
+	<div class="bar" aria-hidden="true"><i id="bar"></i></div>
+	<div class="stage" id="stage"></div>
+	<div class="nav">
+		<button type="button" id="up" aria-label="Previous question">&#8593;</button>
+		<button type="button" id="down" aria-label="Next question">&#8595;</button>
+	</div>
+</div>
+
+<!-- Questions for the client. To reuse for another project, replace this JSON. -->
+<script type="application/json" id="form-data">
+{
+	"id": "blake-boky-2026-10",
+	"title": "A few questions before your new website goes live",
+	"intro": "We rebuilt blakeandboky.com in code, matched to the current design. Along the way we found a handful of things only you can answer. It takes about 8 minutes, your answers save as you go, and you can skip anything you are unsure about.",
+	"preview": "https://blake-boky.g58tnpr47h.workers.dev",
+	"questions": [
+		{ "id": "stats", "type": "choice", "q": "Are these the right figures for the counters on the home page?",
+			"ctx": "78+ exhibitions · 12 collections · 350+ sculptures made · 29 countries exhibited in",
+			"help": "On the old site the counters never stopped counting, so we took these numbers from its settings.", "where": "/",
+			"options": ["Yes, these are right", { "label": "No, please use these figures", "input": "e.g. 80+ exhibitions, 12 collections, 360+ sculptures, 30 countries" }] },
+		{ "id": "boky_figures", "type": "long", "q": "What are Boky's own exhibition countries and figures?",
+			"help": "Boky's biography currently shows exactly the same countries and numbers as Blake's (4 major collections, 13 countries). If hers are different, list them here.", "where": "/boky-bio",
+			"placeholder": "Countries, number of collections, anything else to show" },
+		{ "id": "boky_1991", "type": "long", "q": "How should this sentence in Boky's timeline end?",
+			"ctx": "1991 to 1996: ...exploring photography, film and the art market. Working between", "where": "/boky-bio",
+			"placeholder": "Working between ..." },
+		{ "id": "boky_london", "type": "choice", "q": "Is this timeline entry complete?",
+			"ctx": "1985 to 1987: Boky moves to London", "where": "/boky-bio",
+			"options": ["Yes, that is the whole entry", { "label": "No, it continues", "input": "The rest of the entry" }] },
+		{ "id": "spirit_intro", "type": "long", "q": "How does the Spirit Collection introduction continue?",
+			"ctx": "The collaborative process started in 2011 with Angel NUMBER 1 ... and continued into",
+			"help": "The old page ended in an unfinished note (\"ect;;;\"), so the text now stops after Angel NUMBER 1.", "where": "/collections/spirit-collection",
+			"placeholder": "...and continued into" },
+		{ "id": "rethink", "type": "choice", "q": "Where should the Rethink Collection card lead?",
+			"help": "There is no Rethink page yet. The old card opened Boky's In Lucem page by mistake; it now opens Blake's \"in preparation\" page.", "where": "/collections",
+			"options": ["Blake's in preparation page (as now)", "Hide the card until a Rethink page exists", { "label": "Somewhere else", "input": "Where should it go?" }] },
+		{ "id": "news_dates", "type": "fields", "q": "When was each news article published?",
+			"help": "All five articles show 24 Nov 2025 at the moment. Leave a field empty to keep that date.", "where": "/news",
+			"fields": [
+				{ "id": "walls", "label": "Invoco Te Divina Stella / When walls become words", "placeholder": "e.g. 12 March 2025" },
+				{ "id": "fragments", "label": "Fragments of Infinity", "placeholder": "Date" },
+				{ "id": "voids", "label": "The weight of empty space", "placeholder": "Date" },
+				{ "id": "hope", "label": "Sculptures symbolising hope", "placeholder": "Date" },
+				{ "id": "atlantes", "label": "Les Atlantes, Fontvieille", "placeholder": "Date" }
+			] },
+		{ "id": "chicago", "type": "choice", "q": "Do you have the video for the Chicago Interview?",
+			"help": "The page showed an internal note (\"Video pending upload\"), which we have hidden for now.", "where": "/past-works/chicago-interview-2019",
+			"options": [{ "label": "Yes, here is the link", "input": "https://", "kind": "url" }, "Not yet, keep the page without video", "Remove this page"] },
+		{ "id": "spellings", "type": "fields", "q": "Should we correct these spellings?",
+			"help": "We kept them exactly as written on the old site. Edit any that should change, or leave them as they are.",
+			"fields": [
+				{ "id": "hope", "label": "Article title", "value": "Sculptures Symbolisiing Hope" },
+				{ "id": "fontvieille", "label": "Place name", "value": "Fontveille" },
+				{ "id": "atlantes", "label": "Work title", "value": "Les Atlantes 1004" }
+			] },
+		{ "id": "gallery_urls", "type": "fields", "q": "What are the websites for these two galleries?",
+			"help": "Their \"Visit gallery website\" buttons are hidden until we have an address.", "where": "/galleriespetley",
+			"fields": [
+				{ "id": "art_fairs", "label": "Art Fairs and Salons", "placeholder": "https://", "kind": "url" },
+				{ "id": "petley_jones", "label": "Petley Jones Gallery", "placeholder": "https://", "kind": "url" }
+			] },
+		{ "id": "petley_text", "type": "long", "q": "What should the Petley Jones page say?",
+			"help": "Its description was placeholder text (\"hhh\"), so the section is hidden for now. A few sentences about the gallery and your work with them is perfect.", "where": "/galleriespetley/petley-jones",
+			"placeholder": "About Petley Jones Gallery ..." },
+		{ "id": "boky_wiki", "type": "choice", "q": "Does Boky have a Wikipedia page?",
+			"help": "The footer had a Wikipedia link for Boky that went nowhere, so we removed it.",
+			"options": [{ "label": "Yes, here it is", "input": "https://", "kind": "url" }, "No, leave it out"] },
+		{ "id": "contact_email", "type": "short", "kind": "email", "q": "Which email address should receive messages from the contact form?",
+			"help": "We will connect the form so messages arrive in this inbox directly. Until then, the form opens the visitor's own email app.", "where": "/contact",
+			"placeholder": "name@example.com" },
+		{ "id": "contrast", "type": "choice", "q": "Should we make some of the small grey text easier to read?",
+			"help": "A few small labels and captions are light grey on grey, as on the old site. Slightly darker text would read better, especially on phones.",
+			"options": ["Yes, improve readability a little", "No, keep the colours exactly as they are"] },
+		{ "id": "wide_works", "type": "choice", "q": "Wide artworks in tall cards: show the whole piece, or fill the card?",
+			"help": "A few wide pieces (like In Lucem and Figurative Poetry) sit in the middle of a tall card with their backdrop colour around them, so nothing is cut. Filling the card would crop the sides of the piece.", "where": "/collections",
+			"options": ["Show the whole piece (as now)", "Fill the card, a little cropping is fine"] },
+		{ "id": "anything_else", "type": "long", "q": "Anything else you would like changed?", "optional": true,
+			"help": "Open the new site and note anything here, with the page if you can.",
+			"placeholder": "Page and what to change" }
+	]
+}
+</script>
+
+<script>
+(() => {
+	const form = JSON.parse(document.getElementById("form-data").textContent);
+	const Q = form.questions;
+	const KEY = "answers:" + form.id;
+	let answers = {};
+	try { answers = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch {}
+	let i = 0; // 0 = welcome, 1..n = questions, n+1 = review
+	const N = Q.length;
+	const stage = document.getElementById("stage");
+	const bar = document.getElementById("bar");
+	const saved = document.getElementById("saved");
+	const letters = "ABCDEFGH";
+	let ref = null;
+
+	const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+	const opt = (o) => (typeof o === "string" ? { label: o } : o);
+	const where = (q) => q.where ? `<p class="where">On the site: <a href="${esc(form.preview + q.where)}" target="_blank" rel="noopener">${esc(q.where === "/" ? "home page" : q.where)}</a></p>` : "";
+
+	function answerText(q) {
+		const a = answers[q.id];
+		if (a == null || a === "") return "";
+		if (q.type === "fields") return q.fields.map((f) => a[f.id] ? `${f.label}: ${a[f.id]}` : "").filter(Boolean).join("\n");
+		if (q.type === "choice") return a.choice + (a.text ? `: ${a.text}` : "");
+		return String(a);
+	}
+
+	function render() {
+		stage.innerHTML = "";
+		const slides = [welcome(), ...Q.map(question), review()];
+		slides.forEach((html, k) => {
+			const s = document.createElement("section");
+			s.className = "slide";
+			s.innerHTML = `<div class="inner">${html}</div>`;
+			s.dataset.k = k;
+			stage.appendChild(s);
+		});
+		wire();
+		go(i, true);
+	}
+
+	function welcome() {
+		const done = Q.filter((q) => answerText(q)).length;
+		return `
+			<p class="qnum"><small>Website rebuild · ${N} questions</small></p>
+			<h1>${esc(form.title)}</h1>
+			<p class="help">${esc(form.intro)}</p>
+			<div class="row">
+				<button class="btn" type="button" data-next>${done ? "Continue where you left off" : "Start"} <span aria-hidden="true">&#8594;</span></button>
+				<span class="hint">press <b>Enter</b></span>
+			</div>
+			<p class="where">New site preview: <a href="${esc(form.preview)}" target="_blank" rel="noopener">${esc(form.preview.replace(/^https:\/\//, ""))}</a></p>`;
+	}
+
+	function question(q, n) {
+		const a = answers[q.id];
+		let body = "";
+		if (q.type === "choice") {
+			body = `<div class="choices" role="radiogroup" aria-label="${esc(q.q)}">` + q.options.map((o, k) => {
+				o = opt(o);
+				const on = a && a.choice === o.label;
+				return `<button type="button" class="choice" role="radio" aria-checked="${on}" data-choice="${esc(o.label)}" data-input="${o.input ? 1 : ""}"><span class="key">${letters[k]}</span><span>${esc(o.label)}</span></button>`;
+			}).join("") + `</div>` + q.options.map(opt).filter((o) => o.input).map((o) => `
+				<div class="field" data-for="${esc(o.label)}" ${a && a.choice === o.label ? "" : "hidden"}>
+					<input id="${q.id}-text" type="${o.kind === "url" ? "url" : "text"}" placeholder="${esc(o.input)}" value="${esc(a && a.choice === o.label ? a.text || "" : "")}" autocomplete="off">
+				</div>`).join("");
+		} else if (q.type === "fields") {
+			body = q.fields.map((f) => `
+				<div class="field">
+					<label for="${q.id}-${f.id}">${esc(f.label)}</label>
+					<input id="${q.id}-${f.id}" data-field="${f.id}" type="${f.kind === "url" ? "url" : "text"}" placeholder="${esc(f.placeholder || "")}" value="${esc((a && a[f.id]) ?? f.value ?? "")}" autocomplete="off">
+				</div>`).join("");
+		} else if (q.type === "short") {
+			body = `<div class="field"><input aria-labelledby="h-${q.id}" id="${q.id}-in" type="${q.kind || "text"}" placeholder="${esc(q.placeholder || "")}" value="${esc(a || "")}" autocomplete="off"></div>`;
+		} else {
+			body = `<div class="field"><textarea aria-labelledby="h-${q.id}" id="${q.id}-in" rows="1" placeholder="${esc(q.placeholder || "Type your answer here")}">${esc(a || "")}</textarea></div>`;
+		}
+		const keyHint = q.type === "long" ? "<b>Shift + Enter</b> for a new line" : q.type === "choice" ? `press <b>${letters.slice(0, q.options.length).split("").join("</b>, <b>")}</b>` : "press <b>Enter</b>";
+		return `
+			<p class="qnum">${n + 1} <span aria-hidden="true">&#8594;</span> <small>of ${N}</small></p>
+			<h2 id="h-${q.id}">${esc(q.q)}</h2>
+			${q.ctx ? `<p class="ctx">${esc(q.ctx)}</p>` : ""}
+			${q.help ? `<p class="help">${esc(q.help)}</p>` : ""}
+			${body}
+			<p class="err" data-err></p>
+			<div class="row">
+				<button class="btn" type="button" data-next>OK <span aria-hidden="true">&#10003;</span></button>
+				<button class="btn ghost" type="button" data-skip>Skip</button>
+				<span class="hint">${keyHint}</span>
+			</div>
+			${where(q)}`;
+	}
+
+	function review() {
+		const rows = Q.map((q, k) => {
+			const t = answerText(q);
+			return `<div><dt>${k + 1}. ${esc(q.q)}</dt><dd>${t ? esc(t) : '<span class="empty">Skipped</span>'}</dd></div>`;
+		}).join("");
+		return `
+			<p class="qnum"><small>Review</small></p>
+			<h2>Thank you. Here is what you told us.</h2>
+			<p class="help" id="send-state">Your answers are saved as you go. Use the arrows to change anything, then send them.</p>
+			<dl class="summary">${rows}</dl>
+			<div class="row">
+				<button class="btn" type="button" data-send>Send answers <span aria-hidden="true">&#8594;</span></button>
+				<button class="btn ghost" type="button" data-copy>Copy answers as text</button>
+			</div>
+			<textarea class="copybox" id="copybox" readonly hidden aria-label="Answers as text"></textarea>`;
+	}
+
+	function collect(q, s) {
+		if (!q) return;
+		if (q.type === "choice") {
+			const on = s.querySelector('.choice[aria-checked="true"]');
+			if (!on) return;
+			const label = on.dataset.choice;
+			const box = s.querySelector(`.field[data-for="${CSS.escape(label)}"] input`);
+			answers[q.id] = { choice: label, text: box ? box.value.trim() : "" };
+		} else if (q.type === "fields") {
+			const v = {};
+			s.querySelectorAll("[data-field]").forEach((el) => { v[el.dataset.field] = el.value.trim(); });
+			answers[q.id] = v;
+		} else {
+			const el = s.querySelector("input, textarea");
+			answers[q.id] = el.value.trim();
+		}
+	}
+
+	function validate(q, s) {
+		const err = s.querySelector("[data-err]");
+		err.textContent = "";
+		const bad = [...s.querySelectorAll('input[type="url"], input[type="email"]')].find((el) => el.value.trim() && el.value.trim() !== "https://" && !el.checkValidity());
+		if (bad) {
+			err.textContent = bad.type === "email" ? "That email address looks incomplete. Check it or leave it empty." : "That link looks incomplete. It should start with https://";
+			bad.focus();
+			return false;
+		}
+		s.querySelectorAll('input[type="url"]').forEach((el) => { if (el.value.trim() === "https://") el.value = ""; });
+		return true;
+	}
+
+	function persist() {
+		try { localStorage.setItem(KEY, JSON.stringify(answers)); } catch {}
+		if (!ref) return;
+		saved.textContent = "Saving";
+		ref.set({ form: form.id, answers, updatedAt: new Date().toISOString(), status: "draft" })
+			.then(() => { saved.textContent = "Saved"; })
+			.catch(() => { saved.textContent = "Saved on this device"; });
+	}
+
+	function go(k, instant) {
+		i = Math.max(0, Math.min(N + 1, k));
+		[...stage.children].forEach((s) => {
+			const sk = +s.dataset.k;
+			s.dataset.pos = sk === i ? "now" : sk < i ? "prev" : "next";
+			s.setAttribute("aria-hidden", sk === i ? "false" : "true");
+			s.inert = sk !== i;
+		});
+		bar.style.width = `${(Math.min(i, N) / N) * 100}%`;
+		document.getElementById("up").disabled = i === 0;
+		document.getElementById("down").disabled = i === N + 1;
+		const cur = stage.children[i];
+		setTimeout(() => {
+			const inputs = [...cur.querySelectorAll("textarea:not([readonly]), input")].filter((el) => !el.closest("[hidden]"));
+			const f = inputs[0] || cur.querySelector(".choice[aria-checked='true']") || cur.querySelector(".choice") || cur.querySelector("[data-next]");
+			if (f && !instant) f.focus({ preventScroll: true });
+		}, instant ? 0 : 420);
+	}
+
+	function next(skip) {
+		const cur = stage.children[i];
+		const q = Q[i - 1];
+		if (q && !skip) {
+			if (!validate(q, cur)) return;
+			collect(q, cur);
+			persist();
+		}
+		if (i === N) {
+			// Rebuild the review with the latest answers.
+			const rev = stage.children[N + 1];
+			rev.querySelector(".inner").innerHTML = review();
+			wireSlide(rev);
+		}
+		go(i + 1);
+	}
+
+	function choose(btn) {
+		const s = btn.closest(".slide");
+		s.querySelectorAll(".choice").forEach((b) => b.setAttribute("aria-checked", String(b === btn)));
+		s.querySelectorAll(".field[data-for]").forEach((f) => { f.hidden = f.dataset.for !== btn.dataset.choice; });
+		if (btn.dataset.input) {
+			const inp = s.querySelector(`.field[data-for="${CSS.escape(btn.dataset.choice)}"] input`);
+			setTimeout(() => inp && inp.focus(), 50);
+		} else {
+			setTimeout(() => next(), 380);
+		}
+	}
+
+	function grow(t) { t.style.height = "auto"; t.style.height = t.scrollHeight + "px"; }
+
+	function wireSlide(s) {
+		s.querySelectorAll("[data-next]").forEach((b) => b.addEventListener("click", () => next()));
+		s.querySelectorAll("[data-skip]").forEach((b) => b.addEventListener("click", () => next(true)));
+		s.querySelectorAll(".choice").forEach((b) => b.addEventListener("click", () => choose(b)));
+		s.querySelectorAll("textarea:not([readonly])").forEach((t) => { grow(t); t.addEventListener("input", () => grow(t)); });
+		const send = s.querySelector("[data-send]");
+		if (send) send.addEventListener("click", submit);
+		const copy = s.querySelector("[data-copy]");
+		if (copy) copy.addEventListener("click", copyText);
+	}
+	function wire() { [...stage.children].forEach(wireSlide); }
+
+	function asText() {
+		return `${form.title}\n\n` + Q.map((q, k) => `${k + 1}. ${q.q}\n${answerText(q) || "(skipped)"}`).join("\n\n");
+	}
+	function copyText() {
+		const box = document.getElementById("copybox");
+		box.value = asText();
+		box.hidden = false;
+		const done = () => { document.getElementById("send-state").textContent = "Copied. Paste it into an email to Kait."; };
+		try {
+			navigator.clipboard.writeText(box.value).then(done, () => { box.select(); document.getElementById("send-state").textContent = "Select all and copy the text below, then paste it into an email to Kait."; });
+		} catch { box.select(); }
+	}
+	async function submit() {
+		const state = document.getElementById("send-state");
+		if (!ref) {
+			state.textContent = "Sending is not available in this view. Copy your answers and email them to Kait instead.";
+			copyText();
+			return;
+		}
+		state.textContent = "Sending...";
+		try {
+			await ref.set({ form: form.id, answers, updatedAt: new Date().toISOString(), status: "sent" });
+			state.textContent = "Sent. Thank you, Kait has your answers. You can still change them and send again.";
+			saved.textContent = "Sent";
+		} catch {
+			state.textContent = "Your answers could not be sent from here. Copy them and email them to Kait instead.";
+			copyText();
+		}
+	}
+
+	document.addEventListener("keydown", (e) => {
+		const t = e.target;
+		const typing = t.matches && t.matches("input, textarea");
+		if (e.key === "Enter" && !e.shiftKey && !(t.tagName === "BUTTON")) {
+			if (i === N + 1) return;
+			e.preventDefault();
+			next();
+			return;
+		}
+		if (typing) return;
+		const q = Q[i - 1];
+		if (q && q.type === "choice" && /^[a-h]$/i.test(e.key)) {
+			const b = stage.children[i].querySelectorAll(".choice")[letters.indexOf(e.key.toUpperCase())];
+			if (b) { e.preventDefault(); choose(b); }
+		}
+		if (e.key === "ArrowDown" || e.key === "PageDown") { e.preventDefault(); next(true); }
+		if (e.key === "ArrowUp" || e.key === "PageUp") { e.preventDefault(); go(i - 1); }
+	});
+	document.getElementById("up").addEventListener("click", () => go(i - 1));
+	document.getElementById("down").addEventListener("click", () => next(true));
+
+	render();
+
+	// Shared answers: each signed-in respondent writes one document, the owner reads them all.
+	(async () => {
+		const c = window.claude;
+		if (!c || !c.use) { saved.textContent = "Saved on this device"; return; }
+		try {
+			const [db, user] = await Promise.all([c.use("db"), c.use("user")]);
+			if (!db || !user) { saved.textContent = "Saved on this device"; return; }
+			const id = await user.id();
+			if (!id) { saved.textContent = "Saved on this device"; return; }
+			ref = db.doc("responses/" + id);
+			const snap = await ref.get();
+			const remote = snap && snap.exists ? snap.data() : null;
+			if (remote && remote.answers && !Object.keys(answers).length) {
+				answers = remote.answers;
+				const k = i; render(); go(k, true);
+			}
+			saved.textContent = remote ? "Saved" : "";
+		} catch { saved.textContent = "Saved on this device"; }
+	})();
+})();
+</script>
