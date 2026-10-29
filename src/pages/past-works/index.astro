@@ -45,8 +45,9 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 	.wrap {
 		padding: 0 32px 100px;
 	}
+	/* Live pulls the title up into the hairline (-10px); give it room instead. */
 	.intro {
-		margin-block-start: -10px;
+		margin-block-start: 72px;
 		padding-block-end: 68px;
 	}
 	.ttl {
@@ -82,7 +83,7 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 			padding-inline: 26px;
 		}
 		.intro {
-			margin-block-start: -6px;
+			margin-block-start: 56px;
 		}
 		.it {
 			margin-block-start: 22px;
@@ -100,6 +101,7 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 			padding-inline: 0;
 		}
 		.intro {
+			margin-block-start: 40px;
 			padding-inline: 12px;
 			padding-block-end: 70px;
 		}

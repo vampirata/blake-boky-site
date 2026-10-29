@@ -170,3 +170,4 @@ Rule (docs/rebuild-rules.md): Blake = paper, Boky = ink, both together = stone, 
 - Exhibitions & Galleries (index and the 4 gallery pages) went back to the white paper look after review: it reads better white (Kait, 29 Oct 2026).
 - Contact went back to its original white look after review (Kait, 29 Oct 2026).
 - Collections index, News (index and articles) and 404 went back to their original colours after review: Kait prefers the black (29 Oct 2026).
+- Past Works index: the title touched the hairline above it (live pulled it up 10px). It now has 72 / 56 / 40px of room (desktop / tablet / phone).
