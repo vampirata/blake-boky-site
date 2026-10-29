@@ -130,3 +130,21 @@ Polish pass:
 - Past work detail: Year and Medium each get their own top rule like live, and the description, source line and View original button use the live spacing and widths.
 - Galleries index: the partner logo multiplies onto the paper like live (no white box); every section carries the live 1px #d8d2c6 top rule; partner card lines slide in on hover on desktop; exhibition titles wrap at 284px on tablet like live.
 - Gallery detail: 1px #d8d2c6 rule on top of the info and Contact CTA sections like live; "Opening Hours:" in the body colour; spacer paragraphs between paragraphs are kept (live spacing) and only leading or trailing empty ones are dropped.
+
+## Bug hunt, 29 Oct 2026
+
+Fixed:
+- Menu was taller than the screen on a phone held sideways, so "Contact" was unreachable. It now fits and scrolls.
+- Menu stayed open after tabbing past its last link. It now closes.
+- Home counters used a screen reader label that is not allowed on that element.
+- Image viewer did not close when clicking the dark area around the image.
+- Image strip could jump by one pixel where the loop restarts; it can now also be used with the keyboard.
+- News article "When walls become words": the "In Lucem Aurum" link led to a missing page (also broken on live).
+- Chicago Interview showed an editor note ("Video pending upload ...") on the public page (also on live). Hidden.
+- Duplicate page titles and descriptions across past works, news and galleries. Each page now has its own; every page has a share image.
+- Content that fades in on scroll now shows immediately when reached with the keyboard.
+- Addresses: served without a trailing slash, the same as the Framer site, with no extra redirect.
+
+For the client (kept 1:1 with the live design):
+- Some small text uses the original low contrast colours (light grey on the stone background, pale grey quotes, the gold "coming soon" eyebrow). Raising the contrast would help readability and accessibility; it is a design decision for the client.
+- Links inside artwork text look the same as body text until hovered (live style).
