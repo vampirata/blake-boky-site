@@ -138,7 +138,6 @@ for (const o of options) {
 </script>
 
 <style>
-	/* Grey mode (the contact page sits on stone): light fields, gold focus. */
 	.cform {
 		display: flex;
 		flex-direction: column;
@@ -154,7 +153,7 @@ for (const o of options) {
 		gap: 11px;
 	}
 	.lab {
-		color: var(--stone-text);
+		color: var(--ink);
 	}
 	input,
 	textarea,
@@ -165,7 +164,7 @@ for (const o of options) {
 		font-weight: 400;
 		line-height: 24px;
 		letter-spacing: 0;
-		color: var(--paper);
+		color: var(--charcoal);
 		background: transparent;
 		border: 0;
 		border-radius: 0;
@@ -175,10 +174,8 @@ for (const o of options) {
 	textarea {
 		/* Live: 24px text line with 10px above and below, hairline under. */
 		padding: 10px 0;
-		border-block-end: 1px solid var(--stone-muted);
-		transition:
-			border-color 200ms var(--ease-link),
-			box-shadow 200ms var(--ease-link);
+		border-block-end: 1px solid var(--hairline);
+		transition: border-color 200ms var(--ease-link);
 	}
 	textarea {
 		block-size: 120px;
@@ -186,35 +183,28 @@ for (const o of options) {
 	}
 	input:focus,
 	textarea:focus {
-		border-color: var(--gold-light);
-		box-shadow: 0 1px 0 var(--gold-light);
+		border-color: var(--charcoal);
 	}
 	::placeholder {
-		color: var(--stone-muted);
-		opacity: 0.85;
+		color: var(--taupe-2);
+		opacity: 1;
 	}
 	.sel {
 		position: relative;
-		color: var(--paper);
+		color: var(--charcoal);
 	}
 	select {
 		appearance: none;
 		-webkit-appearance: none;
 		block-size: 44px;
 		padding: 0 40px 0 16px;
-		background: var(--stone-deep);
+		background: #f4f4f4;
 		border-radius: 8px;
-		border: 1px solid var(--stone-rule);
+		border-block-end: 1px solid var(--hairline);
 		cursor: pointer;
 	}
-	/* The open list is drawn by the system: keep it dark text on paper. */
-	select option,
-	select optgroup {
-		color: var(--charcoal);
-		background: var(--paper);
-	}
 	select:focus-visible {
-		outline: 1px solid var(--gold-light);
+		outline: 1px solid var(--charcoal);
 		outline-offset: 2px;
 	}
 	.chev {
@@ -225,7 +215,7 @@ for (const o of options) {
 		block-size: 12px;
 		translate: 0 -50%;
 		pointer-events: none;
-		color: var(--stone-text);
+		color: var(--taupe);
 	}
 	.hp {
 		position: absolute;
@@ -240,27 +230,22 @@ for (const o of options) {
 		align-self: center;
 		margin-block-start: 12px;
 		padding: 14px 39px;
-		border: 1px solid var(--paper);
+		border: 1px solid var(--charcoal);
 		font-family: var(--font-body);
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 16.8px;
 		letter-spacing: 1.92px;
 		text-transform: uppercase;
-		color: var(--paper);
+		color: var(--charcoal);
 		transition:
 			background-color 300ms var(--ease-out),
 			color 300ms var(--ease-out),
 			border-color 300ms var(--ease-out);
 	}
 	.send:hover {
-		background: var(--gold);
-		border-color: var(--gold);
-		color: var(--ink);
-	}
-	.send:focus-visible {
-		outline: 1px solid var(--gold-light);
-		outline-offset: 3px;
+		background: var(--charcoal);
+		color: var(--white);
 	}
 	.send:disabled {
 		opacity: 0.6;
@@ -268,10 +253,10 @@ for (const o of options) {
 	}
 	.status {
 		text-align: center;
-		color: var(--paper);
+		color: var(--charcoal);
 	}
 	.status[data-kind="error"] {
-		color: #ffc4b8;
+		color: #8a2b20;
 	}
 	.status :global(a) {
 		text-decoration: underline;
