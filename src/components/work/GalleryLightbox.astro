@@ -377,6 +377,10 @@ const full = images.map((im) => img(im.src));
 			b.addEventListener("click", () => show(index + Number(b.dataset.step)))
 		);
 		dlg.querySelector("[data-close]")?.addEventListener("click", close);
+		// A click on the dark surround (outside the stage and the buttons) closes too.
+		dlg.addEventListener("click", (e) => {
+			if (e.target === dlg) close();
+		});
 
 		dlg.addEventListener("keydown", (e) => {
 			if (e.key === "ArrowRight") {

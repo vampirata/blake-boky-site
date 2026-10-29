@@ -25,8 +25,8 @@ const sizesFor = (src: string) => {
 
 {
 	images.length > 0 && (
-		<section class="ticker" data-ticker data-speed={speed} aria-label={label}>
-			<div class="tk-view">
+		<section class="ticker" data-ticker data-speed={speed}>
+			<div class="tk-view" tabindex="0" role="region" aria-label={label}>
 				<div class="tk-track">
 					{images.map((im, i) => (
 						<Img src={im.src} alt={im.alt ?? ""} sizes={sizesFor(im.src)} eager={i < 4} class="tk-item" />
@@ -57,6 +57,13 @@ const sizesFor = (src: string) => {
 	}
 	.tk-view.is-grabbing {
 		cursor: grabbing;
+	}
+	.tk-view:focus {
+		outline: none;
+	}
+	.tk-view:focus-visible {
+		outline: 2px solid var(--gold-light);
+		outline-offset: -4px;
 	}
 	.tk-track {
 		position: relative;
@@ -123,6 +130,8 @@ const sizesFor = (src: string) => {
 		let raf = 0;
 		let last = 0;
 		let visible = false;
+		let held = false; // paused while the strip has keyboard focus
+		let glide = 0; // remaining arrow key distance, eased in by frame()
 		// pending: finger down but not yet a horizontal drag (a vertical swipe
 		// must scroll the page without nudging the strip).
 		const drag = { active: false, pending: false, id: -1, startX: 0, startY: 0, startOffset: 0, lastX: 0, lastT: 0, vx: 0 };
@@ -131,7 +140,8 @@ const sizesFor = (src: string) => {
 			const firstClone = track.querySelector<HTMLElement>(".tk-clone");
 			const first = track.children[0] as HTMLElement | undefined;
 			if (!firstClone || !first) return;
-			loop = firstClone.offsetLeft - first.offsetLeft;
+			// Sub pixel width of one set, so the wrap never jumps by a rounding pixel.
+			loop = firstClone.getBoundingClientRect().left - first.getBoundingClientRect().left;
 			// Enough copies so the strip never runs out (one image wider than the viewport, etc.).
 			let guard = 0;
 			while (loop > 0 && track.scrollWidth < loop + view.clientWidth + 2 && guard++ < 12) {
@@ -153,7 +163,11 @@ const sizesFor = (src: string) => {
 		const frame = (now: number) => {
 			const dt = Math.min((now - last) / 1000, 0.05);
 			last = now;
-			if (!drag.active) offset += speed * dir * dt;
+			if (glide) {
+				const step = Math.abs(glide) < 0.5 ? glide : glide * Math.min(1, dt * 10);
+				offset += step;
+				glide -= step;
+			} else if (!drag.active && !held) offset += speed * dir * dt;
 			paint();
 			raf = requestAnimationFrame(frame);
 		};
@@ -192,6 +206,15 @@ const sizesFor = (src: string) => {
 			else if (visible) start();
 		});
 
+		// Keyboard: arrows step the strip by half a view, focus pauses the drift.
+		view.addEventListener("keydown", (e) => {
+			if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+			e.preventDefault();
+			glide += (e.key === "ArrowRight" ? 1 : -1) * view.clientWidth * 0.5;
+			if (!raf) start();
+		});
+		view.addEventListener("focus", () => (held = view.matches(":focus-visible")));
+		view.addEventListener("blur", () => (held = false));
 		view.addEventListener("dragstart", (e) => e.preventDefault());
 		view.addEventListener("pointerdown", (e) => {
 			if (e.pointerType === "mouse" && e.button !== 0) return;

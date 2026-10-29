@@ -313,8 +313,12 @@ const contact = work.contact ?? {};
 		text-decoration-thickness: 1px;
 		text-underline-offset: 3px;
 	}
-	.rt :global(a:hover) {
+	.rt :global(a:hover),
+	.rt :global(a:focus-visible) {
 		color: var(--gold-light);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
 	}
 	.work--paper .rt :global(a:hover) {
 		color: var(--gold-dark);
