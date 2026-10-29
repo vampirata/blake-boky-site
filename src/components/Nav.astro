@@ -29,7 +29,7 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 	</nav>
 </header>
 
-<div class="box" data-menu>
+<div class="box" data-menu data-lenis-prevent>
 	<button class="box-head" type="button" aria-expanded="false" aria-controls="menu-list" data-menu-toggle>
 		<span class="mark">Blake &amp; Boky</span>
 		<svg class="plus" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
@@ -125,8 +125,11 @@ const active = (href: string) => path === href || path.startsWith(href + "/");
 		border: 0.01px solid var(--grey-363);
 		pointer-events: none;
 	}
+	/* Never taller than the viewport (phone landscape): the list scrolls inside. */
 	.box.is-open {
-		block-size: var(--open-h, 469px);
+		block-size: min(var(--open-h, 469px), calc(100dvh - 16px));
+		overflow-y: auto;
+		overscroll-behavior: contain;
 	}
 	.box-head {
 		display: flex;

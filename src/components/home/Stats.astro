@@ -40,7 +40,8 @@ const cells = [
 				</div>
 			) : (
 				<div class="cell cell--stat">
-					<p class="num" aria-label={`${c.stat!.to}${c.stat!.suffix ?? ""}`}>
+					<p class="num">
+						<span class="sr-only">{`${c.stat!.to}${c.stat!.suffix ?? ""}`}</span>
 						<span class="n" data-count-from={c.stat!.from} data-count-to={c.stat!.to} aria-hidden="true">
 							{c.stat!.to}
 						</span>

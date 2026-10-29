@@ -57,4 +57,9 @@ if (box && toggle) {
 	document.addEventListener("click", (e) => {
 		if (box.classList.contains("is-open") && !box.contains(e.target as Node)) set(false);
 	});
+	// Keyboard: tabbing out of the open menu closes it, so it never covers the focused element.
+	box.addEventListener("focusout", (e) => {
+		const next = e.relatedTarget as Node | null;
+		if (next && !box.contains(next) && box.classList.contains("is-open")) set(false);
+	});
 }
