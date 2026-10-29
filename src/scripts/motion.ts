@@ -39,21 +39,30 @@ if (!reduce) {
 }
 
 // Reveal on scroll. Staggers siblings that enter together.
+// Content already on screen at load waits for the page title's entrance
+// (data-arrive) and then follows it in order, instead of sitting there static
+// while the title animates in.
+const hasArrive = !!document.querySelector("[data-arrive]");
+let firstBatch = true;
 const io = new IntersectionObserver(
 	(entries) => {
 		let n = 0;
+		const base = firstBatch && hasArrive ? 1150 : 0;
+		const gap = base ? 120 : 80;
+		firstBatch = false;
 		for (const e of entries) {
 			if (!e.isIntersecting) continue;
 			const el = e.target as HTMLElement;
 			if (wipes.has(el)) {
-				el.style.setProperty("--d", `${Math.min(n++, 6) * 90}ms`);
+				el.style.setProperty("--d", `${base + Math.min(n++, 6) * 90}ms`);
 				el.classList.add("is-wiping");
 				el.classList.remove("is-pending");
 				setTimeout(() => el.classList.remove("is-wiping"), 2000);
 			} else {
 				if (el.hasAttribute("data-reveal") && !el.style.getPropertyValue("--d")) {
-					el.style.setProperty("--d", `${Math.min(n++, 6) * 80}ms`);
+					el.style.setProperty("--d", `${base + Math.min(n++, 6) * gap}ms`);
 				}
+				if (el.hasAttribute("data-split") && base) el.style.setProperty("--base", `${base + Math.min(n++, 6) * gap}ms`);
 				el.classList.add("is-in");
 			}
 			io.unobserve(el);

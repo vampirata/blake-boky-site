@@ -349,7 +349,7 @@ html.js:not(.reduce) .split .ch {
 	transition:
 		opacity 0.9s var(--ease-spring),
 		transform 0.9s var(--ease-spring);
-	transition-delay: calc(var(--i) * var(--step, 50ms));
+	transition-delay: calc(var(--base, 0ms) + var(--i) * var(--step, 50ms));
 }
 html.js:not(.reduce) .split.is-in .ch {
 	opacity: 1;

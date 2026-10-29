@@ -173,3 +173,4 @@ Rule (docs/rebuild-rules.md): Blake = paper, Boky = ink, both together = stone, 
 - Past Works index: the title touched the hairline above it (live pulled it up 10px). It now has 72 / 56 / 40px of room (desktop / tablet / phone).
 - Bio pages, Collections: three smaller cards per row on desktop (about 387px wide, was two at 668px), two on tablet, one on phone (Kait, 29 Oct 2026).
 - Home, gold hovers (Boky bar and the Read story buttons): text turns black on the gold (about 8:1 contrast; light text on gold was under 2:1). Gold unchanged.
+- Reveal order: text already on screen at load now animates in after the page title, in sequence (it used to sit static while the title animated). Site wide (Kait, 29 Oct 2026).
