@@ -4,27 +4,20 @@
 // address the key was created for. Without a key it opens the visitor's email
 // app with the message prefilled to the artists' addresses.
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import PiecePicker from "./PiecePicker.astro";
+
 const ENDPOINT = "https://api.web3forms.com/submit";
 interface Props {
 	formKey?: string;
 	fields: any[];
-	options: any[];
+	options?: unknown[];
 	submitLabel?: string;
 	fallbackEmails: string[];
 }
-const { formKey = "", fields, options, submitLabel = "Send message", fallbackEmails } = Astro.props;
+const { formKey = "", fields, submitLabel = "Send message", fallbackEmails } = Astro.props;
 const f = (name: string) => fields.find((x) => x.name === name) ?? {};
 const label = (name: string) => String(f(name).label ?? name).split("\n")[0].trim();
 
-// Group the select options under their dividers (optgroups).
-type Opt = { value: string; label: string };
-const lead: Opt[] = [];
-const groups: { label: string; options: Opt[] }[] = [];
-for (const o of options) {
-	if (o.divider) groups.push({ label: o.divider, options: [] });
-	else if (groups.length) groups[groups.length - 1].options.push(o);
-	else lead.push(o);
-}
 ---
 
 <form
@@ -48,22 +41,7 @@ for (const o of options) {
 		<input id="cf-email" name="email" type="email" placeholder={f("email").placeholder} required autocomplete="email" />
 	</div>
 	<div class="field">
-		<label class="eyebrow lab" for="cf-piece">{label("piece_interested_in")}</label>
-		<div class="sel">
-			<select id="cf-piece" name="piece_interested_in">
-				{lead.map((o) => <option value={o.value}>{o.label}</option>)}
-				{
-					groups.map((g) => (
-						<optgroup label={g.label}>
-							{g.options.map((o) => (
-								<option value={o.value}>{o.label}</option>
-							))}
-						</optgroup>
-					))
-				}
-			</select>
-			<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" stroke-width="1" /></svg>
-		</div>
+		<PiecePicker label="Pieces interested in" />
 	</div>
 	<div class="field">
 		<label class="eyebrow lab" for="cf-message">{label("message")}</label>
@@ -111,7 +89,7 @@ for (const o of options) {
 				// No delivery key yet: hand the message to the visitor's email app.
 				const name = String(data.get("name") ?? "");
 				const piece = String(data.get("piece_interested_in") ?? "");
-				const body = [String(data.get("message") ?? ""), "", `Name: ${name}`, `Email: ${data.get("email") ?? ""}`, piece ? `Piece: ${piece}` : ""].filter((l, i) => i < 2 || l).join("\n");
+				const body = [String(data.get("message") ?? ""), "", `Name: ${name}`, `Email: ${data.get("email") ?? ""}`, piece ? `Pieces: ${piece}` : ""].filter((l, i) => i < 2 || l).join("\n");
 				const href = `mailto:${form.dataset.to}?subject=${encodeURIComponent(`Inquiry from ${name}`)}&body=${encodeURIComponent(body)}`;
 				window.location.href = href;
 				show("ok", "Your email app should open with the message ready to send.");

@@ -3,12 +3,15 @@
 import { url } from "../../lib/site";
 
 interface Props {
+	/** Work slug: the contact form opens with this piece selected. */
+	piece?: string;
 	eyebrow?: string;
 	heading?: string;
 	line?: string;
 	button?: string;
 }
 const {
+	piece,
 	eyebrow = "GET IN TOUCH",
 	heading = "Inquire about this piece",
 	line = "This work is available for acquisition. Contact us for pricing, availability and shipping.",
@@ -20,7 +23,7 @@ const {
 	<p class="eb">{eyebrow}</p>
 	<h2 id="inq-h" class="hd">{heading}</h2>
 	<p class="ln">{line}</p>
-	<a class="btn" href={url("/contact")}>{button}</a>
+	<a class="btn" href={url(piece ? `/contact?piece=${encodeURIComponent(piece)}` : "/contact")}>{button}</a>
 </aside>
 
 <style>

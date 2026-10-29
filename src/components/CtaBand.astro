@@ -17,7 +17,7 @@ const { image, pos = "50% 50%", heading = "Get in touch for further inquiries" }
 	<div class="inner">
 		<span class="scrim" aria-hidden="true"></span>
 		<h2 class="h2 t" data-reveal>{heading}</h2>
-		<a class="btn" href={url("/contact")} data-magnetic data-reveal style="--d:120ms">
+		<a class="btn" href={url("/contact")} data-reveal style="--d:120ms">
 			<span>Contact Us</span>
 			<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 13h12.17l-5.59 5.59L12 20l8-8-8-8-1.41 1.41L16.17 11H4v2z"></path></svg>
 		</a>
@@ -91,20 +91,13 @@ const { image, pos = "50% 50%", heading = "Get in touch for further inquiries" }
 		letter-spacing: -0.02em;
 		transition:
 			background-color 300ms var(--ease-out),
-			padding 300ms var(--ease-out),
-			translate 700ms var(--ease-spring);
+			color 300ms var(--ease-out);
 	}
 	.btn svg {
 		transition: translate 400ms var(--ease-out);
 	}
 	.btn:hover svg {
-		translate: 3px 0;
-	}
-	.btn:global(.is-magnet) {
-		transition:
-			background-color 300ms var(--ease-out),
-			padding 300ms var(--ease-out),
-			translate 160ms var(--ease-out);
+		translate: 5px 0;
 	}
 	.btn:active {
 		scale: 0.98;
@@ -112,11 +105,13 @@ const { image, pos = "50% 50%", heading = "Get in touch for further inquiries" }
 	.btn svg {
 		inline-size: 21px;
 		block-size: 21px;
-		color: var(--hairline);
+		color: currentColor;
 	}
-	.btn:hover {
-		background: var(--hover-grey);
-		padding-inline: 18px 19px;
+	/* Site hover language: gold fill, ink text, arrow slides. No size change. */
+	.btn:hover,
+	.btn:focus-visible {
+		background: var(--gold);
+		color: var(--ink);
 	}
 	@media (max-width: 1399.98px) {
 		.cta {

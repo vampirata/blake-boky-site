@@ -174,3 +174,5 @@ Rule (docs/rebuild-rules.md): Blake = paper, Boky = ink, both together = stone, 
 - Bio pages, Collections: three smaller cards per row on desktop (about 387px wide, was two at 668px), two on tablet, one on phone (Kait, 29 Oct 2026).
 - Home, gold hovers (Boky bar and the Read story buttons): text turns black on the gold (about 8:1 contrast; light text on gold was under 2:1). Gold unchanged.
 - Reveal order: text already on screen at load now animates in after the page title, in sequence (it used to sit static while the title animated). Site wide (Kait, 29 Oct 2026).
+- Contact Us button in the photo band: the grey fade, width change and cursor pull on hover are replaced by the site's gold fill with black text and a small arrow slide (Kait, 29 Oct 2026).
+- Contact form, "Pieces interested in": now built from the CMS (every published work, grouped by collection, 30 today), with search and multi-select; empty means a general inquiry. "Inquire about this piece" on each artwork page opens the form with that piece already selected (`/contact?piece=<slug>`). Replaces Framer's fixed list of 48 options, which included unpublished works.

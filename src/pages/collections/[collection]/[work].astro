@@ -177,7 +177,7 @@ const contact = work.contact ?? {};
 					if (s === "Contact")
 						return (
 							<div class="wide">
-								<InquireBox eyebrow={contact.eyebrow} heading={contact.heading} line={contact.line} button={contact.button?.label} />
+								<InquireBox piece={work.slug} eyebrow={contact.eyebrow} heading={contact.heading} line={contact.line} button={contact.button?.label} />
 							</div>
 						);
 					if (s === "Back")
