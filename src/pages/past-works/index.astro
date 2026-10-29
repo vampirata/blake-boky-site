@@ -15,7 +15,7 @@ const intro = texts[1]?.text ?? "";
 const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[0]?.src ?? "/assets/past-works/N3p5Wb949dODDSFfHjEz6xJau2c.png";
 ---
 
-<Base title="Past Works" description={page.seo.description} nav="grey">
+<Base title="Past Works" description={page.seo.description} ogImage={cta} nav="grey">
 	<BackPill href="/boky-bio" label="Back to Boky" />
 	<ListHeader title="Boky Hackel-Ward" />
 	<section class="wrap">

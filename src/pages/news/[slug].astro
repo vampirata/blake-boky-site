@@ -13,9 +13,16 @@ export function getStaticPaths() {
 const { n } = Astro.props;
 const title = n.title.trim();
 const hero = n.heroImage?.src ?? n.cardImage?.src;
+// Every article shared one generic CMS description; use the opening paragraph.
+const excerpt = (t: string, max = 155) => {
+	const c = t.replace(/\s+/g, " ").trim();
+	return c.length <= max ? c : c.slice(0, c.lastIndexOf(" ", max - 1)).replace(/[\s,;:.]+$/, "") + "...";
+};
+const lede = (n.body as { tag: string; text?: string }[]).find((b) => b.tag === "p" && (b.text ?? "").trim().length > 60)?.text;
+const description = lede ? excerpt(lede) : n.seo?.description;
 ---
 
-<Base title={title} description={n.seo?.description} ogImage={hero ?? undefined} nav="light" bg="var(--paper)" fg="var(--charcoal)" smooth>
+<Base title={title} description={description} ogImage={hero ?? undefined} nav="light" bg="var(--paper)" fg="var(--charcoal)" smooth>
 	<BackPill href="/news" label="News" tone="light" />
 	<ListHeader title={title} tone="light" />
 	<article class="main">

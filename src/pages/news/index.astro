@@ -10,7 +10,7 @@ const items = [...news].sort((a, b) => Number(a.order) - Number(b.order));
 const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[0]?.src ?? "/assets/news/v5LuCxa3XqutRI4SUB2KEE46pqE.jpg";
 ---
 
-<Base title="News" description={page.seo.description} nav="grey" smooth>
+<Base title="News" description={page.seo.description} ogImage={items[0]?.cardImage?.src ?? cta} nav="grey" smooth>
 	<ListHeader title="News" />
 	<section class="posts">
 		<div class="grid">

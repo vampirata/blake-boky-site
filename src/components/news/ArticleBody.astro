@@ -1,6 +1,7 @@
 ---
 // Article body from the CMS rich text blocks (p, h2, h3, blockquote, ul).
 // Empty headings (Framer "<h3><br></h3>") become plain spacer paragraphs.
+import { url } from "../../lib/site";
 interface Block {
 	tag: string;
 	html: string;
@@ -10,10 +11,13 @@ interface Props {
 	blocks: Block[];
 }
 const { blocks } = Astro.props;
+// Framer wrote internal links relative ("../boky-bio"). Under /news/<slug>/ that
+// resolved to /news/boky-bio (404), so make them root paths.
+const fixLinks = (html: string) => html.replace(/href="(?:\.\.?\/)+([^"]*)"/g, (_m, p: string) => `href="${url("/" + p)}"`);
 const out = blocks.map((b) => {
 	const empty = !(b.text ?? "").trim() && !/<img/i.test(b.html);
 	if (empty && /^h[1-6]$/.test(b.tag)) return "<p><br></p>";
-	return b.html;
+	return fixLinks(b.html);
 });
 ---
 

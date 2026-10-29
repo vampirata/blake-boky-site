@@ -35,7 +35,7 @@ const visitHtml = (visit.content.find((c: any) => c.role === "Details")?.html ??
 const title = cleanTitle(page.seo.title, "Petley Jones Gallery");
 ---
 
-<Base title={title} description={page.seo.description} nav="light" bg="var(--paper)" fg="var(--charcoal)">
+<Base title={title} description={page.seo.description} ogImage={blocks[0]?.image?.src} nav="light" bg="var(--paper)" fg="var(--charcoal)">
 	<section class="hero">
 		<p class="eyebrow e">{hero.eyebrow}</p>
 		<h1 class="display">{hero.heading.text}</h1>

@@ -22,11 +22,17 @@ const meta = [
 	{ label: "Medium", value: w.medium },
 ].filter((m) => m.value);
 type Block = { type: string; html?: string; src?: string; alt?: string };
-const body = (w.body ?? []) as Block[];
-const description = `${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year ? ` (${w.year})` : ""}.`;
+// Hide CMS editor notes left in the body (live shows "Video pending upload ... add the
+// hosted link to the Video URL field" on chicago-interview-2019).
+const isNote = (b: Block) => /pending upload|add the hosted link|\bplaceholder\b|lorem ipsum/i.test((b.html ?? "").replace(/<[^>]+>/g, ""));
+const body = ((w.body ?? []) as Block[]).filter((b) => !isNote(b));
+// Our own sentence: no em or en dashes, even when the CMS medium/year carry them.
+const undash = (s: string) => s.replace(/\s*[\u2013\u2014]\s*/g, ", ");
+const description = undash(`${title}, ${w.medium ?? "work"} by Boky Hackel-Ward${w.year ? ` (${String(w.year).replace(/\s*[\u2013\u2014]\s*/g, " to ")})` : ""}.`);
+const og = hero ?? w.cardImage?.src ?? undefined;
 ---
 
-<Base title={title} description={description} ogImage={hero ?? undefined} nav="grey">
+<Base title={`${title}, Past Works`} description={description} ogImage={og} nav="grey">
 	<BackPill href="/past-works" label="Past Works" />
 	<article class="wrap">
 		<header class="hd" data-arrive>

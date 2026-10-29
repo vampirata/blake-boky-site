@@ -36,9 +36,13 @@ const hero = g.heroImage;
 const ratio = hero.naturalWidth && hero.naturalHeight ? hero.naturalWidth / hero.naturalHeight : 1;
 const backLabel = String(g.backLink?.label ?? "Galleries").replace(/^[←\s]+/, "");
 const showInfo = body.length > 0 || !!external;
+// All four pages shared one generic CMS description; use the first real paragraph.
+const firstText = body.map((h) => h.replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim()).find((t) => t.length > 60);
+const excerpt = (t: string, max = 155) => (t.length <= max ? t : t.slice(0, t.lastIndexOf(" ", max - 1)).replace(/[\s,;:.]+$/, "") + "...");
+const description = firstText ? excerpt(firstText) : `${g.title}, a gallery partner of Blake Ward and Boky Hackel-Ward.`;
 ---
 
-<Base title={g.title} description={g.seo?.description} ogImage={hero.src} nav="light" bg="var(--paper)" fg="var(--charcoal)">
+<Base title={g.title} description={description} ogImage={hero.src} nav="light" bg="var(--paper)" fg="var(--charcoal)">
 	<BackPill href={g.backLink?.href ?? "/galleriespetley"} label={backLabel} tone="light" />
 
 	<section class="hero">
