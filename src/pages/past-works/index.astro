@@ -1,7 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Card from "../../components/Card.astro";
-import CtaBand from "../../components/CtaBand.astro";
 import BackPill from "../../components/BackPill.astro";
 import ListHeader from "../../components/news/ListHeader.astro";
 import works from "../../content/data/past-works.json";
@@ -38,7 +37,6 @@ const cta = page.sections.find((s) => s.type === "contact-cta-banner")?.media?.[
 			}
 		</div>
 	</section>
-	<CtaBand image={cta} pos="50% 62%" />
 </Base>
 
 <style>
